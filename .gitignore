@@ -3,5 +3,8 @@ __pycache__/
 .pytest_cache/
 data/*.sqlite3
 data/*.sqlite3-*
+data/private/
+data/imports/
+data/evidence/
+exports/
 .env
-

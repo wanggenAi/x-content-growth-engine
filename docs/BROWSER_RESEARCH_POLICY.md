@@ -1,0 +1,26 @@
+# Browser research permission gate
+
+Reviewed 2026-09-29. The local Browser Harness CLI reported version 0.1.13, a live Chrome connection and a working navigation to a non-X test page. It subsequently opened the project's local capture form and submitted one synthetic record to a temporary database. No X session, login state or account permission was inspected or assumed. One initial navigation timed out while the temporary server was starting; retry succeeded after the server was listening. Local UI testing yielded one synthetic test record, zero research samples.
+
+## A. Human use of X's ordinary interface
+
+The user can open individual post links in X, read the original, author context and comments, and manually note visible metrics, post form and promotion signals. A researcher can enter their own observations through the local form, with original URL, UTC observation and metric time, evidence reference and notes. A human decision to save a screenshot does not authorize publishing private account information; screenshots stay outside the public Git repository. No automatic interaction with X is needed for this path.
+
+## B. Browser-assisted work within confirmed scope
+
+Browser Harness is useful here for testing the local capture interface and navigating other openly accessible sources when their terms permit the action. It can help inspect a user-supplied, locally stored screenshot or research note only with permission and without extracting browser cookies. Current verified project use: local form opened and one synthetic submission passed. It has not produced any genuine X sample.
+
+## C. Unapproved X automation
+
+[X's terms](https://x.com/en/tos) prohibit crawling or scraping in any form without prior written consent. [X's automation rules](https://help.x.com/en/rules-and-policies/x-automation) warn against non-API automation such as scripting the website. No such written authorization is present. Therefore no scripted X search, navigation, DOM extraction, bulk sampling, login/account actions, Cookie reading, captcha bypass, hidden endpoints or API-cost circumvention are enabled. `data/phase2_queries.json` records this blocked channel as q5, with zero attempted X automated visits and zero samples. A changed permission decision requires a specific written authorization scope and a new recorded review.
+
+## Actual feasibility
+
+| Route | Attempts | Admitted research links | Original confirmed | Dated metric evidence | Limit |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Public-search q1-q4 | 4 queries | 2 candidate observations, 1 new unique ID | 0 | 0 | Two exact queries empty; author search mixed unrelated results |
+| Browser Harness X automation | 0 visits | 0 | 0 | 0 | Permission gate blocked |
+| Browser Harness local UI | 1 synthetic submission | 0 | 0 | 0 | Test DB only; not an X data source |
+| Existing one-off direct public page probe | 1 known URL | 0 new IDs | 1 excerpt confirmation | 0 | Did not expose reliable views; does not imply bulk permission |
+
+The manual-original path remains executable but requires the user or authorized researcher to inspect individual X pages. Its measured yield in this phase is zero because no such user observations were supplied. Search candidates stay discovery leads until that step occurs. The routes are complementary; neither HN nor GitHub material is counted as X research data.

@@ -5,6 +5,9 @@
 - Never install or run third-party tools that read browser cookies, access social accounts, or automate pages without a separate safety, permission and platform-policy review.
 - Preserve original post links, observation source, UTC capture time and missing values. Never invent posts, metrics, authors, experience or outcomes.
 - Keep search-index observations distinct from direct X observations and user-provided records. Search results are discovery leads, not an unbiased sample or a live metrics feed.
+- Browser Harness may test local UI and permitted non-X sources. It does not authorize automated X browsing, scraping or account actions; apply the recorded permission gate in `docs/BROWSER_RESEARCH_POLICY.md` before changing that boundary.
+- Never mark a manually supplied original as confirmed without `human_checked`, a source reference and a note. Keep approximate indexed metrics nonnumeric when their precision is unknown.
+- Public repository: keep screenshots, Cookie files, personal account analytics, tokens and private research notes under ignored local paths; commit only safe public links and summaries.
 - Keep X research samples, internet source material, formula hypotheses and own publication results in distinct tables and workflows.
 - Formula states are HYPOTHESIS, REPLICATED, EXPERIMENT_SUPPORTED, REJECTED and REVIEW_REQUIRED. Code must not promote a formula by an arbitrary score.
 - Research claims need controls, independent holdout evidence and counterexamples. Topic clusters are not mechanisms; observed mechanisms are not tested outcomes.
@@ -12,4 +15,3 @@
 - Human review and manual X publishing are required. Do not impersonate the user or manufacture engagement.
 - Update `TASK_STATE.md` and `state/task_state.json` at each checkpoint; commit evidence, tests and decisions. Keep the SQLite runtime database out of Git and preserve reproducible seed/evidence records.
 - Prefer Python standard library and SQLite until measured needs justify dependencies. Run tests and audit before claiming a milestone.
-

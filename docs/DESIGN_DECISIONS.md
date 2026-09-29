@@ -18,3 +18,17 @@ Decisions as of 2026-09-29. Reconsider only when new evidence or a concrete need
 | Separate X samples, external material, formula versions and own-post outcomes | BUILD | Prevents source material from being mistaken for a mechanism or tested outcome. |
 
 Minimum architecture: versioned JSON evidence input -> validated Python import -> SQLite research tables -> audit/report CLI -> manually reviewed research packet and own-post feedback import. Additional UI, local clustering and automation follow demonstrated data quality and rights.
+
+## Phase 2 decision, 2026-09-30
+
+| Decision | Class | Evidence and limit |
+| --- | --- | --- |
+| Local manual capture form and CSV batch import | BUILD | Browser Harness successfully exercised the local form; explicit human check, source reference and metric time reduce JSON-entry friction. Local-only binding and ignored private files protect account data. |
+| Browser Harness for local UI and permitted non-X public sources | ADAPT | Existing Chrome connection works. Capability is not platform permission; no X browser automation was run. See [permission gate](BROWSER_RESEARCH_POLICY.md). |
+| Scripted X site browsing or scraping through Browser Harness | REJECT | X terms require prior written consent for crawling/scraping, and automation rules warn against website scripting. No authorization in this session. |
+| Query-level yields and failed-channel records | BUILD | Four actual public-search queries yielded one new unique candidate ID; a fifth record marks X browser automation blocked before execution. |
+| Dated screenshot/page metrics and relative cohort basis | BUILD | Index views are undated historical clues. READY comparison requires two original-confirmed posts, explicit relative baselines and dated non-index view evidence. |
+| MarkItDown OCR as free production material processor | REJECT | Official plugin documentation requires a supplied vision-model client; without one OCR is skipped. No paid API or untested local model is added. |
+| HN/GitHub/NASA/FIDO material research | BUILD | Separate from X post evidence; original drafts cite primary sources and still require human editorial review. |
+
+The minimum working architecture is now SQLite plus provenance-aware JSON/CSV import, the localhost manual capture form, query/quality reports, and Markdown/JSON research packets. Search supplies leads; a person verifies X originals. Materials and drafts proceed in parallel. The architecture still does not contain an automated X collector or a validated formula engine.
