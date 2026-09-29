@@ -11,6 +11,7 @@ Decisions as of 2026-09-29. Reconsider only when new evidence or a concrete need
 | Official X API for research | REJECT | Current public pricing charges for reads; violates zero incremental cost. Recheck only if truly free authorized access changes. |
 | Two persisted workflows: research/creation and feedback/learning | ADAPT | AutoViralAI separates flows, but its paid model and scraper dependencies are excluded. Human handoff is explicit. |
 | BERTopic model stack | REFERENCE | Useful local topic modeling later; initial sample too small, embedding/UMAP/HDBSCAN cost and complexity unjustified. Clusters cannot validate mechanisms. |
+| Sunbreak/TopicEye discovery designs | REFERENCE | Sunbreak's checkpoint overlap is useful for authorized HN/RSS sources; TopicEye confirms that its X adapters depend on Apify or unverified third-party RSS. No production source is added from either. |
 | Growthmate or Postiz as application foundation | REJECT | Growthmate needs X OAuth/API, model providers, Postgres/Redis; Postiz has AGPL obligations and a multi-service scheduler footprint. Both overshoot a single-user research notebook. |
 | Reddit automated ingestion | REJECT | Reddit's current developer terms restrict commercial use and prohibit model training without permission; authorization for this intended use is not established. |
 | Upworthy discovery/holdout design | REFERENCE | Strong experimental pattern, but outcome and platform differ; no direct formula transfer. |

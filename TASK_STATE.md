@@ -8,6 +8,7 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 
 - Inspected empty independent repository and available GitHub authorization.
 - Reviewed required reference repositories and Upworthy methods at source level; documented evidence and BUILD/ADAPT/REFERENCE/REJECT decisions.
+- Extended the source audit to Sunbreak and TopicEye; confirmed Sunbreak's Reddit output is mock-only and TopicEye's X paths fail the sustainable free/authorization gate.
 - Probed free public-index X discovery; saved 7 real Chinese X URLs, including 4 high-reach candidates and 3 ordinary candidates. Four posts belong to one author, giving a preliminary same-author comparison pool; one high post is marked a paid partnership and excluded from clean comparisons.
 - Implemented local SQLite import, provenance/metric validation, deduplication, audit and separate research/material/formula/own-outcome tables.
 - Recorded the first evidence interpretation and disqualifying caveats in `docs/FIRST_SAMPLE_REVIEW.md`.
