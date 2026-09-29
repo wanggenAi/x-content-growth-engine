@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-29T16:14:08Z",
+  "updated_at": "2026-09-29T16:23:45Z",
   "phase": "phase2_manual_original_verification",
   "checkpoints": {
     "environment_review": "done",
@@ -19,7 +19,7 @@
     "feedback_import_interface": "done",
     "own_post_feedback": "pending"
   },
-  "counts": {"x_posts": 8, "original_confirmed": 1, "posts_with_index_views": 7, "exact_display_index_views": 3, "approximate_index_views": 4, "dated_nonindex_views": 0, "ready_pairs": 0, "high_candidates_provisional": 4, "ordinary_candidates_provisional": 3, "authors": 4, "x_observations": 10, "public_search_queries": 4, "blocked_browser_channels": 1, "materials": 4, "exploratory_drafts": 3, "own_posts": 0},
+  "counts": {"x_posts": 11, "original_confirmed": 1, "posts_with_index_views": 7, "exact_display_index_views": 3, "approximate_index_views": 4, "dated_nonindex_views": 0, "ready_pairs": 0, "high_candidates_provisional": 4, "ordinary_candidates_provisional": 3, "authors": 7, "x_observations": 13, "public_search_queries": 13, "blocked_browser_channels": 1, "materials": 4, "exploratory_drafts": 3, "own_posts": 0},
   "blocked": ["X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation", "No dated non-index X metrics or ready controls yet", "No authorized Reddit ingestion for this use"],
   "next_action": "Manually review same-author X originals through normal interface; record context, dated evidence and failed checks through localhost form or CSV, then broaden query-level probes"
 }

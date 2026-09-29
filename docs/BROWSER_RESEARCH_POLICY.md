@@ -18,7 +18,7 @@ Browser Harness is useful here for testing the local capture interface and navig
 
 | Route | Attempts | Admitted research links | Original confirmed | Dated metric evidence | Limit |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Public-search q1-q4 | 4 queries | 2 candidate observations, 1 new unique ID | 0 | 0 | Two exact queries empty; author search mixed unrelated results |
+| Public-search q1-q14 (q5 is policy gate) | 13 queries | 5 admitted candidate observations, 4 new unique IDs | 0 | 0 | Fourteen logged records include the blocked gate; author/month filters unreliable |
 | Browser Harness X automation | 0 visits | 0 | 0 | 0 | Permission gate blocked |
 | Browser Harness local UI | 1 synthetic submission | 0 | 0 | 0 | Test DB only; not an X data source |
 | Existing one-off direct public page probe | 1 known URL | 0 new IDs | 1 excerpt confirmation | 0 | Did not expose reliable views; does not imply bulk permission |
