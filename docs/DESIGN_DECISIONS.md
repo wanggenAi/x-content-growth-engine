@@ -6,7 +6,7 @@ Decisions as of 2026-09-29. Reconsider only when new evidence or a concrete need
 | --- | --- | --- |
 | Python standard library CLI + SQLite local database | BUILD | Single-user, zero service cost, easy checkpoint and dedupe. First seed import and tests validate the path. |
 | Source adapter contract with provenance, method and failure reporting | ADAPT | Inspired by Harken's fetch/analyze/store isolation and last30days multi-backend discovery; implement only authorized sources. |
-| Public search index plus human URL/metric import | BUILD | First real X examples are retrievable, but coverage and freshness are unproven. No unattended X scraper. |
+| Public search index plus human URL/metric import | BUILD | Seven real X examples are retrievable, but coverage and freshness are unproven. A one-page direct public HTML probe confirmed an excerpt without a reliable view count. No unattended X scraper. |
 | Cookie-based X GraphQL clients and unofficial X endpoints | REJECT | Session access/security and platform compliance unverified; risk of account exposure and brittle access. |
 | Official X API for research | REJECT | Current public pricing charges for reads; violates zero incremental cost. Recheck only if truly free authorized access changes. |
 | Two persisted workflows: research/creation and feedback/learning | ADAPT | AutoViralAI separates flows, but its paid model and scraper dependencies are excluded. Human handoff is explicit. |
@@ -17,4 +17,3 @@ Decisions as of 2026-09-29. Reconsider only when new evidence or a concrete need
 | Separate X samples, external material, formula versions and own-post outcomes | BUILD | Prevents source material from being mistaken for a mechanism or tested outcome. |
 
 Minimum architecture: versioned JSON evidence input -> validated Python import -> SQLite research tables -> audit/report CLI -> manually reviewed research packet and own-post feedback import. Additional UI, local clustering and automation follow demonstrated data quality and rights.
-

@@ -86,6 +86,18 @@ CREATE TABLE IF NOT EXISTS own_post_observations (
   evidence_note TEXT NOT NULL,
   UNIQUE(post_id, observed_at)
 );
+CREATE TABLE IF NOT EXISTS ingest_runs (
+  id INTEGER PRIMARY KEY,
+  kind TEXT NOT NULL,
+  input_path TEXT NOT NULL,
+  started_at TEXT NOT NULL,
+  finished_at TEXT NOT NULL,
+  added_items INTEGER NOT NULL,
+  added_observations INTEGER NOT NULL,
+  status TEXT NOT NULL CHECK(status IN ('SUCCESS','FAILED')),
+  error TEXT,
+  retries INTEGER NOT NULL DEFAULT 0
+);
 """
 
 
@@ -192,6 +204,89 @@ def import_materials(db: sqlite3.Connection, path: Path) -> int:
     return db.execute("SELECT count(*) FROM materials").fetchone()[0] - before
 
 
+def validate_feedback(item: dict) -> dict:
+    for field in ("url", "published_at", "observed_at", "evidence_note"):
+        if not isinstance(item.get(field), str) or not item[field].strip():
+            raise ValueError(f"missing/empty feedback field: {field}")
+    if item.get("human_reviewed") is not True:
+        raise ValueError("own post must be human reviewed and manually published")
+    url = urlparse(item["url"])
+    match = POST_RE.fullmatch(url.path)
+    if url.scheme != "https" or url.hostname not in {"x.com", "twitter.com"} or not match:
+        raise ValueError("feedback URL must be an X status URL")
+    timestamps = {}
+    for field in ("published_at", "observed_at"):
+        timestamp = datetime.fromisoformat(item[field].replace("Z", "+00:00"))
+        if timestamp.utcoffset() is None or timestamp.utcoffset().total_seconds() != 0:
+            raise ValueError(f"{field} must be UTC")
+        timestamps[field] = timestamp
+    if timestamps["observed_at"] < timestamps["published_at"]:
+        raise ValueError("feedback observation precedes publication")
+    for metric in ("impressions", "likes", "replies", "reposts", "profile_visits", "new_follows"):
+        value = item.get(metric)
+        if value is not None and (type(value) is not int or value < 0):
+            raise ValueError(f"{metric} must be a nonnegative integer or null")
+    return {**item, "post_id": match.group(1)}
+
+
+def import_feedback(db: sqlite3.Connection, path: Path) -> tuple[int, int]:
+    records = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(records, list):
+        raise ValueError("input must be a JSON array")
+    validated = [validate_feedback(record) for record in records]
+    before_posts = db.execute("SELECT count(*) FROM own_posts").fetchone()[0]
+    before_metrics = db.execute("SELECT count(*) FROM own_post_observations").fetchone()[0]
+    with db:
+        for row in validated:
+            db.execute("INSERT OR IGNORE INTO own_posts (post_id,url,published_at,review_status) VALUES (?,?,?,'PUBLISHED')",
+                       (row["post_id"], row["url"], row["published_at"]))
+            db.execute("""INSERT OR IGNORE INTO own_post_observations
+                (post_id,observed_at,impressions,likes,replies,reposts,profile_visits,new_follows,evidence_note)
+                VALUES (?,?,?,?,?,?,?,?,?)""",
+                (row["post_id"], row["observed_at"], *(row.get(key) for key in ("impressions", "likes", "replies", "reposts", "profile_visits", "new_follows")), row["evidence_note"]))
+    return (db.execute("SELECT count(*) FROM own_posts").fetchone()[0] - before_posts,
+            db.execute("SELECT count(*) FROM own_post_observations").fetchone()[0] - before_metrics)
+
+
+def packet(db: sqlite3.Connection) -> str:
+    stats = report(db)
+    lines = [
+        "# X 内容研究任务包（探索阶段）",
+        "",
+        f"真实原帖链接：{stats['x_posts']}；高传播候选：{stats['high_candidates']}；普通候选：{stats['ordinary_candidates']}；作者：{stats['authors']}。",
+        "全部 X 指标来自有滞后的公开搜索索引；当前没有经过验证的传播公式。请仅提出待证伪研究问题，不生成确定性增长承诺。",
+        "",
+        "## 素材线索（与 X 样本分离）",
+    ]
+    for url, observation, status, direction in db.execute("SELECT source_url,observation,verification_status,content_direction FROM materials ORDER BY discovered_at DESC, id DESC"):
+        lines.extend((f"- 来源：{url}", f"  - 已知：{observation}（{status}）", f"  - 可研究方向：{direction}", "  - 创作前须独立核实主张、时效、语境和使用权。"))
+    lines.extend(("", "## 交接要求", "", "区分事实、作者自述和推断；给出反例或证据缺口。不得翻译搬运原帖、虚构个人经历或自动发布。人工审核后才进入发布环节。"))
+    return "\n".join(lines)
+
+
+def logged_import(db: sqlite3.Connection, kind: str, path: Path) -> tuple[int, int]:
+    started = datetime.now(timezone.utc).isoformat()
+    try:
+        if kind == "x":
+            added_items, added_observations = import_file(db, path)
+        elif kind == "materials":
+            added_items, added_observations = import_materials(db, path), 0
+        else:
+            added_items, added_observations = import_feedback(db, path)
+        status, error = "SUCCESS", None
+    except (OSError, ValueError, sqlite3.Error) as exc:
+        added_items, added_observations = 0, 0
+        status, error = "FAILED", str(exc)[:500]
+    db.execute("""INSERT INTO ingest_runs
+        (kind,input_path,started_at,finished_at,added_items,added_observations,status,error,retries)
+        VALUES (?,?,?,?,?,?,?,?,0)""",
+        (kind, str(path), started, datetime.now(timezone.utc).isoformat(), added_items, added_observations, status, error))
+    db.commit()
+    if error:
+        raise ValueError(error)
+    return added_items, added_observations
+
+
 def report(db: sqlite3.Connection) -> dict:
     cohorts = dict(db.execute("SELECT cohort, count(*) FROM x_posts GROUP BY cohort"))
     methods = dict(db.execute("SELECT method, count(*) FROM x_observations GROUP BY method"))
@@ -208,6 +303,12 @@ def report(db: sqlite3.Connection) -> dict:
         "same_author_both_cohorts": [row[0] for row in db.execute("SELECT author_handle FROM x_posts GROUP BY lower(author_handle) HAVING count(DISTINCT cohort)>1")],
         "materials": db.execute("SELECT count(*) FROM materials").fetchone()[0],
         "materials_needing_review": db.execute("SELECT count(*) FROM materials WHERE review_after <= ?", (datetime.now(timezone.utc).date().isoformat(),)).fetchone()[0],
+        "own_posts": db.execute("SELECT count(*) FROM own_posts").fetchone()[0],
+        "own_post_observations": db.execute("SELECT count(*) FROM own_post_observations").fetchone()[0],
+        "ingest_runs": db.execute("SELECT count(*) FROM ingest_runs").fetchone()[0],
+        "failed_ingest_runs": db.execute("SELECT count(*) FROM ingest_runs WHERE status='FAILED'").fetchone()[0],
+        "indexed_metric_observations": db.execute("SELECT count(*) FROM x_observations WHERE method='public_search_index' AND views IS NOT NULL").fetchone()[0],
+        "direct_metric_observations": db.execute("SELECT count(*) FROM x_observations WHERE method='direct_public_page' AND views IS NOT NULL").fetchone()[0],
     }
 
 
@@ -220,17 +321,35 @@ def main() -> None:
     importer.add_argument("file", type=Path)
     material_importer = sub.add_parser("import-materials")
     material_importer.add_argument("file", type=Path)
+    feedback_importer = sub.add_parser("import-feedback")
+    feedback_importer.add_argument("file", type=Path)
     sub.add_parser("report")
     sub.add_parser("audit")
+    sub.add_parser("packet")
     args = parser.parse_args()
     with connect(args.db) as db:
         if args.command == "init":
             print(f"initialized {args.db}")
         elif args.command == "import":
-            posts, observations = import_file(db, args.file)
+            try:
+                posts, observations = logged_import(db, "x", args.file)
+            except ValueError as exc:
+                parser.exit(1, f"import failed: {exc}\n")
             print(json.dumps({"new_posts": posts, "new_observations": observations}, ensure_ascii=False))
         elif args.command == "import-materials":
-            print(json.dumps({"new_materials": import_materials(db, args.file)}, ensure_ascii=False))
+            try:
+                materials, _ = logged_import(db, "materials", args.file)
+            except ValueError as exc:
+                parser.exit(1, f"import failed: {exc}\n")
+            print(json.dumps({"new_materials": materials}, ensure_ascii=False))
+        elif args.command == "import-feedback":
+            try:
+                posts, observations = logged_import(db, "feedback", args.file)
+            except ValueError as exc:
+                parser.exit(1, f"import failed: {exc}\n")
+            print(json.dumps({"new_own_posts": posts, "new_feedback_observations": observations}, ensure_ascii=False))
+        elif args.command == "packet":
+            print(packet(db))
         elif args.command == "report":
             print(json.dumps(report(db), ensure_ascii=False, indent=2))
         else:
@@ -238,8 +357,8 @@ def main() -> None:
             issues = []
             if stats["x_posts"] < 450:
                 issues.append("Below exploratory collection targets; no formula validation")
-            if len(stats["methods"]) == 1 and "public_search_index" in stats["methods"]:
-                issues.append("Single discovery channel with search-index selection bias")
+            if stats["indexed_metric_observations"] and not stats["direct_metric_observations"]:
+                issues.append("All available X view counts come from stale search-index snapshots")
             if stats["unknown_followers"]:
                 issues.append("Author follower counts unknown; reach cannot be normalized")
             if stats["ordinary_candidates"] == 0:

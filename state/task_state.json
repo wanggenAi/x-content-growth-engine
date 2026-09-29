@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29T00:40:00Z",
+  "updated_at": "2026-09-29T00:45:05Z",
   "phase": "first_sample_and_source_validation",
   "checkpoints": {
     "environment_review": "done",
@@ -10,9 +10,11 @@
     "matched_sample_expansion": "pending",
     "mechanism_hypotheses": "pending",
     "original_material_bank": "in_progress",
+    "chatgpt_research_packet": "done",
+    "feedback_import_interface": "done",
     "own_post_feedback": "pending"
   },
-  "counts": {"x_posts": 7, "high_candidates": 4, "ordinary_candidates": 3, "authors": 4, "materials": 2},
+  "counts": {"x_posts": 7, "high_candidates": 4, "ordinary_candidates": 3, "authors": 4, "x_observations": 8, "materials": 2, "own_posts": 0},
   "blocked": ["No verified free authorized bulk X read source; official API charges per read", "No authorized Reddit ingestion for this use"],
-  "next_action": "Broaden matched X samples and discovery channels; independently test material claims before drafting"
+  "next_action": "Broaden matched X samples and measure query coverage; independently test material claims before drafting"
 }

@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from growth_engine.__main__ import connect, import_file, import_materials, report, validate, validate_material
+from growth_engine.__main__ import connect, import_feedback, import_file, import_materials, logged_import, packet, report, validate, validate_feedback, validate_material
 
 
 BASE = {
@@ -51,6 +51,19 @@ class StoreTests(unittest.TestCase):
                     import_file(db, seed)
                 self.assertEqual(report(db)["x_posts"], 0)
 
+    def test_second_source_keeps_index_metric_and_unknown_direct_metric(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            seed = path / "observations.json"
+            seed.write_text(json.dumps([
+                {**BASE, "views": 200},
+                {**BASE, "observed_at": "2026-09-29T01:00:00Z", "method": "direct_public_page", "views": None},
+            ]), encoding="utf-8")
+            with connect(path / "research.sqlite3") as db:
+                self.assertEqual(import_file(db, seed), (1, 2))
+                self.assertEqual(report(db)["unknown_views"], 1)
+                self.assertEqual(db.execute("SELECT views FROM x_observations ORDER BY observed_at").fetchall(), [(200,), (None,)])
+
     def test_formula_status_is_constrained(self):
         with tempfile.TemporaryDirectory() as directory:
             with connect(Path(directory) / "research.sqlite3") as db:
@@ -95,6 +108,42 @@ class StoreTests(unittest.TestCase):
                 self.assertEqual(import_materials(db, seed), 0)
                 self.assertEqual(report(db)["materials"], 1)
                 self.assertEqual(report(db)["x_posts"], 0)
+
+    def test_feedback_requires_human_review_and_keeps_missing_metrics(self):
+        feedback = {
+            "url": "https://x.com/example/status/777",
+            "published_at": "2026-09-28T00:00:00Z",
+            "observed_at": "2026-09-29T00:00:00Z",
+            "human_reviewed": True,
+            "evidence_note": "User-entered account analytics screenshot reference",
+            "impressions": 100,
+        }
+        with self.assertRaises(ValueError):
+            validate_feedback({**feedback, "human_reviewed": False})
+        with self.assertRaises(ValueError):
+            validate_feedback({**feedback, "observed_at": "2026-09-27T00:00:00Z"})
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            seed = path / "feedback.json"
+            seed.write_text(json.dumps([feedback]), encoding="utf-8")
+            with connect(path / "research.sqlite3") as db:
+                self.assertEqual(import_feedback(db, seed), (1, 1))
+                self.assertEqual(import_feedback(db, seed), (0, 0))
+                self.assertEqual(report(db)["own_posts"], 1)
+                self.assertEqual(db.execute("SELECT new_follows FROM own_post_observations").fetchone(), (None,))
+                self.assertIn("没有经过验证的传播公式", packet(db))
+
+    def test_failed_ingest_is_logged_without_partial_data(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            seed = path / "bad.json"
+            seed.write_text(json.dumps([BASE, {**BASE, "views": -4}]), encoding="utf-8")
+            with connect(path / "research.sqlite3") as db:
+                with self.assertRaises(ValueError):
+                    logged_import(db, "x", seed)
+                self.assertEqual(report(db)["x_posts"], 0)
+                self.assertEqual(report(db)["failed_ingest_runs"], 1)
+                self.assertEqual(db.execute("SELECT retries FROM ingest_runs").fetchone(), (0,))
 
 
 if __name__ == "__main__":

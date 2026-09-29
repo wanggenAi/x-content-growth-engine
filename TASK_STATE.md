@@ -12,6 +12,8 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 - Implemented local SQLite import, provenance/metric validation, deduplication, audit and separate research/material/formula/own-outcome tables.
 - Recorded the first evidence interpretation and disqualifying caveats in `docs/FIRST_SAMPLE_REVIEW.md`.
 - Built a separate material import with provenance, verification status, rights note and recheck date; imported two first-party source-checked leads (details in `docs/FIRST_MATERIAL_REVIEW.md`).
+- Tested one direct public X page as a second observation channel without assigning missing metrics a value. Eight observations now cover seven unique posts; all seven available view counts are stale index snapshots. Recorded limitations in `docs/DISCOVERY_FEASIBILITY.md`.
+- Added manual own-post feedback import and a ChatGPT handoff packet; no real account outcome has been supplied, so own-post count remains zero. Imports now keep local success/failure run logs.
 
 ## Evidence gaps
 
@@ -24,5 +26,5 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 
 1. Broaden discovery across author/topic/time queries and manually confirm direct public-page availability; register all failures and query denominators.
 2. Add more ordinary controls from the same authors and time windows; label promotions/quotes and obtain follower information only where publicly and lawfully available.
-3. Expand source-checked external materials beyond the two first leads, then create manual ChatGPT research/creation packets and own-post feedback import.
+3. Independently test and expand the two source-checked materials. Use the packet for human-led research; enter real own-post results only after manual publication.
 4. Only after adequate coverage: preregister structure labels and holdout comparisons, then test hypotheses against independent data.
