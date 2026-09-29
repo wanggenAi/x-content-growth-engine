@@ -24,6 +24,10 @@ BASE = {
 
 
 class StoreTests(unittest.TestCase):
+    def test_web_status_url_keeps_canonical_path(self):
+        row = validate({**BASE, "url": "https://x.com/i/web/status/12345"})
+        self.assertEqual(row["url"], "https://x.com/i/web/status/12345")
+
     def test_validation_rejects_false_precision_and_missing_provenance(self):
         for changes in ({"views": -1}, {"views": "100"}, {"source_url": ""}, {"observed_at": "2026-09-29"}, {"url": "https://other.site/example/status/12345"}):
             with self.subTest(changes=changes), self.assertRaises(ValueError):

@@ -141,7 +141,8 @@ def validate(item: dict) -> dict:
         value = item.get(metric)
         if value is not None and (type(value) is not int or value < 0):
             raise ValueError(f"{metric} must be a nonnegative integer or null")
-    return {**item, "post_id": match.group(1), "url": f"https://x.com/{handle}/status/{match.group(1)}"}
+    canonical_path = f"i/web/status/{match.group(1)}" if handle == "i" else f"{handle}/status/{match.group(1)}"
+    return {**item, "post_id": match.group(1), "url": f"https://x.com/{canonical_path}"}
 
 
 def import_file(db: sqlite3.Connection, path: Path) -> tuple[int, int]:
