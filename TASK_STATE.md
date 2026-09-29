@@ -11,6 +11,7 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 - Probed free public-index X discovery; saved 7 real Chinese X URLs, including 4 high-reach candidates and 3 ordinary candidates. Four posts belong to one author, giving a preliminary same-author comparison pool; one high post is marked a paid partnership and excluded from clean comparisons.
 - Implemented local SQLite import, provenance/metric validation, deduplication, audit and separate research/material/formula/own-outcome tables.
 - Recorded the first evidence interpretation and disqualifying caveats in `docs/FIRST_SAMPLE_REVIEW.md`.
+- Built a separate material import with provenance, verification status, rights note and recheck date; imported two first-party source-checked leads (details in `docs/FIRST_MATERIAL_REVIEW.md`).
 
 ## Evidence gaps
 
@@ -23,5 +24,5 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 
 1. Broaden discovery across author/topic/time queries and manually confirm direct public-page availability; register all failures and query denominators.
 2. Add more ordinary controls from the same authors and time windows; label promotions/quotes and obtain follower information only where publicly and lawfully available.
-3. Build separate source-checked external material import, then create manual ChatGPT research/creation packets and own-post feedback import.
+3. Expand source-checked external materials beyond the two first leads, then create manual ChatGPT research/creation packets and own-post feedback import.
 4. Only after adequate coverage: preregister structure labels and holdout comparisons, then test hypotheses against independent data.

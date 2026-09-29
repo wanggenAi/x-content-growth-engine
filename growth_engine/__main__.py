@@ -6,7 +6,7 @@ import argparse
 import json
 import re
 import sqlite3
-from datetime import datetime
+from datetime import datetime, date, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -46,7 +46,13 @@ CREATE TABLE IF NOT EXISTS materials (
   discovered_at TEXT NOT NULL,
   observation TEXT NOT NULL,
   verification_status TEXT NOT NULL DEFAULT 'UNVERIFIED',
-  content_direction TEXT
+  content_direction TEXT,
+  discovery_url TEXT,
+  source_kind TEXT,
+  published_at TEXT,
+  region TEXT,
+  rights_note TEXT,
+  review_after TEXT
 );
 CREATE TABLE IF NOT EXISTS formula_hypotheses (
   id TEXT PRIMARY KEY,
@@ -88,6 +94,10 @@ def connect(path: Path) -> sqlite3.Connection:
     db = sqlite3.connect(path)
     db.execute("PRAGMA foreign_keys = ON")
     db.executescript(SCHEMA)
+    columns = {row[1] for row in db.execute("PRAGMA table_info(materials)")}
+    for name in ("discovery_url", "source_kind", "published_at", "region", "rights_note", "review_after"):
+        if name not in columns:
+            db.execute(f"ALTER TABLE materials ADD COLUMN {name} TEXT")
     return db
 
 
@@ -143,6 +153,45 @@ def import_file(db: sqlite3.Connection, path: Path) -> tuple[int, int]:
     return posts, observations
 
 
+def validate_material(item: dict) -> dict:
+    required = ("source_url", "discovery_url", "source_kind", "published_at", "discovered_at", "observation", "verification_status", "content_direction", "region", "rights_note", "review_after")
+    missing = [key for key in required if not isinstance(item.get(key), str) or not item[key].strip()]
+    if missing:
+        raise ValueError(f"missing/empty material fields: {', '.join(missing)}")
+    for field in ("source_url", "discovery_url"):
+        parsed = urlparse(item[field])
+        if parsed.scheme != "https" or not parsed.hostname:
+            raise ValueError(f"{field} must be an HTTPS URL")
+        host = parsed.hostname.lower()
+        if host == "redd.it" or host == "reddit.com" or host.endswith(".reddit.com"):
+            raise ValueError("Reddit material import requires a separate rights decision")
+    if item["verification_status"] not in {"UNVERIFIED", "SOURCE_CHECKED", "INDEPENDENTLY_CORROBORATED"}:
+        raise ValueError("invalid material verification status")
+    observed = datetime.fromisoformat(item["discovered_at"].replace("Z", "+00:00"))
+    if observed.utcoffset() is None or observed.utcoffset().total_seconds() != 0:
+        raise ValueError("discovered_at must be UTC")
+    date.fromisoformat(item["published_at"])
+    date.fromisoformat(item["review_after"])
+    if len(item["observation"]) > 300:
+        raise ValueError("material observation must be a short original summary")
+    return item
+
+
+def import_materials(db: sqlite3.Connection, path: Path) -> int:
+    records = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(records, list):
+        raise ValueError("input must be a JSON array")
+    validated = [validate_material(record) for record in records]
+    before = db.execute("SELECT count(*) FROM materials").fetchone()[0]
+    with db:
+        for row in validated:
+            db.execute("""INSERT OR IGNORE INTO materials
+                (source_url,discovered_at,observation,verification_status,content_direction,discovery_url,source_kind,published_at,region,rights_note,review_after)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                tuple(row[key] for key in ("source_url", "discovered_at", "observation", "verification_status", "content_direction", "discovery_url", "source_kind", "published_at", "region", "rights_note", "review_after")))
+    return db.execute("SELECT count(*) FROM materials").fetchone()[0] - before
+
+
 def report(db: sqlite3.Connection) -> dict:
     cohorts = dict(db.execute("SELECT cohort, count(*) FROM x_posts GROUP BY cohort"))
     methods = dict(db.execute("SELECT method, count(*) FROM x_observations GROUP BY method"))
@@ -157,6 +206,8 @@ def report(db: sqlite3.Connection) -> dict:
         "unknown_views": db.execute("SELECT count(*) FROM x_observations WHERE views IS NULL").fetchone()[0],
         "unknown_followers": db.execute("SELECT count(*) FROM x_observations WHERE followers IS NULL").fetchone()[0],
         "same_author_both_cohorts": [row[0] for row in db.execute("SELECT author_handle FROM x_posts GROUP BY lower(author_handle) HAVING count(DISTINCT cohort)>1")],
+        "materials": db.execute("SELECT count(*) FROM materials").fetchone()[0],
+        "materials_needing_review": db.execute("SELECT count(*) FROM materials WHERE review_after <= ?", (datetime.now(timezone.utc).date().isoformat(),)).fetchone()[0],
     }
 
 
@@ -167,6 +218,8 @@ def main() -> None:
     sub.add_parser("init")
     importer = sub.add_parser("import")
     importer.add_argument("file", type=Path)
+    material_importer = sub.add_parser("import-materials")
+    material_importer.add_argument("file", type=Path)
     sub.add_parser("report")
     sub.add_parser("audit")
     args = parser.parse_args()
@@ -176,6 +229,8 @@ def main() -> None:
         elif args.command == "import":
             posts, observations = import_file(db, args.file)
             print(json.dumps({"new_posts": posts, "new_observations": observations}, ensure_ascii=False))
+        elif args.command == "import-materials":
+            print(json.dumps({"new_materials": import_materials(db, args.file)}, ensure_ascii=False))
         elif args.command == "report":
             print(json.dumps(report(db), ensure_ascii=False, indent=2))
         else:

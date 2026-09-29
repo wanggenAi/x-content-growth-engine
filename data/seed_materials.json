@@ -1,0 +1,8 @@
+[
+  {
+    "source_url": "https://github.com/firelex/jeff", "discovery_url": "https://news.ycombinator.com/item?id=49883844", "source_kind": "github_project", "published_at": "2026-09-28", "discovered_at": "2026-09-29T00:40:00Z", "observation": "项目仓库介绍可在本地运行的小型分类决策模型；性能数据来自作者自述，尚未独立复测。", "verification_status": "SOURCE_CHECKED", "content_direction": "讨论小模型在日常工作流中完成单点判断的适用边界，并实测中文场景后再写。", "region": "global", "rights_note": "Only store link and original short summary; do not copy README or model output as owned content.", "review_after": "2026-10-29"
+  },
+  {
+    "source_url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.8", "discovery_url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.8", "source_kind": "github_release", "published_at": "2026-09-21", "discovered_at": "2026-09-29T00:40:00Z", "observation": "官方版本说明提及 OCR 插件重构及多项格式/编码修复；实际效果尚未本地验证。", "verification_status": "SOURCE_CHECKED", "content_direction": "以真实文件测试文档转 Markdown 的失败案例，写可复现的改进观察。", "region": "global", "rights_note": "Cite official release and test independently before making performance claims.", "review_after": "2026-10-29"
+  }
+]

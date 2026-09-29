@@ -19,8 +19,8 @@ Initial source audit: 2026-09-29. Repository metadata and linked source files we
 - [X view-count help](https://help.x.com/en/using-x/view-counts) says views count repeat exposures and not every post exposes a count. Treat views as exposure events, not unique readers.
 - [Reddit Developer Terms](https://redditinc.com/policies/developer-terms), revised 2026-03-24, restrict commercial use and model training without permission; [Data API Terms](https://redditinc.com/policies/data-api-terms) and [Reddit Help](https://support.reddithelp.com/hc/en-us/articles/14945211791892-Developer-Platform-Accessing-Reddit-Data) reinforce that permission is needed for model training. No bulk Reddit collection or training is authorized in this project.
 - [X automation rules](https://help.x.com/en/rules-and-policies/x-automation) require careful account-action review. Human posting is the current path.
+- [Official Hacker News API](https://github.com/HackerNews/API) offers public near-real-time story metadata. We used one HN item solely as a discovery pointer to a first-party GitHub repository. [GitHub REST rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) permit public unauthenticated reads within limits; no paid key is required for the small material probe.
 
 ## Next research cycle
 
 Review new projects and papers periodically, recording repository revision, license, tested source path, dependency costs and whether an independent small experiment changed a decision. A new README claim alone cannot trigger an architecture migration. Keep expanding real X sample coverage during these reviews.
-

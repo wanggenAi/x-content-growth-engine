@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from growth_engine.__main__ import connect, import_file, report, validate
+from growth_engine.__main__ import connect, import_file, import_materials, report, validate, validate_material
 
 
 BASE = {
@@ -67,6 +67,34 @@ class StoreTests(unittest.TestCase):
                 seed.write_text(json.dumps([{**BASE, "observed_at": "2026-09-28T00:00:00Z"}]), encoding="utf-8")
                 self.assertEqual(import_file(db, seed), (0, 1))
                 self.assertEqual(db.execute("SELECT last_seen_at FROM x_posts").fetchone()[0], BASE["observed_at"])
+
+    def test_materials_are_separate_deduplicated_and_reddit_blocked(self):
+        material = {
+            "source_url": "https://github.com/example/project",
+            "discovery_url": "https://news.ycombinator.com/item?id=123",
+            "source_kind": "github_project",
+            "published_at": "2026-09-28",
+            "discovered_at": "2026-09-29T00:00:00Z",
+            "observation": "Short original summary",
+            "verification_status": "SOURCE_CHECKED",
+            "content_direction": "Test a concrete use case",
+            "region": "global",
+            "rights_note": "Link only",
+            "review_after": "2026-10-29",
+        }
+        with self.assertRaises(ValueError):
+            validate_material({**material, "source_url": "https://www.reddit.com/r/test"})
+        with self.assertRaises(ValueError):
+            validate_material({**material, "source_url": "https://old.reddit.com/r/test"})
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            seed = path / "materials.json"
+            seed.write_text(json.dumps([material]), encoding="utf-8")
+            with connect(path / "research.sqlite3") as db:
+                self.assertEqual(import_materials(db, seed), 1)
+                self.assertEqual(import_materials(db, seed), 0)
+                self.assertEqual(report(db)["materials"], 1)
+                self.assertEqual(report(db)["x_posts"], 0)
 
 
 if __name__ == "__main__":
