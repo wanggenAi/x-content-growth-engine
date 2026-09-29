@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://x.com/AI_Jasonyu/status/2026216830940110922", "author_handle": "AI_Jasonyu", "posted_date": "2026-02-24", "topic": "AI/work", "excerpt": "用 Mac mini 和 OpenClaw 替代团队工作的夸张设想。", "cohort": "high_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/AI_Jasonyu/status/2026216830940110922", "method": "public_search_index", "discovery_query": "site:x.com/AI_Jasonyu/status/ AI Views", "evidence_note": "Search-index snapshot displayed 293.3K Views; rounded to 293300, not a live count.", "views": 293300, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/AI_Jasonyu/status/2018150490757095507", "author_handle": "AI_Jasonyu", "posted_date": "2026-02-01", "topic": "AI/productivity", "excerpt": "讨论用工具记录和分析每日电脑工作，同时担心隐私和权限。", "cohort": "ordinary_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/AI_Jasonyu/status/2018150490757095507", "method": "public_search_index", "discovery_query": "site:x.com/AI_Jasonyu/status/ AI Views", "evidence_note": "Search-index snapshot displayed 6,593 Views; not a live count.", "views": 6593, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/AI_Jasonyu/status/2013107568663843183", "author_handle": "AI_Jasonyu", "posted_date": "2026-01-18", "topic": "AI/products", "excerpt": "评论黑客松产品的交互设计和普通人的使用信心。", "cohort": "ordinary_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/AI_Jasonyu/status/2013107568663843183", "method": "public_search_index", "discovery_query": "site:x.com/status/ 普通人 AI", "evidence_note": "Search-index snapshot displayed 3,582 Views; not a live count.", "views": 3582, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/huangyun_122/status/2034927556605227031", "author_handle": "huangyun_122", "posted_date": "2026-03-20", "topic": "AI/work", "excerpt": "观察公开校招信息表售卖案例，原帖销售数字尚未独立核实。", "cohort": "high_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/huangyun_122/status/2034927556605227031", "method": "public_search_index", "discovery_query": "site:x.com/status/ 普通人 AI", "evidence_note": "Search-index snapshot displayed 23.6 thousand views; rounded to 23600. Claimed sales are unverified.", "views": 23600, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/0xluffy_eth/status/2022303468741095697", "author_handle": "0xluffy_eth", "posted_date": "2026-02-13", "topic": "AI/products", "excerpt": "描述普通人配置 OpenClaw 的门槛，并引出另一个产品。", "cohort": "high_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/0xluffy_eth/status/2022303468741095697", "method": "public_search_index", "discovery_query": "site:x.com/status/ 普通人 AI", "evidence_note": "Search-index snapshot displayed 45.3 thousand views; rounded to 45300. Possible product promotion; do not use for mechanism inference.", "views": 45300, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/AYi_AInotes/status/2040403020144587155", "author_handle": "AYi_AInotes", "posted_date": "2026-04-04", "topic": "AI/industry", "excerpt": "转述访谈中的 AI 工程观察，原始访谈事实待复核。", "cohort": "ordinary_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/AYi_AInotes/status/2040403020144587155", "method": "public_search_index", "discovery_query": "site:x.com/status/ 普通人 AI", "evidence_note": "Search-index snapshot displayed 9,678 views; not a live count.", "views": 9678, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  },
+  {
+    "url": "https://x.com/AI_Jasonyu/status/2035687356104102330", "author_handle": "AI_Jasonyu", "posted_date": "2026-03-22", "topic": "AI/accounts", "excerpt": "讨论 Claude 账号稳定性并推荐商业服务；账号相关建议未经核实。", "cohort": "high_candidate", "observed_at": "2026-09-29T00:31:42Z", "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330?lang=en", "method": "public_search_index", "discovery_query": "site:x.com/AI_Jasonyu/status/ AI Views", "evidence_note": "Search-index snapshot displayed 56.6K Views; rounded to 56600. Marked paid partnership in indexed page; exclude from clean comparison.", "views": 56600, "likes": null, "reposts": null, "quotes": null, "replies": null, "followers": null
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-29T00:31:42Z",
+  "phase": "first_sample_and_source_validation",
+  "checkpoints": {
+    "environment_review": "done",
+    "initial_reference_review": "done",
+    "public_x_discovery_probe": "done",
+    "sample_store_mvp": "done",
+    "matched_sample_expansion": "pending",
+    "mechanism_hypotheses": "pending",
+    "original_material_bank": "pending",
+    "own_post_feedback": "pending"
+  },
+  "counts": {"x_posts": 7, "high_candidates": 4, "ordinary_candidates": 3, "authors": 4},
+  "blocked": ["No verified free authorized bulk X read source; official API charges per read", "No authorized Reddit ingestion for this use"],
+  "next_action": "Import and audit first public-index X observations, then broaden matched authors and discovery channels"
+}
