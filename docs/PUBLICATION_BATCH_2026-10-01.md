@@ -1,6 +1,6 @@
 # 首批 8 条中文 X 短帖
 
-核对时间（UTC）：2026-09-30T16:15:06Z。原准备状态：未发布。后续用户明确指定 Computer Use；本轮已实际发布 P03、P02、P08，逐条核对原帖，其余五条未发布。
+核对时间（UTC）：2026-09-30T16:15:06Z。原准备状态：未发布。后续用户明确指定 Computer Use；两轮已实际发布全部八条，并逐条核对原帖。
 
 P01–P03 是旧稿重写，不重复计算；P04–P08 为新增候选。五条有原始来源，三条为明确的观点或假设。所有文案未声称个人体验或经过验证的传播效果。
 
@@ -111,3 +111,13 @@ https://mathigon.org/origami
 - [P03 原帖](https://x.com/qiluo27808/status/2105338250022027305)；页面显示 12:45 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
 - [P02 原帖](https://x.com/qiluo27808/status/2105338643510599696)；页面显示 12:47 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
 - [P08 原帖](https://x.com/qiluo27808/status/2105338846712037399)；页面显示 12:47 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
+
+## 第二轮实际发布
+
+用户再次要求多发布一些。内置浏览器读取超时后，使用本机 Chrome 原生 Computer Use，核对同一账号后发布剩余五条。每条只提交一次并打开原帖核对正文与分钟级时间；没有追加推广或账号互动。
+
+- [P01 原帖](https://x.com/qiluo27808/status/2105342623112458295)；页面显示 1:02 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
+- [P04 原帖](https://x.com/qiluo27808/status/2105343040294654342)；页面显示 1:04 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
+- [P05 原帖](https://x.com/qiluo27808/status/2105343307920658506)；页面显示 1:05 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
+- [P06 原帖](https://x.com/qiluo27808/status/2105343674125341118)；页面显示 1:07 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。
+- [P07 原帖](https://x.com/qiluo27808/status/2105343994054213957)；页面显示 1:08 AM · Oct 1, 2026（客户端时区 Asia/Shanghai）。

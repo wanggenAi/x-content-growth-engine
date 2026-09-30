@@ -36,4 +36,4 @@ python3 -m unittest discover -s tests -v
 
 公开仓库使用标准 GitHub Actions runner 执行同一条本地单元测试命令；[GitHub 文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)说明标准 runner 对公开仓库免费。CI 不运行网络采集，不上传附件。
 
-2026-10-01 首批发布候选见 [8 条短帖及核对说明](docs/PUBLICATION_BATCH_2026-10-01.md)，机器记录为 `data/publication_batch_2026-10-01.json`。其中三条重写旧稿，五条为新增；后续经用户明确指定 Computer Use，P03、P02、P08 已发布并核对原帖，另五条未发布。独立素材可回放总数为七条。账号专属截图与初始指标保存在 ignored local 路径；这些代理观察未作为人工审核反馈导入，种子回放的 own_posts 仍为零。发布授权无需重复索取。
+2026-10-01 首批发布候选见 [8 条短帖及核对说明](docs/PUBLICATION_BATCH_2026-10-01.md)，机器记录为 `data/publication_batch_2026-10-01.json`。其中三条重写旧稿，五条为新增；后续经用户明确指定 Computer Use，两轮八条均已发布并核对原帖。独立素材可回放总数为七条。账号专属截图与初始指标保存在 ignored local 路径；这些代理观察未作为人工审核反馈导入，种子回放的 own_posts 仍为零。发布授权无需重复索取。
