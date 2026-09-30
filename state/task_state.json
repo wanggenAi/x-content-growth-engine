@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-29T16:23:45Z",
-  "phase": "phase2_manual_original_verification",
+  "updated_at": "2026-09-30T13:21:06.364Z",
+  "phase": "work_cloud_browser_x_login_handoff_pending",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -17,9 +17,60 @@
     "exploratory_drafts": "awaiting_user_review",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "pending"
+    "own_post_feedback": "pending",
+    "live_github_recovery": "done",
+    "local_tests_and_seed_replay": "done",
+    "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
+    "x_login": "awaiting_user_manual_handoff",
+    "reddit_login": "pending_after_x"
   },
-  "counts": {"x_posts": 11, "original_confirmed": 1, "posts_with_index_views": 7, "exact_display_index_views": 3, "approximate_index_views": 4, "dated_nonindex_views": 0, "ready_pairs": 0, "high_candidates_provisional": 4, "ordinary_candidates_provisional": 3, "authors": 7, "x_observations": 13, "public_search_queries": 13, "blocked_browser_channels": 1, "materials": 4, "exploratory_drafts": 3, "own_posts": 0},
-  "blocked": ["X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation", "No dated non-index X metrics or ready controls yet", "No authorized Reddit ingestion for this use"],
-  "next_action": "Manually review same-author X originals through normal interface; record context, dated evidence and failed checks through localhost form or CSV, then broaden query-level probes"
+  "counts": {
+    "x_posts": 11,
+    "original_confirmed": 1,
+    "posts_with_index_views": 7,
+    "exact_display_index_views": 3,
+    "approximate_index_views": 4,
+    "dated_nonindex_views": 0,
+    "ready_pairs": 0,
+    "high_candidates_provisional": 4,
+    "ordinary_candidates_provisional": 3,
+    "authors": 7,
+    "x_observations": 13,
+    "public_search_queries": 13,
+    "blocked_browser_channels": 1,
+    "materials": 4,
+    "exploratory_drafts": 3,
+    "own_posts": 0
+  },
+  "blocked": [
+    "X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation",
+    "No dated non-index X metrics or ready controls yet",
+    "No authorized Reddit ingestion for this use"
+  ],
+  "next_action": "User signs in to X in the existing Work cloud browser via manual handoff. Verify fresh signed-in home/profile/search/post context; then verify Reddit login. Recheck applicable research scope before sample collection. In parallel proceed with permitted first-party materials and review existing exploratory drafts. Do not mark agent observations human_checked.",
+  "work_browser": {
+    "runtime": "mcp__cua_repl",
+    "x_homepage": "REACHABLE_UNSIGNED",
+    "reddit_homepage": "REACHABLE_PUBLIC_UNSIGNED",
+    "safe_handoff": "SUPPORTED_NOT_YET_COMPLETED",
+    "session_reuse": "UNTESTED",
+    "standalone_browser_harness": "NOT_INVOKED_THIS_RUN",
+    "hn_github_browser_access": "NOT_TESTED_THIS_RUN",
+    "research_permission": "EXISTING_POLICY_GATE_REQUIRES_SCOPE_REVIEW",
+    "new_x_samples": 0
+  },
+  "live_github": {
+    "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
+    "resumed_pr": 5,
+    "resumed_head_sha": "81014f51175651c528f540c641bead1e3570708c",
+    "pr_state": "OPEN_UNMERGED",
+    "previous_head_ci": "SUCCESS_PUSH_AND_PR",
+    "open_issue_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "local_tests_passed": 16
+  }
 }
