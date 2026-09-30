@@ -18,6 +18,8 @@ python3 -m growth_engine import-materials data/seed_materials.json
 python3 -m growth_engine import-materials data/phase2_materials.json
 python3 -m growth_engine import-materials data/phase2_materials_round3.json
 python3 -m growth_engine import-materials data/phase2_materials_round4.json
+python3 -m growth_engine import-materials data/phase2_materials_round5.json
+python3 -m growth_engine import-materials data/phase2_materials_round6.json
 python3 -m growth_engine report
 python3 -m growth_engine audit
 python3 -m growth_engine research-packet --format markdown
@@ -37,3 +39,7 @@ python3 -m unittest discover -s tests -v
 公开仓库使用标准 GitHub Actions runner 执行同一条本地单元测试命令；[GitHub 文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)说明标准 runner 对公开仓库免费。CI 不运行网络采集，不上传附件。
 
 2026-10-01 首批发布候选见 [8 条短帖及核对说明](docs/PUBLICATION_BATCH_2026-10-01.md)，机器记录为 `data/publication_batch_2026-10-01.json`。其中三条重写旧稿，五条为新增；后续经用户明确指定 Computer Use，两轮八条均已发布并核对原帖。独立素材可回放总数为七条。账号专属截图与初始指标保存在 ignored local 路径；这些代理观察未作为人工审核反馈导入，种子回放的 own_posts 仍为零。发布授权无需重复索取。
+
+后续按用户要求停止凭“幽默”继续扩量，新增 [开源爆帖研究与实验设计](docs/VIRALITY_RESEARCH_OPEN_SOURCE.md)。`phase2_materials_round5.json` 保存四条方法/研究来源，完整回放素材总数为十一条；这些不是 X 样本或已验证公式。人话版测试批实际发布九条、三条未发布，记录见 `data/publication_batch_2026-10-01_human.json`。以后以固定观察窗口、作者/时间 holdout、普通对照和反例进行研究，再安排原创测试。
+
+进一步核验了 8 个公开仓库的锁定版本、10 条 Reddit/LINUX DO 方法线索（7 条原页、3 条原页失败的索引线索）；登记表为 `data/virality_method_registry_2026-10-01.json`。加入 round6 后完整回放素材为 15 条，外部 X 证据仍为 11 链接/13 观察、0 组 READY 对照。基于当前 X 公开源码的[纠错测试帖](docs/SOURCE_LED_PUBLICATION_2026-10-01.md)已发布，账号总计 18 条代理核验发布；这不是已验证的传播效果。旧 30 条夜间文案已退出当前队列。三项下一轮比较机制记录在 `data/next_publication_experiment_2026-10-01.json`，状态为计划，尚非完成的实验。

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-30T17:20:30.363168Z",
-  "phase": "night_batch_ready_mac_locked",
+  "updated_at": "2026-09-30T23:57:16.579868Z",
+  "phase": "source_led_pilot_published_feedback_pending",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -19,14 +19,17 @@
     "feedback_import_interface": "done",
     "own_post_feedback": "private_initial_agent_observations_recorded_not_human_reviewed",
     "live_github_recovery": "done",
-    "local_tests_and_seed_replay": "done",
+    "local_tests_and_seed_replay": "16_tests_passed_seed_replay_15_materials_11_x_links_13_observations",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
     "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
     "publication_batch": "first_8_published_agent_verified",
     "account_posting_authorization": "explicit_user_authorization_received",
     "first_publication": "8_posts_verified_on_public_post_pages",
-    "night_publication_batch": "30_source_checked_unpublished_manual_mac_unlock_required"
+    "night_publication_batch": "30_unpublished_superseded_by_user_source_led_direction",
+    "human_style_batch": "9_posts_published_agent_verified_3_unpublished",
+    "open_source_virality_research": "8_pinned_repository_reads_10_community_leads_7_original_pages_3_index_only",
+    "source_led_pilot": "R01_published_public_detail_verified"
   },
   "counts": {
     "x_posts": 11,
@@ -42,18 +45,18 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 7,
-    "exploratory_drafts": 38,
+    "materials": 15,
+    "exploratory_drafts": 51,
     "own_posts": 0,
-    "verified_account_publications": 8,
-    "unpublished_candidates": 30
+    "verified_account_publications": 18,
+    "unpublished_candidates": 33
   },
   "blocked": [
     "X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation",
     "No dated non-index X metrics or ready controls yet",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "User manually unlocks Mac, then resume authorized native Chrome publishing P09-P38; verify each actual status URL and save private evidence. No repeat posting permission needed.",
+  "next_action": "Use the three planned mechanisms to expand comparable Chinese X originals and ordinary controls, record dated own-post outcomes at fixed windows, and generate independently sourced posts. Do not publish superseded batches or claim a validated formula from this single pilot.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -123,7 +126,8 @@
     "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI"
   },
   "count_notes": {
-    "own_posts": "Reviewed feedback records reproduced by versioned imports; zero. Eight agent-verified account publications recorded separately in batch manifest and ignored private evidence, without claiming human review."
+    "own_posts": "Reviewed feedback DB records remain zero. 18 agent-verified public publications are tracked separately, with unknown timestamp seconds preserved and no fabricated human review.",
+    "unpublished_candidates": "30 superseded style drafts plus 3 paused human-style drafts, retained for provenance; none are the active source-led queue."
   },
   "night_publication_batch": {
     "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
@@ -144,5 +148,38 @@
       "stdlib_command_smoke_checks": 2,
       "runtime_research_audit": "Existing runtime has 11 X links, 13 observations, 4 materials and 0 reviewed own posts; materials 7 is the prior full seed-replay count. Runtime database not updated by this editorial batch. No ready pairs or validated formula."
     }
+  },
+  "human_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_human.json",
+    "published_count": 9,
+    "unpublished_count": 3,
+    "method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI",
+    "human_checked": false,
+    "growth_result": "UNKNOWN"
+  },
+  "method_research": {
+    "file": "docs/VIRALITY_RESEARCH_OPEN_SOURCE.md",
+    "sources": "data/phase2_materials_round5.json",
+    "new_source_count": 4,
+    "validated_formulas": 0,
+    "key_limit": "Three-day English historical model; old code random split unsuitable for current Chinese X conclusions.",
+    "registry": "data/virality_method_registry_2026-10-01.json",
+    "repository_count": 8,
+    "community_lead_count": 10,
+    "original_community_pages_read": 7,
+    "index_only_or_failed_originals": 3,
+    "materials_files": [
+      "data/phase2_materials_round5.json",
+      "data/phase2_materials_round6.json"
+    ],
+    "full_replay_material_count": 15
+  },
+  "research_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_research.json",
+    "published_count": 1,
+    "unpublished_count": 0,
+    "url": "https://x.com/qiluo27808/status/2105445999900762128",
+    "effects": "UNKNOWN_INITIAL_SNAPSHOT_ONLY",
+    "human_checked": false
   }
 }

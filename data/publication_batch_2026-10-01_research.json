@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-09-30T23:52:58.192848Z",
+  "status": "SOURCE_LED_EDITORIAL_TEST",
+  "posts": [
+    {
+      "id": "R01",
+      "text": "“一个转发顶几个赞”，这类 X 流量配方，第一步就读错了代码。\n\nX 公开算法的权重，乘的是「这个读者点赞、转发的预测概率」，不是你已经拿到的互动数。\n\n同一条帖，对不同读者，分数可以不同。\n\n把排序公式当成互动兑换表，方向就错了。\n\n源码：https://github.com/xai-org/x-algorithm/blob/77d431aabf409ca1c1eed9bec7e2183f7c914e23/xai-value-model/scoring.rs#L28",
+      "source_url": "https://github.com/xai-org/x-algorithm/blob/77d431aabf409ca1c1eed9bec7e2183f7c914e23/xai-value-model/scoring.rs#L28",
+      "source_revision": "77d431aabf409ca1c1eed9bec7e2183f7c914e23",
+      "source_verified_at": "2026-09-30T23:52:58.192848Z",
+      "source_paths_read": [
+        "README.md",
+        "xai-value-model/scoring.rs"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105445999900762128",
+      "published_at": null,
+      "human_checked": false,
+      "research_status": "EDITORIAL_TEST_NOT_VALIDATED_FORMULA",
+      "mechanism_hypothesis": "Correcting a verifiable misconception with inspectable primary evidence may improve relevant-reader sharing compared with generic advice. Untested on this account.",
+      "post_reason": "Current primary-source finding; no added joke, fictional experience or engagement claim.",
+      "published_minute_utc": "2026-09-30T23:53Z",
+      "publication_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN"
+    }
+  ],
+  "published_count": 1,
+  "unpublished_count": 0,
+  "comparison_design": "Observational pilot only; no randomized reader assignment. Baseline snapshot windows missing, so no causal or performance conclusion."
+}
