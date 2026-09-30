@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-30T13:21:06.364Z",
+  "updated_at": "2026-09-30T14:02:00Z",
   "phase": "work_cloud_browser_x_login_handoff_pending",
   "checkpoints": {
     "environment_review": "done",
@@ -38,7 +38,7 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 4,
+    "materials": 6,
     "exploratory_drafts": 3,
     "own_posts": 0
   },
@@ -47,7 +47,25 @@
     "No dated non-index X metrics or ready controls yet",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "User signs in to X in the existing Work cloud browser via manual handoff. Verify fresh signed-in home/profile/search/post context; then verify Reddit login. Recheck applicable research scope before sample collection. In parallel proceed with permitted first-party materials and review existing exploratory drafts. Do not mark agent observations human_checked.",
+  "next_action": "A separate Work cloud browser session is not exposed in the current Codex inventory. User must open or hand off the official X login page if signed-in verification is still desired. Keep X research blocked until scope is reviewed; continue first-party material verification and editorial review. Do not mark agent observations human_checked.",
+  "local_browser_probe": {
+    "captured_at": "2026-09-30T13:56:28Z",
+    "runtime": "browser-harness 0.1.13 via local Chrome",
+    "github": "REACHABLE_PUBLIC",
+    "reddit": "REACHABLE_PUBLIC_UNSIGNED",
+    "hacker_news": "REACHABLE_PUBLIC",
+    "x": "NOT_VISITED_EXISTING_POLICY_GATE",
+    "cua_cloud_session": "NOT_EXPOSED_IN_CURRENT_INVENTORY"
+  },
+  "material_probe": {
+    "file": "data/phase2_materials_round3.json",
+    "new_source_checked_leads": 2,
+    "sources": [
+      "https://openai.com/index/introducing-dots/",
+      "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96"
+    ],
+    "rights_status": "link_and_short_summary_only"
+  },
   "work_browser": {
     "runtime": "mcp__cua_repl",
     "x_homepage": "REACHABLE_UNSIGNED",
