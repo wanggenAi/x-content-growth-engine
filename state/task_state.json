@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-30T17:10:31.059072Z",
-  "phase": "first_eight_posts_published_feedback_pending",
+  "updated_at": "2026-09-30T17:20:30.363168Z",
+  "phase": "night_batch_ready_mac_locked",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -14,7 +14,7 @@
     "matched_sample_expansion": "in_progress",
     "mechanism_hypotheses": "pending_original_evidence",
     "original_material_bank": "in_progress",
-    "exploratory_drafts": "awaiting_user_review",
+    "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
     "own_post_feedback": "private_initial_agent_observations_recorded_not_human_reviewed",
@@ -23,9 +23,10 @@
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
     "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
-    "publication_batch": "8_unpublished_candidates_3_revised_5_new",
+    "publication_batch": "first_8_published_agent_verified",
     "account_posting_authorization": "explicit_user_authorization_received",
-    "first_publication": "8_posts_verified_on_public_post_pages"
+    "first_publication": "8_posts_verified_on_public_post_pages",
+    "night_publication_batch": "30_source_checked_unpublished_manual_mac_unlock_required"
   },
   "counts": {
     "x_posts": 11,
@@ -42,17 +43,17 @@
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
     "materials": 7,
-    "exploratory_drafts": 8,
+    "exploratory_drafts": 38,
     "own_posts": 0,
     "verified_account_publications": 8,
-    "unpublished_candidates": 0
+    "unpublished_candidates": 30
   },
   "blocked": [
     "X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation",
     "No dated non-index X metrics or ready controls yet",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Collect later real feedback for the eight published originals; preserve unknown metrics and obtain human review before existing feedback import. Prepare fresh source-backed content based on actual reader responses; no automatic publishing schedule created.",
+  "next_action": "User manually unlocks Mac, then resume authorized native Chrome publishing P09-P38; verify each actual status URL and save private evidence. No repeat posting permission needed.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -123,5 +124,25 @@
   },
   "count_notes": {
     "own_posts": "Reviewed feedback records reproduced by versioned imports; zero. Eight agent-verified account publications recorded separately in batch manifest and ignored private evidence, without claiming human review."
+  },
+  "night_publication_batch": {
+    "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
+    "requested_new_post_count": 30,
+    "published_count": 0,
+    "unpublished_count": 30,
+    "blocker": {
+      "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
+      "observation": "Computer Use returned: The Mac is locked and automatic unlock is paused because physical input was detected. Ask the user to unlock the Mac manually before continuing.",
+      "observed_at": "2026-09-30T17:20:30.363168Z",
+      "submission_attempts": 0
+    },
+    "file": "data/publication_batch_2026-10-01_night.json",
+    "validation": {
+      "unit_tests_passed": 16,
+      "publication_integrity_audit": "passed",
+      "git_diff_check": "passed",
+      "stdlib_command_smoke_checks": 2,
+      "runtime_research_audit": "Existing runtime has 11 X links, 13 observations, 4 materials and 0 reviewed own posts; materials 7 is the prior full seed-replay count. Runtime database not updated by this editorial batch. No ready pairs or validated formula."
+    }
   }
 }
