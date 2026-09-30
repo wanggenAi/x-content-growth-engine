@@ -24,3 +24,9 @@ Browser Harness is useful here for testing the local capture interface and navig
 | Existing one-off direct public page probe | 1 known URL | 0 new IDs | 1 excerpt confirmation | 0 | Did not expose reliable views; does not imply bulk permission |
 
 The manual-original path remains executable but requires the user or authorized researcher to inspect individual X pages. Its measured yield in this phase is zero because no such user observations were supplied. Search candidates stay discovery leads until that step occurs. The routes are complementary; neither HN nor GitHub material is counted as X research data.
+
+## Account publishing authorization — 2026-10-01 (Asia/Shanghai)
+
+The user explicitly authorized Codex to publish through their account in this chat. Earlier restrictions on user permission for posting are superseded for this task; repeating the same authorization question is unnecessary. This is not permission for likes, follows, direct messages, settings changes, credential extraction or research scraping.
+
+Re-read the official [X automation rules](https://help.x.com/en/rules-and-policies/x-automation) at 2026-09-30T16:15:06Z. Section I / Don’t prohibits non-API automation including scripting the website. Browser Harness posting remains blocked by this platform-method review. No free approved posting integration is configured; no new paid integration was added. Draft preparation is permitted; an X homepage URL in ambient state does not establish login, account identity, or a completed post.

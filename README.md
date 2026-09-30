@@ -16,6 +16,8 @@ python3 -m growth_engine import-queries data/phase2_queries.json
 python3 -m growth_engine import-queries data/phase2_queries_round2.json
 python3 -m growth_engine import-materials data/seed_materials.json
 python3 -m growth_engine import-materials data/phase2_materials.json
+python3 -m growth_engine import-materials data/phase2_materials_round3.json
+python3 -m growth_engine import-materials data/phase2_materials_round4.json
 python3 -m growth_engine report
 python3 -m growth_engine audit
 python3 -m growth_engine research-packet --format markdown
@@ -33,3 +35,5 @@ python3 -m unittest discover -s tests -v
 `research-packet` 把实际 X 链接、指标来源、质量缺口、对照关系、结构标注和待验证假设导出为 Markdown/JSON，供人工交给当前 ChatGPT 会话，不调用模型 API。经人工审查的研究输出可用 `import-review` 以 `HYPOTHESIS` 状态留存版本；结构标注和配对分别用 `import-annotations`、`import-pairs`，READY 配对有质量门槛。三篇不同题材的原创候选在 [审核文件](docs/ORIGINAL_DRAFTS_2026-09-30.md)，未发布。真实发布后才可用 `import-feedback feedback.json` 录入本人账号结果，必须包含 `human_reviewed: true`。项目不附伪造反馈，也不连接 X 账号。
 
 公开仓库使用标准 GitHub Actions runner 执行同一条本地单元测试命令；[GitHub 文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)说明标准 runner 对公开仓库免费。CI 不运行网络采集，不上传附件。
+
+2026-10-01 首批发布候选见 [8 条短帖及核对说明](docs/PUBLICATION_BATCH_2026-10-01.md)，机器记录为 `data/publication_batch_2026-10-01.json`。其中三条重写旧稿，五条为新增，均未发布；独立素材可回放总数为七条。用户已明确授权账号发布，但当前 Browser Harness 网页代发受 X 非 API 自动化规则限制，未执行发布操作。无需重复索取同一授权。
