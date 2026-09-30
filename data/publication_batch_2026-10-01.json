@@ -1,8 +1,8 @@
 {
   "created_at": "2026-09-30T16:15:06Z",
-  "status": "UNPUBLISHED",
+  "status": "PARTIALLY_PUBLISHED",
   "publication_authorization": "User explicitly authorized account posting in this chat on 2026-10-01 Asia/Shanghai. No additional user authorization requested.",
-  "publication_route": "BLOCKED_NON_API_WEBSITE_AUTOMATION",
+  "publication_route": "USER_AUTHORIZED_COMPUTER_USE",
   "rules_source": "https://help.x.com/en/rules-and-policies/x-automation",
   "posts": [
     {
@@ -26,10 +26,12 @@
       "source_rechecked_at": "2026-09-30T16:15:06Z",
       "editorial_note": "2024-11-26 的研究介绍，使用 2017–2019 年数据；不作为当日新闻或本地路线实测。",
       "relationship_to_prior_drafts": "revises_2026-09-30_3",
-      "status": "UNPUBLISHED",
-      "published_url": null,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105338643510599696",
       "published_at": null,
-      "conservative_length_estimate": 209
+      "conservative_length_estimate": 209,
+      "published_minute_utc": "2026-09-30T16:47Z",
+      "publication_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN"
     },
     {
       "id": "P03",
@@ -39,10 +41,12 @@
       "source_rechecked_at": "2026-09-30T16:15:06Z",
       "editorial_note": "README 明确说明无 llm_client 时跳过 OCR；文案为文档观察，未声称亲测或所有 OCR 都收费。",
       "relationship_to_prior_drafts": "revises_2026-09-30_1",
-      "status": "UNPUBLISHED",
-      "published_url": null,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105338250022027305",
       "published_at": null,
-      "conservative_length_estimate": 202
+      "conservative_length_estimate": 202,
+      "published_minute_utc": "2026-09-30T16:45Z",
+      "publication_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN"
     },
     {
       "id": "P04",
@@ -104,10 +108,15 @@
       "source_rechecked_at": null,
       "editorial_note": "假设比较场景和编辑观点，无用户经历或产品性能断言。",
       "relationship_to_prior_drafts": "new",
-      "status": "UNPUBLISHED",
-      "published_url": null,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105338846712037399",
       "published_at": null,
-      "conservative_length_estimate": 184
+      "conservative_length_estimate": 184,
+      "published_minute_utc": "2026-09-30T16:47Z",
+      "publication_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN"
     }
-  ]
+  ],
+  "published_count": 3,
+  "unpublished_count": 5,
+  "last_verified_at": "2026-09-30T16:52:18.871873Z"
 }

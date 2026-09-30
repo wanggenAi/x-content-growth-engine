@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-30T16:15:06Z",
-  "phase": "codex_first_publication_batch_ready_route_blocked",
+  "updated_at": "2026-09-30T16:52:18.871873Z",
+  "phase": "first_three_posts_published_feedback_pending",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -17,14 +17,15 @@
     "exploratory_drafts": "awaiting_user_review",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "pending",
+    "own_post_feedback": "private_initial_agent_observations_recorded_not_human_reviewed",
     "live_github_recovery": "done",
     "local_tests_and_seed_replay": "done",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
-    "x_login": "awaiting_user_manual_handoff",
+    "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
     "publication_batch": "8_unpublished_candidates_3_revised_5_new",
-    "account_posting_authorization": "explicit_user_authorization_received"
+    "account_posting_authorization": "explicit_user_authorization_received",
+    "first_publication": "3_posts_verified_on_public_post_pages"
   },
   "counts": {
     "x_posts": 11,
@@ -42,14 +43,16 @@
     "blocked_browser_channels": 1,
     "materials": 7,
     "exploratory_drafts": 8,
-    "own_posts": 0
+    "own_posts": 0,
+    "verified_account_publications": 3,
+    "unpublished_candidates": 5
   },
   "blocked": [
     "X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation",
     "No dated non-index X metrics or ready controls yet",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "User can manually publish selected prepared posts; retain authorization for any future permitted posting route. No paid integration or non-API website automation. Record real URLs, UTC times and observations after publication. Recheck factual claims before later use.",
+  "next_action": "Observe real subsequent feedback for the three public posts and obtain human review before feedback import. Five remaining candidates available; no automatic publishing schedule created. Keep private evidence local; do not infer propagation mechanisms from this small uncontrolled batch.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -98,11 +101,21 @@
     "draft_count": 8,
     "new_drafts": 5,
     "revised_prior_drafts": 3,
-    "published_count": 0,
+    "published_count": 3,
     "user_authorization": "RECEIVED_2026-10-01",
-    "route": "BLOCKED_NON_API_WEBSITE_AUTOMATION",
+    "route": "USER_DIRECTED_VISIBLE_COMPUTER_USE",
     "platform_rules_checked_at": "2026-09-30T16:15:06Z",
     "platform_rules_url": "https://help.x.com/en/rules-and-policies/x-automation",
-    "additional_permission_required": false
+    "additional_permission_required": false,
+    "platform_approval": "NOT_CONFIRMED_RESTRICTION_PREVIOUSLY_DISCLOSED",
+    "unpublished_count": 5,
+    "verified_draft_ids": [
+      "P03",
+      "P02",
+      "P08"
+    ]
+  },
+  "count_notes": {
+    "own_posts": "Reviewed feedback records reproduced by versioned imports; zero. Three agent-verified account publications are recorded separately in the batch manifest and ignored private log, not falsely marked human_reviewed."
   }
 }
