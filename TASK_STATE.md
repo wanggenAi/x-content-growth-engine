@@ -188,3 +188,11 @@ C201 is saved as one source-checked, unpublished candidate. The official YouTube
 ### 2026-10-01T05:27:17Z — C201 published and independently verified
 
 C201 was submitted once through the visible Chrome editor after the complete Chinese body, paragraph breaks, source URL and generated preview card were checked in the editor. The independent public detail page https://x.com/qiluo27808/status/2105529851369365928 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the YouTube source card and the displayed minute 1:26 PM · Oct 1, 2026. Seconds are unknown. Counts are now 21 published campaign series, 0 ready, 180 research-pending, 201 rolling work items; 979 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T05:34:57Z — C202 source-checked candidate
+
+C202 is a new source-checked, unpublished candidate based on the official OpenAI Dot announcement. The source was reopened with Browser Harness at 2026-10-01T05:34:57Z; the draft separates OpenAI's product claims about continued work, permissions and approvals from the editorial view that automation needs a stopping rule. No capability, account-access or safety outcome is claimed. Counts: 21 published, 1 ready, 180 research-pending; 202 rolling work items and 979 remaining new publications.
+
+### 2026-10-01T05:37:46Z — C202 published and independently verified
+
+C202 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and OpenAI preview card. The independent public detail page https://x.com/qiluo27808/status/2105532526794265012 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the openai.com source card and the displayed minute 1:37 PM · Oct 1, 2026. Seconds are unknown. Counts are now 22 published campaign series, 0 ready, 180 research-pending, 202 rolling work items; 978 verified original series remain toward the 1000-new target.

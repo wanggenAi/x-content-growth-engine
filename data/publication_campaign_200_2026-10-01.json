@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 21,
+  "published_count": 22,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 201,
-  "remaining_new_publications": 979,
+  "rolling_work_queue_count": 202,
+  "remaining_new_publications": 978,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3220,7 +3220,31 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched blog.youtube and the visible body retained the source-label line."
+    },
+    {
+      "id": "C202",
+      "topic": "智能体与人工审批",
+      "title": "智能体什么时候必须刹车",
+      "text": "说个暴论：智能体最值钱的能力，可能不是会做事，而是知道什么时候不能自己做。\n\nOpenAI介绍Dot：它可以在云端电脑上持续推进任务，连接插件，也能在后台工作。\n\n但同一篇公告把边界写得很清楚：涉及账户或分享信息的操作要经过审核；改密码等敏感任务必须人来做。OpenAI还提醒，Dot可能出错，重要结果要检查。\n\n所以我更在意的不是“它能不能一直跑”，而是“它会不会在该停的时候停”。自动化真正难的，往往不是执行，是刹车。\n\n来源：https://openai.com/index/introducing-dots/",
+      "source_refs": [
+        "CAM-C022"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 203,
+      "url": "https://x.com/qiluo27808/status/2105532526794265012",
+      "published_at": "2026-10-01T05:37Z",
+      "virality_probability": null,
+      "editorial_limits": "基于OpenAI 2026-09-29产品公告及其自述控制措施；不是独立能力或安全评估，不代表本账号可用权限。观点与来源事实分开。",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T05:37Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched openai.com and the visible body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T05:27:17Z"
+  "updated_at": "2026-10-01T05:37:46Z"
 }
