@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 22,
+  "published_count": 23,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 202,
-  "remaining_new_publications": 978,
+  "rolling_work_queue_count": 203,
+  "remaining_new_publications": 977,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3208,7 +3208,7 @@
       "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
-  "weighted_length_estimate": 194,
+      "weighted_length_estimate": 194,
       "url": "https://x.com/qiluo27808/status/2105529851369365928",
       "published_at": "2026-10-01T05:26Z",
       "virality_probability": null,
@@ -3244,7 +3244,31 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched openai.com and the visible body retained the source-label line."
+    },
+    {
+      "id": "C203",
+      "topic": "新闻与法律文件",
+      "title": "看到起诉书先别急着判案",
+      "text": "说个暴论：一份起诉书，最先证明的往往是“有人把争议递进了法院”，不是“被告已经做过这件事”。\n\n美国联邦法院的说明写得很直白：民事案件从原告提交 complaint 开始，后面还有证据、审理，也可能和解。\n\n真正到了裁判阶段，原告还要用证据说服陪审团。起诉书里的指控，和法院最后认定的事实，中间隔着一整套程序。\n\n所以看到一张法律文件截图，我会先问：这是指控、证据，还是判决？把三者混成一句新闻，最容易把人带偏。\n\n来源：https://www.uscourts.gov/about-federal-courts/types-cases/civil-cases",
+      "source_refs": [
+        "CAM-C023"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 229,
+      "url": "https://x.com/qiluo27808/status/2105538781051048447",
+      "published_at": "2026-10-01T06:02Z",
+      "virality_probability": null,
+      "editorial_limits": "基于美国联邦法院关于民事案件程序的通用说明；不指向具体案件，不外推到其他法域。观点与来源事实分开。",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T06:03:04Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched uscourts.gov and the visible body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T05:37:46Z"
+  "updated_at": "2026-10-01T06:03:04Z"
 }

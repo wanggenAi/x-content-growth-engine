@@ -196,3 +196,11 @@ C202 is a new source-checked, unpublished candidate based on the official OpenAI
 ### 2026-10-01T05:37:46Z — C202 published and independently verified
 
 C202 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and OpenAI preview card. The independent public detail page https://x.com/qiluo27808/status/2105532526794265012 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the openai.com source card and the displayed minute 1:37 PM · Oct 1, 2026. Seconds are unknown. Counts are now 22 published campaign series, 0 ready, 180 research-pending, 202 rolling work items; 978 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T05:40:00Z — C203 source-checked candidate
+
+C203 is a new source-checked, unpublished candidate based on the U.S. Courts educational page about federal civil cases. Browser Harness rechecked the page at 2026-10-01T05:40:00Z; it distinguishes filing a complaint from later evidence, trial or settlement. The post is framed as a general media-reading rule, not a claim about a named case or another jurisdiction. Counts: 22 published, 1 ready, 180 research-pending; 203 rolling work items and 978 remaining new publications.
+
+### 2026-10-01T06:03:04Z — C203 published and independently verified
+
+C203 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and U.S. Courts preview card. The independent public detail page https://x.com/qiluo27808/status/2105538781051048447 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the uscourts.gov source card and the displayed minute 2:02 PM · Oct 1, 2026. Seconds are unknown. Counts are now 23 published campaign series, 0 ready, 180 research-pending, 203 rolling work items; 977 verified original series remain toward the 1000-new target.

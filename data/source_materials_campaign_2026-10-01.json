@@ -257,8 +257,19 @@
       "limits": "Vendor announcement and product-control description; not an independent capability or safety evaluation, and not a claim about this account's access.",
       "human_checked": false,
       "original_publication_date": "2026-09-29"
+    },
+    {
+      "id": "CAM-C023",
+      "title": "起诉文件不等于法院裁决",
+      "url": "https://www.uscourts.gov/about-federal-courts/types-cases/civil-cases",
+      "checked_at": "2026-10-01T05:40:00Z",
+      "source_kind": "PRIMARY_GOVERNMENT_EDUCATIONAL_PAGE_BROWSER_HARNESS",
+      "verified_basis": "The U.S. Courts page explains that a federal civil action begins when a plaintiff files a complaint, and that evidence, trial or settlement follow. It describes the plaintiff's burden to persuade the jury by a preponderance of the evidence when the case is tried.",
+      "limits": "General explanation of U.S. federal civil cases; not a statement about any named lawsuit or another country's procedure.",
+      "human_checked": false,
+      "original_publication_date": null
     }
   ],
-  "limits": "21 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining work items are pending research briefs; no outcome claim.",
-  "updated_at": "2026-10-01T05:34:57Z"
+  "limits": "22 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining work items are pending research briefs; no outcome claim.",
+  "updated_at": "2026-10-01T05:40:00Z"
 }
