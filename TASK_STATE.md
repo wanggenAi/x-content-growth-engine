@@ -262,3 +262,5 @@ C208 was submitted once after the visible Chrome editor showed the complete Chin
 
 - 2026-10-01T17:44:30Z checkpoint: 继续队列；新增 CAM-C031（Jecker-Landy 1969 论文书目与APA索引摘要），生成 C211 READY_TO_PUBLISH，主题为关系中的小请求与分寸。
 - 2026-10-01T17:51:13Z checkpoint: C211 已通过可见 Chrome 编辑器逐字核对并提交；独立详情页重载核验正文、换行、账号 @qiluo27808、journals.sagepub.com 来源卡片和显示时间（1:50 AM · Oct 2, 2026）。秒数未知。新增已核验31条，剩余969条。
+- 2026-10-01T19:42:17Z checkpoint: 按当前接地气方向新增 CAM-C032（PLoS One 2016 日常对话手机传感研究），生成 C212 READY_TO_PUBLISH。研究记录36名参与者的473次对话；编辑稿保留小规模探索性边界，区分“参与者享受度”与“对方喜欢程度”。队列212项，已核验31条，剩余969条。
+- 2026-10-01T19:44:52Z checkpoint: C212 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（3:44 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验32条，剩余968条。

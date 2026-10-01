@@ -386,8 +386,22 @@
       ],
       "human_checked": false,
       "original_publication_date": "1969-08-01"
+    },
+    {
+      "id": "CAM-C032",
+      "title": "聊天时说得少一点，可能更享受",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4954675/?report=reader",
+      "checked_at": "2026-10-01T19:42:17Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2016 article by Gillian M. Sandstrom and colleagues; a mobile app captured 473 conversations from 36 participants in daily life. Within-person hierarchical analyses found that conversations in which a participant spoke a smaller proportion of the time were enjoyed more; conversation length and turn-taking rate did not predict enjoyment.",
+      "limits": [
+        "The paper describes a small pilot study with mostly undergraduate participants and exploratory analyses; it does not establish that speaking less always makes a conversation better.",
+        "The study measured the participant's reported enjoyment of conversations, not whether the conversation partner liked them more; the draft keeps that distinction explicit."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2016-07-20"
     }
   ],
-  "limits": "28 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
-  "updated_at": "2026-10-01T14:38:02Z"
+  "limits": "29 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T19:42:17Z"
 }

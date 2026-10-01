@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 31,
+  "published_count": 32,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 211,
-  "remaining_new_publications": 969,
+  "rolling_work_queue_count": 212,
+  "remaining_new_publications": 968,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3473,7 +3473,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the DOI source URL as a t.co card; the independently reloaded public detail page showed the journals.sagepub.com Human Relations article card and retained the source-label line."
+    },
+    {
+      "id": "C212",
+      "topic": "人性与聊天",
+      "title": "聊天时说得少一点，可能更享受",
+      "text": "聊天时总想证明自己很有趣，结果可能把对话聊累了。\n\n2016年一项把手机带进真实生活的研究，36名参与者记录了473次日常对话。研究者发现，在同一个人的多次对话里，他自己说话占比越低，事后对那次聊天的享受度反而更高。\n\n这不是让你闭嘴，也不是谁说得少谁就高级。那是一项小规模、探索性的手机传感研究，样本主要是大学生；它测的是参与者自己有多享受，不是对方因此更喜欢你。\n\n很多聊天聊累了，不一定是没话题，而是两个人都在抢着证明自己值得被喜欢。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC4954675/?report=reader",
+      "source_refs": [
+        "CAM-C032"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 286,
+      "url": "https://x.com/qiluo27808/status/2105745611085770867",
+      "published_at": "2026-10-01T19:44Z",
+      "virality_probability": null,
+      "editorial_limits": "基于PLoS One 2016论文全文；研究是36名参与者、473次日常对话的小规模探索性手机传感研究，结果是参与者自报的对话享受度，不是对方喜欢程度；‘抢着证明自己值得被喜欢’是编辑化判断，不冒充研究测量。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T19:44:52Z",
+      "publication_time_display": "3:44 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T17:51:13Z"
+  "updated_at": "2026-10-01T19:44:52Z"
 }
