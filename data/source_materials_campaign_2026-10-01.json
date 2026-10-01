@@ -279,8 +279,25 @@
       "limits": "Not seasonally adjusted; table-level comparisons only; does not establish causes, current local conditions, or individual experience. BLS notes classification changes can affect comparability with earlier years.",
       "human_checked": false,
       "original_publication_date": "2026-09-04"
+    },
+    {
+      "id": "CAM-C025",
+      "title": "FTC 2024诈骗损失与报告者亏损比例",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024",
+      "checked_at": "2026-10-01T08:10:00Z",
+      "source_kind": "primary_government_press_release_browser_harness",
+      "facts": [
+        "FTC称消费者2024年报告的诈骗损失超过125亿美元，同比增加25%",
+        "诈骗报告数量与2023年基本相同，但报告亏损的比例由27%升至38%",
+        "投资诈骗报告损失57亿美元；银行转账或加密货币支付的诈骗损失高于其他支付方式合计"
+      ],
+      "limits": [
+        "FTC数据是消费者报告，不是全部实际诈骗损失",
+        "原文不证明某种心理机制或个体因果",
+        "编辑观点必须与统计事实分开"
+      ]
     }
   ],
-  "limits": "23 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining work items are pending research briefs; no outcome claim.",
-  "updated_at": "2026-10-01T07:40:00Z"
+  "limits": "保留来源原文、观察时间和限制；来源材料与研究样本、公式假设、自有发布记录分开。当前含25条来源支持的事实候选及其编辑限制。",
+  "updated_at": "2026-10-01T08:10:00Z"
 }

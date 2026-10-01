@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 24,
+  "published_count": 25,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 204,
-  "remaining_new_publications": 976,
+  "rolling_work_queue_count": 205,
+  "remaining_new_publications": 975,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3292,7 +3292,31 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched bls.gov and the visible body retained the source-label line."
+    },
+    {
+      "id": "C205",
+      "topic": "诈骗与人性",
+      "title": "最危险的不是第一次心动",
+      "text": "说个暴论：骗子最懂的不是技术，是人那句“先把损失捞回来”。\n\n美国联邦贸易委员会说，2024年消费者报告的诈骗损失超过125亿美元，比上一年多25%。报案数量基本没变，但说自己确实亏了钱的比例，从27%升到了38%。\n\n投资诈骗损失最高，达到57亿美元。\n\n我觉得最危险的瞬间，不是第一次心动，而是已经亏过以后，别人承诺“再转一笔就能追回来”。前一笔损失，反而替下一次骗局增加了可信度。\n\n来源：https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024",
+      "source_refs": [
+        "CAM-C025"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 323,
+      "url": "https://x.com/qiluo27808/status/2105587426458849557",
+      "published_at": "2026-10-01T09:15Z",
+      "virality_probability": null,
+      "editorial_limits": "事实限于FTC 2024消费者报告数据；“亏损替下一次骗局增加可信度”是个人判断，不是FTC因果结论。",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T09:16:26Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the FTC source URL as a t.co card; visible detail card domain and title matched ftc.gov."
     }
   ],
-  "updated_at": "2026-10-01T07:39:05Z"
+  "updated_at": "2026-10-01T09:16:26Z"
 }

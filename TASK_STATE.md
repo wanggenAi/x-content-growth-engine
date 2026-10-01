@@ -212,3 +212,10 @@ C204 is a new source-checked, unpublished candidate based on a Bureau of Labor S
 ### 2026-10-01T07:39:05Z — C204 published and independently verified
 
 C204 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and BLS preview card. The independent public detail page https://x.com/qiluo27808/status/2105562976497664157 was reloaded and showed account @qiluo27808, all four body paragraphs without duplication, the bls.gov source card and the displayed minute 3:38 PM · Oct 1, 2026. Seconds are unknown. Counts are now 24 published campaign series, 0 ready, 180 research-pending, 204 rolling work items; 976 verified original series remain toward the 1000-new target.
+### 2026-10-01T08:10:00Z — C205 source-checked candidate
+
+C205 is a source-checked, unpublished candidate based on the FTC’s official March 10, 2025 release on 2024 fraud reports. Browser Harness confirmed the release date and figures: reported losses above $12.5 billion, 25% year-over-year increase, stable report volume, and the share reporting monetary loss rising from 27% to 38%; investment-scam losses were $5.7 billion. The draft labels its recovery-scam interpretation as editorial opinion rather than an FTC causal finding. Counts: 24 published, 1 ready, 180 research-pending; 205 rolling work items and 976 remaining new publications.
+
+### 2026-10-01T09:16:26Z — C205 published and independently verified
+
+C205 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105587426458849557 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 5:15 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 25 published campaign series, 0 ready, 180 research-pending, 205 rolling work items; 975 verified original series remain toward the 1000-new target.
