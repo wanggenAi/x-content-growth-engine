@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T00:27:56.261716Z",
+  "updated_at": "2026-10-01T00:30:29.274795Z",
   "phase": "direct_viral_research_and_4_originals_published_feedback_pending",
   "checkpoints": {
     "environment_review": "done",
@@ -91,7 +91,7 @@
   "live_github": {
     "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
     "resumed_pr": 5,
-    "resumed_head_sha": "81014f51175651c528f540c641bead1e3570708c",
+    "resumed_head_sha": "acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8",
     "pr_state": "OPEN_UNMERGED",
     "previous_head_ci": "SUCCESS_PUSH_AND_PR",
     "open_issue_numbers": [
@@ -226,6 +226,13 @@
     "unit_tests": 16,
     "new_research_integrity": "32 unique >10000-view records, UTC raw labels and agent provenance; 10 nonreply comparisons explicitly unmatched",
     "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
-    "formula_validated": 0
+    "formula_validated": 0,
+    "github_ci": {
+      "tested_sha": "acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8",
+      "push": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36796423521",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36796425582",
+      "conclusion": "success",
+      "checked_at": "2026-10-01T00:30:29.274795Z"
+    }
   }
 }

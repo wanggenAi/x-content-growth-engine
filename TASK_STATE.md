@@ -108,3 +108,7 @@ User requested broad Browser Harness research of actual >10,000-view X posts and
 ### 2026-10-01T00:27:56.261716Z — Four source-led originals published and verified
 
 R02 wallet field experiment, R03 LocalSend, R04 official AI-label document and R05 NASA DART study all published once through authorized native Chrome Computer Use. Four independent detail URLs, full source-linked text, minute-resolution publication time and private screenshots/log saved. Verified account publication total now 22; reviewed feedback DB remains zero. 16 tests passed; existing runtime audit still describes older seed data and does not count the separate 32-agent-sample JSON. No growth result or validated formula claimed.
+
+### 2026-10-01T00:30:29.274795Z — Reviewable GitHub checkpoint
+
+Research, formulas and four-publication manifests pushed at acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8. Both push and PR CI succeeded (36796423521 and 36796425582). Updated PR #5 title/body to reflect final evidence and limits; PR remains open and unmerged. This final metadata update records the tested SHA, not a claim of validated growth.
