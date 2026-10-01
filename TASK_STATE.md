@@ -264,3 +264,5 @@ C208 was submitted once after the visible Chrome editor showed the complete Chin
 - 2026-10-01T17:51:13Z checkpoint: C211 已通过可见 Chrome 编辑器逐字核对并提交；独立详情页重载核验正文、换行、账号 @qiluo27808、journals.sagepub.com 来源卡片和显示时间（1:50 AM · Oct 2, 2026）。秒数未知。新增已核验31条，剩余969条。
 - 2026-10-01T19:42:17Z checkpoint: 按当前接地气方向新增 CAM-C032（PLoS One 2016 日常对话手机传感研究），生成 C212 READY_TO_PUBLISH。研究记录36名参与者的473次对话；编辑稿保留小规模探索性边界，区分“参与者享受度”与“对方喜欢程度”。队列212项，已核验31条，剩余969条。
 - 2026-10-01T19:44:52Z checkpoint: C212 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（3:44 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验32条，剩余968条。
+- 2026-10-01T21:42:30Z checkpoint: 按当前人性与关系方向新增 CAM-C033（PLoS One 2023 “Feeling heard”研究），生成 C213 READY_TO_PUBLISH。研究用两次调查（N=194、N=1000）定义并验证“被听见”量表；编辑稿区分被听见、同意和赢得争论，队列213项，已核验32条，剩余968条。
+- 2026-10-01T21:45:04Z checkpoint: C213 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（5:44 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验33条，剩余967条。

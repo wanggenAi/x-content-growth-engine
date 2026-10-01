@@ -400,8 +400,22 @@
       ],
       "human_checked": false,
       "original_publication_date": "2016-07-20"
+    },
+    {
+      "id": "CAM-C033",
+      "title": "人为什么会因为没被听见而继续争论",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10688667/?report=reader",
+      "checked_at": "2026-10-01T21:42:30Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2023 article by Carla Anne Roos, Tom Postmes and Namkje Koudenburg. The paper defines feeling heard with voice, attention, empathy, respect and common ground; two population surveys (N=194 and N=1000) developed and validated an eight-item scale. The scale was a distinct predictor of conversation intentions and the strongest predictor of intentions for conflict behavior among 15 related variables.",
+      "limits": [
+        "The study measures the experience of feeling heard and intentions in surveys; it does not prove that one listening behavior prevents a particular argument or guarantees agreement.",
+        "The draft treats being heard as different from winning or being agreed with; the five components are the researchers' conceptualization, not a universal relationship rule."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2023-11-30"
     }
   ],
-  "limits": "29 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
-  "updated_at": "2026-10-01T19:42:17Z"
+  "limits": "30 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T21:42:30Z"
 }

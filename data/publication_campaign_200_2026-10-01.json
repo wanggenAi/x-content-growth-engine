@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 32,
+  "published_count": 33,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 212,
-  "remaining_new_publications": 968,
+  "rolling_work_queue_count": 213,
+  "remaining_new_publications": 967,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3500,7 +3500,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
+    },
+    {
+      "id": "C213",
+      "topic": "人性与争论",
+      "title": "很多争论不是因为不同意，而是因为没被听见",
+      "text": "很多争论越吵越大，不一定是因为两个人意见差得有多远，而是其中一个人觉得：我说的话根本没进你耳朵。\n\n2023年一篇发表在《PLoS One》的研究，把“被听见”拆成五件事：你有机会表达、对方在注意、能体会你的处境、对你有基本尊重，以及你们之间有一点共同基础。研究用两次调查（194人、1000人）开发并验证了量表。\n\n研究里，“被听见”的感觉，是预测人们想不想继续进行冲突对话的一个重要变量，在15个相关变量里预测力最强。\n\n这不等于对方要同意你。很多关系真正缺的不是答案，而是对方先把你的话接住。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC10688667/?report=reader",
+      "source_refs": [
+        "CAM-C033"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 294,
+      "url": "https://x.com/qiluo27808/status/2105775925686411678",
+      "published_at": "2026-10-01T21:45Z",
+      "virality_probability": null,
+      "editorial_limits": "基于PLoS One 2023论文全文；研究使用两次调查（N=194、N=1000）开发和验证‘被听见’量表，讨论的是被听见体验与冲突行为意向，不证明某个具体倾听动作能让争吵停止；‘很多关系真正缺的不是答案’是编辑判断。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T21:45:04Z",
+      "publication_time_display": "5:44 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T19:44:52Z"
+  "updated_at": "2026-10-01T21:45:04Z"
 }
