@@ -229,11 +229,11 @@
     "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
     "formula_validated": 0,
     "github_ci": {
-      "tested_sha": "acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8",
-      "push": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36796423521",
-      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36796425582",
+      "tested_sha": "c793a8d188eadba5d81ea4c409ce2047dfec5feb",
+      "push": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36800561691",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36800565077",
       "conclusion": "success",
-      "checked_at": "2026-10-01T00:30:29.274795Z"
+      "checked_at": "2026-10-01T01:20:14Z"
     },
     "stage2_integrity": "208 unique original URLs; 89 exact visible labels above 10000; 74 authors/70 disjoint; 28 structural reviews; UTC provenance and agent-only verification; zero causal pairs or formula promotions; two unpublished candidates within weighted length limit",
     "local_continuation": "Local automation configuration verified ACTIVE, heartbeat, current chat, two-hour interval; no new publication this checkpoint"
