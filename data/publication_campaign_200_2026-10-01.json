@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 29,
+  "published_count": 30,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 209,
-  "remaining_new_publications": 971,
+  "rolling_work_queue_count": 210,
+  "remaining_new_publications": 970,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3419,7 +3419,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the APS source URL as a t.co card; visible detail card domain and title matched psychologicalscience.org / APS Journal Article and the public body retained the source-label line."
+    },
+    {
+      "id": "C210",
+      "topic": "人性与自我评价",
+      "title": "人为什么更容易记住那句批评",
+      "text": "人有个很奇怪的毛病：别人夸你一次，你觉得是客气；别人指出一次问题，你能记很久。\n\n一篇2019年发表在《Scientific Reports》的研究，做了三项实验：当人觉得自己还有机会改进时，往往更容易用负面反馈更新对自己能力的判断。\n\n所以很多自我怀疑，不一定来自“我一直做得差”，也可能是那条批评被你当成了最诚实的证据。\n\n夸奖被你归类成运气，失误被你归类成本事。久了以后，人不是没有进步，而是不敢承认自己已经进步。\n\n这项研究讨论的是实验中的自我判断，不是说所有批评都错。\n\n来源：https://europepmc.org/article/MED/31594967",
+      "source_refs": [
+        "CAM-C030"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 286,
+      "url": "https://x.com/qiluo27808/status/2105710920249090056",
+      "published_at": "2026-10-01T17:26Z",
+      "virality_probability": null,
+      "editorial_limits": "基于Scientific Reports 2019论文在Europe PMC的官方摘要；“夸奖被归类成运气”是编辑化表达，不冒充研究直接测量；不宣称所有批评都错或所有人都有同样偏向。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T17:27:15Z",
+      "publication_time_display": "1:26 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the Europe PMC source URL as a t.co card; visible detail text retained the source-label line and the card link resolved to europepmc.org/article/MED/31594967."
     }
   ],
-  "updated_at": "2026-10-01T15:41:49Z"
+  "updated_at": "2026-10-01T17:27:15Z"
 }

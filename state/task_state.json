@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T15:41:49Z",
+  "updated_at": "2026-10-01T17:27:15Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -47,10 +47,10 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 29,
+    "materials": 30,
     "exploratory_drafts": 58,
     "own_posts": 0,
-    "verified_account_publications": 54,
+    "verified_account_publications": 55,
     "unpublished_candidates": 33,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
@@ -300,13 +300,13 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 29,
+    "published_new": 30,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 54,
-    "remaining_new_publications": 971,
-    "rolling_work_queue_count": 209
+    "total_verified_series": 55,
+    "remaining_new_publications": 970,
+    "rolling_work_queue_count": 210
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -325,12 +325,12 @@
     "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "WINDOW_LEVEL_VISIBLE_CHROME_EDITOR_READ_AND_NATIVE_PASTE_ACCEPTED_FULL_CJK_BODY_AND_SCREENSHOT",
-    "latest_publication_id": "C209",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105684538559238351",
-    "latest_publication_verified_at": "2026-10-01T15:41:49Z",
-    "latest_candidate_id": "C209",
-    "latest_candidate_source": "CAM-C029",
-    "latest_candidate_checked_at": "2026-10-01T15:40:00Z",
+    "latest_publication_id": "C210",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105710920249090056",
+    "latest_publication_verified_at": "2026-10-01T17:27:15Z",
+    "latest_candidate_id": "C210",
+    "latest_candidate_source": "CAM-C030",
+    "latest_candidate_checked_at": "2026-10-01T17:22:34Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "next_action": "Continue source research on ordinary human behavior and relationships; next candidate must pass visible editor body gate and independent public detail reload verification."
   }

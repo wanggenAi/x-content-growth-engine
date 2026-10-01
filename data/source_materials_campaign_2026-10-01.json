@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T15:40:00Z",
+  "checked_at": "2026-10-01T17:22:34Z",
   "materials": [
     {
       "id": "CAM-S001",
@@ -358,6 +358,20 @@
       ],
       "human_checked": false,
       "original_publication_date": "1999-12-01"
+    },
+    {
+      "id": "CAM-C030",
+      "title": "人会更容易用负面反馈更新对自己的判断",
+      "url": "https://europepmc.org/article/MED/31594967",
+      "checked_at": "2026-10-01T17:22:34Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ABSTRACT_EUROPE_PMC_BROWSER_HARNESS",
+      "verified_basis": "Europe PMC展示Scientific Reports 2019论文摘要；摘要说明三项实验发现，在认为还有机会改进表现时，参与者对自己表现的信念更新偏向负面信息；该偏向与自尊有关，社会焦虑影响出现在面对评判性观众的条件下。",
+      "limits": [
+        "当前记录基于Europe PMC官方摘要，不把摘要外的实验细节扩写成结论。",
+        "研究讨论的是实验中的自我能力信念更新，不证明每个人都更相信批评，也不证明具体关系或工作结果。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2019-10-08"
     }
   ],
   "limits": "28 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
