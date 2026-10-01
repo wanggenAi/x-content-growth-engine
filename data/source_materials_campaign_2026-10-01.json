@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T01:45:12.244160Z",
+  "checked_at": "2026-10-01T13:45:31Z",
   "materials": [
     {
       "id": "CAM-S001",
@@ -313,8 +313,28 @@
         "尚未形成新的最终规则",
         "取消难度是编辑判断，不冒充FTC因果结论"
       ]
+    },
+    {
+      "id": "CAM-C027",
+      "title": "先买后付的多笔同时借款",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-research-reveals-heavy-buy-now-pay-later-use-among-borrowers-with-high-credit-balances-and-multiple-pay-in-four-loans/",
+      "checked_at": "2026-10-01T13:45:31Z",
+      "source_kind": "PRIMARY_GOVERNMENT_RESEARCH_NEWSROOM_BROWSER_HARNESS",
+      "facts": [
+        "CFPB称在有信用记录的消费者中，2022年有21.2%至少使用过一次BNPL贷款",
+        "CFPB称约63%的BNPL借款人在该年某个时点同时发起过多笔BNPL贷款",
+        "CFPB称33%的借款人曾从多个BNPL贷款方借款",
+        "CFPB称BNPL借款人更可能在其他无担保信用额度上有较高余额"
+      ],
+      "limits": [
+        "数据对应2022年并来自六家大型机构的匹配样本，不代表所有消费者或全部BNPL市场",
+        "同时借款比例描述的是该年某个时点，不等于每个人持续背债",
+        "来源不证明消费失控或任何个人因果，编辑判断必须单独标明"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2025-01-13"
     }
   ],
-  "limits": "保留来源原文、观察时间和限制；来源材料与研究样本、公式假设、自有发布记录分开。当前含26条来源支持的事实候选及其编辑限制。",
-  "updated_at": "2026-10-01T11:00:00Z"
+  "limits": "27 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T13:45:31Z"
 }

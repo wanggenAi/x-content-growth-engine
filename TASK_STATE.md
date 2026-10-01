@@ -231,3 +231,13 @@ C206 remains READY_TO_PUBLISH and was not submitted. The existing Chrome X tab w
 ### 2026-10-01T11:39:20Z — C206 published and independently verified
 
 C206 was submitted once after the window-level visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105623301343322237 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 7:38 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 26 published campaign series, 0 ready, 180 research-pending, 206 rolling work items; 974 verified original series remain toward the 1000-new target.
+
+
+### 2026-10-01T13:45:31Z — C207 source-checked candidate
+
+C207 is a source-checked, unpublished candidate based on the Consumer Financial Protection Bureau’s January 13, 2025 official research release. Browser Harness opened the archived government page and confirmed the 2022 matched-sample figures: 21.2% used BNPL, about 63% held simultaneous BNPL loans at some point during the year, and 33% borrowed from multiple providers. The draft keeps “many small payments dull the feeling of spending” and “consumption getting out of control” as editorial judgments, not CFPB causal findings. Counts: 26 published, 1 ready, 180 research-pending; 207 rolling work items and 974 remaining new publications.
+
+
+### 2026-10-01T13:48:21Z — C207 published and independently verified
+
+C207 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and CFPB preview card. The independent public detail page https://x.com/qiluo27808/status/2105655917723447695 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the consumerfinance.gov source card and the displayed minute 9:47 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 27 published campaign series, 0 ready, 180 research-pending, 207 rolling work items; 973 verified original series remain toward the 1000-new target.

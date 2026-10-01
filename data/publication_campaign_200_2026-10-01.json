@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 26,
+  "published_count": 27,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 206,
-  "remaining_new_publications": 974,
+  "rolling_work_queue_count": 207,
+  "remaining_new_publications": 973,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3340,7 +3340,33 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the FTC source URL as a t.co card; visible detail card domain and title matched ftc.gov."
+    },
+    {
+      "id": "C207",
+      "topic": "消费与债务",
+      "title": "分四期最容易隐藏的不是利息",
+      "text": "说个暴论：所谓“分四期”，最容易把人骗过的不是利息，是它让每一笔都看起来不值得记账。\n\n美国消费者金融保护局2025年一份研究说，2022年使用“先买后付”的人里，超过六成曾在一年中的某个时点同时背着多笔这类贷款；大约三分之一的人还同时用了多家平台。\n\n这类产品常被说成“没有利息、压力小”。可真正让人失去感觉的，可能不是单笔金额，而是很多笔小额付款叠在一起。\n\n我觉得消费失控最像的不是突然买不起，而是每次都觉得“这点钱没事”。最后出问题时，没人记得是哪一笔开始的。\n\n来源：https://www.consumerfinance.gov/archive/newsroom/cfpb-research-reveals-heavy-buy-now-pay-later-use-among-borrowers-with-high-credit-balances-and-multiple-pay-in-four-loans/",
+      "source_refs": [
+        "CAM-C027"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 411,
+      "url": "https://x.com/qiluo27808/status/2105655917723447695",
+      "published_at": "2026-10-01T13:47Z",
+      "virality_probability": null,
+      "editorial_limits": "事实限于CFPB关于2022年BNPL匹配样本的官方研究；“很多笔小额付款让人失去感觉”与“消费失控”是编辑判断，不冒充CFPB因果结论。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "verified_at": "2026-10-01T13:48:21Z",
+      "publication_time_display": "9:47 PM · Oct 1, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the CFPB source URL as a t.co card; visible detail card domain/title matched consumerfinance.gov and the public body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T11:39:20Z"
+  "updated_at": "2026-10-01T13:48:21Z"
 }
