@@ -259,3 +259,6 @@ C208 was submitted once after the visible Chrome editor showed the complete Chin
 - 2026-10-01T17:22:34Z checkpoint: 按用户“继续、不做完别停”要求，继续优先日常人性与自我评价；新增来源候选 CAM-C030（Scientific Reports 2019 / Europe PMC 官方摘要），生成 C210 READY_TO_PUBLISH。
 
 - 2026-10-01T17:27:15Z checkpoint: C210 已通过可见 Chrome 编辑器逐字检查并提交；独立详情页重新加载核验全文、换行、账号、Europe PMC 来源卡和显示时间（1:26 AM · Oct 2, 2026）。URL: https://x.com/qiluo27808/status/2105710920249090056。新增已核验30条，剩余970条。
+
+- 2026-10-01T17:44:30Z checkpoint: 继续队列；新增 CAM-C031（Jecker-Landy 1969 论文书目与APA索引摘要），生成 C211 READY_TO_PUBLISH，主题为关系中的小请求与分寸。
+- 2026-10-01T17:51:13Z checkpoint: C211 已通过可见 Chrome 编辑器逐字核对并提交；独立详情页重载核验正文、换行、账号 @qiluo27808、journals.sagepub.com 来源卡片和显示时间（1:50 AM · Oct 2, 2026）。秒数未知。新增已核验31条，剩余969条。

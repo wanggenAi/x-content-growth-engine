@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T17:22:34Z",
+  "checked_at": "2026-10-01T17:44:30Z",
   "materials": [
     {
       "id": "CAM-S001",
@@ -372,6 +372,20 @@
       ],
       "human_checked": false,
       "original_publication_date": "2019-10-08"
+    },
+    {
+      "id": "CAM-C031",
+      "title": "请别人帮一个小忙，可能改变彼此的感觉",
+      "url": "https://doi.org/10.1177/001872676902200407",
+      "checked_at": "2026-10-01T17:44:30Z",
+      "source_kind": "PRIMARY_BIBLIOGRAPHIC_RECORD_AND_ABSTRACT_INDEX_BROWSER_HARNESS",
+      "verified_basis": "Crossref记录确认Jecker与Landy发表于Human Relations第22卷第4期（1969年8月）的论文《Liking a Person as a Function of Doing Him a Favour》，页371-378，DOI为10.1177/001872676902200407；APA PsycNet检索摘要记录该研究考察了让参与者为实验者做小帮助后对其好感的变化，样本为33名男性与41名女性。",
+      "limits": [
+        "SAGE全文页触发安全验证，本轮未把全文当作已读取；保留DOI和APA记录链接。",
+        "研究是1969年的特定实验，不证明请人帮忙在所有关系中都会增加好感，也不建议把请求帮助当成操控他人的技巧。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "1969-08-01"
     }
   ],
   "limits": "28 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",

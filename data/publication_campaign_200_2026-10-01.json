@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 30,
+  "published_count": 31,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 210,
-  "remaining_new_publications": 970,
+  "rolling_work_queue_count": 211,
+  "remaining_new_publications": 969,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3446,7 +3446,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the Europe PMC source URL as a t.co card; visible detail text retained the source-label line and the card link resolved to europepmc.org/article/MED/31594967."
+    },
+    {
+      "id": "C211",
+      "topic": "人性与关系",
+      "title": "有时候求人帮个小忙，反而更容易靠近",
+      "text": "有时候，想让一个人更愿意靠近你，不是一直展示自己多厉害，而是给他一个可以帮你的小机会。\n\n1969年，心理学家 Jecker 和 Landy 做过一项实验：让参与者为实验者做一个小帮助，再测他们对这个人的好感。研究记录了33名男性和41名女性的结果。\n\n这个现象后来常被叫作“本杰明·富兰克林效应”。它有意思的地方在于：人会用自己的行动，反过来解释自己的感觉。\n\n但别把它理解成“多求人就能操控关系”。真实生活里，帮忙也可能只是帮忙；关系能不能变近，还得看信任和分寸。\n\n来源：https://doi.org/10.1177/001872676902200407",
+      "source_refs": [
+        "CAM-C031"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 281,
+      "url": "https://x.com/qiluo27808/status/2105716932150493335",
+      "published_at": "2026-10-01T17:50Z",
+      "virality_probability": null,
+      "editorial_limits": "基于1969年论文的书目信息与APA索引摘要；“行动反过来解释感觉”是对该现象的通俗化表达，不宣称所有关系都会因此变好。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T17:51:13Z",
+      "publication_time_display": "1:50 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the DOI source URL as a t.co card; the independently reloaded public detail page showed the journals.sagepub.com Human Relations article card and retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T17:27:15Z"
+  "updated_at": "2026-10-01T17:51:13Z"
 }
