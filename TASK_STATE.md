@@ -184,3 +184,7 @@ Publication attempt blocked by editor input failure. The active account was visi
 ### 2026-10-01T05:09:10Z — C201 source-checked candidate and input blocker
 
 C201 is saved as one source-checked, unpublished candidate. The official YouTube page was reopened through Browser Harness and checked at 2026-10-01T05:09:10Z; date, retained dislike button, Studio exact counts and platform-reported experiment findings match the source. The text is 246 raw characters, approximately 194 weighted characters under the campaign estimate, with no duplicate paragraphs. Counts: 20 published campaign series, 1 ready, 180 research-pending; 201 rolling work items. New-publication target remains 1000, so 980 verified original series remain.
+
+### 2026-10-01T05:27:17Z — C201 published and independently verified
+
+C201 was submitted once through the visible Chrome editor after the complete Chinese body, paragraph breaks, source URL and generated preview card were checked in the editor. The independent public detail page https://x.com/qiluo27808/status/2105529851369365928 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the YouTube source card and the displayed minute 1:26 PM · Oct 1, 2026. Seconds are unknown. Counts are now 21 published campaign series, 0 ready, 180 research-pending, 201 rolling work items; 979 verified original series remain toward the 1000-new target.

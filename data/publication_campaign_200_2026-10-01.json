@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 20,
-  "ready_count": 1,
+  "published_count": 21,
+  "ready_count": 0,
   "research_pending_count": 180,
   "rolling_work_queue_count": 201,
-  "remaining_new_publications": 980,
+  "remaining_new_publications": 979,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3205,15 +3205,22 @@
       "source_refs": [
         "CAM-C021"
       ],
-      "status": "READY_TO_PUBLISH",
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
   "weighted_length_estimate": 194,
-      "url": null,
-      "published_at": null,
+      "url": "https://x.com/qiluo27808/status/2105529851369365928",
+      "published_at": "2026-10-01T05:26Z",
       "virality_probability": null,
-      "editorial_limits": "基于YouTube 2021公告及平台自述实验结果；不得表述为当前政策，也不称独立因果验证。观点与来源事实分开。"
+      "editorial_limits": "基于YouTube 2021公告及平台自述实验结果；不得表述为当前政策，也不称独立因果验证。观点与来源事实分开。",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T05:27Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched blog.youtube and the visible body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T05:09:10Z"
+  "updated_at": "2026-10-01T05:27:17Z"
 }

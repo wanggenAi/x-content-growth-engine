@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T05:09:10Z",
+  "updated_at": "2026-10-01T05:27:17Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -50,7 +50,7 @@
     "materials": 15,
     "exploratory_drafts": 58,
     "own_posts": 0,
-    "verified_account_publications": 25,
+    "verified_account_publications": 46,
     "unpublished_candidates": 33,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
@@ -59,7 +59,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Restore reliable CJK paste/input into the real visible editor. Then compare C201 full editor text and screenshot against its saved draft, publish at most once, and independently reload the public detail page for full-body verification.",
+  "next_action": "Research and source-check the next distinct candidate batch. For each eligible item, compare the complete body in the real visible editor, submit at most one at a time, and independently reload the public detail page for full-body verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -300,18 +300,18 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 20,
-    "ready": 1,
+    "published_new": 21,
+    "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 45,
-    "remaining_new_publications": 980,
+    "total_verified_series": 46,
+    "remaining_new_publications": 979,
     "rolling_work_queue_count": 201
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
-    "cumulative_verified_series": 45,
+    "cumulative_verified_series": 46,
     "latest_repair_ids": [
       "C019",
       "C020",
@@ -323,6 +323,10 @@
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
     "unknown_referred_person": "Keybo",
     "latest_input_failure": "PASTE_TIMEOUT_AND_CJK_DROPPED_FROM_NATIVE_KEYBOARD_INPUT; DRAFT_CLEARED_NO_SUBMISSION",
-    "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED"
+    "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
+    "latest_input_recovery": "NATIVE_VISIBLE_CHROME_PASTE_ACCEPTED_FULL_CJK_BODY_AND_EDITOR_SCREENSHOT",
+    "latest_publication_id": "C201",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105529851369365928",
+    "latest_publication_verified_at": "2026-10-01T05:27:17Z"
   }
 }
