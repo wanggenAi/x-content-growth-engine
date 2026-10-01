@@ -43,3 +43,9 @@ python3 -m unittest discover -s tests -v
 后续按用户要求停止凭“幽默”继续扩量，新增 [开源爆帖研究与实验设计](docs/VIRALITY_RESEARCH_OPEN_SOURCE.md)。`phase2_materials_round5.json` 保存四条方法/研究来源，完整回放素材总数为十一条；这些不是 X 样本或已验证公式。人话版测试批实际发布九条、三条未发布，记录见 `data/publication_batch_2026-10-01_human.json`。以后以固定观察窗口、作者/时间 holdout、普通对照和反例进行研究，再安排原创测试。
 
 进一步核验了 8 个公开仓库的锁定版本、10 条 Reddit/LINUX DO 方法线索（7 条原页、3 条原页失败的索引线索）；登记表为 `data/virality_method_registry_2026-10-01.json`。加入 round6 后完整回放素材为 15 条，外部 X 证据仍为 11 链接/13 观察、0 组 READY 对照。基于当前 X 公开源码的[纠错测试帖](docs/SOURCE_LED_PUBLICATION_2026-10-01.md)已发布，账号总计 18 条代理核验发布；这不是已验证的传播效果。旧 30 条夜间文案已退出当前队列。三项下一轮比较机制记录在 `data/next_publication_experiment_2026-10-01.json`，状态为计划，尚非完成的实验。
+
+## Direct visible research and source-led publication — 2026-10-01
+
+[32 posts above 10,000 views and five structural hypotheses](docs/VIRAL_SAMPLES_AND_FORMULAS_2026-10-01.md) records actual local Browser Harness observations, 29 authors, 12 detail visits and 10 lower-view nonreply comparisons. These comparisons have unmatched ages; no causal pairs or validated formula. Raw metric labels, UTC and agent-only verification are preserved in `data/viral_samples_2026-10-01.json`. Screenshots and raw texts remain private. This separate research batch does not silently promote the SQLite human-confirmation workflow.
+
+[Four further source-led originals](docs/SOURCE_LED_PUBLICATION_2026-10-01_BATCH2.md) were published and individually verified: behavioral research, a local file-transfer tool, an official policy document and a NASA experiment. Account publications total 22; growth effects remain unknown.

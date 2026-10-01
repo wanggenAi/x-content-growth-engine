@@ -96,3 +96,15 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 - Published R01 as a source-led factual correction about misreading X ranking weights. Verified actual body, source card, public status URL and displayed time 07:53 Asia/Shanghai on the detail page; minute UTC is 2026-09-30T23:53Z, exact seconds unknown. Screenshot and initial observation remain ignored locally. Total agent-verified account publications: 18 (8 prior, 9 human-style, 1 source-led). No performance effect, formula promotion or fabricated human review.
 - Previous 30 night drafts are retained as superseded, and H10–H12 remain unpublished. They are not the current publication queue. Corrected unreliable exact creation/observation timestamps to unknown rather than fabricate precision.
 - Validation: 16 tests passed; full fresh seed replay confirmed stated counts; method-material validation, publication integrity/URL uniqueness audit and diff whitespace checks passed. Runtime database remains separate from versioned evidence and is not overwritten by editorial/source planning.
+
+### 2026-10-01T00:12:06.509880Z — Explicit visible research scope
+
+User requested broad Browser Harness research of actual >10,000-view X posts and source-led original publication. Recorded bounded local visible-interface scope in BROWSER_RESEARCH_POLICY.md; platform approval remains unconfirmed. Official policy documents added as one material category; censorship claims require independent evidence. No new sample or publication claimed at this checkpoint.
+
+### 2026-10-01T00:23:32.433662Z — Direct visible viral research
+
+6 thematic Browser Harness X searches yielded 46 >10k candidates; analyzed 32 posts from 29 authors and visited 12 detail URLs (one opens a long article). 8 author comparison searches inspected 68 posts; retained 10 nonreply lower-view exploratory comparisons. Date filters were not respected and comparisons are younger: zero causal-ready pairs. Preserved raw metric labels, UTC and agent-vs-human distinction. Five HYPOTHESIS grammars plus a distribution confound rule; no validated formula. Four independently sourced original drafts prepared. R02 submitted once; public result verification pending at this checkpoint.
+
+### 2026-10-01T00:27:56.261716Z — Four source-led originals published and verified
+
+R02 wallet field experiment, R03 LocalSend, R04 official AI-label document and R05 NASA DART study all published once through authorized native Chrome Computer Use. Four independent detail URLs, full source-linked text, minute-resolution publication time and private screenshots/log saved. Verified account publication total now 22; reviewed feedback DB remains zero. 16 tests passed; existing runtime audit still describes older seed data and does not count the separate 32-agent-sample JSON. No growth result or validated formula claimed.

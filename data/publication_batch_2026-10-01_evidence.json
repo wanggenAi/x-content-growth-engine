@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-10-01T00:22:26.652646Z",
+  "status": "4_PUBLISHED_AGENT_VERIFIED_FEEDBACK_PENDING",
+  "user_authorization": "PERSISTING_EXPLICIT_PUBLICATION_AUTHORIZATION",
+  "research_batch": "data/viral_samples_2026-10-01.json",
+  "formula_status": "HYPOTHESIS",
+  "published_count": 4,
+  "unpublished_count": 0,
+  "posts": [
+    {
+      "id": "R02",
+      "text": "钱包里钱越多，越容易被私吞？\n\n2019年《Science》实验：40国、355座城市、逾1.7万个钱包。多数国家，钱更多反而更容易有人联系失主。\n\n作者的解释之一：人不仅想要钱，也不想把自己看成小偷。\n\n只用“贪心”理解人性，可能漏掉了自我形象。\n\n结论限于实验场景。\nhttps://pubmed.ncbi.nlm.nih.gov/31221770/",
+      "hypothesis": "F01",
+      "material_id": "M17",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105453451891347607",
+      "published_at": null,
+      "published_minute_utc": "2026-10-01T00:23:00Z",
+      "effect": "UNKNOWN",
+      "weighted_length_estimate": 267,
+      "verification_at": "2026-10-01T00:24:13.736Z"
+    },
+    {
+      "id": "R03",
+      "text": "传一张原图，为什么先上传云端再下载？\n\nLocalSend：同一局域网，选文件→选设备→确认。\n\n免费开源，安卓、iPhone、Windows、Mac、Linux可互传。不需要外网或第三方服务器。\n\n找不到设备？检查本地网络权限和路由器设备隔离。\n\n小需求，也值得被认真解决。\nhttps://github.com/localsend/localsend",
+      "hypothesis": "F02",
+      "material_id": "M18",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105453774152286342",
+      "published_at": null,
+      "published_minute_utc": "2026-10-01T00:24:00Z",
+      "effect": "UNKNOWN",
+      "weighted_length_estimate": 262,
+      "verification_at": "2026-10-01T00:25:08.137Z"
+    },
+    {
+      "id": "R04",
+      "text": "没有AI水印，就没有AI痕迹？\n\n2025年《人工智能生成合成内容标识办法》区分：\n显式标识：人能看到。\n隐式标识：写入文件元数据。\n\n第九条还规定，有条件提供无显式标识内容时，相关日志要留存至少六个月。\n\n我的看法：判断图片来源，不能只看画面上有没有字。\n\n原文：https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+      "hypothesis": "F04",
+      "material_id": "M16",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105453977513218446",
+      "published_at": null,
+      "published_minute_utc": "2026-10-01T00:25:00Z",
+      "effect": "UNKNOWN",
+      "weighted_length_estimate": 271,
+      "verification_at": "2026-10-01T00:25:51.073Z"
+    },
+    {
+      "id": "R05",
+      "text": "人类真撞过小行星。\n\nDART的任务不是炸碎它，而是改变轨道。\n\nNASA 2024年研究：Dimorphos绕Didymos的周期最终缩短33分15秒。\n\n它当时不威胁地球，这是偏转技术试验。\n\n比起电影里最后一刻的爆炸，我更喜欢这个思路：早点做个小改变，让多年后的结果不一样。\nhttps://www.nasa.gov/missions/dart/nasa-study-asteroids-orbit-shape-changed-after-dart-impact/",
+      "hypothesis": "F01",
+      "material_id": "M19",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105454165434728797",
+      "published_at": null,
+      "published_minute_utc": "2026-10-01T00:26:00Z",
+      "effect": "UNKNOWN",
+      "weighted_length_estimate": 263,
+      "verification_at": "2026-10-01T00:26:49.722Z"
+    }
+  ]
+}

@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-30T23:57:16.579868Z",
-  "phase": "source_led_pilot_published_feedback_pending",
+  "updated_at": "2026-10-01T00:27:56.261716Z",
+  "phase": "direct_viral_research_and_4_originals_published_feedback_pending",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
     "public_x_discovery_probe": "done",
     "sample_store_mvp": "done",
-    "browser_permission_review": "done",
+    "browser_permission_review": "latest_explicit_user_scope_recorded_platform_approval_not_confirmed",
     "query_level_probe": "done",
     "manual_capture_ui": "done",
     "evidence_migration": "done",
     "matched_sample_expansion": "in_progress",
-    "mechanism_hypotheses": "pending_original_evidence",
+    "mechanism_hypotheses": "5_structured_hypotheses_0_validated",
     "original_material_bank": "in_progress",
     "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
     "own_post_feedback": "private_initial_agent_observations_recorded_not_human_reviewed",
     "live_github_recovery": "done",
-    "local_tests_and_seed_replay": "16_tests_passed_seed_replay_15_materials_11_x_links_13_observations",
+    "local_tests_and_seed_replay": "16_tests_passed_existing_runtime_audit_and_new_batch_integrity_checked",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
     "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
@@ -29,7 +29,8 @@
     "night_publication_batch": "30_unpublished_superseded_by_user_source_led_direction",
     "human_style_batch": "9_posts_published_agent_verified_3_unpublished",
     "open_source_virality_research": "8_pinned_repository_reads_10_community_leads_7_original_pages_3_index_only",
-    "source_led_pilot": "R01_published_public_detail_verified"
+    "source_led_pilot": "R01_published_public_detail_verified",
+    "source_led_batch2": "4_published_independent_detail_pages_verified"
   },
   "counts": {
     "x_posts": 11,
@@ -46,17 +47,18 @@
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
     "materials": 15,
-    "exploratory_drafts": 51,
+    "exploratory_drafts": 55,
     "own_posts": 0,
-    "verified_account_publications": 18,
-    "unpublished_candidates": 33
+    "verified_account_publications": 22,
+    "unpublished_candidates": 33,
+    "agent_observed_viral_posts": 32,
+    "agent_observed_exploratory_comparisons": 10
   },
   "blocked": [
-    "X terms prohibit crawling or scraping without prior written consent; no Browser Harness X automation",
-    "No dated non-index X metrics or ready controls yet",
+    "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Use the three planned mechanisms to expand comparable Chinese X originals and ordinary controls, record dated own-post outcomes at fixed windows, and generate independently sourced posts. Do not publish superseded batches or claim a validated formula from this single pilot.",
+  "next_action": "Capture fixed-window own-post outcomes with missing values preserved; expand independent-author/later-date evidence and genuinely matched comparisons. Five hypotheses remain unvalidated. Do not publish superseded drafts.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -126,8 +128,9 @@
     "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI"
   },
   "count_notes": {
-    "own_posts": "Reviewed feedback DB records remain zero. 18 agent-verified public publications are tracked separately, with unknown timestamp seconds preserved and no fabricated human review.",
-    "unpublished_candidates": "30 superseded style drafts plus 3 paused human-style drafts, retained for provenance; none are the active source-led queue."
+    "own_posts": "Reviewed feedback DB records remain zero; 22 agent-verified publications are recorded separately, with unknown timestamp seconds and no fabricated human review.",
+    "unpublished_candidates": "30 superseded style drafts plus 3 paused human-style drafts, retained for provenance; none are the active source-led queue.",
+    "agent_observed_viral_posts": "Separate source-kind batch with exact visible label counts and UTC; not included in existing human-confirmed SQLite x_posts/original_confirmed counts."
   },
   "night_publication_batch": {
     "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
@@ -181,5 +184,48 @@
     "url": "https://x.com/qiluo27808/status/2105445999900762128",
     "effects": "UNKNOWN_INITIAL_SNAPSHOT_ONLY",
     "human_checked": false
+  },
+  "browser_research_scope": {
+    "reviewed_at": "2026-10-01T00:12:06.509880Z",
+    "user_authorized": true,
+    "platform_written_approval": false,
+    "target_first_batch": 30,
+    "admission": "direct visible view count strictly above 10000; preserve approximate displays as text",
+    "human_checked": false
+  },
+  "direct_agent_viral_research": {
+    "file": "data/viral_samples_2026-10-01.json",
+    "analyzed_above_10000_views": 32,
+    "authors": 29,
+    "raw_candidates": 46,
+    "detail_visits": 12,
+    "exploratory_below_threshold_nonreply_comparisons": 10,
+    "valid_causal_pairs": 0,
+    "human_checked": false
+  },
+  "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
+  "evidence_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_evidence.json",
+    "published_count": 4,
+    "unpublished_count": 0,
+    "human_checked": false,
+    "effects": "UNKNOWN",
+    "urls": [
+      "https://x.com/qiluo27808/status/2105453451891347607",
+      "https://x.com/qiluo27808/status/2105453774152286342",
+      "https://x.com/qiluo27808/status/2105453977513218446",
+      "https://x.com/qiluo27808/status/2105454165434728797"
+    ]
+  },
+  "source_material_bank_round7": {
+    "file": "data/source_materials_round7_2026-10-01.json",
+    "source_checked_count": 4,
+    "imported_into_runtime_db": false
+  },
+  "validation": {
+    "unit_tests": 16,
+    "new_research_integrity": "32 unique >10000-view records, UTC raw labels and agent provenance; 10 nonreply comparisons explicitly unmatched",
+    "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
+    "formula_validated": 0
   }
 }
