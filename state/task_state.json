@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T01:15:04.507227Z",
-  "phase": "research_continues_on_schedule_confidence_gate_unmet",
+  "updated_at": "2026-10-01T01:31:41.151956Z",
+  "phase": "incremental_source_checked_publication_and_research_continuation",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -48,10 +48,10 @@
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
     "materials": 15,
-    "exploratory_drafts": 57,
+    "exploratory_drafts": 58,
     "own_posts": 0,
-    "verified_account_publications": 22,
-    "unpublished_candidates": 35,
+    "verified_account_publications": 25,
+    "unpublished_candidates": 33,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -236,14 +236,22 @@
       "checked_at": "2026-10-01T01:20:14Z"
     },
     "stage2_integrity": "208 unique original URLs; 89 exact visible labels above 10000; 74 authors/70 disjoint; 28 structural reviews; UTC provenance and agent-only verification; zero causal pairs or formula promotions; two unpublished candidates within weighted length limit",
-    "local_continuation": "Local automation configuration verified ACTIVE, heartbeat, current chat, two-hour interval; no new publication this checkpoint"
+    "local_continuation": "Local automation configuration verified ACTIVE, heartbeat, current chat, two-hour interval; no new publication this checkpoint",
+    "incremental_publication_integrity": "Three actual native Chrome detail pages; exact source-linked bodies; displayed minute times; screenshots and AX private; no fabricated human review",
+    "figure_contrast_integrity": "27 unique links / 19 exact threshold labels / five structural reviews / four detail visits; provenance and UTC checks passed; no formula promotion"
   },
   "confidence_gate": {
     "plan": "data/virality_confirmatory_plan_2026-10-01.json",
-    "status": "NOT_MET_NO_NEW_PUBLICATION",
+    "status": "HIGH_VIRAL_CONFIDENCE_NOT_ESTABLISHED",
     "future_virality_probability": null,
     "rationale": "Independent supportive cases and mature negative leads exist, but matched-topic/form controls, account reach and calibrated transfer evidence remain absent.",
-    "report": "docs/VIRAL_VALIDATION_STAGE2_2026-10-01.md"
+    "report": "docs/VIRAL_VALIDATION_STAGE2_2026-10-01.md",
+    "historical_decision": {
+      "at": "2026-10-01T01:15:04.507227Z",
+      "status": "NOT_MET_NO_NEW_PUBLICATION"
+    },
+    "latest_user_instruction": "Gradual source-checked publication tests while research continues; potentially dozens/hundreds over time",
+    "publishing_rule": "Editorial source/benefit/originality review allows gradual tests; does not imply validated viral confidence"
   },
   "validation_stage2": {
     "file": "data/viral_validation_stage2_2026-10-01.json",
@@ -265,12 +273,26 @@
     "destination": "current local chat",
     "created_at": "2026-10-01T01:15:04.507227Z",
     "no_extra_paid_integrations": true,
-    "publication_requires_confidence_gate": true
+    "publication_requires_confidence_gate": false,
+    "publication_requires_editorial_source_gate": true,
+    "latest_scope": "Research plus 1–2 original gradual tests per run; includes verified public-figure history",
+    "updated_at": "2026-10-01T01:30:28.705173Z"
   },
   "publication_candidates_stage2": {
     "file": "data/publication_candidates_stage2_2026-10-01.json",
-    "unpublished_count": 2,
-    "published_count": 0,
-    "status": "CONFIDENCE_GATE_NOT_MET"
+    "unpublished_count": 0,
+    "published_count": 3,
+    "status": "PUBLISHED_AGENT_VERIFIED",
+    "human_checked": false,
+    "growth_outcomes": "UNKNOWN"
+  },
+  "public_figure_contrast": {
+    "file": "data/public_figure_contrast_research_2026-10-01.json",
+    "observed": 27,
+    "above_10000": 19,
+    "structure_reviewed": 5,
+    "detail_visits": 4,
+    "formula_state": "HYPOTHESIS",
+    "valid_causal_pairs": 0
   }
 }

@@ -126,3 +126,13 @@ Validation for this checkpoint: all 16 tests passed; stage-two URL/metric/UTC/ma
 ### 2026-10-01T01:20:14Z — Second-stage reviewable GitHub checkpoint
 
 Evidence and decisions committed and pushed at c793a8d188eadba5d81ea4c409ce2047dfec5feb. Both push CI (36800561691) and PR CI (36800565077) succeeded. PR #5 description updated for the final comparison batch and conditional continuation; remains open/unmerged. This metadata records the tested evidence SHA, not a validated viral result. No new account publication.
+
+### 2026-10-01T01:23:40.265674Z — Public-figure contrast and gradual publication steering
+
+User adds historical public-figure contrast and explicitly permits gradual dozens/hundreds of originals. Preserve the earlier unmet high-confidence research decision; proceed with a small source-checked publication test under the newer instruction, without claiming causal formula validation or future viral probability. R06–R08 ready; R08 uses an attributable Stanford interview and labels commentary/history limits. Six visible searches inspected 27 links (19 displayed >10k); most do not establish this mechanism. No fake photos, personal allegations or decontextualized quotes will be used.
+
+### 2026-10-01T01:30:28.705173Z — Three gradual tests published and verified
+
+R06, R07 and R08 submitted once each through authorized native Chrome UI and verified on independent detail pages at displayed 09:24, 09:25, 09:26 Asia/Shanghai. Actual URLs in publication_candidates_stage2; seconds unknown; private screenshots and AX logs retained. Total verified publications 25, growth effects unknown. New F06 research: 27 observed links, 19 threshold-eligible, five structural reviews, four detail visits, zero causal pairs; historical source failures and missing dates preserved. Heartbeat x updated and verified ACTIVE for gradual 1–2 source-checked tests per run, not conditional on falsely achieving causal confidence. Latest user steer changes the publishing workflow; previous evidence conclusions remain intact.
+
+Validation: 16 tests passed; three-publication and 27-observation integrity checks passed; each screenshot/AX file is ignored. Existing SQLite audit remains its older 11 links/13 observations/four materials/zero reviewed own posts; separate new agent records were not imported as human-reviewed results. Diff whitespace check passed.

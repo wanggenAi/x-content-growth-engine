@@ -42,3 +42,5 @@ The user now explicitly requests Browser Harness inspection of public X posts ex
 ## Continued research scope — 2026-10-01T01:15:04.507227Z
 
 The user explicitly requested continued research until justified confidence before further publication. This continues the existing user-directed local visible research authorization; platform approval is still not confirmed. Subsequent heartbeat runs are bounded to at most 15 new public priority pages per run, preserve evidence and failures, and keep publication conditional on the documented confidence gate. No new credentials, endpoints, third-party automation installations, account settings, social engagement or cloud/paid integrations are authorized.
+
+2026-10-01T01:23:40.265674Z: User adds public-figure historical contrast and requests gradual larger-volume originals. Visible research and original source-checked test publication remain authorized; earlier unmet virality confidence is preserved as a finding, not represented as achieved. Native Computer Use may submit the small reviewed batch. This does not extend to private allegations, manufactured imagery or engagement actions.
