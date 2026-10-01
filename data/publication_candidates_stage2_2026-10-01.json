@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-01T01:13:50.070899Z",
+  "status": "UNPUBLISHED_CONFIDENCE_GATE_NOT_MET",
+  "published_count": 0,
+  "unpublished_count": 2,
+  "posts": [
+    {
+      "id": "R06",
+      "material": "M20",
+      "text": "读论文，别急着从第一页硬啃到最后。\n\nS.Keshav的《How to Read a Paper》建议先花5–10分钟：\n标题、摘要、引言→小标题→结论→参考文献。\n\n先判断研究什么、贡献在哪、假设是否靠谱，再决定要不要深读。\n\n第一遍的任务，其实是筛掉不值得花几小时的论文。\n\n原文只有两页：\nhttps://cs.uwaterloo.ca/~Brecht/courses/856/readings/how-to-read/keshav-paper-reading.pdf",
+      "weighted_length_estimate": 279,
+      "status": "UNPUBLISHED_CONFIDENCE_GATE_NOT_MET",
+      "url": null,
+      "published_at": null,
+      "human_checked": false,
+      "source_checked": true,
+      "virality_probability": null
+    },
+    {
+      "id": "R07",
+      "material": "M21",
+      "text": "延迟退休，别只盯着“几岁退休”。\n\n另一张表也在变：职工按月领基本养老金的最低缴费年限。\n2030年：15年6个月\n2035年：18年\n2039年：20年\n\n这是逐步调整，不是明天人人都要交满20年。\n\n真正要核对的是：你哪年退休，那一年要求交多久。\n\n官方表格：\nhttps://hrss.sz.gov.cn/szsi/zxbs/zdyw/gpywcj/yljslbl/",
+      "weighted_length_estimate": 256,
+      "status": "UNPUBLISHED_CONFIDENCE_GATE_NOT_MET",
+      "url": null,
+      "published_at": null,
+      "human_checked": false,
+      "source_checked": true,
+      "virality_probability": null
+    }
+  ]
+}

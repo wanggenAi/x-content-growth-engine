@@ -112,3 +112,13 @@ R02 wallet field experiment, R03 LocalSend, R04 official AI-label document and R
 ### 2026-10-01T00:30:29.274795Z — Reviewable GitHub checkpoint
 
 Research, formulas and four-publication manifests pushed at acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8. Both push and PR CI succeeded (36796423521 and 36796425582). Updated PR #5 title/body to reflect final evidence and limits; PR remains open and unmerged. This final metadata update records the tested SHA, not a claim of validated growth.
+
+### 2026-10-01T00:59:29.277954Z — Research-before-publication continuation
+
+User requests continued research until justified confidence before further posting. Preregistered F01/F02 feature definitions, independent-author exclusions, mature same-author/near-date comparisons and counterexamples. Confidence is an editorial evidence judgment, not an invented probability or guaranteed future view count. No new publication attempted.
+
+### 2026-10-01T01:15:04.507227Z — Independent comparison checkpoint and continued research
+
+Second stage observed 208 unique X links / 74 authors (70 disjoint from all prior samples), 89 above 10k; reviewed 28 structures and visited 9 detail links (2 open long articles). 78 age/coarse-form pair candidates fail full topic/form/source matching for mechanism conclusions; zero valid causal pairs and no formula promotion. Added mature failure leads, content-dependence examples and an unvalidated predictor audit. Early feedback for 5 recent own posts saved privately; insufficient distribution to calibrate virality. Two primary-source candidates remain unpublished under the user research-first confidence condition. Created and activated current-chat heartbeat automation x every two hours to continue bounded evidence work and feedback review; posting stays conditional on the documented confidence gate, with no paid/cloud integration.
+
+Validation for this checkpoint: all 16 tests passed; stage-two URL/metric/UTC/maturity/provenance integrity checks passed; both candidates remain unpublished and within the weighted 280-character limit; local continuation configuration verified ACTIVE; diff whitespace check passed. Public summaries contain no raw account analytics or private screenshots.
