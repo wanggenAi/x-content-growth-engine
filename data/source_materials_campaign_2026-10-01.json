@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T13:45:31Z",
+  "checked_at": "2026-10-01T14:38:02Z",
   "materials": [
     {
       "id": "CAM-S001",
@@ -333,8 +333,19 @@
       ],
       "human_checked": false,
       "original_publication_date": "2025-01-13"
+    },
+    {
+      "id": "CAM-C028",
+      "title": "聊完天后低估自己被喜欢的程度",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7500844/?report=reader",
+      "checked_at": "2026-10-01T14:38:02Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "2020 Psychol Res Behav Manag article; studies compared participants’ estimates of how much conversation partners liked them with partners’ actual ratings after brief interactions and found systematic underestimation. The article discusses a negative deviation effect and psychological defense in initial communication.",
+      "limits": "Evidence concerns brief interpersonal interactions and the reported study samples; it does not establish that every relationship or culture shows the same effect, nor does it prove why any individual conversation ended.",
+      "human_checked": false,
+      "original_publication_date": "2020-09-14"
     }
   ],
-  "limits": "27 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
-  "updated_at": "2026-10-01T13:45:31Z"
+  "limits": "28 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T14:38:02Z"
 }

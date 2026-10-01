@@ -241,3 +241,13 @@ C207 is a source-checked, unpublished candidate based on the Consumer Financial 
 ### 2026-10-01T13:48:21Z — C207 published and independently verified
 
 C207 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and CFPB preview card. The independent public detail page https://x.com/qiluo27808/status/2105655917723447695 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the consumerfinance.gov source card and the displayed minute 9:47 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 27 published campaign series, 0 ready, 180 research-pending, 207 rolling work items; 973 verified original series remain toward the 1000-new target.
+
+
+### 2026-10-01T14:38:02Z — C208 source-checked candidate
+
+C208 is a source-checked, unpublished candidate based on a 2020 peer-reviewed article in Psychol Res Behav Manag. Browser Harness opened the PMC reader page and confirmed the study’s comparison between participants’ estimates of how much conversation partners liked them and partners’ actual ratings after brief interactions; the reported result was systematic underestimation. The draft keeps the sample and short-interaction boundary visible and frames the “both waiting for proof” line as editorial voice. Counts: 27 published, 1 ready, 180 research-pending; 208 rolling work items and 973 remaining new publications.
+
+
+### 2026-10-01T14:40:35Z — C208 published and independently verified
+
+C208 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and PMC preview card. The independent public detail page https://x.com/qiluo27808/status/2105668972058439739 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the pmc.ncbi.nlm.nih.gov source card and the displayed minute 10:39 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 28 published campaign series, 0 ready, 180 research-pending, 208 rolling work items; 972 verified original series remain toward the 1000-new target.

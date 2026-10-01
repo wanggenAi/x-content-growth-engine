@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 27,
+  "published_count": 28,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 207,
-  "remaining_new_publications": 973,
+  "rolling_work_queue_count": 208,
+  "remaining_new_publications": 972,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3366,7 +3366,33 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the CFPB source URL as a t.co card; visible detail card domain/title matched consumerfinance.gov and the public body retained the source-label line."
+    },
+    {
+      "id": "C208",
+      "topic": "人性与关系",
+      "title": "很多关系被“我以为你不想理我”提前结束",
+      "text": "很多关系不是聊死的，是被“我以为你不想理我”提前结束的。\n\n一篇2020年发表的心理学研究，把刚认识的人聊完之后的评分拿来对照：参与者往往低估了对方对自己的好感。研究作者把这个现象叫作“喜欢差距”。\n\n你以为对方回得客气，是没兴趣；对方可能只是和你一样，聊完在复盘自己刚才是不是说错话。\n\n所以有些人不是缺朋友，是两个人都在等对方先证明：我没有讨厌你。\n\n这项研究观察的是短时互动，不是所有关系的通用答案。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC7500844/?report=reader",
+      "source_refs": [
+        "CAM-C028"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 271,
+      "url": "https://x.com/qiluo27808/status/2105668972058439739",
+      "published_at": "2026-10-01T14:39Z",
+      "virality_probability": null,
+      "editorial_limits": "事实限于2020年同行评议论文中的短时互动研究；“两个人都在等对方证明”是编辑判断，不是研究的普遍因果结论。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "verified_at": "2026-10-01T14:40:35Z",
+      "publication_time_display": "10:39 PM · Oct 1, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the PMC source URL as a t.co card; visible detail card domain/title matched pmc.ncbi.nlm.nih.gov and the public body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T13:48:21Z"
+  "updated_at": "2026-10-01T14:40:35Z"
 }
