@@ -150,3 +150,27 @@ User asks at least200 posts and ongoing larger-scale work, adding past glory/cur
 C014–C017 were submitted once each through the user-authorized visible Chrome UI and independently verified on their X detail pages. The 200-post campaign now has **17 agent-verified new publications**, **42 cumulative verified account publications** (baseline 25), **0 ready unposted items**, and **183 research-pending briefs**. C017 is the Einstein Nobel citation correction and links the Nobel primary record; displayed posting time is 10:07 Asia/Shanghai, with seconds unavailable. Views, engagement and formula effects remain unknown; no virality claim is made. Historical death/decline angles remain conditional on dated public records and are not treated as current breaking news.
 
 Validation for this checkpoint: campaign manifest integrity and unique URL checks passed; private screenshots/AX logs remain ignored; existing research tables remain separate from own-publication records.
+
+### 2026-10-01T02:37:00Z — Two source-checked originals added
+
+C019 and C020 were posted once each through visible Chrome and returned X's “Your post was sent” confirmation. C019 cites the Nobel 2015 medicine summary for Tu Youyou; C020 cites the NASA-hosted Presidential Commission report for the Challenger timeline. The campaign now has **19 agent-verified new publications**, **44 cumulative verified account publications**, **0 ready unposted items**, and **181 research-pending briefs**. No view or engagement outcome is used as a causal result.
+
+### 2026-10-01T02:40:00Z — Broader creator range and explicit editorial hypothesis
+
+C021 was posted once through visible Chrome and returned the visible send confirmation. It is an explicitly labeled “暴论” writing hypothesis about recitable wording and evidence, not a measured ranking rule. The campaign now has **20 agent-verified new publications**, **45 cumulative verified account publications**, and **180 research-pending briefs**. Future batches expand to medium-known creators, entertainers, streamers, entrepreneurs and controversial public figures, with factual status claims still requiring attributable records.
+
+### 2026-10-01T03:16:16Z — Publication-quality incident repaired and user steering persisted
+
+**Correction to the preceding C019–C021 checkpoints:** the send confirmations established submissions only; their claimed body verification was wrong. Actual published CJK characters were missing, leaving quotes/digits. Initial repair attempts changed displayed DOM without reliably changing editor state, producing repeated text/misplaced links. Native paste into the focused real editor resolved this. No further new post was submitted while repairs were unresolved.
+
+- C019 final edited version: https://x.com/qiluo27808/status/2105495699974758757 (displayed last edit 11:11 Asia/Shanghai).
+- C020 final edited version: https://x.com/qiluo27808/status/2105495079918194726 (displayed last edit 11:08 Asia/Shanghai).
+- C021 final edited version: https://x.com/qiluo27808/status/2105492753719447767 (displayed last edit 10:59 Asia/Shanghai).
+
+All three were reloaded independently. Their non-link body text matches the clean draft after whitespace normalization; nonempty paragraphs are unique. Screenshots were captured and inspected for text and link placement; raw observations stay ignored/private. Original and failed intermediate URLs are retained in the manifest. Minute posting/edited timestamps replace the earlier mistaken times; seconds remain unknown. Twenty different campaign post series /45 total remain, not more posts for edits. C021 is editorial opinion, not a source-confirmed scientific claim. Repeated source-material IDs were consolidated without inventing extra evidence; title variants retained.
+
+Persisted all substantive user requests through this point in docs/USER_DECISION_LOG.md and docs/CONTENT_VOICE_AND_WORKFLOW.md; AGENTS.md now requires reading them at resume. Latest steering includes broad social/creator/controversial-person topics, specific oral 根哥 voice, no parental/AI tone, grammatically coherent text and no repetition, explicit opinion hooks, source checks, natural relevant replies, less account-monitoring overhead and Browser Harness preference within method boundaries. Unknown “Keybo” identity remains unresolved, not guessed. Automation x updated ACTIVE to read these documents and enforce editor-before-send plus public-body-after-send checks.
+
+### 2026-10-01T03:56:58Z — Repair checkpoint audited
+
+Campaign manifest and state counts agree at 20 new verified series / 45 cumulative / 180 research-pending. The repository test suite passed (`16` tests). `python3 -m growth_engine audit` completed with known limitations: the research sample is below exploratory targets, available X view counts are stale search-index snapshots, and follower counts are unknown; no formula validation or virality claim is made. A first integrity check exposed only the historical `url` versus repair-era `final_url` field difference; the compatibility-aware check passed with 20 unique active URLs. No new publication was added in this checkpoint.

@@ -153,51 +153,10 @@
       "verified_basis": "Trinity College Cambridge confirms Newton entered in 1661 and remained until 1696, with major mathematical/scientific work completed by then.",
       "limits": "The page does not itself document every plague-year anecdote; text deliberately avoids unsupported apple/annus mirabilis claims.",
       "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C015",
-      "title": "达尔文出发前的职业选择",
-      "url": "https://www.darwinproject.ac.uk/letter?docId=letters%2FDCP-LETT-110.xml",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Cambridge Darwin Correspondence Project transcript dated 31 August 1831 records objections and request for a yes/no answer.",
-      "limits": "The later scientific outcome is historical context, not proof the letter predicted it.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C016",
-      "title": "居里夫人的两次诺奖分别表彰什么",
-      "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel biographical page states 1903 Physics shared prize, 1911 Chemistry prize, Pierre death 1906 and Sorbonne appointment.",
-      "limits": "Historical summary; no claim about current status or simplistic “first woman professor” beyond source scope.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C017",
-      "title": "爱因斯坦诺奖获奖理由和大众记忆有何差别",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel official summary states the prize citation and 1921/1922 timing.",
-      "limits": "Does not diminish relativity; distinguishes public memory from award citation.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C014",
-      "title": "牛顿离开剑桥的瘟疫时期怎样工作",
-      "url": "https://www.trin.cam.ac.uk/about/historical-overview/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Trinity College Cambridge confirms Newton entered in 1661 and remained until 1696, with major mathematical/scientific work completed by then.",
-      "limits": "The page does not itself document every plague-year anecdote; text deliberately avoids unsupported apple/annus mirabilis claims.",
-      "human_checked": false,
-      "original_publication_date": null
+      "original_publication_date": null,
+      "title_variants": [
+        "牛顿离开剑桥的瘟疫时期怎样工作"
+      ]
     },
     {
       "id": "CAM-C015",
@@ -208,51 +167,11 @@
       "verified_basis": "Cambridge Darwin Correspondence Project transcript dated 31 August 1831 records objections and request for a yes/no answer.",
       "limits": "The later scientific outcome is historical context, not proof the letter predicted it.",
       "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C016",
-      "title": "居里夫人的两次诺奖分别表彰什么",
-      "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel biographical page states 1903 Physics shared prize, 1911 Chemistry prize, Pierre death 1906 and Sorbonne appointment.",
-      "limits": "Historical summary; no claim about current status or simplistic “first woman professor” beyond source scope.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C017",
-      "title": "爱因斯坦诺奖获奖理由和大众记忆有何差别",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel official summary states the prize citation and 1921/1922 timing.",
-      "limits": "Does not diminish relativity; distinguishes public memory from award citation.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C014",
-      "title": "牛顿离开剑桥的瘟疫时期怎样工作",
-      "url": "https://www.trin.cam.ac.uk/about/historical-overview/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Trinity College Cambridge confirms Newton entered in 1661 and remained until 1696, with major mathematical/scientific work completed by then.",
-      "limits": "The page does not itself document every plague-year anecdote; text deliberately avoids unsupported apple/annus mirabilis claims.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C015",
-      "title": "达尔文差点没上小猎犬号",
-      "url": "https://www.darwinproject.ac.uk/letter?docId=letters%2FDCP-LETT-110.xml",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Cambridge Darwin Correspondence Project transcript dated 31 August 1831 records objections and request for a yes/no answer.",
-      "limits": "The later scientific outcome is historical context, not proof the letter predicted it.",
-      "human_checked": false,
-      "original_publication_date": null
+      "original_publication_date": null,
+      "title_variants": [
+        "达尔文出发前的职业选择",
+        "达尔文差点没上小猎犬号"
+      ]
     },
     {
       "id": "CAM-C016",
@@ -263,51 +182,11 @@
       "verified_basis": "Nobel biographical page states 1903 Physics shared prize, 1911 Chemistry prize, Pierre death 1906 and Sorbonne appointment.",
       "limits": "Historical summary; no claim about current status or simplistic “first woman professor” beyond source scope.",
       "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C017",
-      "title": "爱因斯坦诺奖获奖理由和大众记忆有何差别",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel official summary states the prize citation and 1921/1922 timing.",
-      "limits": "Does not diminish relativity; distinguishes public memory from award citation.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C014",
-      "title": "牛顿离开剑桥的瘟疫时期怎样工作",
-      "url": "https://www.trin.cam.ac.uk/about/historical-overview/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Trinity College Cambridge confirms Newton entered in 1661 and remained until 1696, with major mathematical/scientific work completed by then.",
-      "limits": "The page does not itself document every plague-year anecdote; text deliberately avoids unsupported apple/annus mirabilis claims.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C015",
-      "title": "达尔文差点没上小猎犬号",
-      "url": "https://www.darwinproject.ac.uk/letter?docId=letters%2FDCP-LETT-110.xml",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Cambridge Darwin Correspondence Project transcript dated 31 August 1831 records objections and request for a yes/no answer.",
-      "limits": "The later scientific outcome is historical context, not proof the letter predicted it.",
-      "human_checked": false,
-      "original_publication_date": null
-    },
-    {
-      "id": "CAM-C016",
-      "title": "居里夫人的两次诺奖，表彰的不是同一件事",
-      "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/",
-      "checked_at": "2026-10-01T02:01:28.274088Z",
-      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
-      "verified_basis": "Nobel biographical page states 1903 Physics shared prize, 1911 Chemistry prize, Pierre death 1906 and Sorbonne appointment.",
-      "limits": "Historical summary; no claim about current status or simplistic “first woman professor” beyond source scope.",
-      "human_checked": false,
-      "original_publication_date": null
+      "original_publication_date": null,
+      "title_variants": [
+        "居里夫人的两次诺奖分别表彰什么",
+        "居里夫人的两次诺奖，表彰的不是同一件事"
+      ]
     },
     {
       "id": "CAM-C017",
@@ -318,8 +197,46 @@
       "verified_basis": "Nobel official summary states the prize citation and 1921/1922 timing.",
       "limits": "Does not diminish relativity; distinguishes public memory from award citation.",
       "human_checked": false,
+      "original_publication_date": null,
+      "title_variants": [
+        "爱因斯坦的诺奖，不是因为相对论",
+        "爱因斯坦诺奖获奖理由和大众记忆有何差别"
+      ]
+    },
+    {
+      "id": "CAM-C019",
+      "title": "屠呦呦诺奖官方表述有多克制",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/summary/",
+      "checked_at": "2026-10-01T02:30:00Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Nobel official summary states the 2015 medicine prize was split and half awarded to Tu Youyou for discoveries concerning a novel therapy against malaria.",
+      "limits": "The summary confirms the citation only; it does not validate every later anecdote about the discovery process.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-C020",
+      "title": "挑战者号事故的73秒时间轴",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "checked_at": "2026-10-01T02:30:00Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "NASA-hosted Presidential Commission report records the 11:38 launch, breakup after 73 seconds and loss of all seven crew members.",
+      "limits": "This post states the report's event timeline and does not assign a causal conclusion.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "EDITORIAL-HYPOTHESIS-2026-10-01",
+      "title": "暴论式写作假设：可复述性与证据",
+      "url": null,
+      "checked_at": "2026-10-01T02:39:00Z",
+      "source_kind": "ORIGINAL_EDITORIAL_HYPOTHESIS",
+      "verified_basis": "The post is explicitly labeled as a writing hypothesis and makes no empirical claim about X ranking or virality.",
+      "limits": "Not a research finding; no causal or reach inference.",
+      "human_checked": false,
       "original_publication_date": null
     }
   ],
-  "limits": "Only the first13 candidates have checked sources. The other187 are research briefs, not verified facts or completed manuscripts."
+  "limits": "19 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining180 are pending research briefs; no outcome claim.",
+  "updated_at": "2026-10-01T03:16:16.652879Z"
 }

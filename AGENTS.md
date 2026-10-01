@@ -1,5 +1,7 @@
 # Long-term development constraints
 
+- On every resumed session or new machine, first read `docs/CONTENT_VOICE_AND_WORKFLOW.md`, `docs/USER_DECISION_LOG.md`, `TASK_STATE.md` and `state/task_state.json`. Persist every substantive user steer, decision, failure and real output before ending a work round. Preserve latest wording and post-version checks; send confirmation alone never qualifies a post as verified.
+
 - This repository is independent. Do not modify other repositories or purchase services.
 - Zero incremental cost: no paid X/API/model calls, proxy, cloud resource or subscription. Confirm free access before adding any integration.
 - Never install or run third-party tools that read browser cookies, access social accounts, or automate pages without a separate safety, permission and platform-policy review.

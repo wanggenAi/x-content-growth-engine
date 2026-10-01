@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T01:32:57.239616Z",
+  "updated_at": "2026-10-01T03:56:58Z",
   "phase": "active_200_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -300,9 +300,25 @@
     "target_new_publications": 200,
     "baseline_verified_publications": 25,
     "target_total": 225,
-    "published_new": 17,
+    "published_new": 20,
     "ready": 0,
-    "research_pending": 183,
-    "status": "ACTIVE_NOT_COMPLETE"
+    "research_pending": 180,
+    "status": "ACTIVE_NOT_COMPLETE",
+    "total_verified_series": 45
+  },
+  "editorial_workflow": {
+    "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
+    "decision_log": "docs/USER_DECISION_LOG.md",
+    "cumulative_verified_series": 45,
+    "latest_repair_ids": [
+      "C019",
+      "C020",
+      "C021"
+    ],
+    "latest_repair_verified_at": "2026-10-01T03:16:16.652879Z",
+    "body_gate": "COMPARE_REAL_EDITOR_THEN_RELOAD_PUBLIC_BODY_AND_SCREENSHOT",
+    "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
+    "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
+    "unknown_referred_person": "Keybo"
   }
 }

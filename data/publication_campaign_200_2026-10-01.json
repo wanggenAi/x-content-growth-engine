@@ -5,9 +5,9 @@
   "target_new_publications": 200,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 225,
-  "published_count": 17,
+  "published_count": 20,
   "ready_count": 0,
-  "research_pending_count": 183,
+  "research_pending_count": 180,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -420,47 +420,95 @@
     {
       "id": "C019",
       "topic": "人物档案",
-      "title": "屠呦呦研究过程有哪些本人报告",
-      "text": null,
-      "source_refs": [],
-      "status": "RESEARCH_PENDING",
-      "source_checked": false,
+      "title": "屠呦呦诺奖官方表述有多克制",
+      "text": "诺奖官网这一页，反而没那些短视频讲得热闹。\n\n2015年医学奖，一半给屠呦呦，理由是关于疟疾新疗法的发现。\n\n没有突然顿悟的爽文桥段，就这一条。\n\n故事听着痛快，和细节有出处，是两回事。\n\nhttps://www.nobelprize.org/prizes/medicine/2015/summary/",
+      "source_refs": [
+        "CAM-C019"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
       "human_checked": false,
       "weighted_length_estimate": null,
-      "url": null,
-      "published_at": null,
+      "url": "https://x.com/qiluo27808/status/2105495699974758757",
+      "published_at": "2026-10-01T02:27Z",
+      "time_precision": "minute_displayed_local_Asia_Shanghai",
       "virality_probability": null,
-      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting."
+      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting.",
+      "original_url": "https://x.com/qiluo27808/status/2105484774550962379",
+      "superseded_version_urls": [
+        "https://x.com/qiluo27808/status/2105493900727398882"
+      ],
+      "last_edited_at": "2026-10-01T03:11Z",
+      "published_at_precision": "minute",
+      "last_edited_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T03:14:33.871043+00:00",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "repair_note": "Initial send confirmation was wrongly treated as body verification. CJK text was lost; subsequent editor-model mismatch produced duplicated/misplaced link text. Native focused paste repaired the final version; reload text and screenshots passed. Edit versions are not new publications."
     },
     {
       "id": "C020",
       "topic": "人物档案",
-      "title": "费曼的挑战者调查原话是否被简化",
-      "text": null,
-      "source_refs": [],
-      "status": "RESEARCH_PENDING",
-      "source_checked": false,
+      "title": "挑战者号事故的73秒时间轴",
+      "text": "73秒。\n\n这是挑战者号从发射到解体的时间。1986年1月28日，7名机组成员全部遇难。\n\nNASA的原始报告，第一段就把时间写在那里。\n\n我不想先听煽情的旁白。那73秒怎么发生的，比一句命运无常更值得看。\n\nhttps://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "source_refs": [
+        "CAM-C020"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
       "human_checked": false,
       "weighted_length_estimate": null,
-      "url": null,
-      "published_at": null,
+      "url": "https://x.com/qiluo27808/status/2105495079918194726",
+      "published_at": "2026-10-01T02:27Z",
+      "time_precision": "minute_displayed_local_Asia_Shanghai",
       "virality_probability": null,
-      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting."
+      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting.",
+      "original_url": "https://x.com/qiluo27808/status/2105484679503835349",
+      "superseded_version_urls": [
+        "https://x.com/qiluo27808/status/2105494354454561205"
+      ],
+      "last_edited_at": "2026-10-01T03:08Z",
+      "published_at_precision": "minute",
+      "last_edited_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T03:14:36.877208+00:00",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "repair_note": "Initial send confirmation was wrongly treated as body verification. CJK text was lost; subsequent editor-model mismatch produced duplicated/misplaced link text. Native focused paste repaired the final version; reload text and screenshots passed. Edit versions are not new publications."
     },
     {
       "id": "C021",
-      "topic": "人物档案",
-      "title": "钱学森早年论文与后来的公众形象",
-      "text": null,
-      "source_refs": [],
-      "status": "RESEARCH_PENDING",
+      "topic": "写作观点",
+      "title": "暴论：大多数人先转发“我居然看懂了”",
+      "text": "说个暴论：一段话连复述都费劲，我就懒得转。\n\n不是东西没价值。是我还得替作者翻译一遍，太累了。\n\n但为了好懂，把证据删光，也没意思。那叫口号。\n\n我写东西想试的就是这条：话说短，证据留住。至于会不会火，发了再说。",
+      "source_refs": [
+        "EDITORIAL-HYPOTHESIS-2026-10-01"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": false,
       "human_checked": false,
       "weighted_length_estimate": null,
-      "url": null,
-      "published_at": null,
+      "url": "https://x.com/qiluo27808/status/2105492753719447767",
+      "published_at": "2026-10-01T02:31Z",
+      "time_precision": "minute_displayed_local_Asia_Shanghai",
+      "editorial_limits": "Personal view, not an empirical population claim or demonstrated reach mechanism.",
       "virality_probability": null,
-      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting."
+      "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting.",
+      "original_url": "https://x.com/qiluo27808/status/2105485718307082358",
+      "superseded_version_urls": [],
+      "last_edited_at": "2026-10-01T02:59Z",
+      "published_at_precision": "minute",
+      "last_edited_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T03:14:40.466772+00:00",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "repair_note": "Initial send confirmation was wrongly treated as body verification. CJK text was lost; subsequent editor-model mismatch produced duplicated/misplaced link text. Native focused paste repaired the final version; reload text and screenshots passed. Edit versions are not new publications.",
+      "editorial_reviewed": true
     },
     {
       "id": "C022",
@@ -3148,5 +3196,5 @@
       "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting."
     }
   ],
-  "updated_at": "2026-10-01T02:08:00Z"
+  "updated_at": "2026-10-01T03:16:16.652879Z"
 }
