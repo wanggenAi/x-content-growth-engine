@@ -227,3 +227,7 @@ C206 is a source-checked, unpublished candidate based on the FTC’s March 11, 2
 ### 2026-10-01T11:05:00Z — C206 publication blocked by Chrome read timeout
 
 C206 remains READY_TO_PUBLISH and was not submitted. The existing Chrome X tab was visible in the browser inventory, but two attempts to bind/read the X home composer timed out. No editor body was obtained, no click on Post was made, and the campaign remains at 25 published, 1 ready, 180 research-pending, 206 rolling work items; 975 remain toward the 1000-new target. Resume only after the visible editor can be read and the body gate passes.
+
+### 2026-10-01T11:39:20Z — C206 published and independently verified
+
+C206 was submitted once after the window-level visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105623301343322237 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 7:38 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 26 published campaign series, 0 ready, 180 research-pending, 206 rolling work items; 974 verified original series remain toward the 1000-new target.

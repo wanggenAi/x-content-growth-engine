@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 25,
-  "ready_count": 1,
+  "published_count": 26,
+  "ready_count": 0,
   "research_pending_count": 180,
   "rolling_work_queue_count": 206,
-  "remaining_new_publications": 975,
+  "remaining_new_publications": 974,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3325,22 +3325,22 @@
       "source_refs": [
         "CAM-C026"
       ],
-      "status": "READY_TO_PUBLISH",
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
       "weighted_length_estimate": 364,
-      "url": null,
-      "published_at": null,
+      "url": "https://x.com/qiluo27808/status/2105623301343322237",
+      "published_at": "2026-10-01T11:38Z",
       "virality_probability": null,
       "editorial_limits": "事实限于FTC 2026年3月11日新闻稿；取消障碍是个人判断，不宣称所有订阅商违法或FTC已证明因果。",
-      "published_at_precision": null,
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
       "exact_publication_seconds": null,
-      "verified_at": null,
-      "verification_source": null,
-      "body_matches_editorial_text": null,
-      "duplicate_paragraphs": null,
-      "link_rendering": null
+      "verified_at": "2026-10-01T11:39:20Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the FTC source URL as a t.co card; visible detail card domain and title matched ftc.gov."
     }
   ],
-  "updated_at": "2026-10-01T11:00:00Z"
+  "updated_at": "2026-10-01T11:39:20Z"
 }
