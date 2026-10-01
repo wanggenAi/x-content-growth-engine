@@ -140,3 +140,13 @@ Validation: 16 tests passed; three-publication and 27-observation integrity chec
 ### 2026-10-01T01:32:57.239616Z — Gradual publication evidence CI checkpoint
 
 Safe research/publication records pushed at 8432e625a70431a2b4a02ff1640076a08d88c278; push CI 36801568976 and PR CI 36801570390 both succeeded. PR #5 updated and remains open/unmerged. Local scheduled continuation ACTIVE; 25 agent-verified publications, zero validated viral formulas. This metadata records the tested evidence SHA.
+
+### 2026-10-01T01:45:12.244160Z — Explicit 200 further-publication campaign
+
+User asks at least200 posts and ongoing larger-scale work, adding past glory/current decline/death as another contrast dimension. Created200 distinct work items,13 source-checked ready originals and187 pending-research briefs, not200 completed manuscripts or publications. Baseline25; target200 further originals/225 total. Historical deaths and decline require attributable dated records; do not turn them into fabricated breaking news. Source notes separate factual evidence and editorial interpretation.
+
+### 2026-10-01T02:08:00Z — Campaign batch verified through C017
+
+C014–C017 were submitted once each through the user-authorized visible Chrome UI and independently verified on their X detail pages. The 200-post campaign now has **17 agent-verified new publications**, **42 cumulative verified account publications** (baseline 25), **0 ready unposted items**, and **183 research-pending briefs**. C017 is the Einstein Nobel citation correction and links the Nobel primary record; displayed posting time is 10:07 Asia/Shanghai, with seconds unavailable. Views, engagement and formula effects remain unknown; no virality claim is made. Historical death/decline angles remain conditional on dated public records and are not treated as current breaking news.
+
+Validation for this checkpoint: campaign manifest integrity and unique URL checks passed; private screenshots/AX logs remain ignored; existing research tables remain separate from own-publication records.

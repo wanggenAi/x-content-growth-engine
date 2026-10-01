@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "updated_at": "2026-10-01T01:32:57.239616Z",
-  "phase": "incremental_source_checked_publication_and_research_continuation",
+  "phase": "active_200_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -275,7 +275,7 @@
     "no_extra_paid_integrations": true,
     "publication_requires_confidence_gate": false,
     "publication_requires_editorial_source_gate": true,
-    "latest_scope": "Research plus 1–2 original gradual tests per run; includes verified public-figure history",
+    "latest_scope": "At least200 further original publications, source-checked; up to5 eligible per2-hour run; then continued research",
     "updated_at": "2026-10-01T01:30:28.705173Z"
   },
   "publication_candidates_stage2": {
@@ -294,5 +294,15 @@
     "detail_visits": 4,
     "formula_state": "HYPOTHESIS",
     "valid_causal_pairs": 0
+  },
+  "publication_campaign": {
+    "file": "data/publication_campaign_200_2026-10-01.json",
+    "target_new_publications": 200,
+    "baseline_verified_publications": 25,
+    "target_total": 225,
+    "published_new": 17,
+    "ready": 0,
+    "research_pending": 183,
+    "status": "ACTIVE_NOT_COMPLETE"
   }
 }
