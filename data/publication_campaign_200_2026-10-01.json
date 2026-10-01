@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 33,
+  "published_count": 35,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 213,
-  "remaining_new_publications": 967,
+  "rolling_work_queue_count": 215,
+  "remaining_new_publications": 965,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3527,7 +3527,61 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
+    },
+    {
+      "id": "C214",
+      "topic": "人性与关系",
+      "title": "让人觉得被在乎的，不一定是贵礼物",
+      "text": "很多关系里，真正让人觉得“你在乎我”的，不是东西有多贵，而是你有没有把我当成一个具体的人来想。\n\n2008年《Emotion》一项研究观察了大学社团里的“Big Sister Week”：160名参与者记录了496次礼物或帮助。收到帮助的人越觉得对方懂自己、花了心思，越容易感到感激；这一周里的感激程度，还和之后的关系评价有关，研究追踪到一个月后。\n\n所以同样是一杯咖啡，顺手买的，和记得你不喝糖的，给人的感觉真不一样。\n\n当然，这不是“送礼就能操控关系”。研究观察的是一个特定校园仪式，不是所有关系的通用公式。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC2692821/?report=reader",
+      "source_refs": [
+        "CAM-C034"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 278,
+      "url": "https://x.com/qiluo27808/status/2105793656137658594",
+      "published_at": "2026-10-01T22:55Z",
+      "virality_probability": null,
+      "editorial_limits": "基于Emotion 2008论文全文；研究是特定大学社团的Big Sister Week，160名参与者、496次事件记录，感激与关系结果的关联在活动后及一个月后测量；咖啡例子是编辑化表达，不是研究直接测量，也不证明送礼可以操控关系。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T22:55:30Z",
+      "publication_time_display": "6:55 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
+    },
+    {
+      "id": "C215",
+      "topic": "人性阴暗面与道歉",
+      "title": "最让人寒心的道歉，是把道歉当成免责卡",
+      "text": "最让人寒心的道歉，不是说得不够好听，而是说得刚好够让自己过关。\n\n2018年《PLoS One》一项实验让参与者玩改造版的最后通牒博弈：做决定的人可以发道歉信息，另一方可以选择奖励或惩罚。研究者发现，当对方怀疑这句道歉只是为了脱身，反而更容易选择惩罚。\n\n现实里最刺耳的那句，往往不是“对不起”，而是下一句：我都道歉了，你还想怎样？\n\n当然，不是所有事后道歉都虚伪。研究讨论的是“把好行为拿来遮住坏行为”的工具性道歉，真诚认错和这个不是一回事。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC6224065/?report=reader",
+      "source_refs": [
+        "CAM-C035"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 284,
+      "url": "https://x.com/qiluo27808/status/2105796210858811694",
+      "published_at": "2026-10-01T23:05Z",
+      "virality_probability": null,
+      "editorial_limits": "基于PLoS One 2018同行评议全文；实验使用改造版最后通牒博弈，参与者可发道歉信息，回应者可选择有成本或无成本的奖励/惩罚；研究报告在怀疑道歉不真诚时会惩罚提议者。稿件把‘我都道歉了，你还想怎样’写成编辑化场景，不将所有道歉或所有惩罚都归为操控。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T23:05:36Z",
+      "publication_time_display": "7:05 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T21:45:04Z"
+  "updated_at": "2026-10-01T23:05:36Z"
 }

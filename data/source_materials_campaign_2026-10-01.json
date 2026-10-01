@@ -414,8 +414,36 @@
       ],
       "human_checked": false,
       "original_publication_date": "2023-11-30"
+    },
+    {
+      "id": "CAM-C034",
+      "title": "被具体地想到，比礼物贵不贵更能让人感到在乎",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2692821/?report=reader",
+      "checked_at": "2026-10-01T22:53:09Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "Emotion 2008 article by Sara B. Algoe, Jonathan Haidt and Shelly L. Gable. In a naturally occurring Big Sister Week, 160 participants from three sororities recorded 496 benefit events; perceived benefactor responsiveness predicted gratitude, and gratitude during the week predicted later relationship outcomes measured after the event and one month later.",
+      "limits": [
+        "The study concerns a specific college sorority gift-giving practice and its participants; it does not establish a universal effect for all gifts, relationships or cultures.",
+        "The draft uses the study to distinguish perceived thoughtfulness from price; the coffee example is editorial, not a measured result, and the study does not show that gifts can manipulate relationships."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2008-06-01"
+    },
+    {
+      "id": "CAM-C035",
+      "title": "把道歉当成免责卡的人，反而更容易被惩罚",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224065/?report=reader",
+      "checked_at": "2026-10-01T22:58:36Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2018 article by Elias L. Khalil and Nick Feltovich. In a modified ultimatum game, proposers could send apology messages and responders had costly and costless options to reward or punish. The authors report that when responders became suspicious that an apology was insincere, they punished the proposer, and distinguish instrumental apology from genuine apology.",
+      "limits": [
+        "The experiment concerns a modified ultimatum game and the authors' conceptual distinction; it does not show that every apology after wrongdoing is manipulative or that punishment is always justified.",
+        "The draft treats the '我都道歉了你还想怎样' line as editorial interpretation, not a measured phrase or universal motive."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2018-11-08"
     }
   ],
-  "limits": "30 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
-  "updated_at": "2026-10-01T21:42:30Z"
+  "limits": "32 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T22:58:36Z"
 }

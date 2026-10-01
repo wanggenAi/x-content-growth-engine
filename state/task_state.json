@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T17:44:30Z",
+  "updated_at": "2026-10-01T23:05:36Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -47,11 +47,11 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 33,
+    "materials": 35,
     "exploratory_drafts": 60,
     "own_posts": 0,
-    "verified_account_publications": 58,
-    "unpublished_candidates": 33,
+    "verified_account_publications": 60,
+    "unpublished_candidates": 34,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -59,7 +59,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Continue source research on ordinary human behavior and relationships; next candidate must pass visible editor body gate and independent public detail reload verification.",
+  "next_action": "Expand source research to dark human motives and undernoticed China public records; next candidate must use a verifiable primary source and pass visible editor body gate plus independent public detail reload verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -300,13 +300,13 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 33,
+    "published_new": 35,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 58,
-    "remaining_new_publications": 967,
-    "rolling_work_queue_count": 213
+    "total_verified_series": 60,
+    "remaining_new_publications": 965,
+    "rolling_work_queue_count": 215
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -325,13 +325,13 @@
     "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "WINDOW_LEVEL_VISIBLE_CHROME_EDITOR_READ_AND_NATIVE_PASTE_ACCEPTED_FULL_CJK_BODY_AND_SCREENSHOT",
-    "latest_publication_id": "C213",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105775925686411678",
-    "latest_publication_verified_at": "2026-10-01T21:45:04Z",
-    "latest_candidate_id": "C213",
-    "latest_candidate_source": "CAM-C033",
-    "latest_candidate_checked_at": "2026-10-01T21:42:30Z",
+    "latest_publication_id": "C215",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105796210858811694",
+    "latest_publication_verified_at": "2026-10-01T23:05:36Z",
+    "latest_candidate_id": "C215",
+    "latest_candidate_source": "CAM-C035",
+    "latest_candidate_checked_at": "2026-10-01T22:58:36Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Continue source research on ordinary human behavior and relationships; next candidate must pass visible editor body gate and independent public detail reload verification."
+    "next_action": "Research the next dark human motive or undernoticed China public record with a verifiable primary source; then pass the visible editor body gate and independent public detail reload."
   }
 }
