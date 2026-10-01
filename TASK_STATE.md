@@ -251,3 +251,7 @@ C208 is a source-checked, unpublished candidate based on a 2020 peer-reviewed ar
 ### 2026-10-01T14:40:35Z — C208 published and independently verified
 
 C208 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and PMC preview card. The independent public detail page https://x.com/qiluo27808/status/2105668972058439739 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the pmc.ncbi.nlm.nih.gov source card and the displayed minute 10:39 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 28 published campaign series, 0 ready, 180 research-pending, 208 rolling work items; 972 verified original series remain toward the 1000-new target.
+
+- 2026-10-01T15:40:00Z checkpoint: 用户要求继续扩大到1000条，但本轮按最新偏好优先日常人性与社交，减少科技和高大上题材；新增来源候选 CAM-C029（APS官方摘要，聚光灯效应），生成 C209 READY_TO_PUBLISH。未将研究候选冒充已发布。
+
+- 2026-10-01T15:41:49Z checkpoint: C209 已通过可见 Chrome 编辑器逐字检查并提交；独立详情页重新加载核验全文、换行、账号、APS 来源卡和显示时间（11:41 PM · Oct 1, 2026）。URL: https://x.com/qiluo27808/status/2105684538559238351。新增已核验29条，剩余971条。

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T14:38:02Z",
+  "checked_at": "2026-10-01T15:40:00Z",
   "materials": [
     {
       "id": "CAM-S001",
@@ -344,6 +344,20 @@
       "limits": "Evidence concerns brief interpersonal interactions and the reported study samples; it does not establish that every relationship or culture shows the same effect, nor does it prove why any individual conversation ended.",
       "human_checked": false,
       "original_publication_date": "2020-09-14"
+    },
+    {
+      "id": "CAM-C029",
+      "title": "别人注意你的失误，通常没有你想象得多",
+      "url": "https://www.psychologicalscience.org/journals/current-directions/1467-8721.00039/",
+      "checked_at": "2026-10-01T15:40:00Z",
+      "source_kind": "PRIMARY_SOCIETY_ABSTRACT_BROWSER_HARNESS",
+      "verified_basis": "APS页面刊载Gilovich与Savitsky发表于Current Directions in Psychological Science的综述摘要；摘要定义spotlight effect为人们高估自己的行为和外表被他人注意和评价的程度，并说明研究关注以自身体验为锚点造成的自我中心偏差。",
+      "limits": [
+        "当前可见页面是学会官方摘要，不是全文；不据此声称每个尴尬都会被忽略或不会产生后果。",
+        "摘要讨论的是判断偏差，不能直接推导出具体关系、职场或社交结果。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "1999-12-01"
     }
   ],
   "limits": "28 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",

@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 28,
+  "published_count": 29,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 208,
-  "remaining_new_publications": 972,
+  "rolling_work_queue_count": 209,
+  "remaining_new_publications": 971,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3392,7 +3392,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the PMC source URL as a t.co card; visible detail card domain/title matched pmc.ncbi.nlm.nih.gov and the public body retained the source-label line."
+    },
+    {
+      "id": "C209",
+      "topic": "人性与社交",
+      "title": "很多尴尬是自己反复重播的",
+      "text": "很多尴尬不是别人记住的，是自己反复重播的。\n\n美国心理学会刊载的一篇综述，把这种误差叫“聚光灯效应”：人会高估自己的外表、动作和失误被别人注意、评价的程度。\n\n你以为刚才说错一句话，整桌人都在记；别人可能只是在想自己的下一句，或者也在复盘自己刚才说得好不好。\n\n人最累的时候，往往不是犯了错，而是把别人的注意力想象得太大。\n\n这篇文章讨论的是判断偏差，不是说别人永远不会注意你。只是下次尴尬时，可以先别急着给自己判刑。\n\n来源：https://www.psychologicalscience.org/journals/current-directions/1467-8721.00039/",
+      "source_refs": [
+        "CAM-C029"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 295,
+      "url": "https://x.com/qiluo27808/status/2105684538559238351",
+      "published_at": "2026-10-01T15:41Z",
+      "virality_probability": null,
+      "editorial_limits": "基于APS官方摘要对聚光灯效应的定义；“别人可能只是在想自己的下一句”是日常化表达，不冒充研究对具体他人心理的测量；不宣称所有尴尬都会被忽略。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": null,
+      "verified_at": "2026-10-01T15:41:49Z",
+      "publication_time_display": "11:41 PM · Oct 1, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the APS source URL as a t.co card; visible detail card domain and title matched psychologicalscience.org / APS Journal Article and the public body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T14:40:35Z"
+  "updated_at": "2026-10-01T15:41:49Z"
 }
