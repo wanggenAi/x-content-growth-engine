@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 23,
+  "published_count": 24,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 203,
-  "remaining_new_publications": 977,
+  "rolling_work_queue_count": 204,
+  "remaining_new_publications": 976,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3268,7 +3268,31 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched uscourts.gov and the visible body retained the source-label line."
+    },
+    {
+      "id": "C204",
+      "topic": "就业与统计",
+      "title": "总数下降不等于每个行业都变好",
+      "text": "说个暴论：就业数字最容易让人误判的地方，不是它造假，而是它把不同的人塞进同一行。\n\n美国劳工统计局一张未季调表里，16岁以上失业总人数从2025年8月的774.7万，降到2026年8月的738.1万。\n\n但分项并不同步：信息行业失业人数从11.8万升到17.6万，金融活动从17.4万升到29.4万；教育和医疗服务也从98.1万升到103.8万。\n\n总数往下，不等于每个行业都在变好。看宏观数字时，我会先找分项。平均天气晴，不代表你这条街没下雨。\n\n来源：https://www.bls.gov/news.release/empsit.t14.htm",
+      "source_refs": [
+        "CAM-C024"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 225,
+      "url": "https://x.com/qiluo27808/status/2105562976497664157",
+      "published_at": "2026-10-01T07:38Z",
+      "virality_probability": null,
+      "editorial_limits": "基于BLS 2026年8月未季调表；不解释原因，不推断本地或个人就业体感。观点与来源事实分开。",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-01T07:39:05Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the source URL as a t.co card; the card domain/title matched bls.gov and the visible body retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T06:03:04Z"
+  "updated_at": "2026-10-01T07:39:05Z"
 }

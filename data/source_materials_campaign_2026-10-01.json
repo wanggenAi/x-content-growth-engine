@@ -268,8 +268,19 @@
       "limits": "General explanation of U.S. federal civil cases; not a statement about any named lawsuit or another country's procedure.",
       "human_checked": false,
       "original_publication_date": null
+    },
+    {
+      "id": "CAM-C024",
+      "title": "总失业数下降不等于每个行业都变好",
+      "url": "https://www.bls.gov/news.release/empsit.t14.htm",
+      "checked_at": "2026-10-01T07:40:00Z",
+      "source_kind": "PRIMARY_GOVERNMENT_STATISTICAL_TABLE_BROWSER_HARNESS",
+      "verified_basis": "BLS Table A-14, not seasonally adjusted, lists August 2025 and August 2026 unemployed counts and rates by industry. Total unemployed people aged 16+ are listed as 7,747 thousand in August 2025 and 7,381 thousand in August 2026; information is 118 to 176 thousand, financial activities 174 to 294 thousand, and education and health services 981 to 1,038 thousand.",
+      "limits": "Not seasonally adjusted; table-level comparisons only; does not establish causes, current local conditions, or individual experience. BLS notes classification changes can affect comparability with earlier years.",
+      "human_checked": false,
+      "original_publication_date": "2026-09-04"
     }
   ],
-  "limits": "22 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining work items are pending research briefs; no outcome claim.",
-  "updated_at": "2026-10-01T05:40:00Z"
+  "limits": "23 source-supported factual candidates and one separately labeled editorial opinion have publication records. Remaining work items are pending research briefs; no outcome claim.",
+  "updated_at": "2026-10-01T07:40:00Z"
 }

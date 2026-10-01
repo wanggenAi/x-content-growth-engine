@@ -204,3 +204,11 @@ C203 is a new source-checked, unpublished candidate based on the U.S. Courts edu
 ### 2026-10-01T06:03:04Z — C203 published and independently verified
 
 C203 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and U.S. Courts preview card. The independent public detail page https://x.com/qiluo27808/status/2105538781051048447 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the uscourts.gov source card and the displayed minute 2:02 PM · Oct 1, 2026. Seconds are unknown. Counts are now 23 published campaign series, 0 ready, 180 research-pending, 203 rolling work items; 977 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T07:40:00Z — C204 source-checked candidate
+
+C204 is a new source-checked, unpublished candidate based on a Bureau of Labor Statistics table. Browser Harness opened the official table and confirmed the August 2025 versus August 2026, not-seasonally-adjusted values; the draft keeps total and industry rows separate and does not infer causes or personal experience. Counts: 23 published, 1 ready, 180 research-pending; 204 rolling work items and 977 remaining new publications.
+
+### 2026-10-01T07:39:05Z — C204 published and independently verified
+
+C204 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and BLS preview card. The independent public detail page https://x.com/qiluo27808/status/2105562976497664157 was reloaded and showed account @qiluo27808, all four body paragraphs without duplication, the bls.gov source card and the displayed minute 3:38 PM · Oct 1, 2026. Seconds are unknown. Counts are now 24 published campaign series, 0 ready, 180 research-pending, 204 rolling work items; 976 verified original series remain toward the 1000-new target.
