@@ -296,8 +296,25 @@
         "原文不证明某种心理机制或个体因果",
         "编辑观点必须与统计事实分开"
       ]
+    },
+    {
+      "id": "CAM-C026",
+      "title": "FTC负面选择订阅规则与取消障碍",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
+      "checked_at": "2026-10-01T11:00:00Z",
+      "source_kind": "primary_government_press_release_browser_harness",
+      "facts": [
+        "FTC说明负面选择订阅在消费者没有采取肯定行动时可能继续收费",
+        "FTC称过去五年收到超过100000起相关投诉",
+        "FTC于2026年3月11日就是否修改现行Negative Option Rule征求意见，并列出自愿同意、披露和取消障碍等问题"
+      ],
+      "limits": [
+        "新闻稿记录的是FTC的规则制定与投诉描述，不证明每个订阅商或每次扣款都违法",
+        "尚未形成新的最终规则",
+        "取消难度是编辑判断，不冒充FTC因果结论"
+      ]
     }
   ],
-  "limits": "保留来源原文、观察时间和限制；来源材料与研究样本、公式假设、自有发布记录分开。当前含25条来源支持的事实候选及其编辑限制。",
-  "updated_at": "2026-10-01T08:10:00Z"
+  "limits": "保留来源原文、观察时间和限制；来源材料与研究样本、公式假设、自有发布记录分开。当前含26条来源支持的事实候选及其编辑限制。",
+  "updated_at": "2026-10-01T11:00:00Z"
 }

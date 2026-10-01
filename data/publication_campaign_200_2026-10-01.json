@@ -6,9 +6,9 @@
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
   "published_count": 25,
-  "ready_count": 0,
+  "ready_count": 1,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 205,
+  "rolling_work_queue_count": 206,
   "remaining_new_publications": 975,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
@@ -3316,7 +3316,31 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the FTC source URL as a t.co card; visible detail card domain and title matched ftc.gov."
+    },
+    {
+      "id": "C206",
+      "topic": "订阅与消费者权益",
+      "title": "很多订阅靠取消太麻烦续命",
+      "text": "说个暴论：很多订阅不是靠内容续命，是靠取消太麻烦续命。\n\n美国联邦贸易委员会在2026年3月的规则说明里，把负面选择订阅讲得很直白：你不再点一次，它就可能继续扣钱。FTC还说，过去五年收到的相关投诉超过10万起。\n\n现在FTC正在重新征求意见，讨论怎么处理未经充分同意、说不清条款和故意设置取消障碍的问题。\n\n我觉得“取消要找半天”本身就是一种商业设计。用户忘了，不代表他同意；按钮藏起来，也不等于服务更高级。\n\n来源：https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
+      "source_refs": [
+        "CAM-C026"
+      ],
+      "status": "READY_TO_PUBLISH",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 364,
+      "url": null,
+      "published_at": null,
+      "virality_probability": null,
+      "editorial_limits": "事实限于FTC 2026年3月11日新闻稿；取消障碍是个人判断，不宣称所有订阅商违法或FTC已证明因果。",
+      "published_at_precision": null,
+      "exact_publication_seconds": null,
+      "verified_at": null,
+      "verification_source": null,
+      "body_matches_editorial_text": null,
+      "duplicate_paragraphs": null,
+      "link_rendering": null
     }
   ],
-  "updated_at": "2026-10-01T09:16:26Z"
+  "updated_at": "2026-10-01T11:00:00Z"
 }

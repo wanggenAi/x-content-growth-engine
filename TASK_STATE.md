@@ -219,3 +219,11 @@ C205 is a source-checked, unpublished candidate based on the FTC’s official Ma
 ### 2026-10-01T09:16:26Z — C205 published and independently verified
 
 C205 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105587426458849557 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 5:15 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 25 published campaign series, 0 ready, 180 research-pending, 205 rolling work items; 975 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T11:00:00Z — C206 source-checked candidate
+
+C206 is a source-checked, unpublished candidate based on the FTC’s March 11, 2026 official release and Negative Option Rule page. Browser Harness confirmed the FTC’s description of negative-option billing, its statement that related complaints exceeded 100,000 over five years, and its request for comment on possible rule changes. The draft treats “cancellation difficulty as design” as an editorial view, not an FTC causal conclusion. Counts: 25 published, 1 ready, 180 research-pending; 206 rolling work items and 975 remaining new publications.
+
+### 2026-10-01T11:05:00Z — C206 publication blocked by Chrome read timeout
+
+C206 remains READY_TO_PUBLISH and was not submitted. The existing Chrome X tab was visible in the browser inventory, but two attempts to bind/read the X home composer timed out. No editor body was obtained, no click on Post was made, and the campaign remains at 25 published, 1 ready, 180 research-pending, 206 rolling work items; 975 remain toward the 1000-new target. Resume only after the visible editor can be read and the body gate passes.

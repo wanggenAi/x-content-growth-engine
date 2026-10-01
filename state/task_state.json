@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T09:16:26Z",
+  "updated_at": "2026-10-01T11:05:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -301,12 +301,12 @@
     "baseline_verified_publications": 25,
     "target_total": 1025,
     "published_new": 25,
-    "ready": 0,
+    "ready": 1,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
     "total_verified_series": 50,
     "remaining_new_publications": 975,
-    "rolling_work_queue_count": 205
+    "rolling_work_queue_count": 206
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -322,11 +322,14 @@
     "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
     "unknown_referred_person": "Keybo",
-    "latest_input_failure": "PASTE_TIMEOUT_AND_CJK_DROPPED_FROM_NATIVE_KEYBOARD_INPUT; DRAFT_CLEARED_NO_SUBMISSION",
+    "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "NATIVE_VISIBLE_CHROME_PASTE_ACCEPTED_FULL_CJK_BODY_AND_EDITOR_SCREENSHOT",
     "latest_publication_id": "C205",
     "latest_publication_url": "https://x.com/qiluo27808/status/2105587426458849557",
-    "latest_publication_verified_at": "2026-10-01T09:16:26Z"
+    "latest_publication_verified_at": "2026-10-01T09:16:26Z",
+    "latest_candidate_id": "C206",
+    "latest_candidate_source": "CAM-C026",
+    "latest_candidate_checked_at": "2026-10-01T11:00:00Z"
   }
 }
