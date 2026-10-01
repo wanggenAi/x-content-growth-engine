@@ -174,3 +174,13 @@ Persisted all substantive user requests through this point in docs/USER_DECISION
 ### 2026-10-01T03:56:58Z — Repair checkpoint audited
 
 Campaign manifest and state counts agree at 20 new verified series / 45 cumulative / 180 research-pending. The repository test suite passed (`16` tests). `python3 -m growth_engine audit` completed with known limitations: the research sample is below exploratory targets, available X view counts are stale search-index snapshots, and follower counts are unknown; no formula validation or virality claim is made. A first integrity check exposed only the historical `url` versus repair-era `final_url` field difference; the compatibility-aware check passed with 20 unique active URLs. No new publication was added in this checkpoint.
+
+### 2026-10-01 — User expanded the publication target to 1000
+
+User now explicitly requires at least 1000 posts and says to keep expanding. This checkpoint interprets that as **1000 additional distinct original post series**, counting the current 20 campaign publications toward that number; baseline is 25, cumulative target 1025, remaining 980. Keep the staged 200-item manifest as the current work queue rather than inventing 800 content placeholders.
+
+Publication attempt blocked by editor input failure. The active account was visibly @qiluo27808. Browser Harness read the official YouTube 2021 dislike-count announcement. In native visible Chrome, paste timed out and keyboard input delivered only digits/Latin/link, omitting Chinese text; the malformed editor draft was cleared before submission. No new post was submitted. One stale UI-node click opened a timeline menu and marked one recommended post “not interested”; it did not affect account content or submit a post. Preserve this as a tool/UI incident and fix the input route before resuming publication.
+
+### 2026-10-01T05:09:10Z — C201 source-checked candidate and input blocker
+
+C201 is saved as one source-checked, unpublished candidate. The official YouTube page was reopened through Browser Harness and checked at 2026-10-01T05:09:10Z; date, retained dislike button, Studio exact counts and platform-reported experiment findings match the source. The text is 246 raw characters, approximately 194 weighted characters under the campaign estimate, with no duplicate paragraphs. Counts: 20 published campaign series, 1 ready, 180 research-pending; 201 rolling work items. New-publication target remains 1000, so 980 verified original series remain.

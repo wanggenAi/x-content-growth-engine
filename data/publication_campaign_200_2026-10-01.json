@@ -1,13 +1,15 @@
 {
   "created_at": "2026-10-01T01:45:12.244160Z",
   "status": "ACTIVE_NOT_COMPLETE",
-  "goal": "Publish 200 further distinct source-checked originals through authorized visible UI, progressively; continue research and feedback.",
-  "target_new_publications": 200,
+  "goal": "Publish at least 1000 further distinct source-checked originals through authorized visible UI, progressively; continue research and feedback.",
+  "target_new_publications": 1000,
   "baseline_verified_publications": 25,
-  "target_total_verified_publications": 225,
+  "target_total_verified_publications": 1025,
   "published_count": 20,
-  "ready_count": 0,
+  "ready_count": 1,
   "research_pending_count": 180,
+  "rolling_work_queue_count": 201,
+  "remaining_new_publications": 980,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3194,7 +3196,24 @@
       "published_at": null,
       "virality_probability": null,
       "research_requirement": "Find attributable primary evidence and context; review independent >10000-view cases and counterexamples where useful; check past/current dates; source-check every concrete claim; compare against published texts before drafting."
+    },
+    {
+      "id": "C201",
+      "topic": "创作者平台机制",
+      "title": "YouTube为何隐藏公开倒赞数",
+      "text": "说个暴论：公开数字，不一定让事情更公平。\n\n2021年，YouTube决定把公开倒赞数藏起来。按钮没删，观众照样能点；创作者还能在 Studio 看具体数字。\n\n它给的理由挺现实：小创作者更容易被倒赞攻击盯上。YouTube说，实验期间把数字藏起来后，这种针对行为减少了。\n\n我觉得有意思的是：围观的人想看热闹，创作者想拿数据改进。两拨人未必该看同一份数字。\n\nYouTube公告：https://blog.youtube/news-and-events/update-to-youtube/",
+      "source_refs": [
+        "CAM-C021"
+      ],
+      "status": "READY_TO_PUBLISH",
+      "source_checked": true,
+      "human_checked": false,
+  "weighted_length_estimate": 194,
+      "url": null,
+      "published_at": null,
+      "virality_probability": null,
+      "editorial_limits": "基于YouTube 2021公告及平台自述实验结果；不得表述为当前政策，也不称独立因果验证。观点与来源事实分开。"
     }
   ],
-  "updated_at": "2026-10-01T03:16:16.652879Z"
+  "updated_at": "2026-10-01T05:09:10Z"
 }

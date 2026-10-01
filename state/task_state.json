@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T03:56:58Z",
-  "phase": "active_200_further_publication_campaign",
+  "updated_at": "2026-10-01T05:09:10Z",
+  "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -59,7 +59,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "User requested research until justified confidence before further publication. Freeze F01/F02 definitions, inspect independent authors and mature ordinary-post comparisons, assess account distribution, then record editorial readiness. No next batch publication solely because a draft exists.",
+  "next_action": "Restore reliable CJK paste/input into the real visible editor. Then compare C201 full editor text and screenshot against its saved draft, publish at most once, and independently reload the public detail page for full-body verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -275,7 +275,7 @@
     "no_extra_paid_integrations": true,
     "publication_requires_confidence_gate": false,
     "publication_requires_editorial_source_gate": true,
-    "latest_scope": "At least200 further original publications, source-checked; up to5 eligible per2-hour run; then continued research",
+    "latest_scope": "At least1000 further original publications, source-checked; up to5 eligible per2-hour run; continue progressively",
     "updated_at": "2026-10-01T01:30:28.705173Z"
   },
   "publication_candidates_stage2": {
@@ -297,14 +297,16 @@
   },
   "publication_campaign": {
     "file": "data/publication_campaign_200_2026-10-01.json",
-    "target_new_publications": 200,
+    "target_new_publications": 1000,
     "baseline_verified_publications": 25,
-    "target_total": 225,
+    "target_total": 1025,
     "published_new": 20,
-    "ready": 0,
+    "ready": 1,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 45
+    "total_verified_series": 45,
+    "remaining_new_publications": 980,
+    "rolling_work_queue_count": 201
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -319,6 +321,8 @@
     "body_gate": "COMPARE_REAL_EDITOR_THEN_RELOAD_PUBLIC_BODY_AND_SCREENSHOT",
     "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
-    "unknown_referred_person": "Keybo"
+    "unknown_referred_person": "Keybo",
+    "latest_input_failure": "PASTE_TIMEOUT_AND_CJK_DROPPED_FROM_NATIVE_KEYBOARD_INPUT; DRAFT_CLEARED_NO_SUBMISSION",
+    "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED"
   }
 }
