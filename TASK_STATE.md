@@ -136,3 +136,7 @@ User adds historical public-figure contrast and explicitly permits gradual dozen
 R06, R07 and R08 submitted once each through authorized native Chrome UI and verified on independent detail pages at displayed 09:24, 09:25, 09:26 Asia/Shanghai. Actual URLs in publication_candidates_stage2; seconds unknown; private screenshots and AX logs retained. Total verified publications 25, growth effects unknown. New F06 research: 27 observed links, 19 threshold-eligible, five structural reviews, four detail visits, zero causal pairs; historical source failures and missing dates preserved. Heartbeat x updated and verified ACTIVE for gradual 1–2 source-checked tests per run, not conditional on falsely achieving causal confidence. Latest user steer changes the publishing workflow; previous evidence conclusions remain intact.
 
 Validation: 16 tests passed; three-publication and 27-observation integrity checks passed; each screenshot/AX file is ignored. Existing SQLite audit remains its older 11 links/13 observations/four materials/zero reviewed own posts; separate new agent records were not imported as human-reviewed results. Diff whitespace check passed.
+
+### 2026-10-01T01:32:57.239616Z — Gradual publication evidence CI checkpoint
+
+Safe research/publication records pushed at 8432e625a70431a2b4a02ff1640076a08d88c278; push CI 36801568976 and PR CI 36801570390 both succeeded. PR #5 updated and remains open/unmerged. Local scheduled continuation ACTIVE; 25 agent-verified publications, zero validated viral formulas. This metadata records the tested evidence SHA.
