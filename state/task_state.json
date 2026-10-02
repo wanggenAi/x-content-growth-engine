@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T22:01:18Z",
+  "updated_at": "2026-10-02T22:19:17Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C290-C294 source-checked at 2026-10-02T22:01:18Z; five READY_SOURCE_CHECKED candidates from public SCMP reporting, pure text and no X publication yet; published_new=94; ready=5; remaining=906; queue=294; latest_verified=C289; next=C290-C294."
+    "latest_campaign_round": "C290-C294 independently verified at 2026-10-02T22:19:17Z; five pure-text posts passed exact editor comparison, screenshot review, one visible submit each, and independent public detail-page reloads; URLs C290 https://x.com/qiluo27808/status/2106145112682348869, C291 https://x.com/qiluo27808/status/2106145390030708973, C292 https://x.com/qiluo27808/status/2106146300781805650, C293 https://x.com/qiluo27808/status/2106146626603728898, C294 https://x.com/qiluo27808/status/2106146880401129981; display times 6:11, 6:12, 6:16, 6:17, 6:18 AM · Oct 3, 2026; seconds unknown; published_new=99; ready=0; remaining=901; queue=294; latest_verified=C294; next=research C295."
   },
   "counts": {
     "x_posts": 11,
@@ -52,8 +52,8 @@
     "materials": 55,
     "exploratory_drafts": 65,
     "own_posts": 0,
-    "verified_account_publications": 94,
-    "unpublished_candidates": 42,
+    "verified_account_publications": 99,
+    "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -61,7 +61,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C290-C294 are READY_SOURCE_CHECKED. Process one at a time through visible editor text comparison, one submit, and independent public detail-page verification; do not publish candidates as verified and do not add decorative media or raw source URLs.",
+  "next_action": "Research new public-source candidates from C295 onward, prioritizing specific people, concrete conflict, money/time/body costs and publicly documented Chinese social stories; then process at most five through visible editor comparison, screenshot, one submit and independent public detail-page verification. Keep pure text by default; do not count without independent verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
