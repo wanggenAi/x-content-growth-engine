@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T10:06:42Z",
+  "updated_at": "2026-10-02T11:31:26Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -32,7 +32,7 @@
     "source_led_pilot": "R01_published_public_detail_verified",
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
-    "task_recovery_2026-10-02": "automation_x_active_5min; latest_C230-C234_published_and_independently_verified; published_new=54; remaining=946; queue=234; ready=0; research_pending=180; next=C235; CUA screenshots visually inspected but not saved locally"
+    "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved"
   },
   "counts": {
     "x_posts": 11,
@@ -48,11 +48,11 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 35,
+    "materials": 40,
     "exploratory_drafts": 60,
     "own_posts": 0,
-    "verified_account_publications": 60,
-    "unpublished_candidates": 34,
+    "verified_account_publications": 81,
+    "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -60,7 +60,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Continue the source-led publication campaign. No X authorization denial is present; project and Git write access are restored. Use Browser Harness only on permitted non-X sources, then the documented visible Computer Use route for X, with per-post editor and independent-detail verification.",
+  "next_action": "Continue C237-C239 through the authorized visible Chrome workflow, one post at a time. Compare each real editor body exactly, inspect its screenshot, submit once, then reload the independent public detail page and verify the complete body, paragraphs, source card, account and displayed time. Stop on any challenge, mismatch, or platform limit.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -283,7 +283,7 @@
   "publication_candidates_stage2": {
     "file": "data/publication_candidates_stage2_2026-10-01.json",
     "unpublished_count": 0,
-    "published_count": 3,
+    "published_count": 5,
     "status": "PUBLISHED_AGENT_VERIFIED",
     "human_checked": false,
     "growth_outcomes": "UNKNOWN"
@@ -302,25 +302,25 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 54,
+    "published_new": 59,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 79,
-    "remaining_new_publications": 946,
-    "rolling_work_queue_count": 234,
-    "latest_publication_id": "C234",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105961034460918208",
-    "latest_publication_verified_at": null,
-    "latest_candidate_id": "C234",
-    "latest_candidate_source": "CAM-C035",
-    "latest_candidate_checked_at": "2026-10-02T10:06:42Z",
+    "total_verified_series": 84,
+    "remaining_new_publications": 941,
+    "rolling_work_queue_count": 239,
+    "latest_publication_id": "C239",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105983771078213756",
+    "latest_publication_verified_at": "2026-10-02T11:31:26Z",
+    "latest_candidate_id": "C239",
+    "latest_candidate_source": "CAM-C044",
+    "latest_candidate_checked_at": "2026-10-02T11:31:26Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
-    "cumulative_verified_series": 74,
+    "cumulative_verified_series": 76,
     "latest_repair_ids": [
       "C019",
       "C020",
@@ -334,14 +334,14 @@
     "latest_input_failure": null,
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "2026-10-02T04:20:57Z: visible Chrome was reconnected; C222 editor text matched candidate character-for-character; one submit; independent public detail page verified account, text, paragraphs, source link, duplicate-free body and displayed minute",
-    "latest_publication_id": "C234",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105961034460918208",
-    "latest_publication_verified_at": null,
-    "latest_candidate_id": "C234",
-    "latest_candidate_source": "CAM-C035",
-    "latest_candidate_checked_at": "2026-10-02T10:06:42Z",
+    "latest_publication_id": "C239",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105983771078213756",
+    "latest_publication_verified_at": "2026-10-02T11:31:26Z",
+    "latest_candidate_id": "C239",
+    "latest_candidate_source": "CAM-C044",
+    "latest_candidate_checked_at": "2026-10-02T11:31:26Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Continue with C235 after a fresh source check; keep the post conversational, non-preachy and concrete, explain research in plain language, then compare the final visible-editor body character-for-character and inspect its screenshot before one submission; independently reload the public detail page and count only after text/account/source/time verification, maximum five posts in a verified round.",
+    "next_action": "Continue with C240 after a fresh source check; keep the post conversational, concrete and non-preachy, compare the real visible-editor body character-for-character and inspect its screenshot before one submission, then independently reload the public detail page and count only after body, paragraphs, source card, account and displayed time verification; maximum five posts in a verified round.",
     "latest_style_review_note": "C233-C234 midsections were factually scoped but somewhat research-dense; simplify terminology in future drafts."
   },
   "pause_diagnosis": {

@@ -329,3 +329,31 @@ The user asked to continue the queue with concrete, conversational posts and no 
 本轮完成5条：C230（聊天后低估对方好感）、C231（负面反馈与能力判断）、C232（日常对话中的说话比例）、C233（争论时的被听见感）、C234（道歉与最后通牒博弈）。每条均在可见编辑器逐字核对最终文本、查看提交前截图、单次提交，再重载其独立公开详情页，核对全文、换行、来源链接/卡片、账号 @qiluo27808 与无重复段落。所有 UTC 发布时刻只记录 UI 显示的分钟精度，具体秒数未知。最终公开 URL：C230 https://x.com/qiluo27808/status/2105955860648546442；C231 https://x.com/qiluo27808/status/2105957147616084428；C232 https://x.com/qiluo27808/status/2105957894843978081；C233 https://x.com/qiluo27808/status/2105960371320221818；C234 https://x.com/qiluo27808/status/2105961034460918208。
 
 清单保留了 C230–C234 原候选稿；C233 与 C234 的最终发布稿按实际编辑器/公开页更新到 text，不把不同版本混为一稿。可见截图已在本轮 CUA 输出中检查，但本轮未能把图像保存到仓库的 ignored 私有目录，状态中不虚称文件已归档。风格复核指出 C233/C234 中段研究细节略密，后续继续把研究发现说成人话、少堆术语。当前新增已核验54条，基线25，总计79条，剩余946条；滚动队列234项，其中待研究180项、待发布0项。未检查或声称任何流量增长；下一条从 C235 开始。
+
+
+### 2026-10-02T10:58:41Z — C235–C239 sourced and ready; not yet published
+
+Prepared five distinct candidates on household planning labor, cashless spending, after-hours work email, one documented Hunan fraud case, and checkout food placement. Added CAM-C040–CAM-C044 to data/source_materials_round12_2026-10-02.json with scope limits and explicit missing UTC observation times where exact source-page timestamps were not captured. Independent fact/style review narrowed the cashless meta-analysis wording, clarified the email moderation claim, removed a quote-shaped paraphrase from the court/procuratorate case, and fixed the supermarket survey denominator and study design wording. Campaign state is 54 verified new, 5 ready, 180 research-pending, queue 239, remaining 946; no candidate is counted as published. Latest independently verified post remains C234. Screenshots are to be truthfully recorded as visually inspected or not saved based on actual UI evidence.
+
+
+### 2026-10-02T11:09:06Z — C235 verification checkpoint
+
+A prior checkpoint left C235 as READY because its UI verification occurred after that file write. Reconciled the repository with the already completed visible submission and independent page evidence: C235 URL https://x.com/qiluo27808/status/2105977104865300678; author @qiluo27808; exact body and paragraph breaks match the prepared copy; PMC source card rendered; no duplicate paragraphs; reloaded page displays 7:04 PM · Oct 2, 2026 (Asia/Shanghai; seconds unknown). The pre-submit and reloaded screenshots were visually inspected but not saved to a local private path. C235 is now PUBLISHED_AGENT_VERIFIED. Counts: 55 new verified, 4 ready (C236-C239), 945 remaining, queue 239; cumulative including baseline 80. Next C236, with the same per-post gates.
+
+
+### 2026-10-02T11:12:17Z — C236 independently verified
+
+C236 已从可见编辑器逐字检查后单次提交，并通过公开详情页重载复核。URL https://x.com/qiluo27808/status/2105978853751681055；正文、段落、账号 @qiluo27808、DOI 链接、无重复段落匹配；页面显示 7:11 PM · Oct 2, 2026（Asia/Shanghai，秒数未知）。提交前与独立重载后的截图均已目视检查，未存到本地私有路径。C236 计入已核验：当前新增56，待发布3（C237-C239），剩余944，队列239。
+
+
+### 2026-10-02T11:19:03Z — C237 independently verified
+
+C237 已从可见编辑器逐字核对最终正文后单次提交；公开个人主页显示为最新帖。打开独立详情页并重载，核对正文、换行、PMC 来源卡、账号 @qiluo27808、无重复段落均通过。URL https://x.com/qiluo27808/status/2105980612230443052，页面显示 7:17 PM · Oct 2, 2026（Asia/Shanghai；秒数未知）。发布前把“调查中”改成“调查发现”，仅为语句通顺，研究范围和相关性限定不变。截图已目视检查，未保存到本地私有路径。当前新增57、待发布2（C238-C239）、剩余943、队列239；基线25合计82。
+
+### 2026-10-02T11:27:57Z — C238 发布并独立核验
+
+C238 使用最高检2024年1月22日公开的湖南新田熟人借贷诈骗单案记录。可见 Chrome 编辑器中的正文、中文标点、段落和最高检来源链接逐字核对并目视检查截图后单次提交；从账号主页打开独立公开详情页并重载，核对正文、换行、来源卡、账号 @qiluo27808、无重复段落和显示时间（7:25 PM · Oct 2, 2026，秒数未知）。URL：https://x.com/qiluo27808/status/2105982547884925018。发布后的正文保留“最高检2024年披露”和一审判刑事实，未将单案扩大为熟人借贷普遍规律。C239 继续保持 READY_SOURCE_CHECKED，并根据来源复核将结论改成“组间销量变化未达统计显著”，避免把满意度调查等同于个人改买法。当前新增已核验58条，剩余942条，队列239项，待发布1条。截图仅在 CUA 输出中目视检查，未保存到本地私有目录。
+
+### 2026-10-02T11:31:26Z — C239 发布并独立核验
+
+C239 使用荷兰24家超市收银台陈列的真实门店比较与3家店134人问卷结果。发布前根据来源复核把“组间不健康零食销量变化未达统计显著”写清，并将80%限定为注意到调整者中表示满意或非常满意的人；可见 Chrome 编辑器逐字核对正文、中文标点、段落和 PMC 链接，截图目视检查后单次提交。独立公开详情页 https://x.com/qiluo27808/status/2105983771078213756 重载核验正文、换行、PMC 来源卡、账号 @qiluo27808、无重复段落和显示时间（7:30 PM · Oct 2, 2026，秒数未知）。当前新增已核验59条，剩余941条，队列239项，无待发布 ready 候选；截图未保存到本地私有目录。

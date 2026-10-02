@@ -99,3 +99,21 @@ C204 已完成可见编辑器全文核对和独立详情页复核并发布；BLS
 本轮继续用户要求的每轮至少5条目标，完成 C230–C234 五条不同原创。五条都在本机可见编辑器逐字核对最终稿并查看提交前截图，单次提交；之后各自从公开状态链接打开详情页并重载，检查账号 @qiluo27808、完整正文、段落、来源链接/卡片及无重复。最终链接：C230 https://x.com/qiluo27808/status/2105955860648546442；C231 https://x.com/qiluo27808/status/2105957147616084428；C232 https://x.com/qiluo27808/status/2105957894843978081；C233 https://x.com/qiluo27808/status/2105960371320221818；C234 https://x.com/qiluo27808/status/2105961034460918208。正文及逐条显示时间以 campaign JSON 为准；分钟时间换算 UTC，秒数缺失保持 null。CUA截图在任务上下文中可见并已检查，但本轮没有可用路径把截图保存到 ignored 私有目录，故记录为未本地留存，不声称已有截图文件。
 
 方向覆盖社交后的自我评价、负面反馈、日常对话比例、争论中被听见、道歉与分账游戏。对 C233、C234，发布前最终稿与原候选稿有文字修订；清单保留原稿并把 text 对齐到编辑器和详情页核验过的最终正文。人工风格复核认为中段研究信息略密，事实范围没有因此扩大；后续稿继续用日常场景讲清研究细节，尽量少堆术语。当前已核验新增54条，剩余946条，队列234项；无流量结果或传播公式结论。
+
+
+2026-10-02T10:58:41Z: The user reiterates continuation toward 1000 posts. Applied current voice direction: conversational, grounded, no preachy/AI tone, ordinary human concerns with one China official case among everyday topics. C235–C239 are source-checked and staged for visible, one-at-a-time publication; independently reviewed phrasing and sample limits. No publication count increases until each editor body and independently reloaded public detail page pass. Current verified campaign remains 54 new, 946 remaining, queue 239.
+
+
+| 2026-10-02T11:09:06Z | C235 已通过可见编辑器逐字核对、单次提交和独立公开详情页重载。URL https://x.com/qiluo27808/status/2105977104865300678；正文、段落、@qiluo27808、PMC来源卡和7:04 PM · Oct 2, 2026显示时间一致，秒数未知。截图已在CUA输出中目视检查，但未保存到本地私有目录，清单如实记录。更正上一检查点将C235列为待发布的状态：当前55条新增已核验、4条待发布、945条剩余、队列239项。继续逐条处理C236-C239。
+
+
+| 2026-10-02T11:12:17Z | C236 已完成可见编辑器正文核对、单次提交和独立公开详情页重载，核验 URL https://x.com/qiluo27808/status/2105978853751681055；正文、换行、@qiluo27808、DOI来源链接及7:11 PM · Oct 2显示时间一致，秒数未知。截图目视检查但未在本地保存。当前56条新增已核验、3条待发布、944条剩余、队列239项，下一条C237。 |
+
+
+### 2026-10-02T11:19:03Z — C237 independently verified
+
+C237 已从可见编辑器逐字核对最终正文后单次提交；公开个人主页显示为最新帖。打开独立详情页并重载，核对正文、换行、PMC 来源卡、账号 @qiluo27808、无重复段落均通过。URL https://x.com/qiluo27808/status/2105980612230443052，页面显示 7:17 PM · Oct 2, 2026（Asia/Shanghai；秒数未知）。发布前把“调查中”改成“调查发现”，仅为语句通顺，研究范围和相关性限定不变。截图已目视检查，未保存到本地私有路径。当前新增57、待发布2（C238-C239）、剩余943、队列239；基线25合计82。
+
+- **2026-10-02T11:27:57Z**：C238 已通过可见 Chrome 编辑器逐字核对、截图检查和一次提交；独立公开详情页 https://x.com/qiluo27808/status/2105982547884925018 重载核验正文、段落、最高检来源卡、账号 @qiluo27808、无重复及显示时间（7:25 PM · Oct 2, 2026，秒数未知）。其余稿件未计入发布；C239 在来源审查后修订为“组间不健康零食销量变化未达统计显著”，并将满意度分母写清，仍待逐条编辑器核验。当前已核验新增58条，剩余942条，队列239项，待发布1条。
+
+- **2026-10-02T11:31:26Z**：C239 已通过可见 Chrome 编辑器逐字核对、截图检查和一次提交；独立公开详情页 https://x.com/qiluo27808/status/2105983771078213756 重载核验正文、段落、PMC 来源卡、账号 @qiluo27808、无重复及显示时间（7:30 PM · Oct 2, 2026，秒数未知）。来源审查后的修订稿把“组间销量变化未达统计显著”与满意度分母写清，避免把门店销量比较说成个人改买法。当前已核验新增59条，剩余941条，队列239项；没有 ready 候选。
