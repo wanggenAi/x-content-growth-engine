@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T21:36:52Z",
+  "updated_at": "2026-10-02T22:01:18Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C287-C289 independently verified at 2026-10-02T21:46:20Z; C286 duplicate copy was deleted and the retained detail page reloaded; C287-C289 each had one visible submit and independent detail-page verification; published_new=94; remaining=906; ready=0; queue=289; latest_verified=C289."
+    "latest_campaign_round": "C290-C294 source-checked at 2026-10-02T22:01:18Z; five READY_SOURCE_CHECKED candidates from public SCMP reporting, pure text and no X publication yet; published_new=94; ready=5; remaining=906; queue=294; latest_verified=C289; next=C290-C294."
   },
   "counts": {
     "x_posts": 11,
@@ -49,11 +49,11 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 50,
-    "exploratory_drafts": 60,
+    "materials": 55,
+    "exploratory_drafts": 65,
     "own_posts": 0,
     "verified_account_publications": 94,
-    "unpublished_candidates": 37,
+    "unpublished_candidates": 42,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -61,7 +61,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C287-C289 remain source-checked READY candidates. Continue only after recording and reviewing the C286 duplicate-post incident; do not retry C277 or pad with weak drafts.",
+  "next_action": "C290-C294 are READY_SOURCE_CHECKED. Process one at a time through visible editor text comparison, one submit, and independent public detail-page verification; do not publish candidates as verified and do not add decorative media or raw source URLs.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -380,5 +380,24 @@
     "user_feedback": "User says repeated court cases and dry policy summaries are uninteresting; research what makes Chinese readers click, prioritizing concrete people, conflict, money/time costs and public news that is easy to miss.",
     "repository": "https://github.com/wanggenAi/x-content-growth-engine",
     "editorial_correction": "Hold C260-C264 as policy-summary candidates; next topics must be audience-relevant public-record human-interest news or social facts with concrete people, actions and costs. Do not claim content was blocked without evidence."
+  },
+  "source_material_round24": {
+    "file": "data/source_materials_round24_2026-10-03.json",
+    "recorded_at": "2026-10-02T22:01:18Z",
+    "candidate_ids": [
+      "C290",
+      "C291",
+      "C292",
+      "C293",
+      "C294"
+    ],
+    "source_refs": [
+      "CAM-C101",
+      "CAM-C102",
+      "CAM-C103",
+      "CAM-C104",
+      "CAM-C105"
+    ],
+    "status": "READY_SOURCE_CHECKED_NO_PUBLICATION"
   }
 }
