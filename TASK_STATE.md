@@ -367,3 +367,110 @@ C239 使用荷兰24家超市收银台陈列的真实门店比较与3家店134人
 - C243 https://x.com/qiluo27808/status/2105992371087540448（8:04 PM · Oct 2, 2026）
 - C244 https://x.com/qiluo27808/status/2105993604032573872（8:09 PM · Oct 2, 2026）
 X仅显示分钟，精确秒数未记录；截图只在可见 CUA 输出中检查，未保存到本地私有目录。campaign当前新增已核验64条、剩余936条、队列244项，下一条C245。
+
+
+### 2026-10-02T13:10:12Z — 浏览量反馈、预览卡与新候选
+
+根据用户最新反馈复核了少量本人历史帖和今天的新帖：高于10浏览的若干旧样本，多从熟悉说法被纠正、明显反差或一个具体疑问起笔；C237-C244在可见主页中约4浏览。数值快照与帖子对应关系保存在被Git忽略的`data/private/own_post_metrics_2026-10-02.json`；各条精确观察UTC未完整记录，未补造。曝光时长和题材不一致，故只形成HYPOTHESIS，不声称格式导致流量。用户也要求减少图片/大预览卡；之后正文默认不放裸来源链接，正文标记最高法与年份，原始URL保留在来源表。\n\n新增来源`CAM-C050–CAM-C054`为最高法2025-06-16发布的网络消费典型案例，每条只提炼一个日常消费事实。候选`C245–C249`已写好并逐项来源核对，全部是首句反差/数字/生活场景、短正文、无裸链的纯文字版本；状态为READY_SOURCE_CHECKED，发布前仍须真实编辑器逐字核对和独立详情页复核。目前仍为64条已核验、936条剩余，候选5条、队列249项。
+
+
+### 2026-10-02T13:19:36Z — C245 independently verified
+
+C245 is published and verified from an independently reloaded public detail page: https://x.com/qiluo27808/status/2106010728255934600. Final editor copy matched exactly; page confirms body, paragraph breaks, @qiluo27808, no source card and 9:17 PM · Oct 2, 2026 (seconds unknown). Screenshot inspected in CUA output but not saved. Counts: 65 newly verified, 4 staged candidates, 935 remaining, work queue 249. Next C246.
+
+
+### 2026-10-02T13:31:46Z — C246 independently verified
+
+C246 was submitted once after an exact visible-editor comparison. Its independently reloaded page confirms the full two-paragraph copy, @qiluo27808, no preview card, and 9:30 PM · Oct 2, 2026 (seconds unknown): https://x.com/qiluo27808/status/2106014018020544584. Screenshots were visually inspected but not saved locally. Counts: 66 newly verified, 3 ready (C247-C249), 934 remaining, queue 249.
+
+
+### 2026-10-02T13:34:11Z — C247 independently verified
+
+C247: https://x.com/qiluo27808/status/2106014624491647404; independently reloaded page matches the final two-paragraph text, @qiluo27808 and 9:33 PM · Oct 2, 2026; no preview card or repeated text. The page showed 1 view shortly after posting; recorded privately as an early, non-comparable snapshot, not a performance conclusion. Screenshots were inspected but not saved. Counts: 67 verified new, 2 ready, 933 remaining, queue 249.
+
+
+### 2026-10-02T13:39:45Z — C248 independently verified
+
+C248: https://x.com/qiluo27808/status/2106015202278043995; the visible editor matched the final text and the independently reloaded public detail page confirmed both paragraphs, @qiluo27808, no source preview card, no repeated text, and 9:35 PM · Oct 2, 2026. X showed 2 views at 2026-10-02T13:39:45Z; recorded privately as an early, non-comparable snapshot. Screenshots were inspected in CUA output but not saved locally. Counts: 68 newly verified, 1 ready (C249), 932 remaining, queue 249.
+
+### 2026-10-02T13:57:25ZZ — C249 核验补录；按仓库公式纠偏
+
+C249 的可见编辑器正文与独立重载公开详情页逐字匹配，账号 @qiluo27808、两段正文、无重复、无预览卡及显示时间 9:41 PM · Oct 2, 2026 均核对通过。URL：https://x.com/qiluo27808/status/2106016620653248526。X 在 2026-10-02T13:45:35Z 显示 1 view；这是发布后很早的快照，不能与曝光更久的旧帖直接比较。秒数未知；截图只在 CUA 输出中目视查看，没有保存到私有目录。当前新增已核验69条、剩余931条、待发布0条、滚动队列249项。
+
+用户再次明确批评 C245–C249 平淡、重复，并指出大图/论文预览卡影响阅读，要求严格按仓库内容公式。核对 GitHub origin 为 https://github.com/wanggenAi/x-content-growth-engine；复读 docs/VIRAL_SAMPLES_AND_FORMULAS_2026-10-01.md 后确认 F01–F05 分别是熟悉判断重估、降低完成成本、处境识别、政策具体影响、现实分歧问题，均为 HYPOTHESIS。上批把它们压成同一反转/法院案例摘要，执行偏差已记入内容规范和续跑任务。下一批每条先指定一个 F01–F05 与清晰读者收益，拒绝机构开场、同一段式和空洞升华；正文默认不贴裸链接，不生成大预览卡。每轮最多5条，数量目标不覆盖质量核验门槛。
+
+
+## 2026-10-02T14:56:23Z — Editorial reset before C250
+
+- 当前 campaign：69 条新增已核验，目标剩余 931；C250–C254 为 5 条来源已核对候选，滚动队列 254。
+- 用户反馈：近期帖子像 AI 摘要、图片/大预览卡过多，首屏不想读；要求严格按 GitHub 仓库 F01–F05 和本人可见高浏览样本重做，并立即进入人工核验发布。
+- 已采取：候选默认无图、无裸来源URL；每条记录公式、第一屏冲突/场景、读者收益、原始来源和边界；结构不连续套同一反转+判例模板。
+- C250–C254 仅为 READY_SOURCE_CHECKED，尚无公开URL，不能计入数量；必须逐字核对真实编辑器并独立重载公开详情页。
+
+
+## 2026-10-02T15:02:00Z — C250–C254 可发布但等待浏览器连接
+
+- C250–C254 已来源核对并按 F01/F01/F03/F03/F05 重写，仍为 READY_SOURCE_CHECKED；没有新增公开URL。
+- 连接现有可见 Chrome 的 X 标签页两次超时，编辑器未打开、没有提交动作；campaign 仍为69条新增已核验、931条剩余、5条候选。
+- 下一步恢复可见 Chrome 连接后逐条核验；不能切换 Browser Harness 绕过 X 账号操作边界。
+
+
+## 2026-10-02T15:20:00Z — 改变选题方向
+
+- 用户否定连续法院案例，要求面向中国读者的人性新闻与信息差材料。
+- C251–C254 发布前暂停，campaign 保持69条新增已核验、931条剩余、0条ready。
+- 下一步先研究公开新闻/政策/社会记录的受众冲突与来源，不把“国内看不到”或“被封锁”写成无证据事实；确认合格后再准备新稿。
+
+
+## 2026-10-02T15:22:00Z — C250 完成；停止法院案例
+
+C250 独立详情页核验通过：https://x.com/qiluo27808/status/2106038499422175527。campaign 70 条新增已核验、930 条剩余。C251–C254 在用户反馈后暂停，下一步转为人性新闻和公开信息差材料研究，先完成来源和受众冲突检查再写稿。
+
+## 2026-10-02T15:48:18Z — C255–C259 非法院题材来源核对
+
+- 用户明确指出连续法院案例没有吸引力，要求先研究“人会不会点开”，优先普通读者切身利益、公开新闻和社会事实；图片/大预览卡继续默认关闭。
+- 公开非X来源交叉核对并保存至 `data/source_materials_round16_2026-10-02.json`：CAM-C060 医保钱包跨省共济；CAM-C061 自动续费价格行为规则；CAM-C062 全国育儿补贴；CAM-C063 渐进式退休；CAM-C064 青年失业率口径变化；CAM-C065 大龄农民工处境及国家统计局调查。来源页的逐页UTC观察时间未捕获，保留缺失值；不声称“被封锁”。
+- 新增 C255–C259，分别采用 F02、F02、F03、F03、F01，均为纯文字 READY_SOURCE_CHECKED；正文不放裸URL或图片，事实日期/金额/限制写入正文，原始链接只在campaign元数据。候选未经过真实编辑器逐字核对和独立公开详情页重载，不能计入已发布。
+- 当前 campaign：已核验新增70、剩余930、ready 5、滚动队列259，最新独立核验 C250。下一步只用已授权本地Chrome可见Computer Use，按 C255 起逐条核对并提交；出现编辑器、浏览器、来源或重复问题立即保存稿件并停止扩量。
+
+## 2026-10-02T16:26:07Z — 用户要求把“会不会点开”放在数量前
+
+- 用户再次指出法院案例和 AI 摘要式政策帖没有吸引力，要求研究真实人性兴趣，优先公开但容易错过的中国社会新闻、具体人物和现实代价；图片和大预览卡默认去掉。
+- C255–C259 保留原稿与来源但标记 `HOLD_REVIEW_INTEREST`，不计 ready；本轮补充来源材料 `data/source_materials_round17_2026-10-02.json` 与 `data/source_materials_round18_2026-10-02.json`。
+- 新增 C260–C264，分别为国内航班充电宝限制、大龄农民工仍在工作、骑手保障分类、育儿补贴与出生人口、自动续费证据；均为 `READY_SOURCE_CHECKED`、纯文字、无裸来源URL，需先逐字核对真实编辑器再提交。
+- 当前 campaign：已核验新增70、剩余930、ready 5、滚动队列264，最新独立核验 C250；下一步从 C260 开始逐条可见UI核验，不能把准备动作计作发布。
+
+## 2026-10-02T16:32:00Z — C260 发布前可见页面阻碍
+
+- Chrome 中已重新出现 `x.com/home` 标签，但可见页面正文在刷新后仍为空白，只显示浏览器自动化提示；时间线、发帖按钮和编辑器均不可读。
+- 没有出现 X 账号权限拒绝、登录、验证码或权限弹窗；本轮没有提交帖子，campaign 仍为已核验70、剩余930、ready 5、队列264。
+- 不使用隐藏接口或 Browser Harness 绕过 X 的可见 Computer Use 闸门；页面恢复后从 C260 重新逐字核对，异常继续停下。
+
+### 2026-10-02T18:13:20Z — 人物新闻候选替换政策摘要
+
+- 用户明确拒绝法院案和干燥政策摘要，要求先研究读者会不会点开，优先具体人物、现实冲突、收入/时间代价和公开但容易错过的中国社会报道；默认纯文字，继续减少图片和大预览卡。
+- Browser Harness 复核南华早报、CNA 及路透社公开报道，材料写入 `data/source_materials_round19_2026-10-02.json`。事实与观点分开，没有把冷门写成“被官媒封锁”。
+- C260–C264 保留原稿和来源但全部转为 `HOLD_REVIEW_INTEREST`；新增 C265–C269 五条 `READY_SOURCE_CHECKED` 候选：全职孙辈、付费请主播责骂、模拟办公室、牧羊岗位申请潮、降薪后夜间送外卖。每条均标明 F01/F03/F05、首屏冲突、读者收益、日期/金额/动作及边界。
+- campaign 当前仍为新增已核验70、剩余930、ready5、滚动队列269，最新独立核验 C250；C265–C269 没有公开URL，未计入发布。下一步恢复可见 Chrome 后逐条做真实编辑器全文比对、截图、单次提交和独立公开详情页复核；任何异常先停，不凑数。
+
+
+## 2026-10-02T18:50:30Z — C265–C269 完成
+
+- 可见 Chrome 恢复；账号 @qiluo27808 无权限弹窗，编辑器可读。
+- C265–C269 五条均完成：编辑器全文逐字比对、截图目视、单次提交、独立公开详情页重载。
+- URL：C265 https://x.com/qiluo27808/status/2106089899636179309；C266 https://x.com/qiluo27808/status/2106090278146953365；C267 https://x.com/qiluo27808/status/2106091471829135530；C268 https://x.com/qiluo27808/status/2106091683960266892；C269 https://x.com/qiluo27808/status/2106094374249808259。页面显示分钟分别为 2:32、2:33、2:38、2:39、2:50 AM · Oct 3, 2026；秒数未知。
+- 纯文字，无来源预览卡；截图已目视检查但未落盘。
+- campaign：新增已核验75，剩余925，ready 0，滚动队列269，最新C269。下一步 C270，先研究具体人物/社会冲突和读者利益，再写稿。
+
+### 2026-10-03T00:00:00Z — C270–C274 来源和读者兴趣闸门完成
+
+- 用户要求把“人会不会点开”放在数量之前，减少法院/政策摘要、装饰图片和大预览卡；优先具体人物、异常动作、金钱/时间代价和公开但容易错过的中国社会报道。
+- Browser Harness 复核公开材料并写入 `data/source_materials_round20_2026-10-03.json`：付费登山陪伴、杭州“丑东西”展览、宠物婚礼、33年环球旅行、粗糙动画票房反转。没有把冷门材料写成“被官媒封锁”。
+- C270–C274 均为 `READY_SOURCE_CHECKED`，分别使用 F01/F03/F01/F05/F05；每条记录首屏冲突、读者收益、来源事实和边界，纯文字、无裸来源URL、无装饰图。F01–F05 仍是 HYPOTHESIS。
+- 本轮没有 X 提交或新增核验。campaign：75 条新增已核验、925 条剩余、ready 5、队列 274、最新 C269。下一步使用已授权本地 Chrome 可见 Computer Use，按 C270–C274 逐条编辑器全文比对、提交一次并独立详情页核验；失败即停止扩量。
+
+### 2026-10-02T19:27:48Z — C270–C274 完成发布核验
+
+- C270–C274 均完成真实编辑器逐字比对、截图目视、单次提交和独立公开详情页重载；五条均为纯文字，无裸来源 URL、装饰图或来源预览卡。
+- URL 与页面显示时间：C270 https://x.com/qiluo27808/status/2106100418048876824（3:14 AM · Oct 3, 2026）；C271 https://x.com/qiluo27808/status/2106100731375964577（3:15 AM · Oct 3, 2026）；C272 https://x.com/qiluo27808/status/2106101858679091627（3:19 AM · Oct 3, 2026）；C273 https://x.com/qiluo27808/status/2106102481935859811（3:22 AM · Oct 3, 2026）；C274 https://x.com/qiluo27808/status/2106102742532129027（3:23 AM · Oct 3, 2026）。秒数缺失，不补造。
+- 当前 campaign：新增已核验 80 条，剩余 920 条，ready 0，滚动队列 274 项，下一轮从 C275。早期浏览量只作观察，不据此判断公式或保证传播。
