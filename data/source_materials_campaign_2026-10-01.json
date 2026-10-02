@@ -442,6 +442,20 @@
       ],
       "human_checked": false,
       "original_publication_date": "2018-11-08"
+    },
+    {
+      "id": "CAM-C036",
+      "title": "欠薪要等到被公开点名，才被看见吗？",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3140677.html",
+      "checked_at": "2026-10-01T23:58:09Z",
+      "source_kind": "OFFICIAL_GOVERNMENT_PAGE_BROWSER_HARNESS",
+      "verified_basis": "江门市人力资源和社会保障局页面发布时间为2024-08-05；页面称2024年上半年立案36宗，为620名劳动者追发工资等待遇759.1万元，列入拖欠农民工工资失信联合惩戒对象名单5宗，并列出具体案件、欠薪人数金额、移送公安及判决/处理日期。",
+      "limits": [
+        "这是江门市人社部门公开的阶段性行政记录，不代表全国或所有欠薪案件。",
+        "稿件中的‘被公开点名才被看见’是作者判断，不是页面原话；不得把个案扩写成对所有用工者的指控。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2024-08-05"
     }
   ],
   "limits": "32 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",

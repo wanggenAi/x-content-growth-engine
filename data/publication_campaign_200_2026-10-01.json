@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 35,
+  "published_count": 36,
   "ready_count": 0,
-  "research_pending_count": 180,
-  "rolling_work_queue_count": 215,
-  "remaining_new_publications": 965,
+  "research_pending_count": 179,
+  "rolling_work_queue_count": 216,
+  "remaining_new_publications": 964,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3581,7 +3581,34 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the PMC source URL as a t.co card; the independently reloaded public detail page showed the pmc.ncbi.nlm.nih.gov article card and retained the source-label line."
+    },
+    {
+      "id": "C216",
+      "topic": "人性阴暗面与欠薪公开记录",
+      "title": "有些工资要等到被公开点名，大家才承认它真的欠了",
+      "text": "有些工资不是没人欠，而是要等到被公开点名，大家才承认它真的欠了。\n\n江门市人社局公开的2024年上半年数据里，劳动保障监察机构立案36宗，为620名劳动者追发工资等待遇759.1万元，另有5宗被列入拖欠农民工工资失信联合惩戒对象名单。\n\n数字看着像一份工作通报，但每个数字背后，都是一个人反复问：什么时候发钱。\n\n我的判断是，很多人只有在名单、公告、处罚出现以后，才愿意把欠薪当成问题。没被公开，不等于没发生。\n\n来源：https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3140677.html",
+      "source_refs": [
+        "CAM-C036"
+      ],
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "weighted_length_estimate": 285,
+      "url": "https://x.com/qiluo27808/status/2105810625142394955",
+      "published_at": "2026-10-02T00:02Z",
+      "virality_probability": null,
+      "editorial_limits": "基于江门市人力资源和社会保障局2024-08-05公开页面；页面记录2024年上半年36宗立案、为620名劳动者追发759.1万元、5宗列入失信联合惩戒，并列出具体欠薪案件。稿件将‘被公开点名才被看见’明确为作者判断，不扩写为全国或所有用工者的规律。",
+      "research_requirement": "Before submission, compare the full visible editor body character-for-character, then reload the independent public detail page and verify account, paragraphs, source card, duplicates and displayed time.",
+      "submission_started_at": "2026-10-02T00:01:00Z",
+      "verified_at": "2026-10-02T00:03:17Z",
+      "publication_time_display": "8:02 AM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "X rendered the Jiangmen government URL as a t.co source link; the independently reloaded public detail page showed the jiangmen.gov.cn source link and retained the source-label line."
     }
   ],
-  "updated_at": "2026-10-01T23:05:36Z"
+  "updated_at": "2026-10-02T00:03:17Z"
 }

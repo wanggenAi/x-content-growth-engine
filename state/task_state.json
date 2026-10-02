@@ -300,13 +300,13 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 35,
+    "published_new": 36,
     "ready": 0,
-    "research_pending": 180,
+    "research_pending": 179,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 60,
-    "remaining_new_publications": 965,
-    "rolling_work_queue_count": 215
+    "total_verified_series": 61,
+    "remaining_new_publications": 964,
+    "rolling_work_queue_count": 216
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -325,13 +325,13 @@
     "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "WINDOW_LEVEL_VISIBLE_CHROME_EDITOR_READ_AND_NATIVE_PASTE_ACCEPTED_FULL_CJK_BODY_AND_SCREENSHOT",
-    "latest_publication_id": "C215",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105796210858811694",
-    "latest_publication_verified_at": "2026-10-01T23:05:36Z",
-    "latest_candidate_id": "C215",
-    "latest_candidate_source": "CAM-C035",
-    "latest_candidate_checked_at": "2026-10-01T22:58:36Z",
+    "latest_publication_id": "C216",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105810625142394955",
+    "latest_publication_verified_at": "2026-10-02T00:03:17Z",
+    "latest_candidate_id": "C216",
+    "latest_candidate_source": "CAM-C036",
+    "latest_candidate_checked_at": "2026-10-01T23:58:09Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Research the next dark human motive or undernoticed China public record with a verifiable primary source; then pass the visible editor body gate and independent public detail reload."
+    "next_action": "Research the next dark human motive or undernoticed China public record with a verifiable primary source; continue at no more than five visible-editor-verified originals per round."
   }
 }
