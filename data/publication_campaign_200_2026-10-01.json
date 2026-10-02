@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 42,
-  "ready_count": 0,
-  "research_pending_count": 179,
-  "rolling_work_queue_count": 222,
-  "remaining_new_publications": 958,
+  "published_count": 44,
+  "ready_count": 3,
+  "research_pending_count": 180,
+  "rolling_work_queue_count": 227,
+  "remaining_new_publications": 956,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -3770,7 +3770,115 @@
       "body_matches_editorial_text": true,
       "duplicate_paragraphs": false,
       "link_rendering": "X rendered the PubMed URL as a pubmed.ncbi.nlm.nih.gov source card; the independently reloaded public detail page showed the account, full text, paragraph breaks, source link and displayed minute."
+    },
+    {
+      "id": "C223",
+      "topic": "人性与诚信",
+      "title": "现金多的钱包，反而更常被归还",
+      "text": "钱包里现金越多，反而越容易被还？一项覆盖40国、355城、1.7万多个遗失钱包的现场实验，几乎所有参与国家都是这个方向：钱更多的钱包更常被归还。作者认为，可能是失主损失更大，也可能是人更不愿把自己看成小偷。是解释，不是读心。我原先猜反了。\n\n来源：https://pubmed.ncbi.nlm.nih.gov/31221770/",
+      "source_refs": [
+        "M17"
+      ],
+      "weighted_length_estimate": 261,
+      "editorial_limits": "基于PubMed所载2019年现场实验：40国、355城、超过17000个钱包；几乎所有参与国家里现金更多的钱包更常被归还。作者提出利他关切和不愿自认小偷等解释；这不是对每个人动机的直接测量，不能推广到所有情境。",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105928033337229616",
+      "published_at": "2026-10-02T07:49Z",
+      "virality_probability": null,
+      "research_requirement": "Compare the complete visible editor body character-for-character, retain a screenshot, submit once, then reload the independent public detail page and verify the complete text, line breaks, source card, account and displayed time.",
+      "publication_time_display": "3:49 PM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "verified_at": "2026-10-02T07:52:55Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "PubMed source card displayed; independent detail page retained the PubMed source link.",
+      "submission_started_at": "2026-10-02T07:49Z"
+    },
+    {
+      "id": "C224",
+      "topic": "生活政策与养老",
+      "title": "职工养老保险最低年限，不再永远是15年",
+      "text": "“职工养老保险交满15年就行”，这句话现在得加个时间。企业职工基本养老保险按月领养老金，最低缴费年限2025–2029年为15年；2030年起每年加半年，到2039年为20年。深圳社保局办理页列了完整年份表。说的是职工养老金，不是所有社保待遇。\n\n来源：https://hrss.sz.gov.cn/szsi/zxbs/zdyw/gpywcj/yljslbl/",
+      "source_refs": [
+        "M21"
+      ],
+      "weighted_length_estimate": 250,
+      "editorial_limits": "来源是深圳市社会保险基金管理局企业职工养老金申领办理页，最低缴费年限表列出2025–2029年15年、2030年起每年增加6个月、2039年20年。只涉及企业职工基本养老保险按月申领养老金的最低缴费年限；不是深圳独有规则，也不代表所有社保待遇。",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": "https://x.com/qiluo27808/status/2105930911900668228",
+      "published_at": "2026-10-02T08:00Z",
+      "virality_probability": null,
+      "research_requirement": "Compare the complete visible editor body character-for-character, retain a screenshot, submit once, then reload the independent public detail page and verify the complete text, line breaks, source card, account and displayed time.",
+      "publication_time_display": "4:00 PM · Oct 2, 2026",
+      "published_at_precision": "minute_displayed_local_Asia_Shanghai",
+      "exact_publication_seconds": null,
+      "submission_started_at": null,
+      "verified_at": "2026-10-02T08:10:53Z",
+      "verification_source": "RELOADED_PUBLIC_DETAIL_TEXT_AND_SCREENSHOT_VISUALLY_INSPECTED",
+      "body_matches_editorial_text": true,
+      "duplicate_paragraphs": false,
+      "link_rendering": "Source line displays hrss.sz.gov.cn/szsi/zxbs/zdyw and is clickable via X link; no rich preview card."
+    },
+    {
+      "id": "C225",
+      "topic": "日常注意力与新闻消费",
+      "title": "坏消息为什么总能让人多看一眼",
+      "text": "为什么坏消息总能让人多看一眼？Upworthy随机测试不同版本的英文新闻标题，累计3.7亿多次展示。平均长度的标题里，每多一个负面词，点击率相对提高2.3%。这是英文新闻点击，不是中文X算法。我觉得最简单的原因是：坏消息更容易让人停一下。\n\n来源：https://www.nature.com/articles/s41562-023-01538-4",
+      "source_refs": [
+        "M22"
+      ],
+      "weighted_length_estimate": 253,
+      "editorial_limits": "基于Nature Human Behaviour 2023注册报告：Upworthy英文新闻标题的随机实验，超过3.7亿次展示；平均长度标题每增加一个负面词，点击率相对增加2.3%（不是百分点）。这衡量英文新闻点击，不是中文X曝光、互动或推荐算法，不能外推成通用写作公式。",
+      "status": "READY_SOURCE_CHECKED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": null,
+      "published_at": null,
+      "virality_probability": null,
+      "research_requirement": "Compare the complete visible editor body character-for-character, retain a screenshot, submit once, then reload the independent public detail page and verify the complete text, line breaks, source card, account and displayed time."
+    },
+    {
+      "id": "C226",
+      "topic": "关系与礼物",
+      "title": "礼物里最容易被记住的，可能是你还记得我说过什么",
+      "text": "送礼时，让人觉得被惦记的，可能是“你还记得我说过什么”。一项美国大学姐妹会赠礼周研究记录160人、496次受惠事件：觉得送礼人认真回应自己的参与者，感激感更强，感激也和后续关系指标相关。样本很特定，不是通用送礼公式。\n\n来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC2692821/?report=reader",
+      "source_refs": [
+        "CAM-C034"
+      ],
+      "weighted_length_estimate": 239,
+      "editorial_limits": "基于Emotion 2008对三所美国大学姐妹会Big Sister Week赠礼活动的观察：160名参与者记录496次受惠事件。感知到送礼人的回应性与感激相关，感激与之后关系结果相关。对象是特定校园仪式；研究没有验证价格与心意的普遍对比，也不是通用送礼公式。",
+      "status": "READY_SOURCE_CHECKED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": null,
+      "published_at": null,
+      "virality_probability": null,
+      "research_requirement": "Compare the complete visible editor body character-for-character, retain a screenshot, submit once, then reload the independent public detail page and verify the complete text, line breaks, source card, account and displayed time."
+    },
+    {
+      "id": "C227",
+      "topic": "中国社会记录与未成年人保护",
+      "title": "最高检披露的一个不太像热搜标题的数字",
+      "text": "最高检2025年发布会披露：2024年1–11月，检察机关对涉未成年人公益诉讼立案11,463件，涉及校园周边食品、未成年人个人信息、网吧接纳未成年人。是立案件数，不是受害人数或定罪数。每个词都离日常挺近：吃的、信息、放学后的去处。\n\n来源：https://www.spp.gov.cn/zdgz/202502/t20250220_684591.shtml",
+      "source_refs": [
+        "SPP-MINOR-PROTECTION-2025-02-20"
+      ],
+      "weighted_length_estimate": 245,
+      "editorial_limits": "最高检2025-02-20记者会披露：2024年1–11月，检察机关对涉未成年人公益诉讼立案11463件，涵盖校园周边食品、未成年人个人信息、网吧接纳未成年人等。是立案件数，不是受害人数、犯罪数、定罪数或全部查实违法数；避免恐慌或猎奇化表达。",
+      "status": "READY_SOURCE_CHECKED",
+      "source_checked": true,
+      "human_checked": false,
+      "url": null,
+      "published_at": null,
+      "virality_probability": null,
+      "research_requirement": "Compare the complete visible editor body character-for-character, retain a screenshot, submit once, then reload the independent public detail page and verify the complete text, line breaks, source card, account and displayed time."
     }
   ],
-  "updated_at": "2026-10-02T04:20:57Z"
+  "updated_at": "2026-10-02T08:10:53Z"
 }

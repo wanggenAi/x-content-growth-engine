@@ -7,7 +7,10 @@
       "title": "Mike Tyson once said ... What’s a real-life example of someone learning that lesson?",
       "source_kind": "PUBLIC_REDDIT_THREAD_DIRECT_VISIBLE",
       "observed_at": "2026-10-02T03:07:53Z",
-      "displayed_metrics": {"votes": "22K", "comments": "2.9K"},
+      "displayed_metrics": {
+        "votes": "22K",
+        "comments": "2.9K"
+      },
       "verified_claims": [
         "The thread was visible on r/AskReddit's Top/This Month listing.",
         "The opened public detail page displayed 22K votes and 2.9K comments.",
@@ -24,17 +27,21 @@
       "id": "SPP-MINOR-PROTECTION-2025-02-20",
       "url": "https://www.spp.gov.cn/zdgz/202502/t20250220_684591.shtml",
       "title": "加强民生司法保障！最高检这场发布会与您息息相关",
-      "source_kind": "OFFICIAL_CHINA_SOURCE_RESEARCH_LEAD",
+      "source_kind": "OFFICIAL_CHINA_PRIMARY_SOURCE_BROWSER_HARNESS_RECHECKED",
       "observed_at": "2026-10-02T03:25:07Z",
       "verified_claims": [
-        "Research lead reports the page dated 2025-02-20 and official 2024 prosecutorial figures for crimes against minors.",
-        "The lead reports 4.3万余件 approved arrests and 5.5万余件 prosecutions, with crime-category counts quoted in the official release."
+        "The official page is dated 2025-02-20 and reports 2024 prosecutorial/public-interest work.",
+        "For 2024 January–November, procuratorates filed 11,463 public-interest litigation matters involving minors.",
+        "The page identifies areas including food around schools, minors’ personal information, and internet cafes admitting minors."
       ],
       "limits": [
-        "This round could not directly reload the page: the web fetch returned 403 and the local browser tab became unavailable.",
-        "Do not publish from this lead until the page is directly visible and the figures are rechecked; prosecutorial case counts are not total incidence or conviction counts."
+        "The 11,463 figure is filings, not number of victims, crimes, convictions, or every confirmed violation.",
+        "Earlier 2026-10-02 03:25Z access returned 403; the official page was directly reopened and its scope/figure rechecked in this round. Preserve the earlier failure as history, but this source is now checked for this candidate."
       ],
-      "rights": "Public official page; retained as a research lead only, no publication claim."
+      "rights": "Public official page; retained as a research lead only, no publication claim.",
+      "source_checked": true,
+      "rechecked_at": "2026-10-02T07:38:56Z",
+      "rechecked_by": "Browser Harness direct page plus independent source audit"
     },
     {
       "id": "PUBMED-40626652",

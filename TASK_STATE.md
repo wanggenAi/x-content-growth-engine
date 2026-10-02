@@ -311,3 +311,11 @@ C208 was submitted once after the visible Chrome editor showed the complete Chin
 ### 2026-10-02T07:10:18Z — permission diagnosis rechecked
 
 automation_id=x 的本地配置仍为 ACTIVE、FREQ=MINUTELY;INTERVAL=5，本轮 heartbeat 也实际触发；不是任务调度停止。05:22 曾出现项目目录只读，06:50 一笔范围过宽的多文件提权请求被 Codex 自动审查以“证据不足以授权该组变更”拒绝。当前复核项目根目录和 .git 均可写。Browser Harness 守护进程正常、Chrome 连接 1 个，但活动标签是 Reddit；CUA 可见 Chrome 的 X 主页已登录 @qiluo27808，编辑框为空，没有账号登录/授权提示。故此次“权限”是本地工作区读写/审批边界，不是 X 账号授权错误。X 的平台方法边界仍按仓库策略执行：Browser Harness 用于允许的非 X 来源，X 发布走已记录的用户授权可见 Computer Use 并逐条核验。本轮未发帖，campaign 仍为 42/958/222，最新 C222。
+
+
+### 2026-10-02T07:38:56Z — C223–C227 source-checked candidate checkpoint
+
+Added five distinct, source-checked candidates spanning civic honesty, employee-pension rules, everyday news attention, gift-giving relationships, and a dated Supreme People’s Procuratorate public-interest record. Each source has an explicit scope limit; the public-interest number is clearly labeled as filings, not victims or convictions. The five complete Chinese drafts and source links are stored in ignored local evidence files. Counts are 42 published, 5 ready, 180 research-pending, 227 rolling work items, 958 remaining. Reconciled the stale summary count to match the actual campaign list (180 pending before the five candidates were added). No new publication count until each post passes the editor and independent detail-page gates.
+
+### 2026-10-02T08:10:53Z — pause diagnosis and C224 verified
+The recurring task was still active; the earlier interruption came from a temporary read-only Codex workspace and an auto-review rejection of a broad multi-file write request, not from an X authorization prompt. The visible Chrome profile remained signed in as @qiluo27808. C224 was reloaded on its independent public detail page and matched the complete editorial text, paragraph break, source link/card, account, and displayed time (4:00 PM · Oct 2, 2026; seconds unknown): https://x.com/qiluo27808/status/2105930911900668228. Campaign now has 44 verified new series, 956 remaining, 3 ready candidates, 180 research-pending items, and 227 rolling work items. C225 was not submitted: the visible composer was empty, so its editor-body gate was not met. Continue only after a fresh exact editor comparison; no account authorization request is pending.
