@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T08:10:53Z",
+  "updated_at": "2026-10-02T09:13:15Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -278,7 +278,7 @@
     "publication_requires_confidence_gate": false,
     "publication_requires_editorial_source_gate": true,
     "latest_scope": "At least 1000 further original publications, source-checked; check every 5 minutes; up to 5 eligible originals per verified round; continue progressively; recover browser/editor connection before publishing",
-    "updated_at": "2026-10-02T04:20:57Z"
+    "updated_at": "2026-10-02T09:13:15Z"
   },
   "publication_candidates_stage2": {
     "file": "data/publication_candidates_stage2_2026-10-01.json",
@@ -302,25 +302,25 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 44,
-    "ready": 3,
+    "published_new": 49,
+    "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 69,
-    "remaining_new_publications": 956,
-    "rolling_work_queue_count": 227,
-    "latest_publication_id": "C224",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105930911900668228",
-    "latest_publication_verified_at": "2026-10-02T08:10:53Z",
-    "latest_candidate_id": "C227",
-    "latest_candidate_source": "SPP-MINOR-PROTECTION-2025-02-20",
-    "latest_candidate_checked_at": "2026-10-02T07:38:56Z",
-    "latest_candidate_status": "READY_SOURCE_CHECKED"
+    "total_verified_series": 74,
+    "remaining_new_publications": 951,
+    "rolling_work_queue_count": 229,
+    "latest_publication_id": "C229",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105948331222687848",
+    "latest_publication_verified_at": "2026-10-02T09:13:15Z",
+    "latest_candidate_id": "C229",
+    "latest_candidate_source": "CAM-C039",
+    "latest_candidate_checked_at": "2026-10-02T09:13:15Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
-    "cumulative_verified_series": 51,
+    "cumulative_verified_series": 74,
     "latest_repair_ids": [
       "C019",
       "C020",
@@ -331,23 +331,23 @@
     "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
     "unknown_referred_person": "Keybo",
-    "latest_input_failure": "C225 source-checked candidate was not present in the visible X composer during this check; composer AX state was empty, so it was not submitted. Reload the body from the reviewed candidate and compare before any submit.",
+    "latest_input_failure": null,
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
     "latest_input_recovery": "2026-10-02T04:20:57Z: visible Chrome was reconnected; C222 editor text matched candidate character-for-character; one submit; independent public detail page verified account, text, paragraphs, source link, duplicate-free body and displayed minute",
-    "latest_publication_id": "C224",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105930911900668228",
-    "latest_publication_verified_at": "2026-10-02T08:10:53Z",
-    "latest_candidate_id": "C227",
-    "latest_candidate_source": "SPP-MINOR-PROTECTION-2025-02-20",
-    "latest_candidate_checked_at": "2026-10-02T07:38:56Z",
-    "latest_candidate_status": "READY_SOURCE_CHECKED",
-    "next_action": "Resume C225 only after loading the reviewed text into the visible composer and comparing the complete body character-for-character; submit once and reload the independent detail page. Then review C226-C227 individually, maximum five verified posts per round."
+    "latest_publication_id": "C229",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105948331222687848",
+    "latest_publication_verified_at": "2026-10-02T09:13:15Z",
+    "latest_candidate_id": "C229",
+    "latest_candidate_source": "CAM-C039",
+    "latest_candidate_checked_at": "2026-10-02T09:13:15Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+    "next_action": "Continue with the next source-checked candidate after a fresh exact visible-editor comparison and screenshot; submit once, independently reload the public detail page, and count only after body/account/source/time verification, maximum five posts in the next verified round."
   },
   "pause_diagnosis": {
     "diagnosed_at": "2026-10-02T07:10:18Z",
     "x_account_permission_issue": false,
     "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT",
-    "campaign_counts": "44_verified_new; 956_remaining; 227_queue; latest C224",
+    "campaign_counts": "49_verified_new; 951_remaining; 229_queue; latest C229; 0 source-checked candidates ready",
     "previous_blocker": "At 2026-10-02T05:22Z project directory was read-only; at 06:50Z auto-review rejected an over-broad multi-file elevated write because evidence was insufficient for that set of mutations.",
     "current_workspace_root_writable": true,
     "git_directory_writable": true,
@@ -357,7 +357,7 @@
     "posts_published_in_diagnostic_turn": 0,
     "campaign_count_changed": false,
     "finding": "The observed pause was caused by temporary local workspace write restrictions and a rejected broad filesystem approval request, not an X account authorization denial. Workspace and Git write access are now restored.",
-    "follow_up_at": "2026-10-02T08:10:53Z",
-    "follow_up_finding": "The earlier pause was local Codex workspace write/approval friction. The X account remained signed in and no account authorization denial appeared. C224 was independently verified; the current C225 editor-body gate was not met, so no new submit occurred in this follow-up."
+    "follow_up_at": "2026-10-02T09:13:15Z",
+    "follow_up_finding": "No X authorization prompt occurred. Visible Chrome publishing completed C226-C229: each editor body was compared character-for-character, submitted once, and independently reloaded for body, paragraphs, source link/card, account and displayed time. Earlier interruption was local workspace write/approval friction and browser connection instability, not an X account permission denial."
   }
 }
