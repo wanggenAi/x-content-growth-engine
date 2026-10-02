@@ -323,3 +323,9 @@ The recurring task was still active; the earlier interruption came from a tempor
 ### 2026-10-02T09:13:15Z — C226–C229 published and independently verified
 
 The user asked to continue the queue with concrete, conversational posts and no preachy or AI-like tone. C226, C227, C228 and C229 each passed the real visible-editor character check and screenshot gate, were submitted once, and were independently reloaded on public detail pages. C228: https://x.com/qiluo27808/status/2105945661942403166, displayed 4:59 PM · Oct 2, 2026 (seconds unknown). C229: https://x.com/qiluo27808/status/2105948331222687848, displayed 5:09 PM · Oct 2, 2026 (seconds unknown). Detail pages matched the complete bodies, paragraph breaks, source cards/links and account @qiluo27808 with no duplicate paragraphs. Campaign is now 49 verified new series, 951 remaining, 180 research-pending items, 229 rolling work items and zero ready candidates. The earlier pause was local workspace/approval and browser-connection friction, not an X account authorization denial. Continue with a fresh source-checked candidate and the same per-post gates, up to five in the next round.
+
+### 2026-10-02T10:06:42Z — C230–C234 发布并独立核验
+
+本轮完成5条：C230（聊天后低估对方好感）、C231（负面反馈与能力判断）、C232（日常对话中的说话比例）、C233（争论时的被听见感）、C234（道歉与最后通牒博弈）。每条均在可见编辑器逐字核对最终文本、查看提交前截图、单次提交，再重载其独立公开详情页，核对全文、换行、来源链接/卡片、账号 @qiluo27808 与无重复段落。所有 UTC 发布时刻只记录 UI 显示的分钟精度，具体秒数未知。最终公开 URL：C230 https://x.com/qiluo27808/status/2105955860648546442；C231 https://x.com/qiluo27808/status/2105957147616084428；C232 https://x.com/qiluo27808/status/2105957894843978081；C233 https://x.com/qiluo27808/status/2105960371320221818；C234 https://x.com/qiluo27808/status/2105961034460918208。
+
+清单保留了 C230–C234 原候选稿；C233 与 C234 的最终发布稿按实际编辑器/公开页更新到 text，不把不同版本混为一稿。可见截图已在本轮 CUA 输出中检查，但本轮未能把图像保存到仓库的 ignored 私有目录，状态中不虚称文件已归档。风格复核指出 C233/C234 中段研究细节略密，后续继续把研究发现说成人话、少堆术语。当前新增已核验54条，基线25，总计79条，剩余946条；滚动队列234项，其中待研究180项、待发布0项。未检查或声称任何流量增长；下一条从 C235 开始。
