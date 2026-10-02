@@ -456,6 +456,20 @@
       ],
       "human_checked": false,
       "original_publication_date": "2024-08-05"
+    },
+    {
+      "id": "CAM-C037",
+      "title": "欠薪要等名单公开，才被认真对待吗？",
+      "url": "https://rsj.beijing.gov.cn/xxgk/tzgg/202406/t20240628_3731555.html",
+      "checked_at": "2026-10-02T00:42:00Z",
+      "source_kind": "OFFICIAL_GOVERNMENT_PAGE_WEB_TOOL",
+      "verified_basis": "北京市人力资源和社会保障局2024-06-28公告公布2家单位列入拖欠农民工工资失信联合惩戒对象名单：中启荣晟建设集团有限公司拖欠94名农民工工资705000元，四川龙渺建筑劳务有限公司拖欠72人工资2461288.58元；公告依据人社部令第45号。",
+      "limits": [
+        "这是北京市人社局公布的2024年第二季度名单，不代表全国或所有欠薪案件。",
+        "稿件中的‘证据被公开之前没人愿意把它当成问题’是作者判断，不是公告原话。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2024-06-28"
     }
   ],
   "limits": "32 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-01T23:05:36Z",
+  "updated_at": "2026-10-02T07:10:18Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -31,7 +31,8 @@
     "open_source_virality_research": "8_pinned_repository_reads_10_community_leads_7_original_pages_3_index_only",
     "source_led_pilot": "R01_published_public_detail_verified",
     "source_led_batch2": "4_published_independent_detail_pages_verified",
-    "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs"
+    "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
+    "task_recovery_2026-10-02": "automation_x_active_5min; repository_read_only_this_round; no_new_publication_or_count_change"
   },
   "counts": {
     "x_posts": 11,
@@ -59,7 +60,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Expand source research to dark human motives and undernoticed China public records; next candidate must use a verifiable primary source and pass visible editor body gate plus independent public detail reload verification.",
+  "next_action": "Continue the source-led publication campaign. No X authorization denial is present; project and Git write access are restored. Use Browser Harness only on permitted non-X sources, then the documented visible Computer Use route for X, with per-post editor and independent-detail verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -269,14 +270,15 @@
     "automation_id": "x",
     "kind": "heartbeat",
     "status": "ACTIVE",
-    "interval_hours": 2,
+    "interval_hours": 0.0833333333,
+    "interval_minutes": 5,
     "destination": "current local chat",
     "created_at": "2026-10-01T01:15:04.507227Z",
     "no_extra_paid_integrations": true,
     "publication_requires_confidence_gate": false,
     "publication_requires_editorial_source_gate": true,
-    "latest_scope": "At least1000 further original publications, source-checked; up to5 eligible per2-hour run; continue progressively",
-    "updated_at": "2026-10-01T01:30:28.705173Z"
+    "latest_scope": "At least 1000 further original publications, source-checked; check every 5 minutes; up to 5 eligible originals per verified round; continue progressively; recover browser/editor connection before publishing",
+    "updated_at": "2026-10-02T04:20:57Z"
   },
   "publication_candidates_stage2": {
     "file": "data/publication_candidates_stage2_2026-10-01.json",
@@ -300,13 +302,20 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 36,
+    "published_new": 42,
     "ready": 0,
     "research_pending": 179,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 61,
-    "remaining_new_publications": 964,
-    "rolling_work_queue_count": 216
+    "total_verified_series": 67,
+    "remaining_new_publications": 958,
+    "rolling_work_queue_count": 222,
+    "latest_publication_id": "C222",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105877339741749270",
+    "latest_publication_verified_at": "2026-10-02T04:20:57Z",
+    "latest_candidate_id": "C222",
+    "latest_candidate_source": "PUBMED-40626652",
+    "latest_candidate_checked_at": "2026-10-02T03:38:37Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -322,16 +331,31 @@
     "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
     "unknown_referred_person": "Keybo",
-    "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
+    "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED; 2026-10-02 Browser Harness daemon/chrome connection unavailable before visible Chrome recovery",
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
-    "latest_input_recovery": "WINDOW_LEVEL_VISIBLE_CHROME_EDITOR_READ_AND_NATIVE_PASTE_ACCEPTED_FULL_CJK_BODY_AND_SCREENSHOT",
-    "latest_publication_id": "C216",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2105810625142394955",
-    "latest_publication_verified_at": "2026-10-02T00:03:17Z",
-    "latest_candidate_id": "C216",
-    "latest_candidate_source": "CAM-C036",
-    "latest_candidate_checked_at": "2026-10-01T23:58:09Z",
+    "latest_input_recovery": "2026-10-02T04:20:57Z: visible Chrome was reconnected; C222 editor text matched candidate character-for-character; one submit; independent public detail page verified account, text, paragraphs, source link, duplicate-free body and displayed minute",
+    "latest_publication_id": "C222",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105877339741749270",
+    "latest_publication_verified_at": "2026-10-02T04:20:57Z",
+    "latest_candidate_id": "C222",
+    "latest_candidate_source": "PUBMED-40626652",
+    "latest_candidate_checked_at": "2026-10-02T03:38:37Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "next_action": "Research the next dark human motive or undernoticed China public record with a verifiable primary source; continue at no more than five visible-editor-verified originals per round."
+  },
+  "pause_diagnosis": {
+    "diagnosed_at": "2026-10-02T07:10:18Z",
+    "x_account_permission_issue": false,
+    "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT_AND_LOCAL_CONFIG",
+    "campaign_counts": "42_verified_new; 958_remaining; 222_queue; latest C222",
+    "previous_blocker": "At 2026-10-02T05:22Z project directory was read-only; at 06:50Z auto-review rejected an over-broad multi-file elevated write because evidence was insufficient for that set of mutations.",
+    "current_workspace_root_writable": true,
+    "git_directory_writable": true,
+    "browser_harness": "daemon_alive; active_connections_1; active_page_reddit; optional_cloud_auth_absent",
+    "visible_cua_chrome": "X_home_visible; signed_in_as_qiluo27808; empty_composer; no_login_or_authorization_prompt",
+    "method_boundary": "Use Browser Harness only for permitted non-X sources; previously user-directed visible Computer Use scope remains the X posting route.",
+    "posts_published_in_diagnostic_turn": 0,
+    "campaign_count_changed": false,
+    "finding": "The observed pause was caused by temporary local workspace write restrictions and a rejected broad filesystem approval request, not an X account authorization denial. Workspace and Git write access are now restored."
   }
 }
