@@ -1,5 +1,11 @@
 # Task State
 
+## Current campaign checkpoint — 2026-10-03T06:45:00Z
+
+- Campaign JSON is the source of truth: 99 new posts independently verified, 901 remaining toward the 1,000-new-series target, 5 source-checked candidates ready, rolling queue 299, latest independent verification C294.
+- C295-C299 are source-checked but unpublished. Browser Harness read SCMP/Reuters public pages for five concrete human-interest stories; no X account action was taken in the research step. Candidate texts are pure text with no decorative image, raw source URL or preview-card objective.
+- Next action: process C295-C299 one by one through visible editor comparison, screenshot review, one submit and independent public detail-page reload. Only independent verification increments the campaign.
+
 Checkpoint: 2026-09-30 (2026-09-29T16:23Z UTC). Machine state: `state/task_state.json`. Runtime sample DB is reproducible from the versioned seed and phase-2 imports listed in `README.md`.
 
 GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-engine/issues/1), [reference research](https://github.com/wanggenAi/x-content-growth-engine/issues/2), [original material](https://github.com/wanggenAi/x-content-growth-engine/issues/3), [validation and feedback](https://github.com/wanggenAi/x-content-growth-engine/issues/4).

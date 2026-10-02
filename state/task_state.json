@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T22:19:17Z",
+  "updated_at": "2026-10-03T06:45:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C290-C294 independently verified at 2026-10-02T22:19:17Z; five pure-text posts passed exact editor comparison, screenshot review, one visible submit each, and independent public detail-page reloads; URLs C290 https://x.com/qiluo27808/status/2106145112682348869, C291 https://x.com/qiluo27808/status/2106145390030708973, C292 https://x.com/qiluo27808/status/2106146300781805650, C293 https://x.com/qiluo27808/status/2106146626603728898, C294 https://x.com/qiluo27808/status/2106146880401129981; display times 6:11, 6:12, 6:16, 6:17, 6:18 AM · Oct 3, 2026; seconds unknown; published_new=99; ready=0; remaining=901; queue=294; latest_verified=C294; next=research C295."
+    "latest_campaign_round": "C295-C299 source-checked at 2026-10-03T06:45:00Z; five pure-text candidates passed public source verification via Browser Harness; materials=60; exploratory_drafts=70; unpublished_candidates=42; verified_account_publications=99; ready=5; remaining=901; queue=299; latest_verified=C294; next=process C295-C299 through visible editor."
   },
   "counts": {
     "x_posts": 11,
@@ -49,11 +49,11 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 55,
-    "exploratory_drafts": 65,
+    "materials": 60,
+    "exploratory_drafts": 70,
     "own_posts": 0,
     "verified_account_publications": 99,
-    "unpublished_candidates": 37,
+    "unpublished_candidates": 42,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -61,7 +61,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research new public-source candidates from C295 onward, prioritizing specific people, concrete conflict, money/time/body costs and publicly documented Chinese social stories; then process at most five through visible editor comparison, screenshot, one submit and independent public detail-page verification. Keep pure text by default; do not count without independent verification.",
+  "next_action": "Process C295-C299 one by one through visible editor comparison, screenshot review, one submit and independent public detail-page verification; keep pure text and stop on any blocker.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",

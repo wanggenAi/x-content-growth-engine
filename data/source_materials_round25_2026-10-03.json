@@ -1,0 +1,97 @@
+{
+  "recorded_at": "2026-10-03T06:45:00Z",
+  "purpose": "C295-C299公开人物与社会新闻候选；优先读者会点开的具体关系、异常行动、金钱代价和可核对场景。来源是事实支点，不是流量保证。",
+  "method": "Browser Harness visible public-page read; paraphrase only; no X account action.",
+  "materials": [
+    {
+      "id": "CAM-C106",
+      "title": "上海女子寻找大学时代免费辅导她三年的外籍老师",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3367562/chinese-womans-search-kind-former-foreign-tutor-sparks-flood-shared-memories",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-15",
+      "observed_at": "2026-10-03T06:37:00Z",
+      "verified_claims": [
+        "南华早报2026年9月15日报道，上海社区工作者王玉2005年毕业于华东师范大学旅游管理专业，正在寻找大学时代认识的美国外籍教师Evans。",
+        "报道说，Evans在她大学期间连续三年课外免费辅导她的学业；她把他视为导师和影响自己人生观的人。"
+      ],
+      "formula_id": "F01",
+      "limits": [
+        "只能写她正在寻找和报道中的影响，不写成已经找到或双方重新联系；‘21年’是从2005到2026的时间推算，正文保留‘毕业21年后’的口语表达。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "毕业21年后，她还在找大学里免费教过自己三年的老师。\n\n南华早报2026年9月15日报道，上海社区工作者王玉2005年从华东师范大学毕业，正在寻找一位叫Evans的美国外籍教师。对方在她读大学时连续三年课外免费辅导，后来成了她认定的导师。\n\n有些人多年后找老师，不是为了求一份资源，是终于承认：人生某个转弯，可能真有人在场。"
+    },
+    {
+      "id": "CAM-C107",
+      "title": "海豹放生后游200公里返回有人居住的岛",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368734/china-seal-touches-hearts-swimming-200km-back-island-after-missing-humans",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-25",
+      "observed_at": "2026-10-03T06:39:00Z",
+      "verified_claims": [
+        "南华早报2026年9月25日报道，名叫Nana的两岁海豹9月7日被放归海中，9月13日重新出现在辽宁大长山岛。",
+        "定位设备显示它游了约200公里；报道引述专家认为，长期被人照料可能让它把人类与安全联系在一起。"
+      ],
+      "formula_id": "F01",
+      "limits": [
+        "‘想念人类’是社交媒体的拟人化说法，不写成海豹的已证实心理；200公里和日期按报道保留。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "放归大海6天后，这只海豹游了200公里，又回到有人住的岛。\n\n南华早报2026年9月25日报道，两岁的Nana在9月7日被放归，9月13日重新出现在辽宁大长山岛；身上的定位设备显示，它在海上游了约200公里。这是它第二次回到有人活动的地方。\n\n网友说它是‘想人了’，专家的说法更克制：长期被人照料，可能让它把人和安全联系在一起。动物没有替我们证明乡愁，但这个画面确实会让人停一下。"
+    },
+    {
+      "id": "CAM-C108",
+      "title": "父亲用每月最多2000元换女儿上大学后每天发消息",
+      "url": "https://www.scmp.com/news/people-culture/article/3325208/china-dad-pays-daughter-us70-every-10-days-text-him-daily-while-university-safety",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2025-09-18",
+      "observed_at": "2026-10-03T06:34:00Z",
+      "verified_claims": [
+        "南华早报2025年9月18日报道，湖北仙桃父亲曹前洪担心18岁女儿去外地上大学后不安全，提出每10天转500元，每月底再给500元，条件是每天至少发一条消息。",
+        "报道说，消息可以是一段短视频、一张照片，甚至一个逗号；父亲称重点是女儿联系家里，而不是消息内容。"
+      ],
+      "formula_id": "F03",
+      "limits": [
+        "按报道写成家庭协商与父亲的担忧，不评价所有亲子关系；金额是按条件计算的最高约2000元/月，不写成已实际全部支付。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "女儿上大学，爸爸把‘每天发一句消息’定价成每月最多2000元。\n\n南华早报2025年9月18日报道，湖北仙桃的曹前洪给18岁女儿定了个家庭协议：每10天转500元，月底再给500元，但她每天至少要发一条消息。短视频、照片，甚至一个逗号都算。\n\n他嘴上说是担心外地不安全，女儿过去却常常不接电话，只有缺钱时才联系。很多家庭的关心，最后都得先找到一个不尴尬的付款方式。"
+    },
+    {
+      "id": "CAM-C109",
+      "title": "河南公司年终奖现场让员工自己数钞票",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3344466/china-boss-offers-us26-million-bonus-staff-can-take-many-bills-possible-within-set-time",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-02-25",
+      "observed_at": "2026-10-03T06:32:00Z",
+      "verified_claims": [
+        "南华早报2026年2月25日报道，河南矿山起重机有限公司从2.7亿元利润中拿出1.8亿元做年终奖。",
+        "2月13日年会上现场发放现金超过6000万元；约7000人参加、摆了800张宴席桌，互动环节让员工在限定时间内自己数桌上的现金，数多少拿多少。"
+      ],
+      "formula_id": "F05",
+      "limits": [
+        "‘员工会羡慕’是报道中的网络反应概括，不写成所有员工都满意；金额和活动按报道，不能据此评价公司长期薪酬。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "有家公司把1.8亿元年终奖搬到年会上，让员工自己数钞票，数多少拿多少。\n\n南华早报2026年2月25日报道，河南矿山起重机有限公司从2.7亿元利润中拿出1.8亿元做年终奖；2月13日的年会来了约7000人，现场发了超过6000万元现金，桌上铺满钞票，员工在限定时间内数到多少就能带走多少。\n\n这当然很会制造画面，但它也把一个问题摆到台上：大家羡慕的到底是奖金数，还是终于能看见利润怎么分？"
+    },
+    {
+      "id": "CAM-C110",
+      "title": "中国城市把陪爬泰山和陪吃火锅做成可付费服务",
+      "url": "https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonely-consumers-china-fuel-74-billion-companionship-economy-2026-06-02/",
+      "source_kind": "PUBLIC_REUTERS_REPORTING",
+      "source_page_publication_date": "2026-06-02",
+      "observed_at": "2026-10-03T06:35:00Z",
+      "verified_claims": [
+        "路透社2026年6月2日报道，中国城市出现陪爬山、陪观光、陪吃火锅等付费陪伴服务；爬泰山的陪爬服务白天收费800元。",
+        "报道引述的媒体估算称，2025年中国陪伴经济约500亿元；24岁的大学生唐俊兴做旅行陪伴兼职，通常每月赚3000至5000元。"
+      ],
+      "formula_id": "F03",
+      "limits": [
+        "500亿元是报道引用的估算，不是官方完整统计；不把‘孤独’写成所有消费者的心理诊断，也不把陪伴服务等同于恋爱。"
+      ],
+      "rights": "Public Reuters reporting; paraphrase only.",
+      "draft_text": "现在连爬泰山都能下单陪爬，白天800元；陪吃火锅也有人接。\n\n路透社2026年6月2日报道，中国城市出现陪爬山、陪观光、陪吃饭的付费服务。一个陪爬团队白天爬泰山收费800元；24岁的大学生唐俊兴做旅行陪伴兼职，通常每月赚3000至5000元。报道引用的媒体估算称，2025年陪伴经济约500亿元。\n\n以前朋友顺路陪你走一趟，现在这段‘有人在场’被拆成了可预订的服务。问题不是人变冷了，而是稳定陪你的人，正在变成一项消费。"
+    }
+  ]
+}
