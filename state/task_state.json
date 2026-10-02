@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T20:25:00Z",
+  "updated_at": "2026-10-02T20:44:57Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C275-C276 independently verified at 2026-10-02T20:05Z; C277 was blocked by X duplicate-content warning and discarded without submission; C278-C279 independently verified at 2026-10-02T20:25Z. published_new=84; ready=0; remaining=916; queue=279; latest_verified=C279."
+    "latest_campaign_round": "C275-C276 independently verified at 2026-10-02T20:05Z; C277 was blocked by X duplicate-content warning and discarded without submission; C278-C279 independently verified at 2026-10-02T20:25Z. C280-C284 are source-checked READY candidates from public SCMP reporting at 2026-10-02T20:44:57Z. published_new=84; ready=5; remaining=916; queue=284; latest_verified=C279; latest_ready=C284."
   },
   "counts": {
     "x_posts": 11,
@@ -49,11 +49,11 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 45,
+    "materials": 50,
     "exploratory_drafts": 60,
     "own_posts": 0,
     "verified_account_publications": 81,
-    "unpublished_candidates": 42,
+    "unpublished_candidates": 47,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10
   },
@@ -61,7 +61,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C275-C276 and C278-C279 are independently verified. C277 was stopped by X duplicate-content warning and discarded without submission; do not rephrase and retry. Research the next source-checked candidates before continuing. Never pad with weak drafts or claim a traffic guarantee.",
+  "next_action": "C278-C279 are independently verified. C277 was stopped by X duplicate-content warning and discarded without submission; do not rephrase and retry. C280-C284 are source-checked READY candidates; process them one by one through visible editor comparison and independent detail-page verification. Never pad with weak drafts or claim a traffic guarantee.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -304,18 +304,18 @@
     "baseline_verified_publications": 25,
     "target_total": 1025,
     "published_new": 84,
-    "ready": 0,
+    "ready": 5,
     "research_pending": 175,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 105,
+    "total_verified_series": 109,
     "remaining_new_publications": 916,
-    "rolling_work_queue_count": 279,
+    "rolling_work_queue_count": 284,
     "latest_publication_id": "C279",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106118224073162882",
     "latest_publication_verified_at": "2026-10-02T20:25Z",
-    "latest_candidate_id": "C279",
-    "latest_candidate_source": "CAM-C090",
-    "latest_candidate_checked_at": "2026-10-02T19:42:46Z",
+    "latest_candidate_id": "C284",
+    "latest_candidate_source": "CAM-C095",
+    "latest_candidate_checked_at": "2026-10-02T20:44:57Z",
     "latest_candidate_status": "READY_SOURCE_CHECKED"
   },
   "editorial_workflow": {
@@ -338,18 +338,18 @@
     "latest_publication_id": "C279",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106118224073162882",
     "latest_publication_verified_at": "2026-10-02T20:25Z",
-    "latest_candidate_id": "C279",
-    "latest_candidate_source": "CAM-C090",
-    "latest_candidate_checked_at": "2026-10-02T19:42:46Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "C275-C276 and C278-C279 are independently verified. C277 was stopped by X duplicate-content warning and discarded without submission; do not rephrase and retry. Research the next source-checked candidates before continuing.",
+    "latest_candidate_id": "C284",
+    "latest_candidate_source": "CAM-C095",
+    "latest_candidate_checked_at": "2026-10-02T20:44:57Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED",
+    "next_action": "C280-C284 are source-checked READY candidates. Process them one by one through visible editor comparison and independent detail-page verification; do not retry C277.",
     "latest_style_review_note": "C270-C274 are pure-text, no raw URLs or decorative images, chosen for concrete people, prices, time costs and visible reversals: paid hiking companions, ugly-product visitors, pet wedding spending, a 33-year world trip and a rough animation's reported box-office reversal. Sources remain metadata; F01/F03/F05 remain HYPOTHESIS."
   },
   "pause_diagnosis": {
     "diagnosed_at": "2026-10-02T19:27:48Z",
     "x_account_permission_issue": false,
     "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT",
-    "campaign_counts": "84_verified_new; 916_remaining; 279_queue; latest C279; ready=0; C277 held for platform duplicate",
+    "campaign_counts": "84_verified_new; 916_remaining; 284_queue; latest verified C279; ready=5 (C280-C284); C277 held for platform duplicate",
     "previous_blocker": "2026-10-02T20:04Z: X editor displayed 'Whoops! You already said that.' for exact C277 candidate; draft discarded, no post submitted. C275-C276 and C278-C279 independently verified.",
     "current_workspace_root_writable": true,
     "git_directory_writable": true,
@@ -360,7 +360,7 @@
     "campaign_count_changed": true,
     "finding": "C270-C274 and C278-C279 passed visible editor text comparison and screenshot inspection, one submission, and independent public detail reload. C275-C279 came from public SCMP reporting with concrete people, actions and costs; all were pure-text candidates with no raw URLs or decorative images. C277 was blocked by the X duplicate warning and discarded.",
     "follow_up_at": "2026-10-02T19:27:48Z",
-    "follow_up_finding": "C278-C279 are independently verified. Next step is research and source-checking of new candidates; early view counts are observations only and do not establish a formula."
+    "follow_up_finding": "C278-C279 are independently verified. C280-C284 are source-checked READY candidates covering a billiards-hall shelter, camera bullying, subsidy loss after a concert trip, pet funerals and a 13-child family. Next step is one-by-one visible publication verification; early view counts are observations only and do not establish a formula."
   },
   "own_post_feedback": "Private 2026-10-02 observations: seven own posts above 10 views (11–21); exposure ages, topics and distribution are uncontrolled. C249 showed 1 view at 13:45:35Z, minutes after publication; not comparable. User rejected C245–C249 as dull/repetitive and requires strict F01–F05 application; formula outcomes remain HYPOTHESIS.",
   "latest_style_feedback": {
