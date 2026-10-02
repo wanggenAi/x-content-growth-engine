@@ -1,20 +1,337 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-09-29T00:47:18Z",
-  "phase": "first_sample_and_source_validation",
+  "schema_version": 2,
+  "updated_at": "2026-10-01T23:05:36Z",
+  "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
     "public_x_discovery_probe": "done",
     "sample_store_mvp": "done",
-    "matched_sample_expansion": "pending",
-    "mechanism_hypotheses": "pending",
+    "browser_permission_review": "latest_explicit_user_scope_recorded_platform_approval_not_confirmed",
+    "query_level_probe": "done",
+    "manual_capture_ui": "done",
+    "evidence_migration": "done",
+    "matched_sample_expansion": "in_progress",
+    "mechanism_hypotheses": "5_structured_hypotheses_0_validated",
     "original_material_bank": "in_progress",
-    "chatgpt_research_packet": "done",
+    "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
+    "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "pending"
+    "own_post_feedback": "private_early_snapshots_of_5_recent_posts_uninformative_small_counts_inspection_contamination",
+    "live_github_recovery": "done",
+    "local_tests_and_seed_replay": "16_tests_passed_existing_runtime_audit_and_new_batch_integrity_checked",
+    "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
+    "x_login": "signed_in_active_profile_observed_by_agent",
+    "reddit_login": "pending_after_x",
+    "publication_batch": "first_8_published_agent_verified",
+    "account_posting_authorization": "explicit_user_authorization_received",
+    "first_publication": "8_posts_verified_on_public_post_pages",
+    "night_publication_batch": "30_unpublished_superseded_by_user_source_led_direction",
+    "human_style_batch": "9_posts_published_agent_verified_3_unpublished",
+    "open_source_virality_research": "8_pinned_repository_reads_10_community_leads_7_original_pages_3_index_only",
+    "source_led_pilot": "R01_published_public_detail_verified",
+    "source_led_batch2": "4_published_independent_detail_pages_verified",
+    "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs"
   },
-  "counts": {"x_posts": 7, "high_candidates": 4, "ordinary_candidates": 3, "authors": 4, "x_observations": 8, "materials": 2, "own_posts": 0},
-  "blocked": ["No verified free authorized bulk X read source; official API charges per read", "No authorized Reddit ingestion for this use"],
-  "next_action": "Broaden matched X samples and measure query coverage; independently test material claims before drafting"
+  "counts": {
+    "x_posts": 11,
+    "original_confirmed": 1,
+    "posts_with_index_views": 7,
+    "exact_display_index_views": 3,
+    "approximate_index_views": 4,
+    "dated_nonindex_views": 0,
+    "ready_pairs": 0,
+    "high_candidates_provisional": 4,
+    "ordinary_candidates_provisional": 3,
+    "authors": 7,
+    "x_observations": 13,
+    "public_search_queries": 13,
+    "blocked_browser_channels": 1,
+    "materials": 35,
+    "exploratory_drafts": 60,
+    "own_posts": 0,
+    "verified_account_publications": 60,
+    "unpublished_candidates": 34,
+    "agent_observed_viral_posts": 32,
+    "agent_observed_exploratory_comparisons": 10
+  },
+  "blocked": [
+    "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
+    "No authorized Reddit ingestion for this use"
+  ],
+  "next_action": "Expand source research to dark human motives and undernoticed China public records; next candidate must use a verifiable primary source and pass visible editor body gate plus independent public detail reload verification.",
+  "local_browser_probe": {
+    "captured_at": "2026-09-30T13:56:28Z",
+    "runtime": "browser-harness 0.1.13 via local Chrome",
+    "github": "REACHABLE_PUBLIC",
+    "reddit": "REACHABLE_PUBLIC_UNSIGNED",
+    "hacker_news": "REACHABLE_PUBLIC",
+    "x": "NOT_VISITED_EXISTING_POLICY_GATE",
+    "cua_cloud_session": "NOT_EXPOSED_IN_CURRENT_INVENTORY"
+  },
+  "material_probe": {
+    "file": "data/phase2_materials_round3.json",
+    "new_source_checked_leads": 2,
+    "sources": [
+      "https://openai.com/index/introducing-dots/",
+      "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96"
+    ],
+    "rights_status": "link_and_short_summary_only"
+  },
+  "work_browser": {
+    "runtime": "mcp__cua_repl",
+    "x_homepage": "REACHABLE_UNSIGNED",
+    "reddit_homepage": "REACHABLE_PUBLIC_UNSIGNED",
+    "safe_handoff": "SUPPORTED_NOT_YET_COMPLETED",
+    "session_reuse": "UNTESTED",
+    "standalone_browser_harness": "NOT_INVOKED_THIS_RUN",
+    "hn_github_browser_access": "NOT_TESTED_THIS_RUN",
+    "research_permission": "EXISTING_POLICY_GATE_REQUIRES_SCOPE_REVIEW",
+    "new_x_samples": 0
+  },
+  "live_github": {
+    "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
+    "resumed_pr": 5,
+    "resumed_head_sha": "acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8",
+    "pr_state": "OPEN_UNMERGED",
+    "previous_head_ci": "SUCCESS_PUSH_AND_PR",
+    "open_issue_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "local_tests_passed": 16
+  },
+  "publication_batch": {
+    "file": "data/publication_batch_2026-10-01.json",
+    "draft_count": 8,
+    "new_drafts": 5,
+    "revised_prior_drafts": 3,
+    "published_count": 8,
+    "user_authorization": "RECEIVED_2026-10-01",
+    "route": "USER_DIRECTED_VISIBLE_COMPUTER_USE",
+    "platform_rules_checked_at": "2026-09-30T16:15:06Z",
+    "platform_rules_url": "https://help.x.com/en/rules-and-policies/x-automation",
+    "additional_permission_required": false,
+    "platform_approval": "NOT_CONFIRMED_RESTRICTION_PREVIOUSLY_DISCLOSED",
+    "unpublished_count": 0,
+    "verified_draft_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08"
+    ],
+    "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI"
+  },
+  "count_notes": {
+    "own_posts": "Reviewed feedback DB records remain zero; 22 agent-verified publications are recorded separately, with unknown timestamp seconds and no fabricated human review.",
+    "unpublished_candidates": "33 historic paused/superseded drafts plus 2 confidence-gated source-checked candidates; no active permission request.",
+    "agent_observed_viral_posts": "Separate source-kind batch with exact visible label counts and UTC; not included in existing human-confirmed SQLite x_posts/original_confirmed counts."
+  },
+  "night_publication_batch": {
+    "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
+    "requested_new_post_count": 30,
+    "published_count": 0,
+    "unpublished_count": 30,
+    "blocker": {
+      "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
+      "observation": "Computer Use returned: The Mac is locked and automatic unlock is paused because physical input was detected. Ask the user to unlock the Mac manually before continuing.",
+      "observed_at": "2026-09-30T17:20:30.363168Z",
+      "submission_attempts": 0
+    },
+    "file": "data/publication_batch_2026-10-01_night.json",
+    "validation": {
+      "unit_tests_passed": 16,
+      "publication_integrity_audit": "passed",
+      "git_diff_check": "passed",
+      "stdlib_command_smoke_checks": 2,
+      "runtime_research_audit": "Existing runtime has 11 X links, 13 observations, 4 materials and 0 reviewed own posts; materials 7 is the prior full seed-replay count. Runtime database not updated by this editorial batch. No ready pairs or validated formula."
+    }
+  },
+  "human_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_human.json",
+    "published_count": 9,
+    "unpublished_count": 3,
+    "method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI",
+    "human_checked": false,
+    "growth_result": "UNKNOWN"
+  },
+  "method_research": {
+    "file": "docs/VIRALITY_RESEARCH_OPEN_SOURCE.md",
+    "sources": "data/phase2_materials_round5.json",
+    "new_source_count": 4,
+    "validated_formulas": 0,
+    "key_limit": "Three-day English historical model; old code random split unsuitable for current Chinese X conclusions.",
+    "registry": "data/virality_method_registry_2026-10-01.json",
+    "repository_count": 8,
+    "community_lead_count": 10,
+    "original_community_pages_read": 7,
+    "index_only_or_failed_originals": 3,
+    "materials_files": [
+      "data/phase2_materials_round5.json",
+      "data/phase2_materials_round6.json"
+    ],
+    "full_replay_material_count": 15
+  },
+  "research_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_research.json",
+    "published_count": 1,
+    "unpublished_count": 0,
+    "url": "https://x.com/qiluo27808/status/2105445999900762128",
+    "effects": "UNKNOWN_INITIAL_SNAPSHOT_ONLY",
+    "human_checked": false
+  },
+  "browser_research_scope": {
+    "reviewed_at": "2026-10-01T00:12:06.509880Z",
+    "user_authorized": true,
+    "platform_written_approval": false,
+    "target_first_batch": 30,
+    "admission": "direct visible view count strictly above 10000; preserve approximate displays as text",
+    "human_checked": false
+  },
+  "direct_agent_viral_research": {
+    "file": "data/viral_samples_2026-10-01.json",
+    "analyzed_above_10000_views": 32,
+    "authors": 29,
+    "raw_candidates": 46,
+    "detail_visits": 12,
+    "exploratory_below_threshold_nonreply_comparisons": 10,
+    "valid_causal_pairs": 0,
+    "human_checked": false
+  },
+  "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
+  "evidence_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_evidence.json",
+    "published_count": 4,
+    "unpublished_count": 0,
+    "human_checked": false,
+    "effects": "UNKNOWN",
+    "urls": [
+      "https://x.com/qiluo27808/status/2105453451891347607",
+      "https://x.com/qiluo27808/status/2105453774152286342",
+      "https://x.com/qiluo27808/status/2105453977513218446",
+      "https://x.com/qiluo27808/status/2105454165434728797"
+    ]
+  },
+  "source_material_bank_round7": {
+    "file": "data/source_materials_round7_2026-10-01.json",
+    "source_checked_count": 4,
+    "imported_into_runtime_db": false
+  },
+  "validation": {
+    "unit_tests": 16,
+    "new_research_integrity": "32 unique >10000-view records, UTC raw labels and agent provenance; 10 nonreply comparisons explicitly unmatched",
+    "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
+    "formula_validated": 0,
+    "github_ci": {
+      "tested_sha": "8432e625a70431a2b4a02ff1640076a08d88c278",
+      "push": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36801568976",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36801570390",
+      "conclusion": "success",
+      "checked_at": "2026-10-01T01:32:57.239616Z"
+    },
+    "stage2_integrity": "208 unique original URLs; 89 exact visible labels above 10000; 74 authors/70 disjoint; 28 structural reviews; UTC provenance and agent-only verification; zero causal pairs or formula promotions; two unpublished candidates within weighted length limit",
+    "local_continuation": "Local automation configuration verified ACTIVE, heartbeat, current chat, two-hour interval; no new publication this checkpoint",
+    "incremental_publication_integrity": "Three actual native Chrome detail pages; exact source-linked bodies; displayed minute times; screenshots and AX private; no fabricated human review",
+    "figure_contrast_integrity": "27 unique links / 19 exact threshold labels / five structural reviews / four detail visits; provenance and UTC checks passed; no formula promotion"
+  },
+  "confidence_gate": {
+    "plan": "data/virality_confirmatory_plan_2026-10-01.json",
+    "status": "HIGH_VIRAL_CONFIDENCE_NOT_ESTABLISHED",
+    "future_virality_probability": null,
+    "rationale": "Independent supportive cases and mature negative leads exist, but matched-topic/form controls, account reach and calibrated transfer evidence remain absent.",
+    "report": "docs/VIRAL_VALIDATION_STAGE2_2026-10-01.md",
+    "historical_decision": {
+      "at": "2026-10-01T01:15:04.507227Z",
+      "status": "NOT_MET_NO_NEW_PUBLICATION"
+    },
+    "latest_user_instruction": "Gradual source-checked publication tests while research continues; potentially dozens/hundreds over time",
+    "publishing_rule": "Editorial source/benefit/originality review allows gradual tests; does not imply validated viral confidence"
+  },
+  "validation_stage2": {
+    "file": "data/viral_validation_stage2_2026-10-01.json",
+    "unique_posts_observed": 208,
+    "observed_above_10000": 89,
+    "authors": 74,
+    "independent_authors": 70,
+    "structurally_reviewed": 28,
+    "detail_visits": 9,
+    "age_coarse_form_pair_candidates": 78,
+    "valid_causal_pairs": 0,
+    "formulas_promoted": 0
+  },
+  "research_continuation": {
+    "automation_id": "x",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "interval_hours": 2,
+    "destination": "current local chat",
+    "created_at": "2026-10-01T01:15:04.507227Z",
+    "no_extra_paid_integrations": true,
+    "publication_requires_confidence_gate": false,
+    "publication_requires_editorial_source_gate": true,
+    "latest_scope": "At least1000 further original publications, source-checked; up to5 eligible per2-hour run; continue progressively",
+    "updated_at": "2026-10-01T01:30:28.705173Z"
+  },
+  "publication_candidates_stage2": {
+    "file": "data/publication_candidates_stage2_2026-10-01.json",
+    "unpublished_count": 0,
+    "published_count": 3,
+    "status": "PUBLISHED_AGENT_VERIFIED",
+    "human_checked": false,
+    "growth_outcomes": "UNKNOWN"
+  },
+  "public_figure_contrast": {
+    "file": "data/public_figure_contrast_research_2026-10-01.json",
+    "observed": 27,
+    "above_10000": 19,
+    "structure_reviewed": 5,
+    "detail_visits": 4,
+    "formula_state": "HYPOTHESIS",
+    "valid_causal_pairs": 0
+  },
+  "publication_campaign": {
+    "file": "data/publication_campaign_200_2026-10-01.json",
+    "target_new_publications": 1000,
+    "baseline_verified_publications": 25,
+    "target_total": 1025,
+    "published_new": 36,
+    "ready": 0,
+    "research_pending": 179,
+    "status": "ACTIVE_NOT_COMPLETE",
+    "total_verified_series": 61,
+    "remaining_new_publications": 964,
+    "rolling_work_queue_count": 216
+  },
+  "editorial_workflow": {
+    "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
+    "decision_log": "docs/USER_DECISION_LOG.md",
+    "cumulative_verified_series": 51,
+    "latest_repair_ids": [
+      "C019",
+      "C020",
+      "C021"
+    ],
+    "latest_repair_verified_at": "2026-10-01T03:16:16.652879Z",
+    "body_gate": "COMPARE_REAL_EDITOR_THEN_RELOAD_PUBLIC_BODY_AND_SCREENSHOT",
+    "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
+    "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
+    "unknown_referred_person": "Keybo",
+    "latest_input_failure": "CUA_X_TAB_READ_TIMEOUT_WHILE_OPEN_X_HOME; C206_DRAFT_NOT_SUBMITTED",
+    "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
+    "latest_input_recovery": "WINDOW_LEVEL_VISIBLE_CHROME_EDITOR_READ_AND_NATIVE_PASTE_ACCEPTED_FULL_CJK_BODY_AND_SCREENSHOT",
+    "latest_publication_id": "C216",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2105810625142394955",
+    "latest_publication_verified_at": "2026-10-02T00:03:17Z",
+    "latest_candidate_id": "C216",
+    "latest_candidate_source": "CAM-C036",
+    "latest_candidate_checked_at": "2026-10-01T23:58:09Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+    "next_action": "Research the next dark human motive or undernoticed China public record with a verifiable primary source; continue at no more than five visible-editor-verified originals per round."
+  }
 }

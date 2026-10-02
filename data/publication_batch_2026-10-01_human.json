@@ -1,0 +1,153 @@
+{
+  "created_at": null,
+  "status": "9_PUBLISHED_3_UNPUBLISHED_RESEARCH_FIRST",
+  "style_change": {
+    "problem": "Earlier content read like documentation.",
+    "new_pattern": "specific awkward scene + tension or loss + one action + restrained humor",
+    "evidence_basis": "Berger and Milkman analysis of nearly 7,000 New York Times articles; practical value and high-arousal emotion were associated with greater sharing, while low-arousal sadness was weaker.",
+    "source_url": "https://journals.sagepub.com/doi/10.1509/jmr.10.0353"
+  },
+  "posts": [
+    {
+      "id": "H01",
+      "topic": "浏览器恢复",
+      "text": "你不是记性差。\n\n你只是把“稍后再看”办成了电子坟场。\n\nChrome 误关标签页：\nWindows/Linux 按 Ctrl+Shift+T\nMac 按 ⌘+Shift+T\n\n还能按关闭顺序一个个捞回来。\n\n出处：https://support.google.com/chrome/answer/157179?hl=en",
+      "source_url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440022627512370",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H02",
+      "topic": "手机扫描",
+      "text": "别再给身份证拍一张糊到像目击证人的照片。\n\niPhone：备忘录 → 附件 → 扫描文稿。\n\n它会自动找边、校正、生成 PDF；多页也能继续扫。\n\n保存前检查姓名和号码。机器负责拍，最后一眼得由人负责。\n\n出处：https://support.apple.com/en-euro/guide/iphone/iph653f28965/ios",
+      "source_url": "https://support.apple.com/en-euro/guide/iphone/iph653f28965/ios",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440475511681200",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H03",
+      "topic": "Gmail检索",
+      "text": "Gmail 里找那份旧 PDF，不要从 2019 年开始手翻。\n\n搜索：filename:pdf older_than:1y\n\n如果记得发件人，再加 from:对方邮箱。\n\n先缩小范围，再打开附件。邮箱不是考古现场，别徒手挖。\n\n出处：https://support.google.com/mail/answer/7190?hl=en",
+      "source_url": "https://support.google.com/mail/answer/7190?hl=en",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440605212152012",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H04",
+      "topic": "搜索技巧",
+      "text": "你搜不到答案，可能不是答案不存在，是搜索词太有礼貌。\n\nGoogle 试试：\nsite:support.google.com/chrome 标签页\n\"exact phrase\"\n主题 filetype:pdf\n\n这些都是官方支持的筛选方式。先找说明书，再听群聊传说。\n\n出处：https://support.google.com/websearch/answer/2466433?hl=en",
+      "source_url": "https://support.google.com/websearch/answer/2466433?hl=en",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440632571654225",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H05",
+      "topic": "截图隐私",
+      "text": "Windows 截图别把整个桌面发出去。\n\n按 Win+Shift+S，只框选报错那一块。\n\n发之前看一眼：账号、聊天、文件名有没有一起入镜？\n\n求助需要证据，不需要给桌面办展览。\n\n出处：https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+      "source_url": "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440658249199721",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H06",
+      "topic": "表格冻结",
+      "text": "表格滚到第 300 行，突然忘了每列是什么意思？\n\nGoogle Sheets：视图 → 冻结 → 1 行。\n\n表头会跟着你往下走。\n\n它终于像一个认真上班的同事，而不是第一行打卡后就消失。\n\n出处：https://support.google.com/docs/answer/9060449?hl=en",
+      "source_url": "https://support.google.com/docs/answer/9060449?hl=en",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440951695290537",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H07",
+      "topic": "表格拆分",
+      "text": "“姓名,城市”挤在一列里，不需要复制粘贴到天荒地老。\n\nGoogle Sheets：选中这一列 → 数据 → 将文本拆分为列 → 分隔符选逗号。\n\n先留一列空位，再核对几行结果。\n\n逗号终于从标点晋升成了同事。\n\n出处：https://support.google.com/docs/answer/6325535?hl=en-GB",
+      "source_url": "https://support.google.com/docs/answer/6325535?hl=en-GB",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440973505667532",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H08",
+      "topic": "GitHub引用",
+      "text": "引用 GitHub 代码，别只发会变化的 main 链接。\n\n打开文件页面，按 y，再复制地址。\n\nGitHub 会把链接切到当前提交版本，别人以后看到的还是同一份。\n\n证据要固定，别让链接自己换版本。\n\n出处：https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files",
+      "source_url": "https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105440997576769771",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H09",
+      "topic": "传播心理",
+      "text": "让人转发的，常常不是“太有道理”，而是“我怎么被你说中了”。\n\n分析近 7,000 篇《纽约时报》文章的研究发现：实用价值和高唤醒情绪，与更高传播相关；低唤醒的悲伤较弱。\n\n写法可以是：先戳一个尴尬，再给一个能试的动作。\n\n不是喊收藏，是让人想发给正在踩坑的人。\n\n研究：https://journals.sagepub.com/doi/10.1509/jmr.10.0353",
+      "source_url": "https://journals.sagepub.com/doi/10.1509/jmr.10.0353",
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "published_url": "https://x.com/qiluo27808/status/2105441156456944035",
+      "published_at": null,
+      "published_time_precision": "MINUTE_DISPLAY_ONLY_SECONDS_UNKNOWN",
+      "human_checked": false,
+      "verification": "Visible native Chrome account timeline: post body and distinct status link matched; detail-page evidence retained where captured."
+    },
+    {
+      "id": "H10",
+      "topic": "任务启动",
+      "text": "“今天分享 3 个效率技巧”通常没人停下来。\n\n换成：\n\n“你不是效率低，你只是把每个任务都开成了一个新项目。”\n\n然后只给一个动作：把任务改写成下一步能动手的句子，比如“打开表格，删掉重复行”。\n\n人不怕忙，怕的是不知道第一步在哪。",
+      "status": "UNPUBLISHED",
+      "published_url": null,
+      "published_at": null,
+      "human_checked": false
+    },
+    {
+      "id": "H11",
+      "topic": "AI核验",
+      "text": "AI 最危险的时刻，不是它明显胡说。\n\n是它把没核对过的东西，写得像你已经核对过。\n\n一个很笨但有效的动作：让它给出处；你只打开原文，核对数字、日期、限制条件。\n\n“有链接”不等于“链接支持这句话”。链接也会被拿来当烟雾弹。",
+      "status": "UNPUBLISHED",
+      "published_url": null,
+      "published_at": null,
+      "human_checked": false
+    },
+    {
+      "id": "H12",
+      "topic": "工具成本",
+      "text": "工具每次省 10 分钟，不代表它值得用。\n\n把第一次设置、导入、检查、出错后的修复也一起计时。\n\n如果前后要花 40 分钟，它可能适合高频重复任务，不适合今天只做一次的小事。\n\n效率不是按钮数量，是整段流程少花多少时间。",
+      "status": "UNPUBLISHED",
+      "published_url": null,
+      "published_at": null,
+      "human_checked": false
+    }
+  ],
+  "published_count": 9,
+  "unpublished_count": 3,
+  "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI",
+  "posting_scope": "User-authorized original posts only; no likes, follows, replies, DMs, promotion, account settings or API calls.",
+  "prepared_date_local": "2026-10-01",
+  "updated_at": "2026-09-30T23:50:18.534478Z"
+}

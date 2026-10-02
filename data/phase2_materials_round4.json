@@ -1,0 +1,15 @@
+[
+  {
+    "source_url": "https://mathigon.org/origami",
+    "discovery_url": "https://mathigon.org/origami",
+    "source_kind": "educational_resource",
+    "published_at": null,
+    "discovered_at": "2026-09-30T16:15:06Z",
+    "observation": "Mathigon 数学折纸页按正多面体、阿基米德多面体、星形与组合体等列出模型；可作为从平面折叠理解立体结构的教学线索。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "讨论怎样通过拼接与折叠理解面和顶点关系；动手验证后再描述个人体验或教学效果。",
+    "region": "global",
+    "rights_note": "只保存链接与原创短摘要；未复制模型图案、图片或折叠文件，文件再利用需要逐项核对许可。",
+    "review_after": "2026-11-01"
+  }
+]

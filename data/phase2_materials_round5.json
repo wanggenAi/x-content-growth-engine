@@ -1,0 +1,54 @@
+[
+  {
+    "source_url": "https://github.com/remidomingues/Virality-Prediction",
+    "discovery_url": "https://github.com/remidomingues/Virality-Prediction",
+    "source_kind": "open_source_research_project",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:50:18.534478Z",
+    "observation": "公开仓库描述了采集随机英文推文、固定等待窗口后更新转发量、提取账号/实体/文本特征、训练回归或分类器和汇总 hashtag 的流水线。README 标明样本连续三天；旧代码使用 Twitter API、MongoDB/HDF5 和 Python 2 时代依赖。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "借鉴固定结果窗口、特征分层和可复现评估；不得把旧英语样本或随机切分模型当作今天中文 X 的爆帖公式。",
+    "region": "global",
+    "rights_note": "只保存公开仓库链接与原创短摘要；不复制代码、数据或 PDF。复用代码前逐项核对许可证和 API 条款。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://doi.org/10.1509/jmr.10.0353",
+    "discovery_url": "https://journals.sagepub.com/doi/10.1509/jmr.10.0353",
+    "source_kind": "peer_reviewed_research",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:50:18.534478Z",
+    "observation": "Berger 与 Milkman 对近 7,000 篇《纽约时报》文章研究实用价值、情绪与传播；高唤醒情绪和实用价值与更高传播相关，低唤醒悲伤较弱。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "预注册高唤醒/实用机制并保留反例；不能写成中文 X 的因果保证。",
+    "region": "global",
+    "rights_note": "只保存 DOI 和短摘要，不复制论文全文或图表。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://doi.org/10.1016/j.ijresmar.2016.02.004",
+    "discovery_url": "https://www.sciencedirect.com/science/article/pii/S0167811616300386",
+    "source_kind": "peer_reviewed_replication",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:50:18.534478Z",
+    "observation": "Heimbach 与 Hinz 将情绪性与正面程度的传播关系扩展到社交网络数据；结果提示正面程度可能为倒 U 型，不能用越正面越好解释。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "测试不同强度而非单向堆情绪，记录题材和分发条件；保留研究环境与中文 X 的外推限制。",
+    "region": "global",
+    "rights_note": "只保存 DOI 和原创短摘要；全文使用遵循出版方许可。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://arxiv.org/abs/1101.0510",
+    "discovery_url": "https://arxiv.org/abs/1101.0510",
+    "source_kind": "preprint_research",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:50:18.534478Z",
+    "observation": "Hansen 等区分新闻与非新闻 Twitter 内容，指出情绪与传播关系依内容类型而变，不能套用正面或负面必然更易传播的单一规则。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "将 content_type 作为预先字段，分别测试新闻、观点、经历、知识和身份表达。",
+    "region": "global",
+    "rights_note": "保存公开预印本链接和原创短摘要；不复制全文。",
+    "review_after": "2026-11-01"
+  }
+]

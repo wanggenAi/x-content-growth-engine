@@ -1,0 +1,78 @@
+{
+  "registered_at": "2026-10-01T00:59:29.277954Z",
+  "stage": "BEFORE_SECOND_BATCH_INSPECTION",
+  "exploration_batch": "data/viral_samples_2026-10-01.json",
+  "holdout_excludes_authors": [
+    "xieqianwan642",
+    "AI_DVD6",
+    "rwayne",
+    "lengs4189",
+    "Xiaoyzi_Web3",
+    "yihui_indie",
+    "chasen_liao",
+    "qihang_zeng6688",
+    "lambda_focus",
+    "Btc8888XF",
+    "wangchangfu88",
+    "xiaoshunli",
+    "iruletrenches",
+    "tart_egg25188",
+    "STANLEES4",
+    "Rocky_Bitcoin",
+    "Alex_perception",
+    "xigema688",
+    "CharlesJHChen",
+    "zbc2008",
+    "Alex_perception",
+    "jarvis11x",
+    "niumoney",
+    "nini_incrypto_",
+    "newbeeyu",
+    "liangzhu_AI",
+    "yihui_indie",
+    "xiqingongzi",
+    "sujing110",
+    "judeguox",
+    "nini_incrypto_",
+    "LuBtc888"
+  ],
+  "hypotheses": [
+    {
+      "id": "F02",
+      "feature_definition": "Specific task plus a publicly inspectable free resource/result and an access or use path; unverified revenue or referral incentives do not count.",
+      "comparator": "Same author/topic/media near-date posts describing capabilities without usable delivery",
+      "expected_direction": "Higher within-author reach and substantive saves/shares in comparable mature observations",
+      "failure_evidence": "Low-reach inspectable-resource posts or high-reach plain descriptions; unavailable resources; effects vanish excluding incentives/quote amplification."
+    },
+    {
+      "id": "F01",
+      "feature_definition": "A familiar interpretation changes because of concrete attributable evidence; rhetorical reversal alone is absent feature.",
+      "comparator": "Same author/topic/media near-date direct factual statement or unsupported opinion",
+      "expected_direction": "Higher within-author reach in comparable mature observations",
+      "failure_evidence": "Low-reach evidence-backed reversals or high-reach direct facts; effect depends on author audience or current event."
+    }
+  ],
+  "matching_rules": {
+    "minimum_age_hours": 72,
+    "maximum_publication_time_gap_hours": 72,
+    "same_author": true,
+    "same_topic_required": true,
+    "same_media_and_quote_form_required": true,
+    "source_kind": "DIRECT_X_RENDERED_UI_AGENT",
+    "date_filter_rule": "Validate actual DOM timestamps; never rely on query dates",
+    "missing_confounds": "followers/distribution/promotion absent => exploratory only",
+    "formal_human_review_gate": "Agent observations do not become human-confirmed READY pairs"
+  },
+  "publication_readiness": {
+    "not_probability_score": true,
+    "requirements": [
+      "independent-author evidence and counterexamples reviewed",
+      "source facts and access independently verified",
+      "specific reader benefit and actual deliverable",
+      "own account distribution/feedback assessed",
+      "written editorial decision with material limits"
+    ],
+    "goal": "Confidence to publish a justified candidate, not a claim or guarantee of >10000 future views"
+  },
+  "formulas_promoted": false
+}

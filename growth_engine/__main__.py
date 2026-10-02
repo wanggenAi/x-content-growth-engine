@@ -3,12 +3,17 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 import sqlite3
+from contextlib import closing
 from datetime import datetime, date, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+
+from .phase2 import (import_annotations, import_pairs, import_queries, import_research_review, insert_observation, migrate,
+                     packet_markdown, quality_report, research_packet)
 
 DEFAULT_DB = Path("data/research.sqlite3")
 POST_RE = re.compile(r"^/(?:[A-Za-z0-9_]+|i/web)/status/(\d+)/?$")
@@ -110,6 +115,7 @@ def connect(path: Path) -> sqlite3.Connection:
     for name in ("discovery_url", "source_kind", "published_at", "region", "rights_note", "review_after"):
         if name not in columns:
             db.execute(f"ALTER TABLE materials ADD COLUMN {name} TEXT")
+    migrate(db)
     return db
 
 
@@ -127,9 +133,35 @@ def validate(item: dict) -> dict:
         raise ValueError("source_url must be an HTTPS evidence URL")
     if item["cohort"] not in COHORTS or item["method"] not in METHODS:
         raise ValueError("invalid cohort or method")
+    if item.get("verification_status", "DISCOVERED") not in {"DISCOVERED", "ORIGINAL_CONFIRMED"}:
+        raise ValueError("invalid verification status")
+    if item.get("verification_status") == "ORIGINAL_CONFIRMED" and item["method"] == "public_search_index":
+        raise ValueError("search index cannot confirm the original page")
+    if item.get("verification_status") == "ORIGINAL_CONFIRMED" and item["method"] == "manual_user_record" and item.get("human_checked") is not True:
+        raise ValueError("manual original confirmation requires human_checked=true")
+    if item.get("post_type", "UNKNOWN") not in {"UNKNOWN", "ORIGINAL", "REPLY", "QUOTE", "REPOST", "ARTICLE"}:
+        raise ValueError("invalid post type")
+    if item.get("promotion_status", "UNKNOWN") not in {"UNKNOWN", "NONE_OBSERVED", "SUSPECTED", "DISCLOSED"}:
+        raise ValueError("invalid promotion status")
+    if item.get("metric_source", "UNKNOWN") not in {"UNKNOWN", "SEARCH_INDEX", "PUBLIC_X_PAGE", "USER_SCREENSHOT", "USER_NOTE"}:
+        raise ValueError("invalid metric source")
+    if item.get("views_precision") not in {None, "UNKNOWN", "APPROXIMATE", "EXACT_DISPLAYED"}:
+        raise ValueError("invalid views precision")
+    if item.get("views_precision") == "EXACT_DISPLAYED" and item.get("views") is None:
+        raise ValueError("exact views precision needs a view count")
+    if item.get("metric_as_of"):
+        metric_at = datetime.fromisoformat(item["metric_as_of"].replace("Z", "+00:00"))
+        if metric_at.utcoffset() is None or metric_at.utcoffset().total_seconds() != 0:
+            raise ValueError("metric_as_of must be UTC")
+    if item.get("metric_source") == "SEARCH_INDEX" and item.get("metric_as_of"):
+        raise ValueError("search index cannot establish metric timestamp")
+    if item.get("verification_status") == "ORIGINAL_CONFIRMED" and not item.get("evidence_ref"):
+        raise ValueError("confirmed original requires evidence_ref")
     observed = datetime.fromisoformat(item["observed_at"].replace("Z", "+00:00"))
     if observed.utcoffset() is None or observed.utcoffset().total_seconds() != 0:
         raise ValueError("observed_at must be UTC")
+    if item.get("metric_as_of") and metric_at > observed:
+        raise ValueError("metric_as_of cannot be later than observed_at")
     if item.get("posted_date") is not None:
         datetime.strptime(item["posted_date"], "%Y-%m-%d")
     handle = url.path.split("/")[1]
@@ -154,20 +186,44 @@ def import_file(db: sqlite3.Connection, path: Path) -> tuple[int, int]:
     before_observations = db.execute("SELECT count(*) FROM x_observations").fetchone()[0]
     with db:
         for row in validated:
-            db.execute("""INSERT INTO x_posts VALUES (?,?,?,?,?,?,?,?,?)
-                ON CONFLICT(post_id) DO UPDATE SET last_seen_at=max(x_posts.last_seen_at, excluded.last_seen_at)""",
-                (row["post_id"], row["url"], row["author_handle"], row.get("posted_date"), row["topic"], row["excerpt"], row["cohort"], row["observed_at"], row["observed_at"]))
-            db.execute("""INSERT OR IGNORE INTO x_observations
-                (post_id,observed_at,source_url,method,discovery_query,evidence_note,views,likes,reposts,quotes,replies,followers)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
-                (row["post_id"], row["observed_at"], row["source_url"], row["method"], row["discovery_query"], row["evidence_note"], *(row.get(key) for key in METRICS)))
+            insert_observation(db, row)
     posts = db.execute("SELECT count(*) FROM x_posts").fetchone()[0] - before_posts
     observations = db.execute("SELECT count(*) FROM x_observations").fetchone()[0] - before_observations
     return posts, observations
 
 
+def import_csv(db: sqlite3.Connection, path: Path) -> tuple[int, int]:
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if not rows:
+        raise ValueError("CSV has no observations")
+    prepared = []
+    for row in rows:
+        cleaned = {key: value.strip() if isinstance(value, str) else value for key, value in row.items() if key}
+        for metric in METRICS:
+            cleaned[metric] = int(cleaned[metric]) if cleaned.get(metric) else None
+        cleaned["cohort"] = cleaned.get("cohort") or "unclassified"
+        cleaned["method"] = cleaned.get("method") or "manual_user_record"
+        cleaned["discovery_query"] = cleaned.get("discovery_query") or "user supplied batch"
+        cleaned["verification_status"] = cleaned.get("verification_status") or "DISCOVERED"
+        cleaned["metric_source"] = cleaned.get("metric_source") or "UNKNOWN"
+        cleaned["views_precision"] = cleaned.get("views_precision") or None
+        cleaned["human_checked"] = cleaned.get("human_checked", "").lower() == "true"
+        cleaned["source_url"] = cleaned.get("source_url") or cleaned.get("url")
+        cleaned["posted_date"] = cleaned.get("posted_date") or None
+        cleaned["metric_as_of"] = cleaned.get("metric_as_of") or None
+        prepared.append(validate(cleaned))
+    before_posts = db.execute("SELECT count(*) FROM x_posts").fetchone()[0]
+    before_observations = db.execute("SELECT count(*) FROM x_observations").fetchone()[0]
+    with db:
+        for row in prepared:
+            insert_observation(db, row)
+    return (db.execute("SELECT count(*) FROM x_posts").fetchone()[0] - before_posts,
+            db.execute("SELECT count(*) FROM x_observations").fetchone()[0] - before_observations)
+
+
 def validate_material(item: dict) -> dict:
-    required = ("source_url", "discovery_url", "source_kind", "published_at", "discovered_at", "observation", "verification_status", "content_direction", "region", "rights_note", "review_after")
+    required = ("source_url", "discovery_url", "source_kind", "discovered_at", "observation", "verification_status", "content_direction", "region", "rights_note", "review_after")
     missing = [key for key in required if not isinstance(item.get(key), str) or not item[key].strip()]
     if missing:
         raise ValueError(f"missing/empty material fields: {', '.join(missing)}")
@@ -183,7 +239,8 @@ def validate_material(item: dict) -> dict:
     observed = datetime.fromisoformat(item["discovered_at"].replace("Z", "+00:00"))
     if observed.utcoffset() is None or observed.utcoffset().total_seconds() != 0:
         raise ValueError("discovered_at must be UTC")
-    date.fromisoformat(item["published_at"])
+    if item.get("published_at"):
+        date.fromisoformat(item["published_at"])
     date.fromisoformat(item["review_after"])
     if len(item["observation"]) > 300:
         raise ValueError("material observation must be a short original summary")
@@ -201,7 +258,7 @@ def import_materials(db: sqlite3.Connection, path: Path) -> int:
             db.execute("""INSERT OR IGNORE INTO materials
                 (source_url,discovered_at,observation,verification_status,content_direction,discovery_url,source_kind,published_at,region,rights_note,review_after)
                 VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
-                tuple(row[key] for key in ("source_url", "discovered_at", "observation", "verification_status", "content_direction", "discovery_url", "source_kind", "published_at", "region", "rights_note", "review_after")))
+                tuple(row.get(key) for key in ("source_url", "discovered_at", "observation", "verification_status", "content_direction", "discovery_url", "source_kind", "published_at", "region", "rights_note", "review_after")))
     return db.execute("SELECT count(*) FROM materials").fetchone()[0] - before
 
 
@@ -310,6 +367,7 @@ def report(db: sqlite3.Connection) -> dict:
         "failed_ingest_runs": db.execute("SELECT count(*) FROM ingest_runs WHERE status='FAILED'").fetchone()[0],
         "indexed_metric_observations": db.execute("SELECT count(*) FROM x_observations WHERE method='public_search_index' AND views IS NOT NULL").fetchone()[0],
         "direct_metric_observations": db.execute("SELECT count(*) FROM x_observations WHERE method='direct_public_page' AND views IS NOT NULL").fetchone()[0],
+        "quality": quality_report(db),
     }
 
 
@@ -320,15 +378,33 @@ def main() -> None:
     sub.add_parser("init")
     importer = sub.add_parser("import")
     importer.add_argument("file", type=Path)
+    csv_importer = sub.add_parser("import-csv")
+    csv_importer.add_argument("file", type=Path)
     material_importer = sub.add_parser("import-materials")
     material_importer.add_argument("file", type=Path)
     feedback_importer = sub.add_parser("import-feedback")
     feedback_importer.add_argument("file", type=Path)
+    query_importer = sub.add_parser("import-queries")
+    query_importer.add_argument("file", type=Path)
+    review_importer = sub.add_parser("import-review")
+    review_importer.add_argument("file", type=Path)
+    annotation_importer = sub.add_parser("import-annotations")
+    annotation_importer.add_argument("file", type=Path)
+    pair_importer = sub.add_parser("import-pairs")
+    pair_importer.add_argument("file", type=Path)
+    capture_parser = sub.add_parser("capture")
+    capture_parser.add_argument("--port", type=int, default=8765)
+    packet_parser = sub.add_parser("research-packet")
+    packet_parser.add_argument("--format", choices=("json", "markdown"), default="markdown")
     sub.add_parser("report")
     sub.add_parser("audit")
     sub.add_parser("packet")
     args = parser.parse_args()
-    with connect(args.db) as db:
+    if args.command == "capture":
+        from .capture import serve
+        serve(args.db, args.port)
+        return
+    with closing(connect(args.db)) as db:
         if args.command == "init":
             print(f"initialized {args.db}")
         elif args.command == "import":
@@ -336,6 +412,12 @@ def main() -> None:
                 posts, observations = logged_import(db, "x", args.file)
             except ValueError as exc:
                 parser.exit(1, f"import failed: {exc}\n")
+            print(json.dumps({"new_posts": posts, "new_observations": observations}, ensure_ascii=False))
+        elif args.command == "import-csv":
+            try:
+                posts, observations = import_csv(db, args.file)
+            except (OSError, ValueError, sqlite3.Error) as exc:
+                parser.exit(1, f"CSV import failed: {exc}\n")
             print(json.dumps({"new_posts": posts, "new_observations": observations}, ensure_ascii=False))
         elif args.command == "import-materials":
             try:
@@ -349,6 +431,27 @@ def main() -> None:
             except ValueError as exc:
                 parser.exit(1, f"import failed: {exc}\n")
             print(json.dumps({"new_own_posts": posts, "new_feedback_observations": observations}, ensure_ascii=False))
+        elif args.command == "import-queries":
+            try:
+                added = import_queries(db, args.file)
+            except (OSError, ValueError, sqlite3.Error) as exc:
+                parser.exit(1, f"query import failed: {exc}\n")
+            print(json.dumps({"new_query_runs": added}))
+        elif args.command == "import-review":
+            try:
+                added = import_research_review(db, args.file)
+            except (OSError, ValueError, sqlite3.Error) as exc:
+                parser.exit(1, f"review import failed: {exc}\n")
+            print(json.dumps({"reviewed_hypotheses": added}))
+        elif args.command in {"import-annotations", "import-pairs"}:
+            try:
+                added = (import_annotations if args.command == "import-annotations" else import_pairs)(db, args.file)
+            except (OSError, ValueError, sqlite3.Error) as exc:
+                parser.exit(1, f"research import failed: {exc}\n")
+            print(json.dumps({"added_records": added}))
+        elif args.command == "research-packet":
+            research = research_packet(db)
+            print(json.dumps(research, ensure_ascii=False, indent=2) if args.format == "json" else packet_markdown(research))
         elif args.command == "packet":
             print(packet(db))
         elif args.command == "report":
