@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-02T21:21:07Z",
+  "purpose": "C285-C289公开社会新闻候选，优先具体人物、现实冲突与金钱/时间代价；来源是事实支点，不是流量保证。",
+  "materials": [
+    {
+      "id": "CAM-C096",
+      "title": "60岁母亲打游戏理解儿子成主播",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3369504/chinese-woman-60-becomes-gaming-streamer-after-playing-understand-sons-addiction",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-10-02",
+      "observed_at": "2026-10-02T21:21:07Z",
+      "verified_claims": [
+        "南华早报报道，广东梅州一名60岁女性钟娟娟因想理解儿子的游戏成瘾开始玩电脑游戏，后来成为直播主。",
+        "她有约52.7万粉丝，每天两场直播，每场通常约1万观众；她六年前才开始玩游戏，如今儿子反过来提醒她别熬夜。"
+      ],
+      "limits": [
+        "数字和经历来自报道转述，不把粉丝数或观看数当作长期稳定指标；不把个案写成老年人都应直播。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C097",
+      "title": "幼儿园用锅洗拖把后11名官员被处理",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3369151/china-warns-officials-fires-kindergarten-principal-over-mops-cooking-pots-scandal",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-30",
+      "observed_at": "2026-10-02T21:21:07Z",
+      "verified_claims": [
+        "南华早报报道，江苏一所幼儿园被曝把脏拖把放进做饭锅清洗，11名官员被警告或记过，厨房员工被解雇。",
+        "6月30日多名孩子午饭前后出现恶心、呕吐；家长暑假持续询问卫生问题，直到9月才得到官方回应。"
+      ],
+      "limits": [
+        "这是报道的单一幼儿园事件，不推成所有学校的常态；症状与卫生争议按报道呈现，不擅自认定因果。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C098",
+      "title": "老人剪断高空工人安全绳晾衣",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368945/elderly-resident-sparks-fury-china-after-cutting-workers-safety-rope-hang-laundry",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-28",
+      "observed_at": "2026-10-02T21:21:07Z",
+      "verified_claims": [
+        "南华早报报道，广东佛山一名高空作业工人9月17日在30层外墙作业后，发现一根安全绳被老人剪断拿去晾衣服。",
+        "相关社交媒体帖子累计约6100万次浏览，引发对高空作业安全和他人漠视的愤怒。"
+      ],
+      "limits": [
+        "浏览量是报道当时的传播观察，不是独立实时指标；报道未给出老人完整动机或法律结论。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C099",
+      "title": "年轻女性自己缝内衣对抗快时尚",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368831/young-chinese-women-sew-own-underwear-clothes-amid-frustration-fast-fashion",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-25",
+      "observed_at": "2026-10-02T21:21:07Z",
+      "verified_claims": [
+        "南华早报报道，一些中国年轻女性因面料差、做工粗和价格上涨开始自己缝内衣、配饰和包。",
+        "今年夏天不少初学者在小红书展示作品；许多人从内衣开始，却发现弹性面料难剪、边缘易卷。"
+      ],
+      "limits": [
+        "报道描述的是部分社交媒体参与者，不把缝纫潮写成普遍消费转向；不把个案体验当行业质量统计。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C100",
+      "title": "胖东来四年合同引发反常争议",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368684/chinese-retail-chain-faces-rare-backlash-limiting-new-hires-4-year-contracts",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-24",
+      "observed_at": "2026-10-02T21:21:07Z",
+      "verified_claims": [
+        "南华早报报道，胖东来创始人于东来提出未来新员工只签四年培训计划合同且不续签，引发公众争议。",
+        "报道同时提到公司约8000名员工税后月薪平均9000元，并提供30天带薪假和10天带薪不开心假。"
+      ],
+      "limits": [
+        "四年合同是报道所述提案，不写成已全面执行；薪资和福利是报道数字，不代表每个岗位或行业平均。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only."
+    }
+  ]
+}

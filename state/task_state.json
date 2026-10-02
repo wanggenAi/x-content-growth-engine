@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-02T21:12:30Z",
+  "updated_at": "2026-10-02T21:21:07Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C280-C284 independently verified at 2026-10-02T21:12:30Z; C277 was blocked by X duplicate-content warning and discarded without submission; published_new=89; ready=0; remaining=911; queue=284; latest_verified=C284; next=research C285-C289."
+    "latest_campaign_round": "C280-C284 independently verified at 2026-10-02T21:12:30Z; C285-C289 source-checked at 2026-10-02T21:21:07Z; ready=5; published_new=89; remaining=911; queue=289; latest_verified=C284."
   },
   "counts": {
     "x_posts": 11,
@@ -61,7 +61,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C280-C284 are independently verified. C277 was stopped by X duplicate-content warning and discarded without submission; do not rephrase and retry. Research new source-checked candidates from C285 onward, then process them one by one through visible editor comparison and independent detail-page verification. Never pad with weak drafts or claim a traffic guarantee.",
+  "next_action": "C285-C289 are source-checked READY candidates. Process them one by one through visible editor comparison and independent detail-page verification; do not retry C277 or pad with weak drafts.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -304,19 +304,19 @@
     "baseline_verified_publications": 25,
     "target_total": 1025,
     "published_new": 89,
-    "ready": 0,
+    "ready": 5,
     "research_pending": 175,
     "status": "ACTIVE_NOT_COMPLETE",
     "total_verified_series": 114,
     "remaining_new_publications": 911,
-    "rolling_work_queue_count": 284,
+    "rolling_work_queue_count": 289,
     "latest_publication_id": "C284",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106129290035429491",
     "latest_publication_verified_at": "2026-10-02T21:12:30Z",
-    "latest_candidate_id": "C284",
-    "latest_candidate_source": "CAM-C095",
-    "latest_candidate_checked_at": "2026-10-02T21:12:30Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
+    "latest_candidate_id": "C289",
+    "latest_candidate_source": "CAM-C100",
+    "latest_candidate_checked_at": "2026-10-02T21:21:07Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -338,18 +338,18 @@
     "latest_publication_id": "C284",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106129290035429491",
     "latest_publication_verified_at": "2026-10-02T21:12:30Z",
-    "latest_candidate_id": "C284",
-    "latest_candidate_source": "CAM-C095",
-    "latest_candidate_checked_at": "2026-10-02T21:12:30Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Research new source-checked candidates from C285 onward; then process each through visible editor comparison and independent public detail-page verification; do not retry C277.",
+    "latest_candidate_id": "C289",
+    "latest_candidate_source": "CAM-C100",
+    "latest_candidate_checked_at": "2026-10-02T21:21:07Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED",
+    "next_action": "Process C285-C289 one by one through visible editor comparison and independent public detail-page verification; do not retry C277.",
     "latest_style_review_note": "C270-C274 are pure-text, no raw URLs or decorative images, chosen for concrete people, prices, time costs and visible reversals: paid hiking companions, ugly-product visitors, pet wedding spending, a 33-year world trip and a rough animation's reported box-office reversal. Sources remain metadata; F01/F03/F05 remain HYPOTHESIS."
   },
   "pause_diagnosis": {
     "diagnosed_at": "2026-10-02T19:27:48Z",
     "x_account_permission_issue": false,
     "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT",
-    "campaign_counts": "89_verified_new; 911_remaining; 284_queue; latest verified C284; ready=0 (C280-C284 published)",
+    "campaign_counts": "89_verified_new; 911_remaining; 289_queue; latest verified C284; ready=5 (C285-C289)",
     "previous_blocker": "2026-10-02T20:04Z: X editor displayed 'Whoops! You already said that.' for exact C277 candidate; draft discarded, no post submitted. C275-C276 and C278-C279 independently verified.",
     "current_workspace_root_writable": true,
     "git_directory_writable": true,
@@ -359,8 +359,8 @@
     "posts_published_in_diagnostic_turn": 5,
     "campaign_count_changed": true,
     "finding": "C280-C284 passed visible editor text comparison and screenshot inspection, one submission, and independent public detail reload. All five were pure-text candidates with no raw URLs or decorative images/cards. C277 remained blocked by the X duplicate warning and was discarded.",
-    "follow_up_at": "2026-10-02T21:12:30Z",
-    "follow_up_finding": "C280-C284 are independently verified. Research new source-checked candidates from C285 onward; early view counts remain observations only and do not establish a formula."
+    "follow_up_at": "2026-10-02T21:21:07Z",
+    "follow_up_finding": "C285-C289 are source-checked candidates from current public SCMP reporting, with concrete people, household or workplace costs and no decorative media. Next step is one-by-one visible publication verification; early view counts remain observations only and do not establish a formula."
   },
   "own_post_feedback": "Private 2026-10-02 observations: seven own posts above 10 views (11–21); exposure ages, topics and distribution are uncontrolled. C249 showed 1 view at 13:45:35Z, minutes after publication; not comparable. User rejected C245–C249 as dull/repetitive and requires strict F01–F05 application; formula outcomes remain HYPOTHESIS.",
   "latest_style_feedback": {
