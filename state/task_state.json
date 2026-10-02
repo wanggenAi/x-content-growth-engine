@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C274 independently verified at 2026-10-02T19:27:48Z; published_new=80; ready=0; remaining=920; queue=274; latest_verified=C274. C270-C274 were pure-text, source-led human-interest posts with no preview cards; next publication starts at C275."
+    "latest_campaign_round": "C274 independently verified at 2026-10-02T19:27:48Z; published_new=80; ready=5; remaining=920; queue=279; latest_verified=C274. C275-C279 are source-checked pure-text human-interest candidates; next publication starts at C275."
   },
   "counts": {
     "x_posts": 11,
@@ -304,19 +304,19 @@
     "baseline_verified_publications": 25,
     "target_total": 1025,
     "published_new": 80,
-    "ready": 0,
+    "ready": 5,
     "research_pending": 175,
     "status": "ACTIVE_NOT_COMPLETE",
     "total_verified_series": 105,
     "remaining_new_publications": 920,
-    "rolling_work_queue_count": 274,
+    "rolling_work_queue_count": 279,
     "latest_publication_id": "C274",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106102742532129027",
     "latest_publication_verified_at": "2026-10-02T19:27:48Z",
-    "latest_candidate_id": null,
-    "latest_candidate_source": null,
-    "latest_candidate_checked_at": null,
-    "latest_candidate_status": null
+    "latest_candidate_id": "C279",
+    "latest_candidate_source": "CAM-C090",
+    "latest_candidate_checked_at": "2026-10-02T19:42:46Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -338,18 +338,18 @@
     "latest_publication_id": "C274",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106102742532129027",
     "latest_publication_verified_at": "2026-10-02T19:27:48Z",
-    "latest_candidate_id": null,
-    "latest_candidate_source": null,
-    "latest_candidate_checked_at": null,
-    "latest_candidate_status": null,
-    "next_action": "From C275, research and source-check concrete people, real conflict and money/time consequences before using visible Chrome. Keep pure text by default and stop if source, reader interest, editor or public reload checks fail.",
+    "latest_candidate_id": "C279",
+    "latest_candidate_source": "CAM-C090",
+    "latest_candidate_checked_at": "2026-10-02T19:42:46Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED",
+    "next_action": "From C275, use visible Chrome to compare and independently verify C275-C279 one at a time. Stop if sources, reader interest, editor text or public reload fail; do not pad with weak drafts.",
     "latest_style_review_note": "C270-C274 are pure-text, no raw URLs or decorative images, chosen for concrete people, prices, time costs and visible reversals: paid hiking companions, ugly-product visitors, pet wedding spending, a 33-year world trip and a rough animation's reported box-office reversal. Sources remain metadata; F01/F03/F05 remain HYPOTHESIS."
   },
   "pause_diagnosis": {
     "diagnosed_at": "2026-10-02T19:27:48Z",
     "x_account_permission_issue": false,
     "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT",
-    "campaign_counts": "80_verified_new; 920_remaining; 274_queue; latest C274; no ready candidates",
+    "campaign_counts": "80_verified_new; 920_remaining; 279_queue; latest C274; C275-C279 ready source checked",
     "previous_blocker": "2026-10-02T15:02Z: connecting the existing visible Chrome X tab timed out twice; no editor opened and no post submitted.",
     "current_workspace_root_writable": true,
     "git_directory_writable": true,
@@ -358,9 +358,9 @@
     "method_boundary": "Use Browser Harness only for permitted non-X sources; previously user-directed visible Computer Use scope remains the X posting route.",
     "posts_published_in_diagnostic_turn": 5,
     "campaign_count_changed": true,
-    "finding": "C270-C274 each passed visible editor text comparison and screenshot inspection, one submission, and independent public detail reload. All are pure text with no source preview cards; displayed minutes are recorded and exact seconds remain unknown.",
+    "finding": "C270-C274 each passed visible editor text comparison and screenshot inspection, one submission, and independent public detail reload. C275-C279 were source-checked from public SCMP reporting with concrete people, actions and costs; all are pure-text candidates with no raw URLs or decorative images.",
     "follow_up_at": "2026-10-02T19:27:48Z",
-    "follow_up_finding": "C275 onward requires new source-led research before visible Chrome publishing; early view counts are observations only and do not establish a formula."
+    "follow_up_finding": "C275-C279 are ready source checked. Next step is visible Chrome editor comparison and independent public detail reload, one post at a time; early view counts are observations only and do not establish a formula."
   },
   "own_post_feedback": "Private 2026-10-02 observations: seven own posts above 10 views (11–21); exposure ages, topics and distribution are uncontrolled. C249 showed 1 view at 13:45:35Z, minutes after publication; not comparable. User rejected C245–C249 as dull/repetitive and requires strict F01–F05 application; formula outcomes remain HYPOTHESIS.",
   "latest_style_feedback": {
@@ -370,7 +370,7 @@
     "hypothesis": "Lead with correction/contradiction; put verifiable detail early; do not add generic moral.",
     "limits": "View observation times vary or are missing; exposure, topic, timing, and distribution uncontrolled. Higher-view examples include preview cards.",
     "card_policy": "Omit raw source URLs as an editorial visual preference. Do not claim it improves views.",
-    "next_posts": "C275+",
+    "next_posts": "C275-C279",
     "latest_verified_post": "C274",
     "latest_verified_at": "2026-10-02T19:27:48Z",
     "recent_low_posts_observed": "C248 showed 2 views on its independently reloaded detail page at 2026-10-02T13:39:45Z; very early snapshot, not comparable with older posts."
