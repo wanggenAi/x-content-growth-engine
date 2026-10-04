@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-03T06:45:00Z",
+  "updated_at": "2026-10-04T11:56:30.059537Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C295-C299 source-checked at 2026-10-03T06:45:00Z; five pure-text candidates passed public source verification via Browser Harness; materials=60; exploratory_drafts=70; unpublished_candidates=42; verified_account_publications=99; ready=5; remaining=901; queue=299; latest_verified=C294; next=process C295-C299 through visible editor."
+    "latest_campaign_round": "Campaign synchronized to 104 verified new series, 896 remaining, queue302; C300-C302 are unpublished DRAFT_REVIEW_INTEREST, not ready. No publication during Oct4 diagnosis. Corrected stale state, agent/human review distinction and unreliable historical verification timestamps for C295-C299."
   },
   "counts": {
     "x_posts": 11,
@@ -52,16 +52,18 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 99,
-    "unpublished_candidates": 42,
+    "verified_account_publications": 104,
+    "unpublished_candidates": 40,
     "agent_observed_viral_posts": 32,
-    "agent_observed_exploratory_comparisons": 10
+    "agent_observed_exploratory_comparisons": 10,
+    "campaign_verified_new_publications": 104,
+    "verified_total_series": 129
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Process C295-C299 one by one through visible editor comparison, screenshot review, one submit and independent public detail-page verification; keep pure text and stop on any blocker.",
+  "next_action": "Review docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md and C300-C302 community drafts for concrete reader stakes, originality and fact boundaries. Do not resume the rejected report-summary template or pad publishing quota. Preserve current automation PAUSED status unless user asks to resume.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -131,8 +133,8 @@
     "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI"
   },
   "count_notes": {
-    "own_posts": "Reviewed feedback DB records remain zero; 22 agent-verified publications are recorded separately, with unknown timestamp seconds and no fabricated human review.",
-    "unpublished_candidates": "33 historic paused/superseded drafts plus 2 confidence-gated source-checked candidates; no active permission request.",
+    "own_posts": "Reviewed feedback SQLite DB records remain zero. Campaign has 104 agent-verified new series plus baseline 25 (129 series); profile count is a separate UI total. Agent review is not human_checked.",
+    "unpublished_candidates": "Previous retained unpublished pool37 plus3 new interest-review drafts C300-C302; campaign RESEARCH_PENDING briefs180 are distinct from finished drafts.",
     "agent_observed_viral_posts": "Separate source-kind batch with exact visible label counts and UTC; not included in existing human-confirmed SQLite x_posts/original_confirmed counts."
   },
   "night_publication_batch": {
@@ -303,20 +305,20 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 94,
+    "published_new": 104,
     "ready": 0,
-    "research_pending": 175,
+    "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 119,
-    "remaining_new_publications": 906,
-    "rolling_work_queue_count": 289,
-    "latest_publication_id": "C289",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2106138510243881221",
-    "latest_publication_verified_at": "2026-10-02T21:46:20Z",
-    "latest_candidate_id": "C289",
-    "latest_candidate_source": "CAM-C100",
-    "latest_candidate_checked_at": "2026-10-02T21:46:20Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
+    "total_verified_series": 129,
+    "remaining_new_publications": 896,
+    "rolling_work_queue_count": 302,
+    "latest_publication_id": "C299",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2106153891004064090",
+    "latest_publication_verified_at": null,
+    "latest_candidate_id": "C302",
+    "latest_candidate_source": "https://www.v2ex.com/t/602206",
+    "latest_candidate_checked_at": "2026-10-04T11:56:30.059537Z",
+    "latest_candidate_status": "DRAFT_REVIEW_INTEREST"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -362,24 +364,26 @@
     "follow_up_at": "2026-10-02T21:46:20Z",
     "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
   },
-  "own_post_feedback": "Private 2026-10-02 observations: seven own posts above 10 views (11–21); exposure ages, topics and distribution are uncontrolled. C249 showed 1 view at 13:45:35Z, minutes after publication; not comparable. User rejected C245–C249 as dull/repetitive and requires strict F01–F05 application; formula outcomes remain HYPOTHESIS.",
+  "own_post_feedback": "Current small visible comparison and account analytics stored only in ignored data/private/content_review_2026-10-04. Higher own views still lack visible interactions; not a proven formula or causal distribution diagnosis.",
   "latest_style_feedback": {
-    "at": "2026-10-02T13:39:45Z",
-    "user_request": "The user says many new posts today have only about 3 views; analyze own posts above 10 views and publish similar ones, while avoiding large image/preview cards and unappealing copy.",
-    "own_account_sample": 7,
-    "hypothesis": "Lead with correction/contradiction; put verifiable detail early; do not add generic moral.",
-    "limits": "View observation times vary or are missing; exposure, topic, timing, and distribution uncontrolled. Higher-view examples include preview cards.",
-    "card_policy": "Omit raw source URLs as an editorial visual preference. Do not claim it improves views.",
-    "next_posts": "Research next source-checked candidates after C279",
-    "latest_verified_post": "C279",
-    "latest_verified_at": "2026-10-02T20:25Z",
-    "recent_low_posts_observed": "C248 showed 2 views on its independently reloaded detail page at 2026-10-02T13:39:45Z; very early snapshot, not comparable with older posts."
+    "at": "2026-10-04T11:56:30.059537Z",
+    "direction": "Stop repeating hook/report-date/fact-stack/moral. Preserve evidence, vary structure, put a concrete reader stake first. Images, links and video are allowed when evidentiary and not repetitive.",
+    "formula_state": "HYPOTHESIS",
+    "latest_verified_post": "C299",
+    "draft_ids": [
+      "C300",
+      "C301",
+      "C302"
+    ]
   },
   "latest_editorial_feedback": {
-    "recorded_at_utc": "2026-10-02T18:13:20Z",
-    "user_feedback": "User says repeated court cases and dry policy summaries are uninteresting; research what makes Chinese readers click, prioritizing concrete people, conflict, money/time costs and public news that is easy to miss.",
-    "repository": "https://github.com/wanggenAi/x-content-growth-engine",
-    "editorial_correction": "Hold C260-C264 as policy-summary candidates; next topics must be audience-relevant public-record human-interest news or social facts with concrete people, actions and costs. Do not claim content was blocked without evidence."
+    "recorded_at_utc": "2026-10-04T11:56:30.059537Z",
+    "user_feedback": "User says exposure and following remain weak; explicitly rejects further same low-interest content and wants familiar human motives, own higher-read comparisons, and meaningful optimization.",
+    "correction": "Familiar scene, concrete conflict, one useful/unexpected detail, author judgment. Three public community draft examples; no unverified group law or fabricated firsthand story.",
+    "report": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
+    "private_evidence_dir": "data/private/content_review_2026-10-04",
+    "new_publications": 0,
+    "drafts": 3
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -399,5 +403,13 @@
       "CAM-C105"
     ],
     "status": "READY_SOURCE_CHECKED_NO_PUBLICATION"
+  },
+  "automation_content_sync": {
+    "id": "x",
+    "verified_at_utc": "2026-10-04T12:00:02.919717Z",
+    "status": "PAUSED",
+    "interval_minutes": 5,
+    "new_review_required": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
+    "notification_policy_preserved": "failed_runs_only"
   }
 }

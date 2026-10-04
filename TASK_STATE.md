@@ -1,10 +1,17 @@
 # Task State
 
-## Current campaign checkpoint — 2026-10-03T06:45:00Z
+## Current campaign checkpoint — 2026-10-04T11:56:30.059537Z
 
-- Campaign JSON is the source of truth: 99 new posts independently verified, 901 remaining toward the 1,000-new-series target, 5 source-checked candidates ready, rolling queue 299, latest independent verification C294.
-- C295-C299 are source-checked but unpublished. Browser Harness read SCMP/Reuters public pages for five concrete human-interest stories; no X account action was taken in the research step. Candidate texts are pure text with no decorative image, raw source URL or preview-card objective.
-- Next action: process C295-C299 one by one through visible editor comparison, screenshot review, one submit and independent public detail-page reload. Only independent verification increments the campaign.
+- Campaign: 104 new series agent-verified, baseline25, total129; 896 remain, ready0, queue302. Latest publication C299; C300-C302 are three unpublished community drafts awaiting interest/editorial review. Profile post count is a separate measure.
+- Latest user request prioritizes exposure and interest over volume and rejects the repeated news-summary style. This round reads own higher/lower-view posts and external examples, saves private evidence, writes a concrete editorial correction; zero new submissions.
+- See `docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md`. The existing automation is PAUSED; prompt will be synchronized while preserving that status and five-minute interval. Do not run the old template.
+- Metadata repair: current state previously lagged at C289; C295-C299 agent review no longer claims human review, and unreliable local/Z verification timestamps are preserved as legacy values with exact times null.
+
+### 2026-10-03T06:47:00Z - C295-C299 publication receipt
+
+- C295-C299 each passed visible Chrome editor exact-text comparison, screenshot review, one submit, and an independent public detail-page reload. All five matched the final text, paragraphs, account `@qiluo27808`, and no media or preview card.
+- URLs and displayed times: C295 https://x.com/qiluo27808/status/2106152428467106293 (6:41 AM); C296 https://x.com/qiluo27808/status/2106152987718742384 (6:42 AM); C297 https://x.com/qiluo27808/status/2106153170057761214 (6:43 AM); C298 https://x.com/qiluo27808/status/2106153428011647295 (6:44 AM); C299 https://x.com/qiluo27808/status/2106153891004064090 (6:46 AM), all Oct 3, 2026. Seconds were not displayed and remain null.
+- Campaign is now 104 verified new publications, 896 remaining, ready 0, queue 299, latest C299. C277 duplicate rejection and C286 duplicate-copy repair remain quality records; no bypass was attempted. Next action is new source research from C300.
 
 Checkpoint: 2026-09-30 (2026-09-29T16:23Z UTC). Machine state: `state/task_state.json`. Runtime sample DB is reproducible from the versioned seed and phase-2 imports listed in `README.md`.
 

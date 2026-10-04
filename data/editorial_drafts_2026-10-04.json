@@ -1,0 +1,93 @@
+{
+  "created_at_utc": "2026-10-04T11:56:30.059537Z",
+  "status": "DRAFT_REVIEW_INTEREST_NOT_PUBLISHED",
+  "posts": [
+    {
+      "id": "C300",
+      "topic": "一起喊穷与工资差距的尴尬",
+      "formula_id": "F01",
+      "source_url": "https://www.v2ex.com/t/508341",
+      "source_date": "2018-11-16",
+      "source_author_visible": "ottoducker",
+      "first_screen_conflict": "领导一起喊穷，却拿两倍多的工资；发帖人同时承认其能力强。",
+      "reader_payoff": "区分对报酬差距的不满与把客套当成同病相怜的落差。",
+      "text": "听领导天天喊穷，后来发现，他的工资是自己两倍多。\n\nV2EX有个2018年的老帖，发帖人说知道这事后睡不着，又补充：领导的能力确实比自己强，工资高他能接受。\n\n我能理解这种别扭：跟你一起喊穷的人，未必跟你过着同一种日子。工资差距还没消化，先发现自己把一句客套话听成了同病相怜。",
+      "editorial_limits": "原作者自述，工资和同事行为未独立核实；不识别具体公司或领导，不推断其欺骗动机。评论是本账号的理解，不是心理学结论。",
+      "status": "DRAFT_REVIEW_INTEREST",
+      "source_checked": true,
+      "human_checked": false,
+      "ready_for_publication": false,
+      "url": null,
+      "published_at": null,
+      "verified_at": null,
+      "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "source_checked_at": "2026-10-04T11:56:30.059537Z",
+      "formula_status": "HYPOTHESIS",
+      "virality_probability": null,
+      "media_plan": "Text suits the discussion; media only when original evidence improves understanding, never a repeated decorative card.",
+      "title": "听领导天天喊穷，后来发现，他的工资是自己两倍多。",
+      "source_refs": [
+        "https://www.v2ex.com/t/508341"
+      ],
+      "review_note": "Written during diagnosis, not submitted. Requires readability, fact-boundary and substantive duplication review before publication; no quantity quota overrides this."
+    },
+    {
+      "id": "C301",
+      "topic": "借钱时拒绝的面子成本",
+      "formula_id": "F03",
+      "source_url": "https://www.v2ex.com/t/924304",
+      "source_date": "2023-03-15",
+      "source_author_visible": "richmanzhi1997",
+      "first_screen_conflict": "答应借出2万元，转账后却开始怀疑自己究竟信任对方还是不敢拒绝。",
+      "reader_payoff": "把不好意思拒绝与实际愿意承担的金额分开。",
+      "text": "同事开口借2万元，他当场答应。转完钱，开始骂自己。\n\n这是V2EX一篇2023年的自述：对方说下个月发工资还。他过去还说过不会借钱给同事，真碰上了，嘴却比脑子快。\n\n发帖人自己也在问：是信得过，还是放不下面子？\n\n我觉得最扎心的是，他还没等到还款日，就已经开始后悔了。两万元借出去的时候，那句“不方便”反而说不出口。",
+      "editorial_limits": "只写作者自述和自己的判断。还款结果未核实，不断言借款人违约、赌博或诈骗；附言中的转述投资行为不进入正文。",
+      "status": "DRAFT_REVIEW_INTEREST",
+      "source_checked": true,
+      "human_checked": false,
+      "ready_for_publication": false,
+      "url": null,
+      "published_at": null,
+      "verified_at": null,
+      "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "source_checked_at": "2026-10-04T11:56:30.059537Z",
+      "formula_status": "HYPOTHESIS",
+      "virality_probability": null,
+      "media_plan": "Text suits the discussion; media only when original evidence improves understanding, never a repeated decorative card.",
+      "title": "同事开口借2万元，他当场答应。转完钱，开始骂自己。",
+      "source_refs": [
+        "https://www.v2ex.com/t/924304"
+      ],
+      "review_note": "Written during diagnosis, not submitted. Requires readability, fact-boundary and substantive duplication review before publication; no quantity quota overrides this."
+    },
+    {
+      "id": "C302",
+      "topic": "婚礼邀请里的旧交情与份子钱",
+      "formula_id": "F05",
+      "source_url": "https://www.v2ex.com/t/602206",
+      "source_date": "2019-09-19",
+      "source_author_visible": "qwingmix",
+      "first_screen_conflict": "自己烦多年不联系的婚礼邀请，轮到结婚又想邀请同学。",
+      "reader_payoff": "让邀请者与受邀者的顾虑同时可见，提出能实际回答的分歧。",
+      "text": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？\n\nV2EX有个2019年的讨论，发帖人平时也烦这种突然邀请；轮到自己结婚，又想请老同学，让婚礼热闹一点。他特地补充，不是为了收礼金。\n\n我觉得尴尬就在这：一个觉得“这么大的事，不叫你不好”，另一个觉得“平时不找我，这时候想起我了”。\n\n如果邀请时直接写“不用随礼，就是想见你”，你会不会更愿意去？",
+      "editorial_limits": "旧社区讨论，不是当前新闻。动机是作者自述，双方内心对白明确为评论性场景，不冒充原帖逐字引语；不把所有婚礼邀请视为圈钱。",
+      "status": "DRAFT_REVIEW_INTEREST",
+      "source_checked": true,
+      "human_checked": false,
+      "ready_for_publication": false,
+      "url": null,
+      "published_at": null,
+      "verified_at": null,
+      "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "source_checked_at": "2026-10-04T11:56:30.059537Z",
+      "formula_status": "HYPOTHESIS",
+      "virality_probability": null,
+      "media_plan": "Text suits the discussion; media only when original evidence improves understanding, never a repeated decorative card.",
+      "title": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？",
+      "source_refs": [
+        "https://www.v2ex.com/t/602206"
+      ],
+      "review_note": "Written during diagnosis, not submitted. Requires readability, fact-boundary and substantive duplication review before publication; no quantity quota overrides this."
+    }
+  ]
+}
