@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T20:26:36.289822Z",
+  "updated_at": "2026-10-05T20:56:08.767816Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -60,27 +60,27 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 151,
+    "verified_account_publications": 154,
     "unpublished_candidates": 16,
-    "agent_observed_viral_posts": 55,
-    "agent_observed_exploratory_comparisons": 19,
-    "campaign_verified_new_publications": 151,
-    "verified_total_series": 176,
-    "published_new": 151,
-    "remaining_new_publications": 849,
-    "rolling_work_queue_count": 347,
+    "agent_observed_viral_posts": 60,
+    "agent_observed_exploratory_comparisons": 20,
+    "campaign_verified_new_publications": 154,
+    "verified_total_series": 179,
+    "published_new": 154,
+    "remaining_new_publications": 846,
+    "rolling_work_queue_count": 350,
     "ready_count": 0,
-    "latest_publication_id": "C347",
+    "latest_publication_id": "C350",
     "baseline_verified_publications": 25,
-    "total_verified_series": 176,
-    "latest_candidate_id": "C347",
+    "total_verified_series": 179,
+    "latest_candidate_id": "C350",
     "editorial_drafts_unpublished": 1
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C348起研究新非V2EX近期材料或明确原创观点；先读新高浏览正文与反例，避免重复会议/祝贺/帮助机制。",
+  "next_action": "C351起研究不同近期非V2EX具体材料或原创段子/人性/政治观点；直接读新高浏览正文与反例，变换长度与表达，不继续相亲家底/假日消费/自愿收费，也不固定我的看法模板。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -220,14 +220,15 @@
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
     "human_checked": false,
-    "last_round": "round33_2026-10-06",
-    "observations_added": 4,
-    "observed_total": 55,
-    "latest_round_file": "data/high_view_structure_round33_2026-10-06.json",
-    "latest_round_above_10000_details": 3,
+    "last_round": "round34_2026-10-06",
+    "observations_added": 5,
+    "observed_total": 60,
+    "latest_round_file": "data/high_view_structure_round34_2026-10-06.json",
+    "latest_round_above_10000_details": 4,
     "latest_round_below_threshold_original_details": 1,
-    "initial_32_audit_plus_new_unique_high_view_details": 42,
-    "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added."
+    "initial_32_audit_plus_new_unique_high_view_details": 46,
+    "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added.",
+    "latest_round_revisits_not_counted": 1
   },
   "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
   "evidence_publication_batch": {
@@ -321,23 +322,23 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 151,
+    "published_new": 154,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 176,
-    "remaining_new_publications": 849,
-    "rolling_work_queue_count": 347,
-    "latest_publication_id": "C347",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107204613007143380",
-    "latest_publication_verified_at": "2026-10-05T20:23:28.937740Z",
-    "latest_candidate_id": "C347",
-    "latest_candidate_source": "ORIGINAL_HYPOTHETICAL_SCENE_AND_OPINION",
-    "latest_candidate_checked_at": "2026-10-05T20:14:45.934146Z",
+    "total_verified_series": 179,
+    "remaining_new_publications": 846,
+    "rolling_work_queue_count": 350,
+    "latest_publication_id": "C350",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107211704287576364",
+    "latest_publication_verified_at": "2026-10-05T20:51:44.547135Z",
+    "latest_candidate_id": "C350",
+    "latest_candidate_source": "ORIGINAL_CONDITIONAL_SCENE_AND_OPINION",
+    "latest_candidate_checked_at": "2026-10-05T20:40:34.934303Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "published_count": 151,
+    "published_count": 154,
     "ready_count": 0,
-    "updated_at": "2026-10-05T20:23:28.937740Z"
+    "updated_at": "2026-10-05T20:51:44.547135Z"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -424,20 +425,20 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T20:26:36.289822Z",
+    "verified_at_utc": "2026-10-05T20:56:08.767816Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND33_2026-10-06.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C347",
-    "prompt_published_new": 151,
+    "prompt_latest_publication": "C350",
+    "prompt_published_new": 154,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
-    "latest_publication_id": "C347",
-    "published_new": 151,
+    "latest_publication_id": "C350",
+    "published_new": 154,
     "ready": 0,
-    "next_candidate_id": "C348",
-    "note": "purpose-built automation_update同步新3+1研究和C345-C347回执；读取配置确认ACTIVE/5分钟/failed_runs_only。",
-    "latest_version_url": "https://x.com/qiluo27808/status/2107204613007143380"
+    "next_candidate_id": "C351",
+    "note": "purpose-built automation_update同步4新高浏览+1新低浏览+1复访不计数，以及C348-C350回执；配置读回ACTIVE/5分钟/failed_runs_only。",
+    "latest_version_url": "https://x.com/qiluo27808/status/2107211704287576364"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -591,13 +592,13 @@
       "single_submit_each": true
     }
   },
-  "verified_publications": 151,
-  "remaining_new_publications": 849,
+  "verified_publications": 154,
+  "remaining_new_publications": 846,
   "ready_count": 0,
-  "rolling_work_queue_count": 347,
-  "latest_candidate_id": "C347",
+  "rolling_work_queue_count": 350,
+  "latest_candidate_id": "C350",
   "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-  "latest_candidate_checked_at": "2026-10-05T20:14:45.934146Z",
+  "latest_candidate_checked_at": "2026-10-05T20:40:34.934303Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -615,17 +616,19 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "reviewed_at": "2026-10-05T20:03:08.095635Z",
+    "reviewed_at": "2026-10-05T20:53:58.436847Z",
     "ids": [
-      "C343",
-      "C344"
+      "C348",
+      "C349",
+      "C350"
     ],
-    "state": "REPAIRS_VERIFIED",
+    "state": "PUBLISHED_CONTENT_VERIFIED_FEEDBACK_NOT_YET_EVALUATED",
     "facts": {
       "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
-    "next_action": "按round32新的7条万次浏览正文和1条低浏览原帖反例，研究C345起非V2EX近期素材或明确标注的原创段子/观点；先写能独立成立的场景与冲突，不继续把论坛摘要当全部内容。每轮最多5条，质量不过不凑数。"
+    "next_action": "C351起研究不同近期非V2EX具体材料或原创段子/人性/政治观点；直接读新高浏览正文与反例，变换长度与表达，不继续相亲家底/假日消费/自愿收费，也不固定我的看法模板。",
+    "round34_constraints": "读者兴趣仍为编辑判断；C348来源限定有阅读成本，后续不能把日期摘要+我的看法变成固定格式。历史C343/C344修复facts保留。"
   },
   "high_view_structure_round32": {
     "file": "data/high_view_structure_round32_2026-10-06.json",
@@ -655,5 +658,25 @@
     "reason_less_than_five": "另两题内容重叠或常见段子新颖性不足；无平台阻碍。",
     "feedback_result": "NOT_YET_EVALUATED",
     "verified_at": "2026-10-05T20:25:05.611297Z"
+  },
+  "high_view_structure_round34": {
+    "file": "data/high_view_structure_round34_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md",
+    "new_high": 4,
+    "new_low": 1,
+    "revisit_not_counted": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round34": {
+    "new_verified": 3,
+    "ids": [
+      "C348",
+      "C349",
+      "C350"
+    ],
+    "reason_less_than_five": "其他方向未核群体/文化因果或与本批重叠，不补量；无平台障碍。",
+    "feedback_result": "NOT_YET_EVALUATED",
+    "verified_at": "2026-10-05T20:53:58.436847Z"
   }
 }
