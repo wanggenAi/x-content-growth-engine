@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 117,
-  "ready_count": 2,
+  "published_count": 119,
+  "ready_count": 0,
   "research_pending_count": 180,
   "rolling_work_queue_count": 314,
-  "remaining_new_publications": 883,
+  "remaining_new_publications": 881,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -6710,10 +6710,10 @@
     },
     {
       "id": "C313",
-      "text": "“中了800万就辞职”，最容易卖给人的不是彩票，是逃离上班的画面。\n\n虎扑一篇2026年4月的帖子写：楼主称同事中奖后离职；评论追问照片年份，楼主补充说是2019年中奖、后来投资。帖子页面曾显示十万级阅读，但这是虎扑页面阅读，不是X曝光。\n\n中奖、辞职和收益我都没独立核实。能确认的是：一个“从此不用上班”的故事，先让人代入，再逼人查证。\n\n想相信很快，证据不会因为故事爽就自动出现。\n原帖：https://bbs.hupu.com/638319346.html",
+      "text": "看到“中了800万，辞职不干了”，你羡慕的是钱，还是明天不用上班？\n\n虎扑2026年4月7日一帖称同事中奖离职。评论追问照片年份，楼主补充：2019年中奖，后来投资。中奖、离职和收益都没独立核实。\n\n我觉得最勾人的不是彩票，是终于不用看老板脸色。故事还没查清，辞职信先在脑子里写好了。\n原帖：https://bbs.hupu.com/638319346.html",
       "source_url": "https://bbs.hupu.com/638319346.html",
       "source_checked_at": "2026-10-05T08:54:31.959706+00:00",
-      "weighted_length_estimate": 274,
+      "weighted_length_estimate": 295,
       "topic": "彩票辞职帖的诱惑与证据质疑",
       "formula_id": "F01",
       "formula_status": "HYPOTHESIS",
@@ -6724,28 +6724,50 @@
         "https://bbs.hupu.com/638319346.html"
       ],
       "source_checked": true,
-      "status": "READY_SOURCE_CHECKED",
-      "ready_for_publication": true,
-      "agent_checked": false,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "ready_for_publication": false,
+      "agent_checked": true,
       "human_checked": false,
-      "editorial_checked_at": "2026-10-05T08:57:18.505774Z",
+      "editorial_checked_at": "2026-10-05T14:38:01.064792Z",
       "first_screen_conflict": "逃离上班的中奖想象与证据缺口对照",
       "reader_payoff": "先让读者代入，再区分故事吸引力与证据",
       "editorial_limits": "虎扑阅读不是X浏览；中奖、辞职、投资收益均未独立核实，不复用截图作为证据，不认定广告或造假。",
       "media_plan": "Original source URL visible. No decorative media. Inspect native preview; do not claim removal without visible control.",
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "url": "https://x.com/qiluo27808/status/2107118325952348505",
+      "published_at": "2026-10-05T14:38Z",
+      "verified_at": "2026-10-05T14:40:16.319Z",
       "virality_probability": null,
       "previous_text": "800万，辞职，不打工了。让人想点开。\n\n虎扑4月一帖说同事中彩票后离职，已有十万多浏览。评论追问照片年份，楼主补充是2019年中奖、后来投资。\n\n中奖和收益我都没核实。我更想看评论的追问。\n\n图勾起“我也能逃离打工”的念头很容易。想信，和有证据，是两回事。\n原帖：https://bbs.hupu.com/638319346.html",
-      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
+      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer.",
+      "text_revision_history": [
+        {
+          "text": "“中了800万就辞职”，最容易卖给人的不是彩票，是逃离上班的画面。\n\n虎扑一篇2026年4月的帖子写：楼主称同事中奖后离职；评论追问照片年份，楼主补充说是2019年中奖、后来投资。帖子页面曾显示十万级阅读，但这是虎扑页面阅读，不是X曝光。\n\n中奖、辞职和收益我都没独立核实。能确认的是：一个“从此不用上班”的故事，先让人代入，再逼人查证。\n\n想相信很快，证据不会因为故事爽就自动出现。\n原帖：https://bbs.hupu.com/638319346.html",
+          "revised_at_utc": "2026-10-05T14:38:01.064792Z",
+          "reason": "Recovery round: remove internal metrics caveat from product prose; remove unsupported first-time assertion; sharpen bounded single conflict."
+        }
+      ],
+      "published_seconds": null,
+      "displayed_time": "10:38 PM · Oct 5, 2026",
+      "publication_verification": {
+        "method": "NATIVE_VISIBLE_CHROME_COMPUTER_USE",
+        "editor_exact": true,
+        "ax_blank_lines_collapsed": true,
+        "editor_and_detail_screenshots_checked": true,
+        "independent_detail_reloaded": true,
+        "detail_body_exact": true,
+        "account": "@qiluo27808",
+        "submission_count": 1,
+        "preview_card": false,
+        "source_url_visible": true,
+        "duplicate_body": false
+      }
     },
     {
       "id": "C314",
-      "text": "年菜不好吃，最贵的往往不是那顿饭，是一个人每年被默认包办。\n\nPTT一篇2022年婚姻板自述里，婆婆过年准备大量鸡、鱼、腊肉；后来夫妻让晚辈提前各订一两道、先付钱，第二年婆婆少准备了。\n\n我觉得这点很关键：想换菜单的人，第一次把钱和活一起接走。\n\n“一家人商量”如果只有一个人买、一个人做，商量只是更客气的命令。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+      "text": "年菜想换，钱不出、单不下，那叫商量，还是给婆婆派活？\n\nPTT网友girlo在2022年3月7日自述：婆婆过年备大量鸡、鱼、腊肉。她和丈夫让晚辈各订一两道年菜、提前付钱，第二年婆婆少备了。\n\n我喜欢这个办法：想换菜单的人，先把下单和付款接过去。\n\n如果全家只负责提要求，厨房里始终只有一个人，“一家人商量”就是一群人给一个人派活。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
       "source_url": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
       "source_checked_at": "2026-10-05T08:55:51.860538+00:00",
-      "weighted_length_estimate": 260,
+      "weighted_length_estimate": 338,
       "topic": "年菜冲突由评论变成分担",
       "formula_id": "F02",
       "formula_status": "HYPOTHESIS",
@@ -6756,35 +6778,57 @@
         "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html"
       ],
       "source_checked": true,
-      "status": "READY_SOURCE_CHECKED",
-      "ready_for_publication": true,
-      "agent_checked": false,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "ready_for_publication": false,
+      "agent_checked": true,
       "human_checked": false,
-      "editorial_checked_at": "2026-10-05T08:57:18.505774Z",
+      "editorial_checked_at": "2026-10-05T14:38:01.064792Z",
       "first_screen_conflict": "不满意年菜的人是否承担钱和准备工作",
       "reader_payoff": "把“家人商量”翻成可执行的分工与付款",
       "editorial_limits": "仅用回复作者girlo自身经历，不摘抄被引用且标NO记者抄文的原作者家庭案例；无食品健康判断或泛化家务规律。",
       "media_plan": "Original source URL visible. No decorative media. Inspect native preview; do not claim removal without visible control.",
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "url": "https://x.com/qiluo27808/status/2107118968750383396",
+      "published_at": "2026-10-05T14:41Z",
+      "verified_at": "2026-10-05T14:44:17.213Z",
       "virality_probability": null,
       "previous_text": "嫌年菜不好吃，谁来买，谁来做？\n\nPTT网友2022年自述：婆婆过年做大量鸡、鱼、腊肉。她和丈夫组织晚辈，每人预订一两道年菜，钱先付；第二年婆婆少备了菜。\n\n我喜欢这点：想换菜单的人，先接一部分活。\n“一家人商量”容易变成一家人指挥同一个人。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
-      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
+      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer.",
+      "text_revision_history": [
+        {
+          "text": "年菜不好吃，最贵的往往不是那顿饭，是一个人每年被默认包办。\n\nPTT一篇2022年婚姻板自述里，婆婆过年准备大量鸡、鱼、腊肉；后来夫妻让晚辈提前各订一两道、先付钱，第二年婆婆少准备了。\n\n我觉得这点很关键：想换菜单的人，第一次把钱和活一起接走。\n\n“一家人商量”如果只有一个人买、一个人做，商量只是更客气的命令。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+          "revised_at_utc": "2026-10-05T14:38:01.064792Z",
+          "reason": "Recovery round: remove internal metrics caveat from product prose; remove unsupported first-time assertion; sharpen bounded single conflict."
+        }
+      ],
+      "published_seconds": null,
+      "displayed_time": "10:41 PM · Oct 5, 2026",
+      "publication_verification": {
+        "method": "NATIVE_VISIBLE_CHROME_COMPUTER_USE",
+        "editor_exact": true,
+        "ax_blank_lines_collapsed": true,
+        "editor_and_detail_screenshots_checked": true,
+        "independent_detail_reloaded": true,
+        "detail_body_exact": true,
+        "account": "@qiluo27808",
+        "submission_count": 1,
+        "preview_card": false,
+        "source_url_visible": true,
+        "duplicate_body": false
+      }
     }
   ],
-  "updated_at": "2026-10-05T10:42:30Z",
-  "latest_publication_id": "C312",
-  "latest_publication_url": "https://x.com/qiluo27808/status/2107036358317674875",
-  "latest_publication_verified_at": "2026-10-05T09:16:00Z",
+  "updated_at": "2026-10-05T14:46:50.975832Z",
+  "latest_publication_id": "C314",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2107118968750383396",
+  "latest_publication_verified_at": "2026-10-05T14:44:17.213Z",
   "latest_candidate_id": "C314",
   "latest_candidate_source": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
   "latest_candidate_checked_at": "2026-10-05T10:02:00Z",
-  "latest_candidate_status": "READY_SOURCE_CHECKED",
+  "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
   "latest_publication_time_note": "Displayed minute only; seconds remain unknown.",
   "editorial_mode": "USER_AUTHORIZED_COMMUNITY_SCENE_PUBLICATION",
   "metadata_reconciliation_note": "Two historical published records still carried ready_for_publication=true; only READY_SOURCE_CHECKED status counts toward ready. No historical publication is requeued.",
-  "current_blocker": "C313-C314 ready; visible Chrome Computer Use still returns Codex auth token unavailable; no submission/count change.",
+  "current_blocker": null,
   "blocker_history": [
     {
       "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
@@ -6855,6 +6899,11 @@
       ],
       "type": "VISIBLE_BROWSER_AUTH_UNAVAILABLE",
       "action": "scheduled retry failed; no submission/count change"
+    },
+    {
+      "at_utc": "2026-10-05T14:46:50.975832Z",
+      "status": "NATIVE_ROUTE_RECOVERED_EXTENSION_INVENTORY_ERROR_REMAINS",
+      "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ]
 }

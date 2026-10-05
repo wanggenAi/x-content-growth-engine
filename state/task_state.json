@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T10:42:30Z",
+  "updated_at": "2026-10-05T14:46:50.975832Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C305-C309 five native single submissions independently reloaded and verified;114new/886remaining/ready0/queue309. Original sources visible as X forum preview cards. No invented firsthand history or group statistics. Focus/cache/loading reconciled without repost.",
+    "latest_campaign_round": "C313-C314 independently reloaded and verified via native visible Chrome;119new/881remaining/ready0/queue314/total144. Source links visible, no preview cards. Prior whole-CUA auth diagnosis corrected.",
     "latest_editorial_steer": "Oct5: add source visibility and evidence media; sharper norm/inner-conflict/cost analysis, no invented family cause or blanket Laozi/Zhuangzi attribution. C304 editorial exercise saved, no new publication."
   },
   "counts": {
@@ -53,25 +53,25 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 114,
+    "verified_account_publications": 119,
     "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
-    "campaign_verified_new_publications": 114,
-    "verified_total_series": 139,
-    "published_new": 117,
-    "remaining_new_publications": 883,
+    "campaign_verified_new_publications": 119,
+    "verified_total_series": 144,
+    "published_new": 119,
+    "remaining_new_publications": 881,
     "rolling_work_queue_count": 314,
-    "ready_count": 2,
-    "latest_publication_id": "C312",
+    "ready_count": 0,
+    "latest_publication_id": "C314",
     "baseline_verified_publications": 25,
-    "total_verified_series": 142
+    "total_verified_series": 144
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research distinct new public community scenes from C310; maintain visible original sources and bounded norm/cost interpretation. Five-minute ACTIVE heartbeat, at most five qualified originals per round, native visible editor/screenshot and independent detail reload.",
+  "next_action": "Research distinct community material from C315 and review reader interest against high-view structures; native visible Chrome remains authorized. Maximum five qualified originals per round; no filler.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -313,25 +313,25 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 117,
-    "ready": 2,
+    "published_new": 119,
+    "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 139,
-    "remaining_new_publications": 883,
+    "total_verified_series": 144,
+    "remaining_new_publications": 881,
     "rolling_work_queue_count": 314,
-    "latest_publication_id": "C312",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107036358317674875",
-    "latest_publication_verified_at": "2026-10-05T09:16:00Z",
+    "latest_publication_id": "C314",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107118968750383396",
+    "latest_publication_verified_at": "2026-10-05T14:44:17.213Z",
     "latest_candidate_id": "C314",
-    "latest_candidate_source": "https://www.v2ex.com/t/1142083",
-    "latest_candidate_checked_at": "2026-10-05T08:24:25.302262Z",
-    "latest_candidate_status": "READY_SOURCE_CHECKED"
+    "latest_candidate_source": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+    "latest_candidate_checked_at": "2026-10-05T10:02:00Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
-    "cumulative_verified_series": 134,
+    "cumulative_verified_series": 144,
     "latest_repair_ids": [
       "C019",
       "C020",
@@ -344,15 +344,15 @@
     "unknown_referred_person": "Keybo",
     "latest_input_failure": null,
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
-    "latest_input_recovery": "2026-10-02T04:20:57Z: visible Chrome was reconnected; C222 editor text matched candidate character-for-character; one submit; independent public detail page verified account, text, paragraphs, source link, duplicate-free body and displayed minute",
-    "latest_publication_id": "C304",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2106952469997822101",
-    "latest_publication_verified_at": "2026-10-05T03:41:45.506Z",
-    "latest_candidate_id": "C304",
-    "latest_candidate_source": "https://www.v2ex.com/t/1117571",
-    "latest_candidate_checked_at": "2026-10-02T21:46:20Z",
+    "latest_input_recovery": "2026-10-05T14:46:50.975832Z: extension inventory error was separate from native app; C313/C314 editor text matched, one submit each and independent details verified.",
+    "latest_publication_id": "C314",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107118968750383396",
+    "latest_publication_verified_at": "2026-10-05T14:44:17.213Z",
+    "latest_candidate_id": "C314",
+    "latest_candidate_source": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+    "latest_candidate_checked_at": "2026-10-05T10:02:00Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Research new distinct community-scene candidates from C305, check source and reader interest, then process at most5 through native editor/screenshot comparison, one submit and independent detail reload. Current automation is PAUSED as observed; preserve status while syncing prompt.",
+    "next_action": "Research distinct community material from C315 and review reader interest against high-view structures; native visible Chrome remains authorized. Maximum five qualified originals per round; no filler.",
     "latest_style_review_note": "Community self-report scenes, explicit historical attribution, short individual judgments. C302-C304 shortened before publication to keep complete point visible; this is an editorial hypothesis, not proven reach improvement."
   },
   "pause_diagnosis": {
@@ -412,29 +412,25 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T10:42:30Z",
+    "verified_at_utc": "2026-10-05T14:46:50.975832Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C312",
-    "prompt_published_new": 117,
+    "prompt_latest_publication": "C314",
+    "prompt_published_new": 119,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
-    "user_request": "用户要求继续并先按高浏览结构重做C313-C314",
-    "recorded_at_utc": "2026-10-05T10:42:30Z",
+    "user_request": "好了 你看看恢复了吗",
+    "recorded_at_utc": "2026-10-05T14:46:50.975832Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
-    "current_blocker": "可见Chrome Computer Use仍返回Codex auth token unavailable，未提交C313-C314",
-    "candidate_ids": [
+    "current_blocker": null,
+    "candidate_ids": [],
+    "verified_ids": [
       "C313",
       "C314"
-    ],
-    "verified_ids": [
-      "C310",
-      "C311",
-      "C312"
     ]
   },
   "editorial_feedback_history": [
@@ -448,11 +444,24 @@
       "drafts": 3
     }
   ],
-  "current_blocker": "VISIBLE_CHROME_COMPUTER_USE_AUTH_UNAVAILABLE",
+  "current_blocker": null,
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
     "result": "search page returned navigation/filter only; no import or claim",
     "next": "use existing audited 32-page/11-body set until valid independent sample appears"
+  },
+  "browser_control_recovery": {
+    "checked_at_utc": "2026-10-05T14:46:50.975832Z",
+    "extension_inventory_error": "Codex auth token is unavailable",
+    "native_chrome_available": true,
+    "x_signed_in": true,
+    "native_editor_paste_verified": true,
+    "single_submissions_verified": [
+      "C313",
+      "C314"
+    ],
+    "diagnosis_correction": "Inventory failure is not a whole Computer Use failure. Test the same authorized native app independently; do not bypass actual lock/auth/challenge.",
+    "validation": "Campaign integrity passed:119 distinct verified URLs;2 native editor/detail receipts match mirrored drafts;ready0,total144,remaining881. git diff --check passed."
   }
 }

@@ -398,3 +398,14 @@ C305-C309 each passed native editor exact-text and screenshot review, single sub
 ## 2026-10-05T10:42:30Z | C313/C314检查仍受可见控制认证阻碍
 
 可见Chrome Computer Use仍返回 Codex auth token unavailable；没有输入、提交、URL或计数变化。
+
+### 2026-10-05T14:46:50.975832Z — 原生Chrome恢复确认与C313–C314发布
+
+用户问“好了 你看看恢复了吗”。扩展标签列表仍报 `Codex auth token is unavailable`；同一Computer Use的原生 `cua.getApp('com.google.Chrome')` 能正常读到已登录X账号、打开编辑器、完整粘贴并提交。此前把inventory报错等同整个Computer Use不可用，判断范围错误；已纠正，未修改认证、Cookie、权限或绕过平台边界。
+
+C313/C314发布前再次修订并保留旧稿：去掉正文中的内部指标比较，删除来源不支持的“第一次”，区分社区自述与个人判断。两稿逐字比较真实编辑器，AX空行折叠由截图确认；各提交一次、独立详情重载核对全文/账号/段落/引号/来源/显示时间，无重复正文或预览卡。C314短链另经可见点击确认到完整PTT原页面。agent_checked=true，human_checked=false，秒未知null；原始证据留ignored data/private。
+
+- C313：https://x.com/qiluo27808/status/2107118325952348505，10:38 PM · Oct 5, 2026。
+- C314：https://x.com/qiluo27808/status/2107118968750383396，10:41 PM · Oct 5, 2026。
+
+当前新增119、剩881、基线25、合计144、ready0、队列314；下一步研究C315起。自动任务x已由工具同步并读配置复核ACTIVE/每5分钟，保留failed_runs_only；不再用扩展报错反复通知或跳过可用原生路径。此次恢复不等于内容曝光效果已验证，F01-F05仍HYPOTHESIS。
