@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T16:36:00Z",
+  "updated_at": "2026-10-05T17:22:50Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -50,28 +50,29 @@
     "x_observations": 13,
     "public_search_queries": 13,
     "blocked_browser_channels": 1,
-    "materials": 60,
+    "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 133,
+    "verified_account_publications": 138,
     "unpublished_candidates": 37,
-    "agent_observed_viral_posts": 39,
+    "agent_observed_viral_posts": 45,
     "agent_observed_exploratory_comparisons": 17,
-    "campaign_verified_new_publications": 133,
-    "verified_total_series": 158,
-    "published_new": 133,
-    "remaining_new_publications": 867,
-    "rolling_work_queue_count": 329,
+    "campaign_verified_new_publications": 138,
+    "verified_total_series": 163,
+    "published_new": 138,
+    "remaining_new_publications": 862,
+    "rolling_work_queue_count": 334,
     "ready_count": 0,
-    "latest_publication_id": "C328",
+    "latest_publication_id": "C334",
     "baseline_verified_publications": 25,
-    "total_verified_series": 158
+    "total_verified_series": 163,
+    "latest_candidate_id": "C334"
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research distinct C330 onward materials outside V2EX; prioritize recent verifiable public events with concrete people/conflicts/costs. Maintain separate undated joke, human-nature and political-opinion categories. Directly inspect >10000-view X bodies and exclusions; no causal/virality guarantee. Max five qualified originals; visible editor/detail verification required.",
+  "next_action": "Research C335+ non-V2EX sources (recent events plus clearly labeled undated joke/human-nature/political opinion); publish at most five only after exact editor and independent detail verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -116,29 +117,25 @@
     "local_tests_passed": 16
   },
   "publication_batch": {
-    "file": "data/publication_batch_2026-10-01.json",
-    "draft_count": 8,
-    "new_drafts": 5,
-    "revised_prior_drafts": 3,
-    "published_count": 8,
-    "user_authorization": "RECEIVED_2026-10-01",
-    "route": "USER_DIRECTED_VISIBLE_COMPUTER_USE",
-    "platform_rules_checked_at": "2026-09-30T16:15:06Z",
-    "platform_rules_url": "https://help.x.com/en/rules-and-policies/x-automation",
-    "additional_permission_required": false,
-    "platform_approval": "NOT_CONFIRMED_RESTRICTION_PREVIOUSLY_DISCLOSED",
-    "unpublished_count": 0,
-    "verified_draft_ids": [
-      "P01",
-      "P02",
-      "P03",
-      "P04",
-      "P05",
-      "P06",
-      "P07",
-      "P08"
+    "ids": [
+      "C330",
+      "C331",
+      "C332",
+      "C333",
+      "C334"
     ],
-    "latest_method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI"
+    "status": "COMPLETE_AGENT_VERIFIED",
+    "max_per_round": 5,
+    "source_policy": "NON_V2EX_PRIORITY",
+    "last_verified_id": "C334",
+    "count_this_batch": 5,
+    "urls": [
+      "https://x.com/qiluo27808/status/2107153484676276682",
+      "https://x.com/qiluo27808/status/2107154220160032864",
+      "https://x.com/qiluo27808/status/2107157302226845848",
+      "https://x.com/qiluo27808/status/2107158142413091281",
+      "https://x.com/qiluo27808/status/2107159094910161071"
+    ]
   },
   "count_notes": {
     "own_posts": "Reviewed feedback SQLite DB records remain zero. Campaign has109 agent-verified new series plus baseline25 (134 series); profile count is a separate UI total. Agent review is not human_checked.",
@@ -214,7 +211,10 @@
     "detail_visits": 12,
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
-    "human_checked": false
+    "human_checked": false,
+    "last_round": "round29_2026-10-06",
+    "observations_added": 6,
+    "observed_total": 45
   },
   "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
   "evidence_publication_batch": {
@@ -313,17 +313,17 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 129,
+    "published_new": 138,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 154,
-    "remaining_new_publications": 871,
-    "rolling_work_queue_count": 324,
-    "latest_publication_id": "C324",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107136667870183907",
-    "latest_publication_verified_at": "2026-10-05T15:53:20.656Z",
-    "latest_candidate_id": "C324",
+    "total_verified_series": 163,
+    "remaining_new_publications": 862,
+    "rolling_work_queue_count": 334,
+    "latest_publication_id": "C334",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107159094910161071",
+    "latest_publication_verified_at": "2026-10-05T17:22:50Z",
+    "latest_candidate_id": "C334",
     "latest_candidate_source": "https://blog.catscarlet.com/201902133283.html",
     "latest_candidate_checked_at": "2026-10-05T15:28:43.267482+00:00",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
@@ -434,7 +434,12 @@
       "C317",
       "C318",
       "C319"
-    ]
+    ],
+    "last_verified_id": "C334",
+    "last_verified_url": "https://x.com/qiluo27808/status/2107159094910161071",
+    "last_verified_at": "2026-10-05T17:22:50Z",
+    "ready_count": 0,
+    "remaining_new_publications": 862
   },
   "editorial_feedback_history": [
     {
@@ -447,7 +452,7 @@
       "drafts": 3
     }
   ],
-  "current_blocker": null,
+  "current_blocker": "None for native Chrome Computer Use; Chrome extension inventory may still report auth token unavailable, but native visible Chrome is functioning.",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
