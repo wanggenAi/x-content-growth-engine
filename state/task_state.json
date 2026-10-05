@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T03:45:09.444232Z",
+  "updated_at": "2026-10-05T04:29:01.980371Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,8 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C300-C304 five single native visible submissions and independent detail-page reloads completed.109 new verified,891 remaining,ready0,queue304; Mac lock resolved. Three drafts shortened before posting, prior versions retained. No duplicate or input failure; Chrome focus changes handled by fresh state. Automation observed PAUSED at sync."
+    "latest_campaign_round": "C300-C304 five single native visible submissions and independent detail-page reloads completed.109 new verified,891 remaining,ready0,queue304; Mac lock resolved. Three drafts shortened before posting, prior versions retained. No duplicate or input failure; Chrome focus changes handled by fresh state. Automation observed PAUSED at sync.",
+    "latest_editorial_steer": "Oct5: add source visibility and evidence media; sharper norm/inner-conflict/cost analysis, no invented family cause or blanket Laozi/Zhuangzi attribution. C304 editorial exercise saved, no new publication."
   },
   "counts": {
     "x_posts": 11,
@@ -63,7 +64,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research new distinct community-scene candidates from C305, check source and reader interest, then process at most5 through native editor/screenshot comparison, one submit and independent detail reload. Current automation is PAUSED as observed; preserve status while syncing prompt.",
+  "next_action": "From C305, research distinct public community scenes; apply sharpened inner-rule/cost review and accessible source/media plan. C304 example is unpublished same-series exercise, not a new original. Retain native editor and independent page verification. Automation status remains PAUSED.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -377,13 +378,14 @@
     ]
   },
   "latest_editorial_feedback": {
-    "recorded_at_utc": "2026-10-04T11:56:30.059537Z",
-    "user_feedback": "User says exposure and following remain weak; explicitly rejects further same low-interest content and wants familiar human motives, own higher-read comparisons, and meaningful optimization.",
-    "correction": "Familiar scene, concrete conflict, one useful/unexpected detail, author judgment. Three public community draft examples; no unverified group law or fabricated firsthand story.",
-    "report": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
-    "private_evidence_dir": "data/private/content_review_2026-10-04",
+    "recorded_at_utc": "2026-10-05T04:29:01.980371Z",
+    "user_feedback": "C304 analysis was not sharp enough. User wants conditional examination of inherited norms, over-frugality and consumption guilt; within affordable budget, enjoyment can be legitimate. Prefer accessible sources and useful original media without repetition. Example is a direction, not exclusive topic scope.",
+    "correction": "Name the unspoken rule and its concrete cost; distinguish observable self-report from hypothesized family or cultural cause. Accurate classical attribution, no claim that most modern ideas derive from Laozi/Zhuangzi.",
+    "report": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
     "new_publications": 0,
-    "drafts": 3
+    "draft_examples": 1,
+    "example_series": "C304",
+    "example_status": "UNPUBLISHED_EDITORIAL_EXERCISE_NOT_NEW_SERIES"
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -406,13 +408,14 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T03:45:09.444232Z",
+    "verified_at_utc": "2026-10-05T04:30:03.111344Z",
     "status": "PAUSED",
     "interval_minutes": 5,
     "new_review_required": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
     "notification_policy_preserved": "failed_runs_only",
     "prompt_latest_publication": "C304",
-    "prompt_published_new": 109
+    "prompt_published_new": 109,
+    "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
     "user_request": "继续吧",
@@ -437,5 +440,16 @@
       "C304"
     ],
     "blocker_resolution": "Mac unlocked; native Chrome usable. No renewed account permission required."
-  }
+  },
+  "editorial_feedback_history": [
+    {
+      "recorded_at_utc": "2026-10-04T11:56:30.059537Z",
+      "user_feedback": "User says exposure and following remain weak; explicitly rejects further same low-interest content and wants familiar human motives, own higher-read comparisons, and meaningful optimization.",
+      "correction": "Familiar scene, concrete conflict, one useful/unexpected detail, author judgment. Three public community draft examples; no unverified group law or fabricated firsthand story.",
+      "report": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
+      "private_evidence_dir": "data/private/content_review_2026-10-04",
+      "new_publications": 0,
+      "drafts": 3
+    }
+  ]
 }

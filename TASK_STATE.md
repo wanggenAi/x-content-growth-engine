@@ -1,5 +1,11 @@
 # Task State
 
+## Latest editorial steer — 2026-10-05T04:29:01.980371Z
+
+- User finds C304 insufficiently sharp: examine the unspoken norm, self-judgment and real cost, such as affordable enjoyment still needing to prove usefulness. Keep causal explanations conditional and distinguish the original author's evidence from interpretation.
+- Prefer visible original sources where useful; images/video/link cards may support evidence, not repeated decoration. Classical references require chapter/context; no blanket modern-values attribution to Laozi/Zhuangzi.
+- Updated voice specification and `docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md`; one unpublished C304 exercise is not a new publication. Counts remain109/891,ready0,queue304. Next new research is C305; automation remainsPAUSED.
+
 ## Current campaign checkpoint — 2026-10-05T03:43:54.890923Z
 
 - C300-C304 published once each through authorized native visible Chrome. Independent public detail reloads matched full text, account, paragraphs, punctuation and no preview cards; agent_checked=true, human_checked=false.
