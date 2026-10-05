@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T08:43:20.998349Z",
+  "updated_at": "2026-10-05T09:22:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -58,7 +58,14 @@
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
     "campaign_verified_new_publications": 114,
-    "verified_total_series": 139
+    "verified_total_series": 139,
+    "published_new": 117,
+    "remaining_new_publications": 883,
+    "rolling_work_queue_count": 314,
+    "ready_count": 2,
+    "latest_publication_id": "C312",
+    "baseline_verified_publications": 25,
+    "total_verified_series": 142
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
@@ -306,20 +313,20 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 114,
-    "ready": 0,
+    "published_new": 117,
+    "ready": 2,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
     "total_verified_series": 139,
-    "remaining_new_publications": 886,
-    "rolling_work_queue_count": 309,
-    "latest_publication_id": "C309",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107027923169599896",
-    "latest_publication_verified_at": "2026-10-05T08:41:00.585Z",
-    "latest_candidate_id": "C309",
+    "remaining_new_publications": 883,
+    "rolling_work_queue_count": 314,
+    "latest_publication_id": "C312",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107036358317674875",
+    "latest_publication_verified_at": "2026-10-05T09:16:00Z",
+    "latest_candidate_id": "C314",
     "latest_candidate_source": "https://www.v2ex.com/t/1142083",
     "latest_candidate_checked_at": "2026-10-05T08:24:25.302262Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
+    "latest_candidate_status": "READY_SOURCE_CHECKED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -367,25 +374,19 @@
   },
   "own_post_feedback": "Current small visible comparison and account analytics stored only in ignored data/private/content_review_2026-10-04. Higher own views still lack visible interactions; not a proven formula or causal distribution diagnosis.",
   "latest_style_feedback": {
-    "at": "2026-10-04T11:56:30.059537Z",
-    "direction": "Stop repeating hook/report-date/fact-stack/moral. Preserve evidence, vary structure, put a concrete reader stake first. Images, links and video are allowed when evidentiary and not repetitive.",
+    "at": "2026-10-05T09:22:00Z",
+    "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
     "formula_state": "HYPOTHESIS",
-    "latest_verified_post": "C299",
-    "draft_ids": [
-      "C300",
-      "C301",
-      "C302"
-    ]
+    "latest_verified_post": "C312",
+    "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "recorded_at_utc": "2026-10-05T04:29:01.980371Z",
-    "user_feedback": "C304 analysis was not sharp enough. User wants conditional examination of inherited norms, over-frugality and consumption guilt; within affordable budget, enjoyment can be legitimate. Prefer accessible sources and useful original media without repetition. Example is a direction, not exclusive topic scope.",
-    "correction": "Name the unspoken rule and its concrete cost; distinguish observable self-report from hypothesized family or cultural cause. Accurate classical attribution, no claim that most modern ideas derive from Laozi/Zhuangzi.",
-    "report": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
+    "recorded_at_utc": "2026-10-05T09:22:00Z",
+    "user_feedback": "用户指出与>10000浏览帖子相比当前素材和吸引力不在同一层级，要求大量复盘并迭代。",
+    "correction": "高浏览案例复盘写入公开审计；不把累计浏览、作者受众或分发混杂因素当因果公式。C313-C314暂停。",
+    "report": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "new_publications": 0,
-    "draft_examples": 1,
-    "example_series": "C304",
-    "example_status": "UNPUBLISHED_EDITORIAL_EXERCISE_NOT_NEW_SERIES"
+    "draft_examples": 0
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -408,38 +409,36 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T08:44:35.331022Z",
+    "verified_at_utc": "2026-10-05T09:22:00Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C309",
-    "prompt_published_new": 114,
+    "prompt_latest_publication": "C312",
+    "prompt_published_new": 117,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
-    "user_request": "继续",
-    "recorded_at_utc": "2026-10-05T08:46:11.922507Z",
+    "user_request": "用户要求先大量审计超过1万浏览帖子并迭代内容",
+    "recorded_at_utc": "2026-10-05T09:22:00Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
-    "current_blocker": null,
-    "new_submissions": 5,
-    "new_verified_publications": 5,
+    "current_blocker": "C313-C314暂停，先完成高浏览结构复盘",
+    "new_submissions": 3,
+    "new_verified_publications": 3,
     "candidate_ids": [
-      "C305",
-      "C306",
-      "C307",
-      "C308",
-      "C309"
+      "C310",
+      "C311",
+      "C312",
+      "C313",
+      "C314"
     ],
     "verified_ids": [
-      "C305",
-      "C306",
-      "C307",
-      "C308",
-      "C309"
+      "C310",
+      "C311",
+      "C312"
     ],
-    "blocker_resolution": "Mac unlocked; native Chrome usable. External focus/cache changes reconciled by fresh reads; no renewed permission or repeated submit."
+    "blocker_resolution": "C310-C312已独立详情页核验；C311已补来源定位回复；C313-C314保留待结构复盘后处理"
   },
   "editorial_feedback_history": [
     {
