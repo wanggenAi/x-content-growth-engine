@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T15:58:28.502955Z",
+  "updated_at": "2026-10-05T16:36:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,8 +33,8 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C315-C319 independently reloaded and verified via native visible Chrome;124new/876remaining/ready0/queue319/total149. Five dated community self-reports; original sources visible; late preview cards on C315/C318/C319, none on C316/C317. No exposure result claimed.",
-    "latest_editorial_steer": "Oct5: add source visibility and evidence media; sharper norm/inner-conflict/cost analysis, no invented family cause or blanket Laozi/Zhuangzi attribution. C304 editorial exercise saved, no new publication."
+    "latest_campaign_round": "C325-C328 independently reloaded and verified via native visible Chrome; C329 held after explicit user steer to stop V2EX as primary source; 133new/867remaining/ready0/queue329/total158. C328 final quote restored before one submission; seconds null.",
+    "latest_editorial_steer": "Oct5: stop V2EX main source. Recent verifiable events preferred; undated jokes/human-nature/political commentary allowed when clearly framed. Directly inspect >10k-view X posts; high-view counts remain observations, not formulas."
   },
   "counts": {
     "x_posts": 11,
@@ -53,25 +53,25 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 129,
+    "verified_account_publications": 133,
     "unpublished_candidates": 37,
-    "agent_observed_viral_posts": 32,
-    "agent_observed_exploratory_comparisons": 10,
-    "campaign_verified_new_publications": 129,
-    "verified_total_series": 154,
-    "published_new": 129,
-    "remaining_new_publications": 871,
-    "rolling_work_queue_count": 324,
+    "agent_observed_viral_posts": 39,
+    "agent_observed_exploratory_comparisons": 17,
+    "campaign_verified_new_publications": 133,
+    "verified_total_series": 158,
+    "published_new": 133,
+    "remaining_new_publications": 867,
+    "rolling_work_queue_count": 329,
     "ready_count": 0,
-    "latest_publication_id": "C324",
+    "latest_publication_id": "C328",
     "baseline_verified_publications": 25,
-    "total_verified_series": 154
+    "total_verified_series": 158
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research distinct C325 onward materials; revisit directly visible >10000-view bodies and counterexamples, choose concrete conflict or usable delivery, avoid repeating five dated self-report templates. Maximum five qualified original series; each native editor and independent detail verified.",
+  "next_action": "Research distinct C330 onward materials outside V2EX; prioritize recent verifiable public events with concrete people/conflicts/costs. Maintain separate undated joke, human-nature and political-opinion categories. Directly inspect >10000-view X bodies and exclusions; no causal/virality guarantee. Max five qualified originals; visible editor/detail verification required.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -142,8 +142,8 @@
   },
   "count_notes": {
     "own_posts": "Reviewed feedback SQLite DB records remain zero. Campaign has109 agent-verified new series plus baseline25 (134 series); profile count is a separate UI total. Agent review is not human_checked.",
-    "unpublished_candidates": "37 retained historical finished drafts; no active READY_SOURCE_CHECKED drafts.180 campaign research briefs counted separately.",
-    "agent_observed_viral_posts": "Separate source-kind batch with exact visible label counts and UTC; not included in existing human-confirmed SQLite x_posts/original_confirmed counts."
+    "unpublished_candidates": "38 retained historical finished drafts; C329 held by user steer, no active READY_SOURCE_CHECKED candidates.",
+    "agent_observed_viral_posts": "39 direct visible high-view observations including this round; exact displayed counts at capture time, discovery sample not unbiased and not causal."
   },
   "night_publication_batch": {
     "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
