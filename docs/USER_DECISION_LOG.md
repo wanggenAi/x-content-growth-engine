@@ -378,3 +378,8 @@ C305-C309 each passed native editor exact-text and screenshot review, single sub
 ## 2026-10-05T10:22:30Z | C313起续作再次受可见控制认证阻碍
 
 按定时任务从C313重试可见Chrome控制，仍返回 `Codex auth token unavailable`。没有输入、提交或生成URL；C313-C314继续保持READY_SOURCE_CHECKED，campaign计数不变。
+
+
+## 2026-10-05T10:27:30Z | 定时重试仍受可见控制认证阻碍
+
+按每5分钟任务再次检查C313起的可见Chrome发布通道，仍返回 Codex auth token unavailable。没有输入、提交、URL或计数变化；C313-C314继续保持READY_SOURCE_CHECKED。
