@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T14:46:50.975832Z",
+  "updated_at": "2026-10-05T15:24:31.060280Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C313-C314 independently reloaded and verified via native visible Chrome;119new/881remaining/ready0/queue314/total144. Source links visible, no preview cards. Prior whole-CUA auth diagnosis corrected.",
+    "latest_campaign_round": "C315-C319 independently reloaded and verified via native visible Chrome;124new/876remaining/ready0/queue319/total149. Five dated community self-reports; original sources visible; late preview cards on C315/C318/C319, none on C316/C317. No exposure result claimed.",
     "latest_editorial_steer": "Oct5: add source visibility and evidence media; sharper norm/inner-conflict/cost analysis, no invented family cause or blanket Laozi/Zhuangzi attribution. C304 editorial exercise saved, no new publication."
   },
   "counts": {
@@ -53,25 +53,25 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 119,
+    "verified_account_publications": 124,
     "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
-    "campaign_verified_new_publications": 119,
-    "verified_total_series": 144,
-    "published_new": 119,
-    "remaining_new_publications": 881,
-    "rolling_work_queue_count": 314,
+    "campaign_verified_new_publications": 124,
+    "verified_total_series": 149,
+    "published_new": 124,
+    "remaining_new_publications": 876,
+    "rolling_work_queue_count": 319,
     "ready_count": 0,
-    "latest_publication_id": "C314",
+    "latest_publication_id": "C319",
     "baseline_verified_publications": 25,
-    "total_verified_series": 144
+    "total_verified_series": 149
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research distinct community material from C315 and review reader interest against high-view structures; native visible Chrome remains authorized. Maximum five qualified originals per round; no filler.",
+  "next_action": "Research distinct community material from C320; compare single-conflict, concrete-cost structure against existing >10000-view samples and counterexamples. No repeat of published drafts, maximum five qualified originals per round.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -313,19 +313,19 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 119,
+    "published_new": 124,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 144,
-    "remaining_new_publications": 881,
-    "rolling_work_queue_count": 314,
-    "latest_publication_id": "C314",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107118968750383396",
-    "latest_publication_verified_at": "2026-10-05T14:44:17.213Z",
-    "latest_candidate_id": "C314",
-    "latest_candidate_source": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
-    "latest_candidate_checked_at": "2026-10-05T10:02:00Z",
+    "total_verified_series": 149,
+    "remaining_new_publications": 876,
+    "rolling_work_queue_count": 319,
+    "latest_publication_id": "C319",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107128421956604097",
+    "latest_publication_verified_at": "2026-10-05T15:20:13.838Z",
+    "latest_candidate_id": "C319",
+    "latest_candidate_source": "https://linux.do/t/topic/314723",
+    "latest_candidate_checked_at": "2026-10-05T15:00:01.497Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
@@ -412,25 +412,28 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T14:46:50.975832Z",
+    "verified_at_utc": "2026-10-05T15:24:31.060280Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C314",
-    "prompt_published_new": 119,
+    "prompt_latest_publication": "C319",
+    "prompt_published_new": 124,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
-    "user_request": "好了 你看看恢复了吗",
-    "recorded_at_utc": "2026-10-05T14:46:50.975832Z",
+    "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
+    "recorded_at_utc": "2026-10-05T15:22:58.642757Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
     "current_blocker": null,
     "candidate_ids": [],
     "verified_ids": [
-      "C313",
-      "C314"
+      "C315",
+      "C316",
+      "C317",
+      "C318",
+      "C319"
     ]
   },
   "editorial_feedback_history": [
@@ -463,5 +466,36 @@
     ],
     "diagnosis_correction": "Inventory failure is not a whole Computer Use failure. Test the same authorized native app independently; do not bypass actual lock/auth/challenge.",
     "validation": "Campaign integrity passed:119 distinct verified URLs;2 native editor/detail receipts match mirrored drafts;ready0,total144,remaining881. git diff --check passed."
+  },
+  "community_publication_batch4": {
+    "checked_at_utc": "2026-10-05T15:22:58.642757Z",
+    "source_record": "data/source_materials_round26_2026-10-05.json",
+    "verified_ids": [
+      "C315",
+      "C316",
+      "C317",
+      "C318",
+      "C319"
+    ],
+    "new_x_research_pages": 0,
+    "high_view_review": "Existing 32 direct >10000-view samples and stated controls; applied single-conflict/cost constraints, no formula promotion",
+    "research_failures": [
+      "Tieba direct HTTP403 excluded without original confirmation",
+      "Harness requested new remote-debugging grant; cancelled",
+      "LINUX DO direct HTTP403; ordinary unsigned visible native Chrome publicly displayed original without login/challenge"
+    ],
+    "media_note": "No uploaded images/video. Three late automatic title/avatar cards, two links without cards; avatars are not event evidence. C315 card is OP, body identifies reply91.",
+    "private_evidence": "ignored data/private/publication_round_2026-10-05_batch4",
+    "human_checked": false,
+    "published_seconds": null,
+    "validation": {
+      "checked_at_utc": "2026-10-05T15:25:40.625287Z",
+      "campaign_integrity": "319 unique IDs;124 unique published URLs;5 matching mirrored native receipts;ready0;total149;remaining876;secondsnull;human_checkedfalse",
+      "unit_tests": 16,
+      "unit_tests_result": "PASS",
+      "runtime_audit": "Executed successfully; existing SQLite limitations remain, no formula validation; new source/own-publication JSON kept separate",
+      "automation": "Read-back verified ACTIVE/5min/C319/124, failed_runs_only preserved",
+      "diff_check": "PASS"
+    }
   }
 }
