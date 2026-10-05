@@ -349,3 +349,13 @@ Chrome发生焦点切换，工具拦截后重新读取可见状态再定位X；�
 来源优先给可点击原页，位置随事实和阅读需要选择；图片、视频、链接可以用，避免重复装饰和同一大卡片。C304原帖没有编辑或补来源回复；同主题示范仅未发布练习，不生成C305、不增加完成计数。下一步将新准则同步定时提示词，保留PAUSED、5分钟和通知偏好。
 
 2026-10-05T04:30:03.111344Z：应用工具已同步新准则；读取配置确认仍PAUSED、5分钟、原通知偏好，提示词包含新增深度规范。文档/状态完整性与发布计数检查通过；本轮只有编辑规则变化，没有新增发布或代码改动。
+
+
+## 2026-10-05T08:24:25.302262Z — Continue with sharper norms and visible original links
+
+User says “继续”; ordinary X authorization retained. C305-C309 are five new dated public community candidates, not new publications yet. Sources captured directly through permitted non-X Browser Harness. Interpretations target the cost of unspoken rules rather than shame a demographic. Parents, work and relationship self-reports are not independently confirmed; weekend author did not claim anxiety; dating draft keeps AA/return-invitation counterexamples and excludes the unverified video experiment. Family-meal source challenge excluded; no bypass. Public original links are in drafts; no repeated decoration. Automation config now observed ACTIVE, five-minute frequency; old PAUSED prompt will be reconciled.
+
+
+## 2026-10-05T08:43:20.998349Z — Five norm/cost originals published and verified
+
+C305-C309 each passed native editor exact-text and screenshot review, single submission and independent detail reload. Original sources now visible; X emitted nonidentical forum author-avatar previews without exposing a removal control in editor. No media upload. C307 removed ambiguous paraphrase quotes and C308 simplified prose before publication, older drafts preserved. Source challenge excluded; focus switches/cache/loading reconciled without extra submits. Community sources remain self-reports; no causally validated formula, no new performance claim. Campaign114/886remaining/ready0/queue309. User continuation resumes ACTIVE five-minute heartbeat; next C310. Public report holds source/publication links and boundaries; raws/screenshots ignored.

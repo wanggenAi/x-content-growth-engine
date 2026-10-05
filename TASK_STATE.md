@@ -1,5 +1,18 @@
 # Task State
 
+## Latest verified publication checkpoint — 2026-10-05T08:43:20.998349Z
+
+- C305-C309: five qualified original series published once and independently reloaded/verified through native visible Chrome. Campaign114,remaining886,ready0,queue309,baseline25,total139,latestC309. Next source research C310.
+- Original forum sources are reader-visible. X made title/excerpt/author-avatar cards; five different avatars, no media upload. Preview removal was not exposed in editor; do not claim cards were removed or avatars prove events.
+- Sharper norm/cost judgments, dated self-reports, AA counterexamples, conditional company workload concern; no invented family history, diagnosis or group规律. C307/C308 revised before posting.
+- Browser focus changes, stale profile and unfinished reloads handled by fresh reads; no repeated submission. Earlier PAUSED records are historical; current config ACTIVE/5min. See docs/COMMUNITY_NORMS_PUBLICATION_2026-10-05.md.
+
+## Continuation and source checkpoint — 2026-10-05T08:24:25.302262Z
+
+- User says continue: existing publication authorization persists. Five new community candidates C305-C309 are source/editorial checked, not published. Counts109/891,ready5,queue309.
+- Work presence, spouse/company free labor, parent evaluation, weekend meaning, dating payment: distinct scenes with dated self-report links and bounded editorial judgments. One family-meal page showed a challenge; excluded without bypass.
+- Automation config is ACTIVE with five-minute interval; earlier PAUSED text is historical and will be reconciled in this round. Next native visible editor and independent-detail checks.
+
 ## Latest editorial steer — 2026-10-05T04:29:01.980371Z
 
 - User finds C304 insufficiently sharp: examine the unspoken norm, self-judgment and real cost, such as affordable enjoyment still needing to prove usefulness. Keep causal explanations conditional and distinguish the original author's evidence from interpretation.

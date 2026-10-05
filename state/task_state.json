@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T04:29:01.980371Z",
+  "updated_at": "2026-10-05T08:43:20.998349Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -19,7 +19,7 @@
     "feedback_import_interface": "done",
     "own_post_feedback": "private_2026-10-02_observation: older sample views >10, latest C237-C244 about 4; exact per-post UTC missing; small unequal-age sample; format remains HYPOTHESIS",
     "live_github_recovery": "done",
-    "local_tests_and_seed_replay": "16_tests_passed; existing runtime audit caveats retained; five new publication receipts, exact detail bodies, counts and automation synchronization validated.",
+    "local_tests_and_seed_replay": "16 tests passed; campaign114/ready0/remaining886 checked;5 unique receipts and private editor/detail artifacts matched. Runtime audit still has stale index metrics, unknown follower denominators, no validated formula.",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
     "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C300-C304 five single native visible submissions and independent detail-page reloads completed.109 new verified,891 remaining,ready0,queue304; Mac lock resolved. Three drafts shortened before posting, prior versions retained. No duplicate or input failure; Chrome focus changes handled by fresh state. Automation observed PAUSED at sync.",
+    "latest_campaign_round": "C305-C309 five native single submissions independently reloaded and verified;114new/886remaining/ready0/queue309. Original sources visible as X forum preview cards. No invented firsthand history or group statistics. Focus/cache/loading reconciled without repost.",
     "latest_editorial_steer": "Oct5: add source visibility and evidence media; sharper norm/inner-conflict/cost analysis, no invented family cause or blanket Laozi/Zhuangzi attribution. C304 editorial exercise saved, no new publication."
   },
   "counts": {
@@ -53,18 +53,18 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 109,
+    "verified_account_publications": 114,
     "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
-    "campaign_verified_new_publications": 109,
-    "verified_total_series": 134
+    "campaign_verified_new_publications": 114,
+    "verified_total_series": 139
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "From C305, research distinct public community scenes; apply sharpened inner-rule/cost review and accessible source/media plan. C304 example is unpublished same-series exercise, not a new original. Retain native editor and independent page verification. Automation status remains PAUSED.",
+  "next_action": "Research distinct new public community scenes from C310; maintain visible original sources and bounded norm/cost interpretation. Five-minute ACTIVE heartbeat, at most five qualified originals per round, native visible editor/screenshot and independent detail reload.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -306,19 +306,19 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 109,
+    "published_new": 114,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 134,
-    "remaining_new_publications": 891,
-    "rolling_work_queue_count": 304,
-    "latest_publication_id": "C304",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2106952469997822101",
-    "latest_publication_verified_at": "2026-10-05T03:41:45.506Z",
-    "latest_candidate_id": "C304",
-    "latest_candidate_source": "https://www.v2ex.com/t/1117571",
-    "latest_candidate_checked_at": "2026-10-05T03:20:27.915219Z",
+    "total_verified_series": 139,
+    "remaining_new_publications": 886,
+    "rolling_work_queue_count": 309,
+    "latest_publication_id": "C309",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107027923169599896",
+    "latest_publication_verified_at": "2026-10-05T08:41:00.585Z",
+    "latest_candidate_id": "C309",
+    "latest_candidate_source": "https://www.v2ex.com/t/1142083",
+    "latest_candidate_checked_at": "2026-10-05T08:24:25.302262Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
@@ -408,38 +408,38 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T04:30:03.111344Z",
-    "status": "PAUSED",
+    "verified_at_utc": "2026-10-05T08:44:35.331022Z",
+    "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C304",
-    "prompt_published_new": 109,
+    "prompt_latest_publication": "C309",
+    "prompt_published_new": 114,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
-    "user_request": "继续吧",
-    "recorded_at_utc": "2026-10-05T03:43:54.890923Z",
-    "automation_status": "PAUSED",
+    "user_request": "继续",
+    "recorded_at_utc": "2026-10-05T08:46:11.922507Z",
+    "automation_status": "ACTIVE",
     "interval_minutes": 5,
     "current_blocker": null,
     "new_submissions": 5,
     "new_verified_publications": 5,
     "candidate_ids": [
-      "C300",
-      "C301",
-      "C302",
-      "C303",
-      "C304"
+      "C305",
+      "C306",
+      "C307",
+      "C308",
+      "C309"
     ],
     "verified_ids": [
-      "C300",
-      "C301",
-      "C302",
-      "C303",
-      "C304"
+      "C305",
+      "C306",
+      "C307",
+      "C308",
+      "C309"
     ],
-    "blocker_resolution": "Mac unlocked; native Chrome usable. No renewed account permission required."
+    "blocker_resolution": "Mac unlocked; native Chrome usable. External focus/cache changes reconciled by fresh reads; no renewed permission or repeated submit."
   },
   "editorial_feedback_history": [
     {
