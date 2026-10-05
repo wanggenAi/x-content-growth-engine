@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T17:54:14Z",
+  "updated_at": "2026-10-05T19:40:38Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -53,26 +53,27 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 143,
-    "unpublished_candidates": 37,
+    "verified_account_publications": 148,
+    "unpublished_candidates": 16,
     "agent_observed_viral_posts": 45,
     "agent_observed_exploratory_comparisons": 17,
-    "campaign_verified_new_publications": 143,
-    "verified_total_series": 168,
-    "published_new": 143,
-    "remaining_new_publications": 857,
-    "rolling_work_queue_count": 339,
+    "campaign_verified_new_publications": 148,
+    "verified_total_series": 173,
+    "published_new": 148,
+    "remaining_new_publications": 852,
+    "rolling_work_queue_count": 344,
     "ready_count": 0,
-    "latest_publication_id": "C339",
+    "latest_publication_id": "C344",
     "baseline_verified_publications": 25,
-    "total_verified_series": 168,
-    "latest_candidate_id": "C339"
+    "total_verified_series": 173,
+    "latest_candidate_id": "C344",
+    "editorial_drafts_unpublished": 1
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research C340 onward using non-V2EX public material; keep recent events dated and clearly label undated jokes, self-reports and opinions. Publish only after exact editor/screenshot and independent detail-page verification.",
+  "next_action": "先直接复盘新的万次以上浏览正文与反例，再研究C345起的非V2EX素材；新稿避免固定论坛摘要四段结构，不凑数。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -138,8 +139,8 @@
     ]
   },
   "count_notes": {
-    "own_posts": "Reviewed feedback SQLite DB records remain zero. Campaign has109 agent-verified new series plus baseline25 (134 series); profile count is a separate UI total. Agent review is not human_checked.",
-    "unpublished_candidates": "38 retained historical finished drafts; C329 held by user steer, no active READY_SOURCE_CHECKED candidates.",
+    "own_posts": "SQLite反馈记录与campaign分开；campaign新增148条agent核验，加基线25为173系列。agent_checked不是human_checked。",
+    "unpublished_candidates": "Campaign中16条HOLD稿；另有180条RESEARCH_PENDING，ready0。editorial_drafts文件仅1条未发布C329。",
     "agent_observed_viral_posts": "39 direct visible high-view observations including this round; exact displayed counts at capture time, discovery sample not unbiased and not causal."
   },
   "night_publication_batch": {
@@ -308,25 +309,28 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 143,
+    "published_new": 148,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 168,
-    "remaining_new_publications": 857,
-    "rolling_work_queue_count": 339,
-    "latest_publication_id": "C339",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107167051890794839",
-    "latest_publication_verified_at": "2026-10-05T17:54:14Z",
-    "latest_candidate_id": "C339",
+    "total_verified_series": 173,
+    "remaining_new_publications": 852,
+    "rolling_work_queue_count": 344,
+    "latest_publication_id": "C344",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
+    "latest_publication_verified_at": "2026-10-05T19:40:38Z",
+    "latest_candidate_id": "C344",
     "latest_candidate_source": "PUBLIC_FORUM_NON_V2EX",
-    "latest_candidate_checked_at": "2026-10-05T17:40:46Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
+    "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+    "published_count": 148,
+    "ready_count": 0,
+    "updated_at": "2026-10-05T19:40:38Z"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
-    "cumulative_verified_series": 144,
+    "cumulative_verified_series": 148,
     "latest_repair_ids": [
       "C019",
       "C020",
@@ -339,15 +343,15 @@
     "unknown_referred_person": "Keybo",
     "latest_input_failure": null,
     "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
-    "latest_input_recovery": "2026-10-05T14:46:50.975832Z: extension inventory error was separate from native app; C313/C314 editor text matched, one submit each and independent details verified.",
-    "latest_publication_id": "C314",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107118968750383396",
-    "latest_publication_verified_at": "2026-10-05T14:44:17.213Z",
-    "latest_candidate_id": "C314",
-    "latest_candidate_source": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
-    "latest_candidate_checked_at": "2026-10-05T10:02:00Z",
+    "latest_input_recovery": "2026-10-05T19:40:38Z: C340-C344已完成native paste、可见截图、单次提交和独立详情页核验。setValue不能作为有效输入事件证据。",
+    "latest_publication_id": "C344",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
+    "latest_publication_verified_at": "2026-10-05T19:40:38Z",
+    "latest_candidate_id": "C344",
+    "latest_candidate_source": "https://bbs.wenxuecity.com/myhouse/15955539.html",
+    "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "Research distinct community material from C315 and review reader interest against high-view structures; native visible Chrome remains authorized. Maximum five qualified originals per round; no filler.",
+    "next_action": "先直接复盘新的万次以上浏览正文与反例，再研究C345起的非V2EX素材；新稿避免固定论坛摘要四段结构，不凑数。",
     "latest_style_review_note": "Community self-report scenes, explicit historical attribution, short individual judgments. C302-C304 shortened before publication to keep complete point visible; this is an editorial hypothesis, not proven reach improvement."
   },
   "pause_diagnosis": {
@@ -416,7 +420,12 @@
     "notification_policy_preserved": "failed_runs_only",
     "prompt_latest_publication": "C324",
     "prompt_published_new": 129,
-    "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
+    "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
+    "latest_publication_id": "C344",
+    "published_new": 148,
+    "ready": 0,
+    "next_candidate_id": "C345",
+    "note": "已用automation_update同步，保留failed_runs_only通知偏好。"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -569,5 +578,41 @@
       "editor_screenshot_checked": true,
       "single_submit_each": true
     }
+  },
+  "verified_publications": 148,
+  "remaining_new_publications": 852,
+  "ready_count": 0,
+  "rolling_work_queue_count": 344,
+  "latest_candidate_id": "C344",
+  "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+  "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
+  "community_publication_batch7": {
+    "ids": [
+      "C340",
+      "C341",
+      "C342",
+      "C343",
+      "C344"
+    ],
+    "source_family": "WENXUECITY_PUBLIC_FORUM",
+    "agent_checked": true,
+    "human_checked": false,
+    "verified_at": "2026-10-05T19:40:38Z",
+    "published_seconds": null,
+    "reach_improvement": "NOT_EVALUATED",
+    "new_high_view_samples_this_batch": 0
+  },
+  "latest_editorial_self_review": {
+    "reviewed_at": "2026-10-05T19:43:10Z",
+    "ids": [
+      "C343",
+      "C344"
+    ],
+    "state": "REVIEW_REQUIRED",
+    "facts": {
+      "C343": "首句一小时未由求助原文支持，是未明确标注的编辑设想；不应计作来源事实。保留已发布正文与URL。",
+      "C344": "不合群的表演与无人打分的结尾关系不清；家人日记没有支持表演压力因果。保留原稿，不复用此结构。"
+    },
+    "next_action": "先新高浏览正文与反例复盘，不复用论坛摘要模板，不把设想写成事实。"
   }
 }
