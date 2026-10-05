@@ -6773,7 +6773,7 @@
       "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
     }
   ],
-  "updated_at": "2026-10-05T10:37:30Z",
+  "updated_at": "2026-10-05T10:42:30Z",
   "latest_publication_id": "C312",
   "latest_publication_url": "https://x.com/qiluo27808/status/2107036358317674875",
   "latest_publication_verified_at": "2026-10-05T09:16:00Z",
@@ -6840,6 +6840,15 @@
     },
     {
       "at": "2026-10-05T10:37:30Z",
+      "ids": [
+        "C313",
+        "C314"
+      ],
+      "type": "VISIBLE_BROWSER_AUTH_UNAVAILABLE",
+      "action": "scheduled retry failed; no submission/count change"
+    },
+    {
+      "at": "2026-10-05T10:42:30Z",
       "ids": [
         "C313",
         "C314"
