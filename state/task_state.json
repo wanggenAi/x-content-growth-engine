@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-04T11:56:30.059537Z",
+  "updated_at": "2026-10-05T03:20:27.915219Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "Campaign synchronized to 104 verified new series, 896 remaining, queue302; C300-C302 are unpublished DRAFT_REVIEW_INTEREST, not ready. No publication during Oct4 diagnosis. Corrected stale state, agent/human review distinction and unreliable historical verification timestamps for C295-C299."
+    "latest_campaign_round": "User resumed Oct5. C300-C302 source/editorial review completed; C303-C304 added from original public V2EX self-reports. Five READY_SOURCE_CHECKED originals, none submitted because native CU reported Mac locked and auto-unlock failed.104 verified,896 remaining,ready5,queue304. Automation restored ACTIVE every5minutes; existing authorization persists."
   },
   "counts": {
     "x_posts": 11,
@@ -53,7 +53,7 @@
     "exploratory_drafts": 70,
     "own_posts": 0,
     "verified_account_publications": 104,
-    "unpublished_candidates": 40,
+    "unpublished_candidates": 42,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
     "campaign_verified_new_publications": 104,
@@ -63,7 +63,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Review docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md and C300-C302 community drafts for concrete reader stakes, originality and fact boundaries. Do not resume the rejected report-summary template or pad publishing quota. Preserve current automation PAUSED status unless user asks to resume.",
+  "next_action": "After user manually unlocks Mac, read the latest profile, then publish C300-C304 one at a time with exact native visible editor/screenshot check, one submit and independent public detail reload. Do not bypass lockscreen or renew already-authorized routine publication permission.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -134,7 +134,7 @@
   },
   "count_notes": {
     "own_posts": "Reviewed feedback SQLite DB records remain zero. Campaign has 104 agent-verified new series plus baseline 25 (129 series); profile count is a separate UI total. Agent review is not human_checked.",
-    "unpublished_candidates": "Previous retained unpublished pool37 plus3 new interest-review drafts C300-C302; campaign RESEARCH_PENDING briefs180 are distinct from finished drafts.",
+    "unpublished_candidates": "37 retained historical finished drafts plus5 active source-checked originals C300-C304; 180 campaign research briefs counted separately.",
     "agent_observed_viral_posts": "Separate source-kind batch with exact visible label counts and UTC; not included in existing human-confirmed SQLite x_posts/original_confirmed counts."
   },
   "night_publication_batch": {
@@ -306,19 +306,19 @@
     "baseline_verified_publications": 25,
     "target_total": 1025,
     "published_new": 104,
-    "ready": 0,
+    "ready": 5,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
     "total_verified_series": 129,
     "remaining_new_publications": 896,
-    "rolling_work_queue_count": 302,
+    "rolling_work_queue_count": 304,
     "latest_publication_id": "C299",
     "latest_publication_url": "https://x.com/qiluo27808/status/2106153891004064090",
     "latest_publication_verified_at": null,
-    "latest_candidate_id": "C302",
-    "latest_candidate_source": "https://www.v2ex.com/t/602206",
-    "latest_candidate_checked_at": "2026-10-04T11:56:30.059537Z",
-    "latest_candidate_status": "DRAFT_REVIEW_INTEREST"
+    "latest_candidate_id": "C304",
+    "latest_candidate_source": "https://www.v2ex.com/t/1117571",
+    "latest_candidate_checked_at": "2026-10-05T03:20:27.915219Z",
+    "latest_candidate_status": "READY_SOURCE_CHECKED"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -406,10 +406,34 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-04T12:00:02.919717Z",
-    "status": "PAUSED",
+    "verified_at_utc": "2026-10-05T03:20:27.915219Z",
+    "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
     "notification_policy_preserved": "failed_runs_only"
+  },
+  "publication_resume": {
+    "user_request": "继续吧",
+    "recorded_at_utc": "2026-10-05T03:20:27.915219Z",
+    "automation_status": "ACTIVE",
+    "interval_minutes": 5,
+    "current_blocker": {
+      "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
+      "observation": "The Mac is locked and automatic unlock could not unlock it. Ask the user to unlock the Mac manually before continuing.",
+      "observed_at_utc": "2026-10-05T03:20:27.915219Z",
+      "observation_time_precision": "checkpoint_saved_at; exact tool-return time not separately captured",
+      "submission_attempts_this_round": 0,
+      "user_authorization": "EXISTING_AUTHORIZATION_RENEWED_BY_CONTINUE",
+      "not_permission_failure": true
+    },
+    "new_submissions": 0,
+    "new_verified_publications": 0,
+    "candidate_ids": [
+      "C300",
+      "C301",
+      "C302",
+      "C303",
+      "C304"
+    ]
   }
 }

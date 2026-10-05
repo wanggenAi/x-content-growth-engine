@@ -1,11 +1,12 @@
 # Task State
 
-## Current campaign checkpoint — 2026-10-04T11:56:30.059537Z
+## Current campaign checkpoint — 2026-10-05T03:20:27.915219Z
 
-- Campaign: 104 new series agent-verified, baseline25, total129; 896 remain, ready0, queue302. Latest publication C299; C300-C302 are three unpublished community drafts awaiting interest/editorial review. Profile post count is a separate measure.
-- Latest user request prioritizes exposure and interest over volume and rejects the repeated news-summary style. This round reads own higher/lower-view posts and external examples, saves private evidence, writes a concrete editorial correction; zero new submissions.
-- See `docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md`. The existing automation is PAUSED; prompt will be synchronized while preserving that status and five-minute interval. Do not run the old template.
-- Metadata repair: current state previously lagged at C289; C295-C299 agent review no longer claims human review, and unreliable local/Z verification timestamps are preserved as legacy values with exact times null.
+- User explicitly resumed. Automation x is ACTIVE again at the preserved five-minute interval. Existing account authorization persists; notifications retain prior preference.
+- Campaign:104 verified new series, baseline25, total129,896 remaining,ready5,queue304,latestC299. C300-C304 source/editorial-checked originals are unpublished.
+- Native visible Computer Use reported Mac locked and automatic unlock failed. User must unlock Mac manually; no new submission was attempted, no new post counted. Do not use a tool switch to bypass lockscreen.
+- Next: after unlock, confirm current profile, then process C300-C304 individually through editor/screenshot comparison, one submit and independent detail-page reload.
+- C303-C304 source pages were read with local Browser Harness. All5 are attributed historical community self-reports, not newly reported news or verified group psychology.
 
 ### 2026-10-03T06:47:00Z - C295-C299 publication receipt
 

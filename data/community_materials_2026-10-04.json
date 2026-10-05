@@ -1,7 +1,7 @@
 {
   "created_at_utc": "2026-10-04T11:56:30.059537Z",
   "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
-  "collection_scope": "Three individual public discussions read with local Browser Harness; no bulk Reddit collection.",
+  "collection_scope": "Five individual public historical V2EX discussions; three prior originals plus two source pages checked Oct5. No bulk Reddit collection.",
   "items": [
     {
       "id": "C300-source",
@@ -29,6 +29,25 @@
       "verification": "Original public page read; account is self-report, events not independently corroborated.",
       "rights": "Link and limited original commentary; no wholesale copying.",
       "x_views": null
+    },
+    {
+      "id": "C303-source",
+      "url": "https://www.v2ex.com/t/926011",
+      "author_visible": "mgrxwl",
+      "date_display": "2023-03-21",
+      "verification": "Original public page read; author self-report not independently corroborated.",
+      "rights": "Link and limited original commentary, no whole-thread reuse.",
+      "x_views": null
+    },
+    {
+      "id": "C304-source",
+      "url": "https://www.v2ex.com/t/1117571",
+      "author_visible": "5261",
+      "date_display": "2025-03-11",
+      "verification": "Original public page read; author self-report not independently corroborated.",
+      "rights": "Link and limited original commentary, no whole-thread reuse.",
+      "x_views": null
     }
-  ]
+  ],
+  "updated_at_utc": "2026-10-05T03:20:27.915219Z"
 }
