@@ -1,12 +1,12 @@
 # Task State
 
-## Current campaign checkpoint — 2026-10-05T03:20:27.915219Z
+## Current campaign checkpoint — 2026-10-05T03:43:54.890923Z
 
-- User explicitly resumed. Automation x is ACTIVE again at the preserved five-minute interval. Existing account authorization persists; notifications retain prior preference.
-- Campaign:104 verified new series, baseline25, total129,896 remaining,ready5,queue304,latestC299. C300-C304 source/editorial-checked originals are unpublished.
-- Native visible Computer Use reported Mac locked and automatic unlock failed. User must unlock Mac manually; no new submission was attempted, no new post counted. Do not use a tool switch to bypass lockscreen.
-- Next: after unlock, confirm current profile, then process C300-C304 individually through editor/screenshot comparison, one submit and independent detail-page reload.
-- C303-C304 source pages were read with local Browser Harness. All5 are attributed historical community self-reports, not newly reported news or verified group psychology.
+- C300-C304 published once each through authorized native visible Chrome. Independent public detail reloads matched full text, account, paragraphs, punctuation and no preview cards; agent_checked=true, human_checked=false.
+- Campaign:109 verified new series, baseline25,total134,891 remaining,ready0,queue304,latestC304. Next source research starts C305; no research brief is counted as publication.
+- Mac lock is resolved. Chrome focus changed during verification; fresh state was read before actions. C302 profile initially stale; reload revealed the original, with no second submit.
+- C302-C304 shortened before submission; earlier drafts retained. AX collapses editor blank lines; text comparison accounts for that and screenshots confirm spacing.
+- Automation x observed PAUSED during final sync; preserve this state and five-minute interval. Updated prompt must not retain obsolete lock or ready5 instructions.
 
 ### 2026-10-03T06:47:00Z - C295-C299 publication receipt
 

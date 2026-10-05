@@ -1,6 +1,6 @@
 {
   "created_at_utc": "2026-10-04T11:56:30.059537Z",
-  "status": "READY_SOURCE_CHECKED_NOT_PUBLISHED",
+  "status": "FIVE_PUBLISHED_AGENT_VERIFIED",
   "posts": [
     {
       "id": "C300",
@@ -13,13 +13,13 @@
       "reader_payoff": "区分对报酬差距的不满与把客套当成同病相怜的落差。",
       "text": "听领导天天喊穷，后来发现，他的工资是自己两倍多。\n\nV2EX有个2018年的老帖，发帖人说知道这事后睡不着，又补充：领导的能力确实比自己强，工资高他能接受。\n\n我能理解这种别扭：跟你一起喊穷的人，未必跟你过着同一种日子。工资差距还没消化，先发现自己把一句客套话听成了同病相怜。",
       "editorial_limits": "原作者自述，工资和同事行为未独立核实；不识别具体公司或领导，不推断其欺骗动机。评论是本账号的理解，不是心理学结论。",
-      "status": "READY_SOURCE_CHECKED",
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
-      "ready_for_publication": true,
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "ready_for_publication": false,
+      "url": "https://x.com/qiluo27808/status/2106950602806985207",
+      "published_at": "2026-10-05T03:32Z",
+      "verified_at": "2026-10-05T03:34:00.658Z",
       "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
       "source_checked_at": "2026-10-04T11:56:30.059537Z",
       "formula_status": "HYPOTHESIS",
@@ -32,7 +32,16 @@
       "review_note": "Agent source/readability/originality review complete. User renewed continuation authorization; no claim of human editorial review. Old self-report attribution preserved.",
       "previous_text": "听领导天天喊穷，后来发现，他的工资是自己两倍多。\n\nV2EX有个2018年的老帖，发帖人说知道这事后睡不着，又补充：领导的能力确实比自己强，工资高他能接受。\n\n我能理解这种别扭：跟你一起喊穷的人，未必跟你过着同一种日子。工资差距还没消化，先发现自己把一句客套话听成了同病相怜。",
       "agent_checked": true,
-      "editorial_checked_at": "2026-10-05T03:18:06.312134Z"
+      "editorial_checked_at": "2026-10-05T03:18:06.312134Z",
+      "weighted_length_estimate": 264,
+      "published_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "publication_time_display": "11:32 AM · Oct 5, 2026",
+      "publication_display_timezone": "Asia/Shanghai",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "verification_note": "Native editor text matched after AX blank-line collapse was accounted for; screenshot confirmed paragraph spacing. Submitted once; independent detail page reloaded and matched full text, account, paragraphs, punctuation and no preview card. Screenshot inspected by agent, not human.",
+      "submission_started_at": null,
+      "submission_time_note": "Exact submission start not captured; publication minute is not submission start."
     },
     {
       "id": "C301",
@@ -45,13 +54,13 @@
       "reader_payoff": "把不好意思拒绝与实际愿意承担的金额分开。",
       "text": "同事找他借2万元，他当场答应。转完钱，就开始骂自己。\n\n他在V2EX的2023年旧帖里写：对方说下个月发工资还。自己以前还说一分钱不会借给同事，真轮到自己，连借条都没要。\n\n这段我看着挺别扭：钱都敢借，拒绝却不敢说。答应那一刻省下的尴尬，后面得拿多少天惦记来还？",
       "editorial_limits": "只写作者自述和自己的判断。还款结果未核实，不断言借款人违约、赌博或诈骗；附言中的转述投资行为不进入正文。",
-      "status": "READY_SOURCE_CHECKED",
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
-      "ready_for_publication": true,
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "ready_for_publication": false,
+      "url": "https://x.com/qiluo27808/status/2106951125450760368",
+      "published_at": "2026-10-05T03:34Z",
+      "verified_at": "2026-10-05T03:35:32.400Z",
       "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
       "source_checked_at": "2026-10-04T11:56:30.059537Z",
       "formula_status": "HYPOTHESIS",
@@ -64,7 +73,16 @@
       "review_note": "Agent source/readability/originality review complete. User renewed continuation authorization; no claim of human editorial review. Old self-report attribution preserved.",
       "previous_text": "同事开口借2万元，他当场答应。转完钱，开始骂自己。\n\n这是V2EX一篇2023年的自述：对方说下个月发工资还。他过去还说过不会借钱给同事，真碰上了，嘴却比脑子快。\n\n发帖人自己也在问：是信得过，还是放不下面子？\n\n我觉得最扎心的是，他还没等到还款日，就已经开始后悔了。两万元借出去的时候，那句“不方便”反而说不出口。",
       "agent_checked": true,
-      "editorial_checked_at": "2026-10-05T03:18:06.312134Z"
+      "editorial_checked_at": "2026-10-05T03:18:06.312134Z",
+      "weighted_length_estimate": 249,
+      "published_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "publication_time_display": "11:34 AM · Oct 5, 2026",
+      "publication_display_timezone": "Asia/Shanghai",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "verification_note": "Native editor text matched after AX blank-line collapse was accounted for; screenshot confirmed paragraph spacing. Submitted once; independent detail page reloaded and matched full text, account, paragraphs, punctuation and no preview card. Screenshot inspected by agent, not human.",
+      "submission_started_at": null,
+      "submission_time_note": "Exact submission start not captured; publication minute is not submission start."
     },
     {
       "id": "C302",
@@ -75,15 +93,15 @@
       "source_author_visible": "qwingmix",
       "first_screen_conflict": "自己烦多年不联系的婚礼邀请，轮到结婚又想邀请同学。",
       "reader_payoff": "让邀请者与受邀者的顾虑同时可见，提出能实际回答的分歧。",
-      "text": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？\n\nV2EX一位网友2019年发帖，平时也烦这种突然邀请；轮到自己结婚，又想请老同学，让婚礼热闹一点。他特地补充，不是为了收礼金。\n\n这事双方都能讲出道理。请的人怕被说生分，收到的人怕被当成收礼对象。要是真想见面，邀请里写句“不用随礼”，我反而更愿意去。",
+      "text": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？\n\nV2EX一篇2019年自述：作者平时也烦这种邀请，自己结婚又想请同学。他说不为收礼，就是想热闹点。\n\n请的人怕生分，收到的人怕被当成收礼对象。要是直接写“不用随礼，就是想见你”，我会更愿意去。",
       "editorial_limits": "旧社区讨论，不是当前新闻。动机是作者自述，双方内心对白明确为评论性场景，不冒充原帖逐字引语；不把所有婚礼邀请视为圈钱。",
-      "status": "READY_SOURCE_CHECKED",
+      "status": "PUBLISHED_AGENT_VERIFIED",
       "source_checked": true,
       "human_checked": false,
-      "ready_for_publication": true,
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "ready_for_publication": false,
+      "url": "https://x.com/qiluo27808/status/2106951509636428060",
+      "published_at": "2026-10-05T03:35Z",
+      "verified_at": "2026-10-05T03:37:31.860Z",
       "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
       "source_checked_at": "2026-10-04T11:56:30.059537Z",
       "formula_status": "HYPOTHESIS",
@@ -96,7 +114,23 @@
       "review_note": "Agent source/readability/originality review complete. User renewed continuation authorization; no claim of human editorial review. Old self-report attribution preserved.",
       "previous_text": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？\n\nV2EX有个2019年的讨论，发帖人平时也烦这种突然邀请；轮到自己结婚，又想请老同学，让婚礼热闹一点。他特地补充，不是为了收礼金。\n\n我觉得尴尬就在这：一个觉得“这么大的事，不叫你不好”，另一个觉得“平时不找我，这时候想起我了”。\n\n如果邀请时直接写“不用随礼，就是想见你”，你会不会更愿意去？",
       "agent_checked": true,
-      "editorial_checked_at": "2026-10-05T03:18:06.312134Z"
+      "editorial_checked_at": "2026-10-05T03:28:37.683691Z",
+      "prepublication_revision_history": [
+        {
+          "at_utc": "2026-10-05T03:28:37.683691Z",
+          "text": "老同学几年没联系，婚礼请柬一来，你会先高兴，还是先想到份子钱？\n\nV2EX一位网友2019年发帖，平时也烦这种突然邀请；轮到自己结婚，又想请老同学，让婚礼热闹一点。他特地补充，不是为了收礼金。\n\n这事双方都能讲出道理。请的人怕被说生分，收到的人怕被当成收礼对象。要是真想见面，邀请里写句“不用随礼”，我反而更愿意去。",
+          "reason": "Shorten draft so the conflict and author judgment fit without a long report-like middle; final editor still determines actual platform length."
+        }
+      ],
+      "weighted_length_estimate": 246,
+      "published_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "publication_time_display": "11:35 AM · Oct 5, 2026",
+      "publication_display_timezone": "Asia/Shanghai",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "verification_note": "Native editor text matched after AX blank-line collapse was accounted for; screenshot confirmed paragraph spacing. Submitted once; independent detail page reloaded and matched full text, account, paragraphs, punctuation and no preview card. Screenshot inspected by agent, not human.",
+      "submission_started_at": null,
+      "submission_time_note": "Exact submission start not captured; publication minute is not submission start."
     },
     {
       "id": "C303",
@@ -105,11 +139,11 @@
       "source_url": "https://www.v2ex.com/t/926011",
       "source_date": "2023-03-21",
       "source_author_visible": "mgrxwl",
-      "text": "母亲的手机坏了，他想换一部新的。父亲在电话里大声说：修修还能用。\n\n孩子想说“我已经能让你过好一点了”，父母还在算“这钱能不能省下来”。我看这段，感觉两句话根本没对上。\n\n这是V2EX一位网友2023年的自述。他说自己毕业后已还清助学贷款，也有存款；母亲那部不到千元的手机很卡，几次提出换新，都没说动家里。\n\n钱终于有了，花钱这道坎还在。",
+      "text": "母亲手机坏了，他想换新的。父亲在电话里大声说：修修还能用。\n\nV2EX一位网友2023年自述：毕业后已还清助学贷款，也有存款；母亲那部不到千元的手机很卡，几次提换新都没说动。\n\n我看着像两句话没对上：孩子想说“我供得起了”，父母还在算“这钱能省下来”。",
       "first_screen_conflict": "已能负担新手机的孩子和坚持维修的父母把同一笔钱理解为不同东西。",
       "reader_payoff": "识别家庭消费争执中表达能力与守住积蓄的错位。",
       "editorial_limits": "历史网友自述，未独立核实；内心对白明确是作者评论性解释，不冒充父母原话，不概括所有父母。",
-      "title": "母亲的手机坏了，他想换一部新的。父亲在电话里大声说：修修还能用。",
+      "title": "母亲手机坏了，他想换新的。父亲在电话里大声说：修修还能用。",
       "source_refs": [
         "https://www.v2ex.com/t/926011"
       ],
@@ -117,16 +151,32 @@
       "source_checked": true,
       "source_checked_at": "2026-10-05T03:18:06.312134Z",
       "formula_status": "HYPOTHESIS",
-      "status": "READY_SOURCE_CHECKED",
-      "ready_for_publication": true,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "ready_for_publication": false,
       "agent_checked": true,
       "human_checked": false,
-      "editorial_checked_at": "2026-10-05T03:18:06.312134Z",
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "editorial_checked_at": "2026-10-05T03:28:37.683691Z",
+      "url": "https://x.com/qiluo27808/status/2106952009115111786",
+      "published_at": "2026-10-05T03:37Z",
+      "verified_at": "2026-10-05T03:39:32.206Z",
       "virality_probability": null,
-      "media_plan": "Text discussion; no evidentiary visual is necessary."
+      "media_plan": "Text discussion; no evidentiary visual is necessary.",
+      "prepublication_revision_history": [
+        {
+          "at_utc": "2026-10-05T03:28:37.683691Z",
+          "text": "母亲的手机坏了，他想换一部新的。父亲在电话里大声说：修修还能用。\n\n孩子想说“我已经能让你过好一点了”，父母还在算“这钱能不能省下来”。我看这段，感觉两句话根本没对上。\n\n这是V2EX一位网友2023年的自述。他说自己毕业后已还清助学贷款，也有存款；母亲那部不到千元的手机很卡，几次提出换新，都没说动家里。\n\n钱终于有了，花钱这道坎还在。",
+          "reason": "Shorten draft so the conflict and author judgment fit without a long report-like middle; final editor still determines actual platform length."
+        }
+      ],
+      "weighted_length_estimate": 240,
+      "published_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "publication_time_display": "11:37 AM · Oct 5, 2026",
+      "publication_display_timezone": "Asia/Shanghai",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "verification_note": "Native editor text matched after AX blank-line collapse was accounted for; screenshot confirmed paragraph spacing. Submitted once; independent detail page reloaded and matched full text, account, paragraphs, punctuation and no preview card. Screenshot inspected by agent, not human.",
+      "submission_started_at": null,
+      "submission_time_note": "Exact submission start not captured; publication minute is not submission start."
     },
     {
       "id": "C304",
@@ -135,11 +185,11 @@
       "source_url": "https://www.v2ex.com/t/1117571",
       "source_date": "2025-03-11",
       "source_author_visible": "5261",
-      "text": "买个键盘，还得先给自己写一份采购申请。买它的兴致先耗没了。\n\nV2EX有个2025年的讨论，作者想换约1000元的键盘套件：钱能承担，旧键盘也能用。最卡的那句是：想要，但又觉得没必要。\n\n这类小开销，我更愿意先划一笔能承受的“纯开心预算”。用完就停，额度内允许有点不划算。\n\n否则连自己的爱好，都得先拿“有用”来申请经费。",
+      "text": "买个键盘，还得先给自己写一份采购申请。\n\nV2EX一篇2025年的讨论：作者想换约1000元的键盘套件，钱能承担，旧的也能用。想要，又觉得没必要。\n\n这类小开销，我更愿意先划一笔能承受的“纯开心预算”。用完就停，额度内允许不划算。连爱好都得证明“有用”，也太累了。",
       "first_screen_conflict": "钱能承担、旧物能用、想尝试更好手感，消费前却要自证必要。",
       "reader_payoff": "提供有上限的日常小额消费思路，不把每次爱好都当生产力采购。",
       "editorial_limits": "旧社区自述；采购申请是比喻。预算为个人观点，未实测，不鼓励借贷或超出承受能力，不推广商品。",
-      "title": "买个键盘，还得先给自己写一份采购申请。买它的兴致先耗没了。",
+      "title": "买个键盘，还得先给自己写一份采购申请。",
       "source_refs": [
         "https://www.v2ex.com/t/1117571"
       ],
@@ -147,17 +197,33 @@
       "source_checked": true,
       "source_checked_at": "2026-10-05T03:18:06.312134Z",
       "formula_status": "HYPOTHESIS",
-      "status": "READY_SOURCE_CHECKED",
-      "ready_for_publication": true,
+      "status": "PUBLISHED_AGENT_VERIFIED",
+      "ready_for_publication": false,
       "agent_checked": true,
       "human_checked": false,
-      "editorial_checked_at": "2026-10-05T03:18:06.312134Z",
-      "url": null,
-      "published_at": null,
-      "verified_at": null,
+      "editorial_checked_at": "2026-10-05T03:28:37.683691Z",
+      "url": "https://x.com/qiluo27808/status/2106952469997822101",
+      "published_at": "2026-10-05T03:39Z",
+      "verified_at": "2026-10-05T03:41:45.506Z",
       "virality_probability": null,
-      "media_plan": "Text discussion; no evidentiary visual is necessary."
+      "media_plan": "Text discussion; no evidentiary visual is necessary.",
+      "prepublication_revision_history": [
+        {
+          "at_utc": "2026-10-05T03:28:37.683691Z",
+          "text": "买个键盘，还得先给自己写一份采购申请。买它的兴致先耗没了。\n\nV2EX有个2025年的讨论，作者想换约1000元的键盘套件：钱能承担，旧键盘也能用。最卡的那句是：想要，但又觉得没必要。\n\n这类小开销，我更愿意先划一笔能承受的“纯开心预算”。用完就停，额度内允许有点不划算。\n\n否则连自己的爱好，都得先拿“有用”来申请经费。",
+          "reason": "Shorten draft so the conflict and author judgment fit without a long report-like middle; final editor still determines actual platform length."
+        }
+      ],
+      "weighted_length_estimate": 248,
+      "published_at_precision": "minute",
+      "exact_publication_seconds": null,
+      "publication_time_display": "11:39 AM · Oct 5, 2026",
+      "publication_display_timezone": "Asia/Shanghai",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "verification_note": "Native editor text matched after AX blank-line collapse was accounted for; screenshot confirmed paragraph spacing. Submitted once; independent detail page reloaded and matched full text, account, paragraphs, punctuation and no preview card. Screenshot inspected by agent, not human.",
+      "submission_started_at": null,
+      "submission_time_note": "Exact submission start not captured; publication minute is not submission start."
     }
   ],
-  "updated_at_utc": "2026-10-05T03:18:06.312134Z"
+  "updated_at_utc": "2026-10-05T03:43:54.890923Z"
 }
