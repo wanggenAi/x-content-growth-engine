@@ -6773,7 +6773,7 @@
       "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
     }
   ],
-  "updated_at": "2026-10-05T10:02:00Z",
+  "updated_at": "2026-10-05T10:22:30Z",
   "latest_publication_id": "C312",
   "latest_publication_url": "https://x.com/qiluo27808/status/2107036358317674875",
   "latest_publication_verified_at": "2026-10-05T09:16:00Z",
@@ -6784,7 +6784,7 @@
   "latest_publication_time_note": "Displayed minute only; seconds remain unknown.",
   "editorial_mode": "USER_AUTHORIZED_COMMUNITY_SCENE_PUBLICATION",
   "metadata_reconciliation_note": "Two historical published records still carried ready_for_publication=true; only READY_SOURCE_CHECKED status counts toward ready. No historical publication is requeued.",
-  "current_blocker": "C313-C314 rewritten after high-view audit; visible Chrome Computer Use authentication unavailable, so publication paused without submission.",
+  "current_blocker": "C313-C314 rewritten and ready; visible Chrome Computer Use still returns Codex auth token unavailable, so no submission.",
   "blocker_history": [
     {
       "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
@@ -6810,6 +6810,15 @@
       ],
       "type": "VISIBLE_BROWSER_AUTH_UNAVAILABLE",
       "action": "saved rewritten candidates; no submission or count change"
+    },
+    {
+      "at": "2026-10-05T10:22:30Z",
+      "ids": [
+        "C313",
+        "C314"
+      ],
+      "type": "VISIBLE_BROWSER_AUTH_UNAVAILABLE",
+      "action": "retry failed; no submission/count change"
     }
   ]
 }

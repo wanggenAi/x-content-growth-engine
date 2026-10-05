@@ -373,3 +373,8 @@ C305-C309 each passed native editor exact-text and screenshot review, single sub
 ## 2026-10-05T10:06:00Z | 新增高浏览搜索未形成可用样本
 
 按用户要求尝试补充新的高浏览公开样本；当前搜索页只返回导航和筛选项，没有可核对的正文、原帖指标或详情内容，因此未写入研究样本，也未把空结果当作反例或流量结论。继续使用已审计的32条页面显示>10000样本和11条正文结构，F01-F05保持HYPOTHESIS。
+
+
+## 2026-10-05T10:22:30Z | C313起续作再次受可见控制认证阻碍
+
+按定时任务从C313重试可见Chrome控制，仍返回 `Codex auth token unavailable`。没有输入、提交或生成URL；C313-C314继续保持READY_SOURCE_CHECKED，campaign计数不变。

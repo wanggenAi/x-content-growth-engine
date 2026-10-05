@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T10:06:00Z",
+  "updated_at": "2026-10-05T10:22:30Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -412,7 +412,7 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T10:06:00Z",
+    "verified_at_utc": "2026-10-05T10:22:30Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
@@ -423,10 +423,10 @@
   },
   "publication_resume": {
     "user_request": "用户要求继续并先按高浏览结构重做C313-C314",
-    "recorded_at_utc": "2026-10-05T10:02:00Z",
+    "recorded_at_utc": "2026-10-05T10:22:30Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
-    "current_blocker": "可见Chrome Computer Use返回Codex auth token unavailable，未提交C313-C314",
+    "current_blocker": "可见Chrome Computer Use仍返回Codex auth token unavailable，未提交C313-C314",
     "candidate_ids": [
       "C313",
       "C314"
