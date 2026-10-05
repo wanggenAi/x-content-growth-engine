@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T09:22:00Z",
+  "updated_at": "2026-10-05T10:02:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -381,12 +381,15 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "recorded_at_utc": "2026-10-05T09:22:00Z",
-    "user_feedback": "用户指出与>10000浏览帖子相比当前素材和吸引力不在同一层级，要求大量复盘并迭代。",
-    "correction": "高浏览案例复盘写入公开审计；不把累计浏览、作者受众或分发混杂因素当因果公式。C313-C314暂停。",
+    "recorded_at_utc": "2026-10-05T10:02:00Z",
+    "user_feedback": "用户要求大量参考超过1万浏览帖子，认为近期稿件吸引力不足。",
+    "correction": "已按HIGH_VIEW_STRUCTURE_AUDIT重写C313-C314：第一屏单一冲突，补具体支点和读者收益，保留社区自述边界。",
     "report": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "new_publications": 0,
-    "draft_examples": 0
+    "drafts_rewritten": [
+      "C313",
+      "C314"
+    ]
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -409,7 +412,7 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T09:22:00Z",
+    "verified_at_utc": "2026-10-05T10:02:00Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
@@ -419,17 +422,12 @@
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
-    "user_request": "用户要求先大量审计超过1万浏览帖子并迭代内容",
-    "recorded_at_utc": "2026-10-05T09:22:00Z",
+    "user_request": "用户要求继续并先按高浏览结构重做C313-C314",
+    "recorded_at_utc": "2026-10-05T10:02:00Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
-    "current_blocker": "C313-C314暂停，先完成高浏览结构复盘",
-    "new_submissions": 3,
-    "new_verified_publications": 3,
+    "current_blocker": "可见Chrome Computer Use返回Codex auth token unavailable，未提交C313-C314",
     "candidate_ids": [
-      "C310",
-      "C311",
-      "C312",
       "C313",
       "C314"
     ],
@@ -437,8 +435,7 @@
       "C310",
       "C311",
       "C312"
-    ],
-    "blocker_resolution": "C310-C312已独立详情页核验；C311已补来源定位回复；C313-C314保留待结构复盘后处理"
+    ]
   },
   "editorial_feedback_history": [
     {
@@ -450,5 +447,6 @@
       "new_publications": 0,
       "drafts": 3
     }
-  ]
+  ],
+  "current_blocker": "VISIBLE_CHROME_COMPUTER_USE_AUTH_UNAVAILABLE"
 }

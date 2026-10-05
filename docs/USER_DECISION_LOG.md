@@ -361,3 +361,10 @@ User says “继续”; ordinary X authorization retained. C305-C309 are five ne
 C305-C309 each passed native editor exact-text and screenshot review, single submission and independent detail reload. Original sources now visible; X emitted nonidentical forum author-avatar previews without exposing a removal control in editor. No media upload. C307 removed ambiguous paraphrase quotes and C308 simplified prose before publication, older drafts preserved. Source challenge excluded; focus switches/cache/loading reconciled without extra submits. Community sources remain self-reports; no causally validated formula, no new performance claim. Campaign114/886remaining/ready0/queue309. User continuation resumes ACTIVE five-minute heartbeat; next C310. Public report holds source/publication links and boundaries; raws/screenshots ignored.
 
 2026-10-05T09:22:00Z | 用户要求重新大量审计超过1万浏览帖子并迭代 | 用户指出当前帖子与高浏览内容吸引力不在同一层级，要求不能只看低反馈自帖，要复盘大量高浏览正文。复核 `data/viral_samples_2026-10-01.json` 的32条>10,000浏览样本、12个详情访问和10个正文确认记录，并抽取V10/V20/V24/V25/V01/V06/V27/V28/V29/V31/V03。高浏览案例共同显示的是单一可识别冲突、数字/动作/身份支点、可复用交付或可回答分歧；没有统一句式，也没有可用因果对照。新增公开审计 `docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md` 和安全元数据 `data/viral_research_audit_2026-10-05.json`。C310-C312真实发布计数更新为117新增、883剩余；C313-C314暂停，等待按新审计重写。F01-F05继续HYPOTHESIS，不承诺爆款或关注转化。
+
+
+## 2026-10-05T10:02:00Z | 高浏览重写完成，等待可见发布控制恢复
+
+用户继续要求大量参考超过1万浏览帖子，认为近期稿件吸引力不足。已按 `docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md` 重写 C313、C314：C313先放“800万与逃离上班”的代入冲突，再给虎扑页面阅读与X曝光的边界；C314先放年菜由谁买、由谁做的家庭分工冲突，再给付款和劳动的具体转移。两个候选仍为 `READY_SOURCE_CHECKED`，未计入发布。
+
+本轮尝试进入可见 Chrome 发布时，cua_repl 返回 `Codex auth token unavailable`；没有提交、没有生成新URL、没有改写绕过。campaign仍为117新增、883剩余、ready2、队列314，下一步从C313继续。

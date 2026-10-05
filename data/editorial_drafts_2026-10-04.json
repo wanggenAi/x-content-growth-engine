@@ -529,7 +529,7 @@
     },
     {
       "id": "C313",
-      "text": "800万，辞职，不打工了。让人想点开。\n\n虎扑4月一帖说同事中彩票后离职，已有十万多浏览。评论追问照片年份，楼主补充是2019年中奖、后来投资。\n\n中奖和收益我都没核实。我更想看评论的追问。\n\n图勾起“我也能逃离打工”的念头很容易。想信，和有证据，是两回事。\n原帖：https://bbs.hupu.com/638319346.html",
+      "text": "“中了800万就辞职”，最容易卖给人的不是彩票，是逃离上班的画面。\n\n虎扑一篇2026年4月的帖子写：楼主称同事中奖后离职；评论追问照片年份，楼主补充说是2019年中奖、后来投资。帖子页面曾显示十万级阅读，但这是虎扑页面阅读，不是X曝光。\n\n中奖、辞职和收益我都没独立核实。能确认的是：一个“从此不用上班”的故事，先让人代入，再逼人查证。\n\n想相信很快，证据不会因为故事爽就自动出现。\n原帖：https://bbs.hupu.com/638319346.html",
       "source_url": "https://bbs.hupu.com/638319346.html",
       "source_checked_at": "2026-10-05T08:54:31.959706+00:00",
       "weighted_length_estimate": 274,
@@ -548,18 +548,20 @@
       "agent_checked": false,
       "human_checked": false,
       "editorial_checked_at": "2026-10-05T08:57:18.505774Z",
-      "first_screen_conflict": "想摆脱打工的愿望与证据缺口对照",
-      "reader_payoff": "区分想相信和有依据相信",
+      "first_screen_conflict": "逃离上班的中奖想象与证据缺口对照",
+      "reader_payoff": "先让读者代入，再区分故事吸引力与证据",
       "editorial_limits": "虎扑阅读不是X浏览；中奖、辞职、投资收益均未独立核实，不复用截图作为证据，不认定广告或造假。",
       "media_plan": "Original source URL visible. No decorative media. Inspect native preview; do not claim removal without visible control.",
       "url": null,
       "published_at": null,
       "verified_at": null,
-      "virality_probability": null
+      "virality_probability": null,
+      "previous_text": "800万，辞职，不打工了。让人想点开。\n\n虎扑4月一帖说同事中彩票后离职，已有十万多浏览。评论追问照片年份，楼主补充是2019年中奖、后来投资。\n\n中奖和收益我都没核实。我更想看评论的追问。\n\n图勾起“我也能逃离打工”的念头很容易。想信，和有证据，是两回事。\n原帖：https://bbs.hupu.com/638319346.html",
+      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
     },
     {
       "id": "C314",
-      "text": "嫌年菜不好吃，谁来买，谁来做？\n\nPTT网友2022年自述：婆婆过年做大量鸡、鱼、腊肉。她和丈夫组织晚辈，每人预订一两道年菜，钱先付；第二年婆婆少备了菜。\n\n我喜欢这点：想换菜单的人，先接一部分活。\n“一家人商量”容易变成一家人指挥同一个人。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+      "text": "年菜不好吃，最贵的往往不是那顿饭，是一个人每年被默认包办。\n\nPTT一篇2022年婚姻板自述里，婆婆过年准备大量鸡、鱼、腊肉；后来夫妻让晚辈提前各订一两道、先付钱，第二年婆婆少准备了。\n\n我觉得这点很关键：想换菜单的人，第一次把钱和活一起接走。\n\n“一家人商量”如果只有一个人买、一个人做，商量只是更客气的命令。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
       "source_url": "https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
       "source_checked_at": "2026-10-05T08:55:51.860538+00:00",
       "weighted_length_estimate": 260,
@@ -578,14 +580,16 @@
       "agent_checked": false,
       "human_checked": false,
       "editorial_checked_at": "2026-10-05T08:57:18.505774Z",
-      "first_screen_conflict": "不满意年菜的人是否也承担准备工作",
-      "reader_payoff": "具体分担比抽象要求更有用",
+      "first_screen_conflict": "不满意年菜的人是否承担钱和准备工作",
+      "reader_payoff": "把“家人商量”翻成可执行的分工与付款",
       "editorial_limits": "仅用回复作者girlo自身经历，不摘抄被引用且标NO记者抄文的原作者家庭案例；无食品健康判断或泛化家务规律。",
       "media_plan": "Original source URL visible. No decorative media. Inspect native preview; do not claim removal without visible control.",
       "url": null,
       "published_at": null,
       "verified_at": null,
-      "virality_probability": null
+      "virality_probability": null,
+      "previous_text": "嫌年菜不好吃，谁来买，谁来做？\n\nPTT网友2022年自述：婆婆过年做大量鸡、鱼、腊肉。她和丈夫组织晚辈，每人预订一两道年菜，钱先付；第二年婆婆少备了菜。\n\n我喜欢这点：想换菜单的人，先接一部分活。\n“一家人商量”容易变成一家人指挥同一个人。\n原帖：https://www.ptt.cc/bbs/marriage/M.1646617873.A.942.html",
+      "editorial_revision": "2026-10-05 high-view structure audit rewrite: one first-screen conflict, concrete source detail, explicit metric boundary, then a usable judgment/answer."
     }
   ],
   "updated_at_utc": "2026-10-05T08:59:20.064620+00:00",
