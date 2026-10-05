@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T15:24:31.060280Z",
+  "updated_at": "2026-10-05T15:58:28.502955Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -53,25 +53,25 @@
     "materials": 60,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 124,
+    "verified_account_publications": 129,
     "unpublished_candidates": 37,
     "agent_observed_viral_posts": 32,
     "agent_observed_exploratory_comparisons": 10,
-    "campaign_verified_new_publications": 124,
-    "verified_total_series": 149,
-    "published_new": 124,
-    "remaining_new_publications": 876,
-    "rolling_work_queue_count": 319,
+    "campaign_verified_new_publications": 129,
+    "verified_total_series": 154,
+    "published_new": 129,
+    "remaining_new_publications": 871,
+    "rolling_work_queue_count": 324,
     "ready_count": 0,
-    "latest_publication_id": "C319",
+    "latest_publication_id": "C324",
     "baseline_verified_publications": 25,
-    "total_verified_series": 149
+    "total_verified_series": 154
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research distinct community material from C320; compare single-conflict, concrete-cost structure against existing >10000-view samples and counterexamples. No repeat of published drafts, maximum five qualified originals per round.",
+  "next_action": "Research distinct C325 onward materials; revisit directly visible >10000-view bodies and counterexamples, choose concrete conflict or usable delivery, avoid repeating five dated self-report templates. Maximum five qualified original series; each native editor and independent detail verified.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -313,19 +313,19 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 124,
+    "published_new": 129,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 149,
-    "remaining_new_publications": 876,
-    "rolling_work_queue_count": 319,
-    "latest_publication_id": "C319",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107128421956604097",
-    "latest_publication_verified_at": "2026-10-05T15:20:13.838Z",
-    "latest_candidate_id": "C319",
-    "latest_candidate_source": "https://linux.do/t/topic/314723",
-    "latest_candidate_checked_at": "2026-10-05T15:00:01.497Z",
+    "total_verified_series": 154,
+    "remaining_new_publications": 871,
+    "rolling_work_queue_count": 324,
+    "latest_publication_id": "C324",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107136667870183907",
+    "latest_publication_verified_at": "2026-10-05T15:53:20.656Z",
+    "latest_candidate_id": "C324",
+    "latest_candidate_source": "https://blog.catscarlet.com/201902133283.html",
+    "latest_candidate_checked_at": "2026-10-05T15:28:43.267482+00:00",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
@@ -412,13 +412,13 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T15:24:31.060280Z",
+    "verified_at_utc": "2026-10-05T15:58:28.502955Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C319",
-    "prompt_published_new": 124,
+    "prompt_latest_publication": "C324",
+    "prompt_published_new": 129,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md"
   },
   "publication_resume": {
@@ -495,6 +495,39 @@
       "unit_tests_result": "PASS",
       "runtime_audit": "Executed successfully; existing SQLite limitations remain, no formula validation; new source/own-publication JSON kept separate",
       "automation": "Read-back verified ACTIVE/5min/C319/124, failed_runs_only preserved",
+      "diff_check": "PASS"
+    }
+  },
+  "community_publication_batch5": {
+    "checked_at_utc": "2026-10-05T15:55:24.724670Z",
+    "source_record": "data/source_materials_round27_2026-10-05.json",
+    "verified_ids": [
+      "C320",
+      "C321",
+      "C322",
+      "C323",
+      "C324"
+    ],
+    "new_x_research_pages": 3,
+    "high_view_review": "Revisited V03/V10 plus income aphorism comparison directly in native visible Chrome. Distinct existing high-view sample count remains32; no causal/formula promotion.",
+    "research_failures": [
+      "Excluded Douban gift page: HTTP403 and native explicit no-access/login wall; no bypass",
+      "C321/C322 first profile snapshots stale; reload located original URL, no resubmission",
+      "Local locator extraction threw on missing stale-profile title; no extra submit. One JavaScript URL assignment retried with proper variable declaration, no UI mutation."
+    ],
+    "media_note": "No upload. C320/C321/C323 automatic different OP avatar/title/excerpt cards; C322/C324 no card. Card avatars not event evidence. C323 body explicitly identifies OP63 floor.",
+    "private_evidence": "ignored data/private/publication_round_2026-10-05_batch5",
+    "human_checked": false,
+    "published_seconds": null,
+    "exposure_result": "Not evaluated; immediate detail-page counts cannot establish improved exposure or following.",
+    "validation": {
+      "checked_at_utc": "2026-10-05T15:58:28.502955Z",
+      "campaign_integrity": "PASS:324 IDs,129 original URLs,5 mirrored native receipts,ready0,total154,remaining871;secondsnull,humanfalse",
+      "unit_tests": 16,
+      "unit_tests_result": "PASS",
+      "runtime_audit": "Executed successfully; SQLite seed limitations remain, no formula validation; direct source and publication evidence live separately in JSON",
+      "automation": "Read-back verified ACTIVE/5min/C324/129,failed_runs_only preserved",
+      "validation_script_repair": "Legacy rows lack ready_for_publication; counter corrected to get(defaultFalse),no production count change. Trailing EOF blank removed.",
       "diff_check": "PASS"
     }
   }
