@@ -8130,18 +8130,34 @@
       "editorial_revision_reason": "C340提交前发现X原生编辑器按实际输入事件判定，缩短正文以通过字数闸门；保留来源、日期与限定。",
       "submission_time_note": "发布时间来自页面分钟显示；未推算秒数。",
       "editorial_post_publication_review": {
-        "state": "REVIEW_REQUIRED",
-        "reason": "首句一小时未由求助原文支持，是未明确标注的编辑设想；不应计作来源事实。保留已发布正文与URL。",
-        "reviewed_at": "2026-10-05T19:43:10Z"
+        "state": "CORRECTION_REPLY_AGENT_VERIFIED_ORIGINAL_REMAINS",
+        "reason": "一小时无来源支持；失败不给下一步仅属评论，App提示未知。已发布明确更正回复，原帖仍保留错误措辞，不再复用。",
+        "reviewed_at": "2026-10-05T19:43:10Z",
+        "correction_verified_at": "2026-10-05T19:55:23.301820Z"
+      },
+      "correction_reply": {
+        "text": "更正：首句的“一小时”没有原帖依据，是我加的场景设想，写成了事实。原帖只说填到最后无法提交，没有交代耗时。“失败时不给下一步”也只是我的评论，原帖没说明App是否给了提示。能确认的仅是这位作者公开求助，不能据此认定普遍故障。\n来源：https://bbs.wenxuecity.com/travel/773080.html",
+        "url": "https://x.com/qiluo27808/status/2107197799570063731",
+        "parent_url": "https://x.com/qiluo27808/status/2107176973252591692",
+        "published_at": "2026-10-05T19:54Z",
+        "published_at_precision": "minute",
+        "published_second": null,
+        "displayed_time": "3:54 AM · Oct 6, 2026",
+        "verified_at": "2026-10-05T19:55:23.301820Z",
+        "agent_checked": true,
+        "human_checked": false,
+        "counts_as_new_series": false,
+        "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+        "verification_note": "回复编辑器逐字/截图核对、Reply一次；独立详情重载后核对全文、父帖、账号、来源短链和时间。没有上传媒体或卡片。"
       }
     },
     {
       "id": "C344",
-      "text": "很多人说想过自己喜欢的日子，第一步不是买东西，是停掉一项不合群的表演。\n\n文学城2026-10-04自述：伴侣听勃拉姆斯，作者带狗在校园散步；伴侣日记写想成为“优雅、从容、能读书、会音乐、会表达的老太太”。\n\n一家人的片段，不是答案。自由可能只是把一个下午花在没人打分的地方。\n原帖：https://bbs.wenxuecity.com/myhouse/15955539.html",
+      "text": "一个去听勃拉姆斯，一个带狗散步。亲近，非得连爱好也统一吗？\n\n文学城作者2026-10-04自述了这个下午，转述伴侣日记：想成为“优雅、从容、能读书、会音乐、会表达的老太太”。\n\n我的看法：陪伴如果连“今天想做什么”都必须一致，爱好就变成了排班。一起生活，也该留点各自舒服的空间。\n原帖：https://bbs.wenxuecity.com/myhouse/15955539.html",
       "source_url": "https://bbs.wenxuecity.com/myhouse/15955539.html",
       "source_checked_at": "2026-10-05T18:08:35Z",
       "weighted_length_estimate": 190,
-      "topic": "把日子过成自己喜欢的样子先停止表演",
+      "topic": "共同生活与各自爱好的边界",
       "formula_id": "F05",
       "formula_status": "HYPOTHESIS",
       "source_date": "2026-10-04",
@@ -8156,14 +8172,14 @@
       "agent_checked": true,
       "human_checked": false,
       "editorial_checked_at": "2026-10-05T19:40:38Z",
-      "first_screen_conflict": "伴侣听音乐、作者遛狗与“优雅老去”的自我想象",
-      "reader_payoff": "把生活选择从表演压力里拆出来",
+      "first_screen_conflict": "同一个下午，两人选择不同爱好；不把一致安排当成亲近的必要条件",
+      "reader_payoff": "分清陪伴和统一全部安排；假设判断不是原作者关系经历",
       "editorial_limits": "家庭日记片段；不推断伴侣关系、不把个人审美写成普遍答案",
       "high_view_structure_reference": "Direct visible >10k X samples are editorial constraints only; no causal or reach guarantee. One main conflict, concrete action/number, then judgment or usable distinction.",
       "media_plan": "纯文字；原帖有生活图片但不复制装饰图",
-      "url": "https://x.com/qiluo27808/status/2107193580683248016",
+      "url": "https://x.com/qiluo27808/status/2107197241626878145",
       "published_at": "2026-10-05T19:37Z",
-      "verified_at": "2026-10-05T19:40:38Z",
+      "verified_at": "2026-10-05T19:53:26.247253Z",
       "virality_probability": null,
       "published_second": null,
       "displayed_time": "3:37 AM · Oct 6, 2026",
@@ -8172,28 +8188,50 @@
       "publication_time_display": "3:37 AM · Oct 6, 2026",
       "publication_display_timezone": "Asia/Shanghai",
       "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
-      "verification_note": "真实可见编辑器全文与截图核对、单次提交；独立公开详情页重载核对账号、中文、标点、段落、重复、来源短链和显示时间。秒数未知保持null。",
-      "title": "想过自己的日子，先停掉一项表演",
+      "verification_note": "Edit editor全文/中文/标点/段落/URL及截图核对，Update一次；原链接重载发现新版本提示，再打开新版本独立重载核对全文、账号、换行、来源t.co短链和3:52编辑时间。无图片卡片或上传媒体。编辑不增加系列计数。原始发布时间3:37保持，不把编辑时间改成新系列发布时间。",
+      "title": "亲近，非得连爱好也统一吗？",
       "editorial_revision_at": "2026-10-05T18:23:49Z",
       "editorial_revision_reason": "C340提交前发现X原生编辑器按实际输入事件判定，缩短正文以通过字数闸门；保留来源、日期与限定。",
-      "private_evidence_dir": "data/private/round31",
+      "private_evidence_dir": "data/private/high_view_round2",
       "submission_time_note": "发布时间来自页面分钟显示；未推算秒数。",
       "editorial_post_publication_review": {
-        "state": "REVIEW_REQUIRED",
-        "reason": "不合群的表演与无人打分的结尾关系不清；家人日记没有支持表演压力因果。保留原稿，不复用此结构。",
-        "reviewed_at": "2026-10-05T19:43:10Z"
-      }
+        "state": "REPAIRED_AGENT_VERIFIED",
+        "reason": "原生Edit删除无来源表演压力，保留作者自述与明确假设判断；新版本独立重载全文核验。原始公开版本仍由X历史保留。",
+        "reviewed_at": "2026-10-05T19:53:26.247253Z"
+      },
+      "publication_versions": [
+        {
+          "version": "v1",
+          "text": "很多人说想过自己喜欢的日子，第一步不是买东西，是停掉一项不合群的表演。\n\n文学城2026-10-04自述：伴侣听勃拉姆斯，作者带狗在校园散步；伴侣日记写想成为“优雅、从容、能读书、会音乐、会表达的老太太”。\n\n一家人的片段，不是答案。自由可能只是把一个下午花在没人打分的地方。\n原帖：https://bbs.wenxuecity.com/myhouse/15955539.html",
+          "url": "https://x.com/qiluo27808/status/2107193580683248016",
+          "published_at": "2026-10-05T19:37Z",
+          "displayed_time": "3:37 AM · Oct 6, 2026",
+          "verified_at": "2026-10-05T19:40:38Z",
+          "review": {
+            "state": "REVIEW_REQUIRED",
+            "reason": "不合群的表演与无人打分的结尾关系不清；家人日记没有支持表演压力因果。保留原稿，不复用此结构。",
+            "reviewed_at": "2026-10-05T19:43:10Z"
+          }
+        }
+      ],
+      "original_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
+      "last_edited_at": "2026-10-05T19:52Z",
+      "last_edited_at_precision": "minute",
+      "last_edited_second": null,
+      "last_edit_display": "Last edited 3:52 AM · Oct 6, 2026",
+      "latest_version_verified_at": "2026-10-05T19:53:26.247253Z",
+      "latest_version_displayed_time": "Last edited 3:52 AM · Oct 6, 2026"
     }
   ],
-  "updated_at": "2026-10-05T19:40:38Z",
+  "updated_at": "2026-10-05T20:03:08.095635Z",
   "latest_publication_id": "C344",
-  "latest_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
-  "latest_publication_verified_at": "2026-10-05T19:40:38Z",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2107197241626878145",
+  "latest_publication_verified_at": "2026-10-05T19:53:26.247253Z",
   "latest_candidate_id": "C344",
   "latest_candidate_source": "PUBLIC_FORUM_AND_MEDIA_MATERIALS_ROUND31",
   "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
   "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-  "latest_publication_time_note": "C344显示3:37 AM · Oct 6, 2026；秒数未知保持null。",
+  "latest_publication_time_note": "C344 original 3:37 AM; edited version Last edited 3:52 AM · Oct 6,2026. Both minute precision, seconds null; edit is not new series.",
   "editorial_mode": "USER_AUTHORIZED_COMMUNITY_SCENE_PUBLICATION",
   "metadata_reconciliation_note": "User steer 2026-10-05: stop V2EX as primary source; prioritize recent verifiable material, with separate non-dated categories for jokes, human nature and political commentary.",
   "current_blocker": null,
@@ -8274,5 +8312,5 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-05T19:40:38Z"
+  "updated_at_utc": "2026-10-05T20:03:08.095635Z"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T19:40:38Z",
+  "updated_at": "2026-10-05T20:03:08.095635Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -19,7 +19,7 @@
     "feedback_import_interface": "done",
     "own_post_feedback": "private_2026-10-02_observation: older sample views >10, latest C237-C244 about 4; exact per-post UTC missing; small unequal-age sample; format remains HYPOTHESIS",
     "live_github_recovery": "done",
-    "local_tests_and_seed_replay": "16 tests passed; campaign114/ready0/remaining886 checked;5 unique receipts and private editor/detail artifacts matched. Runtime audit still has stale index metrics, unknown follower denominators, no validated formula.",
+    "local_tests_and_seed_replay": "16 tests passed; round32 JSON/campaign counts148/0/852/344 and version/correction consistency checked. CLI seed audit remains old-index-only with unknown follower denominators, not a report on native evidence JSON; no formula validated.",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
     "x_login": "signed_in_active_profile_observed_by_agent",
     "reddit_login": "pending_after_x",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "C325-C328 independently reloaded and verified via native visible Chrome; C329 held after explicit user steer to stop V2EX as primary source; 133new/867remaining/ready0/queue329/total158. C328 final quote restored before one submission; seconds null.",
+    "latest_campaign_round": "round32:7 new direct >10k detail bodies+1 low-view original; C344 edited version and C343 correction reply independently verified. Campaign148/852/ready0/queue344 unchanged. No new series to fill quality target.",
     "latest_editorial_steer": "Oct5: stop V2EX main source. Recent verifiable events preferred; undated jokes/human-nature/political commentary allowed when clearly framed. Directly inspect >10k-view X posts; high-view counts remain observations, not formulas."
   },
   "counts": {
@@ -55,8 +55,8 @@
     "own_posts": 0,
     "verified_account_publications": 148,
     "unpublished_candidates": 16,
-    "agent_observed_viral_posts": 45,
-    "agent_observed_exploratory_comparisons": 17,
+    "agent_observed_viral_posts": 52,
+    "agent_observed_exploratory_comparisons": 18,
     "campaign_verified_new_publications": 148,
     "verified_total_series": 173,
     "published_new": 148,
@@ -73,7 +73,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "先直接复盘新的万次以上浏览正文与反例，再研究C345起的非V2EX素材；新稿避免固定论坛摘要四段结构，不凑数。",
+  "next_action": "按round32新的7条万次浏览正文和1条低浏览原帖反例，研究C345起非V2EX近期素材或明确标注的原创段子/观点；先写能独立成立的场景与冲突，不继续把论坛摘要当全部内容。每轮最多5条，质量不过不凑数。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -213,9 +213,14 @@
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
     "human_checked": false,
-    "last_round": "round29_2026-10-06",
-    "observations_added": 6,
-    "observed_total": 45
+    "last_round": "round32_2026-10-06",
+    "observations_added": 8,
+    "observed_total": 52,
+    "latest_round_file": "data/high_view_structure_round32_2026-10-06.json",
+    "latest_round_above_10000_details": 7,
+    "latest_round_below_threshold_original_details": 1,
+    "initial_32_audit_plus_new_unique_high_view_details": 39,
+    "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added."
   },
   "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
   "evidence_publication_batch": {
@@ -317,42 +322,41 @@
     "remaining_new_publications": 852,
     "rolling_work_queue_count": 344,
     "latest_publication_id": "C344",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
-    "latest_publication_verified_at": "2026-10-05T19:40:38Z",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107197241626878145",
+    "latest_publication_verified_at": "2026-10-05T19:53:26.247253Z",
     "latest_candidate_id": "C344",
     "latest_candidate_source": "PUBLIC_FORUM_NON_V2EX",
     "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "published_count": 148,
     "ready_count": 0,
-    "updated_at": "2026-10-05T19:40:38Z"
+    "updated_at": "2026-10-05T20:03:08.095635Z"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
     "decision_log": "docs/USER_DECISION_LOG.md",
     "cumulative_verified_series": 148,
     "latest_repair_ids": [
-      "C019",
-      "C020",
-      "C021"
+      "C343",
+      "C344"
     ],
-    "latest_repair_verified_at": "2026-10-01T03:16:16.652879Z",
+    "latest_repair_verified_at": "2026-10-05T19:55:23.301820Z",
     "body_gate": "COMPARE_REAL_EDITOR_THEN_RELOAD_PUBLIC_BODY_AND_SCREENSHOT",
     "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
     "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
     "unknown_referred_person": "Keybo",
     "latest_input_failure": null,
-    "latest_ui_misclick": "TIMELINE_NOT_INTERESTED_ON_RECOMMENDED_POST; NO_POST_SUBMITTED",
+    "latest_ui_misclick": "round32 full-AX index remap led to Near you search filter click; no public/account action, later search confirmed Anywhere; fresh indices required",
     "latest_input_recovery": "2026-10-05T19:40:38Z: C340-C344已完成native paste、可见截图、单次提交和独立详情页核验。setValue不能作为有效输入事件证据。",
     "latest_publication_id": "C344",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107193580683248016",
-    "latest_publication_verified_at": "2026-10-05T19:40:38Z",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107197241626878145",
+    "latest_publication_verified_at": "2026-10-05T19:53:26.247253Z",
     "latest_candidate_id": "C344",
     "latest_candidate_source": "https://bbs.wenxuecity.com/myhouse/15955539.html",
     "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "先直接复盘新的万次以上浏览正文与反例，再研究C345起的非V2EX素材；新稿避免固定论坛摘要四段结构，不凑数。",
-    "latest_style_review_note": "Community self-report scenes, explicit historical attribution, short individual judgments. C302-C304 shortened before publication to keep complete point visible; this is an editorial hypothesis, not proven reach improvement."
+    "next_action": "按round32新的7条万次浏览正文和1条低浏览原帖反例，研究C345起非V2EX近期素材或明确标注的原创段子/观点；先写能独立成立的场景与冲突，不继续把论坛摘要当全部内容。每轮最多5条，质量不过不凑数。",
+    "latest_style_review_note": "New7 direct high-view full bodies and1 same-author low-view original; concrete scenarios do not guarantee reach. Stop explanatory summary template; separate original dialogue/opinion from sourced fact."
   },
   "pause_diagnosis": {
     "diagnosed_at": "2026-10-02T19:27:48Z",
@@ -413,19 +417,20 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T15:58:28.502955Z",
+    "verified_at_utc": "2026-10-05T20:05:18.873336Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND32_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C324",
-    "prompt_published_new": 129,
+    "prompt_latest_publication": "C344",
+    "prompt_published_new": 148,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
     "latest_publication_id": "C344",
     "published_new": 148,
     "ready": 0,
     "next_candidate_id": "C345",
-    "note": "已用automation_update同步，保留failed_runs_only通知偏好。"
+    "note": "automation_update已同步新研究7+1、两条修复和C345断点；ACTIVE每5分钟，failed_runs_only保持。",
+    "latest_version_url": "https://x.com/qiluo27808/status/2107197241626878145"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -603,16 +608,26 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "reviewed_at": "2026-10-05T19:43:10Z",
+    "reviewed_at": "2026-10-05T20:03:08.095635Z",
     "ids": [
       "C343",
       "C344"
     ],
-    "state": "REVIEW_REQUIRED",
+    "state": "REPAIRS_VERIFIED",
     "facts": {
-      "C343": "首句一小时未由求助原文支持，是未明确标注的编辑设想；不应计作来源事实。保留已发布正文与URL。",
-      "C344": "不合群的表演与无人打分的结尾关系不清；家人日记没有支持表演压力因果。保留原稿，不复用此结构。"
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
-    "next_action": "先新高浏览正文与反例复盘，不复用论坛摘要模板，不把设想写成事实。"
+    "next_action": "按round32新的7条万次浏览正文和1条低浏览原帖反例，研究C345起非V2EX近期素材或明确标注的原创段子/观点；先写能独立成立的场景与冲突，不继续把论坛摘要当全部内容。每轮最多5条，质量不过不凑数。"
+  },
+  "high_view_structure_round32": {
+    "file": "data/high_view_structure_round32_2026-10-06.json",
+    "review": "docs/HIGH_VIEW_STRUCTURE_ROUND32_2026-10-06.md",
+    "new_high_view_details": 7,
+    "new_below_threshold_original_details": 1,
+    "valid_causal_pairs": 0,
+    "formula_promotions": 0,
+    "new_publications_this_round": 0,
+    "repairs_this_round": 2
   }
 }

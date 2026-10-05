@@ -80,7 +80,9 @@
       "source_page_claims": [
         "文学城世界风情版一条 2026-10-05 的公开提问：作者说自己按步骤填写中国领馆 App 的旅行证申请，到最后一步却无法 submit，发帖问有没有人成功递交。帖子没有给出设备、地区、后续是否解决等信息。"
       ],
-      "independently_verified_event": false
+      "independently_verified_event": false,
+      "editorial_hook_hypothesis_status": "REJECTED_UNSUPPORTED_DETAIL",
+      "hook_reviewed_at": "2026-10-05T20:03:08.095635Z"
     },
     {
       "id": "SRC-C344",
@@ -100,7 +102,9 @@
       "source_page_claims": [
         "文学城我爱我家版作者 Frankie1211 在 2026-10-04 的自述：伴侣去听勃拉姆斯，作者带狗在校园和树林里散步；作者读到伴侣日记里那句，想成为“优雅、从容、能读书、会音乐、会表达的老太太”。"
       ],
-      "independently_verified_event": false
+      "independently_verified_event": false,
+      "editorial_hook_hypothesis_status": "REJECTED_LOGIC_AND_SOURCE_GAP",
+      "hook_reviewed_at": "2026-10-05T20:03:08.095635Z"
     }
   ]
 }
