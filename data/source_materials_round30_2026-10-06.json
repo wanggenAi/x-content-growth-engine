@@ -1,0 +1,111 @@
+{
+  "recorded_at": "2026-10-05T17:40:46Z",
+  "purpose": "C335-C339 non-V2EX candidates. Forum index reads are discovery observations, not X metrics or causal evidence.",
+  "materials": [
+    {
+      "id": "SRC-C335",
+      "title": "和理财有关又无关：朋友想离婚",
+      "url": "https://bbs.wenxuecity.com/tzlc/2371884.html",
+      "source_kind": "PUBLIC_FORUM_FRIEND_SELF_REPORT",
+      "source_page_publication_date": "2026-09-24",
+      "source_author": "山中明月",
+      "source_author_visible": "visible forum author; friend story relayed by author",
+      "observed_read_count": 96986,
+      "observed_read_count_kind": "forum_index_snapshot",
+      "observed_at": "2026-10-05T17:40:46Z",
+      "verified_claims": [
+        "作者转述一对50多岁夫妻结婚20年、孩子独立且经济健康",
+        "作者转述两人分房十多年，关系被描述为室友"
+      ],
+      "limits": [
+        "朋友转述和单方叙述，不是完整案情",
+        "不涉及原帖未公开的亲密细节，不判断双方动机，不推广为婚姻普遍规律"
+      ],
+      "rights": "Public forum page; paraphrase only."
+    },
+    {
+      "id": "SRC-C336",
+      "title": "“请教关于搬家和房子的事”后续 2",
+      "url": "https://bbs.wenxuecity.com/fdcj/1886871.html",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_REPORT",
+      "source_page_publication_date": "2026-09-15",
+      "source_author": "Endoffall",
+      "source_author_visible": "visible forum author/self-report",
+      "observed_read_count": 170651,
+      "observed_read_count_kind": "forum_index_snapshot",
+      "observed_at": "2026-10-05T17:40:46Z",
+      "verified_claims": [
+        "作者自述父母考虑从中西部搬到西雅图附近",
+        "作者自述儿子离开大学、与室友合租并做日夜班，住处噪音导致耳朵发炎",
+        "作者自述父母讨论租单间、529取款和卖掉已还清房屋"
+      ],
+      "limits": [
+        "旧帖自述，未独立核实家庭和健康情况",
+        "不把父母的计划写成已执行，不替作者解释心理因果，不推广为亲子普遍规律"
+      ],
+      "rights": "Public forum page; paraphrase only."
+    },
+    {
+      "id": "SRC-C337",
+      "title": "嘛嘛迷呀！！不上网发现不了自己很多优点，看楼下QQ帖子有感",
+      "url": "https://bbs.wenxuecity.com/myhouse/15897376.html/",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_JOKE",
+      "source_page_publication_date": "2026-09-05",
+      "source_author": "糖衣炮弹88",
+      "source_author_visible": "visible forum author/self-joke",
+      "observed_read_count": 254621,
+      "observed_read_count_kind": "forum_index_snapshot",
+      "observed_at": "2026-10-05T17:40:46Z",
+      "verified_claims": [
+        "作者在旧帖中只写下一句自嘲：“我真的是个值得LD珍惜的老婆啊 LOL”"
+      ],
+      "limits": [
+        "一句自嘲不代表完整婚姻事实",
+        "不推断作者处境、配偶态度或心理原因，必须标注为旧帖自嘲"
+      ],
+      "rights": "Public forum page; quote kept short and attributed."
+    },
+    {
+      "id": "SRC-C338",
+      "title": "55 岁以上在硅谷幸存下来的都是年收入百万以上",
+      "url": "https://bbs.wenxuecity.com/tzlc/2378899.html",
+      "source_kind": "PUBLIC_FORUM_HUMOR_COMMENTARY",
+      "source_page_publication_date": "2026-10-02",
+      "source_author": "猛牛",
+      "source_author_visible": "visible forum author",
+      "observed_read_count": 28019,
+      "observed_read_count_kind": "forum_index_snapshot",
+      "observed_at": "2026-10-05T17:40:46Z",
+      "verified_claims": [
+        "帖子标题提出“55岁以上在硅谷幸存下来的都是年收入百万以上”",
+        "正文以“没幸存下来的就惨了”“很难很难的，比炒股难多了”等句子明确玩笑化反驳普遍性"
+      ],
+      "limits": [
+        "论坛玩笑，不是就业统计或调查",
+        "不把标题断言当事实，不推断硅谷年龄或收入分布"
+      ],
+      "rights": "Public forum page; paraphrase only."
+    },
+    {
+      "id": "SRC-C339",
+      "title": "问问这里的前辈，钱继续积累，意义在哪里？",
+      "url": "https://bbs.wenxuecity.com/tzlc/2374766.html",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_REPORT",
+      "source_page_publication_date": "2026-09-28",
+      "source_author": "Qingma",
+      "source_author_visible": "visible forum author/self-report",
+      "observed_read_count": 63285,
+      "observed_read_count_kind": "forum_index_snapshot",
+      "observed_at": "2026-10-05T17:40:46Z",
+      "verified_claims": [
+        "作者自述曾想通过继续积累来支持在海外的孩子",
+        "作者自述孩子已有稳定工作但生活选择与父母预想不同，并因此追问继续攒钱的意义"
+      ],
+      "limits": [
+        "单个家庭自述，不代表孩子失败或父母普遍焦虑",
+        "不把稳定工作、婚姻与否写成价值排序，不编造孩子近况"
+      ],
+      "rights": "Public forum page; paraphrase only."
+    }
+  ]
+}

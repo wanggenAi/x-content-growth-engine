@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T17:22:50Z",
+  "updated_at": "2026-10-05T17:54:14Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -53,26 +53,26 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 138,
+    "verified_account_publications": 143,
     "unpublished_candidates": 37,
     "agent_observed_viral_posts": 45,
     "agent_observed_exploratory_comparisons": 17,
-    "campaign_verified_new_publications": 138,
-    "verified_total_series": 163,
-    "published_new": 138,
-    "remaining_new_publications": 862,
-    "rolling_work_queue_count": 334,
+    "campaign_verified_new_publications": 143,
+    "verified_total_series": 168,
+    "published_new": 143,
+    "remaining_new_publications": 857,
+    "rolling_work_queue_count": 339,
     "ready_count": 0,
-    "latest_publication_id": "C334",
+    "latest_publication_id": "C339",
     "baseline_verified_publications": 25,
-    "total_verified_series": 163,
-    "latest_candidate_id": "C334"
+    "total_verified_series": 168,
+    "latest_candidate_id": "C339"
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Research C335+ non-V2EX sources (recent events plus clearly labeled undated joke/human-nature/political opinion); publish at most five only after exact editor and independent detail verification.",
+  "next_action": "Research C340 onward using non-V2EX public material; keep recent events dated and clearly label undated jokes, self-reports and opinions. Publish only after exact editor/screenshot and independent detail-page verification.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -278,18 +278,13 @@
     "formulas_promoted": 0
   },
   "research_continuation": {
-    "automation_id": "x",
-    "kind": "heartbeat",
-    "status": "ACTIVE",
-    "interval_hours": 0.0833333333,
-    "interval_minutes": 5,
-    "destination": "current local chat",
-    "created_at": "2026-10-01T01:15:04.507227Z",
-    "no_extra_paid_integrations": true,
-    "publication_requires_confidence_gate": false,
-    "publication_requires_editorial_source_gate": true,
-    "latest_scope": "At least 1000 further original publications, source-checked; check every 5 minutes; up to 5 eligible originals per verified round; continue progressively; recover browser/editor connection before publishing",
-    "updated_at": "2026-10-02T09:13:15Z"
+    "updated_at": "2026-10-05T17:42:30Z",
+    "next_batch": "C335-C339",
+    "source_file": "data/source_materials_round30_2026-10-06.json",
+    "decision": "stop V2EX as primary; use non-V2EX public forum/self-report/joke material with explicit limits; forum index reads are source observations only",
+    "candidate_count": 5,
+    "formula_status": "F01/F03/F05 remain HYPOTHESIS",
+    "media_rule": "text-first; source links only when evidentiary; no decorative media"
   },
   "publication_candidates_stage2": {
     "file": "data/publication_candidates_stage2_2026-10-01.json",
@@ -313,19 +308,19 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 138,
+    "published_new": 143,
     "ready": 0,
     "research_pending": 180,
     "status": "ACTIVE_NOT_COMPLETE",
-    "total_verified_series": 163,
-    "remaining_new_publications": 862,
-    "rolling_work_queue_count": 334,
-    "latest_publication_id": "C334",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107159094910161071",
-    "latest_publication_verified_at": "2026-10-05T17:22:50Z",
-    "latest_candidate_id": "C334",
-    "latest_candidate_source": "https://blog.catscarlet.com/201902133283.html",
-    "latest_candidate_checked_at": "2026-10-05T15:28:43.267482+00:00",
+    "total_verified_series": 168,
+    "remaining_new_publications": 857,
+    "rolling_work_queue_count": 339,
+    "latest_publication_id": "C339",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107167051890794839",
+    "latest_publication_verified_at": "2026-10-05T17:54:14Z",
+    "latest_candidate_id": "C339",
+    "latest_candidate_source": "PUBLIC_FORUM_NON_V2EX",
+    "latest_candidate_checked_at": "2026-10-05T17:40:46Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "editorial_workflow": {
@@ -381,14 +376,16 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "recorded_at_utc": "2026-10-05T10:02:00Z",
-    "user_feedback": "用户要求大量参考超过1万浏览帖子，认为近期稿件吸引力不足。",
-    "correction": "已按HIGH_VIEW_STRUCTURE_AUDIT重写C313-C314：第一屏单一冲突，补具体支点和读者收益，保留社区自述边界。",
-    "report": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
-    "new_publications": 0,
-    "drafts_rewritten": [
-      "C313",
-      "C314"
+    "updated_at": "2026-10-05T17:54:14Z",
+    "user_request": "Stop V2EX as primary; use recent dated events plus clearly labeled undated jokes/human-nature/political commentary; inspect >10k-view X posts without claiming causality.",
+    "applied_to": "C335-C339",
+    "checks": [
+      "single conflict",
+      "concrete date/action/identity",
+      "clear judgment or boundary",
+      "self-report/joke/opinion labels",
+      "no unsupported group claims",
+      "text-first media unless evidence value"
     ]
   },
   "source_material_round24": {
@@ -423,23 +420,23 @@
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
-    "recorded_at_utc": "2026-10-05T15:22:58.642757Z",
+    "recorded_at_utc": "2026-10-05T17:54:14Z",
     "automation_status": "ACTIVE",
     "interval_minutes": 5,
     "current_blocker": null,
     "candidate_ids": [],
     "verified_ids": [
-      "C315",
-      "C316",
-      "C317",
-      "C318",
-      "C319"
+      "C335",
+      "C336",
+      "C337",
+      "C338",
+      "C339"
     ],
-    "last_verified_id": "C334",
-    "last_verified_url": "https://x.com/qiluo27808/status/2107159094910161071",
-    "last_verified_at": "2026-10-05T17:22:50Z",
+    "last_verified_id": "C339",
+    "last_verified_url": "https://x.com/qiluo27808/status/2107167051890794839",
+    "last_verified_at": "2026-10-05T17:54:14Z",
     "ready_count": 0,
-    "remaining_new_publications": 862
+    "remaining_new_publications": 857
   },
   "editorial_feedback_history": [
     {
@@ -452,7 +449,7 @@
       "drafts": 3
     }
   ],
-  "current_blocker": "None for native Chrome Computer Use; Chrome extension inventory may still report auth token unavailable, but native visible Chrome is functioning.",
+  "current_blocker": null,
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -534,6 +531,43 @@
       "automation": "Read-back verified ACTIVE/5min/C324/129,failed_runs_only preserved",
       "validation_script_repair": "Legacy rows lack ready_for_publication; counter corrected to get(defaultFalse),no production count change. Trailing EOF blank removed.",
       "diff_check": "PASS"
+    }
+  },
+  "community_publication_batch6": {
+    "checked_at_utc": "2026-10-05T17:54:14Z",
+    "source_record": "data/source_materials_round30_2026-10-06.json",
+    "verified_ids": [
+      "C335",
+      "C336",
+      "C337",
+      "C338",
+      "C339"
+    ],
+    "new_x_research_pages": 0,
+    "high_view_review": "Applied direct visible >10k observations as editorial constraints only; no formula promotion or causal claim.",
+    "source_policy": "PUBLIC_FORUM_NON_V2EX; recent dates preserved; old self-reports/jokes labeled.",
+    "media_note": "No uploaded media; source links rendered as native t.co/cards where shown; no decorative media.",
+    "human_checked": false,
+    "published_seconds": null,
+    "urls": [
+      "https://x.com/qiluo27808/status/2107165252119142802",
+      "https://x.com/qiluo27808/status/2107165785542295967",
+      "https://x.com/qiluo27808/status/2107166498301288793",
+      "https://x.com/qiluo27808/status/2107166706259149204",
+      "https://x.com/qiluo27808/status/2107167051890794839"
+    ],
+    "displayed_times": [
+      "1:45 AM · Oct 6, 2026",
+      "1:47 AM · Oct 6, 2026",
+      "1:50 AM · Oct 6, 2026",
+      "1:51 AM · Oct 6, 2026",
+      "1:52 AM · Oct 6, 2026"
+    ],
+    "validation": {
+      "campaign_integrity": "PASS:339 IDs,143 original URLs,5 matching native editor/detail receipts,ready0,total168,remaining857,secondsnull,humanfalse",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "editor_screenshot_checked": true,
+      "single_submit_each": true
     }
   }
 }
