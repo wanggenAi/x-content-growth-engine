@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T10:02:00Z",
+  "updated_at": "2026-10-05T10:06:00Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -412,7 +412,7 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-05T10:02:00Z",
+    "verified_at_utc": "2026-10-05T10:06:00Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md",
@@ -448,5 +448,11 @@
       "drafts": 3
     }
   ],
-  "current_blocker": "VISIBLE_CHROME_COMPUTER_USE_AUTH_UNAVAILABLE"
+  "current_blocker": "VISIBLE_CHROME_COMPUTER_USE_AUTH_UNAVAILABLE",
+  "last_research_failure": {
+    "at": "2026-10-05T10:06:00Z",
+    "scope": "new_high_view_public_search",
+    "result": "search page returned navigation/filter only; no import or claim",
+    "next": "use existing audited 32-page/11-body set until valid independent sample appears"
+  }
 }
