@@ -1,7 +1,7 @@
 {
-  "schema_version": 2,
-  "updated_at": "2026-10-06T05:42:42.781658Z",
-  "phase": "active_1000_further_publication_campaign",
+  "schema_version": "5.0-editorial-growth-control",
+  "updated_at": "2026-10-06T07:20:00Z",
+  "phase": "RESEARCH_ONLY_PUBLICATION_PAUSED_FOR_LEARNING",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C354起找不同非V2EX近期具体素材或明确原创故事/观点；round42两方向未成全文、一自拟练习都不ready，勿把全国电话概括或Cookie评论当事实，不继续通用沟通边界提醒。此前NOT_READY不自动改词发布；现有授权及完整编辑器/截图/单次提交/独立详情重载闸门保持。",
+  "next_action": "Complete review of the new editorial/material-strength gates and pre-register LE30; do not auto-start C354 or publish from heartbeat.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -325,7 +325,7 @@
     "published_new": 157,
     "ready": 0,
     "research_pending": 180,
-    "status": "ACTIVE_NOT_COMPLETE",
+    "status": "HISTORICAL_INVENTORY_ONLY",
     "total_verified_series": 182,
     "remaining_new_publications": 843,
     "rolling_work_queue_count": 353,
@@ -338,7 +338,11 @@
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "published_count": 157,
     "ready_count": 0,
-    "updated_at": "2026-10-06T01:38:54.566163Z"
+    "updated_at": "2026-10-06T01:38:54.566163Z",
+    "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+    "control_role": "NOT_A_CONTROL_VARIABLE",
+    "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
+    "publication_mode": "PAUSED_PENDING_EDITORIAL_GATE_REVIEW"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -426,7 +430,7 @@
   "automation_content_sync": {
     "id": "x",
     "verified_at_utc": "2026-10-06T05:43:28.053657Z",
-    "status": "ACTIVE",
+    "status": "PAUSED",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
@@ -437,15 +441,16 @@
     "published_new": 157,
     "ready": 0,
     "next_candidate_id": "C354",
-    "note": "purpose-built automation_update同步round42零发布质量断点/新研究口径60；读回ACTIVE/5分钟/failed_runs_only，最新C353/下一步C354保持。",
-    "latest_version_url": "https://x.com/qiluo27808/status/2107283617504453067"
+    "note": "Historical ACTIVE/5-minute records are retained for audit; current automation may research or prepare review only and must not submit posts or start C354.",
+    "latest_version_url": "https://x.com/qiluo27808/status/2107283617504453067",
+    "current_control": "RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
     "recorded_at_utc": "2026-10-05T17:54:14Z",
-    "automation_status": "ACTIVE",
+    "automation_status": "PAUSED",
     "interval_minutes": 5,
-    "current_blocker": null,
+    "current_blocker": "PUBLICATION_PAUSED_FOR_LEARNING",
     "candidate_ids": [],
     "verified_ids": [
       "C335",
@@ -458,7 +463,8 @@
     "last_verified_url": "https://x.com/qiluo27808/status/2107167051890794839",
     "last_verified_at": "2026-10-05T17:54:14Z",
     "ready_count": 0,
-    "remaining_new_publications": 857
+    "remaining_new_publications": 843,
+    "next_action": "Research/review only; no automatic C354 submission."
   },
   "editorial_feedback_history": [
     {
@@ -1070,5 +1076,118 @@
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
     "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new1high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+  },
+  "system_objectives": {
+    "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
+    "secondary_goals": [
+      "identify content types that fit this account",
+      "build a high-quality material corpus",
+      "maintain falsifiable hypotheses",
+      "build a repeatable creative flow",
+      "establish real post-performance feedback",
+      "eliminate low-value patterns"
+    ],
+    "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+    "success_metric": "NOT_PUBLICATION_COUNT",
+    "historical_publication_corpus": "C001-C353 preserved for retrospective analysis"
+  },
+  "control_state": {
+    "mode": "RESEARCH_ONLY",
+    "publication_state": "PUBLICATION_PAUSED_FOR_LEARNING",
+    "heartbeat_can": "research, source-check, update candidates, prepare review",
+    "heartbeat_cannot": "submit or fill a main post",
+    "pause_reasons": [
+      "ready_count=0",
+      "feedback windows are not mature",
+      "new gate not yet reviewed"
+    ],
+    "next_publication_requires": [
+      "EDITORIAL_GATE_PASS",
+      "MATERIAL_STRONG",
+      "single_primary_action",
+      "pre_registered_experiment",
+      "manual_visible_X_review"
+    ]
+  },
+  "editorial_gate": {
+    "file": "docs/EDITORIAL_GATE.md",
+    "machine_validator": "growth_engine.editorial_gate.validate_candidate",
+    "states": [
+      "DISCOVERED",
+      "SOURCE_CHECKED",
+      "MATERIAL_STRONG",
+      "DRAFT",
+      "EDITORIAL_REVIEW",
+      "READY_FOR_MANUAL_PUBLISH",
+      "PUBLISHED_PENDING_FEEDBACK",
+      "OBSERVATION_CLOSED",
+      "LEARNING_REVIEWED"
+    ],
+    "failure_states": [
+      "FAIL_LOW_INTEREST",
+      "FAIL_REPETITIVE",
+      "FAIL_NO_PAYLOAD",
+      "FAIL_NO_PRIMARY_ACTION",
+      "HOLD_NEEDS_EVIDENCE",
+      "RESEARCH_ONLY"
+    ]
+  },
+  "feedback_learning": {
+    "file": "docs/FEEDBACK_LEARNING_LOOP.md",
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "missing_value": "null",
+    "requires_human_review": true,
+    "relative_performance": "relative to account baseline; no causal claims",
+    "own_post_observations": 0
+  },
+  "research_publication_separation": {
+    "research_version": "evidence, limits, provenance, raw/private receipts",
+    "publication_version": "human-facing text with only supported facts and clearly labeled opinion",
+    "status": "ENFORCED"
+  },
+  "negative_examples": {
+    "required": true,
+    "categories": [
+      "external_high",
+      "external_ordinary",
+      "external_low",
+      "own_high",
+      "own_low",
+      "near_miss"
+    ],
+    "formula_promotion": "forbidden without holdout and counterexamples"
+  },
+  "content_memory": {
+    "file": "docs/CONTENT_MEMORY.md",
+    "windows": [
+      20,
+      50,
+      100
+    ],
+    "dimensions": [
+      "semantic",
+      "hook",
+      "ending",
+      "moral",
+      "conflict"
+    ],
+    "status": "FRAMEWORK_ONLY_NO_UNVERIFIED_CLUSTERING"
+  },
+  "learning_experiment": {
+    "file": "data/learning_experiment_30_2026-10-06.json",
+    "id": "LE30-2026-10-06",
+    "status": "DESIGN_ONLY_PUBLICATION_PAUSED",
+    "capacity": 30,
+    "scheduled_posts": 0,
+    "primary_metrics": [
+      "relative_account_baseline",
+      "primary_action_rate"
+    ]
   }
 }

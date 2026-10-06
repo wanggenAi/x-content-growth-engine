@@ -1,5 +1,13 @@
 # 根哥内容与执行规范
 
+## 2026-10-06 system repair: goal and publication control
+
+本项目最高目标是提高账号长期自然曝光、有效互动和关注增长。找出适配题材、建立高质量素材库、可证伪假设、可重复创作流程、真实 post-performance feedback、持续淘汰低价值模式是次级目标。发布数量只是输出/观察计数；旧 1000 条目标、`remaining_new_publications` 和滚动队列均为历史盘点，不再控制下一步。
+
+正式硬闸门见 [`docs/EDITORIAL_GATE.md`](EDITORIAL_GATE.md)。研究版和面向读者的 publication version 必须分离，素材先过 `MATERIAL_STRONG`，再由唯一 `primary_action`、novelty、payload、follow reason 和审计语言分离检查。状态由 `RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING` 开始；五分钟 heartbeat 可以研究、更新候选和准备 review，不能自动填主帖。own-post 指标和 1h/6h/24h/72h/7d 窗口见 [`docs/FEEDBACK_LEARNING_LOOP.md`](FEEDBACK_LEARNING_LOOP.md)。
+
+历史新增157、剩余843、基线25、合计182、ready0、队列353、最新C353仍保留，作为已发生事实，不是成功判据。F01–F05 仍为 HYPOTHESIS。
+
 更新：2026-10-01。依据本聊天的用户明确要求。后续会话、机器与定时续跑开始时必须读取本文件、USER_DECISION_LOG.md、TASK_STATE.md 和 state/task_state.json；具体发布以清单和公开页面为准。
 
 ## 目标和选题
@@ -15,7 +23,7 @@
 
 ### 2026-10-05 C313-C314重写断点
 
-历史断点已于本轮解决：扩展inventory报错不是整个Computer Use不可用，原生Chrome窗口已实际完成C313/C314单次发布和独立核验。先分别判断扩展与原生路径；不能把一个入口失败扩大成整项失败，也不能绕过真正的锁屏、登录或验证码。两条均为PUBLISHED_AGENT_VERIFIED，新增119、ready0；定时任务ACTIVE/每5分钟。
+历史断点已于本轮解决：扩展inventory报错不是整个Computer Use不可用，原生Chrome窗口已实际完成C313/C314单次发布和独立核验。先分别判断扩展与原生路径；不能把一个入口失败扩大成整项失败，也不能绕过真正的锁屏、登录或验证码。两条均为PUBLISHED_AGENT_VERIFIED，新增119、ready0；当时的定时任务为ACTIVE/每5分钟，当前自动化已暂停且不得发帖。
 
 
 ### 2026-10-05 高浏览结构复盘（覆盖旧的低反馈扩量默认）

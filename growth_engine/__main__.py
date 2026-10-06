@@ -12,6 +12,7 @@ from datetime import datetime, date, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+from .editorial_gate import validate_candidate
 from .phase2 import (import_annotations, import_pairs, import_queries, import_research_review, insert_observation, migrate,
                      packet_markdown, quality_report, research_packet)
 
@@ -398,8 +399,25 @@ def main() -> None:
     packet_parser.add_argument("--format", choices=("json", "markdown"), default="markdown")
     sub.add_parser("report")
     sub.add_parser("audit")
+    gate_parser = sub.add_parser("editorial-gate")
+    gate_parser.add_argument("file", type=Path)
     sub.add_parser("packet")
     args = parser.parse_args()
+    if args.command == "editorial-gate":
+        try:
+            records = json.loads(args.file.read_text(encoding="utf-8"))
+            if not isinstance(records, list):
+                raise ValueError("editorial gate input must be a JSON array")
+            results = []
+            for record in records:
+                result = validate_candidate(record)
+                results.append({"candidate_id": record.get("candidate_id"), "ready": result.ready, "state": result.state, "reasons": list(result.reasons)})
+            print(json.dumps(results, ensure_ascii=False, indent=2))
+            if any(not item["ready"] for item in results):
+                raise SystemExit(1)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            parser.exit(1, f"editorial gate failed: {exc}\n")
+        return
     if args.command == "capture":
         from .capture import serve
         serve(args.db, args.port)

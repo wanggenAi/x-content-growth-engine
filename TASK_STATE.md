@@ -1,3 +1,9 @@
+# 2026-10-06 system repair checkpoint
+
+本轮按仓库级修复执行，先暂停批量发布。主目标改为长期自然曝光、有效互动和关注增长；发布数、1000历史目标、`remaining_new_publications=843` 和 queue=353 只作历史/库存观察，不控制下一动作。当前状态：`RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING`，`ready=0`，不自动启动 C354。
+
+正式闸门、素材强度、30条学习实验、own-post固定窗口、负例和内容记忆分别见 `docs/EDITORIAL_GATE.md`、`docs/EXPERIMENT_PROTOCOL.md`、`docs/FEEDBACK_LEARNING_LOOP.md`、`docs/CONTENT_MEMORY.md`、`docs/REVIEW_PACKET_2026-10-06.md`。历史 C001–C353 与所有原始 URL 不删除、不改写；F01–F05 继续 HYPOTHESIS。
+
 # Task State
 
 ## 最新执行断点 — 2026-10-06T05:42:42.781658Z

@@ -1,7 +1,7 @@
 {
   "created_at": "2026-10-01T01:45:12.244160Z",
-  "status": "ACTIVE_NOT_COMPLETE",
-  "goal": "Publish at least 1000 further distinct source-checked originals through authorized visible UI, progressively; continue research and feedback.",
+  "status": "HISTORICAL_INVENTORY_ONLY",
+  "goal": "Historical record of distinct source-checked originals; not an active publication KPI. Primary goal is long-term natural exposure, meaningful interactions and follows.",
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
@@ -8571,7 +8571,7 @@
   "latest_publication_time_note": "页面精确到分钟，秒null。",
   "editorial_mode": "USER_AUTHORIZED_RECENT_X_DISCUSSION_AND_ORIGINAL_OPINION",
   "metadata_reconciliation_note": "User steer 2026-10-05: stop V2EX as primary source; prioritize recent verifiable material, with separate non-dated categories for jokes, human nature and political commentary.",
-  "current_blocker": null,
+  "current_blocker": "PUBLICATION_PAUSED_FOR_LEARNING",
   "blocker_history": [
     {
       "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
@@ -8649,7 +8649,7 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-06T05:42:42.781658Z",
+  "updated_at_utc": "2026-10-06T07:20:00Z",
   "last_quality_checkpoint": {
     "round": 42,
     "checked_at_utc": "2026-10-06T05:42:42.781658Z",
@@ -8660,5 +8660,9 @@
     "rolling_work_queue_count": 353,
     "decision": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
     "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md"
-  }
+  },
+  "control_role": "NOT_A_CONTROL_VARIABLE",
+  "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+  "publication_mode": "PAUSED_PENDING_EDITORIAL_GATE_REVIEW",
+  "next_action": "Review editorial/material-strength gates and LE30 design; no automatic C354."
 }

@@ -17,3 +17,11 @@
 - Human review and manual X publishing are required. Do not impersonate the user or manufacture engagement.
 - Update `TASK_STATE.md` and `state/task_state.json` at each checkpoint; commit evidence, tests and decisions. Keep the SQLite runtime database out of Git and preserve reproducible seed/evidence records.
 - Prefer Python standard library and SQLite until measured needs justify dependencies. Run tests and audit before claiming a milestone.
+
+## Editorial-growth control (2026-10-06)
+
+- The canonical gate is `docs/EDITORIAL_GATE.md`; no candidate is READY without subject value, information gap, payload, exactly one primary action, novelty, audit-language separation, follow reason, strong material and provenance fields.
+- The primary goal is long-term natural exposure, meaningful interactions and follows. The old 1000-publication target and `remaining_new_publications` are historical inventory/output observations only, never control variables or success metrics.
+- Research, material selection, editorial review, manual publication experiments and feedback learning are separate states. A five-minute heartbeat may research or prepare review, but it must never auto-submit a main post.
+- Publication is paused in `PUBLICATION_PAUSED_FOR_LEARNING` until the new gate and a pre-registered experiment admit a candidate. Preserve all historical URLs and counts; do not resume batch posting in a repair round.
+- Own-post feedback uses `docs/FEEDBACK_LEARNING_LOOP.md` fixed windows and null missing values. High-view observations, formula hypotheses, negative examples and account content memory remain distinct; F01-F05 stay `HYPOTHESIS`.

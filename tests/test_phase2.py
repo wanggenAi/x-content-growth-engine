@@ -134,3 +134,19 @@ class Phase2Tests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class EditorialGateTests(unittest.TestCase):
+    def test_gate_requires_strong_material_and_one_action(self):
+        from growth_engine.editorial_gate import validate_candidate
+        base = {
+            "candidate_id": "C-test", "research_version": "research", "publication_version": "public",
+            "subject_value": "a concrete loss", "information_gap": "the unknown amount", "payload": "a number",
+            "primary_action": "SHARE", "primary_action_reader": "people with the same bill",
+            "novelty_check": "not repeated in recent 20", "audit_language_separation": "limits kept in research",
+            "follow_reason": "next post continues this investigation", "material_strength": "STRONG",
+            "source_refs": ["https://example.com/source"], "fact_check_status": "SOURCE_CHECKED",
+            "human_checked": True, "state": "READY_FOR_MANUAL_PUBLISH",
+        }
+        self.assertTrue(validate_candidate(base).ready)
+        self.assertFalse(validate_candidate({**base, "material_strength": "INSUFFICIENT"}).ready)
+        self.assertFalse(validate_candidate({**base, "primary_action": "SHARE,REPLY"}).ready)
