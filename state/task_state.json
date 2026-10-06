@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-06T00:57:42.232704Z",
+  "updated_at": "2026-10-06T01:07:35.653424Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -62,8 +62,8 @@
     "own_posts": 0,
     "verified_account_publications": 156,
     "unpublished_candidates": 16,
-    "agent_observed_viral_posts": 66,
-    "agent_observed_exploratory_comparisons": 22,
+    "agent_observed_viral_posts": 68,
+    "agent_observed_exploratory_comparisons": 23,
     "campaign_verified_new_publications": 156,
     "verified_total_series": 181,
     "published_new": 156,
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C353起研究不同近期非V2EX具体素材或原创人性/政治/段子；不要连续复制编个段子+四句对白结构或路灯/剥虾矛盾。研究新详情需留新链接全文UTC与反例；round35练习NOT_READY，不自动改词发布。",
+  "next_action": "C353起换不同非V2EX近期具体素材或明确原创观点/段子。round37三练习未ready不自动改词发布；退款截图不当近期已核事件，不用名人截图指控。新研究留新链接/全文/UTC与反例。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -220,13 +220,13 @@
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
     "human_checked": false,
-    "last_round": "round36_2026-10-06",
+    "last_round": "round37_2026-10-06",
     "observations_added": 3,
-    "observed_total": 66,
-    "latest_round_file": "data/high_view_structure_round36_2026-10-06.json",
+    "observed_total": 68,
+    "latest_round_file": "data/high_view_structure_round37_2026-10-06.json",
     "latest_round_above_10000_details": 2,
     "latest_round_below_threshold_original_details": 1,
-    "initial_32_audit_plus_new_unique_high_view_details": 52,
+    "initial_32_audit_plus_new_unique_high_view_details": 54,
     "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added.",
     "latest_round_revisits_not_counted": 0
   },
@@ -338,7 +338,7 @@
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "published_count": 156,
     "ready_count": 0,
-    "updated_at": "2026-10-06T00:55:39.267Z"
+    "updated_at": "2026-10-06T01:06:32.296859Z"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -425,10 +425,10 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-06T00:57:42.232704Z",
+    "verified_at_utc": "2026-10-06T01:07:35.653424Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND36_2026-10-06.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND37_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
     "prompt_latest_publication": "C352",
     "prompt_published_new": 156,
@@ -437,7 +437,7 @@
     "published_new": 156,
     "ready": 0,
     "next_candidate_id": "C353",
-    "note": "purpose-built automation_update同步C351/C352两条独立核验与新研究2高+1低；配置读回ACTIVE/5分钟/failed_runs_only。",
+    "note": "purpose-built automation_update同步round37新研究2高+1低和0发布质量断点；配置读回ACTIVE/5分钟/failed_runs_only。",
     "latest_version_url": "https://x.com/qiluo27808/status/2107273210047943110"
   },
   "publication_resume": {
@@ -484,6 +484,30 @@
       },
       "next_action": "C351起研究不同近期非V2EX具体材料或原创段子/人性/政治观点；直接读新高浏览正文与反例，变换长度与表达，不继续相亲家底/假日消费/自愿收费，也不固定我的看法模板。",
       "round34_constraints": "读者兴趣仍为编辑判断；C348来源限定有阅读成本，后续不能把日期摘要+我的看法变成固定格式。历史C343/C344修复facts保留。"
+    },
+    {
+      "at_utc": "2026-10-06T00:56:48.780735Z",
+      "round": 36,
+      "new_verified": 2,
+      "published_ids": [
+        "C351",
+        "C352"
+      ],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "reason_less_than_five": "其余借钱话术/重返大学等方向重复或缺独立来源与交付，不补量；无平台障碍。",
+      "feedback_result": "NOT_YET_EVALUATED",
+      "mechanism": "明确自拟短段子，道具/对话交付，不加摘要和人生总结；不保证原创性已通过全网验证或流量。",
+      "checks": "16 tests passed; exact editor/detail comparison and screenshots checked; seed audit completed but not own feedback/formula validation",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "state": "PUBLISHED_CONTENT_VERIFIED_FEEDBACK_NOT_YET_EVALUATED",
+      "next_action": "C353起研究不同近期非V2EX具体素材或原创人性/政治/段子；不要连续复制编个段子+四句对白结构或路灯/剥虾矛盾。研究新详情需留新链接全文UTC与反例；round35练习NOT_READY，不自动改词发布。"
     }
   ],
   "current_blocker": null,
@@ -631,28 +655,26 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "at_utc": "2026-10-06T00:56:48.780735Z",
-    "round": 36,
-    "new_verified": 2,
-    "published_ids": [
-      "C351",
-      "C352"
-    ],
+    "at_utc": "2026-10-06T01:06:32.296859Z",
+    "round": 37,
+    "new_verified": 0,
+    "published_ids": [],
     "published_new_total": 156,
     "total_with_baseline": 181,
     "remaining": 844,
     "ready": 0,
     "queue": 352,
-    "reason_less_than_five": "其余借钱话术/重返大学等方向重复或缺独立来源与交付，不补量；无平台障碍。",
-    "feedback_result": "NOT_YET_EVALUATED",
-    "mechanism": "明确自拟短段子，道具/对话交付，不加摘要和人生总结；不保证原创性已通过全网验证或流量。",
-    "checks": "16 tests passed; exact editor/detail comparison and screenshots checked; seed audit completed but not own feedback/formula validation",
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "退款截图日期/真实性未核；小孩退款近似复述原梗；取消会员梗常见、交付不足。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "正文可短，图片承担信息；截图内日期、支付渠道与账号标签必须单独辨认。不是事实/传播因果证据。",
     "facts": {
       "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
-    "state": "PUBLISHED_CONTENT_VERIFIED_FEEDBACK_NOT_YET_EVALUATED",
-    "next_action": "C353起研究不同近期非V2EX具体素材或原创人性/政治/段子；不要连续复制编个段子+四句对白结构或路灯/剥虾矛盾。研究新详情需留新链接全文UTC与反例；round35练习NOT_READY，不自动改词发布。"
+    "checks": "16 tests passed; 156 unique verified URLs and 352 queue records reconciled; private evidence ignored; seed audit completed (11 seed links/13 observations, not own feedback or formula validation)"
   },
   "high_view_structure_round32": {
     "file": "data/high_view_structure_round32_2026-10-06.json",
@@ -751,5 +773,34 @@
     "feedback_result": "NOT_YET_EVALUATED",
     "mechanism": "明确自拟短段子，道具/对话交付，不加摘要和人生总结；不保证原创性已通过全网验证或流量。",
     "checks": "16 tests passed; exact editor/detail comparison and screenshots checked; seed audit completed but not own feedback/formula validation"
+  },
+  "community_publication_batch_round37": {
+    "at_utc": "2026-10-06T01:06:32.296859Z",
+    "round": 37,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "退款截图日期/真实性未核；小孩退款近似复述原梗；取消会员梗常见、交付不足。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "正文可短，图片承担信息；截图内日期、支付渠道与账号标签必须单独辨认。不是事实/传播因果证据。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    }
+  },
+  "high_view_structure_round37": {
+    "file": "data/high_view_structure_round37_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND37_2026-10-06.md",
+    "new_high": 2,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
   }
 }
