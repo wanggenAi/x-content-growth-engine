@@ -8560,7 +8560,7 @@
       "uploaded_media": false
     }
   ],
-  "updated_at": "2026-10-06T01:38:54.566163Z",
+  "updated_at": "2026-10-06T01:49:47.179578Z",
   "latest_publication_id": "C353",
   "latest_publication_url": "https://x.com/qiluo27808/status/2107283617504453067",
   "latest_publication_verified_at": "2026-10-06T01:37:41.926Z",
@@ -8649,16 +8649,16 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-06T01:38:54.566163Z",
+  "updated_at_utc": "2026-10-06T01:49:47.179578Z",
   "last_quality_checkpoint": {
-    "round": 40,
-    "checked_at_utc": "2026-10-06T01:38:54.566163Z",
-    "new_verified": 1,
+    "round": 41,
+    "checked_at_utc": "2026-10-06T01:49:47.179578Z",
+    "new_verified": 0,
     "published_count": 157,
     "ready_count": 0,
     "remaining_new_publications": 843,
     "rolling_work_queue_count": 353,
-    "decision": "ONE_QUALIFIED_HYPOTHETICAL_SCENE_VERIFIED_NO_FILLER",
-    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND40_2026-10-06.md"
+    "decision": "FOUR_EXERCISES_NOT_READY_NO_SUBMISSION",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND41_2026-10-06.md"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-06T01:40:22.175388Z",
+  "updated_at": "2026-10-06T01:50:59.402080Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -62,8 +62,8 @@
     "own_posts": 0,
     "verified_account_publications": 157,
     "unpublished_candidates": 16,
-    "agent_observed_viral_posts": 71,
-    "agent_observed_exploratory_comparisons": 26,
+    "agent_observed_viral_posts": 73,
+    "agent_observed_exploratory_comparisons": 27,
     "campaign_verified_new_publications": 157,
     "verified_total_series": 182,
     "published_new": 157,
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C354起换不同非V2EX近期具体素材或明确原创观点/故事；不继续合照卖课或许可用途矛盾，不把设想+三行动+结尾反问做成模板；所有NOT_READY旧练习不自动换词发布。新研究留新链接/全文/UTC与反例。",
+  "next_action": "C354起研究新非V2EX近期具体素材或明确原创故事/观点；round41四练习均不ready，不自动改词发布。避免面试三级改词、泛化诈骗、可猜时间取舍、上报记录归零及合照卖课旧矛盾。新研究留新链接/全文/UTC与反例；现有授权及编辑器/单次提交/独立重载闸门保持。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -220,13 +220,13 @@
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
     "human_checked": false,
-    "last_round": "round40_2026-10-06",
-    "observations_added": 2,
-    "observed_total": 71,
-    "latest_round_file": "data/high_view_structure_round40_2026-10-06.json",
-    "latest_round_above_10000_details": 1,
+    "last_round": "round41_2026-10-06",
+    "observations_added": 3,
+    "observed_total": 73,
+    "latest_round_file": "data/high_view_structure_round41_2026-10-06.json",
+    "latest_round_above_10000_details": 2,
     "latest_round_below_threshold_original_details": 1,
-    "initial_32_audit_plus_new_unique_high_view_details": 57,
+    "initial_32_audit_plus_new_unique_high_view_details": 59,
     "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added.",
     "latest_round_revisits_not_counted": 0
   },
@@ -425,10 +425,10 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-06T01:40:22.175388Z",
+    "verified_at_utc": "2026-10-06T01:50:59.402080Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND40_2026-10-06.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND41_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
     "prompt_latest_publication": "C353",
     "prompt_published_new": 157,
@@ -437,7 +437,7 @@
     "published_new": 157,
     "ready": 0,
     "next_candidate_id": "C354",
-    "note": "purpose-built automation_update同步round40 C353已核发布与研究口径57；读回ACTIVE/5分钟/failed_runs_only。",
+    "note": "purpose-built automation_update同步round41零发布质量断点/新研究口径59；读回ACTIVE/5分钟/failed_runs_only，最新C353/下一步C354保持。",
     "latest_version_url": "https://x.com/qiluo27808/status/2107283617504453067"
   },
   "publication_resume": {
@@ -574,6 +574,30 @@
         "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
       },
       "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
+    },
+    {
+      "at_utc": "2026-10-06T01:38:54.566163Z",
+      "round": 40,
+      "new_verified": 1,
+      "published_ids": [
+        "C353"
+      ],
+      "published_new_total": 157,
+      "total_with_baseline": 182,
+      "remaining": 843,
+      "ready": 0,
+      "queue": 353,
+      "state": "ONE_QUALIFIED_HYPOTHETICAL_SCENE_VERIFIED",
+      "reason_less_than_five": "另一门铃练习换道具仍复述高帖反向侵犯冲突，另一善良句未核人格因果；不以旧练习换词或同题继续补量，无平台障碍。",
+      "feedback_result": "NOT_YET_EVALUATED_NO_AGED_FEEDBACK",
+      "platform_blocker": null,
+      "submission_attempts": 1,
+      "mechanism": "明确设想由聚餐合照转商业背书，许可用途被偷换，旁边/这边交付短反问；无真实机构/亲历/法律断言，不承诺流量。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed;157 unique verified URLs/353 queue records reconciled;C353 campaign/drafts equal;old352 records unchanged;private evidence ignored;seed audit11 links/13 observations is not own feedback or formula validation"
     }
   ],
   "current_blocker": null,
@@ -721,28 +745,25 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "at_utc": "2026-10-06T01:38:54.566163Z",
-    "round": 40,
-    "new_verified": 1,
-    "published_ids": [
-      "C353"
-    ],
+    "at_utc": "2026-10-06T01:49:47.179578Z",
+    "round": 41,
+    "new_verified": 0,
+    "published_ids": [],
     "published_new_total": 157,
     "total_with_baseline": 182,
     "remaining": 843,
     "ready": 0,
     "queue": 353,
-    "state": "ONE_QUALIFIED_HYPOTHETICAL_SCENE_VERIFIED",
-    "reason_less_than_five": "另一门铃练习换道具仍复述高帖反向侵犯冲突，另一善良句未核人格因果；不以旧练习换词或同题继续补量，无平台障碍。",
-    "feedback_result": "NOT_YET_EVALUATED_NO_AGED_FEEDBACK",
+    "state": "FOUR_EXERCISES_NOT_READY_NO_SUBMISSION",
+    "reason_less_than_five": "面试改词复述原梗、100%未核、大学清单常识式时间取舍缺新交付、合唱换道具重用投诉结案机制；均不ready，不占C354，不补量。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
     "platform_blocker": null,
-    "submission_attempts": 1,
-    "mechanism": "明确设想由聚餐合照转商业背书，许可用途被偷换，旁边/这边交付短反问；无真实机构/亲历/法律断言，不承诺流量。",
+    "submission_attempts": 0,
     "facts": {
       "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
-    "checks": "16 tests passed;157 unique verified URLs/353 queue records reconciled;C353 campaign/drafts equal;old352 records unchanged;private evidence ignored;seed audit11 links/13 observations is not own feedback or formula validation"
+    "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
   },
   "high_view_structure_round32": {
     "file": "data/high_view_structure_round32_2026-10-06.json",
@@ -971,5 +992,33 @@
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
     },
     "checks": "16 tests passed;157 unique verified URLs/353 queue records reconciled;C353 campaign/drafts equal;old352 records unchanged;private evidence ignored;seed audit11 links/13 observations is not own feedback or formula validation"
+  },
+  "high_view_structure_round41": {
+    "file": "data/high_view_structure_round41_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND41_2026-10-06.md",
+    "new_high": 2,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round41": {
+    "at_utc": "2026-10-06T01:49:47.179578Z",
+    "round": 41,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 157,
+    "total_with_baseline": 182,
+    "remaining": 843,
+    "ready": 0,
+    "queue": 353,
+    "state": "FOUR_EXERCISES_NOT_READY_NO_SUBMISSION",
+    "reason_less_than_five": "面试改词复述原梗、100%未核、大学清单常识式时间取舍缺新交付、合唱换道具重用投诉结案机制；均不ready，不占C354，不补量。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    }
   }
 }
