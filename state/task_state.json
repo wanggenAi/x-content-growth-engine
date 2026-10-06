@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-06T01:15:20.113477Z",
+  "updated_at": "2026-10-06T01:24:37.462329Z",
   "phase": "active_1000_further_publication_campaign",
   "checkpoints": {
     "environment_review": "done",
@@ -62,8 +62,8 @@
     "own_posts": 0,
     "verified_account_publications": 156,
     "unpublished_candidates": 16,
-    "agent_observed_viral_posts": 69,
-    "agent_observed_exploratory_comparisons": 24,
+    "agent_observed_viral_posts": 70,
+    "agent_observed_exploratory_comparisons": 25,
     "campaign_verified_new_publications": 156,
     "verified_total_series": 181,
     "published_new": 156,
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C353换不同非V2EX近期具体素材或原创动作/冲突。round37/round38练习均未ready，不自动改词发布；不把App标志当价格证据，不制造合租作者没说过的独享承诺。研究需新链接/完整正文/UTC与反例。",
+  "next_action": "C353换不同非V2EX近期具体素材或原创动作/冲突。round35/37/38/39练习均未ready，不自动改词发布；不采用购物算法心理与省钱保证，不继续可猜的时间成本或闲置提醒。研究需新链接/完整正文/UTC与反例。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -220,13 +220,13 @@
     "exploratory_below_threshold_nonreply_comparisons": 10,
     "valid_causal_pairs": 0,
     "human_checked": false,
-    "last_round": "round38_2026-10-06",
+    "last_round": "round39_2026-10-06",
     "observations_added": 2,
-    "observed_total": 69,
-    "latest_round_file": "data/high_view_structure_round38_2026-10-06.json",
+    "observed_total": 70,
+    "latest_round_file": "data/high_view_structure_round39_2026-10-06.json",
     "latest_round_above_10000_details": 1,
     "latest_round_below_threshold_original_details": 1,
-    "initial_32_audit_plus_new_unique_high_view_details": 55,
+    "initial_32_audit_plus_new_unique_high_view_details": 56,
     "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added.",
     "latest_round_revisits_not_counted": 0
   },
@@ -338,7 +338,7 @@
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
     "published_count": 156,
     "ready_count": 0,
-    "updated_at": "2026-10-06T01:13:54.502578Z"
+    "updated_at": "2026-10-06T01:24:37.462329Z"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -425,10 +425,10 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-06T01:15:20.113477Z",
+    "verified_at_utc": "2026-10-06T01:25:47.457802Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
-    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND38_2026-10-06.md",
+    "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND39_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
     "prompt_latest_publication": "C352",
     "prompt_published_new": 156,
@@ -437,7 +437,7 @@
     "published_new": 156,
     "ready": 0,
     "next_candidate_id": "C353",
-    "note": "purpose-built automation_update同步round38新研究1高+1低和0发布质量断点；压缩历史说明并保留最新状态/约束，配置读回ACTIVE/5分钟/failed_runs_only。",
+    "note": "purpose-built automation_update同步round39新研究1高+1低和0发布质量断点；历史样本不重计，配置读回ACTIVE/5分钟/failed_runs_only。",
     "latest_version_url": "https://x.com/qiluo27808/status/2107273210047943110"
   },
   "publication_resume": {
@@ -530,6 +530,28 @@
         "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
       },
       "checks": "16 tests passed; 156 unique verified URLs and 352 queue records reconciled; private evidence ignored; seed audit completed (11 seed links/13 observations, not own feedback or formula validation)"
+    },
+    {
+      "at_utc": "2026-10-06T01:13:54.502578Z",
+      "round": 38,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "state": "QUALITY_HOLD_NO_SUBMISSION",
+      "reason_less_than_five": "酒店省钱泛化缺报价证据；合租原帖没有独享承诺，拟题制造误读；原创室友句缺动作和交付。三练习不ready，不入队，不占C353。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "mechanism": "具体可执行承诺必须附适用条件；细节丰富的自述也可低浏览，不造读者误解当冲突。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
     }
   ],
   "current_blocker": null,
@@ -677,8 +699,8 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "at_utc": "2026-10-06T01:13:54.502578Z",
-    "round": 38,
+    "at_utc": "2026-10-06T01:24:37.462329Z",
+    "round": 39,
     "new_verified": 0,
     "published_ids": [],
     "published_new_total": 156,
@@ -687,11 +709,11 @@
     "ready": 0,
     "queue": 352,
     "state": "QUALITY_HOLD_NO_SUBMISSION",
-    "reason_less_than_five": "酒店省钱泛化缺报价证据；合租原帖没有独享承诺，拟题制造误读；原创室友句缺动作和交付。三练习不ready，不入队，不占C353。",
+    "reason_less_than_five": "购物算法因果与省钱保证未核；原创时间成本例子和促销闲置句可猜、交付不足或旧消费机制重叠。三练习不ready，不入队，不占C353。",
     "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
     "platform_blocker": null,
     "submission_attempts": 0,
-    "mechanism": "具体可执行承诺必须附适用条件；细节丰富的自述也可低浏览，不造读者误解当冲突。",
+    "mechanism": "长文把具体物件、动作和损失连续排开；这是编辑观察，算法因果仍不能继承；同作者数字配图低帖不能证明篇幅导致传播差异。",
     "facts": {
       "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
       "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
@@ -853,5 +875,45 @@
     "new_low": 1,
     "causal_pairs": 0,
     "formula_promotions": 0
+  },
+  "community_publication_batch_round39": {
+    "at_utc": "2026-10-06T01:24:37.462329Z",
+    "round": 39,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "购物算法因果与省钱保证未核；原创时间成本例子和促销闲置句可猜、交付不足或旧消费机制重叠。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "长文把具体物件、动作和损失连续排开；这是编辑观察，算法因果仍不能继承；同作者数字配图低帖不能证明篇幅导致传播差异。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    },
+    "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
+  },
+  "high_view_structure_round39": {
+    "file": "data/high_view_structure_round39_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND39_2026-10-06.md",
+    "new_high": 1,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "round39_checkpoint_validation": {
+    "checked_at_utc": "2026-10-06T01:26:26.319151Z",
+    "tests_passed": 16,
+    "campaign_posts_unchanged": true,
+    "unique_verified_publication_urls": 156,
+    "ready": 0,
+    "queue": 352,
+    "private_evidence_ignored": true,
+    "seed_audit_scope_note": "CLI audit11 links/13 observations is reproducible seed/index scope, not round39 native observations or publication feedback; existing no-validation warnings remain."
   }
 }
