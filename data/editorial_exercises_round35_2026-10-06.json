@@ -1,0 +1,35 @@
+{
+  "recorded_at_utc": "2026-10-06T00:42:59.814303Z",
+  "status": "REVIEW_ONLY_NOT_READY_NOT_PUBLISHED",
+  "posts": [
+    {
+      "id": "R35-E01",
+      "formula": "F01 HYPOTHESIS",
+      "draft": "能看不敢说，这份自由还缺一半。\n\n10月4日，一位作者写自己在公司能看外网，但只浏览不发言。\n\n我更想问：是有话也可以说，还是不说就没事？",
+      "primary_action": "回复讨论访问与表达的差别",
+      "payload": "区分两种权限",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "reason": "结论首句已经交完；剩余只有转述与反问，没有新支点。不能再按日期摘要+我的看法变体发布。"
+    },
+    {
+      "id": "R35-E02",
+      "formula": "F05 HYPOTHESIS",
+      "draft": "原创段子：\n老板：大家畅所欲言，我最喜欢不同意见。\n员工：那我先提一个——下次会议把工资欠条也打印出来。",
+      "primary_action": "转给同事",
+      "payload": "会议道具与欠薪对照",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "reason": "畅所欲言办公室段子常见，仍接会议/工资旧机制；没有足够原创和题材增量，不自动发布。"
+    },
+    {
+      "id": "R35-E03",
+      "formula": "F03 HYPOTHESIS",
+      "draft": "35岁重新考大学，看起来是换个赛道。\n\n但有一笔账更该先算：谁付学费，谁付生活费，谁负责这几年不工作的代价？\n\n同一张录取通知书，对不同钱包的人不是同一条退路。",
+      "primary_action": "转给考虑重新读书的人",
+      "payload": "退出职场的成本问题",
+      "status": "HOLD_SOURCE_AND_PAYLOAD",
+      "reason": "仍是可猜到的观点；原帖具体人物/补偿和职业资格未交叉核实，缺独立新增事实或可用账表，不能当建议或凑量。"
+    }
+  ],
+  "queued_campaign_ids": [],
+  "published_new": 0
+}

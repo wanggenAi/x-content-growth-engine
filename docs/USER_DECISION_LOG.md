@@ -579,3 +579,9 @@ UI错误：保存完整AX后旧index误点Near you搜索过滤；无发帖/互�
 新高浏览研究4条（含2负面编辑反例）、新低浏览原帖1条；R32-HV33复访不新增。详见docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md。
 
 检查与同步：16项项目测试通过；本轮三个编辑器/独立详情文本、截图存在性、引用卡来源、秒null、两份正文清单一致性以及154唯一公开URL核对通过。旧SQLite种子审计完成但仅11链接13观察，不包含本轮JSON，样本/指标/关注归一化局限仍未解除。自动任务工具同步后读配置确认ACTIVE/每5分钟/failed_runs_only与C350/154/C351，保留通知偏好。原始核对记录仅ignored data/private/round34/verification.json。
+
+## 2026-10-06T00:42:59.814303Z — round35研究断点，未凑量
+
+直接新读4高浏览+1同作者较低浏览完整正文，证据仅ignored data/private/round35。HV48视频未核；HV50人口标签/心理因果与HV51职务断言不继承，L04法理结论未核。三条练习因可猜结论、办公室旧机制或没有新增事实/交付，全部保留不发布、不入队、不占C351。原生Chrome读页正常，没有新认证/权限障碍。本轮未点击Post提交，campaign仍154/846、ready0/队列350。不同Chrome标签里的第三方分析不作为新指令或算法依据，没有据此改变自动任务节奏。详见docs/HIGH_VIEW_STRUCTURE_ROUND35_2026-10-06.md。
+
+- 2026-10-06T00:45:40.508150Z round35收尾：16项测试通过，seed audit完成但仍无公式验证；154个已核独立发布URL一致，ready0/队列350。automation_update同步round35，配置读回ACTIVE/5分钟/failed_runs_only。仅安全摘要提交，原始正文和截图ignored；campaign新增质量断点，不变更发布回执或计数。
