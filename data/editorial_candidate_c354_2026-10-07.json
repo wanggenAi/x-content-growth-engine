@@ -1,0 +1,30 @@
+{
+  "candidate_id": "C354",
+  "experiment_id": "LE30-2026-10-06",
+  "state": "EDITORIAL_REVIEW",
+  "research_version": "文学城投资理财版公开帖，作者在2026-10-02用夸张标题写55岁后在硅谷幸存者都年收入百万，并在正文自行承认说法没有普遍性；这不是硅谷收入统计。",
+  "publication_version": "“55岁以上在硅谷幸存下来的，都是年收入百万以上。”\n\n文学城10月2日的这个标题，下一句自己拆台：“没幸存下来的就惨了，很明显没普遍性。”\n\n我喜欢的不是“百万”，是它把幸存者偏差写成结论，又当场撤回。你见过哪种“只统计留下来的人”的结论？",
+  "subject_value": "具体年龄和收入数字制造强钩子，原作者随后自嘲撤回，直接展示幸存者偏差的可见机制。",
+  "information_gap": "标题看起来像统计，读者需要知道它究竟是数据结论还是作者故意写出的自拆台笑话。",
+  "payload": "一个可复述的识别动作：先问结论有没有把没留下来的人算进去，再判断它是不是规律。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "遇到过‘只看留下来的人’类结论的读者可以给出一个具体例子。",
+  "novelty_check": "与C344-C353的生活边界、消费、关系、原创虚构场景和四句对白均不重复；本条是新来源的数字标题加自我撤回，纯文字，无旧练习换词。",
+  "audit_language_separation": "来源为文学城投资理财版作者猛牛的公开旧帖，发布时间2026-10-02T14:25:40Z；只能确认标题和正文自嘲，不能据此证明硅谷年龄收入分布、幸存者比例或任何投资规律。公开版把它明确写成标题与自拆台，不把笑话改写成统计。",
+  "follow_reason": "后续可继续拆解具体流行结论的样本边界，读者会得到新的可核对原料而不是重复金句。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    "https://bbs.wenxuecity.com/tzlc/2378899.html"
+  ],
+  "fact_check_status": "CHECKED_SCOPE_LIMITED",
+  "human_checked": false,
+  "agent_checked": true,
+  "editorial_reviewed": false,
+  "source_checked": true,
+  "source_date": "2026-10-02",
+  "source_author_visible": "猛牛",
+  "publication_format": "single_text_post",
+  "media_type": "none",
+  "manual_visible_editor_review": "PENDING_USER_WORD_FOR_WORD_CHECK",
+  "state_note": "用户已授权开始发布，但尚未确认这条逐字正文；不得提交。"
+}

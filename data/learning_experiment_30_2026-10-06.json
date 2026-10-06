@@ -1,6 +1,6 @@
 {
   "experiment_id": "LE30-2026-10-06",
-  "status": "DESIGN_ONLY_PUBLICATION_PAUSED",
+  "status": "CANDIDATE_AWAITING_HUMAN_CHECK",
   "purpose": "learn which strong materials and reader actions fit this account; publication count is not a success metric",
   "planned_capacity": 30,
   "cells": [
@@ -9,7 +9,20 @@
     "HISTORY_CULTURE_REFRAME", "STRONG_PERSON_CONTRAST", "ANSWERABLE_DISAGREEMENT"
   ],
   "allocation": "UNASSIGNED_UNTIL_MATERIAL_STRENGTH_AND_EDITORIAL_GATE_PASS",
-  "publication_schedule": null,
+  "publication_schedule": {
+    "mode": "ONE_POST_ONLY_AFTER_HUMAN_CHECK",
+    "scheduled_posts": 0,
+    "candidate_id": "C354",
+    "candidate_file": "data/editorial_candidate_c354_2026-10-07.json"
+  },
+  "selected_candidate": {
+    "candidate_id": "C354",
+    "state": "EDITORIAL_REVIEW",
+    "gate_result": "BLOCKED_HUMAN_WORD_FOR_WORD_CHECK",
+    "human_checked": false,
+    "editorial_reviewed": false,
+    "source_checked": true
+  },
   "measurement_windows": ["1h", "6h", "24h", "72h", "7d"],
   "primary_metrics": ["relative_account_baseline", "primary_action_rate"],
   "required_candidate_fields": ["experiment_id", "candidate_id", "topic", "material_source", "mechanism", "primary_action", "expected_reader", "why_share", "why_reply", "why_follow", "novelty", "payload", "publication_format", "media_type", "published_at", "measurement_windows"],

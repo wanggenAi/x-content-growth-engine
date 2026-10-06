@@ -1,6 +1,20 @@
+# 2026-10-07 C354 gated publication checkpoint
+
+用户明确要求开始发布；已登记 LE30 首条来源型候选 C354，但按项目硬闸门保留 `human_checked=false`，等待用户逐字确认后才可进入可见编辑器。当前 0 发布、0 提交、无平台障碍；不把用户发布授权冒充正文人工核对，不启动批量。
+
+候选稿见 `data/editorial_candidate_c354_2026-10-07.json`。原拟正文：
+
+“55岁以上在硅谷幸存下来的，都是年收入百万以上。”
+
+文学城10月2日的这个标题，下一句自己拆台：“没幸存下来的就惨了，很明显没普遍性。”
+
+我喜欢的不是“百万”，是它把幸存者偏差写成结论，又当场撤回。你见过哪种“只统计留下来的人”的结论？
+
+下一步需要用户确认以上逐字正文；确认后只允许 C354 单次提交、编辑器截图核对和独立公开详情重载，反馈窗口尚未开始。
+
 # 2026-10-06 system repair checkpoint
 
-本轮按仓库级修复执行，先暂停批量发布。主目标改为长期自然曝光、有效互动和关注增长；发布数、1000历史目标、`remaining_new_publications=843` 和 queue=353 只作历史/库存观察，不控制下一动作。当前状态：`RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING`，`ready=0`，不自动启动 C354。
+本轮按仓库级修复执行，先暂停批量发布。主目标改为长期自然曝光、有效互动和关注增长；发布数、1000历史目标、`remaining_new_publications=843` 和 queue=353 只作历史/库存观察，不控制下一动作。当前状态：`RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING`，`ready=0`，仅登记一条待人工确认的 C354，不自动提交。
 
 正式闸门、素材强度、30条学习实验、own-post固定窗口、负例和内容记忆分别见 `docs/EDITORIAL_GATE.md`、`docs/EXPERIMENT_PROTOCOL.md`、`docs/FEEDBACK_LEARNING_LOOP.md`、`docs/CONTENT_MEMORY.md`、`docs/REVIEW_PACKET_2026-10-06.md`。历史 C001–C353 与所有原始 URL 不删除、不改写；F01–F05 继续 HYPOTHESIS。
 

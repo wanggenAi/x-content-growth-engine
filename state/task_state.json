@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-06T07:20:00Z",
+  "updated_at": "2026-10-07T00:00:00Z",
   "phase": "RESEARCH_ONLY_PUBLICATION_PAUSED_FOR_LEARNING",
   "checkpoints": {
     "environment_review": "done",
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Complete review of the new editorial/material-strength gates and pre-register LE30; do not auto-start C354 or publish from heartbeat.",
+  "next_action": "User must word-for-word confirm data/editorial_candidate_c354_2026-10-07.json; then one visible manual C354 submission may proceed. Heartbeat cannot submit or batch-post.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
