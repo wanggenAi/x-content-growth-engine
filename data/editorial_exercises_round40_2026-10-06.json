@@ -1,0 +1,25 @@
+{
+  "recorded_at_utc": "2026-10-06T01:33:55.037425Z",
+  "status": "TWO_EXERCISES_NOT_READY_ONE_SEPARATE_CAMPAIGN_SCENE_VERIFIED",
+  "posts": [
+    {
+      "id": "R40-E01",
+      "draft": "自拟门铃故事：孩子把门铃从自己卧室移到父母卧室，家庭隐私终于平等。",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "reason": "改道具仍复述高帖亲子反向隐私冲突，且结尾把侵犯说成平等，不采用。"
+    },
+    {
+      "id": "R40-E02",
+      "draft": "善良的人总被欺负，只有强硬才能换来尊重。",
+      "status": "HOLD_UNSUPPORTED_GROUP_CLAIM",
+      "reason": "未核因果和普遍人格规律，不用高低浏览背书。"
+    }
+  ],
+  "queued_campaign_ids": [
+    "C353"
+  ],
+  "published_new": 1,
+  "published_ids": [
+    "C353"
+  ]
+}
