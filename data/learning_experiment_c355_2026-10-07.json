@@ -1,0 +1,108 @@
+{
+  "experiment_id": "LE30-UNIT01-C355",
+  "candidate_id": "C355",
+  "status": "PREREGISTERED_PENDING_HUMAN_TEXT_REVIEW",
+  "preregistered_at_utc": "2026-10-07T06:11:55.132068Z",
+  "topic": "REALITY_FINANCIAL_STAKES / known brand revenue portfolio",
+  "material_source": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf"
+  ],
+  "material_strength": "STRONG",
+  "mechanism": "熟悉IP的下降与公司增长冲突，交付另一个IP的增量；这是编辑假设，不是推荐机制",
+  "primary_action": "SHARE",
+  "expected_reader": "认识LABUBU、与朋友讨论潮玩品牌生意的中文读者，可以转发这笔分系列账来纠正单一爆款等于整家公司收入的判断。",
+  "why_share": "提供可转发的同公司收入差额与原表，纠正只有一个爆款的简化认识",
+  "why_reply": "非主要动作；可指出口径或分享其他公司分产品反差",
+  "why_follow": "继续交付熟悉人物和品牌背后被一眼判断漏掉的具体账与原始来源，而不是泛化道理。",
+  "novelty": "全353条来源/品牌字面查重无命中；近30条全文审核，近50/100条主题、首屏、结尾比较。C342是球星卡收藏被包装成投资，本条是公司收入组合；C349是消费照片遗漏未消费人群，本条不推总体生活水平。近100条没有同品牌同来源同账，结尾不复用拒绝、同意范围或人情成本的道德判断。不是完成了全部历史语义聚类。",
+  "payload": "两年同口径IP表的一笔账：THE MONSTERS减少359,656千元；Twinkle Twinkle增加2,260,606千元；后者本期收入2,649,969千元。公开按亿元取一位小数。",
+  "publication_version": "C355-P1",
+  "publication_format": "single_text_with_primary_source_link",
+  "media_type": "none_uploaded; source card to inspect",
+  "published_at": null,
+  "publication_schedule": null,
+  "measurement_windows": [
+    "1h",
+    "6h",
+    "24h",
+    "72h",
+    "7d"
+  ],
+  "question": "这类熟悉品牌的具体收入反差，是否能在本账号形成更多可见转发及有效讨论？",
+  "primary_metric": "可见转发数/浏览数，缺分母则null；与足龄且同窗口的近期账号基线作描述比较",
+  "baseline": null,
+  "baseline_missing_reason": "尚无经人工复核的统一窗口自帖基线；无基线时不得宣称相对改善",
+  "stopping_conditions": [
+    "human text check absent",
+    "gate fails or material judged weak",
+    "same source or payoff already published",
+    "visible X login/auth/rate-limit blocker",
+    "single submit uncertainty: verify original URL, never resubmit",
+    "same experiment cell observation windows still open"
+  ],
+  "inference_limits": "单条探索，没有随机对照与holdout；不得升级F01-F05，不证明因果或中文读者普遍兴趣。",
+  "feedback": {
+    "1h": {
+      "status": "NOT_STARTED",
+      "observed_at_utc": null,
+      "views": null,
+      "reposts": null,
+      "likes": null,
+      "replies": null,
+      "quotes": null,
+      "bookmarks": null,
+      "follows_attributed": null,
+      "human_reviewed": false
+    },
+    "6h": {
+      "status": "NOT_STARTED",
+      "observed_at_utc": null,
+      "views": null,
+      "reposts": null,
+      "likes": null,
+      "replies": null,
+      "quotes": null,
+      "bookmarks": null,
+      "follows_attributed": null,
+      "human_reviewed": false
+    },
+    "24h": {
+      "status": "NOT_STARTED",
+      "observed_at_utc": null,
+      "views": null,
+      "reposts": null,
+      "likes": null,
+      "replies": null,
+      "quotes": null,
+      "bookmarks": null,
+      "follows_attributed": null,
+      "human_reviewed": false
+    },
+    "72h": {
+      "status": "NOT_STARTED",
+      "observed_at_utc": null,
+      "views": null,
+      "reposts": null,
+      "likes": null,
+      "replies": null,
+      "quotes": null,
+      "bookmarks": null,
+      "follows_attributed": null,
+      "human_reviewed": false
+    },
+    "7d": {
+      "status": "NOT_STARTED",
+      "observed_at_utc": null,
+      "views": null,
+      "reposts": null,
+      "likes": null,
+      "replies": null,
+      "quotes": null,
+      "bookmarks": null,
+      "follows_attributed": null,
+      "human_reviewed": false
+    }
+  },
+  "submission_attempts": 0,
+  "new_publications": 0
+}

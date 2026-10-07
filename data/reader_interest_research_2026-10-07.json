@@ -1,6 +1,6 @@
 {
   "research_id": "INTEREST-2026-10-07",
-  "updated_at_utc": "2026-10-07T02:12:26.325190Z",
+  "updated_at_utc": "2026-10-07T06:13:13.753551Z",
   "status": "RESEARCH_ONLY",
   "user_steer": "淘汰弱稿，深挖中文读者最感兴趣的具体人物、事件、利益、资源和奇观；不只写关系道理。",
   "sources": [
@@ -213,5 +213,17 @@
     "publication_gate_ready": false,
     "private_evidence_ignored": true,
     "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+  },
+  "latest_editorial_candidate": {
+    "candidate_id": "C355",
+    "file": "data/editorial_candidate_c355_2026-10-07.json",
+    "state": "EDITORIAL_REVIEW",
+    "strength": "STRONG",
+    "source_primary_pdf": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+    "human_checked": false,
+    "gate_reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "new_publications": 0
   }
 }

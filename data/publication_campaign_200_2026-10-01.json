@@ -8649,28 +8649,39 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-07T02:12:26.325190Z",
+  "updated_at_utc": "2026-10-07T06:13:13.753551Z",
   "last_quality_checkpoint": {
-    "checked_at_utc": "2026-10-07T02:12:26.325190Z",
-    "decision": "C354_REJECTED_DUPLICATE_C338_AND_LOW_INTEREST",
+    "checked_at_utc": "2026-10-07T06:13:13.753551Z",
+    "decision": "C355_EDITORIAL_REVIEW_HUMAN_TEXT_CHECK_PENDING",
     "new_verified": 0,
     "published_count": 157,
     "ready_count": 0,
     "remaining_new_publications": 843,
     "rolling_work_queue_count": 353,
-    "review_file": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md",
+    "review_file": "docs/REVIEW_C355_2026-10-07.md",
+    "candidate_file": "data/editorial_candidate_c355_2026-10-07.json",
+    "experiment_file": "data/learning_experiment_c355_2026-10-07.json",
+    "gate_reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "submission_attempts": 0,
+    "x_editor_started": false,
+    "x_platform_status_this_round": "NOT_CHECKED",
     "publication_control": "HISTORICAL_COUNTS_NOT_KPI",
     "validation": {
-      "unit_tests": 17,
-      "result": "PASS",
-      "campaign_posts_unchanged_from_HEAD": true,
-      "publication_gate_ready": false,
-      "private_evidence_ignored": true,
-      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+      "checked_at_utc": "2026-10-07T06:13:58.608467Z",
+      "unit_tests_passed": 17,
+      "git_diff_check": "PASS",
+      "historical_posts_unchanged": 353,
+      "counts_unchanged": "157/843/182/ready0/queue353",
+      "candidate_experiment_alignment": "PASS",
+      "private_pdf_and_render_ignored": true,
+      "gate_ready": false,
+      "only_gate_reason": "human_checked must be true before manual publication review"
     }
   },
   "control_role": "NOT_A_CONTROL_VARIABLE",
   "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
   "publication_mode": "PAUSED_PENDING_EDITORIAL_GATE_REVIEW",
-  "next_action": "Deepen checked source materials and novel human-interest/real-stakes stories. C354 rejected as duplicate C338 and low interest; no candidate ready, no confirmation pending, no automatic publication."
+  "next_action": "C355-P1 human word-for-word text review; then one native visible Chrome publication experiment. No heartbeat/batch submission."
 }
