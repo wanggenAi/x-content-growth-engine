@@ -8560,7 +8560,7 @@
       "uploaded_media": false
     }
   ],
-  "updated_at": "2026-10-06T05:42:42.781658Z",
+  "updated_at": "2026-10-07T02:12:26.325190Z",
   "latest_publication_id": "C353",
   "latest_publication_url": "https://x.com/qiluo27808/status/2107283617504453067",
   "latest_publication_verified_at": "2026-10-06T01:37:41.926Z",
@@ -8649,20 +8649,28 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-06T07:20:00Z",
+  "updated_at_utc": "2026-10-07T02:12:26.325190Z",
   "last_quality_checkpoint": {
-    "round": 42,
-    "checked_at_utc": "2026-10-06T05:42:42.781658Z",
+    "checked_at_utc": "2026-10-07T02:12:26.325190Z",
+    "decision": "C354_REJECTED_DUPLICATE_C338_AND_LOW_INTEREST",
     "new_verified": 0,
     "published_count": 157,
     "ready_count": 0,
     "remaining_new_publications": 843,
     "rolling_work_queue_count": 353,
-    "decision": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
-    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md"
+    "review_file": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md",
+    "publication_control": "HISTORICAL_COUNTS_NOT_KPI",
+    "validation": {
+      "unit_tests": 17,
+      "result": "PASS",
+      "campaign_posts_unchanged_from_HEAD": true,
+      "publication_gate_ready": false,
+      "private_evidence_ignored": true,
+      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+    }
   },
   "control_role": "NOT_A_CONTROL_VARIABLE",
   "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
   "publication_mode": "PAUSED_PENDING_EDITORIAL_GATE_REVIEW",
-  "next_action": "Review editorial/material-strength gates and LE30 design; no automatic C354."
+  "next_action": "Deepen checked source materials and novel human-interest/real-stakes stories. C354 rejected as duplicate C338 and low interest; no candidate ready, no confirmation pending, no automatic publication."
 }

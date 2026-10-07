@@ -1,3 +1,11 @@
+# 最新断点 — 2026-10-07 中文读者兴趣研究
+
+用户否决C354，要求深挖有吸引力的人事物。C354发现与已发布C338同来源同交付，标记FAIL_REPETITIVE并附FAIL_LOW_INTEREST；此前只查C344–C353的去重结论撤回。无待确认正文，0发布/0提交。
+
+新研究见 `docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md` 与 `data/reader_interest_research_2026-10-07.json`：八条兴趣假设、六个具体读者问题、中文平台研究的范围与不同结果、人物与事物观察名单、三份深入材料、两条DRAFT和一个RESEARCH_ONLY方向。无全国兴趣排名、无新X指标/因果对照/公式升级。真实原页保存在ignored private；来源日期和未知值保留。
+
+LE30为MATERIAL_RESEARCH_PUBLICATION_PAUSED，selected_candidate=null，scheduled_posts=0。历史新增157/总182/剩843/ready0/queue353/最新C353不变，数量不控制研究。下一步补强泡泡玛特产品/账、张雪原视频与资源路径、公共服务供给，再做全量来源和近20/50/100正文去重；弱稿不交用户确认、不发布。以下候选确认断点均为已被本次否决覆盖的历史。
+
 # 2026-10-07 C354 gated publication checkpoint
 
 用户明确要求开始发布；已登记 LE30 首条来源型候选 C354，但按项目硬闸门保留 `human_checked=false`，等待用户逐字确认后才可进入可见编辑器。当前 0 发布、0 提交、无平台障碍；不把用户发布授权冒充正文人工核对，不启动批量。

@@ -1,31 +1,79 @@
 {
   "experiment_id": "LE30-2026-10-06",
-  "status": "CANDIDATE_AWAITING_HUMAN_CHECK",
+  "status": "MATERIAL_RESEARCH_PUBLICATION_PAUSED",
   "purpose": "learn which strong materials and reader actions fit this account; publication count is not a success metric",
   "planned_capacity": 30,
   "cells": [
-    "REALITY_FINANCIAL_STAKES", "IDENTITY_SITUATION", "FRESH_INTERNET_FINDING",
-    "RESOURCE_TOOL", "INTEREST_CONFLICT", "TECH_AI_CHANGE", "TRUE_UNUSUAL_EVENT",
-    "HISTORY_CULTURE_REFRAME", "STRONG_PERSON_CONTRAST", "ANSWERABLE_DISAGREEMENT"
+    "REALITY_FINANCIAL_STAKES",
+    "IDENTITY_SITUATION",
+    "FRESH_INTERNET_FINDING",
+    "RESOURCE_TOOL",
+    "INTEREST_CONFLICT",
+    "TECH_AI_CHANGE",
+    "TRUE_UNUSUAL_EVENT",
+    "HISTORY_CULTURE_REFRAME",
+    "STRONG_PERSON_CONTRAST",
+    "ANSWERABLE_DISAGREEMENT"
   ],
   "allocation": "UNASSIGNED_UNTIL_MATERIAL_STRENGTH_AND_EDITORIAL_GATE_PASS",
-  "publication_schedule": {
-    "mode": "ONE_POST_ONLY_AFTER_HUMAN_CHECK",
-    "scheduled_posts": 0,
-    "candidate_id": "C354",
-    "candidate_file": "data/editorial_candidate_c354_2026-10-07.json"
-  },
-  "selected_candidate": {
-    "candidate_id": "C354",
-    "state": "EDITORIAL_REVIEW",
-    "gate_result": "BLOCKED_HUMAN_WORD_FOR_WORD_CHECK",
-    "human_checked": false,
-    "editorial_reviewed": false,
-    "source_checked": true
-  },
-  "measurement_windows": ["1h", "6h", "24h", "72h", "7d"],
-  "primary_metrics": ["relative_account_baseline", "primary_action_rate"],
-  "required_candidate_fields": ["experiment_id", "candidate_id", "topic", "material_source", "mechanism", "primary_action", "expected_reader", "why_share", "why_reply", "why_follow", "novelty", "payload", "publication_format", "media_type", "published_at", "measurement_windows"],
-  "stopping_rules": ["editorial_gate_failure", "material_strength_insufficient", "severe_repetition", "observation_window_open", "missing_human_verified_feedback"],
-  "formula_states_unchanged": ["F01", "F02", "F03", "F04", "F05"]
+  "publication_schedule": null,
+  "selected_candidate": null,
+  "measurement_windows": [
+    "1h",
+    "6h",
+    "24h",
+    "72h",
+    "7d"
+  ],
+  "primary_metrics": [
+    "relative_account_baseline",
+    "primary_action_rate"
+  ],
+  "required_candidate_fields": [
+    "experiment_id",
+    "candidate_id",
+    "topic",
+    "material_source",
+    "mechanism",
+    "primary_action",
+    "expected_reader",
+    "why_share",
+    "why_reply",
+    "why_follow",
+    "novelty",
+    "payload",
+    "publication_format",
+    "media_type",
+    "published_at",
+    "measurement_windows"
+  ],
+  "stopping_rules": [
+    "editorial_gate_failure",
+    "material_strength_insufficient",
+    "severe_repetition",
+    "observation_window_open",
+    "missing_human_verified_feedback"
+  ],
+  "formula_states_unchanged": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05"
+  ],
+  "candidate_history": [
+    {
+      "candidate_id": "C354",
+      "state": "EDITORIAL_REVIEW",
+      "gate_result": "BLOCKED_HUMAN_WORD_FOR_WORD_CHECK",
+      "human_checked": false,
+      "editorial_reviewed": false,
+      "source_checked": true,
+      "final_state": "FAIL_REPETITIVE",
+      "secondary_reason": "FAIL_LOW_INTEREST",
+      "rejected_at_utc": "2026-10-07T02:07:51.271070Z"
+    }
+  ],
+  "scheduled_posts": 0,
+  "research_packet": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md"
 }

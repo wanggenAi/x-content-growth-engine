@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-07T00:00:00Z",
+  "updated_at": "2026-10-07T02:12:26.325190Z",
   "phase": "RESEARCH_ONLY_PUBLICATION_PAUSED_FOR_LEARNING",
   "checkpoints": {
     "environment_review": "done",
@@ -80,7 +80,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "User must word-for-word confirm data/editorial_candidate_c354_2026-10-07.json; then one visible manual C354 submission may proceed. Heartbeat cannot submit or batch-post.",
+  "next_action": "Deepen checked source materials and novel human-interest/real-stakes stories. C354 rejected as duplicate C338 and low interest; no candidate ready, no confirmation pending, no automatic publication.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -250,7 +250,7 @@
     "imported_into_runtime_db": false
   },
   "validation": {
-    "unit_tests": 16,
+    "unit_tests": 17,
     "new_research_integrity": "32 unique >10000-view records, UTC raw labels and agent provenance; 10 nonreply comparisons explicitly unmatched",
     "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
     "formula_validated": 0,
@@ -396,16 +396,15 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "updated_at": "2026-10-05T17:54:14Z",
-    "user_request": "Stop V2EX as primary; use recent dated events plus clearly labeled undated jokes/human-nature/political commentary; inspect >10k-view X posts without claiming causality.",
-    "applied_to": "C335-C339",
+    "updated_at": "2026-10-07T02:12:26.325190Z",
+    "user_request": "不行 还不够吸引人；仔细分析中国人心理、最感兴趣的人事物，使劲挖掘。",
+    "applied_to": "C354 rejected; new reader-interest research",
     "checks": [
-      "single conflict",
-      "concrete date/action/identity",
-      "clear judgment or boundary",
-      "self-report/joke/opinion labels",
-      "no unsupported group claims",
-      "text-first media unless evidence value"
+      "full campaign source dedup",
+      "real stakes and concrete people/actions/results",
+      "psychological explanations labeled editorial hypotheses",
+      "Chinese-platform primary studies with contrasting outcomes and scope",
+      "no ready candidate/no publication"
     ]
   },
   "source_material_round24": {
@@ -464,7 +463,7 @@
     "last_verified_at": "2026-10-05T17:54:14Z",
     "ready_count": 0,
     "remaining_new_publications": 843,
-    "next_action": "Research/review only; no automatic C354 submission."
+    "next_action": "Deepen checked source materials and novel human-interest/real-stakes stories. C354 rejected as duplicate C338 and low interest; no candidate ready, no confirmation pending, no automatic publication."
   },
   "editorial_feedback_history": [
     {
@@ -772,25 +771,22 @@
     "new_high_view_samples_this_batch": 0
   },
   "latest_editorial_self_review": {
-    "at_utc": "2026-10-06T05:42:42.781658Z",
-    "round": 42,
+    "at_utc": "2026-10-07T02:12:26.325190Z",
+    "state": "C354_REJECTED_RESEARCH_ONLY",
     "new_verified": 0,
     "published_ids": [],
-    "published_new_total": 157,
-    "total_with_baseline": 182,
-    "remaining": 843,
-    "ready": 0,
-    "queue": 353,
-    "state": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
-    "reason_less_than_five": "全国电话使用概括缺总体证据，Cookie技术说法仅来自未核评论，自拟电话文字回复仍是通用边界提醒，缺新动作与交付；不ready，不占C354。",
-    "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
-    "platform_blocker": null,
     "submission_attempts": 0,
-    "facts": {
-      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
-      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
-    },
-    "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new1high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+    "reason": "User rejected interest; C354 also duplicates C338. Two new drafts remain insufficient for publication; concrete material and Chinese-platform research recorded.",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_METRICS",
+    "platform_blocker": null,
+    "checks": {
+      "unit_tests": 17,
+      "result": "PASS",
+      "campaign_posts_unchanged_from_HEAD": true,
+      "publication_gate_ready": false,
+      "private_evidence_ignored": true,
+      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+    }
   },
   "high_view_structure_round32": {
     "file": "data/high_view_structure_round32_2026-10-06.json",
@@ -1098,8 +1094,9 @@
     "heartbeat_cannot": "submit or fill a main post",
     "pause_reasons": [
       "ready_count=0",
-      "feedback windows are not mature",
-      "new gate not yet reviewed"
+      "C354 rejected by user for low interest and found duplicate C338",
+      "new material/editorial gate incomplete",
+      "no reliable uniform feedback baseline"
     ],
     "next_publication_requires": [
       "EDITORIAL_GATE_PASS",
@@ -1182,12 +1179,53 @@
   "learning_experiment": {
     "file": "data/learning_experiment_30_2026-10-06.json",
     "id": "LE30-2026-10-06",
-    "status": "DESIGN_ONLY_PUBLICATION_PAUSED",
+    "status": "MATERIAL_RESEARCH_PUBLICATION_PAUSED",
     "capacity": 30,
     "scheduled_posts": 0,
     "primary_metrics": [
       "relative_account_baseline",
       "primary_action_rate"
     ]
-  }
+  },
+  "reader_interest_research": {
+    "file": "data/reader_interest_research_2026-10-07.json",
+    "report": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md",
+    "updated_at_utc": "2026-10-07T02:12:26.325190Z",
+    "state": "RESEARCH_ONLY",
+    "rejected_candidate": "C354",
+    "new_publications": 0,
+    "new_x_observations": 0,
+    "drafts_ready": 0,
+    "validation": {
+      "unit_tests": 17,
+      "result": "PASS",
+      "campaign_posts_unchanged_from_HEAD": true,
+      "publication_gate_ready": false,
+      "private_evidence_ignored": true,
+      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+    }
+  },
+  "editorial_self_review_history": [
+    {
+      "at_utc": "2026-10-06T05:42:42.781658Z",
+      "round": 42,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 157,
+      "total_with_baseline": 182,
+      "remaining": 843,
+      "ready": 0,
+      "queue": 353,
+      "state": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
+      "reason_less_than_five": "全国电话使用概括缺总体证据，Cookie技术说法仅来自未核评论，自拟电话文字回复仍是通用边界提醒，缺新动作与交付；不ready，不占C354。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new1high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+    }
+  ]
 }
