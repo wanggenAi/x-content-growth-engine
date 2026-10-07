@@ -1,7 +1,7 @@
 {
   "experiment_id": "LE30-UNIT01-C355",
   "candidate_id": "C355",
-  "status": "PREREGISTERED_PENDING_HUMAN_TEXT_REVIEW",
+  "status": "PUBLISHED_PENDING_FEEDBACK",
   "preregistered_at_utc": "2026-10-07T06:11:55.132068Z",
   "topic": "REALITY_FINANCIAL_STAKES / known brand revenue portfolio",
   "material_source": [
@@ -19,7 +19,7 @@
   "publication_version": "C355-P1",
   "publication_format": "single_text_with_primary_source_link",
   "media_type": "none_uploaded; source card to inspect",
-  "published_at": null,
+  "published_at": "2026-10-07T13:19:00Z",
   "publication_schedule": null,
   "measurement_windows": [
     "1h",
@@ -33,17 +33,17 @@
   "baseline": null,
   "baseline_missing_reason": "尚无经人工复核的统一窗口自帖基线；无基线时不得宣称相对改善",
   "stopping_conditions": [
-    "human text check absent",
     "gate fails or material judged weak",
     "same source or payoff already published",
     "visible X login/auth/rate-limit blocker",
     "single submit uncertainty: verify original URL, never resubmit",
+    "same experiment cell observation windows still open",
     "same experiment cell observation windows still open"
   ],
   "inference_limits": "单条探索，没有随机对照与holdout；不得升级F01-F05，不证明因果或中文读者普遍兴趣。",
   "feedback": {
     "1h": {
-      "status": "NOT_STARTED",
+      "status": "PENDING_WINDOW",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -55,7 +55,7 @@
       "human_reviewed": false
     },
     "6h": {
-      "status": "NOT_STARTED",
+      "status": "PENDING_WINDOW",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -67,7 +67,7 @@
       "human_reviewed": false
     },
     "24h": {
-      "status": "NOT_STARTED",
+      "status": "PENDING_WINDOW",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -79,7 +79,7 @@
       "human_reviewed": false
     },
     "72h": {
-      "status": "NOT_STARTED",
+      "status": "PENDING_WINDOW",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -91,7 +91,7 @@
       "human_reviewed": false
     },
     "7d": {
-      "status": "NOT_STARTED",
+      "status": "PENDING_WINDOW",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -103,6 +103,27 @@
       "human_reviewed": false
     }
   },
-  "submission_attempts": 0,
-  "new_publications": 0
+  "submission_attempts": 1,
+  "new_publications": 1,
+  "publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+  "feedback_start_utc": "2026-10-07T13:19:00Z",
+  "public_detail_initial_capture": {
+    "captured_at_utc": "2026-10-07T13:24:19Z",
+    "displayed_time": "9:19 PM · Oct 7, 2026",
+    "seconds": null,
+    "views": 1,
+    "reposts": 0,
+    "likes": 0,
+    "replies": 0,
+    "quotes": 0,
+    "bookmarks": 0,
+    "note": "即时页面捕获，不纳入足龄窗口，不用于宣称曝光改善。"
+  },
+  "verification": {
+    "single_submission": true,
+    "editor_closed": true,
+    "public_detail_reloaded": true,
+    "verified_at_utc": "2026-10-07T13:24:19Z",
+    "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD"
+  }
 }

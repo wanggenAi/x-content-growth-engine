@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-07T06:13:13.753551Z",
-  "phase": "EDITORIAL_REVIEW_PUBLICATION_PAUSED_FOR_HUMAN_TEXT_CHECK",
+  "updated_at": "2026-10-07T13:24:19Z",
+  "phase": "PUBLISHED_PENDING_FEEDBACK_PUBLICATION_PAUSED_FOR_LEARNING",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -33,7 +33,7 @@
     "source_led_batch2": "4_published_independent_detail_pages_verified",
     "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
     "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
-    "latest_campaign_round": "round32:7 new direct >10k detail bodies+1 low-view original; C344 edited version and C343 correction reply independently verified. Campaign148/852/ready0/queue344 unchanged. No new series to fill quality target.",
+    "latest_campaign_round": "C355单条财报收入组合实验已发布并独立详情重载核验；158/842/183/ready0/queue353；反馈窗待到，F01-F05仍HYPOTHESIS。",
     "latest_editorial_steer": "Oct5: stop V2EX main source. Recent verifiable events preferred; undated jokes/human-nature/political commentary allowed when clearly framed. Directly inspect >10k-view X posts; high-view counts remain observations, not formulas.",
     "round33": {
       "unit_tests_passed": 16,
@@ -41,7 +41,8 @@
       "automation_configuration": "PASS",
       "runtime_audit_scope": "旧SQLite seed11链接13观察未导入本批原生JSON，旧索引/未知粉丝问题不等于当前campaign指标",
       "checked_at_utc": "2026-10-05T20:26:36.289822Z"
-    }
+    },
+    "editorial_growth_control": "publication paused after one C355 experiment; no batch automation"
   },
   "counts": {
     "x_posts": 11,
@@ -60,27 +61,30 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 157,
+    "verified_account_publications": 158,
     "unpublished_candidates": 16,
     "agent_observed_viral_posts": 74,
     "agent_observed_exploratory_comparisons": 28,
-    "campaign_verified_new_publications": 157,
-    "verified_total_series": 182,
-    "published_new": 157,
-    "remaining_new_publications": 843,
+    "campaign_verified_new_publications": 158,
+    "verified_total_series": 183,
+    "published_new": 158,
+    "remaining_new_publications": 842,
     "rolling_work_queue_count": 353,
     "ready_count": 0,
-    "latest_publication_id": "C353",
+    "latest_publication_id": "C355",
     "baseline_verified_publications": 25,
-    "total_verified_series": 182,
-    "latest_candidate_id": "C353",
-    "editorial_drafts_unpublished": 1
+    "total_verified_series": 183,
+    "latest_candidate_id": "C355",
+    "editorial_drafts_unpublished": 1,
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C355-P1 human word-for-word text review; then one native visible Chrome publication experiment. No heartbeat/batch submission.",
+  "next_action": "C355已单次发布并独立详情重载核验；等待1h/6h/24h/72h/7d反馈窗，保持PUBLICATION_PAUSED_FOR_LEARNING，不自动批量发布。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -322,27 +326,27 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 157,
+    "published_new": 158,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 182,
-    "remaining_new_publications": 843,
+    "total_verified_series": 183,
+    "remaining_new_publications": 842,
     "rolling_work_queue_count": 353,
-    "latest_publication_id": "C353",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107283617504453067",
-    "latest_publication_verified_at": "2026-10-06T01:37:41.926Z",
-    "latest_candidate_id": "C353",
-    "latest_candidate_source": "ORIGINAL_EXPLICIT_HYPOTHETICAL_SCENE",
-    "latest_candidate_checked_at": "2026-10-06T01:33:55.037425Z",
+    "latest_publication_id": "C355",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
+    "latest_candidate_id": "C355",
+    "latest_candidate_source": "COMPANY_INTERIM_RESULTS_PRIMARY",
+    "latest_candidate_checked_at": "2026-10-07T13:24:19Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "published_count": 157,
+    "published_count": 158,
     "ready_count": 0,
-    "updated_at": "2026-10-06T01:38:54.566163Z",
+    "updated_at": "2026-10-07T13:24:19Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
     "control_role": "NOT_A_CONTROL_VARIABLE",
     "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
-    "publication_mode": "PAUSED_PENDING_EDITORIAL_GATE_REVIEW"
+    "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK"
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -360,14 +364,14 @@
     "latest_input_failure": null,
     "latest_ui_misclick": "round32 full-AX index remap led to Near you search filter click; no public/account action, later search confirmed Anywhere; fresh indices required",
     "latest_input_recovery": "2026-10-05T19:40:38Z: C340-C344已完成native paste、可见截图、单次提交和独立详情页核验。setValue不能作为有效输入事件证据。",
-    "latest_publication_id": "C344",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107197241626878145",
-    "latest_publication_verified_at": "2026-10-05T19:53:26.247253Z",
-    "latest_candidate_id": "C344",
-    "latest_candidate_source": "https://bbs.wenxuecity.com/myhouse/15955539.html",
-    "latest_candidate_checked_at": "2026-10-05T18:08:35Z",
+    "latest_publication_id": "C355",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
+    "latest_candidate_id": "C355",
+    "latest_candidate_source": "COMPANY_INTERIM_RESULTS_PRIMARY",
+    "latest_candidate_checked_at": "2026-10-07T13:24:19Z",
     "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-    "next_action": "按round32新的7条万次浏览正文和1条低浏览原帖反例，研究C345起非V2EX近期素材或明确标注的原创段子/观点；先写能独立成立的场景与冲突，不继续把论坛摘要当全部内容。每轮最多5条，质量不过不凑数。",
+    "next_action": "C355反馈窗1h/6h/24h/72h/7d待到；保持PUBLICATION_PAUSED_FOR_LEARNING，不自动发下一条。",
     "latest_style_review_note": "New7 direct high-view full bodies and1 same-author low-view original; concrete scenarios do not guarantee reach. Stop explanatory summary template; separate original dialogue/opinion from sourced fact."
   },
   "pause_diagnosis": {
@@ -387,7 +391,7 @@
     "follow_up_at": "2026-10-02T21:46:20Z",
     "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
   },
-  "own_post_feedback": "Current small visible comparison and account analytics stored only in ignored data/private/content_review_2026-10-04. Higher own views still lack visible interactions; not a proven formula or causal distribution diagnosis.",
+  "own_post_feedback": "C355反馈窗已开启；即时页面捕获1 View/0互动仅作起始记录，未到足龄窗口，不宣称曝光改善。",
   "latest_style_feedback": {
     "at": "2026-10-05T09:22:00Z",
     "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
@@ -436,13 +440,16 @@
     "prompt_latest_publication": "C353",
     "prompt_published_new": 157,
     "latest_editorial_spec": "docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md",
-    "latest_publication_id": "C353",
-    "published_new": 157,
+    "latest_publication_id": "C355",
+    "published_new": 158,
     "ready": 0,
     "next_candidate_id": "C354",
     "note": "Historical ACTIVE/5-minute records are retained for audit; current automation may research or prepare review only and must not submit posts or start C354.",
     "latest_version_url": "https://x.com/qiluo27808/status/2107283617504453067",
-    "current_control": "RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING"
+    "current_control": "RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING",
+    "remaining_new_publications": 842,
+    "latest_candidate_id": "C355",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -450,7 +457,9 @@
     "automation_status": "PAUSED",
     "interval_minutes": 5,
     "current_blocker": "PUBLICATION_PAUSED_FOR_LEARNING",
-    "candidate_ids": [],
+    "candidate_ids": [
+      "C355"
+    ],
     "verified_ids": [
       "C335",
       "C336",
@@ -458,12 +467,12 @@
       "C338",
       "C339"
     ],
-    "last_verified_id": "C339",
-    "last_verified_url": "https://x.com/qiluo27808/status/2107167051890794839",
-    "last_verified_at": "2026-10-05T17:54:14Z",
+    "last_verified_id": "C355",
+    "last_verified_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "last_verified_at": "2026-10-07T13:24:19Z",
     "ready_count": 0,
-    "remaining_new_publications": 843,
-    "next_action": "Deepen checked source materials and novel human-interest/real-stakes stories. C354 rejected as duplicate C338 and low interest; no candidate ready, no confirmation pending, no automatic publication."
+    "remaining_new_publications": 842,
+    "next_action": "等待C355实验反馈窗；不恢复批量，不自动发C356。"
   },
   "editorial_feedback_history": [
     {
@@ -626,7 +635,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": null,
+  "current_blocker": "PUBLICATION_PAUSED_FOR_LEARNING",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -747,11 +756,11 @@
       "single_submit_each": true
     }
   },
-  "verified_publications": 157,
-  "remaining_new_publications": 843,
+  "verified_publications": 158,
+  "remaining_new_publications": 842,
   "ready_count": 0,
   "rolling_work_queue_count": 353,
-  "latest_candidate_id": "C353",
+  "latest_candidate_id": "C355",
   "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
   "latest_candidate_checked_at": "2026-10-06T01:33:55.037425Z",
   "community_publication_batch7": {
@@ -1254,5 +1263,6 @@
       "gate_ready": false,
       "only_gate_reason": "human_checked must be true before manual publication review"
     }
-  }
+  },
+  "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK"
 }

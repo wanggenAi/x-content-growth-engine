@@ -1,7 +1,7 @@
 {
   "research_id": "INTEREST-2026-10-07",
-  "updated_at_utc": "2026-10-07T06:13:13.753551Z",
-  "status": "RESEARCH_ONLY",
+  "updated_at_utc": "2026-10-07T13:24:19Z",
+  "status": "PUBLISHED_PENDING_FEEDBACK",
   "user_steer": "淘汰弱稿，深挖中文读者最感兴趣的具体人物、事件、利益、资源和奇观；不只写关系道理。",
   "sources": [
     {
@@ -225,5 +225,8 @@
       "human_checked must be true before manual publication review"
     ],
     "new_publications": 0
-  }
+  },
+  "latest_publication_id": "C355",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+  "publication_note": "C355单条强素材实验已发布；窗口未到，不升级兴趣线或公式。"
 }

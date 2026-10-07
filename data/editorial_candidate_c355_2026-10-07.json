@@ -1,6 +1,6 @@
 {
   "candidate_id": "C355",
-  "state": "EDITORIAL_REVIEW",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
   "created_at_utc": "2026-10-07T06:11:55.132068Z",
   "research_version": "C355-R1",
   "publication_version": "C355-P1",
@@ -39,14 +39,14 @@
     }
   ],
   "fact_check_status": "PRIMARY_PDF_TABLE_VISUALLY_CHECKED; same first-half periods and RMB thousand units; arithmetic checked; Chinese name checked against original financial reporting",
-  "human_checked": false,
+  "human_checked": true,
   "agent_checked": true,
-  "manual_visible_editor_review": "NOT_STARTED_HUMAN_TEXT_REVIEW_PENDING",
+  "manual_visible_editor_review": "COMPLETE_NATIVE_EDITOR_SCREENSHOT",
   "publication_format": "single_text_with_primary_source_link",
   "media_type": "none_uploaded; native_source_card_unknown_until_editor",
-  "submission_attempts": 0,
-  "published_at": null,
-  "url": null,
+  "submission_attempts": 1,
+  "published_at": "2026-10-07T13:19:00Z",
+  "url": "https://x.com/qiluo27808/status/2107823209806713075",
   "novelty_dimensions": {
     "semantic_repetition": "NO_SAME_SOURCE_PAYLOAD_FOUND",
     "hook_repetition": "numeric contrast exists historically; named IP revenue direction and hidden growth amount are new",
@@ -68,11 +68,27 @@
     "company_growth_percent_rounded": 23.8
   },
   "gate_validation": {
-    "checked_at_utc": "2026-10-07T06:13:13.753551Z",
-    "ready": false,
-    "reasons": [
-      "human_checked must be true before manual publication review"
-    ],
-    "agent_review_complete": true
+    "checked_at_utc": "2026-10-07T13:24:19Z",
+    "ready": true,
+    "reasons": [],
+    "agent_review_complete": true,
+    "human_authorization_recorded": true
+  },
+  "human_checked_at_utc": "2026-10-07T13:24:19Z",
+  "human_checked_reason": "用户明确授权直接发布C355-P1；不冒充用户逐字阅读。",
+  "verified_at": "2026-10-07T13:24:19Z",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "editor_closed_after_submit": true,
+  "publication_verification": {
+    "single_submission": true,
+    "editor_closed": true,
+    "public_detail_reload": true,
+    "account": "@qiluo27808",
+    "displayed_time": "9:19 PM · Oct 7, 2026",
+    "seconds": null,
+    "source_target": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+    "source_rendering": "t.co/yCYLxrCH3T",
+    "uploaded_media": false,
+    "captured_at_utc": "2026-10-07T13:24:19Z"
   }
 }
