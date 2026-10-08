@@ -743,3 +743,8 @@ C358公开URL：https://x.com/qiluo27808/status/2108104588360581629；主页223 
 ## 2026-10-08T08:48:22.847Z — C357 1h反馈窗到期维护
 
 本地检查发现 C357 的 1h 窗口在 `2026-10-08T08:48:00Z` 到期；截至 `2026-10-08T08:48:22.847Z` 没有人工提供的真实来源、截图路径和 `human_checked` 标记。已将 `data/private/publication_2026-10-08/C357-feedback.json` 的 1h 状态设为 `DUE_MISSING`，记录检查时帖子年龄约60.38分钟；views、互动、停留、关注、点击及 `observed_at_utc` 保持 null，证据引用为空。C356 继续作为低兴趣负例，C358 1h仍PENDING；不改变发布暂停，不升级 F01–F05 或任何公式。
+
+
+## 2026-10-08T08:58:22.906Z — C358 1h反馈窗到期维护
+
+本地检查发现 C358 的 1h 窗口在 `2026-10-08T08:57:00Z` 到期；截至 `2026-10-08T08:58:22.906Z` 没有人工提供的真实来源、截图路径和 `human_checked` 标记。已将 `data/private/publication_2026-10-08/C358-feedback.json` 的 1h 状态设为 `DUE_MISSING`，记录检查时帖子年龄约61.38分钟；views、互动、停留、关注、点击及 `observed_at_utc` 保持 null，证据引用为空。C356 继续作为低兴趣负例，C357 1h同为DUE_MISSING，后续6h窗口仍PENDING；不改变发布暂停，不升级 F01–F05 或任何公式。
