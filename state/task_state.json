@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T07:57:00Z",
+  "updated_at": "2026-10-08T08:48:22.847Z",
   "phase": "THREE_POST_ROUND_COMPLETE_PENDING_FEEDBACK",
   "checkpoints": {
     "environment_review": "done",
@@ -399,7 +399,7 @@
     "follow_up_at": "2026-10-02T21:46:20Z",
     "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
   },
-  "own_post_feedback": "历史21条快照完成探索性回测，严格24h合格0；C355的1h/6h已到但缺记录，DUE_MISSING，不回填；尚无机制VERIFIED_ON_OWN_ACCOUNT。",
+  "own_post_feedback": "C356保留低兴趣负例；C357 1h窗口DUE_MISSING（到期检查时帖子年龄约60.38分钟，无人工证据）；C358 1h仍PENDING。不得据此升级F01-F05或任何公式。",
   "latest_style_feedback": {
     "at": "2026-10-05T09:22:00Z",
     "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
@@ -1403,5 +1403,10 @@
     "remaining": 0,
     "selected_replacement": "C358",
     "selected_replacement_status": "C358_P1_SOURCE_DEDUP_GATE_PASSED_AND_PUBLICLY_VERIFIED"
+  },
+  "feedback_window_maintenance": {
+    "last_checked_at_utc": "2026-10-08T08:48:22.847Z",
+    "changed": "C357 1h -> DUE_MISSING",
+    "evidence_rule": "无human_checked和证据引用时指标保持null，不回填。"
   }
 }
