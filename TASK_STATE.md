@@ -890,6 +890,13 @@ round42验证：16测试、campaign/两份状态计数、正文不变、原始�
 - 固定窗口保存实际观测时间、实际帖龄、目标窗口、偏移和分层容差；分发不确定性与内容失败分开；评论保留正文和 `activation_prediction_match`。C355 仍是原 `SHARE` 实验，V2 只做发布后的独立回顾，不改原始链接、正文或预注册。
 - 校验：34项标准库测试通过；JSON、重建脚本与 `git diff --check` 待本轮提交前再次复核。`VERIFIED_ON_OWN_ACCOUNT` 仍无机制满足。
 
+## 2026-10-08T02:14:44Z — 推送与 CI 回执
+
+- Reader Value V2 实现、28条分层样本、12槽位前瞻实验和状态记录已提交为 `20a87f5aa880799cbba57cf77176b447c5965e13`，推送 `origin/feature/x-research-phase2` 成功。
+- PR #5：<https://github.com/wanggenAi/x-content-growth-engine/pull/5>，状态仍 `OPEN`；base `main`，head 为上述提交。
+- GitHub Actions 两条 `unittest` 均成功：run `37716626105`、`37716621863`。本地 34 项测试、JSON 校验和 `git diff --check` 通过。
+- 仅保留用户已有的 `data/source_materials_round14_2026-10-02.json` 至 `round20_2026-10-03.json` 未跟踪文件，未加入提交。
+
 
 ## 2026-10-07T13:24:19Z — C355 单条发布、详情重载核验与反馈窗
 
