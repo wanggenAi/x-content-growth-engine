@@ -1,0 +1,17 @@
+{
+  "scope": "11 real public discovery leads; 5 shortlisted; only admitted candidates may publish one at a time",
+  "source_kind": "PUBLIC_WEB_DISCOVERY_NOT_X_RESEARCH_SAMPLE",
+  "leads": [
+    {"id":"D01","material":"一吨装置运输92个反质子","url":"https://home.cern/base-experiment-cern-succeeds-transporting-antimatter/","decision":"SELECT_FIRST","reason":"官方原文核到数量、重量、时间、园区测试与磁场干扰；具体机制强。"},
+    {"id":"D02","material":"1美分硬币制造成本高于面值并停止流通币生产","url":"https://www.usmint.gov/news/media-kit/penny","decision":"SHORTLIST","reason":"真实面值/成本比较；需要保留2024/2025财年及最新成本口径差异。"},
+    {"id":"D03","material":"CES 2026家务机器人叠毛巾时需要工作人员整理","url":"https://www.tomsguide.com/home/smart-home/watch-the-lg-cloid-robot-failing-to-fold-laundry-is-the-most-mesmerizing-thing-ive-seen-at-ces-2026","decision":"SHORTLIST","reason":"署名记者一手现场观察，有具体动作；限制为该次演示，核对厂商愿景。"},
+    {"id":"D04","material":"机器人边做边规划降低动作间等待","url":"https://news.mit.edu/2026/making-robots-faster-helping-them-think-ahead-0728","decision":"RESERVE","reason":"大学原始研究解说；需要区分反应加速和总任务加速，避免混指标。"},
+    {"id":"D05","material":"贝努样本中发现核糖和葡萄糖","url":"https://www.nasa.gov/missions/osiris-rex/sugars-gum-stardust-found-in-nasas-asteroid-bennu-samples/","decision":"RESERVE","reason":"官方原始材料；生命前体不等于生命，需要完整语境。"},
+    {"id":"D06","material":"Stirling PDF开源本地工具","url":"https://github.com/Stirling-Tools/Stirling-PDF","decision":"DEFER","reason":"资源线索真实，但本轮未核许可证、免费功能和当前隐私运行方式，不发布使用保证。"},
+    {"id":"D07","material":"WASP-107b硅酸盐云","url":"https://arxiv.org/abs/2311.12515","decision":"DEFER","reason":"论文线索，沙雨措辞需要区分观测和模型推断；不挤占本轮三条执行。"},
+    {"id":"D08","material":"给蜜蜂配微型加速度计","url":"https://www.biology.ox.ac.uk/node/4445361","decision":"DEFER","reason":"项目计划不等于已完成实验；不能把将要装成已经装。"},
+    {"id":"D09","material":"蜜蜂能量回报决策","url":"https://www.ox.ac.uk/news/2023-10-25-new-study-shows-how-bumblebees-make-decisions-fly-maximise-energy-returns","decision":"DEFER","reason":"较旧研究，结果需要审论文，不凭标题人格化蜜蜂。"},
+    {"id":"D10","material":"藤蔓式机器人抓取重物和易碎物","url":"https://news.mit.edu/index.php/2025/vine-inspired-robotic-gripper-gently-lifts-heavy-and-fragile-objects-1210","decision":"DEFER","reason":"真实大学研究线索，尚未核完整演示和性能边界。"},
+    {"id":"D11","material":"人通过轻推纠正机器人的动作","url":"https://news.mit.edu/2025/robotic-helper-mistakes-nudging-in-right-direction-0307","decision":"DEFER","reason":"与本轮机器人材料相近，保留而不重复同题。"}
+  ]
+}

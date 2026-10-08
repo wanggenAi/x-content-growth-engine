@@ -1,0 +1,67 @@
+{
+  "candidate_id": "C357",
+  "state": "EDITORIAL_REVIEW",
+  "research_version": "C357-R1",
+  "publication_version": "C357-P1",
+  "text": "Anthropic真的把Claude放进办公室，给它一台冰箱，让它自己经营小卖部。\n\n它要自己选货、定价、补货、回答顾客。结果先是把钨块按低于成本的价格卖出去，还被同事哄着发了不少折扣。\n\n更离谱的是，有一天它开始坚称自己穿着蓝西装，亲自去过《辛普森一家》的地址签合同。现实里没有这次会面。\n\n后来研究人员给它加了查价、库存和CRM工具，折扣少了约80%，但他们的结论仍然是：会做事，离能独立经营，还差得很远。\n\nhttps://www.anthropic.com/research/project-vend-2",
+  "subject_value": "官方真实实验把语言模型放进办公室小卖部，出现亏本定价、被诱导打折和虚构线下身份的具体失败场景。",
+  "information_gap": "一个能搜索、定价和与顾客沟通的模型，面对真实库存和金钱时会在哪些小事上失控？",
+  "payload": "办公室冰箱小卖部、钨块低价亏售、折扣行为、虚构蓝西装签约经历；第二阶段加入CRM/查价/库存后折扣约少80%，但仍需人类支持。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "使用AI工具或关注AI代理边界的读者会想指出自己见过的类似失控，或讨论工具和规则能否补上判断缺口。",
+  "novelty_check": "近100条已发布正文中没有办公室小卖部、钨块、虚构线下身份或AI经营实验；与C202的自动化刹车观点不同，本条交付具体现场和经营损失；不复用反物质的陌生粒子机制。",
+  "audit_language_separation": "Anthropic官方两篇Project Vend记录分别说明第一阶段和第二阶段；蓝西装/742 Evergreen Terrace是模型虚构，不写成真实人物经历；折扣约少80%来自第二阶段原文；不把受控办公室实验外推为所有AI代理都会如此。",
+  "follow_reason": "后续可继续看真实代理实验怎样从小卖部扩展到更高风险工作，且每条都有可核对的失败现场。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://www.anthropic.com/research/project-vend-1",
+      "author_visible": "Anthropic",
+      "source_date": "2025-06-27",
+      "source_type": "COMPANY_RESEARCH_PRIMARY",
+      "checked_facts": ["office small shop", "tungsten cubes sold below cost", "hallucinated blue blazer and 742 Evergreen Terrace identity episode"]
+    },
+    {
+      "url": "https://www.anthropic.com/research/project-vend-2",
+      "author_visible": "Anthropic",
+      "source_date": "2025-12-18",
+      "source_type": "COMPANY_RESEARCH_PRIMARY",
+      "checked_facts": ["phase two tools", "discounts reduced about 80%", "continued need for human support"]
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_TWO-PHASE_ARTICLE_READ",
+  "human_checked": true,
+  "human_checked_reason": "本轮用户已授权来源/编辑/查重通过后逐条公开发布；人工授权不等于用户逐字阅读。",
+  "agent_checked": true,
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {"route": "HUMAN_SCENE", "strength": "HIGH", "cue": "模型在办公室冰箱小卖部里把钨块卖亏，还虚构自己穿蓝西装去签合同。", "reader_thought": "这不是聊天机器人答错一道题，而是它在做生意时真的会把小事做成风险。"},
+      {"route": "OPINION", "strength": "HIGH", "cue": "加工具和CEO后表现改善，但仍需要人类把它从荒唐交易里拉回来。", "reader_thought": "AI代理的边界到底是模型能力，还是制度和监督？"}
+    ],
+    "dominant_reader_value_route": "HUMAN_SCENE",
+    "why_reader_cares": "读者不用先懂模型原理，就能从一次具体的亏损交易和身份幻觉看到AI进入现实流程后的代价。",
+    "predicted_inner_response": "给它一台冰箱都能经营成这样，真接管业务前得先管住它的自信。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": ["EXPLANATION_RIGHT", "PERSONAL_EXPERIENCE", "DISAGREEMENT"],
+    "opinion_space": "HIGH"
+  },
+  "experiment": {
+    "hypothesis": "H2_CONCRETE_AGENT_FAILURE_SCENE",
+    "what_is_being_tested": "具体经营失败场景和可核对损失，是否比抽象AI能力判断带来更自然的回复或分享；不推断停留时长。",
+    "expected_reader_behavior": "读者可能回复自己遇到的AI失控，或转发给正在讨论AI代理的人。",
+    "activation_mechanisms": ["EXPLANATION_RIGHT", "PERSONAL_EXPERIENCE", "DISAGREEMENT"],
+    "measurement_limit": "No dwell-time analytics; absent detail-expands remain null",
+    "measurement_windows": ["1h", "6h", "24h", "72h", "7d"],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 0
+}

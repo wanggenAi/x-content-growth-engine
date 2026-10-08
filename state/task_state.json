@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T02:14:44Z",
-  "phase": "READER_VALUE_V2_PROSPECTIVE_DESIGN",
+  "updated_at": "2026-10-08T06:11:56.322419Z",
+  "phase": "EDITORIAL_RESELECTION_AFTER_USER_REJECTION",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -42,7 +42,7 @@
       "runtime_audit_scope": "旧SQLite seed11链接13观察未导入本批原生JSON，旧索引/未知粉丝问题不等于当前campaign指标",
       "checked_at_utc": "2026-10-05T20:26:36.289822Z"
     },
-    "editorial_growth_control": "publication paused after one C355 experiment; no batch automation",
+    "editorial_growth_control": "User explicitly authorizes three one-at-a-time source-checked publications this round; no heartbeat/bulk posting",
     "reader_value_v2": "implemented; route-specific validation and bounded stratified sample committed; no formula promoted",
     "prospective_experiment": "READER_VALUE_PROSPECTIVE_2026_10_08 designed_not_scheduled; 12 slots across H1/H2/H3",
     "fixed_window_tolerances": "1h±20m, 6h±30m, 24h±60m, 72h±180m, 7d±360m; actual age/offset retained"
@@ -87,7 +87,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "先按READER_VALUE_V2对前瞻槽位逐条取材和人工闸门审查；C355保持SHARE原实验及历史链接，固定窗缺失不可回填；不自动发C356或批量。",
+  "next_action": "C357 is a concrete replacement candidate pending native visible editor recovery; do not submit C358 until a stronger distinct material is source-checked.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -408,16 +408,10 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "updated_at": "2026-10-07T02:12:26.325190Z",
-    "user_request": "不行 还不够吸引人；仔细分析中国人心理、最感兴趣的人事物，使劲挖掘。",
-    "applied_to": "C354 rejected; new reader-interest research",
-    "checks": [
-      "full campaign source dedup",
-      "real stakes and concrete people/actions/results",
-      "psychological explanations labeled editorial hypotheses",
-      "Chinese-platform primary studies with contrasting outcomes and scope",
-      "no ready candidate/no publication"
-    ]
+    "at_utc": "2026-10-08T05:47:46.285835Z",
+    "candidate_id": "C356",
+    "verbatim": "你发的啥垃圾帖子 那什么反物质 有啥吸引人的？？？ 没觉得啊",
+    "decision": "Reject isolated rarity as sufficient interest; replace remaining candidates; factual publication kept distinct from editorial success."
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -1283,7 +1277,7 @@
       "scope": "Retrospective already-published C355; no new publication authorization or submission"
     }
   },
-  "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK",
+  "publication_mode": "USER_AUTHORIZED_THREE_SEQUENTIAL_VISIBLE_PUBLICATIONS",
   "reader_model_research": {
     "model_version": "SELF_MIRRORING_V1",
     "claim_status": "HYPOTHESIS",
@@ -1381,5 +1375,24 @@
       ],
       "scope": "Reader Value V2 implementation, bounded sample and prospective design; PR remains OPEN; following receipt checkpoint only changes saved state/docs."
     }
+  },
+  "publication_round_2026_10_08": {
+    "status": "ONE_VERIFIED_USER_REJECTED_C357_REVIEW_PENDING",
+    "requested": 3,
+    "published_verified": 1,
+    "discovery_file": "data/publication_discovery_2026-10-08.json",
+    "authorization": "User attachment 7fa1c98a explicitly authorizes three sequential reviewed X posts without repeated permission questions",
+    "prior_publication_pause": "SUPERSEDED_FOR_THIS_THREE_POST_ROUND_ONLY",
+    "heartbeat_auto_submit": false,
+    "posts": [
+      {
+        "id": "C356",
+        "url": "https://x.com/qiluo27808/status/2108070210884567465",
+        "editorial_outcome": "USER_REJECTED_LOW_INTEREST"
+      }
+    ],
+    "remaining": 2,
+    "selected_replacement": "C357",
+    "selected_replacement_status": "EDITORIAL_REVIEW_NOT_SUBMITTED"
   }
 }
