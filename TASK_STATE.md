@@ -969,3 +969,7 @@ C359已实际单次发布：https://x.com/qiluo27808/status/2108184801950020030�
 ## 2026-10-08T13:52:23.912Z — C357 6h反馈窗到期维护
 
 C357的6h窗口于`2026-10-08T13:48:00Z`到期。截至`2026-10-08T13:52:23.912Z`，没有人工提供的真实来源、截图路径和`human_checked`标记，已在ignored反馈记录标记`DUE_MISSING`。检查时帖子年龄约364.4分钟单独记录，发布时间秒数未知；views、互动、停留、关注、点击及`observed_at_utc`保持null，证据引用为空。C356仍是用户否定的低兴趣负例；C358的6h仍PENDING，C359的1h仍PENDING。保持`PUBLICATION_PAUSED_FOR_LEARNING`，不操作X、不新增候选、不升级公式。
+
+## 2026-10-08T13:57:53.885Z — C358 6h反馈窗到期维护
+
+C358的6h窗口于`2026-10-08T13:57:00Z`到期。截至`2026-10-08T13:57:53.885Z`，没有人工提供的真实来源、截图路径和`human_checked`标记，已在ignored反馈记录标记`DUE_MISSING`。检查时帖子年龄约360.9分钟单独记录，发布时间秒数未知；views、互动、停留、关注、点击及`observed_at_utc`保持null，证据引用为空。C356仍是用户否定的低兴趣负例；C357的6h也为DUE_MISSING，C359的1h仍PENDING。保持`PUBLICATION_PAUSED_FOR_LEARNING`，不操作X、不新增候选、不升级公式。
