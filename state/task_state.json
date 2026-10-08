@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T13:57:53.885Z",
+  "updated_at": "2026-10-08T14:17:54.002Z",
   "phase": "C359_ENTREPRENEUR_POST_VERIFIED_PENDING_COMMENTS",
   "checkpoints": {
     "environment_review": "done",
@@ -17,7 +17,7 @@
     "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "C356为用户否定低兴趣负例，1h与6h均DUE_MISSING；C357的1h与6h均DUE_MISSING，C358的1h与6h均DUE_MISSING，C357/C358/C359暂无人工核验指标或完整评论证据；不得据此升级F01-F05或任何公式。",
+    "own_post_feedback": "C356为用户否定低兴趣负例，1h与6h均DUE_MISSING；C357的1h与6h均DUE_MISSING，C358的1h与6h均DUE_MISSING，C359的1h为DUE_MISSING；C357/C358/C359暂无人工核验指标或完整评论证据；不得据此升级F01-F05或任何公式。",
     "live_github_recovery": "done",
     "local_tests_and_seed_replay": "16 tests passed; round32 JSON/campaign counts148/0/852/344 and version/correction consistency checked. CLI seed audit remains old-index-only with unknown follower denominators, not a report on native evidence JSON; no formula validated.",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
