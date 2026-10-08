@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T11:41:53.412Z",
-  "phase": "THREE_POST_ROUND_COMPLETE_PENDING_FEEDBACK",
+  "updated_at": "2026-10-08T13:21:38.476592Z",
+  "phase": "C359_ENTREPRENEUR_POST_VERIFIED_PENDING_COMMENTS",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -64,30 +64,30 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 161,
+    "verified_account_publications": 162,
     "unpublished_candidates": 16,
     "agent_observed_viral_posts": 74,
     "agent_observed_exploratory_comparisons": 28,
-    "campaign_verified_new_publications": 161,
-    "verified_total_series": 186,
-    "published_new": 161,
-    "remaining_new_publications": 839,
-    "rolling_work_queue_count": 354,
+    "campaign_verified_new_publications": 162,
+    "verified_total_series": 187,
+    "published_new": 162,
+    "remaining_new_publications": 838,
+    "rolling_work_queue_count": 358,
     "ready_count": 0,
-    "latest_publication_id": "C358",
+    "latest_publication_id": "C359",
     "baseline_verified_publications": 25,
-    "total_verified_series": 186,
-    "latest_candidate_id": "C358",
+    "total_verified_series": 187,
+    "latest_candidate_id": "C359",
     "editorial_drafts_unpublished": 1,
-    "latest_publication_url": "https://x.com/qiluo27808/status/2108104588360581629",
-    "latest_publication_verified_at": "2026-10-08T08:00:34.790496Z",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108184801950020030",
+    "latest_publication_verified_at": "2026-10-08T13:19:51.374823Z",
     "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK"
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "Record C357/C358 fixed feedback windows when due; do not auto-submit or claim attraction before observations.",
+  "next_action": "Observe C359 genuine reader comments in fixed windows; prioritize primary-source entrepreneur and major AI breakthrough materials; no heartbeat auto-posting.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -333,23 +333,23 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 161,
+    "published_new": 162,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 186,
-    "remaining_new_publications": 839,
-    "rolling_work_queue_count": 354,
-    "latest_publication_id": "C358",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2108104588360581629",
-    "latest_publication_verified_at": "2026-10-08T08:00:34.790496Z",
-    "latest_candidate_id": "C358",
-    "latest_candidate_source": "FIRST_HAND_JOURNALIST_INTERVIEWS_OFFICIAL_PUBLISHER_ACCOUNT",
-    "latest_candidate_checked_at": "2026-10-08T08:00:34.790496Z",
+    "total_verified_series": 187,
+    "remaining_new_publications": 838,
+    "rolling_work_queue_count": 358,
+    "latest_publication_id": "C359",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108184801950020030",
+    "latest_publication_verified_at": "2026-10-08T13:19:51.374823Z",
+    "latest_candidate_id": "C359",
+    "latest_candidate_source": "FIRST_PARTY_INTERVIEW_TRANSCRIPT_AND_VIDEO",
+    "latest_candidate_checked_at": "2026-10-08T13:19:51.374823Z",
     "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-    "published_count": 158,
+    "published_count": 162,
     "ready_count": 0,
-    "updated_at": "2026-10-08T07:57:00Z",
+    "updated_at": "2026-10-08T13:19:51.374823Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
     "control_role": "NOT_A_CONTROL_VARIABLE",
     "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
@@ -408,9 +408,9 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "at_utc": "2026-10-08T07:46:54.712230Z",
-    "verbatim": "对你的 你的内容 一定要是 人们高度会被吸引到的内容才可以  继续吧",
-    "decision": "Renewed continuation and publication authorization; stronger concrete conflict/result required; no assumption of guaranteed audience response."
+    "at_utc": "2026-10-08T13:15:00.745596Z",
+    "verbatim": "为什么还没发布 赶紧发布  另外 需要多关注现在世界上的名人企业家 富豪  马斯克 黄仁勋什么的  一定要获得评论量目标",
+    "decision": "Publish one source-reviewed C359 now; prioritize famous entrepreneurs and substantive genuine comments; no guarantee or invented numeric target."
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -433,24 +433,25 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-08T10:31:00Z",
+    "verified_at_utc": "2026-10-08T13:21:38.476592Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md",
     "notification_policy_preserved": "failed_runs_only",
-    "prompt_latest_publication": "C358",
-    "prompt_published_new": 161,
+    "prompt_latest_publication": "C359",
+    "prompt_published_new": 162,
     "latest_editorial_spec": "docs/EDITORIAL_GATE.md",
-    "latest_publication_id": "C358",
-    "published_new": 161,
+    "latest_publication_id": "C359",
+    "published_new": 162,
     "ready": 0,
     "next_candidate_id": null,
-    "note": "ACTIVE heartbeat maintains C356/C357/C358 feedback windows only; optional future research preference favors evidence-backed differences between mainland platform restrictions and X availability, without evasion guidance or publication authorization. No X account actions.",
-    "latest_version_url": "https://x.com/qiluo27808/status/2108104588360581629",
-    "current_control": "RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING",
-    "remaining_new_publications": 839,
-    "latest_candidate_id": "C358",
-    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK"
+    "note": "Heartbeat prioritizes genuine comment feedback and non-X primary-source research of famous entrepreneurs and major AI breakthroughs; cross-platform rules preference optional; C359 specific publication authorization already executed, no automatic publishing.",
+    "latest_version_url": "https://x.com/qiluo27808/status/2108184801950020030",
+    "current_control": "RESEARCH_AND_FEEDBACK_ONLY / NO_HEARTBEAT_MAIN_POST_SUBMISSION",
+    "remaining_new_publications": 838,
+    "latest_candidate_id": "C359",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+    "name": "X 内容选题与反馈学习"
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -758,12 +759,12 @@
     }
   },
   "verified_publications": 158,
-  "remaining_new_publications": 842,
+  "remaining_new_publications": 838,
   "ready_count": 0,
-  "rolling_work_queue_count": 354,
-  "latest_candidate_id": "C358",
+  "rolling_work_queue_count": 358,
+  "latest_candidate_id": "C359",
   "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-  "latest_candidate_checked_at": "2026-10-08T08:00:34.790496Z",
+  "latest_candidate_checked_at": "2026-10-08T13:19:51.374823Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -1416,5 +1417,37 @@
     "verification_rule": "仅使用有可靠公开证据的具体限制；区分法律规定、正式平台规则和个案审核处置，注明时空范围，不把未经证实的敏感传闻当事实。X平台允许讨论不代表发布者所在司法辖区法律许可；没有可靠来源不作违法/禁发断言。",
     "safety_boundary": "不提供规避监管/平台执行或检测的指导，不发布个人隐私或未核实指控，不承诺该题材必然增加受众。",
     "current_effect": "已写入ACTIVE反馈维护heartbeat，供未来经授权研究参考；不改变当前反馈维护范围，也不构成新帖发布授权。"
+  },
+  "entrepreneur_content_preference": {
+    "priority_figures": [
+      "Elon Musk",
+      "Jensen Huang"
+    ],
+    "selection": "specific public decisions, conflicts and costs supported by primary sources; fame alone insufficient",
+    "primary_action": "REPLY",
+    "numeric_comment_target": null
+  },
+  "ai_breakthrough_content_preference": {
+    "recorded_at_utc": "2026-10-08T13:19:51.374823Z",
+    "verbatim": "还有 ai 最新的重大突破 也可以获取关注量 我认为",
+    "selection": "Priority for fresh primary-source AI advances with concrete capabilities, demos, test baselines, limitations and access status; label company claims vs independently replicated results. No guaranteed follows.",
+    "primary_goal": "meaningful comments and attributable follow growth, missing metrics null"
+  },
+  "single_publication_2026_10_08_c359": {
+    "authorization": "用户明确要求赶紧发布；独立补发一条，不扩大heartbeat自动投稿",
+    "status": "VERIFIED_PENDING_FEEDBACK",
+    "url": "https://x.com/qiluo27808/status/2108184801950020030",
+    "primary_action": "REPLY",
+    "numeric_comment_target": null
+  },
+  "c359_checkpoint_validation": {
+    "checked_at_utc": "2026-10-08T13:22:22.819487Z",
+    "tests_passed": 34,
+    "historical_campaign_records_preserved": 357,
+    "published_records": 162,
+    "total_with_historical_baseline": 187,
+    "private_evidence_ignored": true,
+    "source_and_public_detail_verified": true,
+    "seed_audit_limit": "11 seed links/13 observations; stale indexed metrics, zero own-post metrics in runtime DB; does not evaluate C359 performance."
   }
 }
