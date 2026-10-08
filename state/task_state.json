@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T08:58:22.906Z",
+  "updated_at": "2026-10-08T10:31:00Z",
   "phase": "THREE_POST_ROUND_COMPLETE_PENDING_FEEDBACK",
   "checkpoints": {
     "environment_review": "done",
@@ -433,7 +433,7 @@
   },
   "automation_content_sync": {
     "id": "x",
-    "verified_at_utc": "2026-10-08T08:18:45Z",
+    "verified_at_utc": "2026-10-08T10:31:00Z",
     "status": "ACTIVE",
     "interval_minutes": 5,
     "new_review_required": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md",
@@ -445,7 +445,7 @@
     "published_new": 161,
     "ready": 0,
     "next_candidate_id": null,
-    "note": "ACTIVE heartbeat maintains C356/C357/C358 feedback windows only; it must not submit, edit, delete or reply to X posts, call X APIs, access cookies or start another candidate.",
+    "note": "ACTIVE heartbeat maintains C356/C357/C358 feedback windows only; optional future research preference favors evidence-backed differences between mainland platform restrictions and X availability, without evasion guidance or publication authorization. No X account actions.",
     "latest_version_url": "https://x.com/qiluo27808/status/2108104588360581629",
     "current_control": "RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING",
     "remaining_new_publications": 839,
@@ -1408,5 +1408,13 @@
     "last_checked_at_utc": "2026-10-08T08:58:22.906Z",
     "changed": "C358 1h -> DUE_MISSING",
     "evidence_rule": "无human_checked和证据引用时指标保持null，不回填。"
+  },
+  "cross_platform_content_preference": {
+    "recorded_at_utc": "2026-10-08T10:29:50Z",
+    "user_request": "优先考虑在抖音、小红书、微博等中国平台因监管/规则等原因不易发布、而在X可以允许发布的题材；不是必须，作为优先项。",
+    "preference_only": true,
+    "verification_rule": "仅使用有可靠公开证据的具体限制；区分法律规定、正式平台规则和个案审核处置，注明时空范围，不把未经证实的敏感传闻当事实。X平台允许讨论不代表发布者所在司法辖区法律许可；没有可靠来源不作违法/禁发断言。",
+    "safety_boundary": "不提供规避监管/平台执行或检测的指导，不发布个人隐私或未核实指控，不承诺该题材必然增加受众。",
+    "current_effect": "已写入ACTIVE反馈维护heartbeat，供未来经授权研究参考；不改变当前反馈维护范围，也不构成新帖发布授权。"
   }
 }
