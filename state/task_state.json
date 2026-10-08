@@ -1370,14 +1370,14 @@
     "actual_campaign_records": 354,
     "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged.",
     "git_receipt": {
-      "implementation_commit": "20a87f5aa880799cbba57cf77176b447c5965e13",
+      "implementation_commit": "d9af660",
       "branch": "feature/x-research-phase2",
       "push": "SUCCESS",
       "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/5",
       "remote_ci": "TWO_UNITTEST_RUNS_SUCCESS_AFTER_READER_VALUE_V2",
       "run_ids": [
-        37716626105,
-        37716621863
+        37717214458,
+        37717209388
       ],
       "scope": "Reader Value V2 implementation, bounded sample and prospective design; PR remains OPEN; following receipt checkpoint only changes saved state/docs."
     }
