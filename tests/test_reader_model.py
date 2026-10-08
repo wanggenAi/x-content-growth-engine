@@ -6,18 +6,27 @@ from pathlib import Path
 from growth_engine.__main__ import connect
 from growth_engine.editorial_gate import validate_candidate
 from growth_engine.reader_model import (
-    DIMENSIONS, backtest, empty_profile, import_annotations, profile_errors,
-    ratios, reader_packet, review_profile, validate_comment, window_status,
+    DIMENSIONS, VALUE_MODEL_VERSION, backtest, empty_profile, import_annotations, migrate_profile,
+    profile_errors, ratios, reader_packet, review_profile, validate_comment, window_measurement,
+    window_status,
 )
 
 
 def good_profile():
     p = empty_profile()
     p.update({key: "HIGH" for key in DIMENSIONS})
+    p.update(model_version=VALUE_MODEL_VERSION, dominant_reader_value_route="SELF_RELEVANCE",
+             reader_value_routes=[{"route": "SELF_RELEVANCE", "strength": "HIGH", "cue": "submission failed after preparation", "reader_thought": "Will mine fail too?"}],
+             activation_mechanisms=["PERSONAL_EXPERIENCE"])
     p.update(concrete_stakes="time lost in an application", identity_trigger="applicants",
              why_reader_cares="Will my application fail too?", predicted_inner_response="Why did it fail?",
              share_recipient="a colleague applying", share_reason="avoid the same loss",
+             social_currency="HIGH", opinion_activation="HIGH", opinion_space="HIGH",
              opinion_space_reason="different experiences can explain the outcome",
+             utility="HIGH", future_usefulness="check the next application", concrete_resource="failure log",
+             resource_value="HIGH", source_accessibility="HIGH", actionability="HIGH",
+             curiosity="HIGH", information_gap="why the submission failed", narrative_progression="the error appears after submission",
+             expectation_violation="HIGH",
              attention_mechanism="expected completion vs visible failure",
              psychological_accounts=[{"account": "CONTROL", "stake": "time", "cue": "submit failed",
                                       "reader_thought": "Can I fix it?"}],
@@ -37,13 +46,83 @@ def annotation():
 
 
 class ReaderModelTests(unittest.TestCase):
+    def test_low_self_relevance_high_curiosity_is_reviewable(self):
+        p = good_profile()
+        p.update(self_relevance="LOW", dominant_reader_value_route="CURIOSITY",
+                 reader_value_routes=[{"route": "CURIOSITY", "strength": "HIGH", "cue": "an unfamiliar craft changes material under heat", "reader_thought": "How does that work?"}],
+                 curiosity="HIGH", curiosity_types=["HIDDEN_PROCESS", "RARE_SKILL"],
+                 information_gap="What process changes the material?", narrative_progression="the maker reveals the steps",
+                 expectation_violation="HIGH", why_reader_cares="A rare process is worth understanding even without personal similarity.",
+                 predicted_inner_response="原来是这样做出来的。", concrete_resource="recorded process notes")
+        self.assertEqual(review_profile(p, "DWELL")["priority"], "REVIEW_FIRST")
+        self.assertNotIn("self_relevance", review_profile(p, "DWELL")["reasons"])
+
+    def test_action_routes_have_conditional_contracts(self):
+        p = good_profile()
+        self.assertTrue(validate_candidate({key: "reviewed" for key in __import__("growth_engine.editorial_gate", fromlist=["REQUIRED_FIELDS"]).REQUIRED_FIELDS} | {
+            "source_refs": ["source"], "material_strength": "STRONG", "primary_action": "SHARE",
+            "human_checked": True, "state": "EDITORIAL_REVIEW", "reader_model": p
+        }).ready)
+        for action, missing in (("SHARE", "share_recipient"), ("REPLY", "opinion_space"),
+                                ("SAVE_RETURN", "concrete_resource"), ("CLICK_RESOURCE", "actionability"),
+                                ("DWELL", "information_gap"), ("FOLLOW", "why_follow")):
+            candidate = {key: "reviewed" for key in __import__("growth_engine.editorial_gate", fromlist=["REQUIRED_FIELDS"]).REQUIRED_FIELDS}
+            candidate.update(source_refs=["source"], material_strength="STRONG", primary_action=action,
+                             human_checked=True, state="EDITORIAL_REVIEW", reader_model=good_profile())
+            candidate["reader_model"].pop(missing, None)
+            self.assertFalse(validate_candidate(candidate).ready, action)
+
+    def test_migration_preserves_legacy_without_inference(self):
+        legacy = empty_profile()
+        migrated = migrate_profile(legacy)
+        self.assertEqual(migrated["model_version"], VALUE_MODEL_VERSION)
+        self.assertEqual(migrated["reader_value_routes"], [])
+        self.assertEqual(migrated["self_relevance"], "UNKNOWN")
+        self.assertEqual(migrated["migration_note"], "Legacy signals preserved. Routes require explicit editorial review; no inferred strengths.")
+
+    def test_window_tolerances_keep_actual_age_and_unknown(self):
+        result = window_measurement("2026-10-01T00:00:00Z", "2026-10-02T00:45:00Z", "24h")
+        self.assertEqual(result["window_class"], "NEAR_WINDOW")
+        self.assertEqual(result["actual_post_age_minutes"], 1485.0)
+        self.assertEqual(result["offset_from_target_minutes"], 45.0)
+        self.assertEqual(window_measurement(None, None, "7d")["window_class"], "MISSING")
+
+    def test_comment_prediction_match_is_recorded(self):
+        row = {"comment_url": "https://x.com/example/status/456", "parent_post_url": "https://x.com/example/status/123",
+               "observed_at_utc": "2026-10-08T02:00:00Z", "categories": ["CORRECTION", "EXPLANATION"],
+               "evidence_ref": "synthetic", "coding_note": "synthetic test only", "body": "The real cause is different.", "agent_checked": True}
+        prediction = {"experiment_id": "E1", "publication_url": row["parent_post_url"],
+                      "preregistered_at_utc": "2026-10-07T00:00:00Z", "published_at_utc": "2026-10-07T01:00:00Z",
+                      "activation_mechanisms": ["CORRECTION"]}
+        self.assertEqual(validate_comment(row, prediction=prediction)["activation_prediction_match"]["status"], "MATCH")
+
+    def test_stratified_sample_and_prospective_design_are_bounded(self):
+        sample = json.loads(Path("data/reader_value_stratified_sample_2026-10-08.json").read_text())
+        self.assertGreaterEqual(len(sample), 20)
+        self.assertLessEqual(len(sample), 40)
+        self.assertEqual({r["entity_kind"] for r in sample}, {"external", "own"})
+        routes = {r["reader_model"]["dominant_reader_value_route"] for r in sample}
+        self.assertTrue({"SELF_RELEVANCE", "CURIOSITY", "EPISTEMIC_REWARD", "UTILITY", "WONDER"} <= routes)
+        self.assertTrue(all(r["reader_model"]["claim_status"] == "HYPOTHESIS" for r in sample))
+        experiment = json.loads(Path("data/prospective_reader_value_experiment_2026-10-08.json").read_text())
+        self.assertEqual(experiment["status"], "DESIGNED_NOT_SCHEDULED")
+        self.assertEqual(len(experiment["cells"]), 12)
+        self.assertEqual({c["hypothesis"] for c in experiment["cells"]}, {"H1", "H2", "H3"})
+
+    def test_published_legacy_record_remains_auditable_but_new_v1_admission_fails(self):
+        candidate = json.loads(Path("data/editorial_candidate_c355_2026-10-07.json").read_text())
+        url = candidate["url"]
+        self.assertTrue(validate_candidate(candidate).ready)
+        self.assertEqual(candidate["url"], url)
+        candidate["state"] = "EDITORIAL_REVIEW"
+        self.assertFalse(validate_candidate(candidate).ready)
     def test_material_cannot_be_rescued_by_topic_strength(self):
         p = good_profile()
         p["material_strength"] = "LOW"
         result = review_profile(p)
         self.assertEqual(result["priority"], "LOWER_PRIORITY")
         self.assertIn("A_MATERIAL", result["reasons"])
-        self.assertIsNone(result["score"])
+        self.assertNotIn("score", result)
 
     def test_unknown_summary_and_risky_attention_are_not_production_evidence(self):
         self.assertEqual(review_profile(empty_profile())["priority"], "HOLD_NEEDS_ANNOTATION")
@@ -59,7 +138,7 @@ class ReaderModelTests(unittest.TestCase):
         p["self_relevance_distance"].update(occupation="FAR", bridge="investment or aspiration")
         self.assertEqual(review_profile(p)["priority"], "REVIEW_FIRST")
 
-    def test_gate_blocks_missing_model_and_passive_inner_response(self):
+    def test_gate_blocks_missing_model_and_weak_reply_not_calm_wording(self):
         from growth_engine.editorial_gate import REQUIRED_FIELDS
         c = {key: "reviewed" for key in REQUIRED_FIELDS}
         c.update(source_refs=["source"], material_strength="STRONG", primary_action="REPLY",
@@ -69,7 +148,7 @@ class ReaderModelTests(unittest.TestCase):
         self.assertFalse(validate_candidate(c).ready)
         c["reader_model"] = good_profile()
         c["reader_model"]["predicted_inner_response"] = "哦。"
-        self.assertIn("PASSIVE_INNER_RESPONSE", validate_candidate(c).reasons)
+        self.assertTrue(validate_candidate(c).ready)  # No dramatic-language test.
         c["reader_model"] = good_profile()
         c["reader_model"]["opinion_activation"] = "LOW"
         self.assertFalse(validate_candidate(c).ready)
@@ -126,11 +205,18 @@ class ReaderModelTests(unittest.TestCase):
             self.assertEqual(backtest([annotation()], [{**obs, **change}], window="24h")["n"], 0)
         self.assertFalse(result["verified_on_own_account"])
         self.assertEqual(result["formula_promotions"], 0)
+        late = {**obs, "observed_at_utc": "2026-10-02T02:01:00Z", "distribution_confidence": "UNKNOWN"}
+        late_result = backtest([annotation()], [late], window="24h")
+        self.assertEqual(late_result["n"], 0)
+        self.assertEqual(late_result["rows"][0]["window_class"], "LATE_EXPLORATORY")
+        self.assertEqual(late_result["rows"][0]["actual_post_age_minutes"], 1561.0)
+        self.assertEqual(late_result["rows"][0]["distribution_confidence"], "UNKNOWN")
+        self.assertEqual(late_result["rows"][0]["content_failure"], "UNKNOWN")
 
     def test_real_comments_require_parent_link_and_evidence(self):
         row = {"comment_url": "https://x.com/example/status/456", "parent_post_url": "https://x.com/example/status/123",
                "observed_at_utc": "2026-10-08T00:00:00Z", "categories": ["CORRECTION", "EXPLANATION"],
-               "evidence_ref": "synthetic", "coding_note": "synthetic test only", "agent_checked": True}
+               "evidence_ref": "synthetic", "coding_note": "synthetic test only", "body": "The real cause is different.", "agent_checked": True}
         self.assertFalse(validate_comment(row)["learning_eligible"])
         for change in [{"categories": ["MADE_UP"]}, {"evidence_ref": None}, {"parent_post_url": "missing"}]:
             with self.assertRaises(ValueError):

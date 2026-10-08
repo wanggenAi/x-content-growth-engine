@@ -881,6 +881,15 @@ UI错误：保存完整AX后旧index误点Near you搜索过滤；无发帖/互�
 
 round42验证：16测试、campaign/两份状态计数、正文不变、原始证据ignored及自动化读回检查通过；旧seed审计与本轮独立观察分口径。
 
+## 2026-10-08T02:00:00Z — Reader Value V2 修正与前瞻实验设计
+
+- 重新确认本轮目标是修正模型，不是补齐旧注释：`SELF_MIRRORING_V1` 保留为历史可读层，新增 `READER_VALUE_V2`。`SELF_RELEVANCE` 不再是 universal prerequisite；低/未知自我相关性在有高好奇心、效用、知识纠正、惊奇或其他明确 route 时可以继续审核。
+- `growth_engine/reader_model.py` 增加 route-specific validation。SHARE/QUOTE、REPLY、SAVE_RETURN、CLICK_RESOURCE、DWELL、FOLLOW 各自只要求相关字段；不再对所有候选强制 `share_recipient`、`identity_trigger` 或 `opinion_space`。没有总分、乘法公式或自动状态升级。
+- `data/reader_value_stratified_sample_2026-10-08.json` 固定为28条深审样本（15外部、13自帖），覆盖初始 routes；外部证据明确为 `STRUCTURE_SUMMARY_ONLY`，未把其余历史记录机械补齐。可由 `python3 scripts/build_reader_value_sample.py` 重建。
+- `data/prospective_reader_value_experiment_2026-10-08.json` 预注册12个槽位，覆盖 H1 低自我相关高好奇心、H2 可比较筹码、H3 真实解释缺口；状态 `DESIGNED_NOT_SCHEDULED`，发布仍暂停，不含虚构候选或批量发布计划。
+- 固定窗口保存实际观测时间、实际帖龄、目标窗口、偏移和分层容差；分发不确定性与内容失败分开；评论保留正文和 `activation_prediction_match`。C355 仍是原 `SHARE` 实验，V2 只做发布后的独立回顾，不改原始链接、正文或预注册。
+- 校验：34项标准库测试通过；JSON、重建脚本与 `git diff --check` 待本轮提交前再次复核。`VERIFIED_ON_OWN_ACCOUNT` 仍无机制满足。
+
 
 ## 2026-10-07T13:24:19Z — C355 单条发布、详情重载核验与反馈窗
 

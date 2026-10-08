@@ -7,7 +7,7 @@ from typing import Any
 from .reader_model import profile_errors, review_profile
 
 PRIMARY_ACTIONS = {
-    "SHARE", "REPLY", "QUOTE", "FOLLOW", "DWELL", "SAVE_RETURN", "CLICK_RESOURCE"
+    "SHARE", "REPLY", "QUOTE", "FOLLOW", "DWELL", "SAVE_RETURN", "CLICK_RESOURCE", "LIKE"
 }
 EDITORIAL_STATES = {
     "DISCOVERED", "SOURCE_CHECKED", "MATERIAL_STRONG", "DRAFT", "EDITORIAL_REVIEW",
@@ -17,8 +17,7 @@ EDITORIAL_STATES = {
 }
 REQUIRED_FIELDS = (
     "candidate_id", "research_version", "publication_version", "subject_value",
-    "information_gap", "payload", "primary_action", "primary_action_reader",
-    "novelty_check", "audit_language_separation", "follow_reason", "material_strength",
+    "payload", "primary_action", "novelty_check", "audit_language_separation", "material_strength",
     "source_refs", "fact_check_status", "human_checked",
     "reader_model",
 )
@@ -62,20 +61,19 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
     if state in {"FAIL_LOW_INTEREST", "FAIL_REPETITIVE", "FAIL_NO_PAYLOAD", "FAIL_NO_PRIMARY_ACTION", "HOLD_NEEDS_EVIDENCE", "RESEARCH_ONLY"}:
         reasons.append(f"editorial hold/failure state cannot pass: {state}")
     profile = candidate.get("reader_model")
-    reasons.extend(profile_errors(profile, for_candidate=True))
-    if isinstance(profile, dict) and not profile_errors(profile, for_candidate=True):
-        review = review_profile(profile)
-        for key in ("material_strength", "self_relevance", "psychological_stakes"):
-            if profile[key] in {"LOW", "UNKNOWN"}:
-                reasons.append(f"reader_model.{key} needs substantive material review")
-        for blocker in ("REPETITIVE", "ATTENTION_NOT_EDITORIALLY_ACCEPTABLE", "NEEDS_FULL_MATERIAL", "PASSIVE_INNER_RESPONSE"):
-            if blocker in review["reasons"]:
-                reasons.append(blocker)
+    # Published historical V1 records remain readable for audit and feedback.
+    # New admissions still require the explicit V2 route/action contract.
+    historical_legacy = (isinstance(profile, dict) and profile.get("model_version") == "SELF_MIRRORING_V1" and
+                         state in {"PUBLISHED_PENDING_FEEDBACK", "OBSERVATION_CLOSED", "LEARNING_REVIEWED"})
+    model_errors = profile_errors(profile, for_candidate=not historical_legacy, primary_action=action if isinstance(action, str) else None)
+    reasons.extend(model_errors)
+    if not model_errors and not historical_legacy:
+        review = review_profile(profile, action)
+        reasons.extend(review["reasons"])
+        if profile["material_strength"] != "HIGH":
+            reasons.append("reader_model material strength must be HIGH")
         if profile["novelty_status"] != "CHECKED":
             reasons.append("reader_model novelty review must be CHECKED")
-        target = {"REPLY": "opinion_activation", "SHARE": "social_currency"}.get(action) if isinstance(action, str) else None
-        if target and profile[target] in {"LOW", "UNKNOWN"}:
-            reasons.append(f"primary action {action} lacks {target}")
     if state == "READY_FOR_MANUAL_PUBLISH" and reasons:
         reasons.append("READY_FOR_MANUAL_PUBLISH is not allowed while gate reasons remain")
     return GateResult(not reasons, tuple(reasons), state if state in EDITORIAL_STATES else "EDITORIAL_REVIEW")

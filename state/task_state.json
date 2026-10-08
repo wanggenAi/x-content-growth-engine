@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T00:15:20Z",
-  "phase": "SELF_MIRRORING_HYPOTHESIS_HISTORY_BACKTEST",
+  "updated_at": "2026-10-08T02:07:08Z",
+  "phase": "READER_VALUE_V2_PROSPECTIVE_DESIGN",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -42,7 +42,10 @@
       "runtime_audit_scope": "旧SQLite seed11链接13观察未导入本批原生JSON，旧索引/未知粉丝问题不等于当前campaign指标",
       "checked_at_utc": "2026-10-05T20:26:36.289822Z"
     },
-    "editorial_growth_control": "publication paused after one C355 experiment; no batch automation"
+    "editorial_growth_control": "publication paused after one C355 experiment; no batch automation",
+    "reader_value_v2": "implemented; route-specific validation and bounded stratified sample committed; no formula promoted",
+    "prospective_experiment": "READER_VALUE_PROSPECTIVE_2026_10_08 designed_not_scheduled; 12 slots across H1/H2/H3",
+    "fixed_window_tolerances": "1h±20m, 6h±30m, 24h±60m, 72h±180m, 7d±360m; actual age/offset retained"
   },
   "counts": {
     "x_posts": 11,
@@ -84,7 +87,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "继续新材料的自我映射/筹码/内心第一句/转给谁审查；C355保持SHARE原实验，1h/6h DUE_MISSING不可回填，待固定窗真实反馈；不自动发C356或批量。",
+  "next_action": "先按READER_VALUE_V2对前瞻槽位逐条取材和人工闸门审查；C355保持SHARE原实验及历史链接，固定窗缺失不可回填；不自动发C356或批量。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -1275,7 +1278,7 @@
     "publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
     "current_scope": "C355 earlier direct-publish authorization preserved; retrospective model only; no new submissions this round",
     "reader_model_validation": {
-      "checked_at_utc": "2026-10-08T00:15:20Z",
+      "checked_at_utc": "2026-10-08T02:07:08Z",
       "gate_ready": true,
       "scope": "Retrospective already-published C355; no new publication authorization or submission"
     }
@@ -1348,7 +1351,7 @@
     "next_test": "New, source-checked reader-comparable sub-account material with a genuine explanation gap; preregister first; no candidate admitted or auto-publication.",
     "validation": {
       "checked_at_utc": "2026-10-08T00:15:20Z",
-      "unit_tests_passed": 27,
+      "unit_tests_passed": 34,
       "git_diff_check": "PASS",
       "source_files_checked": 20,
       "raw_research_files_unchanged": 19,
@@ -1360,7 +1363,9 @@
       "runtime_latest_annotations": 498,
       "private_outputs_ignored": true,
       "rebuild": "PASS",
-      "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification"
+      "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification",
+      "reader_value_sample": "28 records / 15 external / 13 own; rebuilt and imported as V2 version 3",
+      "prospective_experiment": "12 slots / DESIGNED_NOT_SCHEDULED / publication paused"
     },
     "actual_campaign_records": 354,
     "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged.",

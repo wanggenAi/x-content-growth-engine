@@ -20,7 +20,7 @@
 - `subject_value`: 至少一个强价值（新鲜事实、利益/金钱、损失/机会/风险、强人物/画面/冲突、强信息增量、可执行资源/步骤、真实猎奇或具体机制）。只有正确观点则失败。
 - `information_gap`: 第一行后读者仍不知道的具体未知点；若可猜出全文则失败。
 - `payload`: 读者拿走的事实、数字、账、故事、动作、原材料、资源、方法、表达或解释框架；只有“一个观点”则失败。
-- `primary_action`: 且仅且一个：`SHARE`、`REPLY`、`QUOTE`、`FOLLOW`、`DWELL`、`SAVE_RETURN`、`CLICK_RESOURCE`。
+- `primary_action`: 且仅且一个：`SHARE`、`REPLY`、`QUOTE`、`FOLLOW`、`DWELL`、`SAVE_RETURN`、`CLICK_RESOURCE`、`LIKE`。
 - `primary_action_reader`: 哪类读者为什么会做该动作；不能写“所有人”。
 - `novelty_check`: 与近 20–30 条自有内容在题材、冲突、首屏、结尾、句式、情绪、关系、价值判断和媒介上的重复结论。
 - `audit_language_separation`: 研究版的证据边界、未知值、来源和限制；公开版不得机械复制审计腔。事实边界必须留在研究记录。
@@ -41,8 +41,12 @@
 人工在可见原生 X 编辑器逐字核对中文、标点、空行、链接、媒体与一次提交；确认编辑器关闭后，独立公开详情重载核对账号、全文、换行、来源卡片和显示时间。发送提示不是正文核验。没有完成这些步骤，状态不能进入 `PUBLISHED_PENDING_FEEDBACK`。
 
 
-## 2026-10-08 新读者模型契约
+## 2026-10-08 Reader Value V2 契约
 
-候选新增必填reader_model，见SELF_MIRRORING_RESEARCH_2026-10-08.md和growth_engine/reader_model.py。必须分别记录材料强度、题材强度、具体心理筹码、自我映射/八项distance及bridge、预期违背、场景、信息差、表达入口、真实观点空间、具体转发对象、内心第一句、覆盖证据与风险。标签HIGH/MEDIUM/LOW为编辑序数，UNKNOWN保持未知；心理预测不得标成实测。
+候选仍必须有 `reader_model`，但生产模型是 `READER_VALUE_V2`。共同核心是材料强度、证据覆盖、查重状态、一个或多个明确 reader-value route、`why_reader_cares` 和自然的 `predicted_inner_response`。`SELF_RELEVANCE=LOW/UNKNOWN` 不会单独阻止候选；它与好奇心、效用、知识纠正、惊奇、身份、比较、情绪、意见、社交货币、幽默和叙事收束分开记录。
 
-reader-review输出A–I弱项与REVIEW_FIRST/LOWER_PRIORITY/HOLD_NEEDS_ANNOTATION，不给总分。每项极弱降低优先级；候选缺模型/筹码/内心回应/转发对象或理由、材料/自我映射/筹码LOW或UNKNOWN、摘要证据、RESEARCH_ONLY机制、重复材料、被动“哦/知道了/挺有道理”不能过闸门。REPLY还需表达入口，SHARE还需转发价值；不能用CTA替代。强资源可以没有强反转，仍需陈述弱项与单一动作，不把乘法当硬性必需因果。FAIL/HOLD/RESEARCH_ONLY状态不能形式过闸门。已发布历史只回顾，不改稿或重新发布。
+动作字段按 `primary_action` 条件触发：`SHARE/QUOTE` 需要 `social_currency`、`share_recipient`、`share_reason`；`REPLY` 需要 `opinion_activation`、`activation_mechanisms`、`opinion_space`；`SAVE_RETURN` 需要 `utility`、`future_usefulness`、`concrete_resource`；`CLICK_RESOURCE` 需要 `resource_value`、`source_accessibility`、`actionability`；`DWELL` 需要 `curiosity`、`information_gap`、`narrative_progression`、`expectation_violation`；`FOLLOW` 需要 `why_follow`、`repeatable_value`、`account_positioning`、`future_expectation`。没有相关动作时，不强制无关字段。
+
+`reader-review` 输出具体缺口和 `REVIEW_FIRST`、`LOWER_PRIORITY`、`HOLD_NEEDS_ANNOTATION`，不返回总分。UNKNOWN 保持未知；结构摘要只能留在研究层，`RESEARCH_ONLY` 和重复材料不能进生产。`KNOWLEDGE_CORRECTION` 必须有真实来源支持，不得故意造错诱骗纠错。`predicted_inner_response` 是编辑预测，不是实测心理。已发布历史只回顾，不改稿或重新发布。
+
+已发布、已关闭或已完成学习的历史 `SELF_MIRRORING_V1` 记录保留兼容读取路径，便于审计和反馈回放；它们不代表新候选可以继续用旧模型进入生产。新的 `EDITORIAL_REVIEW` 候选必须通过 `READER_VALUE_V2` 的 route/action 校验。

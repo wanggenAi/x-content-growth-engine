@@ -407,6 +407,7 @@ def main() -> None:
     reader_importer.add_argument("file", type=Path)
     reader_parser = sub.add_parser("reader-packet")
     reader_parser.add_argument("--kind", choices=("external", "own", "material", "candidate"))
+    reader_parser.add_argument("--model-version", choices=(reader_model.MODEL_VERSION, reader_model.VALUE_MODEL_VERSION))
     reviewer = sub.add_parser("reader-review")
     reviewer.add_argument("file", type=Path)
     tester = sub.add_parser("reader-backtest")
@@ -416,6 +417,8 @@ def main() -> None:
     tester.add_argument("--output", required=True, type=Path)
     comments = sub.add_parser("reader-comments")
     comments.add_argument("file", type=Path)
+    comments.add_argument("--experiment", type=Path)
+    comments.add_argument("--output", required=True, type=Path)
     sub.add_parser("packet")
     args = parser.parse_args()
     if args.command in {"reader-review", "reader-backtest", "reader-comments"}:
@@ -436,10 +439,18 @@ def main() -> None:
                 records = json.loads(args.file.read_text(encoding="utf-8"))
                 if not isinstance(records, list):
                     raise ValueError("reader input must be an array")
-                result = ([reader_model.validate_comment(row) for row in records] if args.command == "reader-comments"
-                          else [{"entity_id": r.get("entity_id", r.get("candidate_id")), "reader_model": r.get("reader_model"),
-                                 "review": reader_model.review_profile(r.get("reader_model"))} for r in records])
-                print(json.dumps(result, ensure_ascii=False, indent=2))
+                if args.command == "reader-comments":
+                    if not args.output.resolve().is_relative_to(Path("data/private").resolve()):
+                        raise ValueError("raw comments output must stay under ignored data/private/")
+                    prediction = json.loads(args.experiment.read_text(encoding="utf-8")) if args.experiment else None
+                    result = [reader_model.validate_comment(row, prediction=prediction) for row in records]
+                    args.output.parent.mkdir(parents=True, exist_ok=True)
+                    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                    print(json.dumps({"comments_saved": len(result), "output": str(args.output)}))
+                else:
+                    result = [{"entity_id": r.get("entity_id", r.get("candidate_id")),
+                               "review": reader_model.review_profile(r.get("reader_model"), r.get("primary_action", r.get("review_primary_action")))} for r in records]
+                    print(json.dumps(result, ensure_ascii=False, indent=2))
         except (OSError, ValueError, TypeError, KeyError) as exc:
             parser.exit(1, f"reader review failed: {exc}\n")
         return
@@ -452,7 +463,7 @@ def main() -> None:
             for record in records:
                 result = validate_candidate(record)
                 results.append({"candidate_id": record.get("candidate_id"), "ready": result.ready, "state": result.state, "reasons": list(result.reasons),
-                                "reader_review": reader_model.review_profile(record.get("reader_model"))})
+                                "reader_review": reader_model.review_profile(record.get("reader_model"), record.get("primary_action"))})
             print(json.dumps(results, ensure_ascii=False, indent=2))
             if any(not item["ready"] for item in results):
                 raise SystemExit(1)
@@ -473,7 +484,10 @@ def main() -> None:
                 parser.exit(1, f"reader import failed: {exc}\n")
             print(json.dumps({"added_reader_annotations": added}))
         elif args.command == "reader-packet":
-            print(json.dumps(reader_model.reader_packet(db, args.kind), ensure_ascii=False, indent=2))
+            records = reader_model.reader_packet(db, args.kind)
+            if args.model_version:
+                records = [r for r in records if r["reader_model"]["model_version"] == args.model_version]
+            print(json.dumps(records, ensure_ascii=False, indent=2))
         elif args.command == "import":
             try:
                 posts, observations = logged_import(db, "x", args.file)
