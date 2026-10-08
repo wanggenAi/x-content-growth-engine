@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .editorial_gate import validate_candidate
+from . import reader_model
 from .phase2 import (import_annotations, import_pairs, import_queries, import_research_review, insert_observation, migrate,
                      packet_markdown, quality_report, research_packet)
 
@@ -117,6 +118,7 @@ def connect(path: Path) -> sqlite3.Connection:
         if name not in columns:
             db.execute(f"ALTER TABLE materials ADD COLUMN {name} TEXT")
     migrate(db)
+    reader_model.migrate(db)
     return db
 
 
@@ -401,8 +403,46 @@ def main() -> None:
     sub.add_parser("audit")
     gate_parser = sub.add_parser("editorial-gate")
     gate_parser.add_argument("file", type=Path)
+    reader_importer = sub.add_parser("import-reader-annotations")
+    reader_importer.add_argument("file", type=Path)
+    reader_parser = sub.add_parser("reader-packet")
+    reader_parser.add_argument("--kind", choices=("external", "own", "material", "candidate"))
+    reviewer = sub.add_parser("reader-review")
+    reviewer.add_argument("file", type=Path)
+    tester = sub.add_parser("reader-backtest")
+    tester.add_argument("annotations", type=Path)
+    tester.add_argument("feedback", type=Path)
+    tester.add_argument("--window", choices=tuple(reader_model.WINDOWS))
+    tester.add_argument("--output", required=True, type=Path)
+    comments = sub.add_parser("reader-comments")
+    comments.add_argument("file", type=Path)
     sub.add_parser("packet")
     args = parser.parse_args()
+    if args.command in {"reader-review", "reader-backtest", "reader-comments"}:
+        try:
+            if args.command == "reader-backtest":
+                # Account metrics must never be written to a public artifact.
+                private_root = Path("data/private").resolve()
+                if not args.output.resolve().is_relative_to(private_root):
+                    raise ValueError("backtest output must be under ignored data/private/")
+                annotations = json.loads(args.annotations.read_text(encoding="utf-8"))
+                for row in annotations:
+                    reader_model.validate_annotation(row)
+                result = reader_model.backtest(annotations, json.loads(args.feedback.read_text(encoding="utf-8")), window=args.window)
+                args.output.parent.mkdir(parents=True, exist_ok=True)
+                args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                print(json.dumps({"n": result["n"], "learning_eligible": result["learning_eligible_observations"], "output": str(args.output)}))
+            else:
+                records = json.loads(args.file.read_text(encoding="utf-8"))
+                if not isinstance(records, list):
+                    raise ValueError("reader input must be an array")
+                result = ([reader_model.validate_comment(row) for row in records] if args.command == "reader-comments"
+                          else [{"entity_id": r.get("entity_id", r.get("candidate_id")), "reader_model": r.get("reader_model"),
+                                 "review": reader_model.review_profile(r.get("reader_model"))} for r in records])
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            parser.exit(1, f"reader review failed: {exc}\n")
+        return
     if args.command == "editorial-gate":
         try:
             records = json.loads(args.file.read_text(encoding="utf-8"))
@@ -411,7 +451,8 @@ def main() -> None:
             results = []
             for record in records:
                 result = validate_candidate(record)
-                results.append({"candidate_id": record.get("candidate_id"), "ready": result.ready, "state": result.state, "reasons": list(result.reasons)})
+                results.append({"candidate_id": record.get("candidate_id"), "ready": result.ready, "state": result.state, "reasons": list(result.reasons),
+                                "reader_review": reader_model.review_profile(record.get("reader_model"))})
             print(json.dumps(results, ensure_ascii=False, indent=2))
             if any(not item["ready"] for item in results):
                 raise SystemExit(1)
@@ -425,6 +466,14 @@ def main() -> None:
     with closing(connect(args.db)) as db:
         if args.command == "init":
             print(f"initialized {args.db}")
+        elif args.command == "import-reader-annotations":
+            try:
+                added = reader_model.import_annotations(db, args.file)
+            except (OSError, ValueError, sqlite3.Error) as exc:
+                parser.exit(1, f"reader import failed: {exc}\n")
+            print(json.dumps({"added_reader_annotations": added}))
+        elif args.command == "reader-packet":
+            print(json.dumps(reader_model.reader_packet(db, args.kind), ensure_ascii=False, indent=2))
         elif args.command == "import":
             try:
                 posts, observations = logged_import(db, "x", args.file)
@@ -469,7 +518,10 @@ def main() -> None:
             print(json.dumps({"added_records": added}))
         elif args.command == "research-packet":
             research = research_packet(db)
-            print(json.dumps(research, ensure_ascii=False, indent=2) if args.format == "json" else packet_markdown(research))
+            reader_annotations = reader_model.reader_packet(db)
+            research["reader_model_annotations"] = reader_annotations
+            print(json.dumps(research, ensure_ascii=False, indent=2) if args.format == "json" else
+                  packet_markdown(research) + f"\n\n读者模型派生标注：{len(reader_annotations)}条；使用 reader-packet 导出完整字段。全部为HYPOTHESIS，不覆盖原证据或原有研究结论。")
         elif args.command == "packet":
             print(packet(db))
         elif args.command == "report":

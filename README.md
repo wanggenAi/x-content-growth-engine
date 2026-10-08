@@ -65,3 +65,18 @@ C021 adds an explicitly labeled “暴论” writing hypothesis about recitable 
 **Publication-quality correction:** C019–C021 initially lost Chinese text during input and were wrongly marked verified from send confirmations. They have now been repaired, independently reloaded and compared with clean drafts; final/old version URLs are preserved in the campaign manifest. Edits do not increase the publication count. The old 1000-series target and the existing 20 campaign-series count are historical inventory only; they no longer control work or success. A later Computer Use paste timed out and keyboard input again dropped Chinese, so no post was submitted; the malformed draft was cleared. Resume with [user decisions](docs/USER_DECISION_LOG.md), [根哥 voice and publication checks](docs/CONTENT_VOICE_AND_WORKFLOW.md), and both task-state files. No dedicated continuous account-flow monitoring is required; relevant natural replies are authorized, manufactured engagement is excluded.
 
 C201 through C206 passed the recovered visible-editor input path and independent public-detail verification. The historical counts of 26 published, 0 ready, 180 research-pending and a 206-item rolling queue are retained for audit; the long-term 1000-original goal is no longer a control target.
+
+
+## Reader model — 2026-10-08
+
+最新研究与真实历史回测见[自我映射研究](docs/SELF_MIRRORING_RESEARCH_2026-10-08.md)。SELF_MIRRORING_V1将心理筹码、内心第一句话、表达空间与具体转发对象接进既有editorial gate；topic_strength与material_strength分开。所有心理标签仅HYPOTHESIS；缺数据保持UNKNOWN，不产生爆款概率或自动发布。
+
+```sh
+python3 scripts/build_reader_recode.py
+python3 -m growth_engine import-reader-annotations data/reader_model_annotations_2026-10-08.json
+python3 -m growth_engine reader-packet --kind own
+python3 -m growth_engine reader-review path/to/candidate_array.json
+python3 scripts/backtest_reader_history.py
+```
+
+公开派生种子覆盖315外部链接与183自帖；114外部摘要、34自帖正文完成首轮标注，其余待审。历史21自帖只供探索比较，严格24h合格0；账号原始指标/评论/回测输出保留ignored。新公开clone可重建标注，不能凭空重建私有账号数字。没有机制VERIFIED_ON_OWN_ACCOUNT。

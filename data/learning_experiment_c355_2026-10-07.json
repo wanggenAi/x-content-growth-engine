@@ -43,7 +43,7 @@
   "inference_limits": "单条探索，没有随机对照与holdout；不得升级F01-F05，不证明因果或中文读者普遍兴趣。",
   "feedback": {
     "1h": {
-      "status": "PENDING_WINDOW",
+      "status": "DUE_MISSING",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -55,7 +55,7 @@
       "human_reviewed": false
     },
     "6h": {
-      "status": "PENDING_WINDOW",
+      "status": "DUE_MISSING",
       "observed_at_utc": null,
       "views": null,
       "reposts": null,
@@ -125,5 +125,14 @@
     "public_detail_reloaded": true,
     "verified_at_utc": "2026-10-07T13:24:19Z",
     "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD"
+  },
+  "feedback_window_checked_at_utc": "2026-10-08T00:09:19Z",
+  "reader_model_retrospective_annotation": {
+    "annotated_at_utc": "2026-10-08T00:09:19Z",
+    "file": "data/reader_model_annotations_2026-10-08.json",
+    "entity_id": "C355",
+    "version": 2,
+    "scope": "POST_PUBLICATION_NOT_ORIGINAL_PREREGISTRATION",
+    "primary_action_unchanged": "SHARE"
   }
 }

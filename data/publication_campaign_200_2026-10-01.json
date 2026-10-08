@@ -8,7 +8,7 @@
   "published_count": 158,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 353,
+  "rolling_work_queue_count": 354,
   "remaining_new_publications": 842,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
@@ -8735,5 +8735,11 @@
   "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
   "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK",
   "next_action": "C355-P1 human word-for-word text review; then one native visible Chrome publication experiment. No heartbeat/batch submission.",
-  "total_verified_series": 183
+  "total_verified_series": 183,
+  "historical_rolling_work_queue_count_before_reconciliation": 353,
+  "record_count_reconciliation": {
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "reason": "C355 was appended in the prior publication commit while rolling queue metadata remained 353. Actual record count is 354; no posts or publication count changed.",
+    "count_role": "OUTPUT_OBSERVATION_ONLY"
+  }
 }

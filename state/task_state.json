@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-07T13:24:19Z",
-  "phase": "PUBLISHED_PENDING_FEEDBACK_PUBLICATION_PAUSED_FOR_LEARNING",
+  "updated_at": "2026-10-08T00:15:20Z",
+  "phase": "SELF_MIRRORING_HYPOTHESIS_HISTORY_BACKTEST",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -69,7 +69,7 @@
     "verified_total_series": 183,
     "published_new": 158,
     "remaining_new_publications": 842,
-    "rolling_work_queue_count": 353,
+    "rolling_work_queue_count": 354,
     "ready_count": 0,
     "latest_publication_id": "C355",
     "baseline_verified_publications": 25,
@@ -84,7 +84,7 @@
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C355已单次发布并独立详情重载核验；等待1h/6h/24h/72h/7d反馈窗，保持PUBLICATION_PAUSED_FOR_LEARNING，不自动批量发布。",
+  "next_action": "继续新材料的自我映射/筹码/内心第一句/转给谁审查；C355保持SHARE原实验，1h/6h DUE_MISSING不可回填，待固定窗真实反馈；不自动发C356或批量。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -117,7 +117,7 @@
   "live_github": {
     "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
     "resumed_pr": 5,
-    "resumed_head_sha": "acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8",
+    "resumed_head_sha": "8fa203b3a2ade728e33817eb0bf50130f6b5b2a4",
     "pr_state": "OPEN_UNMERGED",
     "previous_head_ci": "SUCCESS_PUSH_AND_PR",
     "open_issue_numbers": [
@@ -126,7 +126,10 @@
       3,
       4
     ],
-    "local_tests_passed": 16
+    "local_tests_passed": 27,
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "working_branch": "feature/x-research-phase2",
+    "head_is_pre_round_baseline": true
   },
   "publication_batch": {
     "ids": [
@@ -332,7 +335,7 @@
     "status": "HISTORICAL_INVENTORY_ONLY",
     "total_verified_series": 183,
     "remaining_new_publications": 842,
-    "rolling_work_queue_count": 353,
+    "rolling_work_queue_count": 354,
     "latest_publication_id": "C355",
     "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
     "latest_publication_verified_at": "2026-10-07T13:24:19Z",
@@ -346,7 +349,8 @@
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
     "control_role": "NOT_A_CONTROL_VARIABLE",
     "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
-    "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK"
+    "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK",
+    "historical_queue_metadata_before_reconciliation": 353
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -391,7 +395,7 @@
     "follow_up_at": "2026-10-02T21:46:20Z",
     "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
   },
-  "own_post_feedback": "C355反馈窗已开启；即时页面捕获1 View/0互动仅作起始记录，未到足龄窗口，不宣称曝光改善。",
+  "own_post_feedback": "历史21条快照完成探索性回测，严格24h合格0；C355的1h/6h已到但缺记录，DUE_MISSING，不回填；尚无机制VERIFIED_ON_OWN_ACCOUNT。",
   "latest_style_feedback": {
     "at": "2026-10-05T09:22:00Z",
     "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
@@ -759,7 +763,7 @@
   "verified_publications": 158,
   "remaining_new_publications": 842,
   "ready_count": 0,
-  "rolling_work_queue_count": 353,
+  "rolling_work_queue_count": 354,
   "latest_candidate_id": "C355",
   "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
   "latest_candidate_checked_at": "2026-10-06T01:33:55.037425Z",
@@ -1097,13 +1101,14 @@
     "historical_publication_corpus": "C001-C353 preserved for retrospective analysis"
   },
   "control_state": {
-    "mode": "EDITORIAL_REVIEW",
+    "mode": "RESEARCH_RETROSPECTIVE_REVIEW",
     "publication_state": "PUBLICATION_PAUSED_FOR_LEARNING",
     "heartbeat_can": "research, source-check, update candidates, prepare review",
     "heartbeat_cannot": "submit or fill a main post",
     "pause_reasons": [
-      "C355-P1 human word-for-word check pending; agent_checked is not human_checked",
-      "no reliable uniform human-reviewed feedback baseline; no improvement or causal claim"
+      "本轮用户要求先历史回测和模型落地，不急于大量发布。",
+      "C355已经依用户特定授权发布；旧待人工正文核对理由已过时。",
+      "没有统一固定窗口人工复核反馈基线，不能宣称账号机制验证。"
     ],
     "next_publication_requires": [
       "EDITORIAL_GATE_PASS",
@@ -1148,7 +1153,11 @@
     "missing_value": "null",
     "requires_human_review": true,
     "relative_performance": "relative to account baseline; no causal claims",
-    "own_post_observations": 0
+    "own_post_observations": 0,
+    "reader_model_file": "data/reader_model_annotations_2026-10-08.json",
+    "window_tolerance_future_minutes": 15,
+    "historical_exploratory_posts": 21,
+    "strict_24h_eligible": 0
   },
   "research_publication_separation": {
     "research_version": "evidence, limits, provenance, raw/private receipts",
@@ -1186,7 +1195,7 @@
   "learning_experiment": {
     "file": "data/learning_experiment_30_2026-10-06.json",
     "id": "LE30-2026-10-06",
-    "status": "PREREGISTERED_C355_PENDING_HUMAN_TEXT_REVIEW",
+    "status": "PUBLISHED_SINGLE_C355_PENDING_FEEDBACK",
     "capacity": 30,
     "scheduled_posts": 0,
     "primary_metrics": [
@@ -1242,16 +1251,14 @@
     "candidate_file": "data/editorial_candidate_c355_2026-10-07.json",
     "review_file": "docs/REVIEW_C355_2026-10-07.md",
     "experiment_file": "data/learning_experiment_c355_2026-10-07.json",
-    "state": "EDITORIAL_REVIEW",
-    "human_checked": false,
-    "gate_reasons": [
-      "human_checked must be true before manual publication review"
-    ],
+    "state": "PUBLISHED_PENDING_FEEDBACK",
+    "human_checked": true,
+    "gate_reasons": [],
     "new_publications": 0,
     "submission_attempts": 0,
     "x_editor_started": false,
     "x_platform_status_this_round": "NOT_CHECKED",
-    "checked_at_utc": "2026-10-07T06:13:13.753551Z",
+    "checked_at_utc": "2026-10-08T00:09:19Z",
     "validation": {
       "checked_at_utc": "2026-10-07T06:13:58.608467Z",
       "unit_tests_passed": 17,
@@ -1261,8 +1268,100 @@
       "candidate_experiment_alignment": "PASS",
       "private_pdf_and_render_ignored": true,
       "gate_ready": false,
-      "only_gate_reason": "human_checked must be true before manual publication review"
+      "only_gate_reason": "human_checked must be true before manual publication review",
+      "scope": "HISTORICAL_PREPUBLICATION_CHECK_NOT_CURRENT_GATE"
+    },
+    "publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "current_scope": "C355 earlier direct-publish authorization preserved; retrospective model only; no new submissions this round",
+    "reader_model_validation": {
+      "checked_at_utc": "2026-10-08T00:15:20Z",
+      "gate_ready": true,
+      "scope": "Retrospective already-published C355; no new publication authorization or submission"
     }
   },
-  "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK"
+  "publication_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK",
+  "reader_model_research": {
+    "model_version": "SELF_MIRRORING_V1",
+    "claim_status": "HYPOTHESIS",
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "report": "docs/SELF_MIRRORING_RESEARCH_2026-10-08.md",
+    "annotation_file": "data/reader_model_annotations_2026-10-08.json",
+    "external_unique_links": 315,
+    "external_annotated_structure_summaries": 114,
+    "external_needs_review": 201,
+    "external_above_10000_at_recorded_capture": 167,
+    "own_unique_published_links": 183,
+    "own_full_text_annotated": 34,
+    "own_needs_review": 149,
+    "historical_backtest_distinct_posts": 21,
+    "strict_24h_eligible": 0,
+    "verified_on_own_account": [],
+    "formula_promotions": 0,
+    "new_x_observations": 0,
+    "new_comments": 0,
+    "new_publications": 0,
+    "production_priority": "A-I bottleneck review; no virality score",
+    "raw_account_data": "IGNORED_PRIVATE_ONLY",
+    "observations": [
+      "Relatively higher-read examples include C204/C291/C016/C201 with different self-mirroring distances; no visible interactions in four independent historical detail checks.",
+      "Near self-mirroring, concrete stakes and opinion space do not establish sufficient growth conditions."
+    ],
+    "account_hypotheses": [
+      {
+        "id": "ASH1",
+        "status": "HYPOTHESIS",
+        "claim": "Reader-checkable occupational or life sub-account detail may increase verification/share value.",
+        "support": [
+          "C204"
+        ],
+        "counterexamples": [
+          "C289",
+          "C297"
+        ],
+        "limits": "Unequal age/selected snapshots; no uniform baseline or causal control."
+      },
+      {
+        "id": "ASH2",
+        "status": "HYPOTHESIS",
+        "claim": "Fact correction or unusual concrete material may admit distant identity readers.",
+        "support": [
+          "C016",
+          "C291"
+        ],
+        "limits": "No observed interaction or follow benefit."
+      },
+      {
+        "id": "ASH3",
+        "status": "HYPOTHESIS",
+        "claim": "A genuine explanation/experience gap may activate substantive replies without CTA.",
+        "support": [],
+        "limits": "No real comment-body coding or fixed-window own evidence yet."
+      }
+    ],
+    "rejected_production_rules": [
+      "Hot topic is enough to admit weak material.",
+      "Closer demographic distance always means better results.",
+      "Seven-factor product is a measured success probability.",
+      "High views justify misinformation or identity attacks."
+    ],
+    "next_test": "New, source-checked reader-comparable sub-account material with a genuine explanation gap; preregister first; no candidate admitted or auto-publication.",
+    "validation": {
+      "checked_at_utc": "2026-10-08T00:15:20Z",
+      "unit_tests_passed": 27,
+      "git_diff_check": "PASS",
+      "source_files_checked": 20,
+      "raw_research_files_unchanged": 19,
+      "campaign_posts_unchanged": 354,
+      "actual_campaign_record_count": 354,
+      "historical_stale_queue_count": 353,
+      "published_count_unchanged": 158,
+      "derived_records": 498,
+      "runtime_latest_annotations": 498,
+      "private_outputs_ignored": true,
+      "rebuild": "PASS",
+      "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification"
+    },
+    "actual_campaign_records": 354,
+    "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged."
+  }
 }

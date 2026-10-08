@@ -15,3 +15,10 @@
 ## 负例与内容记忆
 
 每轮同时保留高、普通、低浏览外部样本和自己的高/低表现；“结构相似但表现普通”的条目是负例，不能删除。账号内容记忆维护近 20/50/100 条的题材、冲突、hook、结尾、道德判断、人物关系、媒介和语义指纹，检测 `semantic/hook/ending/moral/conflict repetition`。记忆只用于 HOLD/FAIL 和设计对照，不自动评分或生成内容。
+
+
+## 2026-10-08 读者模型回测接口
+
+reader_model_annotations派生表按entity_kind/entity_id/version关联自帖，不更改原正文。固定窗比较还须同URL、同publication_text_digest、human_reviewed=true、UTC捕获、证据引用与允许的直接/人工来源。本轮为未来记录约定窗口到点后15分钟内；晚到保留为探索快照，不能回填旧窗，也不声称这是旧C355预注册已有条件。已到而未捕获为DUE_MISSING，未知capture_time不能用save_time顶替。
+
+replies/views、reposts/views、likes/views独立输出；impressions另作分母，不混同。无分母/零分母为null，真实0互动为0；保存bookmarks、profile_visits、follows_attributed等空值。统一窗基线与独立holdout不足时，VERIFIED_ON_OWN_ACCOUNT为空、公式升级0。真实评论用reader-comments校验URL、父帖、UTC、证据与11类分类，agent_checked不自动成为人工学习证据。本轮历史21条严格24h合格0，原始回测仅ignored data/private/self_mirroring_2026-10-08/。

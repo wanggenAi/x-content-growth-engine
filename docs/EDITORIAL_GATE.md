@@ -39,3 +39,10 @@
 ## 人工发布前最后检查
 
 人工在可见原生 X 编辑器逐字核对中文、标点、空行、链接、媒体与一次提交；确认编辑器关闭后，独立公开详情重载核对账号、全文、换行、来源卡片和显示时间。发送提示不是正文核验。没有完成这些步骤，状态不能进入 `PUBLISHED_PENDING_FEEDBACK`。
+
+
+## 2026-10-08 新读者模型契约
+
+候选新增必填reader_model，见SELF_MIRRORING_RESEARCH_2026-10-08.md和growth_engine/reader_model.py。必须分别记录材料强度、题材强度、具体心理筹码、自我映射/八项distance及bridge、预期违背、场景、信息差、表达入口、真实观点空间、具体转发对象、内心第一句、覆盖证据与风险。标签HIGH/MEDIUM/LOW为编辑序数，UNKNOWN保持未知；心理预测不得标成实测。
+
+reader-review输出A–I弱项与REVIEW_FIRST/LOWER_PRIORITY/HOLD_NEEDS_ANNOTATION，不给总分。每项极弱降低优先级；候选缺模型/筹码/内心回应/转发对象或理由、材料/自我映射/筹码LOW或UNKNOWN、摘要证据、RESEARCH_ONLY机制、重复材料、被动“哦/知道了/挺有道理”不能过闸门。REPLY还需表达入口，SHARE还需转发价值；不能用CTA替代。强资源可以没有强反转，仍需陈述弱项与单一动作，不把乘法当硬性必需因果。FAIL/HOLD/RESEARCH_ONLY状态不能形式过闸门。已发布历史只回顾，不改稿或重新发布。

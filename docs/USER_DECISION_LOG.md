@@ -682,3 +682,18 @@ C355-P1单一SHARE动作、强素材与预注册完成；validator唯一未满�
 C355 URL：<https://x.com/qiluo27808/status/2107823209806713075>。真实编辑器目视全文、中文、标点、空行和官方 PDF 链接，只提交一次并确认编辑器关闭；独立公开详情重载核验账号 `@qiluo27808`、全文、空行、无上传媒体、显示时间 `9:19 PM · Oct 7, 2026`（秒数未知）。链接被X渲染为 `t.co/yCYLxrCH3T`，目标仍为官方港交所 PDF。页面即时捕获为1 View、0互动，仅记录起始状态，不作传播结论。
 
 反馈窗1h/6h/24h/72h/7d待到，C355实验状态 `PUBLISHED_PENDING_FEEDBACK`；F01–F05仍 `HYPOTHESIS`。计数更新为158新增、842剩余、25基线合计183、ready0、队列353，最新C355；下一步等待反馈，不自动发C356。
+
+
+## 2026-10-08T00:09:19Z — SELF-MIRRORING模型、观点空间与真实历史回测
+
+用户最新完整请求保留ignored data/private/self_mirroring_2026-10-08/user_request.txt；公开摘要：在既有分支实现self_relevance、心理账户、八类distance、material_strength与topic_strength分离、opinion_activation、opinion_space、social_currency及predicted_inner_response。七因子乘法只是工作假设；真实事实优先于迎合理论，禁止虚假悬念、错误诱骗纠错、仇恨刺激和模板化句式。先历史重新编码/自帖映射/回测，不急大量发布。
+
+执行：315外部链接+183自帖派生版本v2，114外部结构摘要标注+34自帖全文标注，剩余保持UNKNOWN；239初稿扩大到完整源文件清单，未将指标资格条目假装为正文审查。JSON可重建，SQLite新表只存派生版本；原研究及campaign所有posts、正文、URL、原验证字段不变。新模型进入既有candidate gate和research-packet/reader-packet；A–I弱项返回优先级及理由，无爆款总分。
+
+真实历史回测21独立自帖，严格24h合格0。C204/C291/C016/C201相对较高但四条没有可见互动；有公平/家庭/真钱筹码的低帖反对充分条件论。ASH1–ASH3是账号待证伪假设，无VERIFIED_ON_OWN_ACCOUNT、0公式升级。不采集新评论，不用计数推评论内容；分类接口要求真实父帖/评论URL、UTC与证据。原始指标和报告只ignored。
+
+状态修复：C355已发布，旧control_state/LE30/审查摘要仍待human check已过时；保留原用户特定授权及历史，改成已发布待反馈。1h/6h无记录改DUE_MISSING，未到窗口仍PENDING，禁止用晚到累积数回填。C355新模型只为发布后回顾，不改原预注册问题/SHARE动作。本轮0新X观察/提交/发布；158新增、基线25合计183、ready0不变。最终核对发现上轮C355追加后queue元数据353已过时，实际campaign354条；只修盘点元数据至354，保留旧值及原因，全部posts逐项不变。
+
+失败记录：临时初稿遍历到待研究条目的text=null而中止，已以已发布过滤/null保护修复，未写入原证据；开发中新表定稿以v2追加，重复导入0，不重置旧研究表。先通过27项测试，收尾执行audit/原始证据不变/隐私ignore/重建校验后提交现有分支。
+
+收尾校验：27项测试、diff检查、498派生重建、354历史posts逐项不变、原始研究/基线文件字节不变及私有输出ignore通过。旧seed audit11链接/13观察/0自帖反馈，既有局限保留。盘点断言最初发现353≠354，按真实清单修正，未改变任何发布正文/URL。

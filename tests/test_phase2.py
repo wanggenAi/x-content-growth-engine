@@ -147,6 +147,8 @@ class EditorialGateTests(unittest.TestCase):
             "source_refs": ["https://example.com/source"], "fact_check_status": "SOURCE_CHECKED",
             "human_checked": True, "state": "READY_FOR_MANUAL_PUBLISH",
         }
+        from tests.test_reader_model import good_profile
+        base["reader_model"] = good_profile()
         self.assertTrue(validate_candidate(base).ready)
         self.assertFalse(validate_candidate({**base, "material_strength": "INSUFFICIENT"}).ready)
         self.assertFalse(validate_candidate({**base, "primary_action": "SHARE,REPLY"}).ready)
