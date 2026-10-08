@@ -117,9 +117,9 @@
   "live_github": {
     "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
     "resumed_pr": 5,
-    "resumed_head_sha": "8fa203b3a2ade728e33817eb0bf50130f6b5b2a4",
+    "resumed_head_sha": "3ff7532ce1aac9a254a7ca6f411d90c94ab2b4a8",
     "pr_state": "OPEN_UNMERGED",
-    "previous_head_ci": "SUCCESS_PUSH_AND_PR",
+    "previous_head_ci": "SUCCESS_TWO_UNITTEST_RUNS",
     "open_issue_numbers": [
       1,
       2,
@@ -129,7 +129,8 @@
     "local_tests_passed": 27,
     "checked_at_utc": "2026-10-08T00:09:19Z",
     "working_branch": "feature/x-research-phase2",
-    "head_is_pre_round_baseline": true
+    "head_is_pre_round_baseline": false,
+    "head_scope": "Validated implementation commit; restore actual latest HEAD from Git before next work round."
   },
   "publication_batch": {
     "ids": [
@@ -1362,6 +1363,18 @@
       "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification"
     },
     "actual_campaign_records": 354,
-    "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged."
+    "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged.",
+    "git_receipt": {
+      "implementation_commit": "3ff7532ce1aac9a254a7ca6f411d90c94ab2b4a8",
+      "branch": "feature/x-research-phase2",
+      "push": "SUCCESS",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/5",
+      "remote_ci": "TWO_UNITTEST_RUNS_SUCCESS",
+      "run_ids": [
+        37706844395,
+        37706840100
+      ],
+      "scope": "Implementation commit; following receipt checkpoint only changes saved state/docs."
+    }
   }
 }

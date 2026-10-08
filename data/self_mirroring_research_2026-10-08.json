@@ -79,5 +79,17 @@
     "rebuild": "PASS",
     "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification"
   },
-  "actual_campaign_records": 354
+  "actual_campaign_records": 354,
+  "git_receipt": {
+    "implementation_commit": "3ff7532ce1aac9a254a7ca6f411d90c94ab2b4a8",
+    "branch": "feature/x-research-phase2",
+    "push": "SUCCESS",
+    "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/5",
+    "remote_ci": "TWO_UNITTEST_RUNS_SUCCESS",
+    "run_ids": [
+      37706844395,
+      37706840100
+    ],
+    "scope": "Implementation commit; following receipt checkpoint only changes saved state/docs."
+  }
 }
