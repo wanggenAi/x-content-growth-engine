@@ -1,0 +1,91 @@
+{
+  "candidate_id": "C358",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C358-R1",
+  "publication_version": "C358-P1",
+  "text": "花约5000元，让孩子去挖土豆、背柴、喂猪。\n\n不是孩子挣钱，是家长付钱。\n\n封面新闻8月采访了三家“吃苦夏令营”机构：10天收费约5000元，30天过万。孩子靠劳动挣“工分”换物资，有机构说，完不成任务只能吃水煮土豆。\n\n成都一位父亲想让初一女儿知道挣钱不易，结果她一边喊累，一边觉得农活有趣。\n\n上海另一位母亲送7岁女儿去了十余天。回家后，赖床、挑食没改；她仍觉得有价值，至少孩子见过另一种生活。\n\nhttps://timeline.sohu.com/news/0JuPhgsmPM",
+  "subject_value": "家长支付约5000元让孩子十天干农活；两位受访家长分别看到孩子喜欢劳动、旧习惯未改但仍认可见识价值。",
+  "information_gap": "花钱买吃苦到底买到什么：行为改变，还是一次生活体验？",
+  "payload": "记者采访三机构的十天约5000元/月过万报价、工分换物资、具体农活；两位家长实际观察不同。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "经历过研学/夏令营的家长或曾被送去体验劳动的读者，会说自己的体验和是否值得。",
+  "novelty_check": "全部356个campaign记录按来源/夏令营/研学/土豆检查，没有同事件同来源。近100已发首屏/主题/结尾及近50/20冲突复核。C307是成年子女求安慰却被打分，C336是成人后果买单，C339是养老与期待；本条是付费劳动项目及两位家长观察，结尾不重复父母边界或人性道理。",
+  "audit_language_separation": "封面新闻2026-08-13记者杨旭斌一手机构/家长采访，搜狐为其官方账号刊发平台。报价不是两位家长各自实付，不补造金额；机构说法需归因；不证明劳动改造普遍有效。女儿是喜欢农活，不是放羊，不编学习/职业结局。上海母亲仍认可教育价值；两例不能当统计样本。",
+  "follow_reason": "读者能看到付费生活体验的具体价格、过程和家长实感，后续继续找有行动和结果的真实材料。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://timeline.sohu.com/news/0JuPhgsmPM",
+      "author_visible": "封面新闻记者 杨旭斌",
+      "source_date": "2026-08-13",
+      "source_type": "FIRST_HAND_JOURNALIST_INTERVIEWS_OFFICIAL_PUBLISHER_ACCOUNT",
+      "checked_at_utc": "2026-10-08T07:56:46.986558Z",
+      "checked_facts": [
+        "三家机构采访与报价：十天约5000元，30天过万",
+        "劳作与工分换物资",
+        "水煮土豆是机构自述",
+        "成都高先生初一女儿抱怨累但觉得农活有趣",
+        "上海马女士7岁女儿十余天后赖床挑食未改，仍认可见识价值"
+      ]
+    }
+  ],
+  "fact_check_status": "Full source paragraphs23,32,38,49-65 checked; institutional claims attributed, exact fees of interviewed parents unknown, no population/cause/education guarantee.",
+  "human_checked": true,
+  "human_checked_reason": "用户明确授权本轮审稿后逐条发布；该字段记录人工发布授权，来源逐项由agent复核，不声称用户逐字读过原文。",
+  "agent_checked": true,
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "父母付费让孩子吃苦，而是否改变习惯与是否值得并不是同一问题。",
+        "reader_thought": "我会不会花这笔钱？劳动体验值得，但一定要改掉习惯才算值吗？"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "熟悉的育儿花费里，孩子劳动却由家长付款；具体价格、吃什么和回来后的习惯给了读者可判断的实物。",
+    "predicted_inner_response": "花5000元干农活，回来还赖床；但如果只是想让孩子见识生活，也可能觉得值。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "PERSONAL_EXPERIENCE",
+      "DISAGREEMENT",
+      "EXPLANATION_RIGHT"
+    ],
+    "opinion_space": "HIGH",
+    "opinion_space_reason": "可以赞成劳动体验，质疑高价/惩罚安排，或分享短期习惯改变；保留母亲认可价值，没有替所有家长判错。"
+  },
+  "experiment": {
+    "hypothesis": "H3_PAID_HARDSHIP_HUMAN_SCENE",
+    "what_is_being_tested": "真实付费劳动价格与两位家长不同观察能否引出有内容的自然评论，不测试教育效果。",
+    "expected_reader_behavior": "出现亲身经验、赞同或不同意付费吃苦的评论，再逐条分类并与预测比较。",
+    "measurement_limit": "Views are not dwell; missing metrics null.",
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "submission_started_at_utc": "2026-10-08T07:57:47.108708Z",
+  "url": "https://x.com/qiluo27808/status/2108104588360581629",
+  "published_at": "2026-10-08T07:57:00Z",
+  "published_second": null,
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "displayed_time": "3:57 PM · Oct 8, 2026",
+  "verified_at": "2026-10-08T08:00:34.790496Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "原生编辑器逐字/空行/中文核对，单次提交；主页223 posts只出现一个C358；独立详情重载后全文与来源卡目标核对，source t.co/vA9wCjgrxM指向timeline.sohu.com/news/0JuPhgsmPM；无上传媒体。"
+}

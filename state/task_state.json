@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-08T06:11:56.322419Z",
-  "phase": "EDITORIAL_RESELECTION_AFTER_USER_REJECTION",
+  "updated_at": "2026-10-08T07:57:00Z",
+  "phase": "THREE_POST_ROUND_COMPLETE_PENDING_FEEDBACK",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -64,30 +64,30 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 158,
+    "verified_account_publications": 161,
     "unpublished_candidates": 16,
     "agent_observed_viral_posts": 74,
     "agent_observed_exploratory_comparisons": 28,
-    "campaign_verified_new_publications": 158,
-    "verified_total_series": 183,
-    "published_new": 158,
-    "remaining_new_publications": 842,
+    "campaign_verified_new_publications": 161,
+    "verified_total_series": 186,
+    "published_new": 161,
+    "remaining_new_publications": 839,
     "rolling_work_queue_count": 354,
     "ready_count": 0,
-    "latest_publication_id": "C355",
+    "latest_publication_id": "C358",
     "baseline_verified_publications": 25,
-    "total_verified_series": 183,
-    "latest_candidate_id": "C355",
+    "total_verified_series": 186,
+    "latest_candidate_id": "C358",
     "editorial_drafts_unpublished": 1,
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
-    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED"
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108104588360581629",
+    "latest_publication_verified_at": "2026-10-08T08:00:34.790496Z",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK"
   },
   "blocked": [
     "Formal SQLite research still has no human-confirmed dated metrics or ready controls; the 32 direct agent observations are preserved separately",
     "No authorized Reddit ingestion for this use"
   ],
-  "next_action": "C357 is a concrete replacement candidate pending native visible editor recovery; do not submit C358 until a stronger distinct material is source-checked.",
+  "next_action": "Record C357/C358 fixed feedback windows when due; do not auto-submit or claim attraction before observations.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -333,23 +333,23 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 158,
+    "published_new": 161,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 183,
-    "remaining_new_publications": 842,
+    "total_verified_series": 186,
+    "remaining_new_publications": 839,
     "rolling_work_queue_count": 354,
-    "latest_publication_id": "C355",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
-    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
-    "latest_candidate_id": "C355",
-    "latest_candidate_source": "COMPANY_INTERIM_RESULTS_PRIMARY",
-    "latest_candidate_checked_at": "2026-10-07T13:24:19Z",
-    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+    "latest_publication_id": "C358",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108104588360581629",
+    "latest_publication_verified_at": "2026-10-08T08:00:34.790496Z",
+    "latest_candidate_id": "C358",
+    "latest_candidate_source": "FIRST_HAND_JOURNALIST_INTERVIEWS_OFFICIAL_PUBLISHER_ACCOUNT",
+    "latest_candidate_checked_at": "2026-10-08T08:00:34.790496Z",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
     "published_count": 158,
     "ready_count": 0,
-    "updated_at": "2026-10-07T13:24:19Z",
+    "updated_at": "2026-10-08T07:57:00Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
     "control_role": "NOT_A_CONTROL_VARIABLE",
     "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
@@ -408,10 +408,9 @@
     "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
   },
   "latest_editorial_feedback": {
-    "at_utc": "2026-10-08T05:47:46.285835Z",
-    "candidate_id": "C356",
-    "verbatim": "你发的啥垃圾帖子 那什么反物质 有啥吸引人的？？？ 没觉得啊",
-    "decision": "Reject isolated rarity as sufficient interest; replace remaining candidates; factual publication kept distinct from editorial success."
+    "at_utc": "2026-10-08T07:46:54.712230Z",
+    "verbatim": "对你的 你的内容 一定要是 人们高度会被吸引到的内容才可以  继续吧",
+    "decision": "Renewed continuation and publication authorization; stronger concrete conflict/result required; no assumption of guaranteed audience response."
   },
   "source_material_round24": {
     "file": "data/source_materials_round24_2026-10-03.json",
@@ -762,9 +761,9 @@
   "remaining_new_publications": 842,
   "ready_count": 0,
   "rolling_work_queue_count": 354,
-  "latest_candidate_id": "C355",
-  "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
-  "latest_candidate_checked_at": "2026-10-06T01:33:55.037425Z",
+  "latest_candidate_id": "C358",
+  "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+  "latest_candidate_checked_at": "2026-10-08T08:00:34.790496Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -1377,9 +1376,9 @@
     }
   },
   "publication_round_2026_10_08": {
-    "status": "ONE_VERIFIED_USER_REJECTED_C357_REVIEW_PENDING",
+    "status": "THREE_VERIFIED_COMPLETE_PENDING_FEEDBACK",
     "requested": 3,
-    "published_verified": 1,
+    "published_verified": 3,
     "discovery_file": "data/publication_discovery_2026-10-08.json",
     "authorization": "User attachment 7fa1c98a explicitly authorizes three sequential reviewed X posts without repeated permission questions",
     "prior_publication_pause": "SUPERSEDED_FOR_THIS_THREE_POST_ROUND_ONLY",
@@ -1389,10 +1388,20 @@
         "id": "C356",
         "url": "https://x.com/qiluo27808/status/2108070210884567465",
         "editorial_outcome": "USER_REJECTED_LOW_INTEREST"
+      },
+      {
+        "id": "C357",
+        "url": "https://x.com/qiluo27808/status/2108102103482630558",
+        "editorial_outcome": "PENDING_READER_FEEDBACK"
+      },
+      {
+        "id": "C358",
+        "url": "https://x.com/qiluo27808/status/2108104588360581629",
+        "editorial_outcome": "PENDING_READER_FEEDBACK"
       }
     ],
-    "remaining": 2,
-    "selected_replacement": "C357",
-    "selected_replacement_status": "EDITORIAL_REVIEW_NOT_SUBMITTED"
+    "remaining": 0,
+    "selected_replacement": "C358",
+    "selected_replacement_status": "C358_P1_SOURCE_DEDUP_GATE_PASSED_AND_PUBLICLY_VERIFIED"
   }
 }
