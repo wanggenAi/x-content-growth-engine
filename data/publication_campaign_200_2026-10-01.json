@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 162,
+  "published_count": 164,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 358,
-  "remaining_new_publications": 838,
+  "rolling_work_queue_count": 360,
+  "remaining_new_publications": 836,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -9043,18 +9043,214 @@
       "source_kind": "FIRST_PARTY_INTERVIEW_TRANSCRIPT_AND_VIDEO",
       "topic": "对华售芯与美国技术生态竞争",
       "private_evidence_path": "data/private/publication_2026-10-08/"
+    },
+    {
+      "subject_value": "AI单价和整件任务成本，具体数字/动作形成可讨论取舍。",
+      "information_gap": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？",
+      "payload": "官方短提示价格表：每百万输入token1美元到0.1美元、输出5美元到0.5美元；长提示价格降幅不同，新tokenizer同任务token略多，完整任务平均降约75%是公司估计。",
+      "primary_action": "REPLY",
+      "primary_action_reader": "使用客服AI的开发者与业务人员讨论单次价格和人工接手成本。",
+      "novelty_check": "全358条来源无重复，近30已发全文已读；C357审批实验、C359芯片生态不是本条单价与任务成本或配送硬件自主安排。",
+      "audit_language_separation": "官方完整原页与脚注/动作已读；C360价格和75%为公司账表及估计，不等于独立测评；C361原发2025-10-22、更新2026-09-21，测试和便利为公司自述，不声称监控/强制/裁员因果。",
+      "follow_reason": "持续找科技实际动作、成本和人的取舍，有可核对原页。",
+      "material_strength": "STRONG",
+      "reader_model": {
+        "model_version": "READER_VALUE_V2",
+        "claim_status": "HYPOTHESIS",
+        "material_strength": "HIGH",
+        "evidence_strength": "FULL_RECORDED_TEXT",
+        "novelty_status": "CHECKED",
+        "reader_value_routes": [
+          {
+            "route": "OPINION_EXPRESSION",
+            "strength": "HIGH",
+            "cue": "AI单价和整件任务成本",
+            "reader_thought": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？"
+          }
+        ],
+        "dominant_reader_value_route": "OPINION_EXPRESSION",
+        "why_reader_cares": "AI单价和整件任务成本，具体数字/动作形成可讨论取舍。",
+        "predicted_inner_response": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？",
+        "self_relevance": "MEDIUM",
+        "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+        "controversy_risk": "MEDIUM",
+        "opinion_activation": "HIGH",
+        "activation_mechanisms": [
+          "DISAGREEMENT",
+          "EXPLANATION_RIGHT",
+          "KNOWLEDGE_DISPLAY"
+        ],
+        "opinion_space": "HIGH",
+        "opinion_space_reason": "使用者可解释完成客服任务的完整成本与错误后人工接手率，而非只比token单价。"
+      },
+      "candidate_id": "C360",
+      "state": "PUBLISHED_PENDING_FEEDBACK",
+      "research_version": "C360-R1",
+      "publication_version": "C360-P1",
+      "text": "AI价格战，已经有模型按一折卖了。\n\n10月7日发布的Claude Haiku 5.5，提示不超过10万token时，每百万输出token从上一代的5美元降到0.5美元，输入从1美元降到0.1美元。这是开发者API价格，不是聊天订阅费。\n\n但Anthropic自己算的完整任务成本，平均约省75%，并不是90%。长提示降价幅度不同，新模型做同一件事也会用略多token。\n\n单价便宜，和把活干完便宜，是两张账单。\n\n如果拿它做客服，你更在意每次回答便宜，还是出了错有多少需要人工接手？\n\nhttps://www.anthropic.com/claude-haiku-5-5",
+      "source_refs": [
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "source_date": "2026-10-07",
+          "checked_at_utc": "2026-10-09T02:15:47.991606Z",
+          "author_visible": "Anthropic",
+          "source_type": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "fact_check_status": "FULL_OFFICIAL_PRIMARY_BODY_AND_BOUNDARIES_READ",
+      "human_checked": false,
+      "agent_checked": true,
+      "user_authorized": true,
+      "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+      "experiment": {
+        "hypothesis": "C360_CONCRETE_TECH_TRADEOFF",
+        "primary_outcome": "independent_real_reader_substantive_comments",
+        "numeric_comment_target": null,
+        "measurement_windows": [
+          "1h",
+          "6h",
+          "24h",
+          "72h",
+          "7d"
+        ],
+        "distribution_confidence": "UNKNOWN"
+      },
+      "uploaded_media": false,
+      "submission_attempts": 1,
+      "gate_result": {
+        "content_gate_passed": true,
+        "formal_ready": false,
+        "user_waived_personal_review": true,
+        "reasons": [
+          "human_checked must be true before manual publication review"
+        ]
+      },
+      "status": "PUBLISHED_PENDING_FEEDBACK",
+      "id": "C360",
+      "url": "https://x.com/qiluo27808/status/2108381049927750139",
+      "published_at": "2026-10-09T02:16:00Z",
+      "published_at_precision": "displayed_minute_seconds_unknown",
+      "published_second": null,
+      "displayed_time": "10:16 AM · Oct 9, 2026",
+      "verified_at": "2026-10-09T02:21:46.188675Z",
+      "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+      "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+      "verification_note": "Exact Chinese five-paragraph text/format verified before single click; independent detail navigation and reload; source card clicked and resolved to anthropic.com/claude-haiku-5-5. No human text review claimed.",
+      "private_evidence_path": "data/private/publication_2026-10-09/",
+      "ready_for_publication": false,
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_checked": true,
+      "source_kind": "OFFICIAL_PRIMARY"
+    },
+    {
+      "subject_value": "配送眼镜现场指引与自主安排，具体数字/动作形成可讨论取舍。",
+      "information_gap": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？",
+      "payload": "安全停车后启动、步行导航/扫码/送达照片/错误门牌提醒、宠物记录提示；官方报告500多配送员27.5万次配送，使用自愿且有硬件隐私开关。",
+      "primary_action": "REPLY",
+      "primary_action_reader": "做过配送的一线读者可解释眼镜最有用的一步，或指出实际操作中的问题。",
+      "novelty_check": "全358条来源无重复，近30已发全文已读；C357审批实验、C359芯片生态不是本条单价与任务成本或配送硬件自主安排。",
+      "audit_language_separation": "官方完整原页与脚注/动作已读；C360价格和75%为公司账表及估计，不等于独立测评；C361原发2025-10-22、更新2026-09-21，测试和便利为公司自述，不声称监控/强制/裁员因果。",
+      "follow_reason": "持续找科技实际动作、成本和人的取舍，有可核对原页。",
+      "material_strength": "STRONG",
+      "reader_model": {
+        "model_version": "READER_VALUE_V2",
+        "claim_status": "HYPOTHESIS",
+        "material_strength": "HIGH",
+        "evidence_strength": "FULL_RECORDED_TEXT",
+        "novelty_status": "CHECKED",
+        "reader_value_routes": [
+          {
+            "route": "OPINION_EXPRESSION",
+            "strength": "HIGH",
+            "cue": "配送眼镜现场指引与自主安排",
+            "reader_thought": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？"
+          }
+        ],
+        "dominant_reader_value_route": "OPINION_EXPRESSION",
+        "why_reader_cares": "配送眼镜现场指引与自主安排，具体数字/动作形成可讨论取舍。",
+        "predicted_inner_response": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？",
+        "self_relevance": "MEDIUM",
+        "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+        "controversy_risk": "MEDIUM",
+        "opinion_activation": "HIGH",
+        "activation_mechanisms": [
+          "DISAGREEMENT",
+          "EXPLANATION_RIGHT",
+          "KNOWLEDGE_DISPLAY"
+        ],
+        "opinion_space": "HIGH",
+        "opinion_space_reason": "路线提示与一线自主安排是否冲突，使用者可提供具体步骤和经验。"
+      },
+      "candidate_id": "C361",
+      "state": "PUBLISHED_PENDING_FEEDBACK",
+      "research_version": "C361-R1",
+      "publication_version": "C361-P1",
+      "text": "拿哪件包裹、往哪栋楼走、送错门没有——亚马逊把这些提示搬进了配送员的眼镜里。\n\n车停好，眼镜就启动。配送员能看步行导航、扫包裹、拍送达证明；送错地址会提醒，记录显示可能有宠物时还会亮爪印、发声音。\n\n亚马逊9月更新的说明称，500多名配送员已戴它完成超过27.5万次配送。公司说使用自愿，眼镜有硬件隐私开关。\n\n我觉得值得问的是：少了来回掏手机，这份活会更轻松；但如果每一步都有提示，人还剩多少自己安排的余地？\n\n做过配送的人，这东西最可能帮到你哪一步？\n\nhttps://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers",
+      "source_refs": [
+        {
+          "url": "https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers",
+          "source_date": "2026-09-21",
+          "checked_at_utc": "2026-10-09T02:15:47.991606Z",
+          "author_visible": "Amazon Staff",
+          "source_type": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "fact_check_status": "FULL_OFFICIAL_PRIMARY_BODY_AND_BOUNDARIES_READ",
+      "human_checked": false,
+      "agent_checked": true,
+      "user_authorized": true,
+      "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+      "experiment": {
+        "hypothesis": "C361_CONCRETE_TECH_TRADEOFF",
+        "primary_outcome": "independent_real_reader_substantive_comments",
+        "numeric_comment_target": null,
+        "measurement_windows": [
+          "1h",
+          "6h",
+          "24h",
+          "72h",
+          "7d"
+        ],
+        "distribution_confidence": "UNKNOWN"
+      },
+      "uploaded_media": false,
+      "submission_attempts": 1,
+      "gate_result": {
+        "content_gate_passed": true,
+        "formal_ready": false,
+        "user_waived_personal_review": true,
+        "reasons": [
+          "human_checked must be true before manual publication review"
+        ]
+      },
+      "status": "PUBLISHED_PENDING_FEEDBACK",
+      "id": "C361",
+      "url": "https://x.com/qiluo27808/status/2108382464075043061",
+      "published_at": "2026-10-09T02:22:00Z",
+      "published_at_precision": "displayed_minute_seconds_unknown",
+      "published_second": null,
+      "displayed_time": "10:22 AM · Oct 9, 2026",
+      "verified_at": "2026-10-09T02:27:22.098659Z",
+      "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+      "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+      "verification_note": "Exact Chinese five paragraphs and source URL checked before single Post click; editor closed and own profile225->226. Independent exact detail URL navigated and reloaded; complete text/paragraphs and timestamp checked. t.co/4BJG1x56zG clicked and resolved to intended Amazon page. No uploaded media or claimed human review.",
+      "private_evidence_path": "data/private/publication_2026-10-09/",
+      "ready_for_publication": false,
+      "source_url": "https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers",
+      "source_checked": true,
+      "source_kind": "OFFICIAL_PRIMARY"
     }
   ],
-  "updated_at": "2026-10-08T13:19:51.374823Z",
-  "latest_publication_id": "C359",
-  "latest_publication_url": "https://x.com/qiluo27808/status/2108184801950020030",
-  "latest_publication_verified_at": "2026-10-08T13:19:51.374823Z",
-  "latest_candidate_id": "C359",
-  "latest_candidate_source": "FIRST_PARTY_INTERVIEW_TRANSCRIPT_AND_VIDEO",
-  "latest_candidate_checked_at": "2026-10-08T13:19:51.374823Z",
+  "updated_at": "2026-10-09T02:27:22.098659Z",
+  "latest_publication_id": "C361",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2108382464075043061",
+  "latest_publication_verified_at": "2026-10-09T02:27:22.098659Z",
+  "latest_candidate_id": "C361",
+  "latest_candidate_source": "OFFICIAL_PRIMARY",
+  "latest_candidate_checked_at": "2026-10-09T02:27:22.098659Z",
   "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-  "latest_publication_time_note": "C358 displayed minute; publication seconds unknown",
-  "editorial_mode": "PUBLISHED_SINGLE_EXPERIMENT_PENDING_FEEDBACK",
+  "latest_publication_time_note": "C361 displayed minute; publication seconds unknown",
+  "editorial_mode": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "metadata_reconciliation_note": "User steer 2026-10-05: stop V2EX as primary source; prioritize recent verifiable material, with separate non-dated categories for jokes, human nature and political commentary.",
   "current_blocker": null,
   "blocker_history": [
@@ -9134,22 +9330,23 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-08T13:19:51.374823Z",
+  "updated_at_utc": "2026-10-09T02:27:22.098659Z",
   "last_quality_checkpoint": {
-    "id": "C355",
-    "checked_at_utc": "2026-10-07T13:24:19Z",
-    "status": "PUBLISHED_AGENT_VERIFIED",
-    "new_verified": 1,
-    "single_submission": true,
-    "editor_closed": true,
-    "public_detail_reloaded": true,
-    "note": "用户直接授权发布；反馈窗口待到，不恢复批量。"
+    "ids": [
+      "C360",
+      "C361"
+    ],
+    "checked_at_utc": "2026-10-09T02:27:22.098659Z",
+    "status": "TWO_SINGLE_SUBMISSIONS_INDEPENDENTLY_VERIFIED",
+    "new_verified": 2,
+    "private_evidence_ignored": true,
+    "personal_review_waived": true
   },
   "control_role": "NOT_A_CONTROL_VARIABLE",
   "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
-  "publication_mode": "USER_AUTHORIZED_THREE_SEQUENTIAL_VISIBLE_PUBLICATIONS",
-  "next_action": "Collect genuine comments for C359 and maintain feedback windows; no heartbeat main-post submission.",
-  "total_verified_series": 187,
+  "publication_mode": "CONTINUED_USER_AUTHORIZED_NATIVE_VISIBLE_PUBLICATION",
+  "next_action": "Research and publish qualified distinct originals under standing user authorization; maintain separate feedback learning.",
+  "total_verified_series": 189,
   "historical_rolling_work_queue_count_before_reconciliation": 353,
   "record_count_reconciliation": {
     "checked_at_utc": "2026-10-08T00:09:19Z",
