@@ -24,3 +24,10 @@ When own posts are available, compare to the account's recent baseline and repea
 
 The [Upworthy Research Archive](https://upworthy.natematias.com/) separated exploratory headline experiments from confirmatory tests and randomized variants for the same story. Its [data paper](https://www.nature.com/articles/s41597-021-00934-7) describes 32,487 experiments with impressions and clicks. This supports preregistration, same-story controls and holdouts as methods. Its English-language click outcome on a publisher site does not transfer directly to Chinese X view/repost behavior.
 
+## Phase 2 evidence gate
+
+`DISCOVERED` means a search result or submitted link exists; it does not certify the original X page. `ORIGINAL_CONFIRMED` requires a human original-page check or the recorded one-off direct page probe. An observation has reliable historical views only when its metric timestamp and public X page or user screenshot source are recorded. Approximate index abbreviations remain prose, not fabricated precise integers.
+
+Old `high_candidate` and `ordinary_candidate` labels are provisional. A relative cohort label needs an explicit author or topic baseline and similar post age. A `READY` pair additionally needs two confirmed originals, dated non-index views and a written matching basis. A same-author URL pair without these can be exploratory but contributes zero to mechanism evidence. Record promotional disclosure, quote/repost form, media, account reach, time and missingness before comparing. Reserve independent authors and later dates as holdouts; no current observation supports formula promotion.
+
+Human-reviewed annotations use versioned audience, opening motive, expectation relation, narrative structure, concrete evidence, practical value, emotion, discussion motive, confounders, counterexamples and uncertainty. The fields are prompts for looking at actual posts, not claims that any feature improves reach. ChatGPT research output is imported only as a versioned `HYPOTHESIS` with evidence IDs, counterexamples and reviewer rationale. Own-account feedback remains separate and requires manual publication.

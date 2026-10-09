@@ -1,0 +1,103 @@
+{
+  "checked_at_utc": "2026-10-05T15:01:53.688464Z",
+  "status": "PUBLIC_SOURCE_CHECKED_NOT_EVENT_VERIFIED",
+  "materials": [
+    {
+      "id": "S315",
+      "original_url": "https://v2ex.com/t/367714",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "we3613040",
+      "source_date": "2017-06-13",
+      "checked_at_utc": "2026-10-05T14:54:59.957000+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "同一个小额借款里的信用与友情双重标准",
+      "limits": "回复者不记得500还是1000，必须保留不确定；未独立验证借款经过，不主张借钱普遍毁友谊；不同于C301借出前拒绝困难",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch4"
+    },
+    {
+      "id": "S316",
+      "original_url": "https://www.chiphell.com/thread-2459878-1-1.html",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "response",
+      "source_date": "2022-11-13",
+      "checked_at_utc": "2026-10-05T14:54:54.889088+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "金钱积累与喜爱持续时间错位",
+      "limits": "作者仍因复刻兴奋，不能说已不喜欢；不解读“34千”或编鞋成交价；图片属2022年旧帖，无复制许可不上传；判断有“可能”边界",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch4"
+    },
+    {
+      "id": "S317",
+      "original_url": "https://www.douban.com/group/topic/259083082/",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "Modusa",
+      "source_date": "2022-02-01",
+      "checked_at_utc": "2026-10-05T14:54:55.495717+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "一句安慰与可兑现日期之间的现实分歧",
+      "limits": "仅作者自述，不诊断对方、不猜父母态度、性取向或第三者；不泄露医疗或地理背景；保留改善反例，不讲男人普遍规律",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch4"
+    },
+    {
+      "id": "S318",
+      "original_url": "https://v2ex.com/t/1131367",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "oops2day",
+      "source_date": "2025-05-13",
+      "checked_at_utc": "2026-10-05T14:56:58.365946+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "爱与成年人空间可以同时存在",
+      "limits": "不把父亲称为控制狂；保留父亲照顾和OP认家庭好的反例；不引用对认知症的推测；未独立验证家庭生活",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch4"
+    },
+    {
+      "id": "S319",
+      "original_url": "https://linux.do/t/topic/314723",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "lengsukq",
+      "source_date": "2024-12-26",
+      "checked_at_utc": "2026-10-05T15:00:01.497Z",
+      "method": "NATIVE_VISIBLE_CHROME",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "激励制度只有扣款空间的算账冲突",
+      "limits": "匿名作者自述，无公司名，不作违法或工资事实认定；原帖创建2024-12-26，页面显示末次编辑2025-01-02 10:52，时区未知；不推荐裸辞",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch4"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://tieba.baidu.com/p/10742494681",
+      "reason": "HTTP403; no primary body/date/author confirmation"
+    },
+    {
+      "url": "https://www.jisilu.cn/question/506614",
+      "reason": "Long anonymous secondhand financial story; overlaps C300 crying-poor; not admitted"
+    },
+    {
+      "url": "https://v2ex.com/t/1130723",
+      "reason": "Rest/parent approval conflict overlaps recent C307-C308; not admitted"
+    }
+  ],
+  "failures": [
+    {
+      "type": "HARNESS_PERMISSION_PROMPT",
+      "action": "Cancelled new remote debugging grant; native source page was publicly readable, no challenge/login solved"
+    },
+    {
+      "url": "https://linux.do/t/topic/314723",
+      "type": "HTTP403_DIRECT_FETCH",
+      "resolution": "Ordinary unsigned native Chrome loaded original public body and created/edit dates"
+    }
+  ],
+  "new_x_research_pages": 0,
+  "formula_status_change": false
+}

@@ -1,0 +1,2128 @@
+[
+  {
+    "post_url": "https://x.com/jarvis11x/status/2103389699989450879",
+    "entity_kind": "external",
+    "entity_id": "2103389699989450879",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/jarvis11x/status/2103389699989450879",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "a6b39476f33f0ff549a0c0bb224c5ead3e7719cb23d06633dee7a5ff011bb1c1",
+    "primary_action": "SHARE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "SOCIAL_CURRENCY",
+          "strength": "HIGH",
+          "cue": "AI 工具邀请码需要转给正在找入口的朋友。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "SOCIAL_CURRENCY",
+      "why_reader_cares": "AI 工具邀请码需要转给正在找入口的朋友。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "UNKNOWN",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/xieqianwan642/status/2102998967034519923",
+    "entity_kind": "external",
+    "entity_id": "2102998967034519923",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/xieqianwan642/status/2102998967034519923",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "362360aecd03c5a4662795e7e90f1a7387c03fd3e793a16a79d3e53b675ed423",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "EMOTIONAL_RESONANCE",
+          "strength": "HIGH",
+          "cue": "错过机会的叙述可能触发读者回看自己的经历。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "EMOTIONAL_RESONANCE",
+      "why_reader_cares": "错过机会的叙述可能触发读者回看自己的经历。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/xupaopaogm/status/2103825666156179753",
+    "entity_kind": "external",
+    "entity_id": "2103825666156179753",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/xupaopaogm/status/2103825666156179753",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "9c561d910a1d3a05bb7aa62f3ed1779c908bfb2e5f8f496316a39f2ddd67637b",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "CURIOSITY",
+          "strength": "HIGH",
+          "cue": "陌生的 AI 短剧收入案例留下可核对的机制问题。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "CURIOSITY",
+      "why_reader_cares": "陌生的 AI 短剧收入案例留下可核对的机制问题。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/yihui_indie/status/2104046434941276402",
+    "entity_kind": "external",
+    "entity_id": "2104046434941276402",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/yihui_indie/status/2104046434941276402",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "e838ad5b24895d6342d65118b0f7bd8d6589442d1080cf01928a3b85d36a7aef",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "EPISTEMIC_REWARD",
+          "strength": "HIGH",
+          "cue": "连续工作的 Agent 能力留下具体的机制和边界问题。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "EPISTEMIC_REWARD",
+      "why_reader_cares": "连续工作的 Agent 能力留下具体的机制和边界问题。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/0xlangeai/status/2103308533508997170",
+    "entity_kind": "external",
+    "entity_id": "2103308533508997170",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/0xlangeai/status/2103308533508997170",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "9678dd492e5bc971b2b71b2bb9cfcd34f1c6695e863f9ca86052fded4b5e3d7c",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "WONDER",
+          "strength": "HIGH",
+          "cue": "高上限工具额度本身构成惊奇入口。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "WONDER",
+      "why_reader_cares": "高上限工具额度本身构成惊奇入口。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/AI_DVD6/status/2104379795761205451",
+    "entity_kind": "external",
+    "entity_id": "2104379795761205451",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/AI_DVD6/status/2104379795761205451",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "ba3ba369315e21d7a8fb47dc2fb7da93efcf0a10c7a9425834100980f3134b80",
+    "primary_action": "CLICK_RESOURCE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "UTILITY",
+          "strength": "HIGH",
+          "cue": "清单和入口能在以后被具体使用。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "UTILITY",
+      "why_reader_cares": "清单和入口能在以后被具体使用。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qihang_zeng6688/status/2104945040208560623",
+    "entity_kind": "external",
+    "entity_id": "2104945040208560623",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qihang_zeng6688/status/2104945040208560623",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "b39cba8bd93e18c5aa992f97242efd534d29f2e7bfbed12d488702bae33bd61d",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "KNOWLEDGE_CORRECTION",
+          "strength": "HIGH",
+          "cue": "面试资料的真实范围需要核对，不把夸张标题当事实。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "KNOWLEDGE_CORRECTION",
+      "why_reader_cares": "面试资料的真实范围需要核对，不把夸张标题当事实。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/CharlesJHChen/status/2104470333193609533",
+    "entity_kind": "external",
+    "entity_id": "2104470333193609533",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/CharlesJHChen/status/2104470333193609533",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "76759456194863b6f836b47a4d40bf2f932bdf32de9f02c8e565d906390f26ba",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "OPINION_EXPRESSION",
+          "strength": "HIGH",
+          "cue": "对歌曲评论的不同解释留下真实意见空间。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "OPINION_EXPRESSION",
+      "why_reader_cares": "对歌曲评论的不同解释留下真实意见空间。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/nini_incrypto_/status/2101569201668505658",
+    "entity_kind": "external",
+    "entity_id": "2101569201668505658",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/nini_incrypto_/status/2101569201668505658",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "5c44c365ad02b323617a7535dfa33b2579d969b69a9fc8b7dfd1378ac99c1658",
+    "primary_action": "SHARE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "SOCIAL_CURRENCY",
+          "strength": "HIGH",
+          "cue": "开源书链接有明确的转发对象和使用理由。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "SOCIAL_CURRENCY",
+      "why_reader_cares": "开源书链接有明确的转发对象和使用理由。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/STANLEES4/status/2104945205841461259",
+    "entity_kind": "external",
+    "entity_id": "2104945205841461259",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/STANLEES4/status/2104945205841461259",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "b207883c5ede1be8068ebfeac2a0d8b05700d853008467f079a48af3cff61369",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "SELF_RELEVANCE",
+          "strength": "HIGH",
+          "cue": "政策预期与普通人的生活判断存在接口。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "SELF_RELEVANCE",
+      "why_reader_cares": "政策预期与普通人的生活判断存在接口。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/niumoney/status/2103678695881986382",
+    "entity_kind": "external",
+    "entity_id": "2103678695881986382",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/niumoney/status/2103678695881986382",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "9ba7968c256db2b3243b0976c142466771695929fb6f5f1a12298c7bd97be573",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "STATUS",
+          "strength": "HIGH",
+          "cue": "职业路径的比较基准可能让读者核对差距。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "STATUS",
+      "why_reader_cares": "职业路径的比较基准可能让读者核对差距。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/xiaoshunli/status/2104793492996456735",
+    "entity_kind": "external",
+    "entity_id": "2104793492996456735",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/xiaoshunli/status/2104793492996456735",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "ef65eba3b7af336963b748e1df1b52e2d87d96a1e412fc62f9f7d29709a21f51",
+    "primary_action": "LIKE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "HUMOR_ABSURDITY",
+          "strength": "HIGH",
+          "cue": "荒诞的日常比喻提供轻量情绪价值。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "HUMOR_ABSURDITY",
+      "why_reader_cares": "荒诞的日常比喻提供轻量情绪价值。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/zbc2008/status/2105136786083377330",
+    "entity_kind": "external",
+    "entity_id": "2105136786083377330",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/zbc2008/status/2105136786083377330",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "2eedcf8f26cc2a08d1615648258f4e44b4ae65c577cb96b8db77f0bc7e10a9a8",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "NARRATIVE_CLOSURE",
+          "strength": "HIGH",
+          "cue": "政策故事的后续结果是明确的追问。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "NARRATIVE_CLOSURE",
+      "why_reader_cares": "政策故事的后续结果是明确的追问。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/wangxiaolong188/status/2105206013783953894",
+    "entity_kind": "external",
+    "entity_id": "2105206013783953894",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/wangxiaolong188/status/2105206013783953894",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "671afa4a9dbc21957b277a62e591a17e9edd8d0750cac72a846001422294eeb1",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "COMPARISON",
+          "strength": "HIGH",
+          "cue": "宏观判断和个人处境之间存在可讨论的比较。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "COMPARISON",
+      "why_reader_cares": "宏观判断和个人处境之间存在可讨论的比较。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/lengs4189/status/2104772155024293930",
+    "entity_kind": "external",
+    "entity_id": "2104772155024293930",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/lengs4189/status/2104772155024293930",
+        "basis": "PUBLIC_DISCOVERY_SUMMARY_ONLY",
+        "human_checked": false
+      }
+    ],
+    "source_digest": "45bec01453d7abdc83c664b93f73df657e1a54eb2d9542f682cd529bb1748eb3",
+    "primary_action": "FOLLOW",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "STRUCTURE_SUMMARY_ONLY",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "IDENTITY",
+          "strength": "HIGH",
+          "cue": "正在考虑转行的人可能把它看作同类经验。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "IDENTITY",
+      "why_reader_cares": "正在考虑转行的人可能把它看作同类经验。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2105479407582535780",
+    "published_at_utc": "2026-10-01T02:06Z",
+    "publication_text_digest": "edd841c05b1542889da6d612f60817bf2ddd62afc8a465d0747c75d9f9d204a4",
+    "entity_kind": "own",
+    "entity_id": "C016",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2105479407582535780",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "da321c2266f18b74b68672667e6b087006cf737669c6b24a7afffbc8a437abbf",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "KNOWLEDGE_CORRECTION",
+          "strength": "HIGH",
+          "cue": "奖项名称的常识纠正即使与读者职业无关也有认知价值。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "KNOWLEDGE_CORRECTION",
+      "why_reader_cares": "奖项名称的常识纠正即使与读者职业无关也有认知价值。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2105529851369365928",
+    "published_at_utc": "2026-10-01T05:26Z",
+    "publication_text_digest": "b7b50cd0f53203fb52d224bfb6f870f908a536b1d38c348985f97525da543488",
+    "entity_kind": "own",
+    "entity_id": "C201",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2105529851369365928",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "655b0e6ddead9c5a456065947147dff9a7f09af1c1e4e13bea8d7a96c0991fe9",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "OPINION_EXPRESSION",
+          "strength": "HIGH",
+          "cue": "数字是否公平留下解释和经验分歧。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "OPINION_EXPRESSION",
+      "why_reader_cares": "数字是否公平留下解释和经验分歧。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2105562976497664157",
+    "published_at_utc": "2026-10-01T07:38Z",
+    "publication_text_digest": "475c01c0728ff515c29186998f15b6740f3f621fa68054c04166bed0a086da66",
+    "entity_kind": "own",
+    "entity_id": "C204",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2105562976497664157",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "f086ee848a8b1fc8c36e350e06fd530c8d299106ac0112113ee39bc5b1030b4d",
+    "primary_action": "SHARE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "SELF_RELEVANCE",
+          "strength": "HIGH",
+          "cue": "就业总量与分项的落差可让相关读者核对自己的处境。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "SELF_RELEVANCE",
+      "why_reader_cares": "就业总量与分项的落差可让相关读者核对自己的处境。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2106126969893236799",
+    "published_at_utc": "2026-10-02T20:59Z",
+    "publication_text_digest": "fae5bc3a220095a47bad5ec0f4e693c19c97e6cca18d97bb549847001dd0c6c3",
+    "entity_kind": "own",
+    "entity_id": "C282",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2106126969893236799",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "7f44c46042e9ba63cf0852ccdf96edd70219124b03d94d119fb331306ca1aaa6",
+    "primary_action": "FOLLOW",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "IDENTITY",
+          "strength": "HIGH",
+          "cue": "家庭补助和兴趣选择构成特定生活阶段的身份入口。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "IDENTITY",
+      "why_reader_cares": "家庭补助和兴趣选择构成特定生活阶段的身份入口。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2106129290035429491",
+    "published_at_utc": "2026-10-02T21:08Z",
+    "publication_text_digest": "6551c2721303f500964ac9f099cafdbceb096377085ce3e536065de8dd0a7b82",
+    "entity_kind": "own",
+    "entity_id": "C284",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2106129290035429491",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "d490a7c40c431ee54adb702fdf43b55ab5a91f151c9ca10d36d85d101691f854",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "EMOTIONAL_RESONANCE",
+          "strength": "HIGH",
+          "cue": "养老担忧可能唤起读者自己的家庭经验。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "EMOTIONAL_RESONANCE",
+      "why_reader_cares": "养老担忧可能唤起读者自己的家庭经验。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2106138510243881221",
+    "published_at_utc": "2026-10-02T21:45Z",
+    "publication_text_digest": "038271a09baa44c2ea558e6ab5ef60e6ccf3f6d6b43575526a9d6aa99acabd8a",
+    "entity_kind": "own",
+    "entity_id": "C289",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2106138510243881221",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "ed9b5ef27b5904b23a262f2217e858992699e55f6cd0df83dab5158802e9b82b",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "STATUS",
+          "strength": "HIGH",
+          "cue": "福利和合同期限让读者比较机会与代价。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "STATUS",
+      "why_reader_cares": "福利和合同期限让读者比较机会与代价。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2106145390030708973",
+    "published_at_utc": "2026-10-02T22:12Z",
+    "publication_text_digest": "711e34c641c38ea95697e074b15283b990d377fbdb0869c540806c09cff01cf6",
+    "entity_kind": "own",
+    "entity_id": "C291",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2106145390030708973",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "57719bbce30263df398ba378b671d4444f274736f23ccc37fcc4106247c752d6",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "CURIOSITY",
+          "strength": "HIGH",
+          "cue": "陌生工艺的时间成本留下具体的制作问题。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "CURIOSITY",
+      "why_reader_cares": "陌生工艺的时间成本留下具体的制作问题。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2106153170057761214",
+    "published_at_utc": "2026-10-02T22:43Z",
+    "publication_text_digest": "6b346df6fc3b23ef8073ec9c5fe8fd016ac56719ecd3ef5fb96aa924b8a41594",
+    "entity_kind": "own",
+    "entity_id": "C297",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2106153170057761214",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "0a7fc1e510ce1229b1c07294fc47e8ffcd9a2391d73be7b0cd075f344bbf9260",
+    "primary_action": "REPLY",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "COMPARISON",
+          "strength": "HIGH",
+          "cue": "生活费和联系成本可以引出不同家庭经验。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "COMPARISON",
+      "why_reader_cares": "生活费和联系成本可以引出不同家庭经验。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2107166706259149204",
+    "published_at_utc": "2026-10-05T17:51Z",
+    "publication_text_digest": "968cf5d55948485f0b7f1a38182b717ae13fbb73d7705e5281c1ec8929d4c669",
+    "entity_kind": "own",
+    "entity_id": "C338",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2107166706259149204",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "360e12d2730d992d65b594f8e521ff6e431c5e441867f9c07d6b9d8884bd35ca",
+    "primary_action": "SAVE_RETURN",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "UTILITY",
+          "strength": "HIGH",
+          "cue": "原始资料入口具备日后回查价值。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "UTILITY",
+      "why_reader_cares": "原始资料入口具备日后回查价值。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2107209686080762278",
+    "published_at_utc": "2026-10-05T20:41Z",
+    "publication_text_digest": "0d4180bdbf064d65a075ede7f3c30a64eb130d6c04fa53a010feaaa7cf4117b5",
+    "entity_kind": "own",
+    "entity_id": "C348",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2107209686080762278",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "9a1a0e35d689a7c486b642fbee5201691d27155ef45732c0b454879d75ca620d",
+    "primary_action": "LIKE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "WONDER",
+          "strength": "HIGH",
+          "cue": "罕见对象和细节本身提供惊奇。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "WONDER",
+      "why_reader_cares": "罕见对象和细节本身提供惊奇。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2107211704287576364",
+    "published_at_utc": "2026-10-05T20:49Z",
+    "publication_text_digest": "016bb2ac87d3902952621332b1c124fc71d56527357f319d57aedd7b134cdd94",
+    "entity_kind": "own",
+    "entity_id": "C350",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2107211704287576364",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "1ab0f73e705ef1d76ede44d3436052aa2ff0f5fdd520ecf3b45d64518af8d52c",
+    "primary_action": "LIKE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "HUMOR_ABSURDITY",
+          "strength": "HIGH",
+          "cue": "具体荒诞场景提供轻量笑点。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "HUMOR_ABSURDITY",
+      "why_reader_cares": "具体荒诞场景提供轻量笑点。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2107283617504453067",
+    "published_at_utc": "2026-10-06T01:35:00Z",
+    "publication_text_digest": "6daf3c2958d15e75ee9ce8eba6846ea5ad25b66b21fc0a9929bb594612e4549e",
+    "entity_kind": "own",
+    "entity_id": "C353",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2107283617504453067",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "e06c05bcf5f8d1258bbfa4ce0b20481373fc53fade1e8dcad08e1d9db850db22",
+    "primary_action": "DWELL",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "NARRATIVE_CLOSURE",
+          "strength": "HIGH",
+          "cue": "事件最后如何收束是读者继续看的理由。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "NARRATIVE_CLOSURE",
+      "why_reader_cares": "事件最后如何收束是读者继续看的理由。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  },
+  {
+    "post_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "published_at_utc": "2026-10-07T13:19:00Z",
+    "publication_text_digest": "9d58a3d875f82e71b5a09bd8c8a74aee239c1e27b4b72d55d489d57c16eb9ed5",
+    "entity_kind": "own",
+    "entity_id": "C355",
+    "version": 3,
+    "annotated_at_utc": "2026-10-08T00:00:00Z",
+    "annotator": "CODEX_STRATIFIED_REVIEW",
+    "annotation_note": "Bounded stratified review; route is an explicit hypothesis, not a measured cause.",
+    "source_refs": [
+      {
+        "url": "https://x.com/qiluo27808/status/2107823209806713075",
+        "basis": "PUBLICATION_RECORD",
+        "human_checked": true
+      }
+    ],
+    "source_digest": "5ef81ba2c3bed339db1d92c737845aa88061cd6a54c462d371427574584434ba",
+    "primary_action": "SHARE",
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "CURIOSITY",
+          "strength": "HIGH",
+          "cue": "熟悉品牌的收入组合留下解释缺口；这是发布后的新模型回顾。",
+          "reader_thought": "原来还有这种入口。"
+        }
+      ],
+      "dominant_reader_value_route": "CURIOSITY",
+      "why_reader_cares": "熟悉品牌的收入组合留下解释缺口；这是发布后的新模型回顾。",
+      "predicted_inner_response": "我想继续看清楚这件事。",
+      "self_relevance": "LOW",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "UNKNOWN",
+      "curiosity": "HIGH",
+      "curiosity_types": [
+        "KNOWLEDGE_GAP"
+      ],
+      "information_gap": "材料交付前后仍有一个可以核对的解释问题。",
+      "narrative_progression": "先给出可核验事实，再交付过程或结果。",
+      "expectation_violation": "MEDIUM",
+      "opinion_activation": "MEDIUM",
+      "opinion_space": "MEDIUM",
+      "social_currency": "MEDIUM",
+      "actionability": "MEDIUM",
+      "utility": "MEDIUM",
+      "resource_value": "MEDIUM",
+      "source_accessibility": "MEDIUM",
+      "activation_mechanisms": [
+        "EXPLANATION_RIGHT"
+      ],
+      "share_recipient": "对该主题有具体问题的朋友",
+      "share_reason": "提供可核对的材料或入口。",
+      "concrete_resource": "原始资料链接或步骤摘要",
+      "future_usefulness": "下次需要时可以回查。",
+      "identity_trigger": "经历相同生活阶段或兴趣的人",
+      "comparison_basis": "同一标准下的机会、成本或结果。",
+      "concrete_stakes": "时间、机会或判断成本",
+      "comic_turn": "事实落点与日常预期形成轻微错位。",
+      "closure_payload": "最终结果或关键解释",
+      "opinion_space_reason": "事实交付后仍有真实经验差异。",
+      "why_follow": "持续提供有来源的具体材料。",
+      "repeatable_value": "每次交付一个可核验入口。",
+      "account_positioning": "来源清楚的材料解读",
+      "future_expectation": "下一条仍有具体来源和边界。",
+      "correction": {
+        "common_claim": "常见说法与材料表面印象相同。",
+        "supported_correction": "原始来源显示需要更精确的说法。",
+        "source_ref": "公开来源待逐项复核。"
+      }
+    }
+  }
+]

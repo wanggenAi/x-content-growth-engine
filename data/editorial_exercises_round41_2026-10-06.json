@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-06T01:49:47.179578Z",
+  "status": "NOT_READY_NOT_PUBLISHED",
+  "queued_campaign_ids": [],
+  "published_new": 0,
+  "submission_attempts": 0,
+  "posts": [
+    {
+      "id": "R41-E01",
+      "draft": "自拟面试段子：技术面说略懂，HR面说全懂，老板面说最懂。",
+      "status": "HOLD_ORIGINALITY",
+      "reason": "仅替换原高帖三个程度词，递进和交付相同，属于复述原梗，不换词发布。"
+    },
+    {
+      "id": "R41-E02",
+      "draft": "不懂还叫你投钱的，百分之百是骗子。",
+      "status": "HOLD_UNSUPPORTED_GROUP_CLAIM",
+      "reason": "无证据的100%和二分判断，把不熟悉等同骗局；不能变成投资建议。"
+    },
+    {
+      "id": "R41-E03",
+      "draft": "给大学生的必做清单，我想先加一栏：哪件可以不做？实习、剪视频、准备出国，暑假总得先排掉一件。",
+      "status": "HOLD_EDITORIAL_DELIVERY",
+      "reason": "反问加时间取舍仍是常识式成本提醒，无具体预算、个人限制和新的可用交付；不把原作者选择建议曲解为强制规定，也不补量。"
+    },
+    {
+      "id": "R41-E04",
+      "draft": "自拟合唱小故事：唱错的人举手要罚，下一遍没人举手，指挥宣布进步。",
+      "status": "HOLD_MECHANISM_OVERLAP",
+      "reason": "换成排练道具仍是上报惩罚令记录归零的旧机制，与C351投诉结案接近；四句流程可猜，不自动发布。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "subject_value": "配送眼镜现场指引与自主安排，具体数字/动作形成可讨论取舍。",
+  "information_gap": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？",
+  "payload": "安全停车后启动、步行导航/扫码/送达照片/错误门牌提醒、宠物记录提示；官方报告500多配送员27.5万次配送，使用自愿且有硬件隐私开关。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "做过配送的一线读者可解释眼镜最有用的一步，或指出实际操作中的问题。",
+  "novelty_check": "全358条来源无重复，近30已发全文已读；C357审批实验、C359芯片生态不是本条单价与任务成本或配送硬件自主安排。",
+  "audit_language_separation": "官方完整原页与脚注/动作已读；C360价格和75%为公司账表及估计，不等于独立测评；C361原发2025-10-22、更新2026-09-21，测试和便利为公司自述，不声称监控/强制/裁员因果。",
+  "follow_reason": "持续找科技实际动作、成本和人的取舍，有可核对原页。",
+  "material_strength": "STRONG",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "配送眼镜现场指引与自主安排",
+        "reader_thought": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "配送眼镜现场指引与自主安排，具体数字/动作形成可讨论取舍。",
+    "predicted_inner_response": "配送员少掏手机之后，导航便利和自己安排路线之间是否存在取舍？",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT",
+      "EXPLANATION_RIGHT",
+      "KNOWLEDGE_DISPLAY"
+    ],
+    "opinion_space": "HIGH",
+    "opinion_space_reason": "路线提示与一线自主安排是否冲突，使用者可提供具体步骤和经验。"
+  },
+  "candidate_id": "C361",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C361-R1",
+  "publication_version": "C361-P1",
+  "text": "拿哪件包裹、往哪栋楼走、送错门没有——亚马逊把这些提示搬进了配送员的眼镜里。\n\n车停好，眼镜就启动。配送员能看步行导航、扫包裹、拍送达证明；送错地址会提醒，记录显示可能有宠物时还会亮爪印、发声音。\n\n亚马逊9月更新的说明称，500多名配送员已戴它完成超过27.5万次配送。公司说使用自愿，眼镜有硬件隐私开关。\n\n我觉得值得问的是：少了来回掏手机，这份活会更轻松；但如果每一步都有提示，人还剩多少自己安排的余地？\n\n做过配送的人，这东西最可能帮到你哪一步？\n\nhttps://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers",
+  "source_refs": [
+    {
+      "url": "https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers",
+      "source_date": "2026-09-21",
+      "checked_at_utc": "2026-10-09T02:15:47.991606Z",
+      "author_visible": "Amazon Staff",
+      "source_type": "OFFICIAL_PRIMARY"
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_PRIMARY_BODY_AND_BOUNDARIES_READ",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "experiment": {
+    "hypothesis": "C361_CONCRETE_TECH_TRADEOFF",
+    "primary_outcome": "independent_real_reader_substantive_comments",
+    "numeric_comment_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ]
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C361",
+  "url": "https://x.com/qiluo27808/status/2108382464075043061",
+  "published_at": "2026-10-09T02:22:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "10:22 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T02:27:22.098659Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "Exact Chinese five paragraphs and source URL checked before single Post click; editor closed and own profile225->226. Independent exact detail URL navigated and reloaded; complete text/paragraphs and timestamp checked. t.co/4BJG1x56zG clicked and resolved to intended Amazon page. No uploaded media or claimed human review.",
+  "private_evidence_path": "data/private/publication_2026-10-09/"
+}

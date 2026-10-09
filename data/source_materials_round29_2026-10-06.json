@@ -1,0 +1,82 @@
+{
+  "observed_at_utc": "2026-10-05T16:56:55.152574Z",
+  "kind": "DIRECT_VISIBLE_X_HIGH_VIEW_AND_NON_V2EX_PUBLIC_COMMUNITY_RESEARCH",
+  "source": "https://x.com/search?q=min_faves%3A10000%20lang%3Azh%20%E4%BA%BA%E6%80%A7%20-filter%3Areplies&src=typed_query&f=top",
+  "materials": [
+    {
+      "url": "https://x.com/lixin5jtg/status/2106217496004960733",
+      "displayed_views": 236087,
+      "structure": "具体争吵场景+直接道德反转+一张图",
+      "limit": "capture-time display; direct X observation, no causal claim; do not reuse humiliation language"
+    },
+    {
+      "url": "https://x.com/h_nsola/status/2084858819453362446",
+      "displayed_views": 1164840,
+      "structure": "具体围攻事件+追问旁观者责任",
+      "limit": "capture-time display; do not repeat unverified death claim"
+    },
+    {
+      "url": "https://x.com/Serial_rescuer/status/2096671856178999531",
+      "displayed_views": 2679759,
+      "structure": "极端自述+短句反差",
+      "limit": "explicit sexual material excluded from editorial reuse"
+    },
+    {
+      "url": "https://x.com/yibingsg/status/2029154171845517546",
+      "displayed_views": 332276,
+      "structure": "酒精/人性短标题+视频作为证据",
+      "limit": "capture-time display; video intrinsic evidence, not a formula"
+    },
+    {
+      "url": "https://x.com/milesyu10/status/1631772768831258624",
+      "displayed_views": 1155708,
+      "structure": "具体物件+机制判断+政治观点",
+      "limit": "opinion, not verified fact or forecast"
+    },
+    {
+      "url": "https://x.com/juanli324324/status/1673230111968198656",
+      "displayed_views": 93447,
+      "structure": "熟悉处境+一句反常识判断",
+      "limit": "below 100k but directly observed; capture-time display, no causal claim"
+    },
+    {
+      "url": "https://bbs.hupu.com/642309560.html",
+      "source_date": "2026-09-07",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_REPORT",
+      "displayed_page_views": 57303,
+      "structure": "婚后管钱自述+明确工资/房贷/账户数字",
+      "limit": "Hupu page directly readable; self-report, not a population pattern"
+    },
+    {
+      "url": "https://linux.do/t/topic/2834183?page=31&tl=en",
+      "source_date": "2026-09-08/09",
+      "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "structure": "七年关系+条件多次上调的具体叙述",
+      "limit": "thread page directly readable; one-sided self-report and comments, not verified event"
+    },
+    {
+      "url": "https://linux.do/t/topic/2819156?tl=en%EF%BC%8C灵感一闪...",
+      "source_date": "2026-08-27",
+      "source_kind": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "structure": "赌博/家庭借钱+债主债务人比喻",
+      "limit": "sensitive one-sided self-report; no diagnosis or universal claim"
+    },
+    {
+      "url": "https://linux.do/t/topic/2029398?page=5",
+      "source_date": "2026-04-22",
+      "source_kind": "PUBLIC_COMMUNITY_DISCUSSION",
+      "structure": "第一次见父母礼物红包+谁做主的权力试探",
+      "limit": "page 5 context retained; discussion/comments not verified event"
+    },
+    {
+      "url": "https://www.ptt.cc/bbs/marriage/M.1746694564.A.2F1.html",
+      "source_date": "2025-05-08/09",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_REPORT",
+      "structure": "婆婆频繁无预告进门+钥匙/家务边界",
+      "limit": "old self-report, one side only; retained as undated human-interest story"
+    }
+  ],
+  "user_steer": "2026-10-06: stop V2EX as primary source; recent events preferred; undated jokes/human nature/political commentary allowed when clearly labeled story/self-report/opinion. Use sources when useful, media only for evidence value, not decoration.",
+  "rights": "LINK_AND_SHORT_SUMMARY_ONLY",
+  "private_evidence": "data/private/publication_round_2026-10-06_batch7/highview_and_community_research.txt"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://x.com/AYi_AInotes/status/2040403020144587155",
+    "author_handle": "AYi_AInotes", "posted_date": "2026-04-04", "topic": "AI 播客观点转述",
+    "excerpt": "将 Marc Andreessen 访谈中的 AI 趋势判断整理成长帖，并邀请读者索取字幕版。",
+    "cohort": "unclassified", "observed_at": "2026-09-29T15:59:02Z",
+    "source_url": "https://x.com/AYi_AInotes/status/2040403020144587155", "method": "public_search_index",
+    "discovery_query": "site:x.com/AYi_AInotes/status/ 2026 AI",
+    "evidence_note": "2026-09-29 公开搜索结果显示 9,678 浏览；索引称 2026-04-04 发布。未在 X 原帖核对完整上下文、评论、指标时间及推广情况。",
+    "evidence_ref": "docs/QUERY_PROBE_2026-09-29.md#q3", "metric_source": "SEARCH_INDEX", "views": 9678,
+    "post_type": "UNKNOWN", "promotion_status": "UNKNOWN"
+  },
+  {
+    "url": "https://x.com/AYi_AInotes/status/2040669222838341969",
+    "author_handle": "AYi_AInotes", "posted_date": "2026-04-05", "topic": "AI 创业播客观点转述",
+    "excerpt": "转述 Greg Isenberg 对一人创业时机的判断，包含成本、Agent 和利基受众等要点。",
+    "cohort": "unclassified", "observed_at": "2026-09-29T15:59:02Z",
+    "source_url": "https://x.com/AYi_AInotes/status/2040669222838341969", "method": "public_search_index",
+    "discovery_query": "site:x.com/AYi_AInotes/status/ 2026 AI",
+    "evidence_note": "2026-09-29 公开搜索结果显示约 9.9 万浏览；数值为缩写，未转换为精确整数。页面呈引用结构，作者自述及商业主张未核实。",
+    "evidence_ref": "docs/QUERY_PROBE_2026-09-29.md#q3", "metric_source": "SEARCH_INDEX", "views": null,
+    "post_type": "UNKNOWN", "promotion_status": "UNKNOWN"
+  }
+]

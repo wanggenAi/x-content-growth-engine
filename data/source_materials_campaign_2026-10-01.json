@@ -1,0 +1,477 @@
+{
+  "checked_at": "2026-10-01T17:44:30Z",
+  "materials": [
+    {
+      "id": "CAM-S001",
+      "title": "霍金19岁的真实照片",
+      "url": "https://www.cai.cam.ac.uk/news/croquet-and-pranks-astrophysics-camp-new-photos-student-stephen-hawking",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "1961 photos; 19 years; died 14 March 2018; museum publication 29 March 2018",
+      "limits": "Historical record, not recent photos; photographer copyright not transferred; link only.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S002",
+      "title": "梵高一生只卖一幅画的神话",
+      "url": "https://www.vangoghmuseum.nl/en/art-and-stories/vincent-van-gogh-faq/how-many-paintings-did-vincent-sell-during-his-lifetime",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "DIRECT_RENDERED_PRIMARY_PAGE_AGENT",
+      "verified_basis": "Museum states exact number unknown, more than a couple; uncle commissioned 19 cityscapes; traded works for food/materials",
+      "limits": "No invented total sales or price. Full original read via Browser Harness; web fetch shell recorded.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S003",
+      "title": "图灵获追授赦免的时间差",
+      "url": "https://www.gov.uk/government/news/royal-pardon-for-ww2-code-breaker-dr-alan-turing",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "1952 conviction; clearance removed; GCHQ work ceased; posthumous pardon 24 December 2013",
+      "limits": "Historical government record; final sentence commentary; no present personal allegation or exact war-years-saved claim.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S004",
+      "title": "网页开放的那份文件",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/licensing-web/",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "30 April 1993 specific Web software public-domain release; later open-source copyright retained",
+      "limits": "Do not claim all web content or the whole internet is copyright-free.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S005",
+      "title": "哈勃修复不是重新磨镜子",
+      "url": "https://www.jpl.nasa.gov/news/hubble-adjustments-and-tests-completed/",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "1993 servicing installed WFPC2 and COSTAR correcting primary-mirror flaw; NASA 13 Jan 1994 report",
+      "limits": "Not a newly occurring fault; avoid unsupported cost or micron figures.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S006",
+      "title": "亲手做的为什么舍不得扔",
+      "url": "https://scholars.duke.edu/publication/861385",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Four studies; assembled IKEA boxes/origami/Legos; increased own valuation; effect dissipates with failure/destruction",
+      "limits": "Study-specific result; does not generalize to relationships, jobs or all hardship.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S007",
+      "title": "0.1加0.2的可复现陷阱",
+      "url": "https://docs.python.org/3/tutorial/floatingpoint.html",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Locally executed float and Decimal string construction; documentation supports representational error and decimal",
+      "limits": "Hands-on claim belongs to current agent execution, not invented user experience; not financial advice.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S008",
+      "title": "无痕模式不会让你隐身",
+      "url": "https://support.google.com/chrome/answer/95464?hl=en",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Incognito session end removes local site data/history; downloads/bookmarks retained; sites/network operators may observe",
+      "limits": "Do not imply every activity is visible to every observer; no security setting change recommended.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S009",
+      "title": "金星的一年比自转一圈短",
+      "url": "https://science.nasa.gov/venus/venus-facts/",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Venus rotation 243 Earth days; orbital year 225; rotation period not solar-day interval",
+      "limits": "Sidereal rotation explicitly named; no incorrect solar-day duration claim.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S010",
+      "title": "离太阳最近不等于最能留住热",
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Day about430 Celsius night about-180; thin exosphere; Venus hottest due dense atmosphere",
+      "limits": "Approximate extremes, not every place/time; do not say Mercury literally has zero surrounding gas.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S011",
+      "title": "苍蓝小点的真实拍摄日期",
+      "url": "https://science.nasa.gov/resource/voyager-pale-blue-dot-download/",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "14 Feb1990 Voyager1 photograph;6 billion km from Sun;2020 reprocessing",
+      "limits": "Distance is from Sun, not mislabeled exact Earth distance; final thought original commentary.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S012",
+      "title": "章鱼三颗心脏的分工",
+      "url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Two branchial hearts pump to gills; one systemic heart circulates oxygenated blood",
+      "limits": "Does not repeat sensational nine independent brains claim or extrapolate to human physiology.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-S013",
+      "title": "Ada看见的不只是计算器",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp38764/ada-lovelace",
+      "checked_at": "2026-10-01T01:45:12.244160Z",
+      "source_kind": "PRIMARY_PAGE_WEB_TOOL_AGENT",
+      "verified_basis": "Museum1843 notes/general manipulation of symbols letters music; died1852; later appreciation",
+      "limits": "Do not settle disputed absolute first-programmer priority; historical record not breaking obituary.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-C014",
+      "title": "牛顿离开剑桥的瘟疫时期怎样工作",
+      "url": "https://www.trin.cam.ac.uk/about/historical-overview/",
+      "checked_at": "2026-10-01T02:01:28.274088Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Trinity College Cambridge confirms Newton entered in 1661 and remained until 1696, with major mathematical/scientific work completed by then.",
+      "limits": "The page does not itself document every plague-year anecdote; text deliberately avoids unsupported apple/annus mirabilis claims.",
+      "human_checked": false,
+      "original_publication_date": null,
+      "title_variants": [
+        "牛顿离开剑桥的瘟疫时期怎样工作"
+      ]
+    },
+    {
+      "id": "CAM-C015",
+      "title": "达尔文差点没上小猎犬号",
+      "url": "https://www.darwinproject.ac.uk/letter?docId=letters%2FDCP-LETT-110.xml",
+      "checked_at": "2026-10-01T02:01:28.274088Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Cambridge Darwin Correspondence Project transcript dated 31 August 1831 records objections and request for a yes/no answer.",
+      "limits": "The later scientific outcome is historical context, not proof the letter predicted it.",
+      "human_checked": false,
+      "original_publication_date": null,
+      "title_variants": [
+        "达尔文出发前的职业选择",
+        "达尔文差点没上小猎犬号"
+      ]
+    },
+    {
+      "id": "CAM-C016",
+      "title": "居里夫人的两次诺奖，表彰的不是同一件事",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/",
+      "checked_at": "2026-10-01T02:01:28.274088Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Nobel biographical page states 1903 Physics shared prize, 1911 Chemistry prize, Pierre death 1906 and Sorbonne appointment.",
+      "limits": "Historical summary; no claim about current status or simplistic “first woman professor” beyond source scope.",
+      "human_checked": false,
+      "original_publication_date": null,
+      "title_variants": [
+        "居里夫人的两次诺奖分别表彰什么",
+        "居里夫人的两次诺奖，表彰的不是同一件事"
+      ]
+    },
+    {
+      "id": "CAM-C017",
+      "title": "爱因斯坦的诺奖，不是因为相对论",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
+      "checked_at": "2026-10-01T02:01:28.274088Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Nobel official summary states the prize citation and 1921/1922 timing.",
+      "limits": "Does not diminish relativity; distinguishes public memory from award citation.",
+      "human_checked": false,
+      "original_publication_date": null,
+      "title_variants": [
+        "爱因斯坦的诺奖，不是因为相对论",
+        "爱因斯坦诺奖获奖理由和大众记忆有何差别"
+      ]
+    },
+    {
+      "id": "CAM-C019",
+      "title": "屠呦呦诺奖官方表述有多克制",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/summary/",
+      "checked_at": "2026-10-01T02:30:00Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "Nobel official summary states the 2015 medicine prize was split and half awarded to Tu Youyou for discoveries concerning a novel therapy against malaria.",
+      "limits": "The summary confirms the citation only; it does not validate every later anecdote about the discovery process.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-C020",
+      "title": "挑战者号事故的73秒时间轴",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "checked_at": "2026-10-01T02:30:00Z",
+      "source_kind": "PRIMARY_ARCHIVE_OR_INSTITUTION_WEB_TOOL",
+      "verified_basis": "NASA-hosted Presidential Commission report records the 11:38 launch, breakup after 73 seconds and loss of all seven crew members.",
+      "limits": "This post states the report's event timeline and does not assign a causal conclusion.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "EDITORIAL-HYPOTHESIS-2026-10-01",
+      "title": "暴论式写作假设：可复述性与证据",
+      "url": null,
+      "checked_at": "2026-10-01T02:39:00Z",
+      "source_kind": "ORIGINAL_EDITORIAL_HYPOTHESIS",
+      "verified_basis": "The post is explicitly labeled as a writing hypothesis and makes no empirical claim about X ranking or virality.",
+      "limits": "Not a research finding; no causal or reach inference.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-C021",
+      "title": "YouTube为何隐藏公开倒赞数",
+      "url": "https://blog.youtube/news-and-events/update-to-youtube/",
+      "checked_at": "2026-10-01T05:09:10Z",
+      "source_kind": "PRIMARY_CORPORATE_ANNOUNCEMENT_BROWSER_HARNESS",
+      "verified_basis": "YouTube’s 2021-11-10 announcement says the dislike button remains, public counts become private, creators can still see exact counts in Studio, and its experiment reduced dislike-attack behavior that disproportionately affected smaller creators.",
+      "limits": "Historical 2021 policy announcement and platform-reported experiment; does not establish current policy or independent causal replication.",
+      "human_checked": false,
+      "original_publication_date": "2021-11-10"
+    },
+    {
+      "id": "CAM-C022",
+      "title": "Dot的自动化边界与人工审批",
+      "url": "https://openai.com/index/introducing-dots/",
+      "checked_at": "2026-10-01T05:34:57Z",
+      "source_kind": "PRIMARY_PRODUCT_ANNOUNCEMENT_BROWSER_HARNESS",
+      "verified_basis": "OpenAI's 2026-09-29 announcement describes Dot working on a cloud computer, using plugins and continuing tasks, while access permissions, approval rules, automated review for account-impacting actions and human completion for certain sensitive tasks remain part of the controls. The announcement also says Dot may make mistakes and important outputs should be checked.",
+      "limits": "Vendor announcement and product-control description; not an independent capability or safety evaluation, and not a claim about this account's access.",
+      "human_checked": false,
+      "original_publication_date": "2026-09-29"
+    },
+    {
+      "id": "CAM-C023",
+      "title": "起诉文件不等于法院裁决",
+      "url": "https://www.uscourts.gov/about-federal-courts/types-cases/civil-cases",
+      "checked_at": "2026-10-01T05:40:00Z",
+      "source_kind": "PRIMARY_GOVERNMENT_EDUCATIONAL_PAGE_BROWSER_HARNESS",
+      "verified_basis": "The U.S. Courts page explains that a federal civil action begins when a plaintiff files a complaint, and that evidence, trial or settlement follow. It describes the plaintiff's burden to persuade the jury by a preponderance of the evidence when the case is tried.",
+      "limits": "General explanation of U.S. federal civil cases; not a statement about any named lawsuit or another country's procedure.",
+      "human_checked": false,
+      "original_publication_date": null
+    },
+    {
+      "id": "CAM-C024",
+      "title": "总失业数下降不等于每个行业都变好",
+      "url": "https://www.bls.gov/news.release/empsit.t14.htm",
+      "checked_at": "2026-10-01T07:40:00Z",
+      "source_kind": "PRIMARY_GOVERNMENT_STATISTICAL_TABLE_BROWSER_HARNESS",
+      "verified_basis": "BLS Table A-14, not seasonally adjusted, lists August 2025 and August 2026 unemployed counts and rates by industry. Total unemployed people aged 16+ are listed as 7,747 thousand in August 2025 and 7,381 thousand in August 2026; information is 118 to 176 thousand, financial activities 174 to 294 thousand, and education and health services 981 to 1,038 thousand.",
+      "limits": "Not seasonally adjusted; table-level comparisons only; does not establish causes, current local conditions, or individual experience. BLS notes classification changes can affect comparability with earlier years.",
+      "human_checked": false,
+      "original_publication_date": "2026-09-04"
+    },
+    {
+      "id": "CAM-C025",
+      "title": "FTC 2024诈骗损失与报告者亏损比例",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024",
+      "checked_at": "2026-10-01T08:10:00Z",
+      "source_kind": "primary_government_press_release_browser_harness",
+      "facts": [
+        "FTC称消费者2024年报告的诈骗损失超过125亿美元，同比增加25%",
+        "诈骗报告数量与2023年基本相同，但报告亏损的比例由27%升至38%",
+        "投资诈骗报告损失57亿美元；银行转账或加密货币支付的诈骗损失高于其他支付方式合计"
+      ],
+      "limits": [
+        "FTC数据是消费者报告，不是全部实际诈骗损失",
+        "原文不证明某种心理机制或个体因果",
+        "编辑观点必须与统计事实分开"
+      ]
+    },
+    {
+      "id": "CAM-C026",
+      "title": "FTC负面选择订阅规则与取消障碍",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
+      "checked_at": "2026-10-01T11:00:00Z",
+      "source_kind": "primary_government_press_release_browser_harness",
+      "facts": [
+        "FTC说明负面选择订阅在消费者没有采取肯定行动时可能继续收费",
+        "FTC称过去五年收到超过100000起相关投诉",
+        "FTC于2026年3月11日就是否修改现行Negative Option Rule征求意见，并列出自愿同意、披露和取消障碍等问题"
+      ],
+      "limits": [
+        "新闻稿记录的是FTC的规则制定与投诉描述，不证明每个订阅商或每次扣款都违法",
+        "尚未形成新的最终规则",
+        "取消难度是编辑判断，不冒充FTC因果结论"
+      ]
+    },
+    {
+      "id": "CAM-C027",
+      "title": "先买后付的多笔同时借款",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-research-reveals-heavy-buy-now-pay-later-use-among-borrowers-with-high-credit-balances-and-multiple-pay-in-four-loans/",
+      "checked_at": "2026-10-01T13:45:31Z",
+      "source_kind": "PRIMARY_GOVERNMENT_RESEARCH_NEWSROOM_BROWSER_HARNESS",
+      "facts": [
+        "CFPB称在有信用记录的消费者中，2022年有21.2%至少使用过一次BNPL贷款",
+        "CFPB称约63%的BNPL借款人在该年某个时点同时发起过多笔BNPL贷款",
+        "CFPB称33%的借款人曾从多个BNPL贷款方借款",
+        "CFPB称BNPL借款人更可能在其他无担保信用额度上有较高余额"
+      ],
+      "limits": [
+        "数据对应2022年并来自六家大型机构的匹配样本，不代表所有消费者或全部BNPL市场",
+        "同时借款比例描述的是该年某个时点，不等于每个人持续背债",
+        "来源不证明消费失控或任何个人因果，编辑判断必须单独标明"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2025-01-13"
+    },
+    {
+      "id": "CAM-C028",
+      "title": "聊完天后低估自己被喜欢的程度",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7500844/?report=reader",
+      "checked_at": "2026-10-01T14:38:02Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "2020 Psychol Res Behav Manag article; studies compared participants’ estimates of how much conversation partners liked them with partners’ actual ratings after brief interactions and found systematic underestimation. The article discusses a negative deviation effect and psychological defense in initial communication.",
+      "limits": "Evidence concerns brief interpersonal interactions and the reported study samples; it does not establish that every relationship or culture shows the same effect, nor does it prove why any individual conversation ended.",
+      "human_checked": false,
+      "original_publication_date": "2020-09-14"
+    },
+    {
+      "id": "CAM-C029",
+      "title": "别人注意你的失误，通常没有你想象得多",
+      "url": "https://www.psychologicalscience.org/journals/current-directions/1467-8721.00039/",
+      "checked_at": "2026-10-01T15:40:00Z",
+      "source_kind": "PRIMARY_SOCIETY_ABSTRACT_BROWSER_HARNESS",
+      "verified_basis": "APS页面刊载Gilovich与Savitsky发表于Current Directions in Psychological Science的综述摘要；摘要定义spotlight effect为人们高估自己的行为和外表被他人注意和评价的程度，并说明研究关注以自身体验为锚点造成的自我中心偏差。",
+      "limits": [
+        "当前可见页面是学会官方摘要，不是全文；不据此声称每个尴尬都会被忽略或不会产生后果。",
+        "摘要讨论的是判断偏差，不能直接推导出具体关系、职场或社交结果。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "1999-12-01"
+    },
+    {
+      "id": "CAM-C030",
+      "title": "人会更容易用负面反馈更新对自己的判断",
+      "url": "https://europepmc.org/article/MED/31594967",
+      "checked_at": "2026-10-01T17:22:34Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ABSTRACT_EUROPE_PMC_BROWSER_HARNESS",
+      "verified_basis": "Europe PMC展示Scientific Reports 2019论文摘要；摘要说明三项实验发现，在认为还有机会改进表现时，参与者对自己表现的信念更新偏向负面信息；该偏向与自尊有关，社会焦虑影响出现在面对评判性观众的条件下。",
+      "limits": [
+        "当前记录基于Europe PMC官方摘要，不把摘要外的实验细节扩写成结论。",
+        "研究讨论的是实验中的自我能力信念更新，不证明每个人都更相信批评，也不证明具体关系或工作结果。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2019-10-08"
+    },
+    {
+      "id": "CAM-C031",
+      "title": "请别人帮一个小忙，可能改变彼此的感觉",
+      "url": "https://doi.org/10.1177/001872676902200407",
+      "checked_at": "2026-10-01T17:44:30Z",
+      "source_kind": "PRIMARY_BIBLIOGRAPHIC_RECORD_AND_ABSTRACT_INDEX_BROWSER_HARNESS",
+      "verified_basis": "Crossref记录确认Jecker与Landy发表于Human Relations第22卷第4期（1969年8月）的论文《Liking a Person as a Function of Doing Him a Favour》，页371-378，DOI为10.1177/001872676902200407；APA PsycNet检索摘要记录该研究考察了让参与者为实验者做小帮助后对其好感的变化，样本为33名男性与41名女性。",
+      "limits": [
+        "SAGE全文页触发安全验证，本轮未把全文当作已读取；保留DOI和APA记录链接。",
+        "研究是1969年的特定实验，不证明请人帮忙在所有关系中都会增加好感，也不建议把请求帮助当成操控他人的技巧。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "1969-08-01"
+    },
+    {
+      "id": "CAM-C032",
+      "title": "聊天时说得少一点，可能更享受",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4954675/?report=reader",
+      "checked_at": "2026-10-01T19:42:17Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2016 article by Gillian M. Sandstrom and colleagues; a mobile app captured 473 conversations from 36 participants in daily life. Within-person hierarchical analyses found that conversations in which a participant spoke a smaller proportion of the time were enjoyed more; conversation length and turn-taking rate did not predict enjoyment.",
+      "limits": [
+        "The paper describes a small pilot study with mostly undergraduate participants and exploratory analyses; it does not establish that speaking less always makes a conversation better.",
+        "The study measured the participant's reported enjoyment of conversations, not whether the conversation partner liked them more; the draft keeps that distinction explicit."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2016-07-20"
+    },
+    {
+      "id": "CAM-C033",
+      "title": "人为什么会因为没被听见而继续争论",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10688667/?report=reader",
+      "checked_at": "2026-10-01T21:42:30Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2023 article by Carla Anne Roos, Tom Postmes and Namkje Koudenburg. The paper defines feeling heard with voice, attention, empathy, respect and common ground; two population surveys (N=194 and N=1000) developed and validated an eight-item scale. The scale was a distinct predictor of conversation intentions and the strongest predictor of intentions for conflict behavior among 15 related variables.",
+      "limits": [
+        "The study measures the experience of feeling heard and intentions in surveys; it does not prove that one listening behavior prevents a particular argument or guarantees agreement.",
+        "The draft treats being heard as different from winning or being agreed with; the five components are the researchers' conceptualization, not a universal relationship rule."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2023-11-30"
+    },
+    {
+      "id": "CAM-C034",
+      "title": "被具体地想到，比礼物贵不贵更能让人感到在乎",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2692821/?report=reader",
+      "checked_at": "2026-10-01T22:53:09Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "Emotion 2008 article by Sara B. Algoe, Jonathan Haidt and Shelly L. Gable. In a naturally occurring Big Sister Week, 160 participants from three sororities recorded 496 benefit events; perceived benefactor responsiveness predicted gratitude, and gratitude during the week predicted later relationship outcomes measured after the event and one month later.",
+      "limits": [
+        "The study concerns a specific college sorority gift-giving practice and its participants; it does not establish a universal effect for all gifts, relationships or cultures.",
+        "The draft uses the study to distinguish perceived thoughtfulness from price; the coffee example is editorial, not a measured result, and the study does not show that gifts can manipulate relationships."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2008-06-01"
+    },
+    {
+      "id": "CAM-C035",
+      "title": "把道歉当成免责卡的人，反而更容易被惩罚",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224065/?report=reader",
+      "checked_at": "2026-10-01T22:58:36Z",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_BROWSER_HARNESS",
+      "verified_basis": "PLoS One 2018 article by Elias L. Khalil and Nick Feltovich. In a modified ultimatum game, proposers could send apology messages and responders had costly and costless options to reward or punish. The authors report that when responders became suspicious that an apology was insincere, they punished the proposer, and distinguish instrumental apology from genuine apology.",
+      "limits": [
+        "The experiment concerns a modified ultimatum game and the authors' conceptual distinction; it does not show that every apology after wrongdoing is manipulative or that punishment is always justified.",
+        "The draft treats the '我都道歉了你还想怎样' line as editorial interpretation, not a measured phrase or universal motive."
+      ],
+      "human_checked": false,
+      "original_publication_date": "2018-11-08"
+    },
+    {
+      "id": "CAM-C036",
+      "title": "欠薪要等到被公开点名，才被看见吗？",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3140677.html",
+      "checked_at": "2026-10-01T23:58:09Z",
+      "source_kind": "OFFICIAL_GOVERNMENT_PAGE_BROWSER_HARNESS",
+      "verified_basis": "江门市人力资源和社会保障局页面发布时间为2024-08-05；页面称2024年上半年立案36宗，为620名劳动者追发工资等待遇759.1万元，列入拖欠农民工工资失信联合惩戒对象名单5宗，并列出具体案件、欠薪人数金额、移送公安及判决/处理日期。",
+      "limits": [
+        "这是江门市人社部门公开的阶段性行政记录，不代表全国或所有欠薪案件。",
+        "稿件中的‘被公开点名才被看见’是作者判断，不是页面原话；不得把个案扩写成对所有用工者的指控。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2024-08-05"
+    },
+    {
+      "id": "CAM-C037",
+      "title": "欠薪要等名单公开，才被认真对待吗？",
+      "url": "https://rsj.beijing.gov.cn/xxgk/tzgg/202406/t20240628_3731555.html",
+      "checked_at": "2026-10-02T00:42:00Z",
+      "source_kind": "OFFICIAL_GOVERNMENT_PAGE_WEB_TOOL",
+      "verified_basis": "北京市人力资源和社会保障局2024-06-28公告公布2家单位列入拖欠农民工工资失信联合惩戒对象名单：中启荣晟建设集团有限公司拖欠94名农民工工资705000元，四川龙渺建筑劳务有限公司拖欠72人工资2461288.58元；公告依据人社部令第45号。",
+      "limits": [
+        "这是北京市人社局公布的2024年第二季度名单，不代表全国或所有欠薪案件。",
+        "稿件中的‘证据被公开之前没人愿意把它当成问题’是作者判断，不是公告原话。"
+      ],
+      "human_checked": false,
+      "original_publication_date": "2024-06-28"
+    }
+  ],
+  "limits": "32 source-supported factual candidates recorded; each still requires editorial review and visible publication verification.",
+  "updated_at": "2026-10-01T22:58:36Z"
+}

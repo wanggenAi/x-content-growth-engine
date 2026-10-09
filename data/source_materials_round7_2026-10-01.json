@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-01T00:22:26.652646Z",
+  "kind": "SOURCE_CHECKED_LINKS_AND_SHORT_SUMMARIES_NOT_X_SAMPLES",
+  "materials": [
+    {
+      "id": "M16",
+      "title": "AI内容显式与隐式标识",
+      "source_url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+      "published_date": "2025-03-14",
+      "observed_at": "2026-10-01T00:22:26.652646Z",
+      "summary": "官方文件区分显式/隐式标识；第九条有条件提供无显式标识内容并留存日志不少于六个月。仅作原文解读，不声称适用于全部平台。",
+      "rights": "LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY",
+      "source_checked": true,
+      "used_for": "original publication candidates"
+    },
+    {
+      "id": "M17",
+      "title": "钱包现场实验",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31221770/",
+      "published_date": "2019-06-20",
+      "observed_at": "2026-10-01T00:22:26.652646Z",
+      "summary": "40国355城市逾17000个钱包现场实验；多数国家钱更多时更可能联系失主。作者提出利他与避免自认是小偷的解释，不能推广为所有场景。",
+      "rights": "LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY",
+      "source_checked": true,
+      "used_for": "original publication candidates"
+    },
+    {
+      "id": "M18",
+      "title": "LocalSend局域网传文件",
+      "source_url": "https://github.com/localsend/localsend",
+      "published_date": null,
+      "observed_at": "2026-10-01T00:22:26.652646Z",
+      "summary": "官方README列出免费开源跨平台局域网传输、无需互联网或第三方服务器；设备隔离和本地网络权限可阻止发现。未安装或声称亲测。",
+      "rights": "LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY",
+      "source_checked": true,
+      "used_for": "original publication candidates"
+    },
+    {
+      "id": "M19",
+      "title": "DART改变小行星轨道",
+      "source_url": "https://www.nasa.gov/missions/dart/nasa-study-asteroids-orbit-shape-changed-after-dart-impact/",
+      "published_date": null,
+      "observed_at": "2026-10-01T00:22:26.652646Z",
+      "summary": "NASA 2024年研究页给出DART撞击后Dimorphos绕Didymos周期最终缩短33分15秒；是轨道偏转，不是撞碎来袭地球的小行星。",
+      "rights": "LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY",
+      "source_checked": true,
+      "used_for": "original publication candidates"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-09T02:32:33.315896Z",
+  "leads": [
+    {
+      "source": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "state": "CONTENT_REVIEWED_C362",
+      "fact_boundaries": "政策是公司使用条件，不是法律；Oct8公布Nov12将生效，不写已实施或用户骂一句即封号。官方明示普通frustration/pushback/dark themes/testing excluded，主要终止对话，不虚构制裁案例或意识/痛苦实证。后两段明确自拟疑问，不能把反复纠错说成已经被禁止。"
+    },
+    {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "state": "DISCOVERY_ONLY",
+      "reason": "Broad announcement insufficient concrete capability/comparator for this round; not breakthrough evidence."
+    }
+  ],
+  "source_failures": [
+    {
+      "source": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "method": "web direct URL",
+      "result": "initial inaccessible; search-ref open subsequently full success"
+    },
+    {
+      "source": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "method": "urllib official request",
+      "result": "403; no spoof/cookie/proxy used, alternate official web tool ref succeeded"
+    }
+  ],
+  "novelty": "全部360来源无相同更新或该条规则记录；近30已发全文审查，本条用户情绪与工具拒绝边界不同于C357审批管理、C360API价格、C361配送便利；采用具体政策与执行边界，避开连续价格/自主权泛论。近帖Anthropic出现较多，本轮限本条，后续优先不同来源。",
+  "feedback_check": "C356-C359 due1h/6h already DUE_MISSING; C360/C361 no due window, no human evidence"
+}

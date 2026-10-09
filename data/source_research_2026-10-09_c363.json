@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-09T02:46:10.651252Z",
+  "state": "C363_EDITORIAL_REVIEW_CONTENT_PASS_PERSONAL_REVIEW_WAIVED",
+  "candidate": "C363",
+  "primary_sources": [
+    "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+  ],
+  "leads": [
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years/",
+      "date": "2026-10-08",
+      "status": "RESEARCH_ONLY",
+      "note": "Official five-year commitment; no outcome or paid commitment made by us."
+    },
+    {
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx",
+      "date": "2026-09-28",
+      "status": "RESEARCH_ONLY",
+      "note": "Additional150b authorization, not actual spend; fiscal2028 execution expectation. Juxtaposition must not imply matched annual spending."
+    }
+  ],
+  "rejected_stale_lead": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/",
+    "date": "2025-10-07",
+    "reason": "Not a current breakthrough"
+  },
+  "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+  "new_x_observations": 0,
+  "formula_promotions": 0
+}

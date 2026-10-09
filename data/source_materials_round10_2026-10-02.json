@@ -1,0 +1,64 @@
+{
+  "observed_at": "2026-10-02T03:07:53Z",
+  "materials": [
+    {
+      "id": "REDDIT-ASKREDDIT-2026-10-02",
+      "url": "https://www.reddit.com/r/AskReddit/comments/1wrj0s2/mike_tyson_once_said_social_media_made_people_too/",
+      "title": "Mike Tyson once said ... What’s a real-life example of someone learning that lesson?",
+      "source_kind": "PUBLIC_REDDIT_THREAD_DIRECT_VISIBLE",
+      "observed_at": "2026-10-02T03:07:53Z",
+      "displayed_metrics": {
+        "votes": "22K",
+        "comments": "2.9K"
+      },
+      "verified_claims": [
+        "The thread was visible on r/AskReddit's Top/This Month listing.",
+        "The opened public detail page displayed 22K votes and 2.9K comments.",
+        "The title frames a discussion about online disrespect and real-world consequences."
+      ],
+      "limits": [
+        "Votes and comments are approximate UI displays captured at the observation time.",
+        "Comments are user-generated anecdotes and were not treated as independently verified facts.",
+        "The Mike Tyson attribution appears in the post title and was not independently verified in this round."
+      ],
+      "rights": "Public page read for editorial research; no bulk collection or comment corpus downloaded."
+    },
+    {
+      "id": "SPP-MINOR-PROTECTION-2025-02-20",
+      "url": "https://www.spp.gov.cn/zdgz/202502/t20250220_684591.shtml",
+      "title": "加强民生司法保障！最高检这场发布会与您息息相关",
+      "source_kind": "OFFICIAL_CHINA_PRIMARY_SOURCE_BROWSER_HARNESS_RECHECKED",
+      "observed_at": "2026-10-02T03:25:07Z",
+      "verified_claims": [
+        "The official page is dated 2025-02-20 and reports 2024 prosecutorial/public-interest work.",
+        "For 2024 January–November, procuratorates filed 11,463 public-interest litigation matters involving minors.",
+        "The page identifies areas including food around schools, minors’ personal information, and internet cafes admitting minors."
+      ],
+      "limits": [
+        "The 11,463 figure is filings, not number of victims, crimes, convictions, or every confirmed violation.",
+        "Earlier 2026-10-02 03:25Z access returned 403; the official page was directly reopened and its scope/figure rechecked in this round. Preserve the earlier failure as history, but this source is now checked for this candidate."
+      ],
+      "rights": "Public official page; retained as a research lead only, no publication claim.",
+      "source_checked": true,
+      "rechecked_at": "2026-10-02T07:38:56Z",
+      "rechecked_by": "Browser Harness direct page plus independent source audit"
+    },
+    {
+      "id": "PUBMED-40626652",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40626652/",
+      "title": "Observation Moderates the Moral Licensing Effect: A Meta-Analytic Test of Interpersonal and Intrapsychic Mechanisms",
+      "source_kind": "PUBMED_ABSTRACT_DIRECT_WEB_SEARCH",
+      "observed_at": "2026-10-02T03:38:37Z",
+      "verified_claims": [
+        "PubMed metadata identifies the 2025 paper and its authors.",
+        "The abstract reports a meta-analysis of 115 experiments involving 21,770 participants.",
+        "The abstract reports stronger licensing when participants were observed (g=0.65) than unobserved (g=0.13), with publication-bias-adjusted support in observed conditions and near-zero effect when unobserved."
+      ],
+      "limits": [
+        "The source is a meta-analysis of experimental studies, not a universal rule about every public good deed.",
+        "The everyday examples in C222 are editorial interpretation; they are not participant-level findings from this abstract."
+      ],
+      "rights": "Public PubMed abstract read for editorial research; no bulk collection."
+    }
+  ]
+}

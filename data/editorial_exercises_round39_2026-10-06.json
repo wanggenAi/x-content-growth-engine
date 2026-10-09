@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-06T01:24:37.462329Z",
+  "status": "REVIEW_ONLY_NOT_READY_NOT_PUBLISHED",
+  "posts": [
+    {
+      "id": "R39-E01",
+      "draft": "把个性化推荐关掉，再退出App两次，系统就肯给你底价了。",
+      "status": "HOLD_SOURCE_AND_CAUSAL_CLAIM",
+      "source_ref": "https://x.com/Shenxiao123971/status/2104545550146417012",
+      "reason": "把作者猜测平台心理和时间相关价格变化改成算法因果与保证，缺控制及适用条件，不采用。"
+    },
+    {
+      "id": "R39-E02",
+      "draft": "为了省20元，比价两小时。钱少付20元，时间少了两小时。自己的时间别永久包邮。",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "source_ref": null,
+      "reason": "自拟条件例子，数字不冒充原帖；算术可猜，结尾常见时间成本句，动作和矛盾仍不足，不占C353。"
+    },
+    {
+      "id": "R39-E03",
+      "draft": "自拟促销小字：本优惠一分钟后结束，本闲置可能陪你五年。",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "source_ref": null,
+      "reason": "明确自拟但一分钟/五年仅虚构条件；可猜的冲动消费提醒与既有消费反思重叠，不因短句反差就ready。"
+    }
+  ],
+  "queued_campaign_ids": [],
+  "published_new": 0
+}

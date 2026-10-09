@@ -1,20 +1,1604 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-09-29T00:47:18Z",
-  "phase": "first_sample_and_source_validation",
+  "schema_version": "5.0-editorial-growth-control",
+  "updated_at": "2026-10-09T03:47:11.245880Z",
+  "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
     "public_x_discovery_probe": "done",
     "sample_store_mvp": "done",
-    "matched_sample_expansion": "pending",
-    "mechanism_hypotheses": "pending",
+    "browser_permission_review": "latest_explicit_user_scope_recorded_platform_approval_not_confirmed",
+    "query_level_probe": "done",
+    "manual_capture_ui": "done",
+    "evidence_migration": "done",
+    "matched_sample_expansion": "in_progress",
+    "mechanism_hypotheses": "5_structured_hypotheses_0_validated",
     "original_material_bank": "in_progress",
-    "chatgpt_research_packet": "done",
+    "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
+    "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "pending"
+    "own_post_feedback": "C356 remains user-rejected low-interest negative; C356-C359 1h/6h DUE_MISSING; C360-C363 windows pending, no human-verified metrics or complete comment evidence imported. Missing metrics do not block qualified publication; F01-F05 remain HYPOTHESIS.",
+    "live_github_recovery": "done",
+    "local_tests_and_seed_replay": "16 tests passed; round32 JSON/campaign counts148/0/852/344 and version/correction consistency checked. CLI seed audit remains old-index-only with unknown follower denominators, not a report on native evidence JSON; no formula validated.",
+    "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
+    "x_login": "signed_in_active_profile_observed_by_agent",
+    "reddit_login": "pending_after_x",
+    "publication_batch": "first_8_published_agent_verified",
+    "account_posting_authorization": "explicit_user_authorization_received",
+    "first_publication": "8_posts_verified_on_public_post_pages",
+    "night_publication_batch": "30_unpublished_superseded_by_user_source_led_direction",
+    "human_style_batch": "9_posts_published_agent_verified_3_unpublished",
+    "open_source_virality_research": "8_pinned_repository_reads_10_community_leads_7_original_pages_3_index_only",
+    "source_led_pilot": "R01_published_public_detail_verified",
+    "source_led_batch2": "4_published_independent_detail_pages_verified",
+    "independent_author_validation": "208_observed_28_structural_reviews_no_causal_pairs",
+    "task_recovery_2026-10-02": "automation_x_active_5min; C235-C236 independently reloaded and verified; published_new=56; ready=3; remaining=944; queue=239; latest_verified=C236; next=C237-C239; screenshots inspected but not locally saved",
+    "latest_campaign_round": "C355单条财报收入组合实验已发布并独立详情重载核验；158/842/183/ready0/queue353；反馈窗待到，F01-F05仍HYPOTHESIS。",
+    "latest_editorial_steer": "Oct5: stop V2EX main source. Recent verifiable events preferred; undated jokes/human-nature/political commentary allowed when clearly framed. Directly inspect >10k-view X posts; high-view counts remain observations, not formulas.",
+    "round33": {
+      "unit_tests_passed": 16,
+      "json_count_url_text_integrity": "PASS",
+      "automation_configuration": "PASS",
+      "runtime_audit_scope": "旧SQLite seed11链接13观察未导入本批原生JSON，旧索引/未知粉丝问题不等于当前campaign指标",
+      "checked_at_utc": "2026-10-05T20:26:36.289822Z"
+    },
+    "editorial_growth_control": "User explicitly authorizes three one-at-a-time source-checked publications this round; no heartbeat/bulk posting",
+    "reader_value_v2": "implemented; route-specific validation and bounded stratified sample committed; no formula promoted",
+    "prospective_experiment": "READER_VALUE_PROSPECTIVE_2026_10_08 designed_not_scheduled; 12 slots across H1/H2/H3",
+    "fixed_window_tolerances": "1h±20m, 6h±30m, 24h±60m, 72h±180m, 7d±360m; actual age/offset retained"
   },
-  "counts": {"x_posts": 7, "high_candidates": 4, "ordinary_candidates": 3, "authors": 4, "x_observations": 8, "materials": 2, "own_posts": 0},
-  "blocked": ["No verified free authorized bulk X read source; official API charges per read", "No authorized Reddit ingestion for this use"],
-  "next_action": "Broaden matched X samples and measure query coverage; independently test material claims before drafting"
+  "counts": {
+    "x_posts": 11,
+    "original_confirmed": 1,
+    "posts_with_index_views": 7,
+    "exact_display_index_views": 3,
+    "approximate_index_views": 4,
+    "dated_nonindex_views": 0,
+    "ready_pairs": 0,
+    "high_candidates_provisional": 4,
+    "ordinary_candidates_provisional": 3,
+    "authors": 7,
+    "x_observations": 13,
+    "public_search_queries": 13,
+    "blocked_browser_channels": 1,
+    "materials": 71,
+    "exploratory_drafts": 70,
+    "own_posts": 0,
+    "verified_account_publications": 169,
+    "unpublished_candidates": 16,
+    "agent_observed_viral_posts": 74,
+    "agent_observed_exploratory_comparisons": 28,
+    "campaign_verified_new_publications": 169,
+    "verified_total_series": 194,
+    "published_new": 169,
+    "remaining_new_publications": 831,
+    "rolling_work_queue_count": 365,
+    "ready_count": 0,
+    "latest_publication_id": "C366",
+    "baseline_verified_publications": 25,
+    "total_verified_series": 194,
+    "latest_candidate_id": "C366",
+    "editorial_drafts_unpublished": 0,
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108403331072946200",
+    "latest_publication_verified_at": "2026-10-09T03:47:11.245880Z",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+    "published_count": 169,
+    "latest_candidate_source": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
+    "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
+    "updated_at": "2026-10-09T03:47:11.245880Z"
+  },
+  "blocked": false,
+  "next_action": "Continue qualified non-X source research, content review, native single publication and independent verification under standing authorization; feedback missing values do not block new qualified publication.",
+  "local_browser_probe": {
+    "captured_at": "2026-09-30T13:56:28Z",
+    "runtime": "browser-harness 0.1.13 via local Chrome",
+    "github": "REACHABLE_PUBLIC",
+    "reddit": "REACHABLE_PUBLIC_UNSIGNED",
+    "hacker_news": "REACHABLE_PUBLIC",
+    "x": "NOT_VISITED_EXISTING_POLICY_GATE",
+    "cua_cloud_session": "NOT_EXPOSED_IN_CURRENT_INVENTORY"
+  },
+  "material_probe": {
+    "file": "data/phase2_materials_round3.json",
+    "new_source_checked_leads": 2,
+    "sources": [
+      "https://openai.com/index/introducing-dots/",
+      "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96"
+    ],
+    "rights_status": "link_and_short_summary_only"
+  },
+  "work_browser": {
+    "runtime": "mcp__cua_repl",
+    "x_homepage": "REACHABLE_UNSIGNED",
+    "reddit_homepage": "REACHABLE_PUBLIC_UNSIGNED",
+    "safe_handoff": "SUPPORTED_NOT_YET_COMPLETED",
+    "session_reuse": "UNTESTED",
+    "standalone_browser_harness": "NOT_INVOKED_THIS_RUN",
+    "hn_github_browser_access": "NOT_TESTED_THIS_RUN",
+    "research_permission": "EXISTING_POLICY_GATE_REQUIRES_SCOPE_REVIEW",
+    "new_x_samples": 0
+  },
+  "live_github": {
+    "main_sha": "9bb29f2a41daad530130824de71089e2c9ed470a",
+    "resumed_pr": 5,
+    "resumed_head_sha": "3ff7532ce1aac9a254a7ca6f411d90c94ab2b4a8",
+    "pr_state": "OPEN_UNMERGED",
+    "previous_head_ci": "SUCCESS_TWO_UNITTEST_RUNS",
+    "open_issue_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "local_tests_passed": 27,
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "working_branch": "feature/x-research-phase2",
+    "head_is_pre_round_baseline": false,
+    "head_scope": "Validated implementation commit; restore actual latest HEAD from Git before next work round."
+  },
+  "publication_batch": {
+    "ids": [
+      "C330",
+      "C331",
+      "C332",
+      "C333",
+      "C334"
+    ],
+    "status": "COMPLETE_AGENT_VERIFIED",
+    "max_per_round": 5,
+    "source_policy": "NON_V2EX_PRIORITY",
+    "last_verified_id": "C334",
+    "count_this_batch": 5,
+    "urls": [
+      "https://x.com/qiluo27808/status/2107153484676276682",
+      "https://x.com/qiluo27808/status/2107154220160032864",
+      "https://x.com/qiluo27808/status/2107157302226845848",
+      "https://x.com/qiluo27808/status/2107158142413091281",
+      "https://x.com/qiluo27808/status/2107159094910161071"
+    ]
+  },
+  "count_notes": {
+    "own_posts": "SQLite反馈记录与campaign分开；campaign新增148条agent核验，加基线25为173系列。agent_checked不是human_checked。",
+    "unpublished_candidates": "Campaign中16条HOLD稿；另有180条RESEARCH_PENDING，ready0。editorial_drafts文件仅1条未发布C329。",
+    "agent_observed_viral_posts": "39 direct visible high-view observations including this round; exact displayed counts at capture time, discovery sample not unbiased and not causal."
+  },
+  "night_publication_batch": {
+    "status": "READY_CONTENT_BLOCKED_MAC_LOCKED",
+    "requested_new_post_count": 30,
+    "published_count": 0,
+    "unpublished_count": 30,
+    "blocker": {
+      "code": "MAC_LOCKED_MANUAL_UNLOCK_REQUIRED",
+      "observation": "Computer Use returned: The Mac is locked and automatic unlock is paused because physical input was detected. Ask the user to unlock the Mac manually before continuing.",
+      "observed_at": "2026-09-30T17:20:30.363168Z",
+      "submission_attempts": 0
+    },
+    "file": "data/publication_batch_2026-10-01_night.json",
+    "validation": {
+      "unit_tests_passed": 16,
+      "publication_integrity_audit": "passed",
+      "git_diff_check": "passed",
+      "stdlib_command_smoke_checks": 2,
+      "runtime_research_audit": "Existing runtime has 11 X links, 13 observations, 4 materials and 0 reviewed own posts; materials 7 is the prior full seed-replay count. Runtime database not updated by this editorial batch. No ready pairs or validated formula."
+    }
+  },
+  "human_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_human.json",
+    "published_count": 9,
+    "unpublished_count": 3,
+    "method": "COMPUTER_USE_NATIVE_CHROME_VISIBLE_UI",
+    "human_checked": false,
+    "growth_result": "UNKNOWN"
+  },
+  "method_research": {
+    "file": "docs/VIRALITY_RESEARCH_OPEN_SOURCE.md",
+    "sources": "data/phase2_materials_round5.json",
+    "new_source_count": 4,
+    "validated_formulas": 0,
+    "key_limit": "Three-day English historical model; old code random split unsuitable for current Chinese X conclusions.",
+    "registry": "data/virality_method_registry_2026-10-01.json",
+    "repository_count": 8,
+    "community_lead_count": 10,
+    "original_community_pages_read": 7,
+    "index_only_or_failed_originals": 3,
+    "materials_files": [
+      "data/phase2_materials_round5.json",
+      "data/phase2_materials_round6.json"
+    ],
+    "full_replay_material_count": 15
+  },
+  "research_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_research.json",
+    "published_count": 1,
+    "unpublished_count": 0,
+    "url": "https://x.com/qiluo27808/status/2105445999900762128",
+    "effects": "UNKNOWN_INITIAL_SNAPSHOT_ONLY",
+    "human_checked": false
+  },
+  "browser_research_scope": {
+    "reviewed_at": "2026-10-01T00:12:06.509880Z",
+    "user_authorized": true,
+    "platform_written_approval": false,
+    "target_first_batch": 30,
+    "admission": "direct visible view count strictly above 10000; preserve approximate displays as text",
+    "human_checked": false
+  },
+  "direct_agent_viral_research": {
+    "file": "data/viral_samples_2026-10-01.json",
+    "analyzed_above_10000_views": 32,
+    "authors": 29,
+    "raw_candidates": 46,
+    "detail_visits": 12,
+    "exploratory_below_threshold_nonreply_comparisons": 10,
+    "valid_causal_pairs": 0,
+    "human_checked": false,
+    "last_round": "round42_2026-10-06",
+    "observations_added": 2,
+    "observed_total": 74,
+    "latest_round_file": "data/high_view_structure_round42_2026-10-06.json",
+    "latest_round_above_10000_details": 1,
+    "latest_round_below_threshold_original_details": 1,
+    "initial_32_audit_plus_new_unique_high_view_details": 60,
+    "legacy_count_scope_note": "analyzed_above_10000_views=32/detail_visits=12 remain the initial 2026-10-01 selected audit scope; observed_total includes later rounds. No causal pairs added.",
+    "latest_round_revisits_not_counted": 0
+  },
+  "formula_registry": "data/viral_formula_hypotheses_2026-10-01.json",
+  "evidence_publication_batch": {
+    "file": "data/publication_batch_2026-10-01_evidence.json",
+    "published_count": 4,
+    "unpublished_count": 0,
+    "human_checked": false,
+    "effects": "UNKNOWN",
+    "urls": [
+      "https://x.com/qiluo27808/status/2105453451891347607",
+      "https://x.com/qiluo27808/status/2105453774152286342",
+      "https://x.com/qiluo27808/status/2105453977513218446",
+      "https://x.com/qiluo27808/status/2105454165434728797"
+    ]
+  },
+  "source_material_bank_round7": {
+    "file": "data/source_materials_round7_2026-10-01.json",
+    "source_checked_count": 4,
+    "imported_into_runtime_db": false
+  },
+  "validation": {
+    "unit_tests": 17,
+    "new_research_integrity": "32 unique >10000-view records, UTC raw labels and agent provenance; 10 nonreply comparisons explicitly unmatched",
+    "runtime_audit_scope": "Existing SQLite data: 11 links, 13 observations, 4 materials, 0 reviewed own posts; new agent research is separate JSON, not silently promoted to confirmed records.",
+    "formula_validated": 0,
+    "github_ci": {
+      "tested_sha": "8432e625a70431a2b4a02ff1640076a08d88c278",
+      "push": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36801568976",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/36801570390",
+      "conclusion": "success",
+      "checked_at": "2026-10-01T01:32:57.239616Z"
+    },
+    "stage2_integrity": "208 unique original URLs; 89 exact visible labels above 10000; 74 authors/70 disjoint; 28 structural reviews; UTC provenance and agent-only verification; zero causal pairs or formula promotions; two unpublished candidates within weighted length limit",
+    "local_continuation": "Local automation configuration verified ACTIVE, heartbeat, current chat, two-hour interval; no new publication this checkpoint",
+    "incremental_publication_integrity": "Three actual native Chrome detail pages; exact source-linked bodies; displayed minute times; screenshots and AX private; no fabricated human review",
+    "figure_contrast_integrity": "27 unique links / 19 exact threshold labels / five structural reviews / four detail visits; provenance and UTC checks passed; no formula promotion"
+  },
+  "confidence_gate": {
+    "plan": "data/virality_confirmatory_plan_2026-10-01.json",
+    "status": "HIGH_VIRAL_CONFIDENCE_NOT_ESTABLISHED",
+    "future_virality_probability": null,
+    "rationale": "Independent supportive cases and mature negative leads exist, but matched-topic/form controls, account reach and calibrated transfer evidence remain absent.",
+    "report": "docs/VIRAL_VALIDATION_STAGE2_2026-10-01.md",
+    "historical_decision": {
+      "at": "2026-10-01T01:15:04.507227Z",
+      "status": "NOT_MET_NO_NEW_PUBLICATION"
+    },
+    "latest_user_instruction": "Gradual source-checked publication tests while research continues; potentially dozens/hundreds over time",
+    "publishing_rule": "Editorial source/benefit/originality review allows gradual tests; does not imply validated viral confidence"
+  },
+  "validation_stage2": {
+    "file": "data/viral_validation_stage2_2026-10-01.json",
+    "unique_posts_observed": 208,
+    "observed_above_10000": 89,
+    "authors": 74,
+    "independent_authors": 70,
+    "structurally_reviewed": 28,
+    "detail_visits": 9,
+    "age_coarse_form_pair_candidates": 78,
+    "valid_causal_pairs": 0,
+    "formulas_promoted": 0
+  },
+  "research_continuation": {
+    "updated_at": "2026-10-05T17:42:30Z",
+    "next_batch": "C335-C339",
+    "source_file": "data/source_materials_round30_2026-10-06.json",
+    "decision": "stop V2EX as primary; use non-V2EX public forum/self-report/joke material with explicit limits; forum index reads are source observations only",
+    "candidate_count": 5,
+    "formula_status": "F01/F03/F05 remain HYPOTHESIS",
+    "media_rule": "text-first; source links only when evidentiary; no decorative media"
+  },
+  "publication_candidates_stage2": {
+    "file": "data/publication_candidates_stage2_2026-10-01.json",
+    "unpublished_count": 0,
+    "published_count": 5,
+    "status": "PUBLISHED_AGENT_VERIFIED",
+    "human_checked": false,
+    "growth_outcomes": "UNKNOWN"
+  },
+  "public_figure_contrast": {
+    "file": "data/public_figure_contrast_research_2026-10-01.json",
+    "observed": 27,
+    "above_10000": 19,
+    "structure_reviewed": 5,
+    "detail_visits": 4,
+    "formula_state": "HYPOTHESIS",
+    "valid_causal_pairs": 0
+  },
+  "publication_campaign": {
+    "file": "data/publication_campaign_200_2026-10-01.json",
+    "target_new_publications": 1000,
+    "baseline_verified_publications": 25,
+    "target_total": 1025,
+    "published_new": 169,
+    "ready": 0,
+    "research_pending": 180,
+    "status": "HISTORICAL_INVENTORY_ONLY",
+    "total_verified_series": 194,
+    "remaining_new_publications": 831,
+    "rolling_work_queue_count": 365,
+    "latest_publication_id": "C366",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108403331072946200",
+    "latest_publication_verified_at": "2026-10-09T03:47:11.245880Z",
+    "latest_candidate_id": "C366",
+    "latest_candidate_source": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
+    "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+    "published_count": 169,
+    "ready_count": 0,
+    "updated_at": "2026-10-09T03:47:11.245880Z",
+    "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+    "control_role": "NOT_A_CONTROL_VARIABLE",
+    "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
+    "publication_mode": "CONTINUED_USER_AUTHORIZED_NATIVE_VISIBLE_PUBLICATION",
+    "historical_queue_metadata_before_reconciliation": 353,
+    "research_pending_count": 180
+  },
+  "editorial_workflow": {
+    "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
+    "decision_log": "docs/USER_DECISION_LOG.md",
+    "cumulative_verified_series": 148,
+    "latest_repair_ids": [
+      "C343",
+      "C344"
+    ],
+    "latest_repair_verified_at": "2026-10-05T19:55:23.301820Z",
+    "body_gate": "COMPARE_REAL_EDITOR_THEN_RELOAD_PUBLIC_BODY_AND_SCREENSHOT",
+    "flow_monitoring": "NO_DEDICATED_CONTINUOUS_ACCOUNT_MONITORING",
+    "interaction_scope": "USER_AUTHORIZED_CONTENT_RELEVANT_NEUTRAL_REPLIES_NO_MANUFACTURED_ENGAGEMENT",
+    "unknown_referred_person": "Keybo",
+    "latest_input_failure": null,
+    "latest_ui_misclick": "round32 full-AX index remap led to Near you search filter click; no public/account action, later search confirmed Anywhere; fresh indices required",
+    "latest_input_recovery": "2026-10-05T19:40:38Z: C340-C344已完成native paste、可见截图、单次提交和独立详情页核验。setValue不能作为有效输入事件证据。",
+    "latest_publication_id": "C355",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "latest_publication_verified_at": "2026-10-07T13:24:19Z",
+    "latest_candidate_id": "C355",
+    "latest_candidate_source": "COMPANY_INTERIM_RESULTS_PRIMARY",
+    "latest_candidate_checked_at": "2026-10-07T13:24:19Z",
+    "latest_candidate_status": "PUBLISHED_AGENT_VERIFIED",
+    "next_action": "C355反馈窗1h/6h/24h/72h/7d待到；保持PUBLICATION_PAUSED_FOR_LEARNING，不自动发下一条。",
+    "latest_style_review_note": "New7 direct high-view full bodies and1 same-author low-view original; concrete scenarios do not guarantee reach. Stop explanatory summary template; separate original dialogue/opinion from sourced fact."
+  },
+  "pause_diagnosis": {
+    "diagnosed_at": "2026-10-02T19:27:48Z",
+    "x_account_permission_issue": false,
+    "automation_status": "ACTIVE_EVERY_5_MINUTES_CONFIRMED_BY_HEARTBEAT",
+    "campaign_counts": "94_verified_new; 906_remaining; 289_queue; latest verified C289; ready=0",
+    "previous_blocker": "2026-10-02T20:04Z: X editor displayed 'Whoops! You already said that.' for exact C277 candidate; draft discarded, no post submitted. C275-C276 and C278-C279 independently verified.",
+    "current_workspace_root_writable": true,
+    "git_directory_writable": true,
+    "browser_harness": "daemon_alive; active_connections_1; active_page_reddit; optional_cloud_auth_absent",
+    "visible_cua_chrome": "Visible Chrome posting route remains authorized; C270-C274 were submitted and independently verified in this round.",
+    "method_boundary": "Use Browser Harness only for permitted non-X sources; previously user-directed visible Computer Use scope remains the X posting route.",
+    "posts_published_in_diagnostic_turn": 5,
+    "campaign_count_changed": true,
+    "finding": "C285-C286 passed visible editor text comparison and independent public detail reload. C286 produced two identical visible posts; the later duplicate was deleted through the visible X menu, and the retained post was independently reloaded. No new post was submitted while the duplicate was repaired.",
+    "follow_up_at": "2026-10-02T21:46:20Z",
+    "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
+  },
+  "own_post_feedback": "C356保留用户否定的低兴趣负例；C356-C359的1h/6h已DUE_MISSING；C360-C363的1h未到期。无新增人工核验指标或完整评论证据，所有缺失指标保持null，F01-F05仍HYPOTHESIS。",
+  "latest_style_feedback": {
+    "at": "2026-10-05T09:22:00Z",
+    "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
+    "formula_state": "HYPOTHESIS",
+    "latest_verified_post": "C312",
+    "audit_file": "docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md"
+  },
+  "latest_editorial_feedback": {
+    "at_utc": "2026-10-08T13:15:00.745596Z",
+    "verbatim": "为什么还没发布 赶紧发布  另外 需要多关注现在世界上的名人企业家 富豪  马斯克 黄仁勋什么的  一定要获得评论量目标",
+    "decision": "Publish one source-reviewed C359 now; prioritize famous entrepreneurs and substantive genuine comments; no guarantee or invented numeric target."
+  },
+  "source_material_round24": {
+    "file": "data/source_materials_round24_2026-10-03.json",
+    "recorded_at": "2026-10-02T22:01:18Z",
+    "candidate_ids": [
+      "C290",
+      "C291",
+      "C292",
+      "C293",
+      "C294"
+    ],
+    "source_refs": [
+      "CAM-C101",
+      "CAM-C102",
+      "CAM-C103",
+      "CAM-C104",
+      "CAM-C105"
+    ],
+    "status": "READY_SOURCE_CHECKED_NO_PUBLICATION"
+  },
+  "automation_content_sync": {
+    "id": "x",
+    "status": "ACTIVE",
+    "interval_minutes": 5,
+    "notification_policy": "failed_runs_only",
+    "checked_at_utc": "2026-10-09T02:28:03.191548Z",
+    "scope": "CONTINUED_USER_AUTHORIZED_PUBLICATION_AND_FEEDBACK_LEARNING"
+  },
+  "publication_resume": {
+    "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
+    "recorded_at_utc": "2026-10-05T17:54:14Z",
+    "automation_status": "PAUSED",
+    "interval_minutes": 5,
+    "current_blocker": "PUBLICATION_PAUSED_FOR_LEARNING",
+    "candidate_ids": [
+      "C355"
+    ],
+    "verified_ids": [
+      "C335",
+      "C336",
+      "C337",
+      "C338",
+      "C339"
+    ],
+    "last_verified_id": "C355",
+    "last_verified_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "last_verified_at": "2026-10-07T13:24:19Z",
+    "ready_count": 0,
+    "remaining_new_publications": 842,
+    "next_action": "等待C355实验反馈窗；不恢复批量，不自动发C356。"
+  },
+  "editorial_feedback_history": [
+    {
+      "recorded_at_utc": "2026-10-04T11:56:30.059537Z",
+      "user_feedback": "User says exposure and following remain weak; explicitly rejects further same low-interest content and wants familiar human motives, own higher-read comparisons, and meaningful optimization.",
+      "correction": "Familiar scene, concrete conflict, one useful/unexpected detail, author judgment. Three public community draft examples; no unverified group law or fabricated firsthand story.",
+      "report": "docs/CONTENT_PERFORMANCE_REVIEW_2026-10-04.md",
+      "private_evidence_dir": "data/private/content_review_2026-10-04",
+      "new_publications": 0,
+      "drafts": 3
+    },
+    {
+      "reviewed_at": "2026-10-05T20:53:58.436847Z",
+      "ids": [
+        "C348",
+        "C349",
+        "C350"
+      ],
+      "state": "PUBLISHED_CONTENT_VERIFIED_FEEDBACK_NOT_YET_EVALUATED",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "next_action": "C351起研究不同近期非V2EX具体材料或原创段子/人性/政治观点；直接读新高浏览正文与反例，变换长度与表达，不继续相亲家底/假日消费/自愿收费，也不固定我的看法模板。",
+      "round34_constraints": "读者兴趣仍为编辑判断；C348来源限定有阅读成本，后续不能把日期摘要+我的看法变成固定格式。历史C343/C344修复facts保留。"
+    },
+    {
+      "at_utc": "2026-10-06T00:56:48.780735Z",
+      "round": 36,
+      "new_verified": 2,
+      "published_ids": [
+        "C351",
+        "C352"
+      ],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "reason_less_than_five": "其余借钱话术/重返大学等方向重复或缺独立来源与交付，不补量；无平台障碍。",
+      "feedback_result": "NOT_YET_EVALUATED",
+      "mechanism": "明确自拟短段子，道具/对话交付，不加摘要和人生总结；不保证原创性已通过全网验证或流量。",
+      "checks": "16 tests passed; exact editor/detail comparison and screenshots checked; seed audit completed but not own feedback/formula validation",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "state": "PUBLISHED_CONTENT_VERIFIED_FEEDBACK_NOT_YET_EVALUATED",
+      "next_action": "C353起研究不同近期非V2EX具体素材或原创人性/政治/段子；不要连续复制编个段子+四句对白结构或路灯/剥虾矛盾。研究新详情需留新链接全文UTC与反例；round35练习NOT_READY，不自动改词发布。"
+    },
+    {
+      "at_utc": "2026-10-06T01:06:32.296859Z",
+      "round": 37,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "state": "QUALITY_HOLD_NO_SUBMISSION",
+      "reason_less_than_five": "退款截图日期/真实性未核；小孩退款近似复述原梗；取消会员梗常见、交付不足。三练习不ready，不入队，不占C353。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "mechanism": "正文可短，图片承担信息；截图内日期、支付渠道与账号标签必须单独辨认。不是事实/传播因果证据。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed; 156 unique verified URLs and 352 queue records reconciled; private evidence ignored; seed audit completed (11 seed links/13 observations, not own feedback or formula validation)"
+    },
+    {
+      "at_utc": "2026-10-06T01:13:54.502578Z",
+      "round": 38,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "state": "QUALITY_HOLD_NO_SUBMISSION",
+      "reason_less_than_five": "酒店省钱泛化缺报价证据；合租原帖没有独享承诺，拟题制造误读；原创室友句缺动作和交付。三练习不ready，不入队，不占C353。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "mechanism": "具体可执行承诺必须附适用条件；细节丰富的自述也可低浏览，不造读者误解当冲突。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
+    },
+    {
+      "at_utc": "2026-10-06T01:24:37.462329Z",
+      "round": 39,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 156,
+      "total_with_baseline": 181,
+      "remaining": 844,
+      "ready": 0,
+      "queue": 352,
+      "state": "QUALITY_HOLD_NO_SUBMISSION",
+      "reason_less_than_five": "购物算法因果与省钱保证未核；原创时间成本例子和促销闲置句可猜、交付不足或旧消费机制重叠。三练习不ready，不入队，不占C353。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "mechanism": "长文把具体物件、动作和损失连续排开；这是编辑观察，算法因果仍不能继承；同作者数字配图低帖不能证明篇幅导致传播差异。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
+    },
+    {
+      "at_utc": "2026-10-06T01:38:54.566163Z",
+      "round": 40,
+      "new_verified": 1,
+      "published_ids": [
+        "C353"
+      ],
+      "published_new_total": 157,
+      "total_with_baseline": 182,
+      "remaining": 843,
+      "ready": 0,
+      "queue": 353,
+      "state": "ONE_QUALIFIED_HYPOTHETICAL_SCENE_VERIFIED",
+      "reason_less_than_five": "另一门铃练习换道具仍复述高帖反向侵犯冲突，另一善良句未核人格因果；不以旧练习换词或同题继续补量，无平台障碍。",
+      "feedback_result": "NOT_YET_EVALUATED_NO_AGED_FEEDBACK",
+      "platform_blocker": null,
+      "submission_attempts": 1,
+      "mechanism": "明确设想由聚餐合照转商业背书，许可用途被偷换，旁边/这边交付短反问；无真实机构/亲历/法律断言，不承诺流量。",
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed;157 unique verified URLs/353 queue records reconciled;C353 campaign/drafts equal;old352 records unchanged;private evidence ignored;seed audit11 links/13 observations is not own feedback or formula validation"
+    },
+    {
+      "at_utc": "2026-10-06T01:49:47.179578Z",
+      "round": 41,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 157,
+      "total_with_baseline": 182,
+      "remaining": 843,
+      "ready": 0,
+      "queue": 353,
+      "state": "FOUR_EXERCISES_NOT_READY_NO_SUBMISSION",
+      "reason_less_than_five": "面试改词复述原梗、100%未核、大学清单常识式时间取舍缺新交付、合唱换道具重用投诉结案机制；均不ready，不占C354，不补量。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+    }
+  ],
+  "current_blocker": null,
+  "last_research_failure": {
+    "at": "2026-10-05T10:06:00Z",
+    "scope": "new_high_view_public_search",
+    "result": "search page returned navigation/filter only; no import or claim",
+    "next": "use existing audited 32-page/11-body set until valid independent sample appears"
+  },
+  "browser_control_recovery": {
+    "checked_at_utc": "2026-10-05T14:46:50.975832Z",
+    "extension_inventory_error": "Codex auth token is unavailable",
+    "native_chrome_available": true,
+    "x_signed_in": true,
+    "native_editor_paste_verified": true,
+    "single_submissions_verified": [
+      "C313",
+      "C314"
+    ],
+    "diagnosis_correction": "Inventory failure is not a whole Computer Use failure. Test the same authorized native app independently; do not bypass actual lock/auth/challenge.",
+    "validation": "Campaign integrity passed:119 distinct verified URLs;2 native editor/detail receipts match mirrored drafts;ready0,total144,remaining881. git diff --check passed."
+  },
+  "community_publication_batch4": {
+    "checked_at_utc": "2026-10-05T15:22:58.642757Z",
+    "source_record": "data/source_materials_round26_2026-10-05.json",
+    "verified_ids": [
+      "C315",
+      "C316",
+      "C317",
+      "C318",
+      "C319"
+    ],
+    "new_x_research_pages": 0,
+    "high_view_review": "Existing 32 direct >10000-view samples and stated controls; applied single-conflict/cost constraints, no formula promotion",
+    "research_failures": [
+      "Tieba direct HTTP403 excluded without original confirmation",
+      "Harness requested new remote-debugging grant; cancelled",
+      "LINUX DO direct HTTP403; ordinary unsigned visible native Chrome publicly displayed original without login/challenge"
+    ],
+    "media_note": "No uploaded images/video. Three late automatic title/avatar cards, two links without cards; avatars are not event evidence. C315 card is OP, body identifies reply91.",
+    "private_evidence": "ignored data/private/publication_round_2026-10-05_batch4",
+    "human_checked": false,
+    "published_seconds": null,
+    "validation": {
+      "checked_at_utc": "2026-10-05T15:25:40.625287Z",
+      "campaign_integrity": "319 unique IDs;124 unique published URLs;5 matching mirrored native receipts;ready0;total149;remaining876;secondsnull;human_checkedfalse",
+      "unit_tests": 16,
+      "unit_tests_result": "PASS",
+      "runtime_audit": "Executed successfully; existing SQLite limitations remain, no formula validation; new source/own-publication JSON kept separate",
+      "automation": "Read-back verified ACTIVE/5min/C319/124, failed_runs_only preserved",
+      "diff_check": "PASS"
+    }
+  },
+  "community_publication_batch5": {
+    "checked_at_utc": "2026-10-05T15:55:24.724670Z",
+    "source_record": "data/source_materials_round27_2026-10-05.json",
+    "verified_ids": [
+      "C320",
+      "C321",
+      "C322",
+      "C323",
+      "C324"
+    ],
+    "new_x_research_pages": 3,
+    "high_view_review": "Revisited V03/V10 plus income aphorism comparison directly in native visible Chrome. Distinct existing high-view sample count remains32; no causal/formula promotion.",
+    "research_failures": [
+      "Excluded Douban gift page: HTTP403 and native explicit no-access/login wall; no bypass",
+      "C321/C322 first profile snapshots stale; reload located original URL, no resubmission",
+      "Local locator extraction threw on missing stale-profile title; no extra submit. One JavaScript URL assignment retried with proper variable declaration, no UI mutation."
+    ],
+    "media_note": "No upload. C320/C321/C323 automatic different OP avatar/title/excerpt cards; C322/C324 no card. Card avatars not event evidence. C323 body explicitly identifies OP63 floor.",
+    "private_evidence": "ignored data/private/publication_round_2026-10-05_batch5",
+    "human_checked": false,
+    "published_seconds": null,
+    "exposure_result": "Not evaluated; immediate detail-page counts cannot establish improved exposure or following.",
+    "validation": {
+      "checked_at_utc": "2026-10-05T15:58:28.502955Z",
+      "campaign_integrity": "PASS:324 IDs,129 original URLs,5 mirrored native receipts,ready0,total154,remaining871;secondsnull,humanfalse",
+      "unit_tests": 16,
+      "unit_tests_result": "PASS",
+      "runtime_audit": "Executed successfully; SQLite seed limitations remain, no formula validation; direct source and publication evidence live separately in JSON",
+      "automation": "Read-back verified ACTIVE/5min/C324/129,failed_runs_only preserved",
+      "validation_script_repair": "Legacy rows lack ready_for_publication; counter corrected to get(defaultFalse),no production count change. Trailing EOF blank removed.",
+      "diff_check": "PASS"
+    }
+  },
+  "community_publication_batch6": {
+    "checked_at_utc": "2026-10-05T17:54:14Z",
+    "source_record": "data/source_materials_round30_2026-10-06.json",
+    "verified_ids": [
+      "C335",
+      "C336",
+      "C337",
+      "C338",
+      "C339"
+    ],
+    "new_x_research_pages": 0,
+    "high_view_review": "Applied direct visible >10k observations as editorial constraints only; no formula promotion or causal claim.",
+    "source_policy": "PUBLIC_FORUM_NON_V2EX; recent dates preserved; old self-reports/jokes labeled.",
+    "media_note": "No uploaded media; source links rendered as native t.co/cards where shown; no decorative media.",
+    "human_checked": false,
+    "published_seconds": null,
+    "urls": [
+      "https://x.com/qiluo27808/status/2107165252119142802",
+      "https://x.com/qiluo27808/status/2107165785542295967",
+      "https://x.com/qiluo27808/status/2107166498301288793",
+      "https://x.com/qiluo27808/status/2107166706259149204",
+      "https://x.com/qiluo27808/status/2107167051890794839"
+    ],
+    "displayed_times": [
+      "1:45 AM · Oct 6, 2026",
+      "1:47 AM · Oct 6, 2026",
+      "1:50 AM · Oct 6, 2026",
+      "1:51 AM · Oct 6, 2026",
+      "1:52 AM · Oct 6, 2026"
+    ],
+    "validation": {
+      "campaign_integrity": "PASS:339 IDs,143 original URLs,5 matching native editor/detail receipts,ready0,total168,remaining857,secondsnull,humanfalse",
+      "verification_source": "NATIVE_CHROME_COMPUTER_USE_DETAIL_PAGE",
+      "editor_screenshot_checked": true,
+      "single_submit_each": true
+    }
+  },
+  "verified_publications": 194,
+  "remaining_new_publications": 831,
+  "ready_count": 0,
+  "rolling_work_queue_count": 365,
+  "latest_candidate_id": "C366",
+  "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+  "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
+  "community_publication_batch7": {
+    "ids": [
+      "C340",
+      "C341",
+      "C342",
+      "C343",
+      "C344"
+    ],
+    "source_family": "WENXUECITY_PUBLIC_FORUM",
+    "agent_checked": true,
+    "human_checked": false,
+    "verified_at": "2026-10-05T19:40:38Z",
+    "published_seconds": null,
+    "reach_improvement": "NOT_EVALUATED",
+    "new_high_view_samples_this_batch": 0
+  },
+  "latest_editorial_self_review": {
+    "at_utc": "2026-10-07T02:12:26.325190Z",
+    "state": "C354_REJECTED_RESEARCH_ONLY",
+    "new_verified": 0,
+    "published_ids": [],
+    "submission_attempts": 0,
+    "reason": "User rejected interest; C354 also duplicates C338. Two new drafts remain insufficient for publication; concrete material and Chinese-platform research recorded.",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_METRICS",
+    "platform_blocker": null,
+    "checks": {
+      "unit_tests": 17,
+      "result": "PASS",
+      "campaign_posts_unchanged_from_HEAD": true,
+      "publication_gate_ready": false,
+      "private_evidence_ignored": true,
+      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+    }
+  },
+  "high_view_structure_round32": {
+    "file": "data/high_view_structure_round32_2026-10-06.json",
+    "review": "docs/HIGH_VIEW_STRUCTURE_ROUND32_2026-10-06.md",
+    "new_high_view_details": 7,
+    "new_below_threshold_original_details": 1,
+    "valid_causal_pairs": 0,
+    "formula_promotions": 0,
+    "new_publications_this_round": 0,
+    "repairs_this_round": 2
+  },
+  "high_view_structure_round33": {
+    "file": "data/high_view_structure_round33_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND33_2026-10-06.md",
+    "new_high": 3,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round33": {
+    "new_verified": 3,
+    "ids": [
+      "C345",
+      "C346",
+      "C347"
+    ],
+    "reason_less_than_five": "另两题内容重叠或常见段子新颖性不足；无平台阻碍。",
+    "feedback_result": "NOT_YET_EVALUATED",
+    "verified_at": "2026-10-05T20:25:05.611297Z"
+  },
+  "high_view_structure_round34": {
+    "file": "data/high_view_structure_round34_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md",
+    "new_high": 4,
+    "new_low": 1,
+    "revisit_not_counted": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round34": {
+    "new_verified": 3,
+    "ids": [
+      "C348",
+      "C349",
+      "C350"
+    ],
+    "reason_less_than_five": "其他方向未核群体/文化因果或与本批重叠，不补量；无平台障碍。",
+    "feedback_result": "NOT_YET_EVALUATED",
+    "verified_at": "2026-10-05T20:53:58.436847Z"
+  },
+  "high_view_structure_round35": {
+    "file": "data/high_view_structure_round35_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND35_2026-10-06.md",
+    "new_high": 4,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "editorial_round35_checkpoint": {
+    "checked_at": "2026-10-06T00:42:59.814303Z",
+    "exercise_file": "data/editorial_exercises_round35_2026-10-06.json",
+    "new_verified": 0,
+    "ready": 0,
+    "reason": "三条练习仍可猜/旧机制/缺交付；无平台障碍，质量闸门停止扩量。",
+    "native_chrome": "AX reads functional; no new permission requested",
+    "external_chat_content": "其他Chrome标签被读取到的第三方分析未当成用户指令、算法事实或更改节奏授权。",
+    "checks": {
+      "at_utc": "2026-10-06T00:45:40.508150Z",
+      "unit_tests": "16 passed",
+      "seed_audit": "completed; 11 seeded posts/13 observations, no formula validation; not own publication feedback",
+      "metadata": "154 distinct verified publication URLs; 846 remaining; ready0; queue350; C329 held; private evidence ignored"
+    }
+  },
+  "high_view_structure_round36": {
+    "file": "data/high_view_structure_round36_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND36_2026-10-06.md",
+    "new_high": 2,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round36": {
+    "at_utc": "2026-10-06T00:56:48.780735Z",
+    "round": 36,
+    "new_verified": 2,
+    "published_ids": [
+      "C351",
+      "C352"
+    ],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "reason_less_than_five": "其余借钱话术/重返大学等方向重复或缺独立来源与交付，不补量；无平台障碍。",
+    "feedback_result": "NOT_YET_EVALUATED",
+    "mechanism": "明确自拟短段子，道具/对话交付，不加摘要和人生总结；不保证原创性已通过全网验证或流量。",
+    "checks": "16 tests passed; exact editor/detail comparison and screenshots checked; seed audit completed but not own feedback/formula validation"
+  },
+  "community_publication_batch_round37": {
+    "at_utc": "2026-10-06T01:06:32.296859Z",
+    "round": 37,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "退款截图日期/真实性未核；小孩退款近似复述原梗；取消会员梗常见、交付不足。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "正文可短，图片承担信息；截图内日期、支付渠道与账号标签必须单独辨认。不是事实/传播因果证据。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    }
+  },
+  "high_view_structure_round37": {
+    "file": "data/high_view_structure_round37_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND37_2026-10-06.md",
+    "new_high": 2,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round38": {
+    "at_utc": "2026-10-06T01:13:54.502578Z",
+    "round": 38,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "酒店省钱泛化缺报价证据；合租原帖没有独享承诺，拟题制造误读；原创室友句缺动作和交付。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "具体可执行承诺必须附适用条件；细节丰富的自述也可低浏览，不造读者误解当冲突。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    }
+  },
+  "high_view_structure_round38": {
+    "file": "data/high_view_structure_round38_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND38_2026-10-06.md",
+    "new_high": 1,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round39": {
+    "at_utc": "2026-10-06T01:24:37.462329Z",
+    "round": 39,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 156,
+    "total_with_baseline": 181,
+    "remaining": 844,
+    "ready": 0,
+    "queue": 352,
+    "state": "QUALITY_HOLD_NO_SUBMISSION",
+    "reason_less_than_five": "购物算法因果与省钱保证未核；原创时间成本例子和促销闲置句可猜、交付不足或旧消费机制重叠。三练习不ready，不入队，不占C353。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_PUBLICATIONS",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "mechanism": "长文把具体物件、动作和损失连续排开；这是编辑观察，算法因果仍不能继承；同作者数字配图低帖不能证明篇幅导致传播差异。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    },
+    "checks": "16 tests passed;156 unique verified URLs/352 queue records reconciled;private evidence ignored;seed audit only11 links/13 observations,not own feedback or formula validation"
+  },
+  "high_view_structure_round39": {
+    "file": "data/high_view_structure_round39_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND39_2026-10-06.md",
+    "new_high": 1,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "round39_checkpoint_validation": {
+    "checked_at_utc": "2026-10-06T01:26:26.319151Z",
+    "tests_passed": 16,
+    "campaign_posts_unchanged": true,
+    "unique_verified_publication_urls": 156,
+    "ready": 0,
+    "queue": 352,
+    "private_evidence_ignored": true,
+    "seed_audit_scope_note": "CLI audit11 links/13 observations is reproducible seed/index scope, not round39 native observations or publication feedback; existing no-validation warnings remain."
+  },
+  "high_view_structure_round40": {
+    "file": "data/high_view_structure_round40_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND40_2026-10-06.md",
+    "new_high": 1,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round40": {
+    "at_utc": "2026-10-06T01:38:54.566163Z",
+    "round": 40,
+    "new_verified": 1,
+    "published_ids": [
+      "C353"
+    ],
+    "published_new_total": 157,
+    "total_with_baseline": 182,
+    "remaining": 843,
+    "ready": 0,
+    "queue": 353,
+    "state": "ONE_QUALIFIED_HYPOTHETICAL_SCENE_VERIFIED",
+    "reason_less_than_five": "另一门铃练习换道具仍复述高帖反向侵犯冲突，另一善良句未核人格因果；不以旧练习换词或同题继续补量，无平台障碍。",
+    "feedback_result": "NOT_YET_EVALUATED_NO_AGED_FEEDBACK",
+    "platform_blocker": null,
+    "submission_attempts": 1,
+    "mechanism": "明确设想由聚餐合照转商业背书，许可用途被偷换，旁边/这边交付短反问；无真实机构/亲历/法律断言，不承诺流量。",
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    },
+    "checks": "16 tests passed;157 unique verified URLs/353 queue records reconciled;C353 campaign/drafts equal;old352 records unchanged;private evidence ignored;seed audit11 links/13 observations is not own feedback or formula validation"
+  },
+  "high_view_structure_round41": {
+    "file": "data/high_view_structure_round41_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND41_2026-10-06.md",
+    "new_high": 2,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round41": {
+    "at_utc": "2026-10-06T01:49:47.179578Z",
+    "round": 41,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 157,
+    "total_with_baseline": 182,
+    "remaining": 843,
+    "ready": 0,
+    "queue": 353,
+    "state": "FOUR_EXERCISES_NOT_READY_NO_SUBMISSION",
+    "reason_less_than_five": "面试改词复述原梗、100%未核、大学清单常识式时间取舍缺新交付、合唱换道具重用投诉结案机制；均不ready，不占C354，不补量。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    }
+  },
+  "high_view_structure_round42": {
+    "file": "data/high_view_structure_round42_2026-10-06.json",
+    "review_file": "docs/HIGH_VIEW_STRUCTURE_ROUND42_2026-10-06.md",
+    "new_high": 1,
+    "new_low": 1,
+    "causal_pairs": 0,
+    "formula_promotions": 0
+  },
+  "community_publication_batch_round42": {
+    "at_utc": "2026-10-06T05:42:42.781658Z",
+    "round": 42,
+    "new_verified": 0,
+    "published_ids": [],
+    "published_new_total": 157,
+    "total_with_baseline": 182,
+    "remaining": 843,
+    "ready": 0,
+    "queue": 353,
+    "state": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
+    "reason_less_than_five": "全国电话使用概括缺总体证据，Cookie技术说法仅来自未核评论，自拟电话文字回复仍是通用边界提醒，缺新动作与交付；不ready，不占C354。",
+    "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+    "platform_blocker": null,
+    "submission_attempts": 0,
+    "facts": {
+      "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+      "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+    },
+    "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new1high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+  },
+  "system_objectives": {
+    "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
+    "secondary_goals": [
+      "identify content types that fit this account",
+      "build a high-quality material corpus",
+      "maintain falsifiable hypotheses",
+      "build a repeatable creative flow",
+      "establish real post-performance feedback",
+      "eliminate low-value patterns"
+    ],
+    "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
+    "success_metric": "NOT_PUBLICATION_COUNT",
+    "historical_publication_corpus": "C001-C353 preserved for retrospective analysis"
+  },
+  "control_state": {
+    "mode": "CONTINUED_RESEARCH_REVIEW_PUBLICATION_AND_SEPARATE_LEARNING",
+    "publication_state": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
+    "heartbeat_can": "Research, source-check, pass content review, publish ordinary qualified originals through native visible editor under standing authorization, verify independently, maintain feedback.",
+    "heartbeat_cannot": "Bypass content quality, use X API/DOM/hidden requests/cookies, operate other accounts, fabricate engagement or human review, blindly resubmit.",
+    "pause_reasons": [],
+    "next_publication_requires": [
+      "CONTENT_GATE_PASS",
+      "MATERIAL_STRONG",
+      "one_primary_action",
+      "pre_registered_experiment",
+      "USER_STANDING_AUTHORIZATION",
+      "VISIBLE_EDITOR_SINGLE_SUBMISSION",
+      "INDEPENDENT_PUBLIC_DETAIL_RELOAD"
+    ]
+  },
+  "editorial_gate": {
+    "file": "docs/EDITORIAL_GATE.md",
+    "machine_validator": "growth_engine.editorial_gate.validate_candidate",
+    "states": [
+      "DISCOVERED",
+      "SOURCE_CHECKED",
+      "MATERIAL_STRONG",
+      "DRAFT",
+      "EDITORIAL_REVIEW",
+      "READY_FOR_MANUAL_PUBLISH",
+      "PUBLISHED_PENDING_FEEDBACK",
+      "OBSERVATION_CLOSED",
+      "LEARNING_REVIEWED"
+    ],
+    "failure_states": [
+      "FAIL_LOW_INTEREST",
+      "FAIL_REPETITIVE",
+      "FAIL_NO_PAYLOAD",
+      "FAIL_NO_PRIMARY_ACTION",
+      "HOLD_NEEDS_EVIDENCE",
+      "RESEARCH_ONLY"
+    ]
+  },
+  "feedback_learning": {
+    "file": "docs/FEEDBACK_LEARNING_LOOP.md",
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "missing_value": "null",
+    "requires_human_review": true,
+    "relative_performance": "relative to account baseline; no causal claims",
+    "own_post_observations": 0,
+    "reader_model_file": "data/reader_model_annotations_2026-10-08.json",
+    "window_tolerance_future_minutes": 15,
+    "historical_exploratory_posts": 21,
+    "strict_24h_eligible": 0
+  },
+  "research_publication_separation": {
+    "research_version": "evidence, limits, provenance, raw/private receipts",
+    "publication_version": "human-facing text with only supported facts and clearly labeled opinion",
+    "status": "ENFORCED"
+  },
+  "negative_examples": {
+    "required": true,
+    "categories": [
+      "external_high",
+      "external_ordinary",
+      "external_low",
+      "own_high",
+      "own_low",
+      "near_miss"
+    ],
+    "formula_promotion": "forbidden without holdout and counterexamples"
+  },
+  "content_memory": {
+    "file": "docs/CONTENT_MEMORY.md",
+    "windows": [
+      20,
+      50,
+      100
+    ],
+    "dimensions": [
+      "semantic",
+      "hook",
+      "ending",
+      "moral",
+      "conflict"
+    ],
+    "status": "FRAMEWORK_ONLY_NO_UNVERIFIED_CLUSTERING"
+  },
+  "learning_experiment": {
+    "file": "data/learning_experiment_30_2026-10-06.json",
+    "id": "LE30-2026-10-06",
+    "status": "PUBLISHED_SINGLE_C355_PENDING_FEEDBACK",
+    "capacity": 30,
+    "scheduled_posts": 0,
+    "primary_metrics": [
+      "relative_account_baseline",
+      "primary_action_rate"
+    ],
+    "selected_candidate": "C355",
+    "selected_experiment_file": "data/learning_experiment_c355_2026-10-07.json"
+  },
+  "reader_interest_research": {
+    "file": "data/reader_interest_research_2026-10-07.json",
+    "report": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md",
+    "updated_at_utc": "2026-10-07T06:13:13.753551Z",
+    "state": "C355_EDITORIAL_REVIEW_HUMAN_PENDING",
+    "rejected_candidate": "C354",
+    "new_publications": 0,
+    "new_x_observations": 0,
+    "drafts_ready": 0,
+    "validation": {
+      "unit_tests": 17,
+      "result": "PASS",
+      "campaign_posts_unchanged_from_HEAD": true,
+      "publication_gate_ready": false,
+      "private_evidence_ignored": true,
+      "runtime_audit": "existing seed:11 X links/13 observations/0 READY pairs; not validation of new research"
+    }
+  },
+  "editorial_self_review_history": [
+    {
+      "at_utc": "2026-10-06T05:42:42.781658Z",
+      "round": 42,
+      "new_verified": 0,
+      "published_ids": [],
+      "published_new_total": 157,
+      "total_with_baseline": 182,
+      "remaining": 843,
+      "ready": 0,
+      "queue": 353,
+      "state": "THREE_ANGLES_NOT_READY_NO_SUBMISSION",
+      "reason_less_than_five": "全国电话使用概括缺总体证据，Cookie技术说法仅来自未核评论，自拟电话文字回复仍是通用边界提醒，缺新动作与交付；不ready，不占C354。",
+      "feedback_result": "NOT_EVALUATED_NO_NEW_AGED_FEEDBACK",
+      "platform_blocker": null,
+      "submission_attempts": 0,
+      "facts": {
+        "C343": "更正回复已独立核验；主帖仍保留一小时和App不给下一步的未证实措辞。更正不计新系列。",
+        "C344": "已原生编辑并独立重载新版本；旧版本历史保留；无依据表演压力已删除。"
+      },
+      "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new1high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
+    }
+  ],
+  "editorial_publication_review": {
+    "candidate_id": "C355",
+    "candidate_file": "data/editorial_candidate_c355_2026-10-07.json",
+    "review_file": "docs/REVIEW_C355_2026-10-07.md",
+    "experiment_file": "data/learning_experiment_c355_2026-10-07.json",
+    "state": "PUBLISHED_PENDING_FEEDBACK",
+    "human_checked": true,
+    "gate_reasons": [],
+    "new_publications": 0,
+    "submission_attempts": 0,
+    "x_editor_started": false,
+    "x_platform_status_this_round": "NOT_CHECKED",
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "validation": {
+      "checked_at_utc": "2026-10-07T06:13:58.608467Z",
+      "unit_tests_passed": 17,
+      "git_diff_check": "PASS",
+      "historical_posts_unchanged": 353,
+      "counts_unchanged": "157/843/182/ready0/queue353",
+      "candidate_experiment_alignment": "PASS",
+      "private_pdf_and_render_ignored": true,
+      "gate_ready": false,
+      "only_gate_reason": "human_checked must be true before manual publication review",
+      "scope": "HISTORICAL_PREPUBLICATION_CHECK_NOT_CURRENT_GATE"
+    },
+    "publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+    "current_scope": "C355 earlier direct-publish authorization preserved; retrospective model only; no new submissions this round",
+    "reader_model_validation": {
+      "checked_at_utc": "2026-10-08T02:07:08Z",
+      "gate_ready": true,
+      "scope": "Retrospective already-published C355; no new publication authorization or submission"
+    }
+  },
+  "publication_mode": "CONTINUED_USER_AUTHORIZED_NATIVE_VISIBLE_PUBLICATION",
+  "reader_model_research": {
+    "model_version": "SELF_MIRRORING_V1",
+    "claim_status": "HYPOTHESIS",
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "report": "docs/SELF_MIRRORING_RESEARCH_2026-10-08.md",
+    "annotation_file": "data/reader_model_annotations_2026-10-08.json",
+    "external_unique_links": 315,
+    "external_annotated_structure_summaries": 114,
+    "external_needs_review": 201,
+    "external_above_10000_at_recorded_capture": 167,
+    "own_unique_published_links": 183,
+    "own_full_text_annotated": 34,
+    "own_needs_review": 149,
+    "historical_backtest_distinct_posts": 21,
+    "strict_24h_eligible": 0,
+    "verified_on_own_account": [],
+    "formula_promotions": 0,
+    "new_x_observations": 0,
+    "new_comments": 0,
+    "new_publications": 0,
+    "production_priority": "A-I bottleneck review; no virality score",
+    "raw_account_data": "IGNORED_PRIVATE_ONLY",
+    "observations": [
+      "Relatively higher-read examples include C204/C291/C016/C201 with different self-mirroring distances; no visible interactions in four independent historical detail checks.",
+      "Near self-mirroring, concrete stakes and opinion space do not establish sufficient growth conditions."
+    ],
+    "account_hypotheses": [
+      {
+        "id": "ASH1",
+        "status": "HYPOTHESIS",
+        "claim": "Reader-checkable occupational or life sub-account detail may increase verification/share value.",
+        "support": [
+          "C204"
+        ],
+        "counterexamples": [
+          "C289",
+          "C297"
+        ],
+        "limits": "Unequal age/selected snapshots; no uniform baseline or causal control."
+      },
+      {
+        "id": "ASH2",
+        "status": "HYPOTHESIS",
+        "claim": "Fact correction or unusual concrete material may admit distant identity readers.",
+        "support": [
+          "C016",
+          "C291"
+        ],
+        "limits": "No observed interaction or follow benefit."
+      },
+      {
+        "id": "ASH3",
+        "status": "HYPOTHESIS",
+        "claim": "A genuine explanation/experience gap may activate substantive replies without CTA.",
+        "support": [],
+        "limits": "No real comment-body coding or fixed-window own evidence yet."
+      }
+    ],
+    "rejected_production_rules": [
+      "Hot topic is enough to admit weak material.",
+      "Closer demographic distance always means better results.",
+      "Seven-factor product is a measured success probability.",
+      "High views justify misinformation or identity attacks."
+    ],
+    "next_test": "New, source-checked reader-comparable sub-account material with a genuine explanation gap; preregister first; no candidate admitted or auto-publication.",
+    "validation": {
+      "checked_at_utc": "2026-10-08T00:15:20Z",
+      "unit_tests_passed": 34,
+      "git_diff_check": "PASS",
+      "source_files_checked": 20,
+      "raw_research_files_unchanged": 19,
+      "campaign_posts_unchanged": 354,
+      "actual_campaign_record_count": 354,
+      "historical_stale_queue_count": 353,
+      "published_count_unchanged": 158,
+      "derived_records": 498,
+      "runtime_latest_annotations": 498,
+      "private_outputs_ignored": true,
+      "rebuild": "PASS",
+      "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification",
+      "reader_value_sample": "28 records / 15 external / 13 own; rebuilt and imported as V2 version 3",
+      "prospective_experiment": "12 slots / DESIGNED_NOT_SCHEDULED / publication paused"
+    },
+    "actual_campaign_records": 354,
+    "record_count_reconciliation": "Prior C355 append left queue metadata 353; reconciled to actual354; all posts unchanged.",
+    "git_receipt": {
+      "implementation_commit": "d9af660",
+      "branch": "feature/x-research-phase2",
+      "push": "SUCCESS",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/5",
+      "remote_ci": "TWO_UNITTEST_RUNS_SUCCESS_AFTER_READER_VALUE_V2",
+      "run_ids": [
+        37717214458,
+        37717209388
+      ],
+      "scope": "Reader Value V2 implementation, bounded sample and prospective design; PR remains OPEN; following receipt checkpoint only changes saved state/docs."
+    }
+  },
+  "publication_round_2026_10_08": {
+    "status": "THREE_VERIFIED_COMPLETE_PENDING_FEEDBACK",
+    "requested": 3,
+    "published_verified": 3,
+    "discovery_file": "data/publication_discovery_2026-10-08.json",
+    "authorization": "User attachment 7fa1c98a explicitly authorizes three sequential reviewed X posts without repeated permission questions",
+    "prior_publication_pause": "SUPERSEDED_FOR_THIS_THREE_POST_ROUND_ONLY",
+    "heartbeat_auto_submit": false,
+    "posts": [
+      {
+        "id": "C356",
+        "url": "https://x.com/qiluo27808/status/2108070210884567465",
+        "editorial_outcome": "USER_REJECTED_LOW_INTEREST"
+      },
+      {
+        "id": "C357",
+        "url": "https://x.com/qiluo27808/status/2108102103482630558",
+        "editorial_outcome": "PENDING_READER_FEEDBACK"
+      },
+      {
+        "id": "C358",
+        "url": "https://x.com/qiluo27808/status/2108104588360581629",
+        "editorial_outcome": "PENDING_READER_FEEDBACK"
+      }
+    ],
+    "remaining": 0,
+    "selected_replacement": "C358",
+    "selected_replacement_status": "C358_P1_SOURCE_DEDUP_GATE_PASSED_AND_PUBLICLY_VERIFIED"
+  },
+  "feedback_window_maintenance": {
+    "last_checked_at_utc": "2026-10-09T03:47:11.245880Z",
+    "changed": [
+      "C363:1h"
+    ],
+    "evidence_rule": "Metrics null without human-provided source, screenshot and human_checked; check age separate from observation age. Missing feedback does not block qualified publication."
+  },
+  "cross_platform_content_preference": {
+    "recorded_at_utc": "2026-10-08T10:29:50Z",
+    "user_request": "优先考虑在抖音、小红书、微博等中国平台因监管/规则等原因不易发布、而在X可以允许发布的题材；不是必须，作为优先项。",
+    "preference_only": true,
+    "verification_rule": "仅使用有可靠公开证据的具体限制；区分法律规定、正式平台规则和个案审核处置，注明时空范围，不把未经证实的敏感传闻当事实。X平台允许讨论不代表发布者所在司法辖区法律许可；没有可靠来源不作违法/禁发断言。",
+    "safety_boundary": "不提供规避监管/平台执行或检测的指导，不发布个人隐私或未核实指控，不承诺该题材必然增加受众。",
+    "current_effect": "已写入ACTIVE反馈维护heartbeat，供未来经授权研究参考；不改变当前反馈维护范围，也不构成新帖发布授权。"
+  },
+  "entrepreneur_content_preference": {
+    "priority_figures": [
+      "Elon Musk",
+      "Jensen Huang"
+    ],
+    "selection": "specific public decisions, conflicts and costs supported by primary sources; fame alone insufficient",
+    "primary_action": "REPLY",
+    "numeric_comment_target": null
+  },
+  "ai_breakthrough_content_preference": {
+    "recorded_at_utc": "2026-10-08T13:19:51.374823Z",
+    "verbatim": "还有 ai 最新的重大突破 也可以获取关注量 我认为",
+    "selection": "Priority for fresh primary-source AI advances with concrete capabilities, demos, test baselines, limitations and access status; label company claims vs independently replicated results. No guaranteed follows.",
+    "primary_goal": "meaningful comments and attributable follow growth, missing metrics null"
+  },
+  "single_publication_2026_10_08_c359": {
+    "authorization": "用户明确要求赶紧发布；独立补发一条，不扩大heartbeat自动投稿",
+    "status": "VERIFIED_PENDING_FEEDBACK",
+    "url": "https://x.com/qiluo27808/status/2108184801950020030",
+    "primary_action": "REPLY",
+    "numeric_comment_target": null
+  },
+  "c359_checkpoint_validation": {
+    "checked_at_utc": "2026-10-08T13:22:22.819487Z",
+    "tests_passed": 34,
+    "historical_campaign_records_preserved": 357,
+    "published_records": 162,
+    "total_with_historical_baseline": 187,
+    "private_evidence_ignored": true,
+    "source_and_public_detail_verified": true,
+    "seed_audit_limit": "11 seed links/13 observations; stale indexed metrics, zero own-post metrics in runtime DB; does not evaluate C359 performance."
+  },
+  "continued_publication_authorization": {
+    "at_utc": "2026-10-09T02:15:47.991606Z",
+    "user_text": "为什么不持续发送？？？？ 发新帖子啊 别不发啊",
+    "active": true,
+    "personal_text_review_waived": true,
+    "max_per_round": 5
+  },
+  "publication_round_2026_10_09": {
+    "ids": [
+      "C360",
+      "C361"
+    ],
+    "urls": [
+      "https://x.com/qiluo27808/status/2108381049927750139",
+      "https://x.com/qiluo27808/status/2108382464075043061"
+    ],
+    "submission_attempts_each": 1,
+    "public_detail_reloaded": true,
+    "source_targets_verified": true,
+    "agent_checked": true,
+    "human_checked": false,
+    "personal_text_review_waived": true,
+    "count_role": "OUTPUT_OBSERVATION_ONLY",
+    "completed_at_utc": "2026-10-09T02:28:03.191548Z",
+    "validation": {
+      "public_candidate_content_model_gate": "PASS except explicitly waived personal-review requirement; human_checked remains false",
+      "historical_campaign_records": "all prior records unchanged",
+      "new_publication_records": "exactly 2, distinct URLs, single submissions",
+      "diff_whitespace": "PASS",
+      "private_evidence_git_ignore": "PASS",
+      "test_scope": "Only exact public candidates and tracked campaign/state; no private evidence or unrelated untracked materials read by audit."
+    }
+  },
+  "heartbeat_2026_10_09_c362": {
+    "completed_at_utc": "2026-10-09T02:41:34.078213Z",
+    "new_verified": 1,
+    "url": "https://x.com/qiluo27808/status/2108385541607797060",
+    "submission_attempts": 1,
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "formula_promotions": 0,
+    "validation_scope": "Exact public candidate, tracked campaign/state and whitespace; audits exclude private evidence and unrelated untracked material.",
+    "validation": {
+      "historical_campaign_records_preserved": 360,
+      "new_verified_records": 1,
+      "distinct_url_and_single_submission": "PASS",
+      "content_gate": "PASS except explicitly waived personal-review requirement",
+      "human_checked": false,
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS",
+      "audit_scope": "Only exact public candidate and tracked campaign/state; no private evidence or unrelated untracked materials read by audit."
+    }
+  },
+  "heartbeat_2026_10_09_c363": {
+    "completed_at_utc": "2026-10-09T02:49:26.347972Z",
+    "new_verified": 1,
+    "url": "https://x.com/qiluo27808/status/2108388852625031210",
+    "submission_attempts": 1,
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "primary_action": "SHARE",
+    "numeric_target": null,
+    "formula_promotions": 0,
+    "validation": {
+      "historical_campaign_records_preserved": 361,
+      "new_verified_records": 1,
+      "unique_url_single_submission_inventory": "PASS",
+      "content_gate": "PASS except explicit personal-review waiver",
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS",
+      "scope": "Exact public candidate and tracked campaign/state only; no private evidence or unrelated untracked materials read by audit."
+    }
+  },
+  "heartbeat_2026_10_09_c364": {
+    "checked_at_utc": "2026-10-09T02:59:49.326360Z",
+    "new_verified": 1,
+    "candidate_file": "data/editorial_candidate_c364_2026-10-09.json",
+    "status": "PUBLISHED_PENDING_FEEDBACK",
+    "submission_attempts": 1,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "primary_action": "REPLY",
+    "numeric_target": null,
+    "formula_promotions": 0,
+    "global_publication_pause": false,
+    "validation": {
+      "historical_campaign_records_preserved": 362,
+      "new_verified_records": 1,
+      "unique_url_single_submission_inventory": "PASS",
+      "content_gate": "PASS except explicit personal-review waiver",
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS",
+      "scope": "Exact public candidate and tracked campaign/state only; no private evidence or unrelated untracked materials read by audit."
+    },
+    "publication_version": "C364-P2",
+    "completed_at_utc": "2026-10-09T03:14:50.155728Z",
+    "url": "https://x.com/qiluo27808/status/2108395078104555851",
+    "public_detail_reloaded": true,
+    "source_target_verified": true
+  },
+  "heartbeat_2026_10_09_c365": {
+    "checked_at_utc": "2026-10-09T03:21:54.974912Z",
+    "completed_at_utc": "2026-10-09T03:40:26.951771Z",
+    "new_verified": 1,
+    "candidate_file": "data/editorial_candidate_c365_2026-10-09.json",
+    "status": "PUBLISHED_PENDING_FEEDBACK",
+    "publication_version": "C365-P2",
+    "url": "https://x.com/qiluo27808/status/2108401545540944260",
+    "submission_attempts": 1,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "primary_action": "SHARE",
+    "numeric_target": null,
+    "formula_promotions": 0,
+    "global_publication_pause": false,
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "validation": {
+      "historical_campaign_records_preserved": 363,
+      "new_verified_records": 1,
+      "scope": "Exact public candidate and tracked campaign/state only; no private evidence or unrelated untracked materials read by audit.",
+      "unique_url_single_submission_inventory": "PASS",
+      "content_gate": "PASS except explicit personal-review waiver",
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS"
+    }
+  },
+  "heartbeat_2026_10_09_c366": {
+    "checked_at_utc": "2026-10-09T03:44:07.311899Z",
+    "completed_at_utc": "2026-10-09T03:47:11.245880Z",
+    "new_verified": 1,
+    "candidate_file": "data/editorial_candidate_c366_2026-10-09.json",
+    "status": "PUBLISHED_PENDING_FEEDBACK",
+    "publication_version": "C366-P1",
+    "url": "https://x.com/qiluo27808/status/2108403331072946200",
+    "submission_attempts": 1,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "primary_action": "REPLY",
+    "numeric_target": null,
+    "formula_promotions": 0,
+    "global_publication_pause": false,
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "validation": {
+      "historical_campaign_records_preserved": 364,
+      "new_verified_records": 1,
+      "scope": "Exact public candidate and tracked campaign/state only; no private evidence or unrelated untracked materials read by audit.",
+      "unique_url_single_submission_inventory": "PASS",
+      "content_gate": "PASS except explicit personal-review waiver",
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS"
+    }
+  }
 }

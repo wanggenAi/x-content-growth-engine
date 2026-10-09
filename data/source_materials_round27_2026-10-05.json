@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-10-05T15:40:06.920742Z",
+  "status": "PUBLIC_SOURCE_CHECKED_NOT_EVENT_VERIFIED",
+  "materials": [
+    {
+      "id": "S320",
+      "original_url": "https://v2ex.com/t/166246",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "duanyu47",
+      "source_date": "2015-01-28",
+      "checked_at_utc": "2026-10-05T15:28:43.266525+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "一次人情帮助变成无限服务的代价",
+      "limits": "仅作者旧帖自述；话术为原创建议，未测试；不冒充作者已使用，不建议装不懂或损坏设备",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch5"
+    },
+    {
+      "id": "S321",
+      "original_url": "https://v2ex.com/t/359791",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "flowfire",
+      "source_date": "2017-05-08",
+      "checked_at_utc": "2026-10-05T15:28:43.267008+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "过去低薪是否应该限制当下报价",
+      "limits": "匿名作者自述，未独立核实招聘；未给薪金额不补造；不宣称披露工资违法或保证谈薪成功",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch5"
+    },
+    {
+      "id": "S322",
+      "original_url": "https://www.douban.com/group/topic/283322333/",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "寻找幸福的喵神",
+      "source_date": "2023-02-14",
+      "checked_at_utc": "2026-10-05T15:28:43.267174+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "抽象要便宜与可核对同类差价",
+      "limits": "自称房东未独立核实；三套为话术示例条件不是原帖实际案例；不编造比价，不保证降租，不评判所有房东",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch5"
+    },
+    {
+      "id": "S323",
+      "original_url": "https://v2ex.com/t/629149",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "dusu",
+      "source_date": "2019-12-15",
+      "checked_at_utc": "2026-10-05T15:31:28.172347+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "可负担消费与显露资源后的关系成本",
+      "limits": "车价作者自述；母亲顾虑为OP63楼转述，无实际亲戚借钱事件；不羞辱母亲或劝读者买车",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch5"
+    },
+    {
+      "id": "S324",
+      "original_url": "https://blog.catscarlet.com/201902133283.html",
+      "category": "PUBLIC_COMMUNITY_AUTHOR_SELF_REPORT",
+      "author_visible": "石樱灯笼",
+      "source_date": "2019-02-13",
+      "checked_at_utc": "2026-10-05T15:28:43.267482+00:00",
+      "method": "DIRECT_PUBLIC_HTML",
+      "independent_event_confirmation": false,
+      "human_checked": false,
+      "evidence_summary": "旧物仍可用但搬家占用体力与空间",
+      "limits": "2019-02-13博客记早一月搬家，旧事非近况；仅自述，不编家庭心理因果；不复制原图或推导所有北漂处境",
+      "raw_evidence_location": "ignored data/private/publication_round_2026-10-05_batch5"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.douban.com/group/topic/486649908/",
+      "reason": "Direct HTTP403; ordinary visible Chrome explicitly reports no access and asks login. Excluded without retry/bypass or source-body claims."
+    }
+  ],
+  "new_x_research_pages": 3,
+  "formula_status_change": false,
+  "high_view_review": {
+    "method": "NATIVE_VISIBLE_CHROME_DIRECT_DETAIL",
+    "observed_at_utc": "2026-10-05T15:36:47.445Z",
+    "samples": [
+      {
+        "url": "https://x.com/rwayne/status/2103485829784154430",
+        "visible_views": 186261,
+        "displayed_time": "10:04 PM · Sep 25, 2026",
+        "structure": "明确可用步骤；带邀请奖励和推广背景，不继承亲测/奖励承诺"
+      },
+      {
+        "url": "https://x.com/Btc8888XF/status/2104186543313219836",
+        "visible_views": 1138283,
+        "displayed_time": "8:29 PM · Sep 27, 2026",
+        "structure": "两个熟悉场景对照；群体概括并非经核实事实，不抄其全是一群前提"
+      },
+      {
+        "url": "https://x.com/xieqianwan642/status/2105258858629263642",
+        "visible_views": 172,
+        "displayed_time": "7:30 PM · Sep 30, 2026",
+        "structure": "同样有反常识语气但只有收入格言，没有可用动作；观察不是结构效果证明"
+      }
+    ],
+    "limits": "Revisits of existing samples, not new distinct sample counts; no matched causal control, author/audience/age/promotion differ. Seen replies not imported as new focus samples."
+  }
+}

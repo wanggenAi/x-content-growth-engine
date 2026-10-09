@@ -1,0 +1,174 @@
+{
+  "candidate_id": "C355",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "created_at_utc": "2026-10-07T06:11:55.132068Z",
+  "research_version": "C355-R1",
+  "publication_version": "C355-P1",
+  "text": "LABUBU 所在系列收入少了3.6亿元，泡泡玛特总收入却涨了23.8%。\n\n8月公布的2026半年账里，星星人收入26.5亿元，比去年同期多了22.6亿元。\n\n盯着一个娃过没过气，容易把一家公司看成只有一个娃。\n\nhttps://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+  "subject_value": "熟悉品牌的可核收入反差：LABUBU所在系列同比减少约3.6亿元，公司收入增长23.8%，另一个系列同比增加约22.6亿元。",
+  "information_gap": "第一行给出同向直觉被打断的结果，下一段交付另一个系列的名称、规模及同比增量。",
+  "payload": "两年同口径IP表的一笔账：THE MONSTERS减少359,656千元；Twinkle Twinkle增加2,260,606千元；后者本期收入2,649,969千元。公开按亿元取一位小数。",
+  "primary_action": "SHARE",
+  "primary_action_reader": "认识LABUBU、与朋友讨论潮玩品牌生意的中文读者，可以转发这笔分系列账来纠正单一爆款等于整家公司收入的判断。",
+  "novelty_check": "全353条来源/品牌字面查重无命中；近30条全文审核，近50/100条主题、首屏、结尾比较。C342是球星卡收藏被包装成投资，本条是公司收入组合；C349是消费照片遗漏未消费人群，本条不推总体生活水平。近100条没有同品牌同来源同账，结尾不复用拒绝、同意范围或人情成本的道德判断。不是完成了全部历史语义聚类。",
+  "audit_language_separation": "财报为2026上半年未审计中期业绩，8月20日发布，不是10月当天消息。LABUBU属于THE MONSTERS，不能写成LABUBU单品收入、销量或热度已下降；收入不是利润，星星人增长不证明消费者从LABUBU转移。结尾是账本解读，不是买卖建议、全国心理或平台传播结论。",
+  "follow_reason": "继续交付熟悉人物和品牌背后被一眼判断漏掉的具体账与原始来源，而不是泛化道理。",
+  "material_strength": "STRONG",
+  "material_strength_reason": "读者认识的IP、数十亿元收入规模、系列收入下降而公司收入增加的反差，以及一个可点名的增长系列；材料本身有数字交付，结构不承担升级普通材料的工作。",
+  "source_refs": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+      "author_visible": "POP MART INTERNATIONAL GROUP LIMITED",
+      "source_date": "2026-08-20",
+      "source_type": "COMPANY_INTERIM_RESULTS_PRIMARY",
+      "pages": [
+        1,
+        19,
+        20,
+        30,
+        31
+      ],
+      "checked_at_utc": "2026-10-07T06:11:55.132068Z"
+    },
+    {
+      "url": "https://www.yicai.com/news/103326855.html",
+      "author_visible": "乐琰／第一财经",
+      "source_date": "2026-08-20",
+      "use": "核对星星人中文名称与THE MONSTERS包含LABUBU；数字以公司表为准",
+      "checked_at_utc": "2026-10-07T06:11:55.132068Z"
+    }
+  ],
+  "fact_check_status": "PRIMARY_PDF_TABLE_VISUALLY_CHECKED; same first-half periods and RMB thousand units; arithmetic checked; Chinese name checked against original financial reporting",
+  "human_checked": true,
+  "agent_checked": true,
+  "manual_visible_editor_review": "COMPLETE_NATIVE_EDITOR_SCREENSHOT",
+  "publication_format": "single_text_with_primary_source_link",
+  "media_type": "none_uploaded; native_source_card_unknown_until_editor",
+  "submission_attempts": 1,
+  "published_at": "2026-10-07T13:19:00Z",
+  "url": "https://x.com/qiluo27808/status/2107823209806713075",
+  "novelty_dimensions": {
+    "semantic_repetition": "NO_SAME_SOURCE_PAYLOAD_FOUND",
+    "hook_repetition": "numeric contrast exists historically; named IP revenue direction and hidden growth amount are new",
+    "ending_repetition": "does not reuse relationship boundary or judgment discount endings",
+    "moral_repetition": "no parent/partner/consent/exploitation moral",
+    "conflict_repetition": "same-company revenue mix rather than two people allocation or procedural absurdity"
+  },
+  "private_evidence_dir": "data/private/interest_research_2026-10-07",
+  "source_arithmetic": {
+    "units": "RMB thousand",
+    "THE_MONSTERS_2026": 4454361,
+    "THE_MONSTERS_2025": 4814017,
+    "decrease_rmb_100m": 3.59656,
+    "TWINKLE_2026": 2649969,
+    "TWINKLE_2025": 389363,
+    "increase_rmb_100m": 22.60606,
+    "company_revenue_2026": 17172921,
+    "company_revenue_2025": 13876276,
+    "company_growth_percent_rounded": 23.8
+  },
+  "gate_validation": {
+    "checked_at_utc": "2026-10-07T13:24:19Z",
+    "ready": true,
+    "reasons": [],
+    "agent_review_complete": true,
+    "human_authorization_recorded": true
+  },
+  "human_checked_at_utc": "2026-10-07T13:24:19Z",
+  "human_checked_reason": "用户明确授权直接发布C355-P1；不冒充用户逐字阅读。",
+  "verified_at": "2026-10-07T13:24:19Z",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "editor_closed_after_submit": true,
+  "publication_verification": {
+    "single_submission": true,
+    "editor_closed": true,
+    "public_detail_reload": true,
+    "account": "@qiluo27808",
+    "displayed_time": "9:19 PM · Oct 7, 2026",
+    "seconds": null,
+    "source_target": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+    "source_rendering": "t.co/yCYLxrCH3T",
+    "uploaded_media": false,
+    "captured_at_utc": "2026-10-07T13:24:19Z"
+  },
+  "reader_model": {
+    "model_version": "SELF_MIRRORING_V1",
+    "claim_status": "HYPOTHESIS",
+    "self_relevance": "MEDIUM",
+    "psychological_stakes": "HIGH",
+    "expectation_violation": "HIGH",
+    "concrete_scene_strength": "MEDIUM",
+    "information_gap": "HIGH",
+    "opinion_activation": "HIGH",
+    "social_currency": "HIGH",
+    "material_strength": "HIGH",
+    "opinion_space": "MEDIUM",
+    "topic_strength": "UNKNOWN",
+    "psychological_accounts": [
+      {
+        "account": "SELF_JUDGMENT",
+        "stake": "品牌判断与收入组合；未假定读者持股",
+        "cue": "LABUBU 所在系列收入少了3.6亿元，泡泡玛特总收入却涨了23.8%。",
+        "reader_thought": "一个娃跌了，公司怎么还涨？"
+      },
+      {
+        "account": "INTEREST",
+        "stake": "品牌判断与收入组合；未假定读者持股",
+        "cue": "LABUBU 所在系列收入少了3.6亿元，泡泡玛特总收入却涨了23.8%。",
+        "reader_thought": "一个娃跌了，公司怎么还涨？"
+      }
+    ],
+    "concrete_stakes": "品牌判断与收入组合；未假定读者持股",
+    "self_relevance_distance": {
+      "age": null,
+      "income": null,
+      "occupation": null,
+      "city": null,
+      "identity": null,
+      "life_stage": null,
+      "experience": null,
+      "interest": "MIXED",
+      "bridge": "通过品牌判断与收入组合；未假定读者持股形成心理接口；人口距离未知，不以近远排序。"
+    },
+    "hidden_rule": {
+      "claim": null,
+      "evidence_status": "UNKNOWN"
+    },
+    "status_shift": null,
+    "identity_trigger": "讨论LABUBU生意的朋友",
+    "activation_mechanisms": [
+      "EXPLANATION_RIGHT",
+      "CORRECTION"
+    ],
+    "opinion_space_reason": "留下经验或解释的不同回答；尚未用真实评论验证。",
+    "share_recipient": "讨论LABUBU生意的朋友",
+    "share_reason": "把这条具体矛盾带给讨论LABUBU生意的朋友，用于比较自身经验或核对原判断；这是传播假设。",
+    "why_reader_cares": "一个娃跌了，公司怎么还涨？",
+    "predicted_inner_response": "一个娃跌了，公司怎么还涨？",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "controversy_risk": "MEDIUM",
+    "attention_mechanism": "品牌判断与收入组合；未假定读者持股与读者原有判断或经历连接。",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "rationale": {
+      "self_relevance": "拟代入对象：讨论LABUBU生意的朋友；心理接口：一个娃跌了，公司怎么还涨？",
+      "psychological_stakes": "品牌判断与收入组合；未假定读者持股",
+      "expectation_violation": "THE MONSTERS收入下降，但公司总收入增长；星星人增量给出同口径支点，不推断消费者转移。",
+      "concrete_scene_strength": "只依据source_refs所指文字的对象、动作或数字；原图本轮未重读。",
+      "information_gap": "可能追问：一个娃跌了，公司怎么还涨？；未知或已兑现程度按原文字判断。",
+      "opinion_activation": "拟表达入口：EXPLANATION_RIGHT,CORRECTION；未检验真实评论。",
+      "social_currency": "拟接收者：讨论LABUBU生意的朋友；无真实转发意图数据。",
+      "material_strength": "材料支点：品牌判断与收入组合；未假定读者持股；不依据题材热度或浏览反推。",
+      "opinion_space": "留下经验或解释的不同回答；尚未用真实评论验证。",
+      "topic_strength": "没有测量题材需求或热度；UNKNOWN，不用于材料晋级。"
+    },
+    "novelty_status": "CHECKED"
+  },
+  "reader_model_annotated_at_utc": "2026-10-08T00:09:19Z",
+  "reader_model_annotation_scope": "RETROSPECTIVE_AFTER_PUBLICATION; not original preregistration",
+  "reader_model_gate_validation": {
+    "checked_at_utc": "2026-10-08T00:09:19Z",
+    "ready": true,
+    "reasons": [],
+    "scope": "Retrospective new-model review; no new publication authorization or result claim"
+  }
+}

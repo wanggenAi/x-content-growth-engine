@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-02T19:42:46Z",
+  "purpose": "C275-C279读者兴趣优先的人物、关系、职业反差与金钱代价素材；公开报道只作为事实支点，不是流量证据。",
+  "materials": [
+    {
+      "id": "CAM-C086",
+      "title": "中国女性为男模情侣写真支付数千元",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3369378/chinese-women-spend-top-dollar-male-model-shoots-turning-staged-romance-viral-trend",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-10-01",
+      "observed_at": "2026-10-02T19:42:46Z",
+      "verified_claims": [
+        "南华早报报道，年轻女性为男模情侣写真支付最高8000元每小时；拍摄包括牵手、拥抱、摆拍亲吻和触摸腹肌。",
+        "报道写到，一名生活博主在7月为30分钟、两名男模的情侣写真支付4520元。"
+      ],
+      "limits": ["这是报道中的个案和商业趋势，不把摆拍亲密写成真实恋爱，也不概括所有女性。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C087",
+      "title": "深圳按小时收费的挠痒服务",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3366154/chinese-entrepreneur-launches-itch-scratching-services-earning-us15000-month",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-03",
+      "observed_at": "2026-10-02T19:42:46Z",
+      "verified_claims": [
+        "南华早报报道，32岁的张小桥在深圳宝安和福田开了两家挠痒门店，两店月收入约10万元。",
+        "服务每小时收费300元，员工戴特制尖指甲为趴在床上的顾客挠痒；第一家店5月开业，第二家6月开业。"
+      ],
+      "limits": ["收入和需求是报道转述的创业者及媒体报道，不是审计数据或行业平均值。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C088",
+      "title": "浙江垃圾站工人拒绝全职模特合同",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3368927/chinese-rubbish-station-worker-scouted-striking-looks-refuses-full-time-modelling",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-27",
+      "observed_at": "2026-10-02T19:42:46Z",
+      "verified_claims": [
+        "南华早报报道，20岁的Leng Minghui在浙江台州垃圾回收站工作，被‘乡村超模’卢现仁发现后获得模特邀约。",
+        "报道写到她身高1.81米、体重50公斤，并拒绝全职模特合同；她认为垃圾站工作养活自己，模特是梦想，两者并不冲突。"
+      ],
+      "limits": ["人物使用化名或英文转写，报道中的身材和邀约不等于稳定职业结果；不把她写成被拯救或完成阶层跃迁。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C089",
+      "title": "外卖骑手王计兵获得鲁迅文学奖",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3363266/china-delivery-rider-poet-known-writing-verses-scrap-paper-wins-elite-literature-prize",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-08-07",
+      "observed_at": "2026-10-02T19:42:46Z",
+      "verified_claims": [
+        "南华早报报道，外卖骑手诗人王计兵凭诗集《低处飞行》获得鲁迅文学奖诗歌奖；该奖每四年颁发一次。",
+        "报道写到他在江苏昆山送餐八年，在送餐间隙用废纸写诗，获奖后仍表示会继续送餐。"
+      ],
+      "limits": ["年龄在报道摘要中出现56与57两种写法，正文不写年龄；文学奖事实和继续送餐说法按报道记录。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C090",
+      "title": "医学博士离开三甲医院做外卖和兼职音乐",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368901/chinese-doctor-phd-leaves-medical-career-deliver-food-pursue-music-part-time",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-26",
+      "observed_at": "2026-10-02T19:42:46Z",
+      "verified_claims": [
+        "南华早报报道，31岁的医学博士刘子涵在珠海三甲医院做过精神科医生和博士后，2月离开全职工作。",
+        "她后来送外卖、在酒吧演出、卖早餐并尝试其他兼职；她2022年取得博士学位。"
+      ],
+      "limits": ["这是个人职业选择和自述，不是放弃医学的普遍建议；报道没有给出她所有兼职的长期收入。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    }
+  ]
+}

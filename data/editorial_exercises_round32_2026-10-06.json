@@ -1,0 +1,25 @@
+{
+  "recorded_at_utc": "2026-10-05T20:03:08.095635Z",
+  "status": "UNPUBLISHED_EDITORIAL_EXERCISES_NOT_CAMPAIGN",
+  "purpose": "检验短对话与规矩成本结构，不照搬研究原文，不冒充本人亲历。待下一轮去重与兴趣审查，不按数量自动发布。",
+  "exercises": [
+    {
+      "id": "EX-R32-01",
+      "kind": "ORIGINAL_FICTIONAL_JOKE",
+      "text": "段子：\n\n给家里买300块的东西：该花。\n给自己买80块的东西：旧的还能用。\n\n同一个钱包，养得起全家，报销不了自己。",
+      "fact_boundary": "原创设想；金额为虚构对话道具，不是调查、原作者经历或本账号亲历。",
+      "formula_id": "F01",
+      "formula_status": "HYPOTHESIS",
+      "editorial_risk": "可能过度简化家庭支出；发布前核对与C300/C304/C314等消费稿重复程度，未过闸门。"
+    },
+    {
+      "id": "EX-R32-02",
+      "kind": "ORIGINAL_FICTIONAL_JOKE",
+      "text": "段子：\n\n“今晚加班完全自愿。”\n“那我先走了。”\n“你这个工作态度……”\n\n选择题答完了，才发现有标准答案。",
+      "fact_boundary": "原创虚构对话；不指向具体公司、事件或本账号亲历。",
+      "formula_id": "F01",
+      "formula_status": "HYPOTHESIS",
+      "editorial_risk": "常见职场笑话结构，需进一步原创性/重复审查，未过发布闸门。"
+    }
+  ]
+}

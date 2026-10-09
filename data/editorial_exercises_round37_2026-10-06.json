@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-06T01:06:32.296859Z",
+  "status": "REVIEW_ONLY_NOT_READY_NOT_PUBLISHED",
+  "posts": [
+    {
+      "id": "R37-E01",
+      "draft": "看到一张67元退款截图，最贵的可能不是钱包，是卖家一直没翻过去的那一页。",
+      "source_ref": "https://x.com/jianlvup/status/2106172105691893938",
+      "status": "HOLD_SOURCE_AND_EDITORIAL_QUALITY",
+      "reason": "把截图里的自述提升为已知心理原因；未见退款日期/真实性，且道歉与承担代价已在C215/C234谈过。不能当近期事件，不占C353。"
+    },
+    {
+      "id": "R37-E02",
+      "draft": "付6088元的时候是成年人，想退款的时候开始申请回到童年。",
+      "source_ref": "https://x.com/Barney165947/status/2106698346371145900",
+      "status": "HOLD_SOURCE_AND_ORIGINALITY",
+      "reason": "几乎重演原帖小孩退款笑点，未增加新的交付；付款和年龄未知，不能补政策建议或抄造亲历。"
+    },
+    {
+      "id": "R37-E03",
+      "draft": "自拟消费吐槽：开通会员点一下，取消会员先考阅读理解。",
+      "source_ref": null,
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "reason": "常见开通/取消不对称梗，可猜到结论；没有具体可用的新动作或证据，和已有消费流程批评相邻。不换词凑量。"
+    }
+  ],
+  "queued_campaign_ids": [],
+  "published_new": 0
+}

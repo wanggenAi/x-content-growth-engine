@@ -2,6 +2,7 @@ import json
 import sqlite3
 import tempfile
 import unittest
+from contextlib import closing
 from pathlib import Path
 
 from growth_engine.__main__ import connect, import_feedback, import_file, import_materials, logged_import, packet, report, validate, validate_feedback, validate_material
@@ -38,7 +39,7 @@ class StoreTests(unittest.TestCase):
             path = Path(directory)
             seed = path / "seed.json"
             seed.write_text(json.dumps([BASE]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 self.assertEqual(import_file(db, seed), (1, 1))
                 self.assertEqual(import_file(db, seed), (0, 0))
                 self.assertEqual(report(db)["unknown_views"], 1)
@@ -50,7 +51,7 @@ class StoreTests(unittest.TestCase):
             path = Path(directory)
             seed = path / "seed.json"
             seed.write_text(json.dumps([BASE, {**BASE, "source_url": ""}]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 with self.assertRaises(ValueError):
                     import_file(db, seed)
                 self.assertEqual(report(db)["x_posts"], 0)
@@ -63,14 +64,14 @@ class StoreTests(unittest.TestCase):
                 {**BASE, "views": 200},
                 {**BASE, "observed_at": "2026-09-29T01:00:00Z", "method": "direct_public_page", "views": None},
             ]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 self.assertEqual(import_file(db, seed), (1, 2))
                 self.assertEqual(report(db)["unknown_views"], 1)
                 self.assertEqual(db.execute("SELECT views FROM x_observations ORDER BY observed_at").fetchall(), [(200,), (None,)])
 
     def test_formula_status_is_constrained(self):
         with tempfile.TemporaryDirectory() as directory:
-            with connect(Path(directory) / "research.sqlite3") as db:
+            with closing(connect(Path(directory) / "research.sqlite3")) as db, db:
                 with self.assertRaises(sqlite3.IntegrityError):
                     db.execute("INSERT INTO formula_hypotheses VALUES ('F1','claim','text','MATURE','2026-09-29')")
 
@@ -78,7 +79,7 @@ class StoreTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory)
             seed = path / "seed.json"
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 seed.write_text(json.dumps([BASE]), encoding="utf-8")
                 import_file(db, seed)
                 seed.write_text(json.dumps([{**BASE, "observed_at": "2026-09-28T00:00:00Z"}]), encoding="utf-8")
@@ -107,7 +108,7 @@ class StoreTests(unittest.TestCase):
             path = Path(directory)
             seed = path / "materials.json"
             seed.write_text(json.dumps([material]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 self.assertEqual(import_materials(db, seed), 1)
                 self.assertEqual(import_materials(db, seed), 0)
                 self.assertEqual(report(db)["materials"], 1)
@@ -130,7 +131,7 @@ class StoreTests(unittest.TestCase):
             path = Path(directory)
             seed = path / "feedback.json"
             seed.write_text(json.dumps([feedback]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 self.assertEqual(import_feedback(db, seed), (1, 1))
                 self.assertEqual(import_feedback(db, seed), (0, 0))
                 self.assertEqual(report(db)["own_posts"], 1)
@@ -142,7 +143,7 @@ class StoreTests(unittest.TestCase):
             path = Path(directory)
             seed = path / "bad.json"
             seed.write_text(json.dumps([BASE, {**BASE, "views": -4}]), encoding="utf-8")
-            with connect(path / "research.sqlite3") as db:
+            with closing(connect(path / "research.sqlite3")) as db, db:
                 with self.assertRaises(ValueError):
                     logged_import(db, "x", seed)
                 self.assertEqual(report(db)["x_posts"], 0)
