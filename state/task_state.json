@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-09T02:28:03.191548Z",
+  "updated_at": "2026-10-09T02:41:34.078213Z",
   "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
@@ -17,7 +17,7 @@
     "exploratory_drafts": "38_prepared_total_8_published_30_unpublished",
     "chatgpt_research_packet": "done_json_markdown",
     "feedback_import_interface": "done",
-    "own_post_feedback": "C356为用户否定低兴趣负例，1h与6h均DUE_MISSING；C357的1h与6h均DUE_MISSING，C358的1h与6h均DUE_MISSING，C359的1h为DUE_MISSING；C357/C358/C359暂无人工核验指标或完整评论证据；不得据此升级F01-F05或任何公式。",
+    "own_post_feedback": "C356 remains user-rejected low-interest negative; C356-C359 1h/6h DUE_MISSING. C360-C362 future windows pending; no human-verified metrics or complete comment evidence imported. Missing feedback does not block qualified publication; F01-F05 remain HYPOTHESIS.",
     "live_github_recovery": "done",
     "local_tests_and_seed_replay": "16 tests passed; round32 JSON/campaign counts148/0/852/344 and version/correction consistency checked. CLI seed audit remains old-index-only with unknown follower denominators, not a report on native evidence JSON; no formula validated.",
     "work_cloud_browser_homepage_probe": "done_x_and_reddit_unsigned",
@@ -70,21 +70,25 @@
     "agent_observed_exploratory_comparisons": 28,
     "campaign_verified_new_publications": 164,
     "verified_total_series": 189,
-    "published_new": 164,
-    "remaining_new_publications": 836,
-    "rolling_work_queue_count": 360,
+    "published_new": 165,
+    "remaining_new_publications": 835,
+    "rolling_work_queue_count": 361,
     "ready_count": 0,
-    "latest_publication_id": "C361",
+    "latest_publication_id": "C362",
     "baseline_verified_publications": 25,
-    "total_verified_series": 189,
-    "latest_candidate_id": "C361",
+    "total_verified_series": 190,
+    "latest_candidate_id": "C362",
     "editorial_drafts_unpublished": 1,
-    "latest_publication_url": "https://x.com/qiluo27808/status/2108382464075043061",
-    "latest_publication_verified_at": "2026-10-09T02:28:03.191548Z",
-    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK"
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108385541607797060",
+    "latest_publication_verified_at": "2026-10-09T02:40:55.706886Z",
+    "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
+    "published_count": 165,
+    "latest_candidate_source": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
+    "latest_candidate_checked_at": "2026-10-09T02:40:55.706886Z",
+    "updated_at": "2026-10-09T02:40:55.706886Z"
   },
   "blocked": false,
-  "next_action": "Research and publish qualified distinct originals under standing user authorization; maintain separate feedback learning.",
+  "next_action": "Research distinct strong primary-source material, prioritize company variety; continue authorized native-visible publishing and separate fixed-window feedback learning.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -741,13 +745,13 @@
       "single_submit_each": true
     }
   },
-  "verified_publications": 164,
-  "remaining_new_publications": 836,
+  "verified_publications": 165,
+  "remaining_new_publications": 835,
   "ready_count": 0,
-  "rolling_work_queue_count": 360,
-  "latest_candidate_id": "C361",
+  "rolling_work_queue_count": 361,
+  "latest_candidate_id": "C362",
   "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-  "latest_candidate_checked_at": "2026-10-09T02:28:03.191548Z",
+  "latest_candidate_checked_at": "2026-10-09T02:40:55.706886Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -1387,10 +1391,8 @@
     "selected_replacement_status": "C358_P1_SOURCE_DEDUP_GATE_PASSED_AND_PUBLICLY_VERIFIED"
   },
   "feedback_window_maintenance": {
-    "last_checked_at_utc": "2026-10-09T02:28:03.191548Z",
-    "changed": [
-      "C359:6h"
-    ],
+    "last_checked_at_utc": "2026-10-09T02:41:34.078213Z",
+    "changed": [],
     "evidence_rule": "Metrics null without human-provided evidence; check age separate from observation age. Missing feedback does not block qualified new publication."
   },
   "cross_platform_content_preference": {
@@ -1464,6 +1466,29 @@
       "diff_whitespace": "PASS",
       "private_evidence_git_ignore": "PASS",
       "test_scope": "Only exact public candidates and tracked campaign/state; no private evidence or unrelated untracked materials read by audit."
+    }
+  },
+  "heartbeat_2026_10_09_c362": {
+    "completed_at_utc": "2026-10-09T02:41:34.078213Z",
+    "new_verified": 1,
+    "url": "https://x.com/qiluo27808/status/2108385541607797060",
+    "submission_attempts": 1,
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "formula_promotions": 0,
+    "validation_scope": "Exact public candidate, tracked campaign/state and whitespace; audits exclude private evidence and unrelated untracked material.",
+    "validation": {
+      "historical_campaign_records_preserved": 360,
+      "new_verified_records": 1,
+      "distinct_url_and_single_submission": "PASS",
+      "content_gate": "PASS except explicitly waived personal-review requirement",
+      "human_checked": false,
+      "diff_whitespace": "PASS",
+      "private_evidence_ignored": "PASS",
+      "audit_scope": "Only exact public candidate and tracked campaign/state; no private evidence or unrelated untracked materials read by audit."
     }
   }
 }

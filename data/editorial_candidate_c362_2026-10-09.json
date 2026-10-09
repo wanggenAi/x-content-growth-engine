@@ -1,0 +1,112 @@
+{
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "AI模型也有拒绝极端情绪对话的公司规则",
+        "reader_thought": "它连续出错时我反复让它改，谁判断这是纠错还是出气？"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "用户付费/日常使用的AI能结束对话，新规则直接触及抱怨与模型拒绝边界；不是陌生数字猎奇。",
+    "predicted_inner_response": "它连续出错时我反复让它改，谁判断这是纠错还是出气？",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT",
+      "EXPLANATION_RIGHT",
+      "KNOWLEDGE_DISPLAY"
+    ],
+    "opinion_space": "HIGH",
+    "opinion_space_reason": "规则执行中的具体纠错场景和工具是否应拒绝情绪可分别讨论；不鼓励滥用。"
+  },
+  "candidate_id": "C362",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C362-R1",
+  "publication_version": "C362-P1",
+  "text": "Claude做错了，你可以批评它；但一直拿它出气，Anthropic准备划一道线。\n\n10月8日公布、11月12日生效的新使用政策，把对模型“持续且无必要的虐待或残酷行为”列入禁止事项。\n\n公司特意解释：针对的是反复、无明显目的的极端行为。普通抱怨、反驳、黑暗题材创作和模型测试不在这条限制里。主要处理方式仍是让Claude结束这类对话。\n\n我在意的是这条线谁来画：模型一再做错时，用户反复要求重做，怎样与“无必要地折磨它”区分？\n\n当工具开始拒绝承受人的情绪，“好用”和“好相处”会不会变成两套标准？\n\nhttps://www.anthropic.com/news/2026-usage-policy-update",
+  "subject_value": "用户付费/日常使用的AI能结束对话，新规则直接触及抱怨与模型拒绝边界；不是陌生数字猎奇。",
+  "information_gap": "禁止持续无必要虐待的规则如何区分正常反驳、重复纠错和极端出气？",
+  "payload": "Oct8官方更新，Nov12生效；极端反复无明显目的行为、普通抱怨/反驳/创作/测试明确排除，Claude结束对话为主要机制。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "使用Claude或其他AI、经历模型反复出错的读者可讨论具体边界，提出纠错或滥用识别经验。",
+  "novelty_check": "全部360来源无相同更新或该条规则记录；近30已发全文审查，本条用户情绪与工具拒绝边界不同于C357审批管理、C360API价格、C361配送便利；采用具体政策与执行边界，避开连续价格/自主权泛论。近帖Anthropic出现较多，本轮限本条，后续优先不同来源。",
+  "audit_language_separation": "政策是公司使用条件，不是法律；Oct8公布Nov12将生效，不写已实施或用户骂一句即封号。官方明示普通frustration/pushback/dark themes/testing excluded，主要终止对话，不虚构制裁案例或意识/痛苦实证。后两段明确自拟疑问，不能把反复纠错说成已经被禁止。",
+  "follow_reason": "持续核对AI日常使用中具体能力、价格和规则变化，保留普通用户可争论的边界而不编流量承诺。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_type": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
+      "source_date": "2026-10-08",
+      "author_visible": "Anthropic",
+      "checked_at_utc": "2026-10-09T02:32:33.315896Z",
+      "checked_facts": [
+        "full announcement lines15-49 read; abuse boundary42-43",
+        "effective November12"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/aup",
+      "source_type": "OFFICIAL_USAGE_POLICY",
+      "source_date": "effective2026-11-12",
+      "checked_at_utc": "2026-10-09T02:32:33.315896Z",
+      "checked_facts": [
+        "published policy visible; clause107 sustained and needless abuse",
+        "rule29 possible remedies separate from specific announcement primary enforcement"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_PRIMARY_ANNOUNCEMENT_AND_PUBLISHED_POLICY_REVIEWED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "experiment": {
+    "hypothesis": "C362_AI_USER_CONDUCT_BOUNDARY",
+    "primary_outcome": "independent_real_reader_substantive_comments",
+    "numeric_comment_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ]
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C362",
+  "url": "https://x.com/qiluo27808/status/2108385541607797060",
+  "published_at": "2026-10-09T02:34:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "10:34 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T02:40:55.706886Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "Gen @qiluo27808 visible editor: full Chinese paragraphs, punctuation, blank lines and native source card checked before one Post click. Editor closed; own new post URL observed. Exact public detail opened independently and reloaded; full text and displayed timestamp matched. Native source card t.co/LrJhutde7a clicked and resolved to anthropic.com/news/2026-usage-policy-update. Agent verification only; no reader metrics inferred.",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "ready_for_publication": false,
+  "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+  "source_checked": true,
+  "source_kind": "OFFICIAL_PRIMARY_ANNOUNCEMENT"
+}
