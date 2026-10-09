@@ -5,11 +5,11 @@
   "target_new_publications": 1000,
   "baseline_verified_publications": 25,
   "target_total_verified_publications": 1025,
-  "published_count": 165,
+  "published_count": 166,
   "ready_count": 0,
   "research_pending_count": 180,
-  "rolling_work_queue_count": 361,
-  "remaining_new_publications": 835,
+  "rolling_work_queue_count": 362,
+  "remaining_new_publications": 834,
   "posting_method": "USER_AUTHORIZED_NATIVE_CHROME_COMPUTER_USE",
   "facts_not_future_view_guarantees": true,
   "publication_rules": [
@@ -9351,17 +9351,116 @@
       "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "source_checked": true,
       "source_kind": "OFFICIAL_PRIMARY_ANNOUNCEMENT"
+    },
+    {
+      "reader_model": {
+        "model_version": "READER_VALUE_V2",
+        "claim_status": "HYPOTHESIS",
+        "material_strength": "HIGH",
+        "evidence_strength": "FULL_RECORDED_TEXT",
+        "novelty_status": "CHECKED",
+        "reader_value_routes": [
+          {
+            "route": "SOCIAL_CURRENCY",
+            "strength": "HIGH",
+            "cue": "AI取得自己的企业邮箱和版本记录署名",
+            "reader_thought": "这条可以发给一起改文档的同事，原来代理要有自己的账号。"
+          }
+        ],
+        "dominant_reader_value_route": "SOCIAL_CURRENCY",
+        "why_reader_cares": "企业邮箱、日历、网盘和版本记录里的AI名字构成具体可见的新工作关系；读者可转给协作文档和IT管理同事讨论。",
+        "predicted_inner_response": "以后版本记录里真会出现一个AI同事的名字。",
+        "self_relevance": "MEDIUM",
+        "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+        "controversy_risk": "LOW",
+        "social_currency": "HIGH",
+        "share_recipient": "协作文档的同事、办公IT管理者、试用AI的团队",
+        "share_reason": "用独立身份/共享权限/版本历史这三个可核对动作解释具体新功能，便于团队讨论。"
+      },
+      "candidate_id": "C363",
+      "state": "PUBLISHED_PENDING_FEEDBACK",
+      "research_version": "C363-R1",
+      "publication_version": "C363-P1",
+      "text": "Google准备给AI同事发企业邮箱，还让它出现在公司通讯录里。\n\n这次Gemini at Work公布的“同事代理”，按公司的介绍，会有自己的邮箱、日历和网盘。你可以把它加进工作群、在文档评论里@它；它提出修改时，版本记录里留下的是它自己的名字。\n\nGoogle说，它只看团队分享给它的信息；云端任务可以在你合上笔记本后继续跑数小时甚至数天。公告没有给出所有企业统一开通的时间。\n\n以后追问“这段是谁改的”，答案可能真是通讯录里的一个AI名字。\n\nhttps://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "subject_value": "企业邮箱、日历、网盘和版本记录里的AI名字构成具体可见的新工作关系；读者可转给协作文档和IT管理同事讨论。",
+      "information_gap": "AI进公司通讯录后，以谁的身份改文档、能看哪些材料、合上电脑是否停工？",
+      "payload": "官方宣布同事代理独立Workspace账户/邮箱/日历/Drive/目录；可加Chat与文档评论，建议修改、回复并在版本历史署名；仅看到分享信息，云端持久运行。",
+      "primary_action": "SHARE",
+      "primary_action_reader": "团队协作、办公IT和AI工具使用者可把具体新工作形态分享给同事，讨论如何在群聊和文档中识别AI操作。",
+      "novelty_check": "全部361来源无本公告或AI同事企业邮箱/目录记录；近30已发全文核查。与C357经营审批实验、C361配送指引、C362情绪限制区别为独立企业身份及版本历史，不再重复一般人机责任问句。",
+      "audit_language_separation": "Google官方完整公告及相关章节已读；这是公司公布能力，没有独立复现/基准，未宣称技术突破或效率实测。检索显示Oct8、当前全文显示Oct9，正文用本次活动不强行确定日界。公告未给全面开通日期/价格，不称所有Workspace用户已有。suggest edit准确写提出修改，不声称已全面自动重写文档。自己的名字是代理身份，不是法律责任转移。",
+      "follow_reason": "继续找AI进入日常工作的具体动作与可核对变化，避免把发布公告当实测成功。",
+      "material_strength": "STRONG",
+      "source_refs": [
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "source_type": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
+          "source_date": "2026-10-08 search/event; 2026-10-09 currently rendered heading",
+          "author_visible": "Thomas Kurian, CEO Google Cloud",
+          "checked_at_utc": "2026-10-09T02:46:10.651252Z",
+          "checked_facts": [
+            "Full article and Workspace section read",
+            "lines100-102 persistent cloud execution and coworker identity",
+            "lines138-140 account, directory, Chat, document comments, suggestions, version history, access sharing",
+            "no universal coworker availability timetable found"
+          ]
+        }
+      ],
+      "fact_check_status": "FULL_OFFICIAL_PRIMARY_BODY_AND_WORKSPACE_BOUNDARIES_REVIEWED",
+      "human_checked": false,
+      "agent_checked": true,
+      "user_authorized": true,
+      "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+      "experiment": {
+        "hypothesis": "C363_NAMED_AI_COWORKER_SHARE_VALUE",
+        "primary_outcome": "independent_real_reader_reposts_or_quotes",
+        "numeric_target": null,
+        "measurement_windows": [
+          "1h",
+          "6h",
+          "24h",
+          "72h",
+          "7d"
+        ],
+        "distribution_confidence": "UNKNOWN"
+      },
+      "uploaded_media": false,
+      "submission_attempts": 1,
+      "gate_result": {
+        "content_gate_passed": true,
+        "formal_ready": false,
+        "user_waived_personal_review": true,
+        "reasons": [
+          "human_checked must be true before manual publication review"
+        ]
+      },
+      "status": "PUBLISHED_PENDING_FEEDBACK",
+      "id": "C363",
+      "url": "https://x.com/qiluo27808/status/2108388852625031210",
+      "published_at": "2026-10-09T02:47:00Z",
+      "published_at_precision": "displayed_minute_seconds_unknown",
+      "published_second": null,
+      "displayed_time": "10:47 AM · Oct 9, 2026",
+      "verified_at": "2026-10-09T02:49:26.347972Z",
+      "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+      "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+      "verification_note": "Gen @qiluo27808 native visible editor: all four Chinese paragraphs, punctuation, blank lines and native Google source card checked. One Post click only; editor closed and exact own new URL observed. Independent public detail navigation and reload matched full text, paragraphs, author and displayed timestamp. t.co/0nk1RrjCET clicked and resolved to intended Google Cloud article. No uploaded media, no human review claimed, no analytics imported.",
+      "private_evidence_path": "data/private/publication_2026-10-09/",
+      "ready_for_publication": false,
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "source_checked": true,
+      "source_kind": "OFFICIAL_PRIMARY_ANNOUNCEMENT"
     }
   ],
-  "updated_at": "2026-10-09T02:40:55.706886Z",
-  "latest_publication_id": "C362",
-  "latest_publication_url": "https://x.com/qiluo27808/status/2108385541607797060",
-  "latest_publication_verified_at": "2026-10-09T02:40:55.706886Z",
-  "latest_candidate_id": "C362",
+  "updated_at": "2026-10-09T02:49:26.347972Z",
+  "latest_publication_id": "C363",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2108388852625031210",
+  "latest_publication_verified_at": "2026-10-09T02:49:26.347972Z",
+  "latest_candidate_id": "C363",
   "latest_candidate_source": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
-  "latest_candidate_checked_at": "2026-10-09T02:40:55.706886Z",
+  "latest_candidate_checked_at": "2026-10-09T02:49:26.347972Z",
   "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-  "latest_publication_time_note": "C362 displayed minute; publication seconds unknown",
+  "latest_publication_time_note": "C363 displayed minute; publication seconds unknown",
   "editorial_mode": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "metadata_reconciliation_note": "User steer 2026-10-05: stop V2EX as primary source; prioritize recent verifiable material, with separate non-dated categories for jokes, human nature and political commentary.",
   "current_blocker": null,
@@ -9442,12 +9541,12 @@
       "observation": "Extension tab inventory returned Codex auth token is unavailable; native cua.getApp(com.google.Chrome) read profile/composer and pasted, submitted once and independently verified C313/C314. Previous whole-CUA blocker scope was incorrect."
     }
   ],
-  "updated_at_utc": "2026-10-09T02:40:55.706886Z",
+  "updated_at_utc": "2026-10-09T02:49:26.347972Z",
   "last_quality_checkpoint": {
     "ids": [
-      "C362"
+      "C363"
     ],
-    "checked_at_utc": "2026-10-09T02:40:55.706886Z",
+    "checked_at_utc": "2026-10-09T02:49:26.347972Z",
     "status": "SINGLE_SUBMISSION_INDEPENDENTLY_VERIFIED",
     "new_verified": 1,
     "private_evidence_ignored": true,
@@ -9457,7 +9556,7 @@
   "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
   "publication_mode": "CONTINUED_USER_AUTHORIZED_NATIVE_VISIBLE_PUBLICATION",
   "next_action": "Research and publish qualified distinct originals under standing user authorization; maintain separate feedback learning.",
-  "total_verified_series": 190,
+  "total_verified_series": 191,
   "historical_rolling_work_queue_count_before_reconciliation": 353,
   "record_count_reconciliation": {
     "checked_at_utc": "2026-10-08T00:09:19Z",
