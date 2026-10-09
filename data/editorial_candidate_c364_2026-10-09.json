@@ -1,16 +1,16 @@
 {
   "candidate_id": "C364",
-  "state": "EDITORIAL_REVIEW",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
   "research_version": "C364-R1",
-  "publication_version": "C364-P1",
-  "text": "示范的人拿浇水壶浇花，机器人面前只有一杯水——它改用杯子浇。\n\n这是Skild今年8月公布的S1实验。公司说，给它一段人类操作视频，不为新任务重新训练，它就能尝试换盆、翻煎饼、做手冲咖啡。\n\n不过，“看一遍”不等于“次次做成”。公司在未见过的任务上测到66%的逐步成功率；失败后有人帮它恢复，再继续测下一步。这不是整件家务无人接手的成功率。\n\n如果以后能拍一段视频教家务机器人，你会先教它哪件事，才敢让它独自做？\n\nhttps://www.skild.ai/blogs/s1",
+  "publication_version": "C364-P2",
+  "text": "Skild的机器人实验里，示范的人拿浇水壶，机器人面前却只有一杯水——它改用杯子浇花。\n\n这是Skild今年8月公布的S1实验。公司说，给它一段人类操作视频，不为新任务重新训练，它就能尝试换盆、翻煎饼、做手冲咖啡。\n\n不过，“看一遍”不等于“次次做成”。公司在未见过的任务上测到66%的逐步成功率；失败后有人帮它恢复，再继续测下一步。这不是整件家务无人接手的成功率。\n\n如果以后能拍一段视频教家务机器人，你会先教它哪件事，才敢让它独自做？\n\nhttps://www.skild.ai/blogs/s1",
   "subject_value": "浇水壶换成杯子、翻煎饼和换盆构成能立刻想象的家务动作；一段示范与每次可靠独立完成之间存在可核对的实际差距。",
   "information_gap": "没有同款工具，它能否学到动作目的；看一次示范能做多少，66%到底怎么测？",
   "payload": "官方工具替换例子、单视频且不针对新任务再训练、未见任务的逐步指标与恢复干预，让读者能判断家务机器人的演示和可靠性。",
   "primary_action": "REPLY",
   "primary_action_reader": "做家务或关注机器人实用性的人，可以给出愿意先交给机器人的任务及理由，而非泛泛表达赞同。",
   "novelty_check": "全362条campaign记录无Skild来源/公司匹配；近30全文核对。不同于C357零食经营、C361配送眼镜、C363协作文档身份：本稿讨论一段动作视频与实际家务独立完成，不沿用责任边界或管理审批结尾。",
-  "audit_language_separation": "完整S1官方文章与博客日期索引核对，Aug18而非今日突破；NVIDIA Sep10伙伴稿的lastweek与索引冲突不采纳。公司实验不等于独立复现。66%是平均累计逐步成功率，干预恢复后逐步评分，非66%整任务无人干预成功；基线相同数据/架构除提示嵌入/算力。少数据已见任务语言53%高于ICL43%；2000次任务后训练可到86%，所以不称视频方式全面领先。未找到开放模型权重或普通消费者上市信息。原生官方演示只见预览画面和播放加载，未完成动态动作核验，不写亲眼看完或第一手试用；发布前须补做演示与可见编辑器最终检查。",
+  "audit_language_separation": "完整S1官方文章与博客日期索引核对，Aug18而非今日突破；NVIDIA Sep10伙伴稿的lastweek与索引冲突不采纳。公司实验不等于独立复现。66%是平均累计逐步成功率，干预恢复后逐步评分，非66%整任务无人干预成功；基线相同数据/架构除提示嵌入/算力。少数据已见任务语言53%高于ICL43%；2000次任务后训练可到86%，所以不称视频方式全面领先。未找到开放模型权重或普通消费者上市信息。原生官方5:14视频可播放初段；杯子/换盆等独立视频后段加载未完成，未直接目视核实杯子动作。P2首段明确归于Skild实验报告，整条只陈述公司完整原文，不以视频作为独立复现，不宣称已看完整演示或第一手试用。后段媒体加载不足只限制直接演示证据，不能升级为效果实测；正文归因所述事实已由原始报告覆盖。发布仍需可见编辑器最终检查。",
   "follow_reason": "继续用具体家务动作和测试口径拆解机器人能力，区分可看演示与可靠独立使用。",
   "material_strength": "STRONG",
   "source_refs": [
@@ -19,7 +19,7 @@
       "source_type": "OFFICIAL_PRIMARY_EXPERIMENT_REPORT",
       "source_date": "2026-08-18",
       "date_source": "https://www.skild.ai/blogs",
-      "checked_at_utc": "2026-10-09T02:59:49.326360Z",
+      "checked_at_utc": "2026-10-09T03:07:25.288654Z",
       "checked_facts": [
         "Full original report read",
         "Single-video context; unchanged task weights",
@@ -29,7 +29,7 @@
       ]
     }
   ],
-  "fact_check_status": "FULL_OFFICIAL_PRIMARY_TEXT_CHECKED_NATIVE_DYNAMIC_DEMO_PENDING",
+  "fact_check_status": "FULL_OFFICIAL_PRIMARY_REPORT_CHECKED_COMPANY_CLAIMS_ATTRIBUTED_DEMO_LOADING_LIMIT_RECORDED",
   "human_checked": false,
   "agent_checked": true,
   "user_authorized": true,
@@ -75,12 +75,13 @@
     "distribution_confidence": "UNKNOWN"
   },
   "uploaded_media": false,
-  "submission_attempts": 0,
+  "submission_attempts": 1,
   "publication_preflight": {
-    "native_dynamic_demo": "PENDING",
-    "native_editor": "NOT_OPENED",
-    "submission": "NOT_ATTEMPTED",
-    "reason": "Shared Chrome changed during source inspection; do not act on the unrelated current page. Continue demo/editor verification at a later safe checkpoint; authorization stays valid."
+    "native_dynamic_demo": "PARTIAL_PLAYBACK_ONLY_NOT_INDEPENDENT_VALIDATION",
+    "native_editor": "FULL_TEXT_FORMAT_ACCOUNT_AND_NATIVE_SOURCE_CARD_CHECKED",
+    "submission": "ONE_SUBMISSION_PUBLIC_DETAIL_RELOAD_VERIFIED",
+    "reason": "P2 explicitly attributes the example to company report. Original report fully covers published facts; no first-hand/full-video verification or independent replication claimed. Dynamic media loading limit recorded.",
+    "completed_at_utc": "2026-10-09T03:14:50.155728Z"
   },
   "gate_result": {
     "content_gate_passed": true,
@@ -89,6 +90,22 @@
     "reasons": [
       "human_checked must be true before manual publication review"
     ],
-    "publication_preflight_complete": false
-  }
+    "publication_preflight_complete": true
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C364",
+  "url": "https://x.com/qiluo27808/status/2108395078104555851",
+  "published_at": "2026-10-09T03:12:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "11:12 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T03:14:50.155728Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "Gen @qiluo27808 visible native editor full Chinese text/blank lines/punctuation/native Skild source card checked. One Post click; editor closed and actual own new URL observed. Independent public detail navigation and reload matched full four paragraphs, author, native source card and displayed minute. t.co/e51SWj22RT clicked and resolved to skild.ai/blogs/s1. No uploaded media or analytics imported. Official dynamic video was only partially playable; cup example attributed to full company report, not directly watched or independently replicated.",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "ready_for_publication": false,
+  "source_url": "https://www.skild.ai/blogs/s1",
+  "source_checked": true,
+  "source_kind": "OFFICIAL_PRIMARY_EXPERIMENT_REPORT"
 }
