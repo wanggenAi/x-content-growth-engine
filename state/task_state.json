@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-09T02:49:26.347972Z",
+  "updated_at": "2026-10-09T02:59:49.326360Z",
   "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
@@ -64,12 +64,12 @@
     "materials": 71,
     "exploratory_drafts": 70,
     "own_posts": 0,
-    "verified_account_publications": 164,
+    "verified_account_publications": 166,
     "unpublished_candidates": 16,
     "agent_observed_viral_posts": 74,
     "agent_observed_exploratory_comparisons": 28,
-    "campaign_verified_new_publications": 164,
-    "verified_total_series": 189,
+    "campaign_verified_new_publications": 166,
+    "verified_total_series": 191,
     "published_new": 166,
     "remaining_new_publications": 834,
     "rolling_work_queue_count": 362,
@@ -88,7 +88,7 @@
     "updated_at": "2026-10-09T02:49:26.347972Z"
   },
   "blocked": false,
-  "next_action": "Continue distinct strong material research and authorized native publication; NVIDIA primary action/commitment leads remain research-only, no forced annual budget comparison. Maintain separate fixed-window feedback.",
+  "next_action": "Continue C364 native official demonstration and visible editor preflight when shared Chrome is available; publish once only after final checks. Authorization stays active; no feedback-dependent pause. Seek fresher distinct strong materials as well.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -334,28 +334,29 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 164,
+    "published_new": 166,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 189,
-    "remaining_new_publications": 836,
-    "rolling_work_queue_count": 360,
-    "latest_publication_id": "C361",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2108382464075043061",
-    "latest_publication_verified_at": "2026-10-09T02:28:03.191548Z",
-    "latest_candidate_id": "C361",
-    "latest_candidate_source": "FIRST_PARTY_INTERVIEW_TRANSCRIPT_AND_VIDEO",
-    "latest_candidate_checked_at": "2026-10-08T13:19:51.374823Z",
+    "total_verified_series": 191,
+    "remaining_new_publications": 834,
+    "rolling_work_queue_count": 362,
+    "latest_publication_id": "C363",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2108388852625031210",
+    "latest_publication_verified_at": "2026-10-09T02:49:26.347972Z",
+    "latest_candidate_id": "C363",
+    "latest_candidate_source": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
+    "latest_candidate_checked_at": "2026-10-09T02:49:26.347972Z",
     "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-    "published_count": 164,
+    "published_count": 166,
     "ready_count": 0,
-    "updated_at": "2026-10-09T02:28:03.191548Z",
+    "updated_at": "2026-10-09T02:59:49.326360Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
     "control_role": "NOT_A_CONTROL_VARIABLE",
     "primary_goal": "Improve long-term natural exposure, meaningful interactions, and follows.",
     "publication_mode": "CONTINUED_USER_AUTHORIZED_NATIVE_VISIBLE_PUBLICATION",
-    "historical_queue_metadata_before_reconciliation": 353
+    "historical_queue_metadata_before_reconciliation": 353,
+    "research_pending_count": 180
   },
   "editorial_workflow": {
     "voice_spec": "docs/CONTENT_VOICE_AND_WORKFLOW.md",
@@ -400,7 +401,7 @@
     "follow_up_at": "2026-10-02T21:46:20Z",
     "follow_up_finding": "C287-C289 each passed exact editor comparison, one visible submit, profile check and independent public detail reload; all are pure text with no card. C286 duplicate incident remains recorded and C277 remains blocked by X duplicate prompt."
   },
-  "own_post_feedback": "C356保留低兴趣负例，1h与6h均DUE_MISSING；C357/C358的1h均DUE_MISSING，6h仍PENDING。没有新增人工核验的指标或完整评论证据；不得据此升级F01-F05或任何公式。",
+  "own_post_feedback": "C356保留用户否定的低兴趣负例；C356-C359的1h/6h已DUE_MISSING；C360-C363的1h未到期。无新增人工核验指标或完整评论证据，所有缺失指标保持null，F01-F05仍HYPOTHESIS。",
   "latest_style_feedback": {
     "at": "2026-10-05T09:22:00Z",
     "direction": "停止低吸引力新闻摘要；先用已有32条>10000浏览样本和11个可审高浏览正文提炼单一冲突、具体代价/交付与可回答分歧，再继续C313起。",
@@ -749,9 +750,9 @@
   "remaining_new_publications": 834,
   "ready_count": 0,
   "rolling_work_queue_count": 362,
-  "latest_candidate_id": "C363",
-  "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-  "latest_candidate_checked_at": "2026-10-09T02:49:26.347972Z",
+  "latest_candidate_id": "C364",
+  "latest_candidate_status": "EDITORIAL_REVIEW_NATIVE_PREFLIGHT_PENDING",
+  "latest_candidate_checked_at": "2026-10-09T02:59:49.326360Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -1391,7 +1392,7 @@
     "selected_replacement_status": "C358_P1_SOURCE_DEDUP_GATE_PASSED_AND_PUBLICLY_VERIFIED"
   },
   "feedback_window_maintenance": {
-    "last_checked_at_utc": "2026-10-09T02:49:26.347972Z",
+    "last_checked_at_utc": "2026-10-09T03:00:52.247565Z",
     "changed": [],
     "evidence_rule": "Metrics null without human-provided evidence; check age separate from observation age. Missing feedback does not block qualified new publication."
   },
@@ -1512,6 +1513,28 @@
       "diff_whitespace": "PASS",
       "private_evidence_ignored": "PASS",
       "scope": "Exact public candidate and tracked campaign/state only; no private evidence or unrelated untracked materials read by audit."
+    }
+  },
+  "heartbeat_2026_10_09_c364": {
+    "checked_at_utc": "2026-10-09T02:59:49.326360Z",
+    "new_verified": 0,
+    "candidate_file": "data/editorial_candidate_c364_2026-10-09.json",
+    "status": "EDITORIAL_REVIEW_NATIVE_PREFLIGHT_PENDING",
+    "submission_attempts": 0,
+    "human_checked": false,
+    "agent_checked": true,
+    "personal_text_review_waived": true,
+    "primary_action": "REPLY",
+    "numeric_target": null,
+    "formula_promotions": 0,
+    "global_publication_pause": false,
+    "validation": {
+      "content_gate": "PASS except explicitly waived personal review",
+      "no_submission_or_publication_count_change": "PASS",
+      "live_inventory_mirror": "MATCHES_VERIFIED_C363",
+      "diff_whitespace": "PASS",
+      "private_path_ignored": "PASS",
+      "audit_scope": "Exact public candidate and tracked campaign/state only; private maintenance check performed separately under feedback authorization; unrelated untracked materials excluded."
     }
   }
 }
