@@ -1,21 +1,23 @@
 {
   "schema_version": "viral_feed_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/1216.json",
-  "latest_run_id": "2026-10-11T12:16Z-public-aggregator-recovery-01",
-  "latest_run_completed_at": "2026-10-11T12:16:00Z",
-  "admitted_count": 4,
-  "status": "OPERATIONAL_PUBLIC_CORROBORATED_NONZERO",
-  "recent_0_48h_count": 4,
+  "latest_run_path": "data/viral_feed/2026-10-11/1244.json",
+  "latest_run_id": "2026-10-11T12:44Z-author-matched-comparison-01",
+  "latest_run_completed_at": "2026-10-11T12:44:26Z",
+  "admitted_count": 1,
+  "status": "OPERATIONAL_MATCHED_COMPARISON_SAMPLING",
+  "recent_0_48h_count": 1,
   "high_view_verified_count": 0,
-  "interaction_observed_count": 4,
+  "interaction_observed_count": 0,
+  "matched_comparison_candidate_count": 1,
   "route_summary": {
-    "PUBLIC_X_AGGREGATOR": {
-      "queries": 8,
-      "candidates": 6,
-      "admitted": 4,
-      "failures": 2
+    "AUTHOR_WATCH": {
+      "queries": 4,
+      "candidates": 2,
+      "admitted": 1,
+      "failures": 0
     }
   },
-  "direct_x_rendering": "BLOCKED_OR_CACHE_MISS",
-  "note": "Free public discovery is now non-zero without cookies or hidden endpoints. Real X status permalinks are corroborated through current public aggregators/mirrors; direct X rendering remains unavailable, so evidence levels and metric provenance stay explicit."
+  "unadmitted_leads_path": "data/viral_feed/2026-10-11/1244_leads.json",
+  "direct_x_rendering": "BLOCKED_OR_NOT_RENDERED",
+  "note": "A second recent ClaudeDevs status was admitted specifically as a same-author/similar-age matched-comparison candidate. Four current Chinese-language mirror leads were preserved separately pending original status-ID resolution. Unlabeled mirror number sequences are not mapped to canonical metrics."
 }
