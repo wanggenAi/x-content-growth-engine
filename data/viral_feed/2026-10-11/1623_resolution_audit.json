@@ -1,0 +1,54 @@
+{
+  "schema_version": "viral_feed_identity_resolution_audit_v1",
+  "parent_run_id": "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
+  "observed_at": "2026-10-11T16:23:00.145Z",
+  "original_leads_path": "data/viral_feed/2026-10-11/1248_control_leads.json",
+  "source_page": "https://xbangdan.com/account/momo_peggy/",
+  "method": "PUBLIC_OUTBOUND_ORIGINAL_X_LINK_PLUS_SNOWFLAKE_LOCAL_MINUTE",
+  "paid_features_used": false,
+  "direct_x_rendering": "403",
+  "resolved": [
+    {
+      "status_id": "2108501030308868501",
+      "status_url": "https://x.com/momo_peggy/status/2108501030308868501",
+      "published_at_utc": "2026-10-09T10:13:14.337Z",
+      "source_listed_local_minute": "2026-10-09 18:13",
+      "secondary_exposure_approx": 132000,
+      "comparison_role": "SECONDARY_HIGH_LEAD",
+      "freshness_class": "RECENT_2_7D",
+      "identity_check": "SNOWFLAKE_LOCAL_MINUTE_MATCH"
+    },
+    {
+      "status_id": "2108495058173591750",
+      "status_url": "https://x.com/momo_peggy/status/2108495058173591750",
+      "published_at_utc": "2026-10-09T09:49:30.469Z",
+      "source_listed_local_minute": "2026-10-09 17:49",
+      "secondary_exposure_approx": 3945,
+      "comparison_role": "SECONDARY_LOW_LEAD",
+      "freshness_class": "RECENT_2_7D",
+      "identity_check": "SNOWFLAKE_LOCAL_MINUTE_MATCH"
+    },
+    {
+      "status_id": "2108762908935258185",
+      "status_url": "https://x.com/momo_peggy/status/2108762908935258185",
+      "published_at_utc": "2026-10-10T03:33:51.067Z",
+      "source_listed_local_minute": "2026-10-10 11:33",
+      "secondary_exposure_approx": 1114,
+      "comparison_role": "SECONDARY_LOW_LEAD",
+      "freshness_class": "RECENT_24_48H",
+      "identity_check": "SNOWFLAKE_LOCAL_MINUTE_MATCH"
+    }
+  ],
+  "older_exact_links_not_admitted": [
+    "https://x.com/momo_peggy/status/2106999937955483901",
+    "https://x.com/momo_peggy/status/2107463077096812814"
+  ],
+  "unresolved_priority": [
+    {
+      "author_handle": "BlockInsight214",
+      "reason": "Search-indexed newer 10/10 posts but clickable public page version is stale 10/06; do not fabricate status IDs.",
+      "source": "https://xbangdan.com/account/BlockInsight214/"
+    }
+  ],
+  "note": "Page update is not metric_as_of. X direct page 403. Do not infer causal hooks before media/quote inspection."
+}

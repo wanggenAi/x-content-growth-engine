@@ -1,57 +1,62 @@
 {
   "schema_version": "viral_feed_index_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/1244.json",
-  "latest_run_id": "2026-10-11T12:44Z-author-matched-comparison-01",
-  "latest_run_completed_at": "2026-10-11T12:44:26Z",
-  "total_run_count": 5,
-  "recent_admitted_post_count": 6,
-  "unique_status_id_count": 6,
-  "latest_successful_nonzero_run": "2026-10-11T12:44Z-author-matched-comparison-01",
+  "latest_run_path": "data/viral_feed/2026-10-11/1623.json",
+  "latest_run_id": "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
+  "latest_run_completed_at": "2026-10-11T16:23:00.145Z",
+  "total_run_count": 6,
+  "recent_admitted_post_count": 9,
+  "unique_status_id_count": 9,
+  "latest_successful_nonzero_run": "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
   "consecutive_zero_yield_or_blocked_runs": 0,
   "duplicate_count": 1,
   "near_duplicate_count": 0,
-  "matched_comparison_candidate_count": 1,
+  "matched_comparison_candidate_count": 3,
   "unresolved_current_lead_count": 4,
   "secondary_control_lead_file": "data/viral_feed/2026-10-11/1248_control_leads.json",
   "secondary_control_lead_account_count": 3,
   "secondary_control_post_lead_count": 6,
   "route_totals": {
     "AUTHOR_WATCH": {
-      "query_count": 12,
+      "query_count": 16,
       "candidate_count": 2,
       "admitted_count": 1,
-      "failure_count": 8
+      "failure_count": 12
     },
     "TOPIC_WATCH": {
-      "query_count": 20,
+      "query_count": 23,
       "candidate_count": 2,
       "admitted_count": 0,
-      "failure_count": 18
+      "failure_count": 21
     },
     "EVENT_TWO_HOP": {
-      "query_count": 27,
-      "candidate_count": 7,
+      "query_count": 29,
+      "candidate_count": 8,
       "admitted_count": 2,
-      "failure_count": 15
+      "failure_count": 17
     },
     "PUBLIC_X_AGGREGATOR": {
-      "query_count": 8,
-      "candidate_count": 6,
-      "admitted_count": 4,
+      "query_count": 17,
+      "candidate_count": 11,
+      "admitted_count": 7,
       "failure_count": 2
     }
   },
   "route_admitted_per_query": {
-    "AUTHOR_WATCH": 0.08333333333333333,
+    "AUTHOR_WATCH": 0.0625,
     "TOPIC_WATCH": 0,
-    "EVENT_TWO_HOP": 0.07407407407407407,
-    "PUBLIC_X_AGGREGATOR": 0.5
+    "EVENT_TWO_HOP": 0.06896551724137931,
+    "PUBLIC_X_AGGREGATOR": 0.4117647058823529
   },
-  "health": "DISCOVERY_OPERATIONAL_MATCHED_COMPARISON_AND_EXPLICIT_SECONDARY_CONTROLS",
+  "health": "DISCOVERY_OPERATIONAL_CHINESE_MATCHED_SECONDARY_EXPOSURE_RESOLVED",
   "high_view_verified_count": 0,
   "interaction_observed_count": 4,
-  "original_permalink_corroborated_count": 6,
+  "original_permalink_corroborated_count": 9,
   "public_embed_metric_count": 3,
   "health_notification_sent": false,
-  "note": "Free discovery remains operational. Six real recent status IDs are canonical, including one same-author matched-comparison candidate. Current Chinese unresolved leads are preserved separately. Public X榜单 pages now add labeled exposure/like/comment secondary leads for high-vs-low sampling, but none are promoted to the canonical cohort until the original X status identity is resolved. Paid/VIP features are excluded."
+  "note": "3 Chinese same-author original X status links resolved; secondary exposure 132K/3945/1114, official X views still unverified, metric_as_of unknown, quote/media context unverified. BlockInsight214 10/10 leads unresolved.",
+  "secondary_control_post_lead_resolved_count": 3,
+  "secondary_control_post_lead_unresolved_count": 3,
+  "secondary_matched_exposure_pair_count": 2,
+  "secondary_exposure_observed_canonical_count": 3,
+  "latest_resolution_audit_path": "data/viral_feed/2026-10-11/1623_resolution_audit.json"
 }
