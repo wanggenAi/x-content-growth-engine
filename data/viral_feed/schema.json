@@ -10,9 +10,17 @@
     "candidate_count",
     "admitted_count",
     "failure_count",
+    "route_stats",
     "queries",
     "failures",
     "posts"
+  ],
+  "route_stats_fields": [
+    "route",
+    "query_count",
+    "candidate_count",
+    "admitted_count",
+    "failure_count"
   ],
   "post_fields": [
     "url",
@@ -52,5 +60,5 @@
   ],
   "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero.",
   "dedup_key": "status_id",
-  "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts."
+  "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts. route_stats measures discovery-channel yield and does not imply content quality."
 }
