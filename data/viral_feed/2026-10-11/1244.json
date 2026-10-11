@@ -1,0 +1,80 @@
+{
+  "schema_version": "viral_feed_v1",
+  "run_id": "2026-10-11T12:44Z-author-matched-comparison-01",
+  "started_at": "2026-10-11T12:44:26Z",
+  "completed_at": "2026-10-11T12:44:26Z",
+  "discovery_window_hours": 48,
+  "query_count": 4,
+  "candidate_count": 2,
+  "admitted_count": 1,
+  "failure_count": 0,
+  "route_stats": [
+    {
+      "route": "AUTHOR_WATCH",
+      "query_count": 4,
+      "candidate_count": 2,
+      "admitted_count": 1,
+      "failure_count": 0
+    }
+  ],
+  "queries": [
+    "ClaudeDevs same-author recent public mirror comparison",
+    "exact status 2108591328732856655 corroboration",
+    "exact status 2108621476538781878 comparison anchor corroboration",
+    "current secondary-source cross-check for Managed Agents dynamic workflows"
+  ],
+  "failures": [],
+  "posts": [
+    {
+      "url": "https://x.com/ClaudeDevs/status/2108591328732856655",
+      "status_id": "2108591328732856655",
+      "author_handle": "ClaudeDevs",
+      "published_at": "2026-10-09T16:12:03.159Z",
+      "published_at_source": "X_SNOWFLAKE_STATUS_ID",
+      "observed_at": "2026-10-11T12:44:26Z",
+      "topic": "Claude Managed Agents dynamic workflows public beta",
+      "language": "en",
+      "excerpt": "ClaudeDevs announced dynamic workflows for Managed Agents in public beta: a lead agent writes a plan, runs work across many agents in phases, and combines the results.",
+      "views": null,
+      "likes": null,
+      "reposts": null,
+      "replies": null,
+      "metric_source": "PUBLIC_MIRROR_UNLABELED_SEQUENCE",
+      "metric_as_of": null,
+      "metric_precision": "UNKNOWN",
+      "metric_observations": [
+        {
+          "source": "https://twiscan.com/en/x/claudedevs",
+          "raw_metric_sequence": ["0", "0", "392", "11.7K", "669"],
+          "labels_verified": false,
+          "source_crawled_on": "2026-10-11",
+          "note": "Raw mirror sequence is preserved exactly as discovery evidence; positions are not mapped to replies/reposts/likes/views/bookmarks."
+        }
+      ],
+      "source_freshness_state": "CURRENT_VERIFIED",
+      "source_snapshot_at": null,
+      "source_cache_risk": "MEDIUM",
+      "sampling_intent": "MATCHED_COMPARISON_CANDIDATE",
+      "post_type": "ORIGINAL",
+      "promotion_status": null,
+      "discovery_query": "ClaudeDevs same-author ±24h comparison around status 2108621476538781878",
+      "discovery_route": "AUTHOR_WATCH",
+      "source_url": "https://www.x-techcon.com/article/195605.html",
+      "corroborating_urls": [
+        "https://twiscan.com/en/x/claudedevs",
+        "https://www.claudecodedaily.com/",
+        "https://clauderadar.com/en/"
+      ],
+      "evidence_level": "ORIGINAL_PERMALINK_CORROBORATED",
+      "original_access_status": "DIRECT_X_NOT_RENDERED",
+      "evidence_note": "Exact original permalink and post text are corroborated by current public sources. The paired ClaudeDevs Projects status 2108621476538781878 was posted about two hours later on the same day, making this a useful same-author/similar-age comparison candidate. Mirror numbers remain unlabeled, so this record is not classified as high- or low-distribution.",
+      "freshness_class": "RECENT_24_48H",
+      "near_duplicate_group": null
+    }
+  ],
+  "comparison_anchor_status_ids": [
+    "2108621476538781878"
+  ],
+  "unadmitted_leads_path": "data/viral_feed/2026-10-11/1244_leads.json",
+  "run_note": "First intentional same-author matched-comparison sample. The new status is admitted because identity/time/text are corroborated, but it is not labeled a low-distribution control because mirror metric positions are not independently labeled. One already-admitted ClaudeDevs status was used only as the comparison anchor and was not duplicated."
+}
