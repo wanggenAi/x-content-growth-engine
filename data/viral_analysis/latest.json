@@ -1,8 +1,10 @@
 {
   "schema_version": "viral_analysis_v1",
   "latest_analysis_path": "data/viral_analysis/2026-10-11.json",
-  "analysis_as_of": "2026-10-11T04:31:44Z",
+  "analysis_as_of": "2026-10-11T04:36:30Z",
   "evidence_grade": "INSUFFICIENT_FRESH_SAMPLE",
   "candidate_pattern_count": 0,
-  "note": "Fresh-feed bootstrap produced no admissible X post samples; historical patterns remain prior hypotheses only."
+  "discovery_health": "DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD",
+  "consecutive_zero_yield_or_blocked_runs": 2,
+  "note": "Two fresh-feed runs produced no admissible X status samples. Current output is discovery-health diagnosis only; historical patterns remain prior hypotheses."
 }
