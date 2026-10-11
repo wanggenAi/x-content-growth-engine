@@ -43,6 +43,7 @@
     "source_freshness_state",
     "source_snapshot_at",
     "source_cache_risk",
+    "sampling_intent",
     "post_type",
     "promotion_status",
     "discovery_query",
@@ -83,6 +84,11 @@
     "STALE_CONFIRMED",
     "UNKNOWN"
   ],
+  "sampling_intent_values": [
+    "NATURAL_DISCOVERY",
+    "MATCHED_COMPARISON_CANDIDATE",
+    "CONTROL_SEARCH"
+  ],
   "metric_precision_values": [
     "EXACT_LABELED",
     "APPROXIMATE",
@@ -90,6 +96,7 @@
   ],
   "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero. Conflicting untimed cumulative metrics must not be collapsed into a fabricated canonical value.",
   "source_time_policy": "published_at describes the X post. source_snapshot_at describes the corroborating page snapshot when known. metric_as_of describes the metric observation when known. A crawler cache timestamp must not be silently substituted for either metric_as_of or published_at.",
+  "sampling_policy": "A matched-comparison candidate is not a low-distribution control by default. It becomes a control only when comparable distribution evidence supports that label. Unresolved author/topic leads remain sidecar discovery leads rather than admitted canonical posts.",
   "dedup_key": "status_id when available; otherwise unresolved mirror leads remain outside the admitted canonical set",
   "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts. PUBLIC_X_AGGREGATOR and mirror evidence remain explicitly provenance-scoped and are not equivalent to direct original X rendering."
 }
