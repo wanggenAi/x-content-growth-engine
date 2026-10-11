@@ -1,6 +1,6 @@
 {
   "schema_version": "public_x_discovery_sources_v2",
-  "updated_at": "2026-10-11T12:30:00Z",
+  "updated_at": "2026-10-11T12:49:00Z",
   "purpose": "Free public discovery and corroboration sources used when direct X rendering is unavailable. These sources never silently become equivalent to the original X UI.",
   "sources": [
     {
@@ -11,6 +11,16 @@
       "limits": ["no reliable X view count", "page crawl time may differ from metric snapshot time", "third-party cache can lag"],
       "cache_risk": "HIGH",
       "evidence_level": "PUBLIC_EMBED_METRICS"
+    },
+    {
+      "name": "X榜单",
+      "domain": "xbangdan.com",
+      "role": "PUBLIC_X_AGGREGATOR",
+      "cost_policy": "PUBLIC_PAGE_ONLY_NO_PAID_FEATURES",
+      "can_provide": ["author_handle", "author_follower_count", "account_7d_average_exposure", "post_local_minute", "post_exposure", "post_likes", "post_comments", "interaction_rate", "page_update_time", "outbound_original_link_indicator"],
+      "limits": ["third-party analytics source", "the current public web reader may not expose the outbound original X permalink target", "a post remains DISCOVERY_LEAD_ONLY until its original X status URL/status_id is resolved", "account health/staleness must be checked before using a post as a control", "paid/VIP features are outside the pipeline and must not be used"],
+      "cache_risk": "MEDIUM",
+      "evidence_level": "SECONDARY_METRIC_OBSERVATION"
     },
     {
       "name": "AI Twitter Highlights",
@@ -100,8 +110,9 @@
     "Direct X 403 does not invalidate a permalink corroborated by multiple public sources.",
     "Snowflake-derived published_at is allowed only from a real numeric X status_id and must be marked X_SNOWFLAKE_STATUS_ID.",
     "Third-party engagement values must preserve source, snapshot uncertainty and source_freshness_state.",
+    "Explicit secondary exposure/like/comment values may guide control discovery, but cannot enter the canonical recent cohort until the original X status identity is resolved.",
     "If two untimed mirrors show impossible decreasing cumulative metrics, canonical metric fields become null and all observations are retained as conflicting evidence.",
     "Mirror-only posts without a resolved original status URL can be retained as discovery leads but cannot be promoted to ORIGINAL_PERMALINK_CORROBORATED.",
-    "Never use a paid source to fill a gap in this free-only pipeline."
+    "Never use a paid source or paid feature to fill a gap in this free-only pipeline."
   ]
 }
