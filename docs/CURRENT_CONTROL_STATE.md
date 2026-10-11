@@ -18,6 +18,16 @@ Optimize long-term natural reach, meaningful interaction and follower growth for
 
 Publication count, queue length and the historical 1000-post target are inventory/audit fields only. They are not success metrics and must not force weak publication.
 
+## Cost policy
+
+Current data/research operation is `FREE_ONLY`.
+
+- Do not depend on Metricool for viral discovery or analytics.
+- Do not depend on X's paid API.
+- Do not depend on paid social-listening, scraping, analytics or data-reseller services.
+- If a source requires payment, subscription, credit purchase or recharge, skip it and continue with free public routes.
+- Current production discovery uses public aggregators/mirrors, public search, real X status permalinks, Snowflake timestamp derivation from numeric status IDs, and multi-source corroboration where original X rendering is unavailable.
+
 ## Publication control
 
 Current state: `PUBLICATION_ACTIVE_WITH_QUALITY_GATES`.
@@ -48,6 +58,15 @@ Priority is recent material, normally within 48 hours. Older items may enter onl
 
 The collector only discovers, normalizes, deduplicates and freshness-labels evidence. It does not generate posts, publish posts or promote a viral formula.
 
+The current free discovery routes include:
+
+- `PUBLIC_X_AGGREGATOR` — free public pages/mirrors that expose current X status IDs/permalinks, excerpts or labeled engagement;
+- `AUTHOR_WATCH` — free public search against a rotating author pool;
+- `TOPIC_WATCH` — free public topic/date searches;
+- `EVENT_TWO_HOP` — current public event discovery followed by free lookup of real X status permalinks.
+
+Registered public corroboration sources and their limitations are maintained in `data/public_x_discovery_sources.json`.
+
 ### 2. Viral structure analysis
 
 A separate daily task consumes the feed and writes:
@@ -67,6 +86,8 @@ Patterns remain `HYPOTHESIS` unless supported across batches with meaningful con
 - Prefer recent material; keep old material only when it has durable rediscovery value and is explicitly labeled.
 - Preserve post URL/status id, author, post time, observation time, discovery route, visible metrics and metric provenance when available.
 - Unknown values stay `null`/`UNKNOWN`.
+- A real numeric X status ID may be used to derive `published_at` via the X/Twitter Snowflake epoch, but this must be labeled as derived rather than original-page observation.
+- Public aggregator/mirror evidence must keep its source and evidence level; it is never silently treated as direct original-X rendering.
 - Deduplicate by status id and mark near-duplicate text/events.
 - Never label stale search-index snapshots as current metrics.
 - Do not claim a stable viral formula from small, age-mismatched or selection-biased samples.
@@ -77,7 +98,7 @@ External viral observations teach candidate mechanisms; they do not prove the us
 
 ## Immediate operating order
 
-1. Keep fresh viral-feed ingestion running.
+1. Keep free fresh viral-feed ingestion running.
 2. Build daily high-vs-control structural analysis from that feed.
 3. Use the newest strong material plus current pattern hypotheses to select and write candidates.
 4. Publish only qualified, distinct candidates; never publish merely to satisfy volume.
