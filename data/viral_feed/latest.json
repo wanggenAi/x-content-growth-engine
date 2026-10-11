@@ -1,9 +1,14 @@
 {
   "schema_version": "viral_feed_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/0431.json",
-  "latest_run_id": "2026-10-11T04:31Z-manual-bootstrap",
-  "latest_run_completed_at": "2026-10-11T04:31:44Z",
+  "latest_run_path": "data/viral_feed/2026-10-11/0436.json",
+  "latest_run_id": "2026-10-11T04:36Z-multiroute-manual",
+  "latest_run_completed_at": "2026-10-11T04:36:30Z",
   "admitted_count": 0,
   "status": "ZERO_YIELD_VALID_RUN",
-  "note": "No stale samples were substituted. See the run packet for discovery failures."
+  "route_summary": {
+    "AUTHOR_WATCH": {"queries": 4, "admitted": 0},
+    "TOPIC_WATCH": {"queries": 4, "admitted": 0},
+    "EVENT_TWO_HOP": {"queries": 10, "admitted": 0}
+  },
+  "note": "Three-route public discovery was exercised. No stale samples or upstream event popularity were substituted for current X evidence."
 }
