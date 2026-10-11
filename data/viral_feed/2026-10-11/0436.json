@@ -1,0 +1,98 @@
+{
+  "schema_version": "viral_feed_v1",
+  "run_id": "2026-10-11T04:36Z-multiroute-manual",
+  "started_at": "2026-10-11T04:34:30Z",
+  "completed_at": "2026-10-11T04:36:30Z",
+  "discovery_window_hours": 48,
+  "query_count": 18,
+  "candidate_count": 0,
+  "admitted_count": 0,
+  "failure_count": 14,
+  "route_stats": [
+    {
+      "route": "AUTHOR_WATCH",
+      "query_count": 4,
+      "candidate_count": 0,
+      "admitted_count": 0,
+      "failure_count": 4
+    },
+    {
+      "route": "TOPIC_WATCH",
+      "query_count": 4,
+      "candidate_count": 0,
+      "admitted_count": 0,
+      "failure_count": 4
+    },
+    {
+      "route": "EVENT_TWO_HOP",
+      "query_count": 10,
+      "candidate_count": 0,
+      "admitted_count": 0,
+      "failure_count": 6,
+      "event_source_queries": 4,
+      "event_source_queries_with_useful_events": 4,
+      "x_second_hop_queries": 6
+    }
+  ],
+  "queries": [
+    "site:x.com/xieqianwan642/status xieqianwan642 October 11 2026",
+    "site:x.com/Btc8888XF/status Btc8888XF October 11 2026",
+    "site:x.com/qihang_zeng6688/status qihang_zeng6688 October 11 2026",
+    "site:x.com/rwayne/status rwayne October 11 2026",
+    "site:x.com/status AI Chinese October 11 2026 X",
+    "site:x.com/status 科技 10月11日 2026 X",
+    "site:x.com/status 工作 收入 10月11日 2026 X",
+    "site:x.com/status 反常识 猎奇 10月11日 2026 X",
+    "AI technology news October 11 2026 major announcement",
+    "GitHub release AI October 10 2026 trending",
+    "Hacker News October 11 2026 AI new release",
+    "Reddit AI October 11 2026 new release",
+    "site:x.com/status REA Reverse Engineer Anything",
+    "site:x.com/status Telegram Desktop vulnerability file stolen",
+    "site:x.com/status 123456 Danish CPR data breach",
+    "site:x.com/status Claude internet access fake homicide tip",
+    "site:x.com/status Surface Laptop Ultra RTX Spark",
+    "site:x.com/status Mistral Large 4"
+  ],
+  "event_seeds": [
+    {
+      "name": "REA Reverse – Engineer Anything",
+      "source_url": "https://news.ycombinator.com/front",
+      "source_note": "High-ranked Hacker News story from the Oct 10 front page; used only as a discovery seed."
+    },
+    {
+      "name": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "source_url": "https://news.ycombinator.com/front",
+      "source_note": "High-ranked Hacker News story; used only as a discovery seed."
+    },
+    {
+      "name": "AI safety / Claude internet-access incident coverage",
+      "source_url": "https://apnews.com/article/f590b51073d8977a984c7c42b8f2a7a2",
+      "source_note": "Recent public news item; used only to generate X search terms, not as X reach evidence."
+    },
+    {
+      "name": "Surface Laptop Ultra / RTX Spark local AI PC",
+      "source_url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/",
+      "source_note": "Recent public tech event used only as a discovery seed."
+    }
+  ],
+  "failures": [
+    {
+      "kind": "AUTHOR_WATCH_PUBLIC_INDEX_NO_STATUS_RESULT",
+      "count": 4,
+      "note": "Author-specific public searches did not return verifiable x.com/<handle>/status/<id> results."
+    },
+    {
+      "kind": "TOPIC_WATCH_PUBLIC_INDEX_NO_STATUS_RESULT",
+      "count": 4,
+      "note": "Topic searches returned X help/business pages rather than current status permalinks."
+    },
+    {
+      "kind": "EVENT_TWO_HOP_NO_X_STATUS_RESULT",
+      "count": 6,
+      "note": "Upstream public event discovery succeeded, but second-hop public searches did not yield verifiable X status permalinks."
+    }
+  ],
+  "posts": [],
+  "run_note": "Second valid zero-yield run. The three-route discovery strategy was exercised. No old X sample or upstream news popularity was substituted for fresh X evidence."
+}
