@@ -1,0 +1,36 @@
+{
+  "schema_version": "viral_analysis_v1",
+  "analysis_as_of": "2026-10-11T04:31:44Z",
+  "input_run_ids": [
+    "2026-10-11T04:31Z-manual-bootstrap"
+  ],
+  "sample_counts": {
+    "feed_runs": 1,
+    "recent_posts": 0,
+    "evergreen_rediscovery_posts": 0,
+    "high_distribution_posts": 0,
+    "ordinary_or_low_distribution_controls": 0
+  },
+  "cohort_definitions": {
+    "recent": "Publicly verifiable X observations from the current feed window; none admitted in this bootstrap run.",
+    "evergreen": "Older evidence with explicit durable rediscovery value; none admitted in this bootstrap run."
+  },
+  "structure_labels": [],
+  "candidate_patterns": [],
+  "counterexamples": [],
+  "confounders": [
+    "No fresh verifiable X status samples were available from the bootstrap public-search route.",
+    "Historical repository samples are intentionally not relabeled as current evidence."
+  ],
+  "recent_changes": [
+    "The repository now has a separated scheduled viral-feed ingestion and analysis contract.",
+    "The first run preserved a zero-yield discovery failure instead of recycling stale observations."
+  ],
+  "next_sampling_priorities": [
+    "Obtain fresh public X status URLs through permitted public discovery routes.",
+    "Prioritize same-author or similar-age ordinary controls alongside high-distribution samples.",
+    "Keep 0-24h, 24-48h, 2-7d and evergreen rediscovery cohorts separate."
+  ],
+  "evidence_grade": "INSUFFICIENT_FRESH_SAMPLE",
+  "note": "No viral mechanism is promoted from this zero-sample fresh batch. Historical research remains available only as prior hypotheses."
+}
