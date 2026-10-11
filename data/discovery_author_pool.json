@@ -1,0 +1,27 @@
+{
+  "schema_version": "discovery_author_pool_v1",
+  "created_at": "2026-10-11T04:35:00Z",
+  "purpose": "Discovery seeds only. Historical high-view observations are not current-performance claims and do not guarantee future reach.",
+  "source_file": "data/viral_samples_2026-10-01.json",
+  "authors": [
+    {"handle":"xieqianwan642","historical_topic":"AI / personal experience","historical_views":146551,"historical_post_id":"2102998967034519923"},
+    {"handle":"AI_DVD6","historical_topic":"AI tools / resource collection","historical_views":98932,"historical_post_id":"2104379795761205451"},
+    {"handle":"rwayne","historical_topic":"AI tools / actionable steps","historical_views":178552,"historical_post_id":"2103485829784154430"},
+    {"handle":"lengs4189","historical_topic":"work / personal transition","historical_views":26670,"historical_post_id":"2104772155024293930"},
+    {"handle":"Xiaoyzi_Web3","historical_topic":"creator income / work","historical_views":14892,"historical_post_id":"2104833746012946864"},
+    {"handle":"yihui_indie","historical_topic":"automation / productivity","historical_views":17982,"historical_post_id":"2104046434941276402"},
+    {"handle":"chasen_liao","historical_topic":"education / job difficulty","historical_views":76363,"historical_post_id":"2104762593596588315"},
+    {"handle":"qihang_zeng6688","historical_topic":"job resources / opportunity","historical_views":280489,"historical_post_id":"2104945040208560623"},
+    {"handle":"lambda_focus","historical_topic":"developer job search","historical_views":45109,"historical_post_id":"2105192825369583925"},
+    {"handle":"Btc8888XF","historical_topic":"life / cross-platform contrast","historical_views":1129266,"historical_post_id":"2104186543313219836"},
+    {"handle":"wangchangfu88","historical_topic":"life / unemployment conversation","historical_views":69090,"historical_post_id":"2104564283938046325"},
+    {"handle":"xiaoshunli","historical_topic":"life / income comparison","historical_views":79384,"historical_post_id":"2104793492996456735"}
+  ],
+  "usage_rules": [
+    "Use handles as public discovery leads only.",
+    "Search for new status URLs and verify publication/observation times before admission.",
+    "Do not carry historical metrics forward to a newer post.",
+    "Do not assume these authors remain high-performing.",
+    "Pair author-watch discovery with topic/event discovery so the sample does not collapse into a fixed creator panel."
+  ]
+}
