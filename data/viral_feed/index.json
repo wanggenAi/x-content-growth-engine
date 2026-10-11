@@ -1,0 +1,15 @@
+{
+  "schema_version": "viral_feed_index_v1",
+  "latest_run_path": "data/viral_feed/2026-10-11/0431.json",
+  "latest_run_id": "2026-10-11T04:31Z-manual-bootstrap",
+  "latest_run_completed_at": "2026-10-11T04:31:44Z",
+  "total_run_count": 1,
+  "recent_admitted_post_count": 0,
+  "unique_status_id_count": 0,
+  "latest_successful_nonzero_run": null,
+  "consecutive_zero_yield_or_blocked_runs": 1,
+  "duplicate_count": 0,
+  "near_duplicate_count": 0,
+  "health": "DISCOVERY_DEGRADED_NO_USABLE_PUBLIC_X_RESULTS",
+  "note": "Bootstrap public-search run produced no verifiable current X status candidates; failure is preserved instead of recycling stale samples."
+}
