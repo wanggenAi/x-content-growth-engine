@@ -1,50 +1,127 @@
 {
   "schema_version": "viral_analysis_v1",
-  "analysis_as_of": "2026-10-11T04:36:30Z",
+  "analysis_as_of": "2026-10-11T12:32:00Z",
   "input_run_ids": [
     "2026-10-11T04:31Z-manual-bootstrap",
-    "2026-10-11T04:36Z-multiroute-manual"
+    "2026-10-11T04:36Z-multiroute-manual",
+    "2026-10-11T08:29Z-public-rotation-01",
+    "2026-10-11T12:16Z-public-aggregator-recovery-01"
   ],
   "sample_counts": {
-    "feed_runs": 2,
-    "recent_posts": 0,
-    "evergreen_rediscovery_posts": 0,
-    "high_distribution_posts": 0,
-    "ordinary_or_low_distribution_controls": 0
+    "feed_runs": 4,
+    "recent_unique_posts": 5,
+    "recent_0_24h_posts": 1,
+    "recent_24_48h_posts": 4,
+    "interaction_observed_posts": 4,
+    "high_view_verified_posts": 0,
+    "ordinary_or_low_distribution_controls": 0,
+    "duplicate_statuses_removed": 1
   },
   "discovery_health": {
-    "status": "DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD",
-    "consecutive_zero_yield_or_blocked_runs": 2,
-    "route_totals": {
-      "AUTHOR_WATCH": {"query_count": 4, "admitted_count": 0},
-      "TOPIC_WATCH": {"query_count": 11, "admitted_count": 0},
-      "EVENT_TWO_HOP": {"query_count": 10, "admitted_count": 0}
+    "status": "DISCOVERY_OPERATIONAL_PUBLIC_CORROBORATION_DIRECT_X_RENDER_BLOCKED",
+    "latest_successful_nonzero_run": "2026-10-11T12:16Z-public-aggregator-recovery-01",
+    "consecutive_zero_yield_or_blocked_runs": 0,
+    "route_admitted_per_query": {
+      "AUTHOR_WATCH": 0,
+      "TOPIC_WATCH": 0,
+      "EVENT_TWO_HOP": 0.07407407407407407,
+      "PUBLIC_X_AGGREGATOR": 0.5
     },
-    "diagnosis": "Generic topic search, targeted historical-author search and event-to-X second-hop search all failed to return verifiable current X status permalinks through the available public index route. Upstream event discovery itself worked."
+    "diagnosis": "The free public discovery chain is now non-zero. PUBLIC_X_AGGREGATOR is currently the highest-yield route, while direct X rendering remains unavailable. Source-cache freshness is now treated as a separate evidence dimension so crawler cache dates are not mistaken for post or metric timestamps."
   },
   "cohort_definitions": {
-    "recent": "Publicly verifiable X observations from the current feed window; none admitted across the first two runs.",
-    "evergreen": "Older evidence with explicit durable rediscovery value; none admitted in these fresh-feed runs."
+    "recent": "Unique real X status permalinks with published_at sufficient for a 0-48h freshness classification.",
+    "interaction_observed": "Recent posts with at least one labeled public interaction observation or aggregate interaction observation. This cohort is not equivalent to high-view.",
+    "high_distribution": "Posts with verifiable distribution evidence such as views >=10000 under the feed contract. None are fully verified in the current unique sample.",
+    "control": "Ordinary or low-distribution posts matched as closely as possible on author scale, topic and post age. None are available yet."
   },
-  "structure_labels": [],
-  "candidate_patterns": [],
-  "counterexamples": [],
+  "structure_labels": [
+    {
+      "label": "IMMEDIATE_PRODUCT_OR_ACCESS_CHANGE",
+      "observed_on_status_ids": [
+        "2108636745915052037",
+        "2108550067724407281",
+        "2108621476538781878"
+      ],
+      "description": "The post gives readers a concrete new capability, access change or immediately usable product update."
+    },
+    {
+      "label": "SPECIFIC_HIGH_STAKES_SAFETY_CLAIM",
+      "observed_on_status_ids": [
+        "2108680150556737819",
+        "2108931348857827686"
+      ],
+      "description": "The post centers a concrete model-behavior or control/safety claim with potentially high consequences."
+    },
+    {
+      "label": "CONCRETE_NOUNS_AND_ACTIONS",
+      "observed_on_status_ids": [
+        "2108680150556737819",
+        "2108636745915052037",
+        "2108550067724407281",
+        "2108621476538781878",
+        "2108931348857827686"
+      ],
+      "description": "All five excerpts are anchored in a named product, actor, capability or policy action rather than a generic opinion."
+    }
+  ],
+  "candidate_patterns": [
+    {
+      "pattern_id": "P_FRESH_001",
+      "name": "Concrete utility or access change may create a strong reader payoff",
+      "evidence_state": "OBSERVATION",
+      "supporting_status_ids": [
+        "2108636745915052037",
+        "2108550067724407281",
+        "2108621476538781878"
+      ],
+      "support": "Three of the five fresh unique posts frame a specific capability/access change. They are easy to understand and give the reader an immediate answer to 'what changed for me?'.",
+      "limitations": "All are official or very large AI accounts, there is no matched low-distribution control, and one record has conflicting untimed metrics. This does not establish causality or portability to a Chinese personal account."
+    },
+    {
+      "pattern_id": "P_FRESH_002",
+      "name": "Specific high-stakes claims can create information value without a lifestyle/self-mirroring hook",
+      "evidence_state": "OBSERVATION",
+      "supporting_status_ids": [
+        "2108680150556737819",
+        "2108931348857827686"
+      ],
+      "support": "Two fresh posts lead with concrete AI safety/control claims. This is useful negative evidence against treating self-mirroring as a necessary condition for attention.",
+      "limitations": "Only Anthropic has labeled interaction observations in the current sample; Satya Nadella's record has no verified reach metric. Author authority is a major confounder."
+    }
+  ],
+  "counterexamples": [
+    {
+      "status_id": "2108550067724407281",
+      "point": "An official Google AI announcement has labeled engagement but materially lower observed likes/reposts than the Anthropic behavior-report post. Being an official AI account and announcing something new is therefore not sufficient by itself to explain stronger interaction."
+    },
+    {
+      "status_id": "2108636745915052037",
+      "point": "Conflicting untimed third-party engagement observations show why apparent numeric precision from mirrors can be misleading. The canonical likes/reposts remain null rather than selecting the more convenient snapshot."
+    }
+  ],
   "confounders": [
-    "No fresh verifiable X status samples are available yet, so current structural comparisons cannot be performed.",
-    "Historical repository samples are intentionally not relabeled as current evidence.",
-    "Search-engine result ranking cannot be used as a proxy for X distribution."
+    "All five fresh unique posts are from globally prominent technology executives or official AI/product accounts; author scale is not controlled.",
+    "No matched ordinary/low-distribution control cohort exists yet.",
+    "Direct X rendering is blocked in the current environment, so most metrics come from provenance-scoped public aggregators or corroborating sources.",
+    "Four of five posts lack verified view counts; interaction observations cannot be equated with total distribution.",
+    "Third-party caches can lag and may not expose metric snapshot times. Source freshness is now explicitly gated but older records predate the new source_freshness fields.",
+    "The current sample is heavily concentrated in AI/technology, so topic effects cannot be separated from structural effects."
   ],
   "recent_changes": [
-    "The collector now has a durable feed contract, schemas, query rotation plan and route-level yield tracking.",
-    "The first run tested topic/public X search routes and preserved zero yield.",
-    "The second run explicitly tested AUTHOR_WATCH, TOPIC_WATCH and EVENT_TWO_HOP; upstream event discovery succeeded but no verifiable X status permalink was returned."
+    "The feed moved from two zero-yield runs to two non-zero runs with five unique recent X status IDs.",
+    "PUBLIC_X_AGGREGATOR is currently the highest-yield free discovery route at 4 admissions from 8 bounded queries in the accumulated index.",
+    "Source freshness policy was hardened so crawler cache time, source snapshot time, post time and metric time are not silently conflated.",
+    "The first fresh structural observations are now recorded, but none are promoted beyond OBSERVATION because controls and verified distribution are missing."
   ],
   "next_sampling_priorities": [
-    "Allow the scheduled collector to rotate to different authors and topic buckets instead of repeating this manual probe.",
-    "Continue EVENT_TWO_HOP using distinctive current event names, but never treat upstream event popularity as X reach evidence.",
-    "If the third consecutive run still has zero usable X status samples, mark discovery as blocked and require a visible-browser or other authorized X source rather than weakening evidence rules.",
-    "Once fresh samples exist, deliberately collect ordinary/low-distribution controls and prefer similar-author/similar-age comparisons."
+    "Collect at least 10-20 more fresh real status IDs before attempting any replicated structural claim.",
+    "Deliberately collect ordinary/low-distribution controls from the same or similar authors within similar post-age windows.",
+    "Expand beyond AI/official-company accounts into Chinese tech creators, ordinary-person experience, work/money, social observation, reversal/oddity and history/culture buckets.",
+    "Prefer sources that expose an exact status permalink plus explicitly labeled metrics and a trustworthy source snapshot time; downgrade generic aggregator pages with stale-cache risk.",
+    "Seek verifiable view counts, but do not weaken evidence rules or buy a paid data source to obtain them.",
+    "When enough controls exist, test whether immediate reader payoff, specificity, information gap, self-relevance and opinion space predict distribution after controlling author scale and age."
   ],
-  "evidence_grade": "INSUFFICIENT_FRESH_SAMPLE",
-  "note": "This is discovery-health analysis, not content-pattern analysis. No viral mechanism is promoted until fresh X observations exist."
+  "evidence_grade": "FRESH_SAMPLE_UNCONTROLLED",
+  "note": "The discovery problem is no longer zero-yield. This is the first evidence-backed fresh-sample analysis, but it is intentionally conservative: five unique posts with no matched controls cannot support a viral formula."
 }
