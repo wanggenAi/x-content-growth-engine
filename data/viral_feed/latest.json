@@ -1,14 +1,1 @@
-{
-  "schema_version": "viral_feed_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/0436.json",
-  "latest_run_id": "2026-10-11T04:36Z-multiroute-manual",
-  "latest_run_completed_at": "2026-10-11T04:36:30Z",
-  "admitted_count": 0,
-  "status": "ZERO_YIELD_VALID_RUN",
-  "route_summary": {
-    "AUTHOR_WATCH": {"queries": 4, "admitted": 0},
-    "TOPIC_WATCH": {"queries": 4, "admitted": 0},
-    "EVENT_TWO_HOP": {"queries": 10, "admitted": 0}
-  },
-  "note": "Three-route public discovery was exercised. No stale samples or upstream event popularity were substituted for current X evidence."
-}
+{"schema_version":"viral_feed_v1","latest_run_path":"data/viral_feed/2026-10-11/0829.json","latest_run_id":"2026-10-11T08:29Z-public-rotation-01","latest_run_completed_at":"2026-10-11T08:29:00Z","admitted_count":2,"status":"PARTIAL_EVIDENCE_NONZERO","recent_0_48h_count":2,"high_view_verified_count":0,"interaction_observed_count":1,"route_summary":{"AUTHOR_WATCH":{"queries":4,"admitted":0},"TOPIC_WATCH":{"queries":9,"admitted":0},"EVENT_TWO_HOP":{"queries":17,"admitted":2}},"note":"Two third-party X status leads. No verified views; direct X 403."}
