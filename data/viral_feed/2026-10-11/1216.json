@@ -1,0 +1,218 @@
+{
+  "schema_version": "viral_feed_v1",
+  "run_id": "2026-10-11T12:16Z-public-aggregator-recovery-01",
+  "started_at": "2026-10-11T12:14:55Z",
+  "completed_at": "2026-10-11T12:16:00Z",
+  "discovery_window_hours": 48,
+  "query_count": 8,
+  "candidate_count": 6,
+  "admitted_count": 4,
+  "failure_count": 2,
+  "route_stats": [
+    {
+      "route": "PUBLIC_X_AGGREGATOR",
+      "query_count": 8,
+      "candidate_count": 6,
+      "admitted_count": 4,
+      "failure_count": 2
+    }
+  ],
+  "queries": [
+    "AI FrontPage current X feed and exact status-id lookups",
+    "exact status-id corroboration for Anthropic, ChatGPT and GoogleAI",
+    "ClaudeDevs current post corroboration and permalink lookup",
+    "secondary-source metric conflict check"
+  ],
+  "failures": [
+    {
+      "kind": "DIRECT_X_CACHE_MISS_OR_403",
+      "count": 2,
+      "note": "Direct original X rendering remained unavailable; identity was corroborated through public sources."
+    }
+  ],
+  "posts": [
+    {
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "status_id": "2108680150556737819",
+      "author_handle": "AnthropicAI",
+      "published_at": "2026-10-09T22:04:59.932Z",
+      "published_at_source": "X_SNOWFLAKE_STATUS_ID",
+      "observed_at": "2026-10-11T12:16:00Z",
+      "topic": "AI model behavior and safety reporting",
+      "language": "en",
+      "excerpt": "Anthropic says it will publish more frequent model-behavior reports and describes four unintended behaviors observed during evaluations and internal use.",
+      "views": null,
+      "likes": 2943,
+      "reposts": 268,
+      "replies": null,
+      "metric_source": "https://aifront-page.com/",
+      "metric_as_of": null,
+      "metric_precision": "EXACT_LABELED",
+      "metric_observations": [
+        {
+          "source": "https://aifront-page.com/",
+          "likes": 2943,
+          "reposts": 268,
+          "views": null,
+          "snapshot_time": null,
+          "source_crawled_on": "2026-10-11"
+        }
+      ],
+      "post_type": "ORIGINAL",
+      "promotion_status": null,
+      "discovery_query": "2108680150556737819 / Anthropic model behavior report",
+      "discovery_route": "PUBLIC_X_AGGREGATOR",
+      "source_url": "https://aifront-page.com/",
+      "corroborating_urls": [
+        "https://www.x-techcon.com/article/195539.html"
+      ],
+      "evidence_level": "PUBLIC_EMBED_METRICS",
+      "original_access_status": "DIRECT_X_CACHE_MISS",
+      "evidence_note": "Exact status ID, author and excerpt corroborated. AI FrontPage exposes labeled likes/reposts; original X page did not render in the available public reader.",
+      "freshness_class": "RECENT_24_48H",
+      "near_duplicate_group": null
+    },
+    {
+      "url": "https://x.com/ChatGPT/status/2108636745915052037",
+      "status_id": "2108636745915052037",
+      "author_handle": "ChatGPT",
+      "published_at": "2026-10-09T19:12:31.459Z",
+      "published_at_source": "X_SNOWFLAKE_STATUS_ID",
+      "observed_at": "2026-10-11T12:16:00Z",
+      "topic": "ChatGPT dots mobile creation",
+      "language": "en",
+      "excerpt": "ChatGPT announced that users can create a dot directly from the iOS and Android mobile apps.",
+      "views": null,
+      "likes": null,
+      "reposts": null,
+      "replies": null,
+      "metric_source": "MULTI_SOURCE_CONFLICT_RETAINED",
+      "metric_as_of": null,
+      "metric_precision": "UNKNOWN",
+      "metric_observations": [
+        {
+          "source": "data/viral_feed/2026-10-11/0829.json",
+          "likes": 3424,
+          "reposts": 214,
+          "views": null,
+          "snapshot_time": null
+        },
+        {
+          "source": "https://aifront-page.com/",
+          "likes": 2993,
+          "reposts": 196,
+          "views": null,
+          "snapshot_time": null,
+          "source_crawled_on": "2026-10-11"
+        },
+        {
+          "source": "https://agipulse.org/e/774?lang=en",
+          "views_approx": 17000,
+          "observation_age_minutes_approx": 10,
+          "precision": "APPROXIMATE"
+        }
+      ],
+      "post_type": "ORIGINAL",
+      "promotion_status": null,
+      "discovery_query": "2108636745915052037 / ChatGPT dots mobile",
+      "discovery_route": "PUBLIC_X_AGGREGATOR",
+      "source_url": "https://aifront-page.com/",
+      "corroborating_urls": [
+        "https://agipulse.org/e/774?lang=en",
+        "https://tsnmedia.org/openai-codex-composer-predictions-beta-pro-dots-mobile-delegate-to-codex/"
+      ],
+      "evidence_level": "PUBLIC_EMBED_METRICS",
+      "original_access_status": "DIRECT_X_CACHE_MISS",
+      "evidence_note": "Real permalink and post identity are strongly corroborated. Untimed third-party cumulative likes/reposts conflict monotonically, so canonical metric fields are intentionally null; all observations are retained instead of choosing a convenient value.",
+      "freshness_class": "RECENT_24_48H",
+      "near_duplicate_group": null
+    },
+    {
+      "url": "https://x.com/GoogleAI/status/2108550067724407281",
+      "status_id": "2108550067724407281",
+      "author_handle": "GoogleAI",
+      "published_at": "2026-10-09T13:28:05.768Z",
+      "published_at_source": "X_SNOWFLAKE_STATUS_ID",
+      "observed_at": "2026-10-11T12:16:00Z",
+      "topic": "Google AI weekly announcements and SynthID",
+      "language": "en",
+      "excerpt": "Google AI summarized the week's announcements, including global English availability of the SynthID detector portal.",
+      "views": null,
+      "likes": 632,
+      "reposts": 56,
+      "replies": null,
+      "metric_source": "https://aifront-page.com/",
+      "metric_as_of": null,
+      "metric_precision": "EXACT_LABELED",
+      "metric_observations": [
+        {
+          "source": "https://aifront-page.com/",
+          "likes": 632,
+          "reposts": 56,
+          "views": null,
+          "snapshot_time": null,
+          "source_crawled_on": "2026-10-11"
+        }
+      ],
+      "post_type": "ORIGINAL",
+      "promotion_status": null,
+      "discovery_query": "2108550067724407281 / GoogleAI SynthID weekly announcements",
+      "discovery_route": "PUBLIC_X_AGGREGATOR",
+      "source_url": "https://aifront-page.com/",
+      "corroborating_urls": [
+        "https://news.daheiai.com/realtime.php?file=quick_2026-10-10_0405"
+      ],
+      "evidence_level": "PUBLIC_EMBED_METRICS",
+      "original_access_status": "DIRECT_X_CACHE_MISS",
+      "evidence_note": "Exact X status identity and labeled likes/reposts are available from a current public aggregator; the original X page did not render in the public reader.",
+      "freshness_class": "RECENT_24_48H",
+      "near_duplicate_group": null
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2108621476538781878",
+      "status_id": "2108621476538781878",
+      "author_handle": "ClaudeDevs",
+      "published_at": "2026-10-09T18:11:50.956Z",
+      "published_at_source": "X_SNOWFLAKE_STATUS_ID",
+      "observed_at": "2026-10-11T12:16:00Z",
+      "topic": "Claude Code Projects waitlist expansion",
+      "language": "en",
+      "excerpt": "ClaudeDevs said all Pro and Max users already on the Claude Code Projects waitlist had been admitted and linked a short walkthrough.",
+      "views": null,
+      "likes": null,
+      "reposts": null,
+      "replies": null,
+      "metric_source": "SECONDARY_AGGREGATE_INTERACTION_ONLY",
+      "metric_as_of": null,
+      "metric_precision": "UNKNOWN",
+      "metric_observations": [
+        {
+          "source": "https://aihub.com/?date=2026-10-10",
+          "visible_interactions": 5019,
+          "snapshot_time": null,
+          "precision": "AGGREGATE_ONLY"
+        },
+        {
+          "source": "public X mirrors discovered 2026-10-11",
+          "raw_metric_sequence_present": true,
+          "labels_verified": false,
+          "note": "Unlabeled mirror number positions are intentionally not mapped to replies/reposts/likes/views/bookmarks."
+        }
+      ],
+      "post_type": "ORIGINAL",
+      "promotion_status": null,
+      "discovery_query": "Claude Code Projects waitlist / ClaudeDevs status",
+      "discovery_route": "PUBLIC_X_AGGREGATOR",
+      "source_url": "https://labmemo.com/claude-code-projects-waitlist-full-open-pro-max-2026-10/",
+      "corroborating_urls": [
+        "https://fyve.co.jp/claude-code/articles/claude-code-projects-who-can-use"
+      ],
+      "evidence_level": "ORIGINAL_PERMALINK_CORROBORATED",
+      "original_access_status": "DIRECT_X_NOT_RENDERED",
+      "evidence_note": "Exact official X permalink is corroborated by multiple current public sources. AIHub reports 5,019 visible interactions, but canonical component metrics remain null because the original page and mirror labels were not independently verified.",
+      "freshness_class": "RECENT_24_48H",
+      "near_duplicate_group": null
+    }
+  ],
+  "run_note": "Recovery pass proves the free public discovery chain is non-zero: real X status permalinks, Snowflake-derived timestamps, current public excerpts and labeled engagement can be collected without cookies or hidden endpoints. Direct X rendering is still unavailable, so evidence levels remain explicit. query_count covers the bounded final validation pass, not earlier exploratory searches in the chat session."
+}
