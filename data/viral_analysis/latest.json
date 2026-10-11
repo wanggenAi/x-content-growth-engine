@@ -1,14 +1,17 @@
 {
   "schema_version": "viral_analysis_v1",
   "latest_analysis_path": "data/viral_analysis/2026-10-11.json",
-  "analysis_as_of": "2026-10-11T12:32:00Z",
-  "evidence_grade": "FRESH_SAMPLE_UNCONTROLLED",
+  "analysis_as_of": "2026-10-11T12:46:32Z",
+  "evidence_grade": "FRESH_SAMPLE_WITH_MATCHED_CANDIDATE_UNCONTROLLED",
   "candidate_pattern_count": 2,
-  "discovery_health": "DISCOVERY_OPERATIONAL_PUBLIC_CORROBORATION_DIRECT_X_RENDER_BLOCKED",
-  "recent_unique_posts": 5,
+  "discovery_health": "DISCOVERY_OPERATIONAL_MATCHED_COMPARISON_AND_DIVERSE_LEADS",
+  "recent_unique_posts": 6,
   "interaction_observed_posts": 4,
   "high_view_verified_posts": 0,
+  "matched_comparison_candidates": 1,
   "ordinary_or_low_distribution_controls": 0,
-  "latest_successful_nonzero_run": "2026-10-11T12:16Z-public-aggregator-recovery-01",
-  "note": "Fresh discovery is now non-zero. Two candidate mechanisms are recorded only as OBSERVATION because the five-post sample is dominated by large official AI accounts, has no matched low-distribution controls, and lacks verified views for most records."
+  "unresolved_current_chinese_leads": 4,
+  "secondary_control_lead_file": "data/viral_feed/2026-10-11/1248_control_leads.json",
+  "latest_successful_nonzero_run": "2026-10-11T12:44Z-author-matched-comparison-01",
+  "note": "Fresh discovery now includes six canonical status IDs plus the first same-author comparison candidate. A free public Chinese metric source also produced explicit high/low secondary control leads, but those remain outside the canonical control cohort until original X status IDs are resolved."
 }
