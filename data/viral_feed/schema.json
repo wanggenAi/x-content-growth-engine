@@ -27,6 +27,7 @@
     "status_id",
     "author_handle",
     "published_at",
+    "published_at_source",
     "observed_at",
     "topic",
     "language",
@@ -37,11 +38,16 @@
     "replies",
     "metric_source",
     "metric_as_of",
+    "metric_precision",
+    "metric_observations",
     "post_type",
     "promotion_status",
     "discovery_query",
     "discovery_route",
     "source_url",
+    "corroborating_urls",
+    "evidence_level",
+    "original_access_status",
     "evidence_note",
     "freshness_class",
     "near_duplicate_group"
@@ -49,7 +55,16 @@
   "discovery_route_values": [
     "AUTHOR_WATCH",
     "TOPIC_WATCH",
-    "EVENT_TWO_HOP"
+    "EVENT_TWO_HOP",
+    "PUBLIC_X_AGGREGATOR"
+  ],
+  "evidence_level_values": [
+    "ORIGINAL_X_RENDERED",
+    "ORIGINAL_PERMALINK_CORROBORATED",
+    "PUBLIC_EMBED_METRICS",
+    "SECONDARY_METRIC_OBSERVATION",
+    "PUBLIC_MIRROR_OBSERVED",
+    "DISCOVERY_LEAD_ONLY"
   ],
   "freshness_class_values": [
     "RECENT_0_24H",
@@ -58,7 +73,12 @@
     "EVERGREEN_REDISCOVERY",
     "STALE_REFERENCE_ONLY"
   ],
-  "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero.",
-  "dedup_key": "status_id",
-  "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts. route_stats measures discovery-channel yield and does not imply content quality."
+  "metric_precision_values": [
+    "EXACT_LABELED",
+    "APPROXIMATE",
+    "UNKNOWN"
+  ],
+  "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero. Conflicting untimed cumulative metrics must not be collapsed into a fabricated canonical value.",
+  "dedup_key": "status_id when available; otherwise unresolved mirror leads remain outside the admitted canonical set",
+  "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts. PUBLIC_X_AGGREGATOR and mirror evidence remain explicitly provenance-scoped and are not equivalent to direct original X rendering."
 }
