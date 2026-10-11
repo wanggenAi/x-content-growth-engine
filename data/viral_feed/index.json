@@ -12,6 +12,9 @@
   "near_duplicate_count": 0,
   "matched_comparison_candidate_count": 1,
   "unresolved_current_lead_count": 4,
+  "secondary_control_lead_file": "data/viral_feed/2026-10-11/1248_control_leads.json",
+  "secondary_control_lead_account_count": 3,
+  "secondary_control_post_lead_count": 6,
   "route_totals": {
     "AUTHOR_WATCH": {
       "query_count": 12,
@@ -44,11 +47,11 @@
     "EVENT_TWO_HOP": 0.07407407407407407,
     "PUBLIC_X_AGGREGATOR": 0.5
   },
-  "health": "DISCOVERY_OPERATIONAL_MATCHED_COMPARISON_AND_DIVERSE_LEADS",
+  "health": "DISCOVERY_OPERATIONAL_MATCHED_COMPARISON_AND_EXPLICIT_SECONDARY_CONTROLS",
   "high_view_verified_count": 0,
   "interaction_observed_count": 4,
   "original_permalink_corroborated_count": 6,
   "public_embed_metric_count": 3,
   "health_notification_sent": false,
-  "note": "Free discovery remains operational. AUTHOR_WATCH now has its first admitted recent sample, intentionally selected as a same-author/similar-age comparison candidate for an existing ClaudeDevs post. Four Chinese-language current public-mirror leads are preserved in a sidecar but remain outside the canonical set until their original X status IDs are resolved. No unlabeled mirror metric positions are inferred."
+  "note": "Free discovery remains operational. Six real recent status IDs are canonical, including one same-author matched-comparison candidate. Current Chinese unresolved leads are preserved separately. Public X榜单 pages now add labeled exposure/like/comment secondary leads for high-vs-low sampling, but none are promoted to the canonical cohort until the original X status identity is resolved. Paid/VIP features are excluded."
 }
