@@ -1,0 +1,52 @@
+{
+  "schema_version": "discovery_query_plan_v1",
+  "updated_at": "2026-10-11T04:36:00Z",
+  "objective": "Increase fresh public X status discovery yield without treating search rank as virality evidence.",
+  "author_watch": {
+    "source": "data/discovery_author_pool.json",
+    "authors_per_run": 4,
+    "rotation_rule": "Round-robin; avoid selecting exactly the same handles in consecutive runs when the pool permits.",
+    "query_templates": [
+      "site:x.com/{handle}/status {handle}",
+      "site:x.com/{handle}/status {topic_keyword}",
+      "{handle} x.com status {date_keyword}"
+    ]
+  },
+  "topic_watch": {
+    "topics_per_run": 4,
+    "buckets": [
+      {"id":"AI_TECH","keywords":["AI","人工智能","大模型","机器人","芯片","开源","软件","程序员"]},
+      {"id":"DIGITAL_PRODUCTS","keywords":["手机","电脑","数码","产品","App","互联网新发现","工具"]},
+      {"id":"WORK_MONEY","keywords":["工作","失业","工资","收入","副业","消费","房租","求职"]},
+      {"id":"ORDINARY_LIFE","keywords":["普通人","生活","经历","家庭","打工","城市","年轻人"]},
+      {"id":"REVERSAL_ODDITY","keywords":["反常识","没想到","原来","反转","猎奇","离谱","冷知识"]},
+      {"id":"HISTORY_CULTURE","keywords":["历史","老照片","城市史","文化","考古","档案","往事"]},
+      {"id":"SOCIAL_OBSERVATION","keywords":["社会观察","代际","教育","婚恋","职场","平台","算法"]}
+    ],
+    "rotation_rule": "Rotate buckets across runs; retain one high-yield bucket from the previous non-zero run and replace the rest."
+  },
+  "event_two_hop": {
+    "events_per_run": 3,
+    "event_sources": ["recent public news", "Hacker News", "public Reddit search/index", "GitHub trending/releases"],
+    "rules": [
+      "Choose concrete named entities/events from the last 48 hours where possible.",
+      "Generate distinctive event keywords, product/person names and quoted short identifiers.",
+      "Search public indexes for real x.com/<handle>/status/<id> permalinks.",
+      "Upstream event popularity is not evidence that the X post is viral."
+    ]
+  },
+  "admission": {
+    "preferred_window_hours": 48,
+    "high_distribution_hint": "Prefer verifiable views >= 10000 or clearly abnormal public interaction counts; unknown metrics remain null.",
+    "required_for_recent_cohort": ["real X status URL", "published_at evidence sufficient to classify freshness"],
+    "required_for_distribution_cohort": ["real X status URL", "public metric evidence"],
+    "evergreen_rule": "Older posts require durable novelty plus verifiable evidence and must be labeled EVERGREEN_REDISCOVERY."
+  },
+  "anti_bias": [
+    "Do not keep only winners; deliberately seek ordinary/low-distribution controls.",
+    "Do not infer virality from search-engine ranking.",
+    "Do not copy historical author metrics to new status URLs.",
+    "Do not repeatedly query only the same high-performing creators.",
+    "Do not reuse stale posts to make a zero-yield run look successful."
+  ]
+}
