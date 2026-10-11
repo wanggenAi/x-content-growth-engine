@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-10-05T09:22:00Z",
+  "status": "AGENT_OBSERVED_NOT_HUMAN_CONFIRMED",
+  "source_dataset": "data/viral_samples_2026-10-01.json",
+  "threshold": ">10000 displayed X views",
+  "aggregate": {"raw_candidates": 46, "analyzed_high_view_posts": 32, "distinct_authors": 29, "detail_visits": 12, "body_confirmed_private": 10, "valid_causal_pairs": 0},
+  "audited_ids": ["V10", "V20", "V24", "V25", "V01", "V06", "V27", "V28", "V29", "V31", "V03"],
+  "transferable_constraints": [
+    "first screen makes a reader calculate, identify, or choose",
+    "one main conflict with a concrete number, action, identity, or scene",
+    "a usable delivery or answerable disagreement",
+    "attribution and limits remain visible",
+    "media only when it compresses evidence"
+  ],
+  "not_claimed": ["viral guarantee", "causal formula", "organic reach", "follower conversion", "representative sample"]
+}

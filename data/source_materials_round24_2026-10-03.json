@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-10-02T22:01:18Z",
+  "purpose": "C290-C294公开人物与社会新闻候选；优先现实冲突、时间/身体/金钱代价和读者会点开的具体场景。来源是事实支点，不是流量保证。",
+  "method": "Browser Harness visible public-page read; paraphrase only; no X account action.",
+  "materials": [
+    {
+      "id": "CAM-C101",
+      "title": "75岁导演考虑第五个孩子引发争议",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3369481/surrounded-total-love-china-director-75-criticised-5th-child-plan-wife",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-10-02",
+      "observed_at": "2026-10-02T22:01:18Z",
+      "verified_claims": [
+        "南华早报报道，75岁的导演张纪中和44岁的妻子杜星霖正在考虑第五个孩子。",
+        "两人2017年结婚，已有三个共同的孩子，最小女儿出生于2024年10月；报道还说杜星霖婚前通过试管生育了一个儿子。",
+        "报道提到，评论者质疑妻子的年龄，并指责这可能是宣传动作；本文不把该质疑写成事实。"
+      ],
+      "formula_id": "F01",
+      "limits": [
+        "只写‘考虑’或‘正在讨论’，不写成已怀孕或已经决定生育；评论者的质疑与作者判断分开。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "75岁的导演张纪中，公开说在考虑第五个孩子，评论区先吵起来的却不是‘想不想生’。\n\n南华早报2026年10月2日报道，他和44岁的妻子杜星霖2017年结婚，已有3个共同的孩子，最小女儿出生于2024年10月；杜婚前还通过试管生育了一个儿子。\n\n生育本来是家庭选择，一旦变成公开话题，身体、年龄、名望就一起被围观。有人把它当宣传动作，也有人只问一句：别人凭什么替他们安排人生？"
+    },
+    {
+      "id": "CAM-C102",
+      "title": "东台发绣用头发做超细画像",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3369383/chinese-hair-embroidery-uses-human-hair-instead-silk-thread-create-ultra-fine-portraits?module=top_story&pgtype=subsection",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-10-01",
+      "observed_at": "2026-10-02T22:01:18Z",
+      "verified_claims": [
+        "南华早报报道，江苏东台的发绣用极其脆弱的人发代替丝线，历史可追溯到唐代，已有一千多年。",
+        "一件复杂作品可能需要几个月到几年；有些艺术家会把头发劈成更细的发丝，或与丝线、金线混用。"
+      ],
+      "formula_id": "F03",
+      "limits": [
+        "‘按商品计价、时间成本’是作者判断，不声称报道给出具体售价或行业收入；保留工艺时间的区间。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "一幅画不用丝线，改用人的头发，最慢要做几年。\n\n南华早报2026年10月1日报道，江苏东台的发绣已有一千多年历史，工匠把极脆的头发当媒介；有些作品要做几个月到几年，有人还要把头发再劈细，或和丝线、金线混用。\n\n我们总把‘手艺’说得很浪漫，真正残酷的是：市场按一件商品计价，工匠先付出的是几年的时间。"
+    },
+    {
+      "id": "CAM-C103",
+      "title": "医生离开二十年职业开包子店",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368333/chinese-doctor-quits-20-year-medical-career-open-steamed-bun-shop-mental-health-relief",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-22",
+      "observed_at": "2026-10-02T22:01:18Z",
+      "verified_claims": [
+        "南华早报报道，48岁的董敏在武汉做了二十多年医生，2023年离开医疗职业开包子店。",
+        "店铺经营下来后，她在2026年7月又开了第二家；她说现在卖包子又忙又累，但很开心。"
+      ],
+      "formula_id": "F03",
+      "limits": [
+        "不把个案写成医生都该辞职，也不声称包子店收入高于医疗工作；‘更愿意继续做’是对她引语的概括。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "她当了20年医生，最后让她愿意每天继续干的，是一间包子店。\n\n南华早报2026年9月22日报道，48岁的董敏2023年离开武汉的医疗岗位，开了一家包子店；店铺活下来后，她今年7月又开了第二家。她说，当医生时经常想辞职，现在卖包子又忙又累，却‘高兴得停不下来’。\n\n很多人把辞职理解成从体面逃走。她的账更简单：换一份累，但每天愿意继续做的工作。"
+    },
+    {
+      "id": "CAM-C104",
+      "title": "65岁女性用两个身份骗走17万元",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368264/chinese-woman-65-plays-dual-roles-beautiful-doctor-and-mum-con-man-out-us25000?module=top_story&pgtype=subsection",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-21",
+      "observed_at": "2026-10-02T22:01:18Z",
+      "verified_claims": [
+        "南华早报报道，上海65岁的余秀珍用AI冒充29岁的三甲医院女医生及其母亲，从刘辉处骗走17万元人民币（约2.5万美元）。",
+        "刘辉2021年在社交平台认识余秀珍；对方五年间发近7000条视频、拥有约1万粉丝，警方回看视频时发现角落里有很小的‘AI生成内容’提示。"
+      ],
+      "formula_id": "F01",
+      "limits": [
+        "使用‘报道’和‘警方回看’限定，不补造判决或其他受害者；不把所有AI视频写成骗局。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "一个65岁的人，假装29岁女医生，再假装她的母亲，五年骗走17万元。\n\n南华早报2026年9月21日报道，上海男子刘辉2021年在社交平台认识余秀珍；对方自称三甲医院医生，五年发近7000条视频、拥有约1万粉丝，最后骗走17万元。警方回看视频，才发现角落里有很小的‘AI生成内容’提示。\n\n最容易让人上当的地方，不是技术多高，而是骗子把‘稳定出现’演成了‘真实存在’。"
+    },
+    {
+      "id": "CAM-C105",
+      "title": "25岁妻子在低配型成功率下捐肾救丈夫",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368965/china-wife-donates-kidney-husband-defying-sub-10-match-rate-non-blood-relatives?module=top_story&pgtype=subsection",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-29",
+      "observed_at": "2026-10-02T22:01:18Z",
+      "verified_claims": [
+        "南华早报报道，25岁的梁某在2026年9月于广州医科大学附属第三医院捐出左肾给丈夫；非血缘亲属的配型成功率低于10%。",
+        "丈夫钟某33岁，先天性巨输尿管，病情在四年前进展为尿毒症；两人2025年1月结婚，之后有了孩子。梁某说自己‘不想失去他’。"
+      ],
+      "formula_id": "F03",
+      "limits": [
+        "不把手术结果或低配型成功率写成医学建议；‘捐肾’与引语按报道呈现，不把个案变成婚姻义务。"
+      ],
+      "rights": "Public SCMP reporting; paraphrase only.",
+      "draft_text": "配型成功率不到10%，25岁妻子还是把左肾给了丈夫。\n\n南华早报2026年9月29日报道，25岁的梁某在广州医科大学附三院捐出左肾；丈夫钟某33岁，先天性巨输尿管，四年前病情进展为尿毒症。两人去年1月结婚，后来有了孩子。\n\n她说‘不想失去他’。这句话很动人，也很重：婚姻里有些选择，不是浪漫表态，是把自己的身体也放进风险里。"
+    }
+  ]
+}

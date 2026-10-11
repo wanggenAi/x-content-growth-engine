@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-06T05:42:42.781658Z",
+  "status": "NOT_READY_NOT_PUBLISHED",
+  "queued_campaign_ids": [],
+  "published_new": 0,
+  "submission_attempts": 0,
+  "posts": [
+    {
+      "id": "R42-E01",
+      "draft": null,
+      "angle": "把全国不接电话及电话卡只收验证码改写成时代变化观点",
+      "status": "HOLD_UNSUPPORTED_GROUP_CLAIM",
+      "reason": "未形成可发布全文；原作者全国/只是的概括缺总体证据，主帖也未交付末句承诺的两原因，不能代作者补诈骗或心理因果。"
+    },
+    {
+      "id": "R42-E02",
+      "draft": null,
+      "angle": "把接受Cookie比成把钱包或密码交给网站",
+      "status": "HOLD_SOURCE_AND_TECHNICAL_CLAIM",
+      "reason": "未形成可发布全文；只在评论看到钱包/木马说法，未核具体机制，不能采用惊吓式技术结论。"
+    },
+    {
+      "id": "R42-E03",
+      "draft": "我自拟一句没法接电话时的回复：“现在接不了，先把事情写下来。”\n\n对方打的是电话，不该顺手替我定截止时间。",
+      "status": "HOLD_EDITORIAL_DELIVERY",
+      "reason": "自拟标签清楚，但只是熟悉的沟通边界提醒，结尾可猜，缺新的利益差额、动作和具体交付；不当实测话术，不改词凑数。"
+    }
+  ]
+}

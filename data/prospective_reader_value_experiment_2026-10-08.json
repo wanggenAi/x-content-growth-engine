@@ -1,0 +1,81 @@
+{
+  "experiment_id": "READER_VALUE_PROSPECTIVE_2026_10_08",
+  "status": "DESIGNED_NOT_SCHEDULED",
+  "publication_gate": "PUBLICATION_PAUSED_FOR_LEARNING",
+  "planned_posts": 12,
+  "range": "10-20 posts; no batch publication",
+  "purpose": "Prospectively test reader-value routes on the own account without promoting a formula.",
+  "pre_publication_record_template": {
+    "candidate_id": null,
+    "material": null,
+    "source": [],
+    "primary_action": null,
+    "dominant_reader_value_route": null,
+    "secondary_routes": [],
+    "psychological_accounts": [],
+    "predicted_inner_response": null,
+    "hypothesis": null,
+    "what_is_being_tested": null,
+    "expected_reader_behavior": null,
+    "novelty": null,
+    "evidence_boundaries": null,
+    "manual_authorization": false
+  },
+  "hypotheses": {
+    "H1": {
+      "label": "curiosity_without_self_similarity",
+      "prediction": "High curiosity and high material strength can produce meaningful dwell or saves when self_relevance is LOW or UNKNOWN.",
+      "counterexample": "A complete explanation with no observable reader value or weak source material should not be treated as a successful curiosity test."
+    },
+    "H2": {
+      "label": "comparable_stakes",
+      "prediction": "A concrete comparison with two named quantities or outcomes may activate replies or shares without requiring the reader to be personally similar.",
+      "counterexample": "A familiar topic with no concrete comparison should not count as a comparable-stakes test."
+    },
+    "H3": {
+      "label": "genuine_explanation_gap",
+      "prediction": "A real, source-supported explanation gap may produce questions, corrections, or experience-based replies after the necessary facts are delivered.",
+      "counterexample": "Withholding necessary facts, adding a false error, or using a forced cliffhanger is not an explanation-gap test."
+    }
+  },
+  "cells": [
+    {"slot": "RV-01", "hypothesis": "H1", "dominant_route": "CURIOSITY", "self_relevance": "LOW", "primary_action": "DWELL", "material_type": "unfamiliar_process", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-02", "hypothesis": "H1", "dominant_route": "EPISTEMIC_REWARD", "self_relevance": "LOW", "primary_action": "DWELL", "material_type": "technical_mechanism", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-03", "hypothesis": "H1", "dominant_route": "WONDER", "self_relevance": "UNKNOWN", "primary_action": "LIKE", "material_type": "rare_object_or_skill", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-04", "hypothesis": "H1", "dominant_route": "KNOWLEDGE_CORRECTION", "self_relevance": "LOW", "primary_action": "REPLY", "material_type": "常识纠错", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-05", "hypothesis": "H2", "dominant_route": "STATUS", "self_relevance": "MEDIUM", "primary_action": "REPLY", "material_type": "two_outcome_comparison", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-06", "hypothesis": "H2", "dominant_route": "COMPARISON", "self_relevance": "LOW", "primary_action": "SHARE", "material_type": "named_cost_or_benefit", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-07", "hypothesis": "H2", "dominant_route": "SOCIAL_CURRENCY", "self_relevance": "UNKNOWN", "primary_action": "SHARE", "material_type": "specific_recipient_resource", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-08", "hypothesis": "H2", "dominant_route": "UTILITY", "self_relevance": "LOW", "primary_action": "SAVE_RETURN", "material_type": "official_tool_or_rule", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-09", "hypothesis": "H3", "dominant_route": "OPINION_EXPRESSION", "self_relevance": "MEDIUM", "primary_action": "REPLY", "material_type": "fact_with_real_tradeoff", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-10", "hypothesis": "H3", "dominant_route": "NARRATIVE_CLOSURE", "self_relevance": "LOW", "primary_action": "DWELL", "material_type": "complete_before_after_story", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-11", "hypothesis": "H3", "dominant_route": "IDENTITY", "self_relevance": "MEDIUM", "primary_action": "FOLLOW", "material_type": "repeatable_account_position", "source_status": "PENDING_HUMAN_SOURCE_CHECK"},
+    {"slot": "RV-12", "hypothesis": "H3", "dominant_route": "EMOTIONAL_RESONANCE", "self_relevance": "UNKNOWN", "primary_action": "REPLY", "material_type": "specific_lived_experience_without_claiming_universality", "source_status": "PENDING_HUMAN_SOURCE_CHECK"}
+  ],
+  "required_before_admission": [
+    "subject_value",
+    "payload",
+    "one_primary_action",
+    "explicit_reader_value_route",
+    "route_specific_fields",
+    "source_refs_and_human_check",
+    "novelty_check",
+    "audit_language_separation",
+    "preregistered_prediction",
+    "manual_publication_authorization"
+  ],
+  "feedback_windows": {
+    "1h": {"tolerance_minutes": 20},
+    "6h": {"tolerance_minutes": 30},
+    "24h": {"tolerance_minutes": 60},
+    "72h": {"tolerance_minutes": 180},
+    "7d": {"tolerance_minutes": 360}
+  },
+  "outcomes": [
+    "action_specific_metrics_with_null_missing_values",
+    "qualitative_outcome_note",
+    "comment_body_and_activation_prediction_match",
+    "distribution_confidence_separate_from_content_failure"
+  ],
+  "inference_limit": "Until the planned sample is manually sourced, admitted, published one at a time, and observed at fixed windows, all three hypotheses remain HYPOTHESIS."
+}

@@ -1,0 +1,279 @@
+{
+  "checked_at": "2026-09-30T23:50:18.534478Z",
+  "scope": "Small public-source research; no third-party code executed, social extension installed, paid call, corpus download or model training. Community narratives remain distinct from primary methods and X research samples.",
+  "repositories": [
+    {
+      "repository": "remidomingues/Virality-Prediction",
+      "url": "https://github.com/remidomingues/Virality-Prediction",
+      "revision": "6f1cf4d77a4a1a8926137cf6367abd37acad5606",
+      "license_spdx": null,
+      "license_note": "No license detected in GitHub metadata; no code adoption.",
+      "pushed_at": "2016-06-03T12:51:53Z",
+      "readme_url": "https://github.com/remidomingues/Virality-Prediction/blob/6f1cf4d77a4a1a8926137cf6367abd37acad5606/README.md",
+      "source_paths_read": [
+        "code/featureExtractor.py",
+        "code/regression.py",
+        "code/viralityPrediction.py"
+      ],
+      "finding": "固定等待窗口后更新转发结果；账号、实体和文本长度特征。",
+      "limitations": "三天随机英文样本；balancing 在随机切分之前复制样本，可能跨集合泄漏；训练和测试分别计算中位数标签及标准化参数，评估目标不一致。",
+      "decision": "ADAPT_METHOD_ONLY",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "social-media-prediction/TPIC2017",
+      "url": "https://github.com/social-media-prediction/TPIC2017",
+      "revision": "0ce94025aa9c037c06155125d9db7748018d3100",
+      "license_spdx": null,
+      "license_note": "No license detected in GitHub metadata; no code adoption.",
+      "pushed_at": "2022-01-22T11:42:43Z",
+      "readme_url": "https://github.com/social-media-prediction/TPIC2017/blob/0ce94025aa9c037c06155125d9db7748018d3100/README.md",
+      "source_paths_read": [],
+      "finding": "提供匿名用户、时间片、作者历史平均浏览和 log-view 结果字段。",
+      "limitations": "Flickr 图片数据；log-view 不是 X 转发；缺少明确许可证时不下载训练数据。",
+      "decision": "REFERENCE_SCHEMA_ONLY",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "zhuwei321/SMTPD",
+      "url": "https://github.com/zhuwei321/SMTPD",
+      "revision": "9658ea11aff81c533c46070b53b5bd90d1a29c70",
+      "license_spdx": "Apache-2.0",
+      "license_note": "Code license does not authorize source-platform data reuse.",
+      "pushed_at": "2026-05-16T06:15:22Z",
+      "readme_url": "https://github.com/zhuwei321/SMTPD/blob/9658ea11aff81c533c46070b53b5bd90d1a29c70/README.md",
+      "source_paths_read": [
+        "main.py",
+        "smp_data.py",
+        "dataset_split.py"
+      ],
+      "finding": "多语言、多模态发布后 30 天热度序列；明确区分早期热度是否作为输入。",
+      "limitations": "有早期指标时是发布后预测；main.py 中随机分折不能直接用于我们的未来时间外验证；GPU/模型数据路线不适合当前标准库起步。",
+      "decision": "ADAPT_TIME_SERIES_SCHEMA",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "craftingcodegig/skapp",
+      "url": "https://github.com/craftingcodegig/skapp",
+      "revision": "4d3020d62d33fb53aff4d1f1ad165689db743f8b",
+      "license_spdx": "MIT",
+      "license_note": "Code license does not authorize source-platform data reuse.",
+      "pushed_at": "2026-06-30T17:02:28Z",
+      "readme_url": "https://github.com/craftingcodegig/skapp/blob/4d3020d62d33fb53aff4d1f1ad165689db743f8b/README.md",
+      "source_paths_read": [
+        "src/preprocess/SMPD/3_retrieval.py",
+        "src/train.py",
+        "src/test.py"
+      ],
+      "finding": "相似历史内容检索、选择性筛选、知识增强预测；检索池从训练集合创建。",
+      "limitations": "代码所查 SMPD 预处理用随机 train_test_split；仍需额外检验时间、作者、相同事件泄漏；研究训练配置需GPU与大内存。",
+      "decision": "REFERENCE_RETRIEVAL_DESIGN",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "justinng88/upworthy-ab-engine",
+      "url": "https://github.com/justinng88/upworthy-ab-engine",
+      "revision": "9d8c5a0f97165c724389267066c5b103bce159a0",
+      "license_spdx": null,
+      "license_note": "No license detected in GitHub metadata; no code adoption.",
+      "pushed_at": "2026-09-16T00:16:41Z",
+      "readme_url": "https://github.com/justinng88/upworthy-ab-engine/blob/9d8c5a0f97165c724389267066c5b103bce159a0/README.md",
+      "source_paths_read": [],
+      "finding": "公开研究项目提出多臂比较校正、赢家偏差、样本量不足及随机化故障检查。",
+      "limitations": "只核对 README，未运行 notebook、未独立复核其比例与结果；GitHub 未识别许可证。",
+      "decision": "LEAD_NOT_VALIDATED",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "twitter/the-algorithm",
+      "url": "https://github.com/twitter/the-algorithm",
+      "revision": "c54bec0d4e029fe34926ef3258a86ccacc0d0182",
+      "license_spdx": "AGPL-3.0",
+      "license_note": "Code license does not authorize source-platform data reuse.",
+      "pushed_at": "2025-09-08T18:40:54Z",
+      "readme_url": "https://github.com/twitter/the-algorithm/blob/c54bec0d4e029fe34926ef3258a86ccacc0d0182/README.md",
+      "source_paths_read": [
+        "home-mixer/README.md"
+      ],
+      "finding": "历史公开推荐架构；候选召回、排序、图网络和过滤。",
+      "limitations": "历史仓库，当前研究优先参考2026年xai-org仓库；公开代码不等于所有生产配置。",
+      "decision": "HISTORICAL_REFERENCE",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "natematias/upworthy-archive",
+      "url": "https://github.com/natematias/upworthy-archive",
+      "revision": "822141cfa6c357763895a5ed1820132fc2adc57e",
+      "license_spdx": null,
+      "license_note": "Upworthy official site states CC-BY-4.0 for archive/code/docs; GitHub metadata has no detected license.",
+      "pushed_at": "2025-01-08T20:25:48Z",
+      "readme_url": "https://github.com/natematias/upworthy-archive/blob/822141cfa6c357763895a5ed1820132fc2adc57e/README.md",
+      "source_paths_read": [
+        "2024-06-upworthy-archive-update.md"
+      ],
+      "finding": "同故事的标题/图像随机变体，区分探索与确认；维护方提供已知问题标记。",
+      "limitations": "2024 年维护方更新指出约22%实验可能有分配问题，建议不对2013-06-25至2014-01-10区间作因果确认；英文点击结果不能直接等同中文X传播。",
+      "decision": "ADAPT_DESIGN_AND_VALIDITY_CHECKS",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    },
+    {
+      "repository": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "revision": "77d431aabf409ca1c1eed9bec7e2183f7c914e23",
+      "license_spdx": "Apache-2.0",
+      "license_note": "Code license does not authorize source-platform data reuse.",
+      "pushed_at": "2026-09-30T03:53:43Z",
+      "readme_url": "https://github.com/xai-org/x-algorithm/blob/77d431aabf409ca1c1eed9bec7e2183f7c914e23/README.md",
+      "source_paths_read": [
+        "xai-value-model/scoring.rs",
+        "home-mixer/scorers/author_cold_start.rs",
+        "home-mixer/scorers/phoenix_scores_ranking_scorer.rs"
+      ],
+      "finding": "当前公开 For You 管线：个性化行为预测、加权排名、作者多样性、冷启动和过滤。",
+      "limitations": "权重乘预测概率/连续值而非原始互动数；部分提示和规则未公开；排序机制不证明某文案会爆。",
+      "decision": "CURRENT_PRIMARY_REFERENCE",
+      "execution_status": "NOT_RUN",
+      "verified_at": "2026-09-30T23:50:18.534478Z"
+    }
+  ],
+  "community_leads": [
+    {
+      "community": "LINUX_DO",
+      "url": "https://linux.do/t/topic/1680095",
+      "posted_date": "2026-03-02",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "social-push 发布工作流，默认草稿；回复有人指出仍不知道发什么。",
+      "limitations": "发布工具解决交付，不提供内容效果实验。",
+      "primary_lead": "https://github.com/jihe520/social-push",
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "LINUX_DO",
+      "url": "https://linux.do/t/topic/1018362",
+      "posted_date": "2025-10-08",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "趋势监控：浏览器扩展取搜索页信息，本地脚本总结。",
+      "limitations": "工具描述未提供爆帖效果对照；不安装或运行此账号采集扩展。",
+      "primary_lead": "https://github.com/wenhanweime/TwitterTrendAnalysis",
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "LINUX_DO",
+      "url": "https://linux.do/t/topic/1538594",
+      "posted_date": "2026-01-29",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "ThatTweet 记录、整理和分析收藏推文的工具介绍。",
+      "limitations": "展示界面不证明预测性能或传播机制；不安装。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "LINUX_DO",
+      "url": "https://linux.do/t/topic/1547232",
+      "posted_date": "2026-01-31",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "作者自述开源短剧项目迎来社区曝光，并归因热点、门槛与社区支持。",
+      "limitations": "自述数据未独立核验，没有普通对照，不能推断因果；平台是L站而非X。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "LINUX_DO",
+      "url": "https://linux.do/t/topic/2842125",
+      "posted_date": "2026-09-01",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "作者自述发布开源项目后X低曝光，是成功故事之外的失败线索。",
+      "limitations": "阅读量是作者叙述，不是核对过的X指标；评论的会员/沙盒猜测不作为事实。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "REDDIT",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/o0fxxw",
+      "posted_date": "2021-06-15",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "作者分享使用bitgrit数据做LightGBM传播预测教程。",
+      "limitations": "只核对社区原帖，教程直接获取失败；比赛数据许可、标记规则、切分与独立性能尚未核定。",
+      "primary_lead": "https://bitgrit.com/",
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "REDDIT",
+      "url": "https://www.reddit.com/r/indiehackers/comments/1ll77ak",
+      "posted_date": "2025-06-26",
+      "status": "SOURCE_PAGE_READ",
+      "original_summary": "作者描述48小时围绕早期热帖回复与引用的冷启动尝试，同时推广自己的扩展。",
+      "limitations": "自述、商业利益、无对照；互动位置与内容混杂，不能验证回复胜过原创；不代发回复。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "REDDIT",
+      "url": "https://www.reddit.com/r/AskEconomics/comments/gldghg",
+      "posted_date": "2020-05-17",
+      "status": "SEARCH_INDEX_LEAD_ORIGINAL_FETCH_FAILED",
+      "original_summary": "评论给出Upworthy档案线索，已追到原始维护方。",
+      "limitations": "原帖获取超时；不计原页核验成功，相关证据以Upworthy原始来源为准。",
+      "primary_lead": "https://upworthy.natematias.com/",
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "REDDIT",
+      "url": "https://www.reddit.com/r/GrowthHacking/comments/1w0f3os",
+      "posted_date": "2026-08-28",
+      "status": "SEARCH_INDEX_LEAD_ORIGINAL_FETCH_FAILED",
+      "original_summary": "搜索摘要称朴素标题胜过巧妙标题，作为幽默必胜的反例线索。",
+      "limitations": "原页获取超时；自述转化结果未独立核验，与X传播结果不同。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    },
+    {
+      "community": "REDDIT",
+      "url": "https://www.reddit.com/r/PPC/comments/1sa3s73",
+      "posted_date": null,
+      "status": "SEARCH_INDEX_LEAD_ORIGINAL_FETCH_FAILED",
+      "original_summary": "搜索结果提出平台曝光选择可能干扰文案A/B结果。",
+      "limitations": "原页获取失败，不把评论当成实验结论。",
+      "primary_lead": null,
+      "checked_at": "2026-09-30T23:50:18.534478Z",
+      "metrics": null,
+      "human_checked": false,
+      "use": "LINK_AND_SHORT_ORIGINAL_METHOD_NOTE_ONLY_NOT_TRAINING_DATA"
+    }
+  ],
+  "validated_x_formulas": 0
+}

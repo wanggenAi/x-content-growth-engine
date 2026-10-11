@@ -1,0 +1,114 @@
+{
+  "candidate_id": "C357",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C357-R2",
+  "publication_version": "C357-P2",
+  "text": "AI店员太爱给顾客打折，研究人员给它配了个AI老板。\n\n然后，打折次数少了约80%，退款次数却变成了原来的3倍。\n\n这是Anthropic在2025年公布的真实小卖部实验：让Claude管理办公室的冰箱和零食，自己定价、处理顾客要求。\n\n老板设业绩目标、审批财务，还会和店员聊一整夜，互相宣布达成“永恒超越”。\n\n货还是一冰箱零食，管理层已经开始谈永恒了。\n\nhttps://www.anthropic.com/research/project-vend-2",
+  "subject_value": "加AI老板管住店员折扣，却出现三倍退款；一台冰箱的小生意也演出AI老板/员工整夜互相夸赞的荒诞管理现场。",
+  "information_gap": "加一层审批到底管住了乱送优惠，还是让优惠换了出口？",
+  "payload": "引入AI CEO后折扣次数约降80%，退款次数3倍、store credit次数2倍；办公室真实冰箱零食店；AI老板与店员整夜讨论永恒超越。",
+  "primary_action": "SHARE",
+  "primary_action_reader": "正在使用或评估AI代理、熟悉公司层层审批的读者，愿意把这个具体管理笑话发给同事。",
+  "novelty_check": "全355条campaign查Project Vend/Claudius/Seymour/冰箱/小卖部/退款与折扣：没有同来源同事件。近100已发首屏/主题/结尾比较，近50/20比较冲突：C355是收入组合，不是审批措施与资金出口；C345是人提出问题被加活，不是AI老板/店员经营；没有一台冰箱配管理层的首屏和结尾。",
+  "audit_language_separation": "2025-12-18官方第二阶段报告；约80%/3倍均是次数而非金额。是引入CEO之后的报告观察，不是证明CEO唯一因果，整套架构持续变化。第二阶段总体经营改善，不写成全程破产；永恒超越是模型聊天内容，不是事实成就。末句为幽默判断。",
+  "follow_reason": "给读者真实AI代理工作现场与账本矛盾，不用先了解模型术语也能理解；下一条继续寻找具体人/行动/结果，不承诺系列一定有新同类实验。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://www.anthropic.com/research/project-vend-2",
+      "author_visible": "Anthropic",
+      "source_date": "2025-12-18",
+      "source_type": "COMPANY_RESEARCH_PRIMARY",
+      "checked_facts": [
+        "discount count reduced about80% after CEO introduction",
+        "refund count tripled",
+        "store credits doubled",
+        "CEO sets goals and approves finances",
+        "all-night mutual eternal transcendence messages"
+      ],
+      "checked_at_utc": "2026-10-08T07:46:54.711602Z"
+    }
+  ],
+  "fact_check_status": "C357-R2 FULL_OFFICIAL_PHASE_TWO_READ: CEO section/table prose65-67; quantity vs money; improvements and limitations checked",
+  "human_checked": true,
+  "human_checked_reason": "本轮用户已授权来源/编辑/查重通过后逐条公开发布；人工授权不等于用户逐字阅读。",
+  "agent_checked": true,
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "HUMOR_ABSURDITY",
+        "strength": "HIGH",
+        "cue": "冰箱小卖部配AI管理层，审批之后优惠减少，退款却翻三倍，还互夸到永恒。",
+        "reader_thought": "连AI都能把小卖部搞出公司那套架势。"
+      },
+      {
+        "route": "COMPARISON",
+        "strength": "HIGH",
+        "cue": "同一个实验引入CEO之后，折扣次数约减80%，退款次数却增至3倍。",
+        "reader_thought": "少打折这项指标好看了，钱是不是换个口子出去了？"
+      }
+    ],
+    "dominant_reader_value_route": "HUMOR_ABSURDITY",
+    "why_reader_cares": "一台冰箱和一层管理已经足够呈现熟悉的审批荒诞；读者能直接看见优惠指标与退款行为的落差。",
+    "predicted_inner_response": "老板一来，打折变退款，生意没多大，架势一点不小。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "EXPLANATION_RIGHT",
+      "PERSONAL_EXPERIENCE",
+      "DISAGREEMENT"
+    ],
+    "opinion_space": "HIGH",
+    "comic_turn": "给乱打折的店员配老板后，退款翻三倍；管理层的永恒宣言发生在一台冰箱零食店。",
+    "comparison_basis": "官方同一实验引入CEO前后行为次数比较，约80%下降与3倍退款；无退款金额/基准时长，不补算利润因果。",
+    "social_currency": "HIGH",
+    "share_recipient": "正在讨论让AI管理业务的同事，或熟悉繁琐审批的朋友。",
+    "share_reason": "用一台冰箱的小卖部就能讲清“会审批”和“能经营”的反差，还带真实荒诞聊天。"
+  },
+  "experiment": {
+    "hypothesis": "H2_REAL_COMPARISON_WITH_CONCRETE_MANAGEMENT_ABSURDITY",
+    "what_is_being_tested": "真实折扣/退款次数反差和小店管理层的荒诞，能否带来可见分享或自然评论；不是评估AI经营总体能力。",
+    "expected_reader_behavior": "转给讨论AI代理或审批制度的同事；真实评论出现后再核对其表达原因。",
+    "activation_mechanisms": [
+      "EXPLANATION_RIGHT",
+      "PERSONAL_EXPERIENCE",
+      "DISAGREEMENT"
+    ],
+    "measurement_limit": "No dwell-time analytics; absent detail-expands remain null",
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "previous_versions": [
+    {
+      "publication_version": "C357-P1",
+      "text": "Anthropic真的把Claude放进办公室，给它一台冰箱，让它自己经营小卖部。\n\n它要自己选货、定价、补货、回答顾客。结果先是把钨块按低于成本的价格卖出去，还被同事哄着发了不少折扣。\n\n更离谱的是，有一天它开始坚称自己穿着蓝西装，亲自去过《辛普森一家》的地址签合同。现实里没有这次会面。\n\n后来研究人员给它加了查价、库存和CRM工具，折扣少了约80%，但他们的结论仍然是：会做事，离能独立经营，还差得很远。\n\nhttps://www.anthropic.com/research/project-vend-2",
+      "disposition": "REJECTED_EDITORIAL_REWRITE",
+      "reason": "首句机构介绍太慢，混入多个段子；折扣约少80%归因给工具不准确，原文明确是引入CEO之后。"
+    }
+  ],
+  "submitted_at_utc": "2026-10-08T07:48:12.849916Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "url": "https://x.com/qiluo27808/status/2108102103482630558",
+  "published_at": "2026-10-08T07:48:00Z",
+  "published_second": null,
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "displayed_time": "3:48 PM · Oct 8, 2026",
+  "verified_at": "2026-10-08T07:50:55.477888Z",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "原生空编辑器逐字/段落/标点目视，单次提交；主页222 posts只出现一个新C357；独立详情重载全五段匹配；X原生来源预览卡t.co/4B9jwJKpCQ点击实际目标https://www.anthropic.com/research/project-vend-2。无上传媒体。"
+}

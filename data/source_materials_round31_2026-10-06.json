@@ -1,0 +1,110 @@
+{
+  "recorded_at": "2026-10-05T18:08:35Z",
+  "purpose": "C340-C344非V2EX公开论坛与媒体页面核对；保留作者/日期/边界，供逐条编辑器核对。",
+  "materials": [
+    {
+      "id": "SRC-C340",
+      "title": "17万婚介费与“差一点就成家”的解释权",
+      "url": "https://bbs.wenxuecity.com/marriage/5704655.html",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_SELF_REPORT_WITH_VIDEO",
+      "source_page_publication_date": "2026-09-27",
+      "source_author": "barrier",
+      "source_author_visible": "barrier，公开论坛作者可见；个人自述",
+      "observed_at": "2026-10-05T18:08:35Z",
+      "limits": [
+        "单方自述；警方处理仅按作者陈述；不作法律定性，不判断公司责任",
+        "只作公开页面素材，不把单条自述扩展为群体规律"
+      ],
+      "rights": "Public page; paraphrase only.",
+      "editorial_hook_hypothesis": "花17万多找对象，最后最贵的可能不是服务费，而是你一直相信“差一点就能成家”。",
+      "source_page_claims": [
+        "文学城婚姻生活版一篇 2026-09-27 的个人自述：作者说自己交了17万多婚介服务费，相亲期间又花了5万多；后来解除合同，对方同意退6万，但还有11万5千多没退。作者还说，警方两次不予立案，复议维持原决定，后续仍在申请复核。"
+      ],
+      "independently_verified_event": false
+    },
+    {
+      "id": "SRC-C341",
+      "title": "急诊室里最贵的不是账单，是被拖掉的判断力",
+      "url": "https://bbs.wenxuecity.com/health/1216356.html",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_HEALTH_SELF_REPORT",
+      "source_page_publication_date": "2026-09-13",
+      "source_author": "山里人家168",
+      "source_author_visible": "山里人家168，公开论坛作者可见；个人自述",
+      "observed_at": "2026-10-05T18:08:35Z",
+      "limits": [
+        "个人经历；不作诊断，不比较医院整体服务，不把等待时间推广为普遍规律",
+        "只作公开页面素材，不把单条自述扩展为群体规律"
+      ],
+      "rights": "Public page; paraphrase only.",
+      "editorial_hook_hypothesis": "同样是发烧，有人先保行程，有人先保命；真正让人害怕的，是你不知道自己正在把哪一个往后排。",
+      "source_page_claims": [
+        "文学城健康养生版一篇 2026-09-13 的个人自述：作者说自己旅行前发烧、疲劳，仍按计划飞到底特律；心率连续两天约为平常两倍，urgent care 做心电图后让其去急诊。作者称在一处急诊等了约3.5小时、抽血失败，凌晨1点才回酒店；回家后另一家教学医院很快完成处理。"
+      ],
+      "independently_verified_event": false
+    },
+    {
+      "id": "SRC-C342",
+      "title": "球星卡把收藏变成投资焦虑",
+      "url": "https://bbs.wenxuecity.com/financenews/34615.html",
+      "source_kind": "PUBLIC_FORUM_MEDIA_REPOST",
+      "source_page_publication_date": "2026-10-05",
+      "source_author": "虎嗅APP",
+      "source_author_visible": "虎嗅APP，转载页来源标注可见",
+      "observed_at": "2026-10-05T18:08:35Z",
+      "limits": [
+        "转载文章；价格纪录与市场判断仅按原文转述，不作投资建议，不推断普通玩家回报",
+        "只作公开页面素材，不把单条自述扩展为群体规律"
+      ],
+      "rights": "Public page; paraphrase only.",
+      "editorial_hook_hypothesis": "球星卡最会骗中产的地方，不是贵，而是让“喜欢”看起来像一笔不能错过的投资。",
+      "source_page_claims": [
+        "文学城财经新闻版转载虎嗅APP 2026-10-05 的文章：文中提到，2026年一张宝可梦卡曾以1649万美元成交，Fanatics旗下Topps也在上海、北京建立本地团队，准备把这套体育收藏生意带进中国。"
+      ],
+      "independently_verified_event": false
+    },
+    {
+      "id": "SRC-C343",
+      "title": "领馆 App 最后一个提交按钮失灵",
+      "url": "https://bbs.wenxuecity.com/travel/773080.html",
+      "source_kind": "PUBLIC_FORUM_USER_HELP_REQUEST",
+      "source_page_publication_date": "2026-10-05",
+      "source_author": "四月花开",
+      "source_author_visible": "四月花开，公开论坛作者可见；用户求助",
+      "observed_at": "2026-10-05T18:08:35Z",
+      "limits": [
+        "单条求助；未核实系统故障、未核实后续结果；不暗示领馆普遍失灵",
+        "只作公开页面素材，不把单条自述扩展为群体规律"
+      ],
+      "rights": "Public page; paraphrase only.",
+      "editorial_hook_hypothesis": "最让人崩溃的办证，不是材料多，而是最后一个按钮决定你前面一小时都白填。",
+      "source_page_claims": [
+        "文学城世界风情版一条 2026-10-05 的公开提问：作者说自己按步骤填写中国领馆 App 的旅行证申请，到最后一步却无法 submit，发帖问有没有人成功递交。帖子没有给出设备、地区、后续是否解决等信息。"
+      ],
+      "independently_verified_event": false,
+      "editorial_hook_hypothesis_status": "REJECTED_UNSUPPORTED_DETAIL",
+      "hook_reviewed_at": "2026-10-05T20:03:08.095635Z"
+    },
+    {
+      "id": "SRC-C344",
+      "title": "把日子过成自己喜欢的样子先停止表演",
+      "url": "https://bbs.wenxuecity.com/myhouse/15955539.html",
+      "source_kind": "PUBLIC_FORUM_AUTHOR_FAMILY_SELF_REPORT",
+      "source_page_publication_date": "2026-10-04",
+      "source_author": "Frankie1211",
+      "source_author_visible": "Frankie1211，公开论坛作者可见；家庭日记转述",
+      "observed_at": "2026-10-05T18:08:35Z",
+      "limits": [
+        "家庭日记片段；不推断伴侣关系、不把个人审美写成普遍答案",
+        "只作公开页面素材，不把单条自述扩展为群体规律"
+      ],
+      "rights": "Public page; paraphrase only.",
+      "editorial_hook_hypothesis": "很多人说“想过自己喜欢的日子”，其实第一步不是买东西，是先停掉一项不合群的表演。",
+      "source_page_claims": [
+        "文学城我爱我家版作者 Frankie1211 在 2026-10-04 的自述：伴侣去听勃拉姆斯，作者带狗在校园和树林里散步；作者读到伴侣日记里那句，想成为“优雅、从容、能读书、会音乐、会表达的老太太”。"
+      ],
+      "independently_verified_event": false,
+      "editorial_hook_hypothesis_status": "REJECTED_LOGIC_AND_SOURCE_GAP",
+      "hook_reviewed_at": "2026-10-05T20:03:08.095635Z"
+    }
+  ]
+}

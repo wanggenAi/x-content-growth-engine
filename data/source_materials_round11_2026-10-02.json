@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-02T08:42:26Z",
+  "materials": [
+    {
+      "id": "CAM-C038",
+      "title": "消费者说：放心 托付在卡里的“信任”",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/482261.html",
+      "source_kind": "SUPREME_PEOPLES_COURT_OFFICIAL_REPORT_DIRECT_FETCH",
+      "observed_at": "2026-10-02T08:42:26Z",
+      "verified_claims": [
+        "最高人民法院页面显示发布日期为2025-11-24，记述北京市丰台区一宗瑜伽店预付卡闭店纠纷。",
+        "报道说王某卡内余额8260元；店方股权转让后申请注销；薛小军提出将瑜伽卡转至美发店抵扣，王某拒绝。",
+        "法院判令退还8260元；报道提到维权群200多人卡内余额总额40万余元。"
+      ],
+      "limits": [
+        "这是最高法报道的一宗具体案件及一个维权群，不代表所有关店或所有预付卡行业。",
+        "不对当事人动机作报道之外的推断。"
+      ],
+      "rights": "Read one public official source page for a source-checked original post; no bulk collection."
+    },
+    {
+      "id": "CAM-C039",
+      "title": "How Does the Effort Spent to Hold a Door Affect Verbal Thanks and Reciprocal Help?",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01737/full",
+      "source_kind": "PRIMARY_PEER_REVIEWED_ARTICLE_DIRECT_FETCH",
+      "observed_at": "2026-10-02T08:42:26Z",
+      "original_publication_date": "2015-11-12",
+      "verified_claims": [
+        "Frontiers in Psychology原文摘要与Study II记载南加州大学校园中194名参与者。",
+        "扶门努力程度组合条件下，64%高努力组与19%低努力组帮助研究者捡笔；说谢谢与否对应29%和25%，差异不显著。"
+      ],
+      "limits": [
+        "该研究将微笑/眼神接触等社会线索与实际扶门行为努力作为组合条件，不能把组间差异归因于单个动作。",
+        "单所美国校园实验，不测量参与者真实动机，不据此给个人贴标签或宣称普遍社会规律。"
+      ],
+      "rights": "Read public full text for source checking; no bulk collection."
+    }
+  ]
+}

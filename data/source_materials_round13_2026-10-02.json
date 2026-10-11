@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-02T11:47:11Z",
+  "materials": [
+    {
+      "id": "CAM-C045",
+      "title": "最高法发布消费者权益保护典型案例：消费者与影楼签订摄影合同后可依法行使解除权",
+      "url": "https://www.court.gov.cn/shenpan/xiangqing/350961.html",
+      "source_kind": "OFFICIAL_SUPREME_PEOPLES_COURT_CASE_RECORD",
+      "observed_at": "2026-10-02T11:47:11Z",
+      "verified_claims": [
+        "最高法2022年公布的案例记载，两名在校大学生看到19.9元古装写真广告后，对照片、相册、化妆、服装多次升级消费，先后签订5份协议，总额2.6万余元。",
+        "两人通过向亲友借款及开通网贷支付部分款项；当天要求变更套餐、减少合同金额遭拒。",
+        "法院判未履行协议解除、部分履行协议部分解除，并判退还1.86万元。"
+      ],
+      "limits": [
+        "这是最高法公开的单个消费者合同纠纷案例，不证明所有写真店均以此方式经营。",
+        "法院认定的是承揽合同解除及退款范围，不应写成法院认定诈骗。"
+      ],
+      "rights": "公开法院案例页；仅摘录事实并链接，不复制大段原文。"
+    },
+    {
+      "id": "CAM-C046",
+      "title": "检察机关依法惩治拒不支付劳动报酬犯罪推动治理欠薪典型案例：上海M农产品有限公司、丁某某案",
+      "url": "https://www.spp.gov.cn/spp/xwfbh/dxal/202501/t20250121_680253.shtml",
+      "source_kind": "OFFICIAL_SUPREME_PEOPLES_PROCURATORATE_CASE_RECORD",
+      "observed_at": "2026-10-02T11:47:11Z",
+      "verified_claims": [
+        "最高检2025年公布的案例记载，上海M农产品有限公司组织蔬菜分包，因经营不善拖欠39名农民工劳动报酬31万余元。",
+        "实际控制人丁某某以他人名义注册公司，2023年5月离沪逃匿；法院于2024年2月判公司罚金5万元、丁某某有期徒刑1年2个月并罚金5万元。",
+        "政府协调于2024年除夕前一日为39名农民工垫付17.8万余元。"
+      ],
+      "limits": [
+        "公开典型案例中的单案，不能据此推断所有经营困难企业或雇主均恶意欠薪。",
+        "案例报道显示已判刑和垫付金额，不把垫付写成劳动者已收回全部欠薪。"
+      ],
+      "rights": "公开最高检案例页；仅摘录必要事实并链接，不复制大段原文。"
+    },
+    {
+      "id": "CAM-C047",
+      "title": "Social Networks and Externalities from Gift Exchange: Evidence from A Field Experiment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4774559/",
+      "source_kind": "PEER_REVIEWED_FIELD_EXPERIMENT_PMC_FULL_TEXT",
+      "observed_at": "2026-10-02T11:47:11Z",
+      "verified_claims": [
+        "论文报告一项2012年5月至8月在中国城市医院门诊开展的实地实验；两名病人依次看同一位医生，实验改变先到病人是否送小礼物及后到病人是否被介绍为朋友。",
+        "先到病人送礼后，论文报告其得到较好服务，且被开不必要抗生素的可能性较低。",
+        "后到病人若被介绍为朋友也受益；若被视为无关的陌生人，则照护变差。"
+      ],
+      "limits": [
+        "研究发表于2013年，场景是特定时期的城市医院门诊实验，不可概括为当前中国医生或所有医院。",
+        "论文报告的实验结果不证明送礼是任何具体医疗差异的唯一原因；不加入样本数、礼物金额或效应量。"
+      ],
+      "rights": "PMC开放全文；只记录简短事实摘要及限制，保留原始论文链接。"
+    },
+    {
+      "id": "CAM-C048",
+      "title": "Powering up with indirect reciprocity in a large-scale field experiment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3690615/",
+      "source_kind": "PEER_REVIEWED_FIELD_EXPERIMENT_PMC_FULL_TEXT",
+      "observed_at": "2026-10-02T11:47:11Z",
+      "verified_claims": [
+        "PNAS论文报告与一家美国公用事业公司合作开展的防停电项目实地研究，涉及2,413名对象。",
+        "论文报告参与行为可见时，项目参与率约为不可见时的3倍；可见性带来的效应比公司此前使用的25美元金钱激励大4倍以上。",
+        "作者讨论声誉顾虑作为可见性影响参与的解释。"
+      ],
+      "limits": [
+        "该项目和参与者来自美国特定公用事业项目，不能直接外推到中国小区或其他群体。",
+        "论文报告声誉顾虑的解释，不把它写成唯一动机；不把效果表述为任何公开名单都有效。"
+      ],
+      "rights": "PMC开放全文；记录摘要级事实和限制，不复制大段原文。"
+    },
+    {
+      "id": "CAM-C049",
+      "title": "The influence of bystander behavior on helping strangers: A field experiment in Japan",
+      "url": "https://www.jstage.jst.go.jp/article/jssp/41/2/41_2024-028/_html/-char/en",
+      "source_kind": "PEER_REVIEWED_FIELD_EXPERIMENT_JSTAGE_FULL_TEXT",
+      "observed_at": "2026-10-02T11:47:11Z",
+      "verified_claims": [
+        "论文报告日本一处大学周边开展的街头问卷田野实验，共289名路人被随机分到合作示范、不合作示范、无示范三种情况。",
+        "合作示范组同意答问卷的可能性高于不合作示范组。",
+        "合作示范组和无示范控制组之间没有显著差异。"
+      ],
+      "limits": [
+        "结果变量是同意填写一份街头问卷，不等于现实紧急情况中的救助行为。",
+        "单一研究地点的结果不代表日本人或其他国家群体的一般行为。"
+      ],
+      "rights": "J-STAGE公开全文；保留论文原链接，使用简短结果摘要。"
+    }
+  ]
+}

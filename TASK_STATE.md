@@ -1,10 +1,196 @@
+# 最新断点 — 2026-10-08 自我映射模型与历史回测
+
+用户本轮要求直接在现有仓库落实SELF-RELEVANCE、心理账户、表达冲动与观点空间；先重新编码历史和做真实回测，不急于大量发布。实际分支feature/x-research-phase2，开工HEAD 8fa203b，fetch后与origin一致，PR #5 OPEN、起点CI成功。以下旧C355待人工确认摘要已经过时，保留为历史；C355已按2026-10-07特定授权单次发布，未恢复自动发布。
+
+本轮实现reader_model版本化JSON/SQLite派生标注、A–I弱项优先级、既有editorial gate必填模型、独立互动率、真实评论分类校验与固定窗回测；不计算乘法总分，不升级公式。研究结论见docs/SELF_MIRRORING_RESEARCH_2026-10-08.md，安全摘要见data/self_mirroring_research_2026-10-08.json。
+
+覆盖315独立外部研究链接（114结构摘要心理标注，201待审）、183独立已核验自帖（campaign158+基线25，34全文心理标注，149待审）。UNKNOWN不被自动填为弱/强；原始证据和所有发布正文、URL、版本未变；campaign仅盘点元数据由353修为实际354。仅标注的源摘要不可冒充重读原文。原捕获阈值>10000的167条含资格线索，不是已验证机制。新研究视角已写入规范供续跑调用。
+
+真实历史回测21独立自帖；C204/C291/C016/C201位于所选历史快照相对较高位置，但四条独立详情未有可见互动。C282/C284/C289/C297等有心理筹码仍相对较低；距离近、场景具体和观点空间均不能当充分条件。21条精确捕获时间缺失且未经人工反馈复核，严格24h合格0；全部账号原始数字和回测输出ignored，不公开。三个账号专属假设ASH1–ASH3仅HYPOTHESIS，VERIFIED_ON_OWN_ACCOUNT为0；F01–F05仍HYPOTHESIS。
+
+C355保留SHARE原问题与预注册，不倒填本轮新理论；1h/6h已到但没记录，改DUE_MISSING而非PENDING，也不拿当前累积数回填。24h/72h/7d待到。计数仍158新增/总183/历史剩842/ready0/实际records354（旧queue353已纠正）；0新X观察/评论/提交/发布，PUBLICATION_PAUSED_FOR_LEARNING保留。
+
+工程失误：初稿读取全部campaign条目时遇到RESEARCH_PENDING的text=null，临时构建失败；改为过滤已发布，null不变成正文，无部分原证据写入。新表开发副本定稿后按v2追加，最终重复导入0；旧研究表未重置。
+
+下一步：补齐正文心理复核；获取允许范围内真实固定窗反馈和评论，不推断分发/关注结果。新材料先回答谁看见自己、筹码、内心第一句、转给谁和真实解释空间，再事实/新颖性/预注册/人工审核。没有C356 READY，不自动批量；高浏览只供假设，不能学习错误、仇恨或权利不明刺激。
+
+最终检查：27项测试通过，git diff --check通过；旧seed audit仍11链接/13观察且无公式验证。354条历史posts逐项未变，19份原始研究/基线文件字节不变，498条派生重建一致，私有输出全部ignored。另发现上轮C355追加后queue元数据漏更新，已保留353历史值并修正为实际354，不改变发布数或任何posts。UTC checkpoint：2026-10-08T00:09:19Z。
+
+提交回执：实现commit 3ff7532已推送origin/feature/x-research-phase2，PR #5自动更新；两组GitHub unittest run（37706844395、37706840100）均SUCCESS。以下回执checkpoint仅更新状态/研究摘要，不改变已验证代码。原有7份未跟踪source_materials_round14–20文件未加入或删除。
+
+---
+
+# 最新断点 — 2026-10-07 C355 单条实验待人工正文核对
+
+用户要求继续发布；已筛选不同材料并预注册 C355-P1。财报原表核验收入反差：THE MONSTERS同比少约3.6亿元，星星人多约22.6亿元，公司总收入增23.8%。不是LABUBU单品销量/利润/热度数据，不冒充当天消息。审查见 `docs/REVIEW_C355_2026-10-07.md`，正文见 `data/editorial_candidate_c355_2026-10-07.json`。
+
+来源、强度、单一SHARE交付、近30全文和近50/100首屏/结尾比较已登记；全353来源/品牌字面查重无命中，未声称完整语义聚类。机器闸门只剩human_checked=false，不能用一般发布授权替代新正文逐字核对。当前未进X编辑器、0提交/0发布；X平台本轮未检查，不报无障碍。候选单独登记，不增加历史queue或发布数。
+
+LE30选中C355待人工正文核对，scheduled_posts=0；单条预注册见 `data/learning_experiment_c355_2026-10-07.json`。观察窗口未开始，基线及指标null，0因果/0公式升级。历史157新增/总182/剩843/ready0/queue353/最新C353保持；C354失败记录保留。下一步用户逐字确认C355-P1后原生可见Chrome单次提交与独立详情重载。以下均为历史断点。
+
+# 最新断点 — 2026-10-07 中文读者兴趣研究
+
+用户否决C354，要求深挖有吸引力的人事物。C354发现与已发布C338同来源同交付，标记FAIL_REPETITIVE并附FAIL_LOW_INTEREST；此前只查C344–C353的去重结论撤回。无待确认正文，0发布/0提交。
+
+新研究见 `docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md` 与 `data/reader_interest_research_2026-10-07.json`：八条兴趣假设、六个具体读者问题、中文平台研究的范围与不同结果、人物与事物观察名单、三份深入材料、两条DRAFT和一个RESEARCH_ONLY方向。无全国兴趣排名、无新X指标/因果对照/公式升级。真实原页保存在ignored private；来源日期和未知值保留。
+
+LE30为MATERIAL_RESEARCH_PUBLICATION_PAUSED，selected_candidate=null，scheduled_posts=0。历史新增157/总182/剩843/ready0/queue353/最新C353不变，数量不控制研究。下一步补强泡泡玛特产品/账、张雪原视频与资源路径、公共服务供给，再做全量来源和近20/50/100正文去重；弱稿不交用户确认、不发布。以下候选确认断点均为已被本次否决覆盖的历史。
+
+# 2026-10-07 C354 gated publication checkpoint
+
+用户明确要求开始发布；已登记 LE30 首条来源型候选 C354，但按项目硬闸门保留 `human_checked=false`，等待用户逐字确认后才可进入可见编辑器。当前 0 发布、0 提交、无平台障碍；不把用户发布授权冒充正文人工核对，不启动批量。
+
+候选稿见 `data/editorial_candidate_c354_2026-10-07.json`。原拟正文：
+
+“55岁以上在硅谷幸存下来的，都是年收入百万以上。”
+
+文学城10月2日的这个标题，下一句自己拆台：“没幸存下来的就惨了，很明显没普遍性。”
+
+我喜欢的不是“百万”，是它把幸存者偏差写成结论，又当场撤回。你见过哪种“只统计留下来的人”的结论？
+
+下一步需要用户确认以上逐字正文；确认后只允许 C354 单次提交、编辑器截图核对和独立公开详情重载，反馈窗口尚未开始。
+
+# 2026-10-06 system repair checkpoint
+
+本轮按仓库级修复执行，先暂停批量发布。主目标改为长期自然曝光、有效互动和关注增长；发布数、1000历史目标、`remaining_new_publications=843` 和 queue=353 只作历史/库存观察，不控制下一动作。当前状态：`RESEARCH_ONLY / PUBLICATION_PAUSED_FOR_LEARNING`，`ready=0`，仅登记一条待人工确认的 C354，不自动提交。
+
+正式闸门、素材强度、30条学习实验、own-post固定窗口、负例和内容记忆分别见 `docs/EDITORIAL_GATE.md`、`docs/EXPERIMENT_PROTOCOL.md`、`docs/FEEDBACK_LEARNING_LOOP.md`、`docs/CONTENT_MEMORY.md`、`docs/REVIEW_PACKET_2026-10-06.md`。历史 C001–C353 与所有原始 URL 不删除、不改写；F01–F05 继续 HYPOTHESIS。
+
 # Task State
 
-Checkpoint: 2026-09-29. Machine state: `state/task_state.json`. Runtime sample DB is reproducible from `data/seed_x_observations.json`.
+## 最新执行断点 — 2026-10-06T05:42:42.781658Z
+
+round42新读1高+1低独立完整正文；全国电话概括缺证据、Cookie评论未核、自拟沟通边界练习缺新交付，三项NOT_READY（其中两方向未成全文），0发布/0提交/无编辑器，无平台障碍。157新增、剩843、合计182、ready0、queue353、最新C353/下一步C354保持。研究口径60，0因果对照/公式升级；原始证据ignored，无曝光改善结论。以下断点为历史。
+
+## 最新执行断点 — 2026-10-06T01:49:47.179578Z
+
+round41新读2高+1低完整独立正文，四练习因原梗复述/未核100%/常识取舍缺交付/旧机制换道具NOT_READY，0发布/0提交，无平台障碍。新增157、剩843、基线25合计182、ready0、队列353、最新C353，下一步C354保持。本口径59，0因果对照/0公式升级，不宣称曝光改善。以下断点为历史。
+
+## 最新完成断点 — 2026-10-06T01:38:54.566163Z
+
+round40 C353明确原创设想已单次提交且独立公开详情重载核验：https://x.com/qiluo27808/status/2107283617504453067（9:35 AM · Oct 6,2026，秒null）。新增157、剩843、基线25合计182、ready0、队列353，最新C353，下一步C354。本轮新读1高+1低完整正文和配图，本口径57；0因果对照/0公式升级。另两练习不ready，不补量，无平台障碍，未宣称曝光改善。以下断点为历史。
+
+## 最新执行断点 — 2026-10-06T01:33:55.037425Z
+
+round40新读1高+1低，C353原创设想ready1、队列353、新增仍156；待真实编辑器逐字/截图核对、单次提交和独立详情重载。以下断点为历史。
+
+## 最新执行断点 — 2026-10-06T01:24:37.462329Z
+
+round39新读1高+1低完整独立正文；高帖AX截断，通过四张重叠截图读到末尾，购物算法因果和底价未核，工资90%断言未核。三练习因来源/可猜/消费机制重复NOT_READY，0发布/0提交，无平台障碍。新增156、剩844、基线25合计181、ready0、队列352、最新C352保持，下一步C353。本口径新高56，0因果对照/0公式升级；round35/37/38/39练习不自动改词发布。以下旧断点为历史。
+
+## 最新执行断点 — 2026-10-06T01:13:54.502578Z
+
+round38新读1高+1低完整独立正文；酒店省钱未核，合租稿不能制造独享承诺，室友原创句缺动作/交付，三练习NOT_READY，0发布/0提交，无平台障碍。新增156、剩844、基线25合计181、ready0、队列352、最新C352保持，下一步C353。本口径新高55，0因果对照/0公式升级；round37/round38练习不自动改词发布。以下旧断点为历史。
+
+## 最新执行断点 — 2026-10-06T01:06:32.296859Z
+
+round37新读2高+1低完整正文/配图；三练习未过来源、原创与交付闸门，0发布/0提交，不占C353，无平台障碍。新增156、剩844、基线25合计181、ready0、队列352、最新C352保持。本口径新高累计54，0有效因果对照；截图日期/支付渠道/Parody标签不能当事件核验。下一步C353换新具体素材，round37练习不自动改词发布。以下旧断点为历史。
+
+## 最新完成断点 — 2026-10-06T00:56:48.780735Z
+
+round36两条自拟段子C351/C352已单次发布和独立详情重载核验；新增156、剩844、基线25合计181、ready0、队列352，最新C352 https://x.com/qiluo27808/status/2107273210047943110。新读2高+1低独立完整正文，初期审计加后续新高52这一口径；0有效因果对照。无平台障碍，新帖流量未评估。下一步C353，换不同矛盾与表达，不能连续复制四句对白。以下旧断点为历史。
+
+## 最新执行断点 — 2026-10-06T00:50:58.391189Z
+
+round36新读2高+1低独立全文，C351/C352自拟段子ready2、队列352，新增仍154；待逐条真实编辑器/截图和独立重载。以下断点为历史。
+
+## 最新执行断点 — 2026-10-06T00:42:59.814303Z
+
+round35新读4高浏览+1低浏览独立正文，三条练习质量闸门未通过，不发布不入队。累计新增154、剩846、基线25合计179、ready0、队列350、最新C350保持；下一步仍C351找新素材。原生Chrome正常，无平台障碍。审计见docs/HIGH_VIEW_STRUCTURE_ROUND35_2026-10-06.md；0公式升级，不宣称新帖曝光改善。以下旧检查点为历史。
+
+
+## 最新执行断点 — 2026-10-05T20:56:08.767816Z
+
+本轮C348-C350已逐条提交并独立公开详情重载核验。累计新增154、剩846、基线25合计179、ready0、队列350，最新[C350](https://x.com/qiluo27808/status/2107211704287576364)。下一步C351起新题材；不重发。研究新增4高浏览正文（含2编辑反例）、1较低浏览原帖；R32-HV33复访不新增。详情见docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md。自动任务ACTIVE/每5分钟，无平台障碍，新帖流量未评估。C329保持HOLD_USER_FEEDBACK；C343主帖问题措辞与已核验更正回复、C344编辑版历史保留。以下旧日期检查点均为历史，不沿用其数字或PAUSED状态。
+
+### 2026-10-05T15:55:24.724670Z — C320-C324五条社区冲突发布与高浏览复核
+
+先通过原生可见Chrome复核V03（186261浏览）、V10（1138283浏览）正文与收入格言反例（172浏览），保留时间、出处、不同作者/受众/推广等局限。两条高浏览是既有样本复访，不造新增样本；只取具体可用交付、熟悉处境对照，不能照抄群体概括、亲测或利益承诺。审计作为编辑约束，F01-F05仍HYPOTHESIS。
+
+五条为免费技术帮助变无限客服、旧薪限制新报价、租房真实比价话术、买车的人情成本、半瓶洗衣液与搬家；两个话术注明我拟的和实际条件，社区/博客事实保留旧年份及自述，不编心理、家教、群体规律。没有继续法院或新闻摘要，原页来自V2EX、豆瓣、个人博客。豆瓣另一页明确无访问权限，未重试绕过且排除。
+
+- C320：https://x.com/qiluo27808/status/2107134040684036517（11:41 PM · Oct 5, 2026，秒未知null）。
+- C321：https://x.com/qiluo27808/status/2107134664767045840（11:43 PM · Oct 5, 2026，秒未知null）。
+- C322：https://x.com/qiluo27808/status/2107135304943771941（11:46 PM · Oct 5, 2026，秒未知null）。
+- C323：https://x.com/qiluo27808/status/2107135907187028404（11:48 PM · Oct 5, 2026，秒未知null）。
+- C324：https://x.com/qiluo27808/status/2107136667870183907（11:51 PM · Oct 5, 2026，秒未知null）。
+
+五条均逐字比较真实编辑器中文/标点/段落/原链接并检查截图，各提交一次，独立公开详情重载核对账号、正文、换行、来源、重复、卡片、显示时间。agent_checked=true、human_checked=false。没有上传图片视频；C320/C321/C323提交后生成三个不同原帖标题/摘录/头像卡，编辑器未提供预览移除控件；C322/C324无卡。来源链接渲染为t.co或标题卡，不声称每页展示完整裸URL，头像不是事件证据。C323的母亲顾虑来自OP63楼转述，不是已发生的借款。
+
+C321/C322主页首读缓存仍旧，定位代码报空；先重载才找到新URL，没有重新提交。一个本地变量声明错误已修正，不影响正文或投稿。当前新增129、剩871、基线25、合计154、ready0、队列324、最新C324；下一步C325起。自动任务已工具同步并读回ACTIVE/每5分钟/C324/129，保留failed_runs_only；16项测试通过、完整性核对通过，SQLite审计完成但旧种子样本局限未消除。新帖曝光/关注尚未评估，不因写法更新宣称改善。原始页面、截图和账号指标仅ignored data/private，公开安全来源摘要在data/source_materials_round27_2026-10-05.json。
+
+### 2026-10-05T15:22:58.642757Z — C315–C319：社区具体冲突五条核验
+
+本轮先复盘已记录的32条直接万次浏览样本及局限，没有新增X研究页或声称公式有效。五条分别是借款催还与友情双重标准、七年后买到鞋与热情错位、婚姻承诺延期的时间、被照顾与独立空间、满额绩效只能保住原工资。来源跨V2EX、Chiphell、豆瓣、LINUX DO；旧帖日期、自述属性、作者可见性与反例保留，不编心理因果、传统思想来源或群体规律。只借单一冲突/数字动作/现实代价的结构，不以媒体或来源名代替阅读理由。
+
+- C315：https://x.com/qiluo27808/status/2107125091112988897（11:05 PM · Oct 5, 2026，秒未知null）。
+- C316：https://x.com/qiluo27808/status/2107125714587943028（11:08 PM · Oct 5, 2026，秒未知null）。
+- C317：https://x.com/qiluo27808/status/2107126318748037150（11:10 PM · Oct 5, 2026，秒未知null）。
+- C318：https://x.com/qiluo27808/status/2107128007022542941（11:17 PM · Oct 5, 2026，秒未知null）。
+- C319：https://x.com/qiluo27808/status/2107128421956604097（11:18 PM · Oct 5, 2026，秒未知null）。
+
+五条均真实编辑器逐字比较并查看截图、各提交一次、独立公开详情重新加载复核账号/全文/段落/引号/来源/重复/显示时间。agent_checked=true，human_checked=false。未上传图片视频；C315/C318/C319提交后生成不同原帖标题/摘录/头像卡，编辑器此前无预览移除控件；C316/C317无卡。头像不是事件证据，C315正文明确原帖91楼，卡片描述的是楼主。不能把本轮写成五条无卡。
+
+研究失败：贴吧HTTP403且未核原文，排除；LINUX DO直接HTTP403，Harness请求新增远程调试权限，已取消该提示，未授予新访问；普通未登录原生Chrome正常呈现公开原页，无验证码或登录绕过。集思录二手匿名财务故事、重复休息/父母认可主题均不入稿。来源记录见data/source_materials_round26_2026-10-05.json，原始页面与截图仅ignored data/private。
+
+当前新增124、剩876、基线25、合计149、ready0、队列319，最新C319；下一步C320起新素材。 本轮定时任务已工具同步并读配置确认ACTIVE/每5分钟，保留failed_runs_only。完整性校验通过（319个ID、124个不同发布URL、五份正文/收据匹配）；16项单元测试通过，SQLite审计完成但原有样本局限仍在，未提升公式状态。新帖曝光与关注结果尚未评估，F01-F05仍HYPOTHESIS。每5分钟心跳沿用授权和逐条核验，不重复索权，不把扩展inventory报错当整个原生Chrome不可用。
+
+### 2026-10-05T14:46:50.975832Z — 原生Chrome恢复确认与C313–C314发布
+
+用户问“好了 你看看恢复了吗”。扩展标签列表仍报 `Codex auth token is unavailable`；同一Computer Use的原生 `cua.getApp('com.google.Chrome')` 能正常读到已登录X账号、打开编辑器、完整粘贴并提交。此前把inventory报错等同整个Computer Use不可用，判断范围错误；已纠正，未修改认证、Cookie、权限或绕过平台边界。
+
+C313/C314发布前再次修订并保留旧稿：去掉正文中的内部指标比较，删除来源不支持的“第一次”，区分社区自述与个人判断。两稿逐字比较真实编辑器，AX空行折叠由截图确认；各提交一次、独立详情重载核对全文/账号/段落/引号/来源/显示时间，无重复正文或预览卡。C314短链另经可见点击确认到完整PTT原页面。agent_checked=true，human_checked=false，秒未知null；原始证据留ignored data/private。
+
+- C313：https://x.com/qiluo27808/status/2107118325952348505，10:38 PM · Oct 5, 2026。
+- C314：https://x.com/qiluo27808/status/2107118968750383396，10:41 PM · Oct 5, 2026。
+
+当前新增119、剩881、基线25、合计144、ready0、队列314；下一步研究C315起。自动任务x已由工具同步并读配置复核ACTIVE/每5分钟，保留failed_runs_only；不再用扩展报错反复通知或跳过可用原生路径。此次恢复不等于内容曝光效果已验证，F01-F05仍HYPOTHESIS。
+
+
+### 2026-10-05T09:22:00Z — 高浏览结构复盘与发布断点
+
+用户指出当前内容与阅读量超过1万的帖子吸引力不在同一层级，要求大量复盘后迭代。复核现有32条>10,000浏览样本、12个详情访问和10个正文确认记录，形成 `docs/HIGH_VIEW_STRUCTURE_AUDIT_2026-10-05.md` 与 `data/viral_research_audit_2026-10-05.json`。审计结论仍是编辑约束而非验证公式：高浏览正文通常让读者第一屏就算账、对号入座或站队，然后给一个具体数字/动作/身份支点，再提供可用交付或可回答分歧；V10平台对照、V20房贷差额、V01代际反转、V06效率内耗和V24/V25资源交付均受受众、年龄、分发和主题混杂影响。
+
+C310-C312已完成单次提交与独立详情页核验，C311另有来源定位回复，实际累计新增117、剩余883、基线25、合计142、队列314；C313-C314保留READY_SOURCE_CHECKED且暂停发布，先按审计重写。F01-F05继续HYPOTHESIS，未声称流量、关注或因果。
+
+## Latest verified publication checkpoint — 2026-10-05T08:43:20.998349Z
+
+- C305-C309: five qualified original series published once and independently reloaded/verified through native visible Chrome. Campaign114,remaining886,ready0,queue309,baseline25,total139,latestC309. Next source research C310.
+- Original forum sources are reader-visible. X made title/excerpt/author-avatar cards; five different avatars, no media upload. Preview removal was not exposed in editor; do not claim cards were removed or avatars prove events.
+- Sharper norm/cost judgments, dated self-reports, AA counterexamples, conditional company workload concern; no invented family history, diagnosis or group规律. C307/C308 revised before posting.
+- Browser focus changes, stale profile and unfinished reloads handled by fresh reads; no repeated submission. Earlier PAUSED records are historical; current config ACTIVE/5min. See docs/COMMUNITY_NORMS_PUBLICATION_2026-10-05.md.
+
+## Continuation and source checkpoint — 2026-10-05T08:24:25.302262Z
+
+- User says continue: existing publication authorization persists. Five new community candidates C305-C309 are source/editorial checked, not published. Counts109/891,ready5,queue309.
+- Work presence, spouse/company free labor, parent evaluation, weekend meaning, dating payment: distinct scenes with dated self-report links and bounded editorial judgments. One family-meal page showed a challenge; excluded without bypass.
+- Automation config is ACTIVE with five-minute interval; earlier PAUSED text is historical and will be reconciled in this round. Next native visible editor and independent-detail checks.
+
+## Latest editorial steer — 2026-10-05T04:29:01.980371Z
+
+- User finds C304 insufficiently sharp: examine the unspoken norm, self-judgment and real cost, such as affordable enjoyment still needing to prove usefulness. Keep causal explanations conditional and distinguish the original author's evidence from interpretation.
+- Prefer visible original sources where useful; images/video/link cards may support evidence, not repeated decoration. Classical references require chapter/context; no blanket modern-values attribution to Laozi/Zhuangzi.
+- Updated voice specification and `docs/CONTENT_DEPTH_AND_SOURCES_2026-10-05.md`; one unpublished C304 exercise is not a new publication. Counts remain109/891,ready0,queue304. Next new research is C305; automation remainsPAUSED.
+
+## Current campaign checkpoint — 2026-10-05T03:43:54.890923Z
+
+- C300-C304 published once each through authorized native visible Chrome. Independent public detail reloads matched full text, account, paragraphs, punctuation and no preview cards; agent_checked=true, human_checked=false.
+- Campaign:109 verified new series, baseline25,total134,891 remaining,ready0,queue304,latestC304. Next source research starts C305; no research brief is counted as publication.
+- Mac lock is resolved. Chrome focus changed during verification; fresh state was read before actions. C302 profile initially stale; reload revealed the original, with no second submit.
+- C302-C304 shortened before submission; earlier drafts retained. AX collapses editor blank lines; text comparison accounts for that and screenshots confirm spacing.
+- Automation x observed PAUSED during final sync; preserve this state and five-minute interval. Updated prompt must not retain obsolete lock or ready5 instructions.
+
+### 2026-10-03T06:47:00Z - C295-C299 publication receipt
+
+- C295-C299 each passed visible Chrome editor exact-text comparison, screenshot review, one submit, and an independent public detail-page reload. All five matched the final text, paragraphs, account `@qiluo27808`, and no media or preview card.
+- URLs and displayed times: C295 https://x.com/qiluo27808/status/2106152428467106293 (6:41 AM); C296 https://x.com/qiluo27808/status/2106152987718742384 (6:42 AM); C297 https://x.com/qiluo27808/status/2106153170057761214 (6:43 AM); C298 https://x.com/qiluo27808/status/2106153428011647295 (6:44 AM); C299 https://x.com/qiluo27808/status/2106153891004064090 (6:46 AM), all Oct 3, 2026. Seconds were not displayed and remain null.
+- Campaign is now 104 verified new publications, 896 remaining, ready 0, queue 299, latest C299. C277 duplicate rejection and C286 duplicate-copy repair remain quality records; no bypass was attempted. Next action is new source research from C300.
+
+Checkpoint: 2026-09-30 (2026-09-29T16:23Z UTC). Machine state: `state/task_state.json`. Runtime sample DB is reproducible from the versioned seed and phase-2 imports listed in `README.md`.
 
 GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-engine/issues/1), [reference research](https://github.com/wanggenAi/x-content-growth-engine/issues/2), [original material](https://github.com/wanggenAi/x-content-growth-engine/issues/3), [validation and feedback](https://github.com/wanggenAi/x-content-growth-engine/issues/4).
 
-## Completed
+## Phase 1 completed
 
 - Inspected empty independent repository and available GitHub authorization.
 - Reviewed required reference repositories and Upworthy methods at source level; documented evidence and BUILD/ADAPT/REFERENCE/REJECT decisions.
@@ -18,14 +204,840 @@ GitHub workstreams: [X samples](https://github.com/wanggenAi/x-content-growth-en
 
 ## Evidence gaps
 
-- All seven observations use a single public search-index route. Search results are selection-biased and stale; no claim of live metrics or scalable collection.
+- Most observations use public search indexes. Search results are selection-biased and stale; no claim of live metrics or scalable collection.
 - Author follower counts and most interaction fields are UNKNOWN. No valid normalized reach estimate.
 - No formal propagation hypothesis, replicated finding or experimental support. No user-account performance data.
 - Official X reads charge per resource; no verified free authorized bulk X source. Reddit is excluded pending authorization.
 
+## Phase 2 checkpoint
+
+- Rechecked latest `main` at `9bb29f2`, the four open Issues, no open PR and no existing CI runs before implementation. Continued on `feature/x-research-phase2` in the same repository.
+- Browser Harness v0.1.13 connected to local Chrome. Opened the local capture form and completed one synthetic submission in a temporary DB. It produced zero X research samples. X terms/automation rules do not provide permission for scripted X collection; a blocked policy-gate query is logged in `data/phase2_queries.json`. Details: `docs/BROWSER_RESEARCH_POLICY.md`.
+- Ran thirteen public-search queries across authors, topics and months: five admitted candidate observations, two repeated links, four new unique post IDs versus the original seven. Search often ignored author/month filters or returned trend summaries and a bot reply. Query denominators and failures are versioned. The next exploration target of 30-50 verified originals has **not** been reached.
+- Current local DB after reproducible imports: **11 unique X links**, **13 observations**, **7 authors**. Only **1 original excerpt confirmed**, **7 posts with numeric indexed views** (3 exact-display, 4 approximate; further abbreviated results preserved only in notes), **0 with dated non-index views**, **0 relative-baseline classifications**, **0 ready comparison pairs**. There is no defensible mechanism result or validated formula; no reviewed hypotheses have been imported. The provisional 4 high / 3 ordinary labels remain unqualified.
+- Added schema migration, observation fingerprint dedupe, source and precision fields, query/permission logs, quality report, manual localhost capture form, CSV batch import, structured annotation and pair gates, and JSON/Markdown ChatGPT packet with review-version import. No X account automation or paid API.
+- Independent material line now has **4** first-party/source-checked leads. Three different-topic original candidate drafts in `docs/ORIGINAL_DRAFTS_2026-09-30.md` are explicitly exploratory and unpublished. One document-conversion OCR feature was excluded from the zero-cost route because its official plugin needs a supplied vision model client.
+- Local tests: **16 passed** after migration, provenance, conflict, CSV rollback, review gate and feedback checks. Minimal public-repo standard-runner CI passed on push and PR #5.
+
 ## Next executable work
 
-1. Broaden discovery across author/topic/time queries and manually confirm direct public-page availability; register all failures and query denominators.
-2. Add more ordinary controls from the same authors and time windows; label promotions/quotes and obtain follower information only where publicly and lawfully available.
-3. Independently test and expand the two source-checked materials. Use the packet for human-led research; enter real own-post results only after manual publication.
-4. Only after adequate coverage: preregister structure labels and holdout comparisons, then test hypotheses against independent data.
+1. In the user's normal X interface, manually inspect the two same-author April links in `docs/QUERY_PROBE_2026-09-29.md` plus nearby ordinary posts. Use the localhost form or CSV to record context, comments, promotion, screenshot/time and metric source. Keep private evidence local. Count successful and failed checks and actual time spent.
+2. Focus further discovery on authors with an inspected original and nearby ordinary controls. Thirteen public-search probes produced only four new unique IDs, so do not repeat broad searches without a new coverage hypothesis. Continue query-level denominators and failure logs.
+3. Only after enough confirmed dated observations, add versioned structure annotations and exploratory matched pairs, then preregister a hypothesis and independent holdout. Until then, no formula status promotion.
+4. Continue first-party material verification and user editorial review of three drafts. Import own-post feedback only after user-approved manual publication. Recheck X terms after the announced 2026-10-09 update.
+
+## Work live recovery checkpoint — 2026-09-30T13:21:06.364Z
+
+- Re-read live GitHub: public repository; main `9bb29f2a41daad530130824de71089e2c9ed470a`; PR #5 OPEN, not merged; recovered head `81014f51175651c528f540c641bead1e3570708c`. Issues #1–#4 remain open. Push and PR CI at this head both succeeded.
+- Cloned the existing phase-2 branch; read repository instructions, research documents, schema/code and tests. Re-ran all 16 unit tests successfully and replayed all versioned X/query/material imports. Counts reproduce 11 links, 13 observations, 4 material leads; 1 excerpt confirmation, 0 dated non-index metric samples, 0 READY pairs, 0 reviewed hypotheses. Three existing drafts remain unpublished. No new samples/materials/drafts yet.
+- Actual Work cloud browser opened X official homepage and Reddit public homepage. Both are unsigned; X renders the official sign-in controls, Reddit renders a public feed. No CAPTCHA or site-served bot block was visible in these probes. Secure authentication and manual handoff are advertised; user requested manual official-page credential entry. Login, signed-in research access and session persistence are not yet validated.
+- Work used `mcp__cua_repl` cloud browser; no standalone Browser Harness was installed or invoked. Earlier local Harness results are historical, not this runtime's test. HN/GitHub browser probes are still pending; GitHub connector and clone work.
+- Next: hand off existing X tab for user sign-in, then verify signed-in home/profile/search/post-context access and Reddit. Recheck current platform research scope; the old no-scripted-X-collection gate remains until a specific scope review. Login alone is not data-use permission. Do not label an agent inspection as a human check. Continue first-party material research while restricted paths are pending. Never commit credentials, cookies, personal analytics or private screenshots.
+
+## Local browser and material checkpoint — 2026-09-30T13:56:28Z
+
+- Browser Harness v0.1.13 connected to the user's local Chrome and reached the public GitHub repository, Reddit homepage and Hacker News homepage. GitHub showed the public `main` branch and open PR #5; Reddit showed a public feed without a signed-in session; Hacker News showed public discovery links. No X page was visited because the existing X policy gate still forbids scripted X collection without a separate written scope review.
+- The current CUA inventory exposed Codex in-app browser surfaces but no separate Work cloud browser session. No credentials, cookies or account data were requested or read.
+- Followed two Hacker News discovery links to first-party sources: the OpenAI Dot announcement and Arduino's JBR-001 project page. Added two `SOURCE_CHECKED` leads in `data/phase2_materials_round3.json` and documented their verification questions in `docs/MATERIAL_PROBE_2026-09-30.md`. This adds material leads only; it does not add X samples, Reddit data, a formula, or publication feedback.
+- A fresh temporary SQLite replay of all versioned seed, phase-2 and round-3 material imports reproduces 11 X links, 13 observations, 6 material leads, 0 dated non-index metrics and 0 READY pairs. The new material file imports two records without validation errors.
+
+## Codex publication checkpoint — 2026-09-30T16:15:06Z
+
+- User requested Codex-only execution and explicitly authorized account posting. This overrides the earlier user permission limitation for publishing; no repeat authorization is needed. X platform automation rules still prohibit non-API website scripting. Rechecked https://help.x.com/en/rules-and-policies/x-automation; no approved free posting API integration is configured, so no account action or post was executed. The ambient x.com/home URL does not confirm account identity or login.
+- Created `docs/PUBLICATION_BATCH_2026-10-01.md` and `data/publication_batch_2026-10-01.json`: eight distinct unpublished candidates, three rewritten prior drafts plus five new drafts. Five cite checked original sources; three contain opinions or explicitly hypothetical examples. Drafts do not claim personal experiences, measured growth, or tested formulas. Conservative length estimates fit 280; this is a local estimate, not X composer verification.
+- Added one SOURCE_CHECKED Mathigon educational lead in `data/phase2_materials_round4.json`; reproducible material total becomes seven after import. X links/observations remain 11/13; own publication records remain zero. Runtime database was not modified by drafting.
+- Validation: all 16 unit tests passed; fresh seed/query/material replay reproduced 11 X links, 13 observations, seven materials, zero dated non-index metric samples, zero READY pairs and zero own posts. Eight draft IDs and texts are unique; all records remain UNPUBLISHED with missing publication links/times. Diff whitespace check passed. Draft text remains local pending editorial review; no batch publication or public GitHub push was performed in this checkpoint.
+
+## First real publication checkpoint — 2026-09-30T16:52:18.871873Z
+
+- User explicitly requested Computer Use after authorization and platform-method limits were discussed. Posted P03 (MarkItDown), P02 (urban shade) and P08 (phone choice criteria) through the visible logged-in UI. Each was submitted once and verified against its own public post page. `data/publication_batch_2026-10-01.json` now contains the three actual public links and five unpublished candidates. No purchase, promotion, like, follow, direct message, research collection or account setting change was performed.
+- Saved three screenshots and an account-specific publication log under ignored `data/private/publication_2026-10-01/`. Page publication times have minute precision only; exact seconds remain unknown. Initial agent observations are not human_checked, not a validated outcome, and not imported by fabricating human_reviewed=true. Seed-replay own_posts stays zero; separate verified-account-publication count is three.
+- X research evidence remains 11 links / 13 observations; these own posts are not research samples. Seven material leads remain separate. No propagation formula promotion or growth claim. Next: real subsequent feedback and human review before the existing feedback import; five unpublished drafts remain available.
+- Validation: all 16 unit tests passed; publication audit confirmed three distinct public URLs, three ignored local screenshots, correct remaining-draft count, unknown publication seconds and no fabricated human reviews. Git diff whitespace check passed.
+
+## Second real publication checkpoint — 2026-09-30T17:10:31.059072Z
+
+- User requested more publishing. Posted the five remaining prepared originals (P01 passkey recovery, P04 desktop robot, P05 mathematical origami, P06 constrained AI recommendations, P07 full-workflow timing) through native Computer Use in the user’s local Chrome. The existing in-app tab inventory was available, but its accessibility and fallback DOM reads timed out before any posting action. Native Chrome showed the same previously authorized account. Each new post was submitted once and verified by opening its actual status link. Eight original candidates now have agent-verified public publication URLs; zero prepared candidates remain unpublished.
+- Account-specific logs and five new screenshots stay under ignored `data/private/publication_2026-10-01/`. Publication times are retained as displayed minute values with seconds unknown; no fabricated human checks or human-reviewed feedback imports. No paid promotion, account settings, likes, follows, direct messages, research scraping or scheduled publishing.
+- X research counts remain 11 links / 13 observations, materials remain seven and reviewed-feedback seed count remains zero. Account-publication manifest count is eight and remains distinct from research evidence. No exposure, follower-growth or formula validation claim. All 16 unit tests passed; evidence audit confirmed eight distinct URLs, eight ignored screenshots, zero unpublished candidates, unknown timestamp seconds and no fabricated human reviews. Diff whitespace check passed.
+
+## Night practical-content checkpoint — 2026-09-30T17:20:30.363168Z
+
+- User requested dozens of practical, well-supported, clear and humorous posts while sleeping. Prepared 30 new distinct originals P09–P38, each citing official documentation, in `data/publication_batch_2026-10-01_night.json` and the copy-ready Markdown document. No invented personal experience, metrics or tested growth outcome. Source notes preserve the verified action, platform/version limitations and UTC check time. These editorial-source records are separate from the X research and imported material tables.
+- Native Computer Use returned MAC_LOCKED_MANUAL_UNLOCK_REQUIRED before account inspection or composition; automatic unlock was paused following physical input. No account submission was attempted. This batch has zero publications, 30 unpublished drafts; the prior eight verified publications remain unchanged. A manual device unlock, not additional publishing authorization, is needed to resume. No lock bypass, security setting change or alternate posting API was attempted.
+- Verified the two Python JSON commands against a synthetic temporary file, confirming equal parsed content and unchanged input bytes. Remaining instructions are verified from vendor documentation, not represented as hands-on tests. Conservative post length estimates include X URL weighting; actual composer acceptance remains untested.
+- Validation: 16 unit tests passed, exact-command smoke checks passed, batch integrity audit passed (38 unique IDs/texts; 8 previously published and 30 new unpublished; missing publication fields preserved), and git diff whitespace check passed. Existing runtime audit still has 11 X links/13 observations, four imported material leads and zero reviewed own posts; seven materials is the previously verified full seed-replay total. This batch does not modify the runtime database, add research observations or validate a growth formula.
+
+## Source-led virality research checkpoint — 2026-09-30T23:40:53.249668Z
+
+- User corrected the objective: reach/virality research, not humor for its own sake. Stopped H10–H12 after publishing H01–H09 through user-authorized visible native Chrome. Nine distinct public links are recorded in the batch manifest; total verified account publications is 17, with 33 prepared candidates still unpublished. No inferred growth effect, no fabricated human review and no feedback DB import. Account-specific notes remain ignored locally.
+- Inspected the public Virality-Prediction README and feature/regression/prediction scripts. Its pipeline uses fixed delayed retweet outcomes and account/entity/text features, but the sample is three-day random English tweets and the old model uses random split. Recorded transfer limits, author/time holdout, ordinary controls, fixed observation windows, interpretable baselines and counterexamples in `docs/VIRALITY_RESEARCH_OPEN_SOURCE.md`.
+- Added four source-checked open-source/paper leads in `data/phase2_materials_round5.json`, separate from X observations, own publication results and formula hypotheses. Full reproducible material total becomes 11. No model dependencies installed, no paid API/cloud integration, no third-party social-account tool run and no formula status promoted.
+
+## Cross-community methods and source-led pilot checkpoint — 2026-09-30T23:57:16.579868Z
+
+- Expanded source work to eight pinned repository revisions and ten Reddit/LINUX DO method leads, seven original community pages read and three index-only leads whose original fetch failed. Public GitHub REST and small static source reads only; no social extensions installed, third-party account tools run, corpus downloads, Reddit bulk collection/training or paid integration. Captured source copies remain private; safe links and original short findings are versioned in `data/virality_method_registry_2026-10-01.json`. HN public search was used as an additional discovery probe, without admitting new experimental evidence.
+- Checked current xai-org/x-algorithm revision 77d431aabf409ca1c1eed9bec7e2183f7c914e23 and ranking source: weights multiply predicted action probabilities/continuous values rather than raw interaction totals. Read temporal/multimodal research schemas, retrieval code and random-split limitations. Primary Upworthy June 2024 update warns about a possible assignment issue affecting approximately 22% of archived experiments and discourages causal confirmation in the affected date interval. These sources are methods and constraints, not a verified Chinese X writing formula.
+- Added four further method materials in round6; full seed replay now reproduces 15 materials, 11 external X links, 13 observations, zero READY pairs, zero dated external metrics and zero reviewed own-post feedback. Prepared three comparison mechanisms as a plan, not a registered or completed experiment, in `data/next_publication_experiment_2026-10-01.json`. The account retains broad topic scope; individual topic blocks must be comparable.
+- Published R01 as a source-led factual correction about misreading X ranking weights. Verified actual body, source card, public status URL and displayed time 07:53 Asia/Shanghai on the detail page; minute UTC is 2026-09-30T23:53Z, exact seconds unknown. Screenshot and initial observation remain ignored locally. Total agent-verified account publications: 18 (8 prior, 9 human-style, 1 source-led). No performance effect, formula promotion or fabricated human review.
+- Previous 30 night drafts are retained as superseded, and H10–H12 remain unpublished. They are not the current publication queue. Corrected unreliable exact creation/observation timestamps to unknown rather than fabricate precision.
+- Validation: 16 tests passed; full fresh seed replay confirmed stated counts; method-material validation, publication integrity/URL uniqueness audit and diff whitespace checks passed. Runtime database remains separate from versioned evidence and is not overwritten by editorial/source planning.
+
+### 2026-10-01T00:12:06.509880Z — Explicit visible research scope
+
+User requested broad Browser Harness research of actual >10,000-view X posts and source-led original publication. Recorded bounded local visible-interface scope in BROWSER_RESEARCH_POLICY.md; platform approval remains unconfirmed. Official policy documents added as one material category; censorship claims require independent evidence. No new sample or publication claimed at this checkpoint.
+
+### 2026-10-01T00:23:32.433662Z — Direct visible viral research
+
+6 thematic Browser Harness X searches yielded 46 >10k candidates; analyzed 32 posts from 29 authors and visited 12 detail URLs (one opens a long article). 8 author comparison searches inspected 68 posts; retained 10 nonreply lower-view exploratory comparisons. Date filters were not respected and comparisons are younger: zero causal-ready pairs. Preserved raw metric labels, UTC and agent-vs-human distinction. Five HYPOTHESIS grammars plus a distribution confound rule; no validated formula. Four independently sourced original drafts prepared. R02 submitted once; public result verification pending at this checkpoint.
+
+### 2026-10-01T00:27:56.261716Z — Four source-led originals published and verified
+
+R02 wallet field experiment, R03 LocalSend, R04 official AI-label document and R05 NASA DART study all published once through authorized native Chrome Computer Use. Four independent detail URLs, full source-linked text, minute-resolution publication time and private screenshots/log saved. Verified account publication total now 22; reviewed feedback DB remains zero. 16 tests passed; existing runtime audit still describes older seed data and does not count the separate 32-agent-sample JSON. No growth result or validated formula claimed.
+
+### 2026-10-01T00:30:29.274795Z — Reviewable GitHub checkpoint
+
+Research, formulas and four-publication manifests pushed at acd29fbf2acebe2cf8f941610d2d5444c7bb3fb8. Both push and PR CI succeeded (36796423521 and 36796425582). Updated PR #5 title/body to reflect final evidence and limits; PR remains open and unmerged. This final metadata update records the tested SHA, not a claim of validated growth.
+
+### 2026-10-01T00:59:29.277954Z — Research-before-publication continuation
+
+User requests continued research until justified confidence before further posting. Preregistered F01/F02 feature definitions, independent-author exclusions, mature same-author/near-date comparisons and counterexamples. Confidence is an editorial evidence judgment, not an invented probability or guaranteed future view count. No new publication attempted.
+
+### 2026-10-01T01:15:04.507227Z — Independent comparison checkpoint and continued research
+
+Second stage observed 208 unique X links / 74 authors (70 disjoint from all prior samples), 89 above 10k; reviewed 28 structures and visited 9 detail links (2 open long articles). 78 age/coarse-form pair candidates fail full topic/form/source matching for mechanism conclusions; zero valid causal pairs and no formula promotion. Added mature failure leads, content-dependence examples and an unvalidated predictor audit. Early feedback for 5 recent own posts saved privately; insufficient distribution to calibrate virality. Two primary-source candidates remain unpublished under the user research-first confidence condition. Created and activated current-chat heartbeat automation x every two hours to continue bounded evidence work and feedback review; posting stays conditional on the documented confidence gate, with no paid/cloud integration.
+
+Validation for this checkpoint: all 16 tests passed; stage-two URL/metric/UTC/maturity/provenance integrity checks passed; both candidates remain unpublished and within the weighted 280-character limit; local continuation configuration verified ACTIVE; diff whitespace check passed. Public summaries contain no raw account analytics or private screenshots.
+
+### 2026-10-01T01:20:14Z — Second-stage reviewable GitHub checkpoint
+
+Evidence and decisions committed and pushed at c793a8d188eadba5d81ea4c409ce2047dfec5feb. Both push CI (36800561691) and PR CI (36800565077) succeeded. PR #5 description updated for the final comparison batch and conditional continuation; remains open/unmerged. This metadata records the tested evidence SHA, not a validated viral result. No new account publication.
+
+### 2026-10-01T01:23:40.265674Z — Public-figure contrast and gradual publication steering
+
+User adds historical public-figure contrast and explicitly permits gradual dozens/hundreds of originals. Preserve the earlier unmet high-confidence research decision; proceed with a small source-checked publication test under the newer instruction, without claiming causal formula validation or future viral probability. R06–R08 ready; R08 uses an attributable Stanford interview and labels commentary/history limits. Six visible searches inspected 27 links (19 displayed >10k); most do not establish this mechanism. No fake photos, personal allegations or decontextualized quotes will be used.
+
+### 2026-10-01T01:30:28.705173Z — Three gradual tests published and verified
+
+R06, R07 and R08 submitted once each through authorized native Chrome UI and verified on independent detail pages at displayed 09:24, 09:25, 09:26 Asia/Shanghai. Actual URLs in publication_candidates_stage2; seconds unknown; private screenshots and AX logs retained. Total verified publications 25, growth effects unknown. New F06 research: 27 observed links, 19 threshold-eligible, five structural reviews, four detail visits, zero causal pairs; historical source failures and missing dates preserved. Heartbeat x updated and verified ACTIVE for gradual 1–2 source-checked tests per run, not conditional on falsely achieving causal confidence. Latest user steer changes the publishing workflow; previous evidence conclusions remain intact.
+
+Validation: 16 tests passed; three-publication and 27-observation integrity checks passed; each screenshot/AX file is ignored. Existing SQLite audit remains its older 11 links/13 observations/four materials/zero reviewed own posts; separate new agent records were not imported as human-reviewed results. Diff whitespace check passed.
+
+### 2026-10-01T01:32:57.239616Z — Gradual publication evidence CI checkpoint
+
+Safe research/publication records pushed at 8432e625a70431a2b4a02ff1640076a08d88c278; push CI 36801568976 and PR CI 36801570390 both succeeded. PR #5 updated and remains open/unmerged. Local scheduled continuation ACTIVE; 25 agent-verified publications, zero validated viral formulas. This metadata records the tested evidence SHA.
+
+### 2026-10-01T01:45:12.244160Z — Explicit 200 further-publication campaign
+
+User asks at least200 posts and ongoing larger-scale work, adding past glory/current decline/death as another contrast dimension. Created200 distinct work items,13 source-checked ready originals and187 pending-research briefs, not200 completed manuscripts or publications. Baseline25; target200 further originals/225 total. Historical deaths and decline require attributable dated records; do not turn them into fabricated breaking news. Source notes separate factual evidence and editorial interpretation.
+
+### 2026-10-01T02:08:00Z — Campaign batch verified through C017
+
+C014–C017 were submitted once each through the user-authorized visible Chrome UI and independently verified on their X detail pages. The 200-post campaign now has **17 agent-verified new publications**, **42 cumulative verified account publications** (baseline 25), **0 ready unposted items**, and **183 research-pending briefs**. C017 is the Einstein Nobel citation correction and links the Nobel primary record; displayed posting time is 10:07 Asia/Shanghai, with seconds unavailable. Views, engagement and formula effects remain unknown; no virality claim is made. Historical death/decline angles remain conditional on dated public records and are not treated as current breaking news.
+
+Validation for this checkpoint: campaign manifest integrity and unique URL checks passed; private screenshots/AX logs remain ignored; existing research tables remain separate from own-publication records.
+
+### 2026-10-01T02:37:00Z — Two source-checked originals added
+
+C019 and C020 were posted once each through visible Chrome and returned X's “Your post was sent” confirmation. C019 cites the Nobel 2015 medicine summary for Tu Youyou; C020 cites the NASA-hosted Presidential Commission report for the Challenger timeline. The campaign now has **19 agent-verified new publications**, **44 cumulative verified account publications**, **0 ready unposted items**, and **181 research-pending briefs**. No view or engagement outcome is used as a causal result.
+
+### 2026-10-01T02:40:00Z — Broader creator range and explicit editorial hypothesis
+
+C021 was posted once through visible Chrome and returned the visible send confirmation. It is an explicitly labeled “暴论” writing hypothesis about recitable wording and evidence, not a measured ranking rule. The campaign now has **20 agent-verified new publications**, **45 cumulative verified account publications**, and **180 research-pending briefs**. Future batches expand to medium-known creators, entertainers, streamers, entrepreneurs and controversial public figures, with factual status claims still requiring attributable records.
+
+### 2026-10-01T03:16:16Z — Publication-quality incident repaired and user steering persisted
+
+**Correction to the preceding C019–C021 checkpoints:** the send confirmations established submissions only; their claimed body verification was wrong. Actual published CJK characters were missing, leaving quotes/digits. Initial repair attempts changed displayed DOM without reliably changing editor state, producing repeated text/misplaced links. Native paste into the focused real editor resolved this. No further new post was submitted while repairs were unresolved.
+
+- C019 final edited version: https://x.com/qiluo27808/status/2105495699974758757 (displayed last edit 11:11 Asia/Shanghai).
+- C020 final edited version: https://x.com/qiluo27808/status/2105495079918194726 (displayed last edit 11:08 Asia/Shanghai).
+- C021 final edited version: https://x.com/qiluo27808/status/2105492753719447767 (displayed last edit 10:59 Asia/Shanghai).
+
+All three were reloaded independently. Their non-link body text matches the clean draft after whitespace normalization; nonempty paragraphs are unique. Screenshots were captured and inspected for text and link placement; raw observations stay ignored/private. Original and failed intermediate URLs are retained in the manifest. Minute posting/edited timestamps replace the earlier mistaken times; seconds remain unknown. Twenty different campaign post series /45 total remain, not more posts for edits. C021 is editorial opinion, not a source-confirmed scientific claim. Repeated source-material IDs were consolidated without inventing extra evidence; title variants retained.
+
+Persisted all substantive user requests through this point in docs/USER_DECISION_LOG.md and docs/CONTENT_VOICE_AND_WORKFLOW.md; AGENTS.md now requires reading them at resume. Latest steering includes broad social/creator/controversial-person topics, specific oral 根哥 voice, no parental/AI tone, grammatically coherent text and no repetition, explicit opinion hooks, source checks, natural relevant replies, less account-monitoring overhead and Browser Harness preference within method boundaries. Unknown “Keybo” identity remains unresolved, not guessed. Automation x updated ACTIVE to read these documents and enforce editor-before-send plus public-body-after-send checks.
+
+### 2026-10-01T03:56:58Z — Repair checkpoint audited
+
+Campaign manifest and state counts agree at 20 new verified series / 45 cumulative / 180 research-pending. The repository test suite passed (`16` tests). `python3 -m growth_engine audit` completed with known limitations: the research sample is below exploratory targets, available X view counts are stale search-index snapshots, and follower counts are unknown; no formula validation or virality claim is made. A first integrity check exposed only the historical `url` versus repair-era `final_url` field difference; the compatibility-aware check passed with 20 unique active URLs. No new publication was added in this checkpoint.
+
+### 2026-10-01 — User expanded the publication target to 1000
+
+User now explicitly requires at least 1000 posts and says to keep expanding. This checkpoint interprets that as **1000 additional distinct original post series**, counting the current 20 campaign publications toward that number; baseline is 25, cumulative target 1025, remaining 980. Keep the staged 200-item manifest as the current work queue rather than inventing 800 content placeholders.
+
+Publication attempt blocked by editor input failure. The active account was visibly @qiluo27808. Browser Harness read the official YouTube 2021 dislike-count announcement. In native visible Chrome, paste timed out and keyboard input delivered only digits/Latin/link, omitting Chinese text; the malformed editor draft was cleared before submission. No new post was submitted. One stale UI-node click opened a timeline menu and marked one recommended post “not interested”; it did not affect account content or submit a post. Preserve this as a tool/UI incident and fix the input route before resuming publication.
+
+### 2026-10-01T05:09:10Z — C201 source-checked candidate and input blocker
+
+C201 is saved as one source-checked, unpublished candidate. The official YouTube page was reopened through Browser Harness and checked at 2026-10-01T05:09:10Z; date, retained dislike button, Studio exact counts and platform-reported experiment findings match the source. The text is 246 raw characters, approximately 194 weighted characters under the campaign estimate, with no duplicate paragraphs. Counts: 20 published campaign series, 1 ready, 180 research-pending; 201 rolling work items. New-publication target remains 1000, so 980 verified original series remain.
+
+### 2026-10-01T05:27:17Z — C201 published and independently verified
+
+C201 was submitted once through the visible Chrome editor after the complete Chinese body, paragraph breaks, source URL and generated preview card were checked in the editor. The independent public detail page https://x.com/qiluo27808/status/2105529851369365928 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the YouTube source card and the displayed minute 1:26 PM · Oct 1, 2026. Seconds are unknown. Counts are now 21 published campaign series, 0 ready, 180 research-pending, 201 rolling work items; 979 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T05:34:57Z — C202 source-checked candidate
+
+C202 is a new source-checked, unpublished candidate based on the official OpenAI Dot announcement. The source was reopened with Browser Harness at 2026-10-01T05:34:57Z; the draft separates OpenAI's product claims about continued work, permissions and approvals from the editorial view that automation needs a stopping rule. No capability, account-access or safety outcome is claimed. Counts: 21 published, 1 ready, 180 research-pending; 202 rolling work items and 979 remaining new publications.
+
+### 2026-10-01T05:37:46Z — C202 published and independently verified
+
+C202 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and OpenAI preview card. The independent public detail page https://x.com/qiluo27808/status/2105532526794265012 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the openai.com source card and the displayed minute 1:37 PM · Oct 1, 2026. Seconds are unknown. Counts are now 22 published campaign series, 0 ready, 180 research-pending, 202 rolling work items; 978 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T05:40:00Z — C203 source-checked candidate
+
+C203 is a new source-checked, unpublished candidate based on the U.S. Courts educational page about federal civil cases. Browser Harness rechecked the page at 2026-10-01T05:40:00Z; it distinguishes filing a complaint from later evidence, trial or settlement. The post is framed as a general media-reading rule, not a claim about a named case or another jurisdiction. Counts: 22 published, 1 ready, 180 research-pending; 203 rolling work items and 978 remaining new publications.
+
+### 2026-10-01T06:03:04Z — C203 published and independently verified
+
+C203 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and U.S. Courts preview card. The independent public detail page https://x.com/qiluo27808/status/2105538781051048447 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the uscourts.gov source card and the displayed minute 2:02 PM · Oct 1, 2026. Seconds are unknown. Counts are now 23 published campaign series, 0 ready, 180 research-pending, 203 rolling work items; 977 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T07:40:00Z — C204 source-checked candidate
+
+C204 is a new source-checked, unpublished candidate based on a Bureau of Labor Statistics table. Browser Harness opened the official table and confirmed the August 2025 versus August 2026, not-seasonally-adjusted values; the draft keeps total and industry rows separate and does not infer causes or personal experience. Counts: 23 published, 1 ready, 180 research-pending; 204 rolling work items and 977 remaining new publications.
+
+### 2026-10-01T07:39:05Z — C204 published and independently verified
+
+C204 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and BLS preview card. The independent public detail page https://x.com/qiluo27808/status/2105562976497664157 was reloaded and showed account @qiluo27808, all four body paragraphs without duplication, the bls.gov source card and the displayed minute 3:38 PM · Oct 1, 2026. Seconds are unknown. Counts are now 24 published campaign series, 0 ready, 180 research-pending, 204 rolling work items; 976 verified original series remain toward the 1000-new target.
+### 2026-10-01T08:10:00Z — C205 source-checked candidate
+
+C205 is a source-checked, unpublished candidate based on the FTC’s official March 10, 2025 release on 2024 fraud reports. Browser Harness confirmed the release date and figures: reported losses above $12.5 billion, 25% year-over-year increase, stable report volume, and the share reporting monetary loss rising from 27% to 38%; investment-scam losses were $5.7 billion. The draft labels its recovery-scam interpretation as editorial opinion rather than an FTC causal finding. Counts: 24 published, 1 ready, 180 research-pending; 205 rolling work items and 976 remaining new publications.
+
+### 2026-10-01T09:16:26Z — C205 published and independently verified
+
+C205 was submitted once after the visible editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105587426458849557 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 5:15 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 25 published campaign series, 0 ready, 180 research-pending, 205 rolling work items; 975 verified original series remain toward the 1000-new target.
+
+### 2026-10-01T11:00:00Z — C206 source-checked candidate
+
+C206 is a source-checked, unpublished candidate based on the FTC’s March 11, 2026 official release and Negative Option Rule page. Browser Harness confirmed the FTC’s description of negative-option billing, its statement that related complaints exceeded 100,000 over five years, and its request for comment on possible rule changes. The draft treats “cancellation difficulty as design” as an editorial view, not an FTC causal conclusion. Counts: 25 published, 1 ready, 180 research-pending; 206 rolling work items and 975 remaining new publications.
+
+### 2026-10-01T11:05:00Z — C206 publication blocked by Chrome read timeout
+
+C206 remains READY_TO_PUBLISH and was not submitted. The existing Chrome X tab was visible in the browser inventory, but two attempts to bind/read the X home composer timed out. No editor body was obtained, no click on Post was made, and the campaign remains at 25 published, 1 ready, 180 research-pending, 206 rolling work items; 975 remain toward the 1000-new target. Resume only after the visible editor can be read and the body gate passes.
+
+### 2026-10-01T11:39:20Z — C206 published and independently verified
+
+C206 was submitted once after the window-level visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and FTC preview card. The independent public detail page https://x.com/qiluo27808/status/2105623301343322237 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the ftc.gov source card and the displayed minute 7:38 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 26 published campaign series, 0 ready, 180 research-pending, 206 rolling work items; 974 verified original series remain toward the 1000-new target.
+
+
+### 2026-10-01T13:45:31Z — C207 source-checked candidate
+
+C207 is a source-checked, unpublished candidate based on the Consumer Financial Protection Bureau’s January 13, 2025 official research release. Browser Harness opened the archived government page and confirmed the 2022 matched-sample figures: 21.2% used BNPL, about 63% held simultaneous BNPL loans at some point during the year, and 33% borrowed from multiple providers. The draft keeps “many small payments dull the feeling of spending” and “consumption getting out of control” as editorial judgments, not CFPB causal findings. Counts: 26 published, 1 ready, 180 research-pending; 207 rolling work items and 974 remaining new publications.
+
+
+### 2026-10-01T13:48:21Z — C207 published and independently verified
+
+C207 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and CFPB preview card. The independent public detail page https://x.com/qiluo27808/status/2105655917723447695 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the consumerfinance.gov source card and the displayed minute 9:47 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 27 published campaign series, 0 ready, 180 research-pending, 207 rolling work items; 973 verified original series remain toward the 1000-new target.
+
+
+### 2026-10-01T14:38:02Z — C208 source-checked candidate
+
+C208 is a source-checked, unpublished candidate based on a 2020 peer-reviewed article in Psychol Res Behav Manag. Browser Harness opened the PMC reader page and confirmed the study’s comparison between participants’ estimates of how much conversation partners liked them and partners’ actual ratings after brief interactions; the reported result was systematic underestimation. The draft keeps the sample and short-interaction boundary visible and frames the “both waiting for proof” line as editorial voice. Counts: 27 published, 1 ready, 180 research-pending; 208 rolling work items and 973 remaining new publications.
+
+
+### 2026-10-01T14:40:35Z — C208 published and independently verified
+
+C208 was submitted once after the visible Chrome editor showed the complete Chinese body, paragraph breaks, source URL and PMC preview card. The independent public detail page https://x.com/qiluo27808/status/2105668972058439739 was reloaded and showed account @qiluo27808, all five body paragraphs without duplication, the pmc.ncbi.nlm.nih.gov source card and the displayed minute 10:39 PM · Oct 1, 2026 (Asia/Shanghai). Seconds are unknown. Counts are now 28 published campaign series, 0 ready, 180 research-pending, 208 rolling work items; 972 verified original series remain toward the 1000-new target.
+
+- 2026-10-01T15:40:00Z checkpoint: 用户要求继续扩大到1000条，但本轮按最新偏好优先日常人性与社交，减少科技和高大上题材；新增来源候选 CAM-C029（APS官方摘要，聚光灯效应），生成 C209 READY_TO_PUBLISH。未将研究候选冒充已发布。
+
+- 2026-10-01T15:41:49Z checkpoint: C209 已通过可见 Chrome 编辑器逐字检查并提交；独立详情页重新加载核验全文、换行、账号、APS 来源卡和显示时间（11:41 PM · Oct 1, 2026）。URL: https://x.com/qiluo27808/status/2105684538559238351。新增已核验29条，剩余971条。
+
+- 2026-10-01T17:22:34Z checkpoint: 按用户“继续、不做完别停”要求，继续优先日常人性与自我评价；新增来源候选 CAM-C030（Scientific Reports 2019 / Europe PMC 官方摘要），生成 C210 READY_TO_PUBLISH。
+
+- 2026-10-01T17:27:15Z checkpoint: C210 已通过可见 Chrome 编辑器逐字检查并提交；独立详情页重新加载核验全文、换行、账号、Europe PMC 来源卡和显示时间（1:26 AM · Oct 2, 2026）。URL: https://x.com/qiluo27808/status/2105710920249090056。新增已核验30条，剩余970条。
+
+- 2026-10-01T17:44:30Z checkpoint: 继续队列；新增 CAM-C031（Jecker-Landy 1969 论文书目与APA索引摘要），生成 C211 READY_TO_PUBLISH，主题为关系中的小请求与分寸。
+- 2026-10-01T17:51:13Z checkpoint: C211 已通过可见 Chrome 编辑器逐字核对并提交；独立详情页重载核验正文、换行、账号 @qiluo27808、journals.sagepub.com 来源卡片和显示时间（1:50 AM · Oct 2, 2026）。秒数未知。新增已核验31条，剩余969条。
+- 2026-10-01T19:42:17Z checkpoint: 按当前接地气方向新增 CAM-C032（PLoS One 2016 日常对话手机传感研究），生成 C212 READY_TO_PUBLISH。研究记录36名参与者的473次对话；编辑稿保留小规模探索性边界，区分“参与者享受度”与“对方喜欢程度”。队列212项，已核验31条，剩余969条。
+- 2026-10-01T19:44:52Z checkpoint: C212 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（3:44 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验32条，剩余968条。
+- 2026-10-01T21:42:30Z checkpoint: 按当前人性与关系方向新增 CAM-C033（PLoS One 2023 “Feeling heard”研究），生成 C213 READY_TO_PUBLISH。研究用两次调查（N=194、N=1000）定义并验证“被听见”量表；编辑稿区分被听见、同意和赢得争论，队列213项，已核验32条，剩余968条。
+- 2026-10-01T21:45:04Z checkpoint: C213 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（5:44 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验33条，剩余967条。
+- 2026-10-01T22:53:09Z checkpoint: 按用户“继续”要求，新增 CAM-C034/C214，来源为 Emotion 2008 同行评议全文。研究观察大学社团的 Big Sister Week（160人、496次事件记录），编辑稿聚焦“被具体想到”和感激/关系评价的关联，保留特定校园仪式与相关性边界；C214 待可见编辑器核验。队列214项，已核验33条，剩余967条。
+- 2026-10-01T22:55:30Z checkpoint: C214 已通过可见 Chrome 编辑器逐字检查并提交；独立公开详情页重载核验正文、段落、账号 @qiluo27808、pmc.ncbi.nlm.nih.gov 来源卡片和显示时间（6:55 AM · Oct 2, 2026），没有重复段落；秒数未知。新增已核验34条，剩余966条。
+- 2026-10-02T00:00:00Z checkpoint: 用户新增选题方向为人性的阴暗面和中国公开但容易被忽略的消息。后续素材优先覆盖利益、推责、冷漠、自我合理化等可核对机制；中国题材限定公开政策原文、公告或可靠报道，不把匿名传闻或“为人不知”本身当成事实。下一候选需先完成来源核对，再走可见编辑器与独立详情页双重验证。
+- 2026-10-01T22:58:36Z checkpoint: 按用户新增的“人性阴暗面”方向，新增 CAM-C035/C215，来源为 PLoS One 2018 同行评议全文。候选聚焦工具性道歉和被怀疑不真诚时的惩罚反应，区分真诚认错与把道歉当免责卡；不把实验结论扩写成所有道歉或所有惩罚的规律。C215 待可见编辑器核验。
+- 2026-10-01T23:05:36Z checkpoint: C215 已通过真实可见编辑器逐字检查并提交；独立公开详情页 https://x.com/qiluo27808/status/2105796210858811694 重载核验全文、换行、账号 @qiluo27808、PMC 来源卡、无重复段落和显示时间（7:05 AM · Oct 2, 2026，秒数未知）。当前新增已核验35条，剩余965条，队列215项。下一步继续研究人性阴暗机制或中国公开但容易被忽略的记录，保持来源与观点边界。
+- 2026-10-02T00:00:00Z checkpoint: 用户要求每5分钟至少发布10条。按项目的人工作业、逐条可见编辑器核验和平台边界，记录为不可执行的无人值守批量节奏；继续每轮最多5条合格原创，不能用定时脚本或批量自动化替代核验。
+- 2026-10-01T23:58:09Z checkpoint: 按用户新增的人性阴暗面与中国公开但容易被忽略的消息方向，新增 CAM-C036/C216。江门市人力资源和社会保障局2024-08-05页面公开2024年上半年36宗立案、为620名劳动者追发759.1万元、5宗列入失信联合惩戒，并列出具体欠薪案件；稿件把“被公开点名才被看见”标为个人判断，不扩写为全国规律。
+- 2026-10-02T00:03:17Z checkpoint: C216 已通过窗口级可见 Chrome 编辑器逐字检查和截图；一次提交后从账号主页打开独立公开详情页，核对完整正文、换行、账号 @qiluo27808、jiangmen.gov.cn 来源链接、无重复段落和显示时间（8:02 AM · Oct 2, 2026，秒数未知）。当前新增已核验36条，剩余964条，队列216项。
+- 2026-10-02T00:38:27Z checkpoint: 用户要求把自动化从每2小时改为每5分钟。已将 automation_id=x 的 heartbeat rrule 更新为 FREQ=MINUTELY;INTERVAL=5，并同步状态文件。心跳频率改变不等于无人值守批量发布；仍按每轮最多5条、逐条编辑器全文和独立详情页核验执行。
+- 2026-10-02T01:58:56Z checkpoint: 按用户“快现在就发布”要求，新增 CAM-C037（北京市人社局2024-06-28官方公告）并完成 C217。可见 Chrome 编辑器逐字核对正文与截图后单次提交；独立公开详情页 https://x.com/qiluo27808/status/2105836711972601871 重载核验完整正文、换行、账号 @qiluo27808、rsj.beijing.gov.cn 来源链接、无重复段落和显示时间（9:46 AM · Oct 2, 2026，秒数未知）。当前新增已核验37条，剩余963条，队列217项；浏览器原生粘贴已恢复，本轮未使用 DOM 或隐藏接口。
+- 2026-10-02T02:24:37Z checkpoint: 继续队列，使用已核对的 Duke University Scholars / CAM-S006 四项组装研究，生成并发布 C218《舍不得扔，有时是舍不得承认买错了》。可见 Chrome 编辑器逐字核对与截图通过，单次提交；独立详情页 https://x.com/qiluo27808/status/2105846051194519579 重载确认全文、换行、账号 @qiluo27808、scholars.duke.edu 来源链接、无重复段落和显示时间（10:23 AM · Oct 2, 2026，秒数未知）。当前新增已核验38条，剩余962条，队列218项；清单中实际待研究条目为180项。
+- 2026-10-02T02:34:25Z checkpoint: 继续队列，使用已核对的心理科学学会官方摘要 / CAM-C029 聚光灯效应材料，生成并发布 C219《最尴尬的时刻，通常只在自己脑子里循环播放》。可见 Chrome 编辑器逐字核对、截图和 APS Journal Article 卡片通过，单次提交；独立详情页 https://x.com/qiluo27808/status/2105848527826170246 重载确认全文、换行、账号 @qiluo27808、psychologicalscience.org 来源卡、无重复段落和显示时间（10:33 AM · Oct 2, 2026，秒数未知）。当前新增已核验39条，剩余961条，队列219项。
+### 2026-10-02T02:44:21Z — C220 发布并独立核验
+
+继续人性与消费方向，使用已核对的 CFPB 官方 2022 年 BNPL 研究（CAM-C027），从“已经付了第一期”与沉没成本的日常感受切入。可见 Chrome 编辑器逐字显示中文、段落、引号和来源链接并截图确认；单次提交。独立详情页 https://x.com/qiluo27808/status/2105851175098892568 重载确认正文五段、无重复、账号 @qiluo27808、consumerfinance.gov 来源卡片和显示时间（10:43 AM · Oct 2, 2026，秒数未知）。Browser Harness 本轮因本机守护进程目录权限失败，未用于 X 账号操作；按既定边界使用可见 Chrome 完成发布核验。当前新增已核验40条，累计账号核验65条，剩余960条，队列220项；测试待运行。
+
+### 2026-10-02T03:20:04Z — C221 发布并独立核验
+
+按用户要求继续接地气的人性阴暗面方向，使用公开可见的 r/AskReddit 热榜问题作为结构素材。捕获时页面显示约 22K votes、2.9K comments；这些是近似 UI 数值，评论内容未作为事实使用，标题中的 Mike Tyson 引用本轮也未独立核验。可见 Chrome 编辑器逐字显示正文、中文标点、段落和 Reddit 来源链接并截图确认，单次提交。独立公开详情页 https://x.com/qiluo27808/status/2105858455378772254 重载确认全文、五段换行、账号 @qiluo27808、reddit.com 来源卡片、无重复段落；页面显示时间为 11:12 AM · Oct 2, 2026（秒数未知）。当前新增已核验41条，剩余959条，队列221项；Browser Harness 本轮因本机守护进程目录权限失败，未用于 X 账号操作。
+
+- 2026-10-02T03:25:07Z checkpoint: 继续研究人性阴暗与中国公开记录；发现最高检2025-02-20发布会作为候选来源线索，但本轮网页返回403、浏览器研究标签读取超时，未将其数字写入待发布稿，也未改变发布计数。保留来源、失败原因和“需直接重载后再用”的限制；C221之后仍为41条已核验、959条剩余、队列221项。
+- 2026-10-02T03:38:37Z checkpoint: 用户明确要求每轮至少新增5条，并纠正语气不要有爹味；记录为每轮目标5条、仍受逐条编辑器与详情页闸门约束。C222 已根据 PubMed 40626652 元分析完成候选稿和来源限制，但本轮 X 编辑器标签调试器未连接，无法安全读取真实编辑器或提交；未发布、未增加计数。当前仍为41条已核验、959条剩余、队列221项。
+- 2026-10-02T03:45:00Z checkpoint: 用户强调仓库里的选题、语气、事实边界和预期结果是强制验收标准。已把 CONTENT_VOICE_AND_WORKFLOW.md 补成每轮验收门槛：目标5条、阻碍时不凑数；具体场景与利益落点；不训人、不写万能结论；只有编辑器逐字核对和独立详情页重载通过才计入新增。C222 候选已删去“有些人”式概括，改为带条件的日常场景和明确研究边界，仍未发布。
+- 2026-10-02T03:55:08Z checkpoint: 本轮再次按文档先检查来源、语气和发布闸门；C222 仍为合格候选，但 X 可见编辑器调试器仍未连接，无法安全完成逐字编辑器核对、提交和独立详情页复核。没有发布、没有增加计数；当前仍为41条已核验、959条剩余、队列221项。
+
+### 2026-10-02T04:20:57Z — task recovery checkpoint
+用户反馈“任务都停止了”，要求恢复。核对本地 automation_id=x 与任务状态后确认：heartbeat 仍为 ACTIVE，频率为每5分钟，目标线程未变；之前的 36/964/216 已是过期提示，现已将自动化提示更新为真实状态 C221、已核验41条、剩余959条、队列221项。Browser Harness doctor 当前报告 Chrome 未运行、守护进程不可用、活动连接为0，因此可见 X 编辑器暂时不可读；未伪造发布、未增加计数，也未创建重复自动化。下一步是恢复可读的可见 Chrome 编辑器后，再按每轮最多5条逐条核验发布。
+
+### 2026-10-02T04:20:57Z — browser connection recovered and C222 verified
+可见 Chrome 已重新接通，X 编辑器恢复可读。C222（人性阴暗面与道德许可）在编辑器中逐字核对中文、标点、段落和 PubMed 链接，截图确认后只提交一次；独立公开详情页 https://x.com/qiluo27808/status/2105877339741749270 重载核对了账号 @qiluo27808、全文、换行、来源卡片和显示时间（12:27 PM · Oct 2, 2026，秒数未知）。C222 计入 campaign；当前新增已核验42条，剩余958条，滚动队列222项。自动化仍为 ACTIVE、每5分钟；下一轮继续逐条发布，最多5条。
+
+### 2026-10-02T04:34:51Z — repository commit blocked by filesystem permissions
+测试仍为16项通过，`git diff --check` 通过；尝试提交恢复证据时，运行环境拒绝创建 `.git/index.lock`（Operation not permitted）。工作区文件已写回，但本轮无法创建 Git commit；不重复尝试或改变仓库权限。
+
+### 2026-10-02T05:22:38Z — workspace write access required
+本轮重新核对六份项目必读文件：任务仍为 ACTIVE_NOT_COMPLETE，已核验42条、剩余958条、队列222项，heartbeat automation x 为 ACTIVE、每5分钟。当前沙箱只允许读取项目目录，无法按项目规则写回状态或发布记录；本轮不发布、不改计数。请求恢复对项目工作区的写权限后继续。
+
+
+### 2026-10-02T06:50:49Z — pause cause diagnosed
+用户询问为何发布任务暂停及是否缺少账号权限。仓库记录显示自动化x一直为ACTIVE、每5分钟触发，campaign未停止且仍为已核验新增42、剩余958、队列222、最新C222。实际暂停点是05:22时运行环境把项目目录设为只读；一次同时写候选稿、来源、campaign和多个状态文件的提权请求被auto-review拒绝，明确理由是现有证据不足以授权这组多文件状态变更。当前权限上下文已恢复项目根目录文件写入（root_writable=true），所以不是X账号权限或用户授权问题；但.git目录只读（git_dir_writable=false），本轮无法提交Git。Browser Harness doctor仍报告守护进程和活动连接为0；CUA状态确认Google Chrome与可见X标签页存在。此次仅做诊断和记录，无新帖、无campaign计数变化。
+
+
+### 2026-10-02T07:10:18Z — permission diagnosis rechecked
+
+automation_id=x 的本地配置仍为 ACTIVE、FREQ=MINUTELY;INTERVAL=5，本轮 heartbeat 也实际触发；不是任务调度停止。05:22 曾出现项目目录只读，06:50 一笔范围过宽的多文件提权请求被 Codex 自动审查以“证据不足以授权该组变更”拒绝。当前复核项目根目录和 .git 均可写。Browser Harness 守护进程正常、Chrome 连接 1 个，但活动标签是 Reddit；CUA 可见 Chrome 的 X 主页已登录 @qiluo27808，编辑框为空，没有账号登录/授权提示。故此次“权限”是本地工作区读写/审批边界，不是 X 账号授权错误。X 的平台方法边界仍按仓库策略执行：Browser Harness 用于允许的非 X 来源，X 发布走已记录的用户授权可见 Computer Use 并逐条核验。本轮未发帖，campaign 仍为 42/958/222，最新 C222。
+
+
+### 2026-10-02T07:38:56Z — C223–C227 source-checked candidate checkpoint
+
+Added five distinct, source-checked candidates spanning civic honesty, employee-pension rules, everyday news attention, gift-giving relationships, and a dated Supreme People’s Procuratorate public-interest record. Each source has an explicit scope limit; the public-interest number is clearly labeled as filings, not victims or convictions. The five complete Chinese drafts and source links are stored in ignored local evidence files. Counts are 42 published, 5 ready, 180 research-pending, 227 rolling work items, 958 remaining. Reconciled the stale summary count to match the actual campaign list (180 pending before the five candidates were added). No new publication count until each post passes the editor and independent detail-page gates.
+
+### 2026-10-02T08:10:53Z — pause diagnosis and C224 verified
+The recurring task was still active; the earlier interruption came from a temporary read-only Codex workspace and an auto-review rejection of a broad multi-file write request, not from an X authorization prompt. The visible Chrome profile remained signed in as @qiluo27808. C224 was reloaded on its independent public detail page and matched the complete editorial text, paragraph break, source link/card, account, and displayed time (4:00 PM · Oct 2, 2026; seconds unknown): https://x.com/qiluo27808/status/2105930911900668228. Campaign now has 44 verified new series, 956 remaining, 3 ready candidates, 180 research-pending items, and 227 rolling work items. C225 was not submitted: the visible composer was empty, so its editor-body gate was not met. Continue only after a fresh exact editor comparison; no account authorization request is pending.
+
+### 2026-10-02T09:13:15Z — C226–C229 published and independently verified
+
+The user asked to continue the queue with concrete, conversational posts and no preachy or AI-like tone. C226, C227, C228 and C229 each passed the real visible-editor character check and screenshot gate, were submitted once, and were independently reloaded on public detail pages. C228: https://x.com/qiluo27808/status/2105945661942403166, displayed 4:59 PM · Oct 2, 2026 (seconds unknown). C229: https://x.com/qiluo27808/status/2105948331222687848, displayed 5:09 PM · Oct 2, 2026 (seconds unknown). Detail pages matched the complete bodies, paragraph breaks, source cards/links and account @qiluo27808 with no duplicate paragraphs. Campaign is now 49 verified new series, 951 remaining, 180 research-pending items, 229 rolling work items and zero ready candidates. The earlier pause was local workspace/approval and browser-connection friction, not an X account authorization denial. Continue with a fresh source-checked candidate and the same per-post gates, up to five in the next round.
+
+### 2026-10-02T10:06:42Z — C230–C234 发布并独立核验
+
+本轮完成5条：C230（聊天后低估对方好感）、C231（负面反馈与能力判断）、C232（日常对话中的说话比例）、C233（争论时的被听见感）、C234（道歉与最后通牒博弈）。每条均在可见编辑器逐字核对最终文本、查看提交前截图、单次提交，再重载其独立公开详情页，核对全文、换行、来源链接/卡片、账号 @qiluo27808 与无重复段落。所有 UTC 发布时刻只记录 UI 显示的分钟精度，具体秒数未知。最终公开 URL：C230 https://x.com/qiluo27808/status/2105955860648546442；C231 https://x.com/qiluo27808/status/2105957147616084428；C232 https://x.com/qiluo27808/status/2105957894843978081；C233 https://x.com/qiluo27808/status/2105960371320221818；C234 https://x.com/qiluo27808/status/2105961034460918208。
+
+清单保留了 C230–C234 原候选稿；C233 与 C234 的最终发布稿按实际编辑器/公开页更新到 text，不把不同版本混为一稿。可见截图已在本轮 CUA 输出中检查，但本轮未能把图像保存到仓库的 ignored 私有目录，状态中不虚称文件已归档。风格复核指出 C233/C234 中段研究细节略密，后续继续把研究发现说成人话、少堆术语。当前新增已核验54条，基线25，总计79条，剩余946条；滚动队列234项，其中待研究180项、待发布0项。未检查或声称任何流量增长；下一条从 C235 开始。
+
+
+### 2026-10-02T10:58:41Z — C235–C239 sourced and ready; not yet published
+
+Prepared five distinct candidates on household planning labor, cashless spending, after-hours work email, one documented Hunan fraud case, and checkout food placement. Added CAM-C040–CAM-C044 to data/source_materials_round12_2026-10-02.json with scope limits and explicit missing UTC observation times where exact source-page timestamps were not captured. Independent fact/style review narrowed the cashless meta-analysis wording, clarified the email moderation claim, removed a quote-shaped paraphrase from the court/procuratorate case, and fixed the supermarket survey denominator and study design wording. Campaign state is 54 verified new, 5 ready, 180 research-pending, queue 239, remaining 946; no candidate is counted as published. Latest independently verified post remains C234. Screenshots are to be truthfully recorded as visually inspected or not saved based on actual UI evidence.
+
+
+### 2026-10-02T11:09:06Z — C235 verification checkpoint
+
+A prior checkpoint left C235 as READY because its UI verification occurred after that file write. Reconciled the repository with the already completed visible submission and independent page evidence: C235 URL https://x.com/qiluo27808/status/2105977104865300678; author @qiluo27808; exact body and paragraph breaks match the prepared copy; PMC source card rendered; no duplicate paragraphs; reloaded page displays 7:04 PM · Oct 2, 2026 (Asia/Shanghai; seconds unknown). The pre-submit and reloaded screenshots were visually inspected but not saved to a local private path. C235 is now PUBLISHED_AGENT_VERIFIED. Counts: 55 new verified, 4 ready (C236-C239), 945 remaining, queue 239; cumulative including baseline 80. Next C236, with the same per-post gates.
+
+
+### 2026-10-02T11:12:17Z — C236 independently verified
+
+C236 已从可见编辑器逐字检查后单次提交，并通过公开详情页重载复核。URL https://x.com/qiluo27808/status/2105978853751681055；正文、段落、账号 @qiluo27808、DOI 链接、无重复段落匹配；页面显示 7:11 PM · Oct 2, 2026（Asia/Shanghai，秒数未知）。提交前与独立重载后的截图均已目视检查，未存到本地私有路径。C236 计入已核验：当前新增56，待发布3（C237-C239），剩余944，队列239。
+
+
+### 2026-10-02T11:19:03Z — C237 independently verified
+
+C237 已从可见编辑器逐字核对最终正文后单次提交；公开个人主页显示为最新帖。打开独立详情页并重载，核对正文、换行、PMC 来源卡、账号 @qiluo27808、无重复段落均通过。URL https://x.com/qiluo27808/status/2105980612230443052，页面显示 7:17 PM · Oct 2, 2026（Asia/Shanghai；秒数未知）。发布前把“调查中”改成“调查发现”，仅为语句通顺，研究范围和相关性限定不变。截图已目视检查，未保存到本地私有路径。当前新增57、待发布2（C238-C239）、剩余943、队列239；基线25合计82。
+
+### 2026-10-02T11:27:57Z — C238 发布并独立核验
+
+C238 使用最高检2024年1月22日公开的湖南新田熟人借贷诈骗单案记录。可见 Chrome 编辑器中的正文、中文标点、段落和最高检来源链接逐字核对并目视检查截图后单次提交；从账号主页打开独立公开详情页并重载，核对正文、换行、来源卡、账号 @qiluo27808、无重复段落和显示时间（7:25 PM · Oct 2, 2026，秒数未知）。URL：https://x.com/qiluo27808/status/2105982547884925018。发布后的正文保留“最高检2024年披露”和一审判刑事实，未将单案扩大为熟人借贷普遍规律。C239 继续保持 READY_SOURCE_CHECKED，并根据来源复核将结论改成“组间销量变化未达统计显著”，避免把满意度调查等同于个人改买法。当前新增已核验58条，剩余942条，队列239项，待发布1条。截图仅在 CUA 输出中目视检查，未保存到本地私有目录。
+
+### 2026-10-02T11:31:26Z — C239 发布并独立核验
+
+C239 使用荷兰24家超市收银台陈列的真实门店比较与3家店134人问卷结果。发布前根据来源复核把“组间不健康零食销量变化未达统计显著”写清，并将80%限定为注意到调整者中表示满意或非常满意的人；可见 Chrome 编辑器逐字核对正文、中文标点、段落和 PMC 链接，截图目视检查后单次提交。独立公开详情页 https://x.com/qiluo27808/status/2105983771078213756 重载核验正文、换行、PMC 来源卡、账号 @qiluo27808、无重复段落和显示时间（7:30 PM · Oct 2, 2026，秒数未知）。当前新增已核验59条，剩余941条，队列239项，无待发布 ready 候选；截图未保存到本地私有目录。
+
+
+### 2026-10-02T12:11:27Z — C240–C244 发布并独立核验
+本轮C240–C244均按可见 Chrome 流程完成：来源复核、编辑器正文逐字核对、截图目视检查、单次提交，再从账号主页进入独立详情页并重载。五条正文、段落、来源卡/链接、账号@qiluo27808、无重复段落和分钟显示时间均通过。
+- C240 https://x.com/qiluo27808/status/2105990524750705042（7:57 PM · Oct 2, 2026）
+- C241 https://x.com/qiluo27808/status/2105990989186031779（7:59 PM · Oct 2, 2026）
+- C242 https://x.com/qiluo27808/status/2105991878080692724（8:02 PM · Oct 2, 2026）
+- C243 https://x.com/qiluo27808/status/2105992371087540448（8:04 PM · Oct 2, 2026）
+- C244 https://x.com/qiluo27808/status/2105993604032573872（8:09 PM · Oct 2, 2026）
+X仅显示分钟，精确秒数未记录；截图只在可见 CUA 输出中检查，未保存到本地私有目录。campaign当前新增已核验64条、剩余936条、队列244项，下一条C245。
+
+
+### 2026-10-02T13:10:12Z — 浏览量反馈、预览卡与新候选
+
+根据用户最新反馈复核了少量本人历史帖和今天的新帖：高于10浏览的若干旧样本，多从熟悉说法被纠正、明显反差或一个具体疑问起笔；C237-C244在可见主页中约4浏览。数值快照与帖子对应关系保存在被Git忽略的`data/private/own_post_metrics_2026-10-02.json`；各条精确观察UTC未完整记录，未补造。曝光时长和题材不一致，故只形成HYPOTHESIS，不声称格式导致流量。用户也要求减少图片/大预览卡；之后正文默认不放裸来源链接，正文标记最高法与年份，原始URL保留在来源表。\n\n新增来源`CAM-C050–CAM-C054`为最高法2025-06-16发布的网络消费典型案例，每条只提炼一个日常消费事实。候选`C245–C249`已写好并逐项来源核对，全部是首句反差/数字/生活场景、短正文、无裸链的纯文字版本；状态为READY_SOURCE_CHECKED，发布前仍须真实编辑器逐字核对和独立详情页复核。目前仍为64条已核验、936条剩余，候选5条、队列249项。
+
+
+### 2026-10-02T13:19:36Z — C245 independently verified
+
+C245 is published and verified from an independently reloaded public detail page: https://x.com/qiluo27808/status/2106010728255934600. Final editor copy matched exactly; page confirms body, paragraph breaks, @qiluo27808, no source card and 9:17 PM · Oct 2, 2026 (seconds unknown). Screenshot inspected in CUA output but not saved. Counts: 65 newly verified, 4 staged candidates, 935 remaining, work queue 249. Next C246.
+
+
+### 2026-10-02T13:31:46Z — C246 independently verified
+
+C246 was submitted once after an exact visible-editor comparison. Its independently reloaded page confirms the full two-paragraph copy, @qiluo27808, no preview card, and 9:30 PM · Oct 2, 2026 (seconds unknown): https://x.com/qiluo27808/status/2106014018020544584. Screenshots were visually inspected but not saved locally. Counts: 66 newly verified, 3 ready (C247-C249), 934 remaining, queue 249.
+
+
+### 2026-10-02T13:34:11Z — C247 independently verified
+
+C247: https://x.com/qiluo27808/status/2106014624491647404; independently reloaded page matches the final two-paragraph text, @qiluo27808 and 9:33 PM · Oct 2, 2026; no preview card or repeated text. The page showed 1 view shortly after posting; recorded privately as an early, non-comparable snapshot, not a performance conclusion. Screenshots were inspected but not saved. Counts: 67 verified new, 2 ready, 933 remaining, queue 249.
+
+
+### 2026-10-02T13:39:45Z — C248 independently verified
+
+C248: https://x.com/qiluo27808/status/2106015202278043995; the visible editor matched the final text and the independently reloaded public detail page confirmed both paragraphs, @qiluo27808, no source preview card, no repeated text, and 9:35 PM · Oct 2, 2026. X showed 2 views at 2026-10-02T13:39:45Z; recorded privately as an early, non-comparable snapshot. Screenshots were inspected in CUA output but not saved locally. Counts: 68 newly verified, 1 ready (C249), 932 remaining, queue 249.
+
+### 2026-10-02T13:57:25ZZ — C249 核验补录；按仓库公式纠偏
+
+C249 的可见编辑器正文与独立重载公开详情页逐字匹配，账号 @qiluo27808、两段正文、无重复、无预览卡及显示时间 9:41 PM · Oct 2, 2026 均核对通过。URL：https://x.com/qiluo27808/status/2106016620653248526。X 在 2026-10-02T13:45:35Z 显示 1 view；这是发布后很早的快照，不能与曝光更久的旧帖直接比较。秒数未知；截图只在 CUA 输出中目视查看，没有保存到私有目录。当前新增已核验69条、剩余931条、待发布0条、滚动队列249项。
+
+用户再次明确批评 C245–C249 平淡、重复，并指出大图/论文预览卡影响阅读，要求严格按仓库内容公式。核对 GitHub origin 为 https://github.com/wanggenAi/x-content-growth-engine；复读 docs/VIRAL_SAMPLES_AND_FORMULAS_2026-10-01.md 后确认 F01–F05 分别是熟悉判断重估、降低完成成本、处境识别、政策具体影响、现实分歧问题，均为 HYPOTHESIS。上批把它们压成同一反转/法院案例摘要，执行偏差已记入内容规范和续跑任务。下一批每条先指定一个 F01–F05 与清晰读者收益，拒绝机构开场、同一段式和空洞升华；正文默认不贴裸链接，不生成大预览卡。每轮最多5条，数量目标不覆盖质量核验门槛。
+
+
+## 2026-10-02T14:56:23Z — Editorial reset before C250
+
+- 当前 campaign：69 条新增已核验，目标剩余 931；C250–C254 为 5 条来源已核对候选，滚动队列 254。
+- 用户反馈：近期帖子像 AI 摘要、图片/大预览卡过多，首屏不想读；要求严格按 GitHub 仓库 F01–F05 和本人可见高浏览样本重做，并立即进入人工核验发布。
+- 已采取：候选默认无图、无裸来源URL；每条记录公式、第一屏冲突/场景、读者收益、原始来源和边界；结构不连续套同一反转+判例模板。
+- C250–C254 仅为 READY_SOURCE_CHECKED，尚无公开URL，不能计入数量；必须逐字核对真实编辑器并独立重载公开详情页。
+
+
+## 2026-10-02T15:02:00Z — C250–C254 可发布但等待浏览器连接
+
+- C250–C254 已来源核对并按 F01/F01/F03/F03/F05 重写，仍为 READY_SOURCE_CHECKED；没有新增公开URL。
+- 连接现有可见 Chrome 的 X 标签页两次超时，编辑器未打开、没有提交动作；campaign 仍为69条新增已核验、931条剩余、5条候选。
+- 下一步恢复可见 Chrome 连接后逐条核验；不能切换 Browser Harness 绕过 X 账号操作边界。
+
+
+## 2026-10-02T15:20:00Z — 改变选题方向
+
+- 用户否定连续法院案例，要求面向中国读者的人性新闻与信息差材料。
+- C251–C254 发布前暂停，campaign 保持69条新增已核验、931条剩余、0条ready。
+- 下一步先研究公开新闻/政策/社会记录的受众冲突与来源，不把“国内看不到”或“被封锁”写成无证据事实；确认合格后再准备新稿。
+
+
+## 2026-10-02T15:22:00Z — C250 完成；停止法院案例
+
+C250 独立详情页核验通过：https://x.com/qiluo27808/status/2106038499422175527。campaign 70 条新增已核验、930 条剩余。C251–C254 在用户反馈后暂停，下一步转为人性新闻和公开信息差材料研究，先完成来源和受众冲突检查再写稿。
+
+## 2026-10-02T15:48:18Z — C255–C259 非法院题材来源核对
+
+- 用户明确指出连续法院案例没有吸引力，要求先研究“人会不会点开”，优先普通读者切身利益、公开新闻和社会事实；图片/大预览卡继续默认关闭。
+- 公开非X来源交叉核对并保存至 `data/source_materials_round16_2026-10-02.json`：CAM-C060 医保钱包跨省共济；CAM-C061 自动续费价格行为规则；CAM-C062 全国育儿补贴；CAM-C063 渐进式退休；CAM-C064 青年失业率口径变化；CAM-C065 大龄农民工处境及国家统计局调查。来源页的逐页UTC观察时间未捕获，保留缺失值；不声称“被封锁”。
+- 新增 C255–C259，分别采用 F02、F02、F03、F03、F01，均为纯文字 READY_SOURCE_CHECKED；正文不放裸URL或图片，事实日期/金额/限制写入正文，原始链接只在campaign元数据。候选未经过真实编辑器逐字核对和独立公开详情页重载，不能计入已发布。
+- 当前 campaign：已核验新增70、剩余930、ready 5、滚动队列259，最新独立核验 C250。下一步只用已授权本地Chrome可见Computer Use，按 C255 起逐条核对并提交；出现编辑器、浏览器、来源或重复问题立即保存稿件并停止扩量。
+
+## 2026-10-02T16:26:07Z — 用户要求把“会不会点开”放在数量前
+
+- 用户再次指出法院案例和 AI 摘要式政策帖没有吸引力，要求研究真实人性兴趣，优先公开但容易错过的中国社会新闻、具体人物和现实代价；图片和大预览卡默认去掉。
+- C255–C259 保留原稿与来源但标记 `HOLD_REVIEW_INTEREST`，不计 ready；本轮补充来源材料 `data/source_materials_round17_2026-10-02.json` 与 `data/source_materials_round18_2026-10-02.json`。
+- 新增 C260–C264，分别为国内航班充电宝限制、大龄农民工仍在工作、骑手保障分类、育儿补贴与出生人口、自动续费证据；均为 `READY_SOURCE_CHECKED`、纯文字、无裸来源URL，需先逐字核对真实编辑器再提交。
+- 当前 campaign：已核验新增70、剩余930、ready 5、滚动队列264，最新独立核验 C250；下一步从 C260 开始逐条可见UI核验，不能把准备动作计作发布。
+
+## 2026-10-02T16:32:00Z — C260 发布前可见页面阻碍
+
+- Chrome 中已重新出现 `x.com/home` 标签，但可见页面正文在刷新后仍为空白，只显示浏览器自动化提示；时间线、发帖按钮和编辑器均不可读。
+- 没有出现 X 账号权限拒绝、登录、验证码或权限弹窗；本轮没有提交帖子，campaign 仍为已核验70、剩余930、ready 5、队列264。
+- 不使用隐藏接口或 Browser Harness 绕过 X 的可见 Computer Use 闸门；页面恢复后从 C260 重新逐字核对，异常继续停下。
+
+### 2026-10-02T18:13:20Z — 人物新闻候选替换政策摘要
+
+- 用户明确拒绝法院案和干燥政策摘要，要求先研究读者会不会点开，优先具体人物、现实冲突、收入/时间代价和公开但容易错过的中国社会报道；默认纯文字，继续减少图片和大预览卡。
+- Browser Harness 复核南华早报、CNA 及路透社公开报道，材料写入 `data/source_materials_round19_2026-10-02.json`。事实与观点分开，没有把冷门写成“被官媒封锁”。
+- C260–C264 保留原稿和来源但全部转为 `HOLD_REVIEW_INTEREST`；新增 C265–C269 五条 `READY_SOURCE_CHECKED` 候选：全职孙辈、付费请主播责骂、模拟办公室、牧羊岗位申请潮、降薪后夜间送外卖。每条均标明 F01/F03/F05、首屏冲突、读者收益、日期/金额/动作及边界。
+- campaign 当前仍为新增已核验70、剩余930、ready5、滚动队列269，最新独立核验 C250；C265–C269 没有公开URL，未计入发布。下一步恢复可见 Chrome 后逐条做真实编辑器全文比对、截图、单次提交和独立公开详情页复核；任何异常先停，不凑数。
+
+
+## 2026-10-02T18:50:30Z — C265–C269 完成
+
+- 可见 Chrome 恢复；账号 @qiluo27808 无权限弹窗，编辑器可读。
+- C265–C269 五条均完成：编辑器全文逐字比对、截图目视、单次提交、独立公开详情页重载。
+- URL：C265 https://x.com/qiluo27808/status/2106089899636179309；C266 https://x.com/qiluo27808/status/2106090278146953365；C267 https://x.com/qiluo27808/status/2106091471829135530；C268 https://x.com/qiluo27808/status/2106091683960266892；C269 https://x.com/qiluo27808/status/2106094374249808259。页面显示分钟分别为 2:32、2:33、2:38、2:39、2:50 AM · Oct 3, 2026；秒数未知。
+- 纯文字，无来源预览卡；截图已目视检查但未落盘。
+- campaign：新增已核验75，剩余925，ready 0，滚动队列269，最新C269。下一步 C270，先研究具体人物/社会冲突和读者利益，再写稿。
+
+### 2026-10-03T00:00:00Z — C270–C274 来源和读者兴趣闸门完成
+
+- 用户要求把“人会不会点开”放在数量之前，减少法院/政策摘要、装饰图片和大预览卡；优先具体人物、异常动作、金钱/时间代价和公开但容易错过的中国社会报道。
+- Browser Harness 复核公开材料并写入 `data/source_materials_round20_2026-10-03.json`：付费登山陪伴、杭州“丑东西”展览、宠物婚礼、33年环球旅行、粗糙动画票房反转。没有把冷门材料写成“被官媒封锁”。
+- C270–C274 均为 `READY_SOURCE_CHECKED`，分别使用 F01/F03/F01/F05/F05；每条记录首屏冲突、读者收益、来源事实和边界，纯文字、无裸来源URL、无装饰图。F01–F05 仍是 HYPOTHESIS。
+- 本轮没有 X 提交或新增核验。campaign：75 条新增已核验、925 条剩余、ready 5、队列 274、最新 C269。下一步使用已授权本地 Chrome 可见 Computer Use，按 C270–C274 逐条编辑器全文比对、提交一次并独立详情页核验；失败即停止扩量。
+
+### 2026-10-02T19:27:48Z — C270–C274 完成发布核验
+
+- C270–C274 均完成真实编辑器逐字比对、截图目视、单次提交和独立公开详情页重载；五条均为纯文字，无裸来源 URL、装饰图或来源预览卡。
+- URL 与页面显示时间：C270 https://x.com/qiluo27808/status/2106100418048876824（3:14 AM · Oct 3, 2026）；C271 https://x.com/qiluo27808/status/2106100731375964577（3:15 AM · Oct 3, 2026）；C272 https://x.com/qiluo27808/status/2106101858679091627（3:19 AM · Oct 3, 2026）；C273 https://x.com/qiluo27808/status/2106102481935859811（3:22 AM · Oct 3, 2026）；C274 https://x.com/qiluo27808/status/2106102742532129027（3:23 AM · Oct 3, 2026）。秒数缺失，不补造。
+- 当前 campaign：新增已核验 80 条，剩余 920 条，ready 5，滚动队列 279 项，下一轮从 C275。早期浏览量只作观察，不据此判断公式或保证传播。
+### 2026-10-02T19:42:46Z — C275–C279 研究完成
+
+- Browser Harness 复核南华早报公开报道，形成五条 `READY_SOURCE_CHECKED` 纯文字候选：C275 男模情侣写真、C276 挠痒服务、C277 垃圾站工人拒绝模特合同、C278 外卖骑手诗人获鲁迅文学奖、C279 医学博士离开三甲医院做外卖和音乐。
+- 每条已记录 F01/F03、第一屏冲突、读者收益、具体事实和边界，素材保存在 `data/source_materials_round21_2026-10-03.json`；当前 ready 5、队列279，下一步从 C275 逐条可见编辑器核验。
+
+### 2026-10-02T20:05Z — C275–C276 核验完成，C277 重复拦截
+
+- C275、C276 完成真实编辑器逐字比对、截图目视、单次提交和独立公开详情页重载；C275 URL https://x.com/qiluo27808/status/2106112187156844868（4:00 AM · Oct 3, 2026），C276 URL https://x.com/qiluo27808/status/2106112420884492339（4:01 AM · Oct 3, 2026），秒数未知。
+- C277 粘贴后提交被 X 编辑器以 `Whoops! You already said that.` 拦截；未产生 URL，草稿已丢弃，不重写绕过。C278-C279 仍是 `READY_SOURCE_CHECKED`。
+- 当前 campaign：新增已核验82条，剩余918条，ready 2，队列279，最新 C276；下一步处理 C278 起，遇到同类平台重复拦截即停止该条并记录。
+
+### 2026-10-02T20:25Z — C278–C279 核验完成
+
+- C278、C279 完成真实编辑器逐字比对、截图目视、单次提交和独立公开详情页重载；两条正文、段落、账号和无卡片状态一致。
+- C278 URL https://x.com/qiluo27808/status/2106118087057760359；C279 URL https://x.com/qiluo27808/status/2106118224073162882；页面均显示 4:24 AM · Oct 3, 2026，秒数未知。
+- 当前 campaign：新增已核验84条，剩余916条，ready 0，队列279，最新 C279。下一步研究新的来源核对候选；C277 重复拦截不重写绕过。
+### 2026-10-02T20:44:57Z — C280–C284 来源核对完成
+
+- Browser Harness 复核五篇公开南华早报报道，形成 C280–C284 五条纯文字 `READY_SOURCE_CHECKED` 候选：台球厅临时住处与20元现金、92岁摊主被挑衅拍摄、演唱会消费与2000元家庭补助、1500美元宠物殡葬套餐、13个孩子与乡村安全感。
+- 每条都有公式、第一屏冲突、读者收益、具体事实、日期/金额/动作和边界；不放装饰图片、裸来源URL或大卡片，不把个案写成普遍规律。C277 的 X 重复拦截仍不重写绕过。
+- 当前 campaign：新增已核验84条，剩余916条，ready 5，滚动队列284，最新独立核验 C279；下一步从 C280 逐条进行真实编辑器全文比对、截图、单次提交和独立详情页核验。
+
+### 2026-10-02T21:12:30Z — C280–C284 完成发布核验
+
+- 五条均完成可见编辑器全文逐字核对、截图目视、单次提交和独立公开详情页重载。C280–C284 均为纯文字、无裸来源 URL、无装饰图片或大卡片；C283 详情页显示 5:08 AM · Oct 3, 2026，正文、段落、账号一致。
+- URL：C280 https://x.com/qiluo27808/status/2106126313954464245；C281 https://x.com/qiluo27808/status/2106126617395552313；C282 https://x.com/qiluo27808/status/2106126969893236799；C283 https://x.com/qiluo27808/status/2106129182417956979；C284 https://x.com/qiluo27808/status/2106129290035429491。显示时间依次为 4:56、4:58、4:59、5:08、5:08 AM · Oct 3, 2026，秒数未知。
+- C277 的 X 重复提示仍按规则保留为阻碍，不重写绕过。campaign 已更新为新增89、剩余911、ready 0、队列284、最新 C284；下一步研究新的来源核对候选。
+
+### 2026-10-02T21:21:07Z — C285–C289 来源核对完成
+
+- Browser Harness 复核南华早报公开报道，形成 C285–C289 五条纯文字 `READY_SOURCE_CHECKED` 候选：60岁母亲打游戏理解儿子成主播、幼儿园脏拖把进做饭锅、老人剪断高空工人安全绳晾衣、年轻女性自己缝内衣、胖东来四年合同争议。
+- 每条均记录公式、第一屏冲突、读者收益、日期/金额/动作和边界；来源写入 `data/source_materials_round23_2026-10-02.json`，没有把个案写成“被官媒封锁”或普遍规律。默认无图片、裸来源 URL 或大卡片。
+- campaign 仍为新增已核验89条、剩余911条；ready 5，滚动队列289，最新独立核验 C284。下一步从 C285 逐条可见编辑器核对、单次提交和独立公开详情页复核。
+
+
+### 2026-10-02T21:36:52Z — C285–C286 实际产出与重复提交阻碍
+
+- C285 已通过编辑器逐字核对、单次提交和独立详情页复核：https://x.com/qiluo27808/status/2106135143815807077，页面显示 5:32 AM · Oct 3, 2026。
+- C286 提交后主页出现两个相同副本；已用可见 X 菜单删除多余副本，保留并重新独立核验 https://x.com/qiluo27808/status/2106135405259317409，页面显示 5:33 AM · Oct 3, 2026。未把重复副本计入数量，未继续提交 C287。
+- 当前断点：新增已核验91，剩余909，ready3（C287–C289），队列289。下一轮先复盘重复事件，再从 C287 继续逐条闸门；秒数缺失，不补造。
+
+
+### 2026-10-02T21:46:20Z — C287–C289 发布核验
+
+- C287：<https://x.com/qiluo27808/status/2106137852933550483>（5:42 AM · Oct 3, 2026）；C288：<https://x.com/qiluo27808/status/2106138345218920959>（5:44 AM · Oct 3, 2026）；C289：<https://x.com/qiluo27808/status/2106138510243881221>（5:45 AM · Oct 3, 2026）。
+- 三条均完成真实编辑器逐字核对、一次可见提交和独立详情页核验；正文、段落、账号匹配，均无图片或来源预览卡，秒数未知保持为空。C286 重复副本未复现。
+- 当前 campaign：新增已核验94条，剩余906条，ready0，滚动队列289，最新 C289。下一步研究 C290 起的新来源候选。
+
+### 2026-10-03T06:01:18+08:00 — C290–C294 来源核对完成
+
+- Browser Harness 复核南华早报公开报道，来源材料保存为 `data/source_materials_round24_2026-10-03.json`；形成 C290–C294 五条 `READY_SOURCE_CHECKED` 候选。
+- 题材：75岁导演考虑第五个孩子；东台发绣用人发完成作品需数月到数年；48岁女性做20年医生后开第二家包子店；65岁女性用29岁医生及其母亲两个身份和近7000条视频骗取17万元；25岁妻子在报道所述低于10%配型成功率下捐肾给丈夫。
+- 候选均为纯文字、无装饰图/裸来源URL/大卡片，分别使用 F01/F03/F03/F01/F03；事实、观点和边界分开，F01–F05 仍为 HYPOTHESIS。尚未经过X编辑器和独立详情页，不计入已发布。
+- 当前 campaign：新增已核验94，剩余906，ready 5，滚动队列294，最新独立核验 C289；下一步从 C290 逐条可见发布核验。C277重复拦截和C286重复副本修复继续保留为历史质量记录。
+
+### 2026-10-03T06:19:17+08:00 — C290–C294 完成发布核验
+
+- C290–C294 均在可见 Chrome 编辑器中逐字核对正文、标点和段落，检查截图后各提交一次；随后从独立公开详情页重载并确认正文、换行、账号 @qiluo27808、无重复、无图片和无预览卡。
+- URL 与页面显示时间：C290 https://x.com/qiluo27808/status/2106145112682348869（6:11 AM · Oct 3, 2026）；C291 https://x.com/qiluo27808/status/2106145390030708973（6:12 AM · Oct 3, 2026）；C292 https://x.com/qiluo27808/status/2106146300781805650（6:16 AM · Oct 3, 2026）；C293 https://x.com/qiluo27808/status/2106146626603728898（6:17 AM · Oct 3, 2026）；C294 https://x.com/qiluo27808/status/2106146880401129981（6:18 AM · Oct 3, 2026）。秒数缺失，不补造。
+- C277 的 X 重复拦截和 C286 的重复副本修复继续保留为质量记录；本轮未复现。campaign 当前新增已核验99条、剩余901条、滚动队列294，ready0，最新 C294。下一步先研究 C295 起的新公开来源候选；F01–F05 仍为 HYPOTHESIS，不承诺流量。
+
+
+### 2026-10-05T10:02:00Z — C313-C314 高浏览重写与发布控制阻碍
+
+C313、C314已根据高浏览审计重写，保留旧稿与新版文本；两条仍READY_SOURCE_CHECKED，未计入campaign。尝试可见Chrome时cua_repl返回Codex auth token unavailable，未提交、未生成URL，未绕过。当前计数117新增、883剩余、ready2、队列314、最新独立核验C312。控制恢复后逐条核对编辑器全文与截图，再独立详情页验证。
+
+
+### 2026-10-05T10:06:00Z — 新增高浏览检索无可用正文
+
+尝试补充高浏览公开样本时，搜索页未返回可核对正文或指标；未导入样本、未虚构数据。保留既有审计作为当前依据，C313-C314仍等待可见发布控制恢复。
+
+
+### 2026-10-05T10:22:30Z — C313/C314发布重试未进入编辑器
+
+可见Chrome控制认证仍不可用，未提交、未计数；C313/C314新版候选和旧版记录保留。
+
+
+### 2026-10-05T10:27:30Z — C313/C314定时检查未进入编辑器
+
+可见Chrome控制认证仍不可用；未提交、未计数，候选新版和旧版记录保留。
+
+
+### 2026-10-05T10:32:30Z — C313/C314检查未进入编辑器
+
+可见Chrome控制认证仍不可用；未提交、未计数，候选新版和旧版记录保留。
+
+
+### 2026-10-05T10:37:30Z — C313/C314未进入编辑器
+
+认证仍不可用；未提交、未计数。
+
+
+### 2026-10-05T10:42:30Z — C313/C314未进入编辑器
+
+认证仍不可用；未提交、未计数。
+
+
+### 2026-10-05T15:40:06.920742Z — C320-C324新素材与高浏览复核
+
+原生可见Chrome复核两条既有高浏览正文（186261、1138283）和172浏览反例；具体交付与日常对照作为编辑约束，未扩充独立样本计数或宣称因果。五条不同社区/个人博客候选已原页核对，两个可用话术、旧薪锚、买车的人情成本、搬家的旧物；保留自述和旧日期，不将三套比价示例包装成原帖事实。豆瓣另页明确无访问权限，排除且不绕过。当前新增124/剩876/ready5/队列324，候选尚未计入发布。
+
+### 2026-10-05T16:36:00Z — 停止 V2EX 主素材与时效/题材分类更新
+
+用户明确要求不要再用 V2EX，认为其吸引力不足；同时补充现实事件优先近期发生，段子、人性观察、政治评论可无日期，但必须清楚区分故事、自述、事实与观点。C328 已完成最终引号修正、单次原生可见 Chrome 提交和独立详情页重载核验：https://x.com/qiluo27808/status/2107143935500161532，显示 12:20 AM · Oct 6, 2026，秒未知。C329 保留来源但标记 `HOLD_USER_FEEDBACK`，不发布、不换词绕过。当前新增133、剩867、ready0、队列329、基线25、合计158。
+
+本轮通过原生可见 X 搜索直接检查了多条 1 万以上浏览帖子：7,668,293 浏览的赛事/人物短标题配图、2,889,673 浏览的政治评论时期对照、1,091,356 浏览且视频为事实证据的赛事结果；另记录带社区辟谣标注的假消息和露骨内容作为排除/反例。高浏览计数是捕获时的展示值，不是因果证明；不复制露骨内容，不把预测写成事实，不把假消息当素材。安全摘要写入 `data/source_materials_round28_2026-10-05.json`，原始 AX/截图仅保留在 ignored private。下一步 C330 起不再使用 V2EX 主素材：优先近日期可核验人物/事件；另设无日期的段子、人性观察、政治评论栏目并明确标注观点或故事。
+
+
+### 2026-10-05T16:56:55.152574Z — 非V2EX候选C330-C334
+
+按用户要求停止V2EX主素材，优先近期虎扑/公开社区自述与可核对边界；直接X高浏览观察新增6条，排除露骨及辟谣假消息，记录在data/source_materials_round29_2026-10-06.json。C330-C334已完成来源核对和编辑标准检查，均READY_SOURCE_CHECKED，未计发布；下一步每条只提交一次并独立详情重载。
+
+### 2026-10-05T17:22:50Z — C330–C334 非V2EX批次完成发布核验
+
+- C330–C334 已逐条在原生可见 Chrome 编辑器中核对中文、标点、段落和来源链接，检查截图后各提交一次；随后独立公开详情页重载核对全文、账号 @qiluo27808、换行、重复、来源渲染和显示时间。`agent_checked=true`、`human_checked=false`，秒数均未知保持 null。
+- C330：<https://x.com/qiluo27808/status/2107153484676276682>（12:58 AM · Oct 6, 2026）；C331：<https://x.com/qiluo27808/status/2107154220160032864>（1:01 AM · Oct 6, 2026）；C332：<https://x.com/qiluo27808/status/2107157302226845848>（1:13 AM · Oct 6, 2026）；C333：<https://x.com/qiluo27808/status/2107158142413091281>（1:17 AM · Oct 6, 2026）；C334：<https://x.com/qiluo27808/status/2107159094910161071>（1:20 AM · Oct 6, 2026）。
+- 来源分别为虎扑婚后管钱自述、LINUX DO 关系条件与家庭债务自述/讨论、PTT 婚姻版旧帖；未使用 V2EX。C332 的敏感赌博内容保留单方自述与边界限定；C334 明确旧帖、作者一边。无上传装饰图片或视频；X 对来源链接的卡片/短链按页面实际渲染记录，头像不作证据。
+- 当前 campaign：新增已核验138条，剩862条，基线25，合计163，ready0，滚动队列334，最新 C334。C329 继续 `HOLD_USER_FEEDBACK`。下一步研究 C335 起的非V2EX素材：近期现实事件与明确标注的无日期段子/人性观察/政治观点。
+
+### 2026-10-05T17:42:30Z — C335-C339 非V2EX新素材候选
+
+按用户要求停止以 V2EX 为主来源，改用文学城公开论坛的不同栏目：婚姻转述、亲子搬家自述、一句自嘲、幸存者叙事玩笑、攒钱托底自述。C335-C339 均保留原页面、作者可见性、日期和单方/玩笑限定，论坛索引阅读数只作来源页观察，不当作 X 指标或因果证据。现实事件、故事、自述与本账号判断分开；F01/F03/F05 仍为 HYPOTHESIS。
+
+候选均 READY_SOURCE_CHECKED，未计发布：C335 婚姻只剩室友；C336 父母替成年孩子买单；C337 一句关系自嘲；C338 幸存者统计话术；C339 攒钱托底与替孩子写剧本。当前 campaign 新增138、剩862、ready5、队列339、最新已核验 C334；下一步逐条处理 C335 起。来源清单：`data/source_materials_round30_2026-10-06.json`。
+
+### 2026-10-05T17:54:14Z — C335–C339 非V2EX批次完成发布核验
+
+- C335–C339 均在原生可见 Chrome 编辑器中逐字核对中文、标点、段落和来源链接，查看截图后各提交一次；随后从独立公开详情页重载并核对全文、账号 @qiluo27808、换行、重复、来源渲染和显示时间。`agent_checked=true`、`human_checked=false`，显示秒数未知保持 null。
+- C335：<https://x.com/qiluo27808/status/2107165252119142802>（1:45 AM · Oct 6, 2026）；C336：<https://x.com/qiluo27808/status/2107165785542295967>（1:47 AM · Oct 6, 2026）；C337：<https://x.com/qiluo27808/status/2107166498301288793>（1:50 AM · Oct 6, 2026）；C338：<https://x.com/qiluo27808/status/2107166706259149204>（1:51 AM · Oct 6, 2026）；C339：<https://x.com/qiluo27808/status/2107167051890794839>（1:52 AM · Oct 6, 2026）。
+- 五条均为文学城不同栏目公开页转述/自述/自嘲/论坛玩笑，来源日期和边界保留；没有上传装饰图片或视频，来源链接按页面实际渲染记录。高浏览样本只作为编辑约束，F01–F05 仍是 HYPOTHESIS，不宣称曝光改善。
+- 当前 campaign：新增已核验143条，剩857条，基线25，合计168，ready0，滚动队列339，最新 C339。C329 仍 `HOLD_USER_FEEDBACK`。下一步研究 C340 起的非V2EX素材，现实事件优先近期，段子/人性/政治栏目明确标注故事或观点。
+
+## 2026-10-05T18:08:35Z — C340–C344 非V2EX候选已完成来源核对
+- 新增候选 C340–C344，均 READY_SOURCE_CHECKED，未计入已发布；累计已核验143，剩余857，ready5，滚动队列344。
+- 来源覆盖婚姻合同个人自述（含视频）、健康自述、虎嗅转载球星卡市场、领馆App用户求助、家庭日记片段；保留日期、作者可见性与单条边界。
+- 下一步逐条可见编辑器核对、截图、单次提交，独立详情页复核通过后才计数。
+
+## 2026-10-05T19:40:38Z — C340–C344 单次发布与独立详情核验
+
+- C340 <https://x.com/qiluo27808/status/2107174136774869129>（2:20 AM · Oct 6, 2026）
+- C341 <https://x.com/qiluo27808/status/2107175288430014877>（2:25 AM · Oct 6, 2026）
+- C342 <https://x.com/qiluo27808/status/2107176368278818989>（2:29 AM · Oct 6, 2026）
+- C343 <https://x.com/qiluo27808/status/2107176973252591692>（2:31 AM · Oct 6, 2026）
+- C344 <https://x.com/qiluo27808/status/2107193580683248016>（3:37 AM · Oct 6, 2026）
+
+五条均已核对真实原生Chrome编辑器中文、标点、段落、来源链接和截图，各提交一次，再独立重载公开详情核对全文、账号@qiluo27808、重复、短链及显示时间。agent_checked=true、human_checked=false，发布时间只保留页面分钟，秒数null；修正C340/C341先前把核验时间误写成发布时间的元数据，正文和URL未变。C344截图与原始AX保存ignored data/private/round31。
+
+素材为文学城不同栏目自述、转载与求助；保留来源和限定，无上传装饰媒体。原生setValue显示文字但没有有效输入事件，已清空后用native paste完成输入；不以发送提示代替独立核验。本批没有增加万次浏览研究样本，沿用已有审计；下一批必须先看新的直接高浏览正文和反例，避免继续固定论坛摘要模板。初期浏览观察很低，未评估曝光改善，不升级公式。
+
+真实campaign新增148、剩852，基线25合计173，ready0、队列344、最新C344；C329仍HOLD_USER_FEEDBACK。两份状态的旧重复计数已校正。下一步C345起；定时提示应以文件计数为准，更新至本批断点。
+
+### 2026-10-05T19:43:10Z — 发布后编辑审查与自动任务同步
+
+C343首句一小时没有原文支持，是未标明的编辑设想；C344不合群的表演与结尾逻辑不足，来源不能证明表演压力。两条标为编辑质量REVIEW_REQUIRED，保留真实发布正文/URL及agent页面核验；页面核验不能代替事实和兴趣质量。源素材中的钩子从verified_claims分离为editorial_hook_hypothesis，原页陈述改记source_page_claims，不冒充独立事件核实。下一批先新增直接高浏览正文与反例复盘，不继续模板扩量。
+
+自动任务x已更新为C344/148/852/ready0，下一步C345；ACTIVE、每5分钟、failed_runs_only偏好保持。16项测试、JSON计数/URL/秒数一致性及diff检查通过。
+
+## 2026-10-05T20:03:08.095635Z — 新高浏览正文复盘与两条公开修复
+
+本轮直接通过授权原生Chrome读取7条新的超过1万浏览独立正文，另读1条同作者较低浏览原帖；短对照、具体生活画面、熟悉词拆分、两地工资自述、人生年龄叙事均有真实链接。长文滚动读到结尾，未将随页回复算为新样本。记录见 `data/high_view_structure_round32_2026-10-06.json` 和 `docs/HIGH_VIEW_STRUCTURE_ROUND32_2026-10-06.md`。本批8个ID未见既有公开数据；初期32选定样本审计口径保留，本批另计7新高浏览。浏览捕获时年龄/受众/分发未控制，有场景的低浏览反例阻止把具体化当充分条件；0有效因果对照，0公式升级。
+
+C344用原生Edit更新一次，删除无来源的表演压力，旧URL保留为历史版本，新URL <https://x.com/qiluo27808/status/2107197241626878145>，页面Last edited 3:52 AM · Oct 6,2026；2026-10-05T19:53:26.247253Z独立重载核验全文、账号、段落和来源。C343原帖仍含无依据的一小时；补充更正回复 <https://x.com/qiluo27808/status/2107197799570063731>，页面3:54 AM · Oct 6,2026，2026-10-05T19:55:23.301820Z独立核验，明确App提示未知。原帖没有被删或冒充已改；修订/更正均不计新增系列，发布时间秒数null。
+
+本轮没有新系列发布，campaign仍148新增、852剩余、25基线合计173、ready0、队列344；最新系列C344。两条原创段子仅为独立编辑练习，未入ready/队列，保留新颖性和兴趣闸门，不拿常见笑话凑数。下一步C345先围绕一个具体规矩和代价研究非V2EX近期素材，或清楚标注的原创段子/观点；不固定“钩子—论坛日期—判断”。
+
+UI错误：保存完整AX后旧index误点Near you搜索过滤；无发帖/互动动作。后续新查询确认Anywhere，全部动作重新读取控件。原始指标、截图及研究仅ignored data/private。
+
+### 2026-10-05T20:05:18.873336Z — 本轮校验与定时同步
+
+16项测试通过；campaign148/ready0/剩852/队列344、唯一URL、C344版本与C343更正回复、两份清单正文一致及秒数null已检查。CLI seed audit仍报告旧索引/未知粉丝和未验证公式；它未导入本轮原生JSON证据，不混作本轮指标。自动任务x已用automation_update同步7+1新研究和两条修复，ACTIVE/每5分钟/failed_runs_only保持。下一步C345素材与原创性审查。
+
+## 2026-10-05T20:14:45.934146Z — round33新正文与原创设想候选
+
+原生Chrome新读3条万次以上独立正文（其中1条高浏览编辑反例），另读1条同作者较低浏览原帖。原始正文/指标/截图只留ignored data/private/round33；安全分析将在结束回写。C345-C347为三条明确设想、自拟话术及观点，无外部事件，不配论坛日期、不冒充亲历。会议责任、祝贺贬低、帮助范围各保留一个矛盾。当前ready3/队列347，发布新增仍148。没有把两条常见段子练习自动发布；另两条拟题与近期内容/本批矛盾重复，未入队，不凑五条。
+
+## 2026-10-05T20:25:05.611297Z — round33三条独立详情核验完成
+
+
+
+- [C345 会议里谁多领一份活](https://x.com/qiluo27808/status/2107203279486919112)，4:16 AM · Oct 6, 2026。首句明确假设，三页是设想道具，不是公司调查。
+- [C346 祝贺之后的那句话](https://x.com/qiluo27808/status/2107203836851196211)，4:18 AM · Oct 6, 2026。自拟对照表达判断，未声称具体亲友讲过，不给人诊断嫉妒。
+- [C347 帮忙的收工点](https://x.com/qiluo27808/status/2107204613007143380)，4:21 AM · Oct 6, 2026。自己拟的有限帮助回法，没有实测效果承诺。
+
+这批不转述论坛/news，不靠机构日期开头，均是清楚设想或观点。没有外部事件事实需要证明，不硬挂研究样本当事实来源；没有媒体或卡片。每条真实编辑器逐字比对并目视截图，单次提交，编辑器关闭；独立详情重载后全文精确匹配，账号、空行、引号、无卡和时间确认。agent_checked=true、human_checked=false；秒null。C346/C347提交返回旧详情，先主页重载找原URL，没有重发。
+
+本批3条而非5条：其余拟题与本批机制重叠或常见段子新颖性不足，不凑数；无平台阻碍。正文的锋芒和可用性仍为编辑判断，没有新帖足龄反馈，不能宣称曝光改善。新增151、剩849、基线25合计176、ready0、队列347；下一轮C348起需新题材，避免把设想对照变成另一个固定模板。
+
+新高浏览研究3条（含1反例）、新低浏览原帖1条；详见docs/HIGH_VIEW_STRUCTURE_ROUND33_2026-10-06.md。初期32审计和后续观察分口径，公式没有升级。
+
+### 2026-10-05T20:26:36.289822Z — round33检查与同步
+
+16项测试通过；独立详情全文/截图、151唯一URL、剩849/ready0/队列347和两清单一致性通过。CLI seed审计仍是11链接13观察，不冒充本批原生JSON反馈；0公式验证。定时x已同步并读取配置核验ACTIVE/每5分钟/failed_runs_only，下一步C348。首轮快捷键导航未到搜索目标，显式点击地址栏后恢复；后续每次重新定位控件。无认证/锁屏或平台阻碍。
+
+## 2026-10-05T20:40:34.934303Z — round34新研究和三条候选
+
+本轮直接详情读4条新万次高浏览正文、1条新较低浏览原帖，另复访round32的R32-HV33长帖（不新增样本计数）。HV45无依据99.9%及HV47阶层成熟论均为高浏览负面编辑反例。长帖AX截断，以上/中/下截图补足阅读，不能冒充AX完整。原始资料仅ignored data/private/round34。C348近期相亲作者自述+判断、C349可见消费选择偏差观点、C350自愿拒绝选项观点，各一个矛盾并去重。不据浏览数继承阶层/语言因果，也不做足龄流量判断。目标5条，另两方向事实/机制/重复闸门不足，只准备3条；当前新增仍151，ready3/队列350。
+
+## 2026-10-05T20:53:58.436847Z — round34三条独立详情核验完成
+
+
+
+- [C348 相亲家底与人的价值](https://x.com/qiluo27808/status/2107209686080762278)，4:41 AM · Oct 6, 2026。保留10月4日原作者自述与限定，评论明确为判断；未把作者家庭/相亲核实成新闻。
+- [C349 没出门的人去哪儿举手](https://x.com/qiluo27808/status/2107210600506077437)，4:45 AM · Oct 6, 2026。评论照片不能给总体钱包作证；不继承原帖失业程度，不编收入/人次/消费来源。
+- [C350 自愿的零选项](https://x.com/qiluo27808/status/2107211704287576364)，4:49 AM · Oct 6, 2026。原创条件例子与规范判断，不是具体组织摊派事件或本人经历。
+
+每条真实编辑器逐字比较，AX折叠空行经截图确认；仅一次提交，编辑器关闭；独立详情重载核对账号、全文中文与标点、空行、引号、重复、来源及显示时间。C348/C349来源URL被X原生转换成不同的文字引用卡，各自点击确认对应原页；编辑器未显示移除卡控件，没有上传照片视频。引用卡是正文来源，不是装饰图；C349卡的视觉摘录截断，不冒充全文都在卡上。C348的作者账号被原生渲染为链接，C349没有正文账号链接。C350无卡、详情全文精确匹配。agent_checked=true、human_checked=false，秒null。
+
+本轮目标5条，只有3条过关；语言文化因果、家庭出身成熟论没有依据，另一假日优越感拟题与C349重叠，未入队不补量。无平台障碍。三条仍使用观点标识，不能因此宣称已经解决吸引力；后续继续变换长度和表达，避免把“首句—摘要—我的看法”变成固定结构。新帖未有足龄反馈，不能宣称曝光改善。
+
+累计新增154、剩846、基线25合计179、ready0、滚动队列350，最新C350。初期32审计加round32新7、round33新3、round34新4，为46条这一口径的高浏览样本；其他阶段观察计数另列，不混算。下一轮C351起，需要新场景，避免继续相亲价值/假日消费/自愿收费三个矛盾。
+
+新高浏览研究4条（含2负面编辑反例）、新低浏览原帖1条；R32-HV33复访不新增。详见docs/HIGH_VIEW_STRUCTURE_ROUND34_2026-10-06.md。
+
+检查与同步：16项项目测试通过；本轮三个编辑器/独立详情文本、截图存在性、引用卡来源、秒null、两份正文清单一致性以及154唯一公开URL核对通过。旧SQLite种子审计完成但仅11链接13观察，不包含本轮JSON，样本/指标/关注归一化局限仍未解除。自动任务工具同步后读配置确认ACTIVE/每5分钟/failed_runs_only与C350/154/C351，保留通知偏好。原始核对记录仅ignored data/private/round34/verification.json。
+
+- round35收尾核对 2026-10-06T00:45:40.508150Z：16 tests通过；seed audit未验证公式且不是本账号反馈。154独立发布URL一致；automation已读回ACTIVE/5分钟/failed_runs_only并加入round35要求。无新增提交，练习保持NOT_READY。
+
+- 2026-10-06T00:57:42.232704Z round36自动任务读回ACTIVE/5分钟/failed_runs_only，新增156、C352/C353和新研究2高+1低已同步；保留通知偏好。安全摘要检查后提交推送，原始正文/指标/截图仅ignored。
+
+round42验证：16测试、campaign/两份状态计数、正文不变、原始证据ignored及自动化读回检查通过；旧seed审计与本轮独立观察分口径。
+
+## 2026-10-08T02:00:00Z — Reader Value V2 修正与前瞻实验设计
+
+- 重新确认本轮目标是修正模型，不是补齐旧注释：`SELF_MIRRORING_V1` 保留为历史可读层，新增 `READER_VALUE_V2`。`SELF_RELEVANCE` 不再是 universal prerequisite；低/未知自我相关性在有高好奇心、效用、知识纠正、惊奇或其他明确 route 时可以继续审核。
+- `growth_engine/reader_model.py` 增加 route-specific validation。SHARE/QUOTE、REPLY、SAVE_RETURN、CLICK_RESOURCE、DWELL、FOLLOW 各自只要求相关字段；不再对所有候选强制 `share_recipient`、`identity_trigger` 或 `opinion_space`。没有总分、乘法公式或自动状态升级。
+- `data/reader_value_stratified_sample_2026-10-08.json` 固定为28条深审样本（15外部、13自帖），覆盖初始 routes；外部证据明确为 `STRUCTURE_SUMMARY_ONLY`，未把其余历史记录机械补齐。可由 `python3 scripts/build_reader_value_sample.py` 重建。
+- `data/prospective_reader_value_experiment_2026-10-08.json` 预注册12个槽位，覆盖 H1 低自我相关高好奇心、H2 可比较筹码、H3 真实解释缺口；状态 `DESIGNED_NOT_SCHEDULED`，发布仍暂停，不含虚构候选或批量发布计划。
+- 固定窗口保存实际观测时间、实际帖龄、目标窗口、偏移和分层容差；分发不确定性与内容失败分开；评论保留正文和 `activation_prediction_match`。C355 仍是原 `SHARE` 实验，V2 只做发布后的独立回顾，不改原始链接、正文或预注册。
+- 校验：34项标准库测试通过；JSON、重建脚本与 `git diff --check` 待本轮提交前再次复核。`VERIFIED_ON_OWN_ACCOUNT` 仍无机制满足。
+
+## 2026-10-08T02:14:44Z — 推送与 CI 回执
+
+- Reader Value V2 实现、28条分层样本、12槽位前瞻实验和状态记录已提交为 `20a87f5aa880799cbba57cf77176b447c5965e13`，推送 `origin/feature/x-research-phase2` 成功。
+- PR #5：<https://github.com/wanggenAi/x-content-growth-engine/pull/5>，状态仍 `OPEN`；base `main`，head 为上述提交。
+- GitHub Actions 两条 `unittest` 均成功：run `37716626105`、`37716621863`。本地 34 项测试、JSON 校验和 `git diff --check` 通过。
+- 仅保留用户已有的 `data/source_materials_round14_2026-10-02.json` 至 `round20_2026-10-03.json` 未跟踪文件，未加入提交。
+- 状态回执随后提交为 `d9af660` 并成功推送；该提交对应的两条 CI run `37717214458`、`37717209388` 均成功。PR #5 仍保持 OPEN，未合并。
+
+
+## 2026-10-07T13:24:19Z — C355 单条发布、详情重载核验与反馈窗
+
+用户明确要求“不需要人工核对 你可以直接发”。据此一次性发布已完成来源审查的 C355-P1；未恢复批量、未恢复 heartbeat 自动提交。C355 公开链接：<https://x.com/qiluo27808/status/2107823209806713075>。真实原生编辑器目视全文/中文/标点/空行/官方 PDF 链接，只提交一次，编辑器关闭；独立公开详情重载核验账号、全文、空行、无媒体、官方 PDF 目标和显示时间 `9:19 PM · Oct 7, 2026`，秒数未知。X链接渲染为 `t.co/yCYLxrCH3T`，目标未变。即时页面捕获为1 View、0互动，仅起始记录。
+
+C355实验进入 `PUBLISHED_PENDING_FEEDBACK`，观察窗1h/6h/24h/72h/7d从 `2026-10-07T13:19:00Z` 起算；窗口未到，不能说曝光改善或升级F01–F05。计数更新：158新增、842剩余、25基线合计183、ready0、队列353，最新C355。下一步等待窗口，不自动发布C356。
+
+
+## 2026-10-08T05:40:36.162951+00:00 — 本轮3条真实发布授权
+
+用户明确要求找至少10个真实线索、筛3–5个强材料、逐条实际发布3条并独立重载核验；无需逐条重问。覆盖旧publication pause仅限本轮3条，不恢复heartbeat自动提交。已确认@qiluo27808最新仍C355；PR5 OPEN、分支57eccf0、main9bb29f2、CI成功。11线索已记录，C356官方来源/近100条查重/V2 gate通过。旧28条模板样本不得作为正式候选填充依据。
+
+
+## 2026-10-08T05:47:46.285835Z — C356真实发布与用户否定
+
+C356单次提交、独立详情重载、全文/账号/段落/中文/来源目标核验：https://x.com/qiluo27808/status/2108070210884567465；显示1:41 PM · Oct 8, 2026，UTC05:41，秒数未知。发布状态PUBLISHED_PENDING_FEEDBACK；用户原话「你发的啥垃圾帖子 那什么反物质 有啥吸引人的？？？ 没觉得啊」。这是明确编辑失败，不能将已发计作兴趣验证。反质子材料的稀有数字不等于读者愿意读；后两条重新选，原硬币稿撤出当前选单，LG场景也不自动获准。1h/6h/24h/72h/7d窗口在ignored本地记录，未观测值null，views不作dwell。保留历史URL，不删除负例；PR5不合并。
+
+
+## 2026-10-08T06:11:56.322419Z — 用户否定C356后的重新选题断点
+
+用户明确认为C356“反物质”没有吸引力。该反馈记录为编辑质量失败：稀有数字/陌生机制本身不足以成为读者价值。原C356保留URL和负例，不删除、不改写历史。已淘汰原定硬币成本候选；C357改选Anthropic官方Project Vend办公室小卖部实验，交付钨块亏售、折扣和虚构蓝西装签约等具体现场，文件为data/editorial_candidate_c357_2026-10-08.json。C357尚未提交，等待原生可见编辑器稳定并逐字核验；本轮仍需2条，PR5保持OPEN，无heartbeat自动提交。
+
+
+## 2026-10-08T07:46:54.712230Z — 用户重申吸引力优先并要求继续
+
+原话「对你的 你的内容 一定要是 人们高度会被吸引到的内容才可以  继续吧」。续做剩余2条；真实事实、强冲突/场景/结果、查重和编辑器核验缺一不可，不能承诺必然高曝光。C357-P1重新审后弃用：首屏慢且将折扣降80%归因给工具不准确。P2改为AI老板审批后折扣次数约降80%而退款次数3倍，末尾真实整夜互夸永恒；官方原文复核，数字是次数不是金额，第二阶段总体经营改善边界保留。来源/近100首屏主题结尾+近50/20冲突审核，V2 gate通过；未提交，授权无需再问。
+
+
+## 2026-10-08T07:50:55.477888Z — C357-P2单次发布与独立核验
+
+C357公开URL：https://x.com/qiluo27808/status/2108102103482630558，显示3:48 PM · Oct 8, 2026（UTC07:48；秒数未知）。真实编辑器中文、空行、标点全文目视，单次提交，主页222帖只出现一个新C357；独立公开详情重载五段完整，原生来源卡实际指向Anthropic第二阶段原文，无上传媒体。状态PUBLISHED_PENDING_FEEDBACK，1h/6h/24h/72h/7d未观测值null，评论暂无。160新增/25历史基线/185合计只作输出观察；本轮2/3，余1条重新寻找不同具体现场。C356的1h未及时捕获，标DUE_MISSING，不拿2小时主页4views补成1h。上次未填稿的参数失败属于App.paste被错用Tab签名，不是X平台不稳定；本轮正确调用后已恢复，不再把工具错误当权限阻碍。PR5保持OPEN。
+
+## 2026-10-08T07:57:00Z — C358真实发布、核验与本轮完成
+
+C358单次提交并独立详情重载核验：https://x.com/qiluo27808/status/2108104588360581629；显示3:57 PM · Oct 8, 2026，秒数未知。主页由222增至223 posts，仅出现一个C358；编辑器和详情全文、中文、空行、标点、来源卡目标均匹配，t.co/vA9wCjgrxM指向`https://timeline.sohu.com/news/0JuPhgsmPM`，无上传媒体。本轮三条真实发布因此完成，但C356已由用户明确否定为低吸引力负例，不能算兴趣验证；C357/C358进入固定反馈窗口，不能先宣称高曝光。
+
+C358材料为封面新闻记者对“吃苦夏令营”的机构与家长采访：约5000元十天、过万三十天，孩子挖土豆/背柴/喂猪；成都初一女孩觉得农活有趣，上海7岁女孩十余天后赖床挑食未改但母亲仍认可见识价值。此前口头提到“放羊”及“不安心读书”未被来源证实，已纠正并禁止写入正文。
+
+
+## 2026-10-08T08:48:22.847Z — C357 1h反馈窗到期维护
+
+本地检查发现 C357 的 1h 窗口在 `2026-10-08T08:48:00Z` 到期；截至 `2026-10-08T08:48:22.847Z` 没有人工提供的真实来源、截图路径和 `human_checked` 标记。已将 `data/private/publication_2026-10-08/C357-feedback.json` 的 1h 状态设为 `DUE_MISSING`，记录检查时帖子年龄约60.38分钟；views、互动、停留、关注、点击及 `observed_at_utc` 保持 null，证据引用为空。C356 继续作为低兴趣负例，C358 1h仍PENDING；不改变发布暂停，不升级 F01–F05 或任何公式。
+
+
+## 2026-10-08T08:58:22.906Z — C358 1h反馈窗到期维护
+
+本地检查发现 C358 的 1h 窗口在 `2026-10-08T08:57:00Z` 到期；截至 `2026-10-08T08:58:22.906Z` 没有人工提供的真实来源、截图路径和 `human_checked` 标记。已将 `data/private/publication_2026-10-08/C358-feedback.json` 的 1h 状态设为 `DUE_MISSING`，记录检查时帖子年龄约61.38分钟；views、互动、停留、关注、点击及 `observed_at_utc` 保持 null，证据引用为空。C356 继续作为低兴趣负例，C357 1h同为DUE_MISSING，后续6h窗口仍PENDING；不改变发布暂停，不升级 F01–F05 或任何公式。
+
+
+## 2026-10-08T11:41:53.412Z — C356 6h反馈窗到期维护
+
+C356 的6h窗口于2026-10-08T11:41:00Z到期。本地无人工提供的真实反馈来源、截图路径和human_checked标记，已在ignored反馈记录标记DUE_MISSING；指标、observed_at_utc及实际观测年龄均保留null。检查时年龄约360.89分钟单独记录，发布时间秒数未知，不冒充指标捕获年龄。C356仍是用户否定的低兴趣负例；C357/C358的6h窗口仍PENDING，没有新增完整评论证据。保持PUBLICATION_PAUSED_FOR_LEARNING，不操作X、不新增候选、不升级公式。
+
+
+## 2026-10-08T13:15:00.745596Z — 立即补发与企业家评论目标
+
+用户原话：「为什么还没发布 赶紧发布  另外 需要多关注现在世界上的名人企业家 富豪  马斯克 黄仁勋什么的  一定要获得评论量目标」。授权本轮补发一条经审稿的新帖，不再停在偏好配置。新增名人企业家/富豪选题优先项，主目标为有效真实评论；未给数值，数量目标保持未指定，不保证评论。C359黄仁勋访谈来源/归因/查重/gate通过，准备原生可见编辑器单次发布；不恢复heartbeat自动投稿。
+
+
+## 2026-10-08T13:19:51.374823Z — C359公开核验与AI突破偏好
+
+C359已实际单次发布：https://x.com/qiluo27808/status/2108184801950020030；显示21:16 Asia/Shanghai（UTC13:16，秒数未知），主页223到224 posts，公开详情独立重载全文/段落/中文/标点/账号匹配，原生来源卡目标Dwarkesh访谈核对，无上传媒体。主动作REPLY，评论数量目标未被用户指定，保持null；不保证必达。累计162新增+25历史基线=187，仅输出观察。最新用户补充「还有 ai 最新的重大突破 也可以获取关注量 我认为」，已加为非硬性选题优先项，重点具体能力/成本改善与可验证原始演示、测试和限制；不将公司宣称等同于独立复现、不承诺关注增长。C359固定窗口已保存ignored记录，未来真实评论需原文/UTC/证据与分类。旧三帖轮保持完成，PR5不合并，heartbeat不自动发新帖。
+
+
+## 2026-10-08T13:21:38.476592Z — 定时任务同步C359与新选题偏好
+
+现有x heartbeat已通过app工具更新并读回ACTIVE/每5分钟/failed_runs_only，名称「X 内容选题与反馈学习」。新增C359反馈窗、知名企业家真实行动与AI重大突破一手证据优先项；可做非X公开来源研究和审稿准备，禁止自动发布/改帖/删帖/回复或账号接口操作。本轮C359单条新授权已执行，原三帖轮与负例保留。评论目标为有效真实读者评论，数值未指定，不能伪造或保证；views不等于评论或dwell。
+
+## 2026-10-08T13:52:23.912Z — C357 6h反馈窗到期维护
+
+C357的6h窗口于`2026-10-08T13:48:00Z`到期。截至`2026-10-08T13:52:23.912Z`，没有人工提供的真实来源、截图路径和`human_checked`标记，已在ignored反馈记录标记`DUE_MISSING`。检查时帖子年龄约364.4分钟单独记录，发布时间秒数未知；views、互动、停留、关注、点击及`observed_at_utc`保持null，证据引用为空。C356仍是用户否定的低兴趣负例；C358的6h仍PENDING，C359的1h仍PENDING。保持`PUBLICATION_PAUSED_FOR_LEARNING`，不操作X、不新增候选、不升级公式。
+
+## 2026-10-08T13:57:53.885Z — C358 6h反馈窗到期维护
+
+C358的6h窗口于`2026-10-08T13:57:00Z`到期。截至`2026-10-08T13:57:53.885Z`，没有人工提供的真实来源、截图路径和`human_checked`标记，已在ignored反馈记录标记`DUE_MISSING`。检查时帖子年龄约360.9分钟单独记录，发布时间秒数未知；views、互动、停留、关注、点击及`observed_at_utc`保持null，证据引用为空。C356仍是用户否定的低兴趣负例；C357的6h也为DUE_MISSING，C359的1h仍PENDING。保持`PUBLICATION_PAUSED_FOR_LEARNING`，不操作X、不新增候选、不升级公式。
+
+## 2026-10-08T14:17:54.002Z — C359 1h反馈窗到期维护
+
+C359的1h窗口于`2026-10-08T14:16:00Z`到期。截至`2026-10-08T14:17:54.002Z`，没有人工提供的真实来源、截图路径和`human_checked`标记，已在ignored反馈记录标记`DUE_MISSING`。检查时帖子年龄约61.9分钟单独记录，发布时间秒数未知；views、互动、停留、关注、点击及`observed_at_utc`保持null，证据引用为空。C356仍是用户否定的低兴趣负例；C357/C358的6h均为DUE_MISSING，C359后续6h仍PENDING。保持`PUBLICATION_PAUSED_FOR_LEARNING`，不操作X、不新增候选、不升级公式。
+
+
+## 2026-10-09T02:15:47.991606Z — 用户重新授权持续新帖
+
+用户原话「为什么不持续发送？？？？ 发新帖子啊 别不发啊」。重新授权持续普通新帖；不再只维护反馈。保留来源/内容价值/查重/真实编辑器单次提交/独立详情核验，个人逐字审阅已由用户免除，agent_checked不冒充human_checked。本轮先发布C360/C361，不凑数量。
+
+
+## 2026-10-09T02:28:03.191548Z — 持续发布恢复与C360/C361真实输出
+
+C360 Claude Haiku5.5单价与完整任务成本：https://x.com/qiluo27808/status/2108381049927750139（UTC02:16）；C361 Amazon配送眼镜：https://x.com/qiluo27808/status/2108382464075043061（UTC02:22）。显示分钟，秒数未知。均原生可见编辑器全文/格式核验、各单次提交、独立公开详情重载与来源卡目标核验；agent_checked=true，用户免亲自逐条审核，不冒填human_checked。普通持续发布授权覆盖旧仅反馈/单条限制，内容和来源门槛仍生效；x已ACTIVE，每5分钟唤醒研究审稿并发布合格新帖，不因反馈缺失停发。无真实读者指标录入，旧逾期6h窗口维护为DUE_MISSING，观察年龄与检查年龄分开。累计164新增+25历史基线=189，仅输出盘点。截图与反馈ignored，未跟踪用户素材不纳入，PR保持未合并。
+
+
+## 2026-10-09T02:32:33.315896Z — C362新规则材料完成审稿
+
+Oct8 Anthropic官方公告与Nov12生效的AUP完整相关条款已核对，正常抱怨/反驳/创作/测试豁免和极端行为主要终止对话的边界保留。C362讨论用户纠错与工具拒绝情绪的界线；全360来源及近30全文查重，内容/V2门槛通过，用户免亲自审核单独记录且human_checked=false。初始网页读取失败后官方web引用全文成功，不使用403绕过。旧窗口状态无实质变化，C360/C361勿重复发布。准备本条原生编辑器一次提交及独立核验。
+
+
+## 2026-10-09T02:41:34.078213Z — C362单次发布与独立核验
+
+C362已发布：https://x.com/qiluo27808/status/2108385541607797060。显示10:34 Asia/Shanghai（UTC02:34，秒数未知）。完整中文五段、空行、标点、原生来源卡、Gen @qiluo27808已核对；一次提交后独立打开真实详情并重载，来源卡实际解析到Anthropic官方Oct8公告。新政策Nov12生效，普通抱怨/反驳/创作/测试豁免与极端行为主要终止对话的边界保留，后两段为编辑疑问。agent_checked=true，human_checked=false；形式READY只因个人审核要求未通过，用户豁免显式保留。主动作REPLY，预注册真实有内容评论，数值目标null；没有可核实反馈或公式升级。1h/6h/24h/72h/7d窗口保存ignored；旧窗口无新增到期或人工证据。此前C360/C361未重复发布。本轮只发1条，不填满5条；近帖Anthropic较多，下一轮优先不同公司强材料。累计165新增+25历史基线=190，仅输出盘点。持续发布授权有效，未操作其他账号或制造互动。
+
+定向审计通过：全部360条历史记录不变、仅新增C362、URL唯一、单次提交和盘点一致；内容门槛仅保留显式免除的个人审核原因。git diff --check通过，证据/反馈路径ignored；审计不读取private或其他未跟踪用户材料。
+
+
+## 2026-10-09T02:46:10.651252Z — C363独立企业身份材料审稿
+
+Google官方Gemini at Work公告的Workspace段落与持久执行已核对。C363以企业邮箱/日历/网盘/目录及版本历史名字为具体新信息，主动作SHARE；提出修改而非宣称已全面重写，公布能力不等于独立复现或全企业开放。全部361来源/近30全文查重，V2内容通过，human_checked=false及用户个人审核豁免保留。NVIDIA科研承诺和回购授权仅留研究线索，不比较实际年度支出；2025电脑使用旧稿淘汰。C360-C362真实完成不重复，旧反馈无新增到期/人工评论证据。准备C363可见编辑器一次提交。
+
+
+## 2026-10-09T02:49:26.347972Z — C363真实发布与独立核验
+
+C363：https://x.com/qiluo27808/status/2108388852625031210，显示10:47 Asia/Shanghai（UTC02:47，秒数未知）。原生编辑器完整四段中文/空行/标点/Google来源卡/本人Gen @qiluo27808核验，一次提交；独立公开详情重载全文匹配，卡片t.co实际指向Google Cloud原文。发布只描述Google本次公布的独立企业身份、版本历史和云端任务，未把公司宣称当实测突破，不宣称全部企业已能开通。主动作SHARE，预注册独立真实转发/引用，数值目标null；human_checked=false、agent_checked=true和用户个人审核豁免保留。1h/6h/24h/72h/7d固定窗口ignored指标均null，旧窗无新增到期或人工评论证据；不升级公式、不因缺失停发。C360-C362不重复；本轮新增1条，NVIDIA两条原始承诺/授权记录只作研究。累计166新增+25历史基线=191，仅输出盘点。
+
+定向审计通过：全部361历史记录不变、仅新增C363、URL唯一和单次提交/盘点一致；V2门槛仅保留用户显式免除的个人审核原因。diff --check和ignored证据路径检查通过，审计未读取private及无关未跟踪用户材料。
+
+
+## 2026-10-09T02:59:49.326360Z — C364研究与原生发布前检查待续
+
+S1官方完整实验与日期索引已核对，8月材料不包装为今日突破。C364以杯子替代浇水壶和一段视频教家务为场景，逐步66%与失败恢复边界保留；唯一主动作REPLY，预注册有内容的任务/理由评论，目标null。全362来源与近30全文查重，V2内容条件通过，仅个人审核要求按用户明确豁免保留human_checked=false。动态视频仅见预览/加载，尚未完成动作核验；Chrome在检查间被用户切换，未操作无关当前页，未打开X编辑器、未提交。候选公开保存，下轮补做原生演示和编辑器检查；持续普通发布授权仍有效，不恢复全局学习暂停。无新反馈窗到期或人工评论证据；修正state中落后于已核验C363的live campaign盘点镜像，历史回执不变。PhysicalSelfPlay保留研究，不靠140年模拟数字硬凑。
+
+
+## 2026-10-09T03:14:50.155728Z — C364单次发布与独立核验
+
+C364：https://x.com/qiluo27808/status/2108395078104555851，显示11:12 Asia/Shanghai（UTC03:12，秒数未知）。完整四段中文、空行、标点、本人Gen @qiluo27808及真实Skild来源卡已核对；一次提交后独立打开详情并重载，正文匹配，卡片实际指向Skild S1原文。P2明确公司实验归因，8月材料不包装为今日突破，66%保留逐步评估/失败恢复边界。官方动态视频仅初段可播放，杯子动作未直接目视核实；完整原始报告覆盖所述公司例子，不假称视频完整验证或独立复现。唯一主动作REPLY，预注册真实任务与理由评论，数值目标null；human_checked=false、agent_checked=true及用户个人审核豁免显式保留，形式READY不伪改。固定反馈窗已建ignored，指标与观察年龄null；缺失反馈不阻止合格新帖，F01-F05不升级。累计167新增+25基线=192，仅输出盘点。本轮新增1条，历史帖子不重复。
+
+定向审计通过：362条历史记录不变，仅新增C364；URL唯一、单次提交及盘点镜像一致。内容门槛仅保留显式免除的个人审核原因；diff --check及ignored证据路径检查通过。审计不读取private或无关未跟踪用户材料。
+
+
+## 2026-10-09T03:40:26.951771Z — C365单次发布与独立核验
+
+C365-P2：https://x.com/qiluo27808/status/2108401545540944260，显示11:37 Asia/Shanghai（UTC03:37，秒数未知）。本机原生Chrome编辑器核对本人Gen @qiluo27808、完整五段中文/空行/标点/真实Anthropic卡片；实际Post点击一次，独立打开公开详情并重载全文匹配，t.co/cbjIV8LDbN实际解析到官方技术报告。P1只发生错误AX目标输入，未触发实际Post；查本人主页/重载确认无新帖后采用P2，没有盲重发。P2用约2.9万候选、约6000人工复核的瓶颈、维护者主动请求未验证报告及97条早期高危抽查分类形成具体分享价值，区别近期责任问句。两份Oct8官方全文已核对，候选数量不冒充全确证，97条样本不泛化为服务整体或独立复现，补丁保持可提供条件。全363历史来源及近30全文查重。主动作SHARE，预注册独立真实转发/引用，数值目标null；agent_checked=true、human_checked=false，用户个人审核豁免显式保留，形式READY不伪改。
+
+固定窗口已建ignored；C360/C361/C362的1h到期无人工来源/截图/human_checked，标记DUE_MISSING，指标及实际观测年龄null，检查年龄另存。没有新增完整真实评论证据，不分类；C356仍为用户否定的低兴趣负例，F01-F05保持HYPOTHESIS。缺失反馈不阻止合格发布。本轮只新增1条；累计168新增+25历史基线=193，仅输出盘点。定向审计限本条公开候选及tracked campaign/state，不读取private证据或无关未跟踪用户材料。
+
+定向审计通过：363条历史记录不变，仅新增C365；URL唯一、单次提交和盘点镜像一致。内容门槛仅保留用户显式免除的个人审核原因。git diff --check与ignored路径检查通过，审计未读取private证据或无关未跟踪用户材料。
+
+
+## 2026-10-09T03:47:11.245880Z — C366单次发布与独立核验
+
+C366-P1：https://x.com/qiluo27808/status/2108403331072946200，显示11:45 Asia/Shanghai（UTC03:45，秒数未知）。原生可见Chrome核对本人Gen @qiluo27808、完整五段中文/空行/标点与真实微软来源卡，各单次提交；本人主页取得实际新URL，独立详情重载全文匹配，t.co/8nhepjQhou实际指向微软Oct7公告。选题为微软“和MacBook分手”的条件换购及本地AI换机选择，黄仁勋/纳德拉同台由NVIDIA活动全文核对。最高1000美元限美加合格换购/验机，2599为MSRP起价，最高128GB不当作起价满配，120B本地模型为公司宣称，不冒充独立跑分/全面胜云端；未购买或给财务承诺。全364历史来源与近30全文查重。唯一主动作REPLY，预注册真实换机/云端选择与理由评论，目标null；human_checked=false、agent_checked=true，用户个人审核豁免保留，形式READY不伪改。
+
+固定窗口已建ignored，反馈本轮新增到期：C363:1h；缺少人工来源/截图/human_checked的到期窗口DUE_MISSING，指标和实际观察年龄null，检查年龄单独保存。无完整新增评论证据，不分类；C356负例及F01-F05 HYPOTHESIS不变。持续普通发布授权有效，缺失反馈不阻止合格新帖。本轮新增1条，累计169新增+25历史基线=194仅输出盘点。截图/原始AX/反馈只在ignored路径，用户未跟踪材料不触碰。
+
+定向审计通过：364历史记录不变，仅新增C366，URL唯一、单次提交和盘点镜像一致。V2内容门槛仅保留用户显式免除的个人审核原因；diff --check及ignored路径检查通过，审计未读取private证据或无关未跟踪材料。

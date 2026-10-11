@@ -1,0 +1,91 @@
+{
+  "candidate_id": "C356",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C356-R1",
+  "publication_version": "C356-P1",
+  "text": "卡车载着一吨设备，只为运走92个反质子。\n\n今年3月24日，CERN把它们留在低温真空装置里，用电场和磁场避免粒子碰到普通物质，再装上卡车，在园区完成运输测试。\n\n搬走有个很具体的理由：生产它们的实验室有磁场干扰，想测得更精细，就得换个安静地方。\n\n这趟货运，难在让货物一路都“碰不到箱子”。\n\nhttps://home.cern/base-experiment-cern-succeeds-transporting-antimatter/",
+  "subject_value": "1000kg低温装置只运输92个反质子；反物质的保存条件与产生地的磁场干扰同时构成陌生机制。",
+  "payload": "92个反质子、1000kg装置、2026-03-24园区测试、电磁场真空约束、为高精度测量远离生产设备磁场干扰。",
+  "primary_action": "DWELL",
+  "novelty_check": "全354条campaign来源和CERN/反物质/反质子/BASE-STEP字面检索；此前CERN内容是Web许可，不是粒子运输。近100条逐条查看首屏和主题，近50/20条比较冲突、结尾：无同来源同payload；末句是运输条件的具体比喻，不复用家庭界线、亲密关系或道德判词。",
+  "audit_language_separation": "2026-03-24旧事件，明写今年3月24日；只是在CERN园区的运输测试，不写成已运往德国。1000kg是装置而非反物质质量，不制造爆炸风险想象。碰不到箱子是电磁束缚/真空条件的编辑比喻。DWELL是意图，views不代表实测停留。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://home.cern/base-experiment-cern-succeeds-transporting-antimatter/",
+      "author_visible": "CERN",
+      "source_date": "2026-03-24",
+      "source_type": "EXPERIMENT_OFFICIAL_PRIMARY",
+      "checked_facts": [
+        "92 antiprotons",
+        "1000kg apparatus",
+        "main-site truck test",
+        "magnetic and electric fields in vacuum",
+        "magnetic field fluctuations limit precision"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_ARTICLE_READ; quantity, apparatus weight, date, transport scope and purpose checked against CERN English and French pages",
+  "human_checked": true,
+  "human_checked_reason": "本轮用户明确授权通过事实/质量/查重/可见编辑器检查后直接逐条发布3条；这是人工授权，不声称用户逐字读稿或亲自核来源。",
+  "agent_checked": true,
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "CURIOSITY",
+        "strength": "HIGH",
+        "cue": "一吨装置运输92个反质子，而且要离开生产实验室才便于精测。",
+        "reader_thought": "这么少的东西，为什么要用这么大一套设备搬走？"
+      }
+    ],
+    "dominant_reader_value_route": "CURIOSITY",
+    "why_reader_cares": "不用理解整套粒子物理，也能看懂普通货运和反物质保存条件之间的异常差异。",
+    "predicted_inner_response": "原来连装进箱子都不能碰到箱子。",
+    "self_relevance": "LOW",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "curiosity": "HIGH",
+    "curiosity_types": [
+      "MECHANISM_CURIOSITY",
+      "RARE_OBJECT",
+      "HIDDEN_PROCESS"
+    ],
+    "information_gap": "粒子为何需要一吨装置运输，又为什么离开它的生产实验室？",
+    "narrative_progression": "异常货物/装置规模→约束条件→搬运目的→具体运输比喻。",
+    "expectation_violation": "HIGH"
+  },
+  "experiment": {
+    "hypothesis": "H1_CURIOSITY_WITHOUT_SELF_SIMILARITY",
+    "what_is_being_tested": "陌生粒子运输的具体机制能否带来可见曝光或主动互动；不推断实际停留时长。",
+    "expected_reader_behavior": "继续读保存条件，可能提问或点赞。",
+    "activation_mechanisms": [
+      "EXPLANATION_RIGHT"
+    ],
+    "measurement_limit": "No dwell-time analytics; absent detail-expands remain null",
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "url": "https://x.com/qiluo27808/status/2108070210884567465",
+  "published_at": "2026-10-08T05:41:00Z",
+  "published_second": null,
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "displayed_time": "1:41 PM · Oct 8, 2026",
+  "verified_at": "2026-10-08T05:47:46.285835Z",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "正文、空行、账号、中文、标点匹配；独立详情页重载；t.co/CFOrRNqPRs点击目标与CERN原始URL一致；无媒体；单次提交。",
+  "editorial_outcome": "USER_REJECTED_LOW_INTEREST",
+  "user_feedback": "你发的啥垃圾帖子 那什么反物质 有啥吸引人的？？？ 没觉得啊"
+}

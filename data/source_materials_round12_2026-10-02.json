@@ -1,0 +1,100 @@
+{
+  "recorded_at": "2026-10-02T10:58:41Z",
+  "materials": [
+    {
+      "id": "CAM-C040",
+      "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11761833/",
+      "source_kind": "PEER_REVIEWED_STUDY_PMC_FULL_TEXT",
+      "observed_at": null,
+      "observed_at_missing_reason": "The exact UTC moment of the earlier direct page review was not captured; no timestamp is inferred.",
+      "verified_claims": [
+        "Study surveyed 322 mothers of young children about 30 household tasks.",
+        "Self-reported cognitive/planning labor was more disproportionately divided than execution labor.",
+        "Cognitive labor was associated with depression, stress, burnout, mental health, and relationship functioning measures."
+      ],
+      "limits": [
+        "US sample of mothers with young children; self-report.",
+        "Associations do not establish causality or universal family patterns."
+      ],
+      "rights": "One public article read for source-checking; no bulk collection."
+    },
+    {
+      "id": "CAM-C041",
+      "title": "Less cash, more splash? A meta-analysis on the cashless effect",
+      "url": "https://doi.org/10.1016/j.jretai.2024.05.003",
+      "source_kind": "PEER_REVIEWED_META_ANALYSIS_ABSTRACT_AND_INDEXED_PUBLISHER_RECORD",
+      "observed_at": null,
+      "observed_at_missing_reason": "The exact UTC moment of the earlier publisher/index record review was not captured; no timestamp is inferred.",
+      "verified_claims": [
+        "2024 meta-analysis combined 71 papers and 392 effect sizes.",
+        "The aggregate cashless effect on spending was small and statistically significant.",
+        "The aggregate effect weakened over time; included cashless methods were not limited to QR."
+      ],
+      "limits": [
+        "Sources surfaced the publisher abstract/record; not every included study was reviewed.",
+        "Do not infer that each person always spends more cashlessly or that QR alone caused the effect.",
+        "Publisher page displayed an automated access challenge; no challenge was bypassed."
+      ],
+      "rights": "Read one public abstract/record for source-checking; no bulk collection."
+    },
+    {
+      "id": "CAM-C042",
+      "title": "湖南新田：民间借贷纠纷背后挖出诈骗案",
+      "url": "https://www.spp.gov.cn/spp/zdgz/202401/t20240122_640831.shtml",
+      "source_kind": "SUPREME_PEOPLES_PROCURATORATE_OFFICIAL_REPORT_DIRECT_VISIBLE_READ",
+      "observed_at": null,
+      "observed_at_missing_reason": "Earlier direct visible page review time was not preserved to the second; no time is inferred.",
+      "original_publication_date": "2024-01-22",
+      "verified_claims": [
+        "Official SPP report describes one Xin'tian, Hunan case in which Xie used a bridge-loan pretext to obtain more than RMB 7 million from seven friends/relatives.",
+        "Investigators/prosecutors found project construction contract and IOUs were forged; report says funds went to online gambling and virtual-currency transactions.",
+        "Report says the first-instance judgment on 2024-01-12 convicted fraud and imposed 13 years 6 months and RMB 200,000 fine."
+      ],
+      "limits": [
+        "One reported case; no inference about ordinary friend/family lending.",
+        "Use paraphrase rather than reconstruct a quotation from a partial description.",
+        "Sentence is described as the first-instance judgment reported in 2024."
+      ],
+      "rights": "One public government report read for source-checking; no bulk collection."
+    },
+    {
+      "id": "CAM-C043",
+      "title": "Keeping Up With Work Email After Hours and Employee Wellbeing: The Role of Work-Family Border Control, Psychological Detachment and Work-Related Rumination",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8782676/",
+      "source_kind": "PEER_REVIEWED_STUDY_PMC_ABSTRACT_AND_METHODS",
+      "observed_at": null,
+      "observed_at_missing_reason": "The exact UTC moment of the earlier direct page review was not captured; no timestamp is inferred.",
+      "verified_claims": [
+        "Sample included 173 full-time US administrative assistants who were required to work from home during COVID.",
+        "Nonwork-hours work email was associated with reduced psychological detachment and work-family conflict.",
+        "Telepressure moderated the relationship between after-hours work email and psychological detachment."
+      ],
+      "limits": [
+        "Cross-sectional/self-report and narrow occupational sample; no causal claim.",
+        "The moderation statement here refers to the email-detachment relationship, not a stronger relation to every outcome.",
+        "Do not generalize to all workers or describe actual instant replies as observed behavior."
+      ],
+      "rights": "One public article record/abstract and methods read for source-checking; no bulk collection."
+    },
+    {
+      "id": "CAM-C044",
+      "title": "Can unhealthy food purchases at checkout be discouraged by introducing healthier snacks? A real-life experiment in supermarkets in deprived urban areas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7171819/",
+      "source_kind": "PEER_REVIEWED_STUDY_PMC_ABSTRACT_AND_METHODS",
+      "observed_at": null,
+      "observed_at_missing_reason": "The exact UTC moment of the earlier direct page review was not captured; no timestamp is inferred.",
+      "verified_claims": [
+        "Twenty-four Dutch supermarkets participated: 15 intervention stores and 9 control stores.",
+        "Unhealthy snack purchases showed no statistically significant between-group difference in change.",
+        "At three intervention stores, 134 respondents were surveyed; 41% noticed the adjustment and 80% of those noticing it reported being satisfied/very satisfied."
+      ],
+      "limits": [
+        "The store comparison is not described as a randomized trial.",
+        "Nonsignificant difference does not establish exactly no effect.",
+        "The survey was only at three intervention stores; 80% denominator is respondents noticing the change."
+      ],
+      "rights": "One public article record/abstract read for source-checking; no bulk collection."
+    }
+  ]
+}

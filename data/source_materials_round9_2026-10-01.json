@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-10-01T01:23:40.265674Z",
+  "materials": [
+    {
+      "id": "M23",
+      "url": "https://engineering.stanford.edu/news/jen-hsun-huang-nvidia-co-founder-invests-next-generation-stanford-engineers",
+      "title": "Jen-Hsun Huang, NVIDIA co-founder, invests in the next generation of Stanford engineers",
+      "source_kind": "PRIMARY_UNIVERSITY_INTERVIEW_WEB_TOOL",
+      "published_at": null,
+      "human_checked": false,
+      "verified_claims": [
+        "Interview recounts Huang aged 24 leading 30-odd engineers and feeling betrayed when a manager resigned.",
+        "He recounts later recognizing his mistake and being happy for departing employees; says this enabled some to return."
+      ],
+      "limits": [
+        "Interviewee self-report; no independent causal test.",
+        "Exact page publication time missing.",
+        "Direct Browser Harness and urllib access returned 403; web tool returned full primary page.",
+        "Does not verify current 2026 attitude or policy."
+      ]
+    },
+    {
+      "id": "M24",
+      "url": "https://blog.samaltman.com/machine-intelligence-part-1",
+      "title": "Machine intelligence, part 1",
+      "source_kind": "PRIMARY_AUTHOR_BLOG_WEB_TOOL",
+      "observed_at": "2026-10-01T01:30:28.705173Z",
+      "published_at": null,
+      "human_checked": false,
+      "verified_claims": [
+        "Part 1 argues concern about superhuman machine intelligence; part 2 advocates regulation while acknowledging potential benefits."
+      ],
+      "limits": [
+        "Original page returned no exact publication date in extracted text.",
+        "Earlier concern and subsequent AI development alone do not prove a contradictory change of belief.",
+        "Not selected for publication as an accusation or invented reversal."
+      ]
+    },
+    {
+      "id": "M25",
+      "url": "https://blog.samaltman.com/machine-intelligence-part-2",
+      "title": "Machine intelligence, part 2",
+      "source_kind": "PRIMARY_AUTHOR_BLOG_WEB_TOOL",
+      "observed_at": "2026-10-01T01:30:28.705173Z",
+      "published_at": null,
+      "human_checked": false,
+      "verified_claims": [
+        "Part 1 argues concern about superhuman machine intelligence; part 2 advocates regulation while acknowledging potential benefits."
+      ],
+      "limits": [
+        "Original page returned no exact publication date in extracted text.",
+        "Earlier concern and subsequent AI development alone do not prove a contradictory change of belief.",
+        "Not selected for publication as an accusation or invented reversal."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-01T00:22:26.652646Z",
+  "batch": "data/viral_samples_2026-10-01.json",
+  "validated_formula_count": 0,
+  "formulas": [
+    {
+      "id": "F01",
+      "name": "重新理解熟悉的人或行为",
+      "status": "HYPOTHESIS",
+      "grammar": "读者熟悉的判断 → 一个具体反差或新证据 → 更准确的解释 → 读者可以带走的判断",
+      "reader_motive": "保全自我评价、被理解、降低对自身处境的羞耻感",
+      "evidence_required": "真实且归属明确的经历，或可查的原始研究；不把别人的经历写成自己的",
+      "failure_condition": "只有反转而没有证据；或普遍化极少数经历",
+      "comparison": "相同事实的直接叙述；普通帖中的抽象格言也有反差，说明结构本身不足",
+      "test": "同主题多个独立作者与后续日期；按发布后24h记录；题材与媒体一致"
+    },
+    {
+      "id": "F02",
+      "name": "减少完成一件事的成本",
+      "status": "HYPOTHESIS",
+      "grammar": "明确要完成的事 → 可检查的交付物 → 获取或执行步骤 → 使用条件",
+      "reader_motive": "省筛选时间、获得能立即使用的资源、转发给需要的人",
+      "evidence_required": "真正存在且可公开访问的资源、步骤或结果；作者自报数量不能当实测",
+      "failure_condition": "资源不能用、重复收藏不执行、邀请码激励主导互动",
+      "comparison": "同类资源的能力介绍；朴素资源帖也有899097浏览，不能声称夸张开头是必要条件",
+      "test": "控制资源新颖性、热点与推广；记录收藏与转发但不等同最终使用"
+    },
+    {
+      "id": "F03",
+      "name": "让读者认出自己的处境",
+      "status": "HYPOTHESIS",
+      "grammar": "具体身份或场景 → 明确需要/可见展示 → 可理解的后果",
+      "reader_motive": "归属、互助、身份识别",
+      "evidence_required": "真实场景或可检查的视觉材料；个人背景归属原作者",
+      "failure_condition": "空泛标签、刻板印象、地图样本无来源",
+      "comparison": "同作者同领域不强调身份的发布；本批普通帖年龄不匹配，尚未完成",
+      "test": "按作者基线分组，控制媒体和帖子年龄，独立作者留出"
+    },
+    {
+      "id": "F04",
+      "name": "把政策写成读者能核对的影响",
+      "status": "HYPOTHESIS",
+      "grammar": "原文件及日期 → 具体条款 → 谁受影响/谁承担成本 → 明确标为观点的解释 → 不适用的边界",
+      "reader_motive": "公平感、减少不确定性、避免现实损失",
+      "evidence_required": "官方原文、完整适用范围、正确计算；事实与动机推断分开",
+      "failure_condition": "假数字、故意漏条件、无证据地写禁止讨论或即将删除",
+      "comparison": "同政策仅转述事实；题材需求可能比文案更重要",
+      "test": "同一政策类别多个样本，后续日期核查事实；无需制造政治敌意"
+    },
+    {
+      "id": "F05",
+      "name": "提出有现实分歧的问题",
+      "status": "HYPOTHESIS",
+      "grammar": "可辨认的现象 → 一个具体且可回答的矛盾 → 足够背景让读者提出不同解释",
+      "reader_motive": "表达经验、显示理解、解释自己的得失",
+      "evidence_required": "问题前提准确；不得把错误前提藏进问句",
+      "failure_condition": "人人懂的空问题、诱导虚假互动、国籍性别刻板印象",
+      "comparison": "相同题材的直接解释；高评论不证明高质量流量",
+      "test": "查看有实质内容的回复与负面反馈，而非只数评论"
+    },
+    {
+      "id": "F06",
+      "name": "分发条件作为混杂因素",
+      "status": "REVIEW_REQUIRED",
+      "grammar": "独立记录背书/活动/推广/互推/邀请码/媒体，再分析内容结构",
+      "reader_motive": "不是已验证的内容机制",
+      "evidence_required": "原文披露只能作为作者自述；需要实际分发链路才可估算作用",
+      "failure_condition": "把大账号转发或激励导致的曝光归因于一句开头",
+      "comparison": "没有同等分发条件的样本不可作因果对照",
+      "test": "控制/记录分发，跨作者与时间留出；不制造互动或购买推广"
+    }
+  ],
+  "assembly_rule": "Select one mechanism and a source-checked material. Write hook → evidence → interpretation → reader consequence → boundary/source. This is an editorial grammar, not a predictive score or guaranteed viral formula."
+}

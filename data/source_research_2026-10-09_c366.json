@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-09T03:44:07.311899Z",
+  "state": "C366_P1_PUBLISHED_PENDING_FEEDBACK",
+  "new_publications": 1,
+  "source_summary": "完整微软Oct7公告及脚注、NVIDIA Oct7活动全文已读。换购限US/Canada Microsoft Store online，Oct7-Nov23，合格新设备+MacBook Pro、检验和审批，最高1000不是固定返额；不当作中国报价或买入建议。2599为宣布MSRP起价，商业型号不是同价；128GB为最高统一系统内存且GPU可寻址低于总数，未声称2599满配。超过120B本地模型为厂商能力宣称，未独立实测/不等于云模型全面性能；1petaflop为理论稀疏FP4不入正文。RTX Spark笔记本Oct16、桌面Nov，Windows功能部分upcoming不混全GA。黄仁勋/纳德拉Oct7同台为NVIDIA官方活动记录。未购买、无推荐/承诺或财务收益判断。",
+  "primary_sources": [
+    "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+  ],
+  "secondary_leads_not_used": [
+    "Tesla Q3 delivery release; ordinary output counts lacking specific action scene",
+    "NVIDIA $1bn five-year commitment; earlier research only, not actualannual spending"
+  ],
+  "publication_authorization": "ACTIVE",
+  "url": "https://x.com/qiluo27808/status/2108403331072946200",
+  "completed_at_utc": "2026-10-09T03:47:11.245880Z"
+}

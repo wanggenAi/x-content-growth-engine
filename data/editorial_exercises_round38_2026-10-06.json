@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-06T01:13:54.502578Z",
+  "status": "REVIEW_ONLY_NOT_READY_NOT_PUBLISHED",
+  "posts": [
+    {
+      "id": "R38-E01",
+      "draft": "下载一个App，月租酒店比租房便宜，还省掉水电停车。",
+      "status": "HOLD_SOURCE_AND_PAYLOAD",
+      "source_ref": "https://x.com/web3usb/status/2105559666797539573",
+      "reason": "具体优惠/房型/日期/含费项目没有证据；作者只说停车等服务，水电省掉也是新增未核。不能包装成实测省钱交付。"
+    },
+    {
+      "id": "R38-E02",
+      "draft": "422欧住独栋，和422欧独享独栋，是两张账单。别在脑子里把另外4个人搬走。",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "source_ref": "https://x.com/YouwoLin/status/2104877738360254489",
+      "reason": "原帖已清楚写5人合租，并未承诺独享整栋；不能制造误读来假装拆穿别人。现稿只概括已知条件，未交付新冲突。"
+    },
+    {
+      "id": "R38-E03",
+      "draft": "自拟合租吐槽：房间门关上了，厨房里还住着你四个室友的生活习惯。",
+      "status": "HOLD_EDITORIAL_QUALITY",
+      "source_ref": null,
+      "reason": "泛泛室友磨合句，只有主题没有具体动作、利益差额或新交付；不因明确自拟就自动合格。"
+    }
+  ],
+  "queued_campaign_ids": [],
+  "published_new": 0
+}

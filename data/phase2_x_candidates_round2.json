@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://x.com/kenw_2/status/2032391247369838904", "author_handle": "kenw_2",
+    "posted_date": "2026-03-13", "topic": "教育与电商创业",
+    "excerpt": "借一位毕业生的学校创业经历，讨论大学和职校是否应提供更真实的实践条件。",
+    "cohort": "unclassified", "observed_at": "2026-09-29T16:20:51Z",
+    "source_url": "https://x.com/kenw_2/status/2032391247369838904", "method": "public_search_index",
+    "discovery_query": "site:x.com/kenw_2/status/ \"2026\" \"电商\"",
+    "evidence_note": "Public search result displayed 37.1K views and 12 replies. Both are historical index text, not dated X metrics. Video/source story, original context and claims remain unchecked.",
+    "evidence_ref": "docs/QUERY_PROBE_2026-09-29.md#q6", "metric_source": "SEARCH_INDEX", "views": null,
+    "post_type": "UNKNOWN", "promotion_status": "UNKNOWN"
+  },
+  {
+    "url": "https://x.com/GongYouchai/status/2035537777870434788", "author_handle": "GongYouchai",
+    "posted_date": null, "topic": "AI 资讯汇总",
+    "excerpt": "汇总 AI 新闻、Agent 与一人公司话题，包含尚未核实的统计和能力主张。",
+    "cohort": "unclassified", "observed_at": "2026-09-29T16:20:51Z",
+    "source_url": "https://x.com/GongYouchai/status/2035537777870434788", "method": "public_search_index",
+    "discovery_query": "site:x.com/GongYouchai/status/ \"2026\" AI",
+    "evidence_note": "Search result exposed a status URL and partial Chinese text but no reliable views or exact post date. Claims are unverified; do not repeat as facts.",
+    "evidence_ref": "docs/QUERY_PROBE_2026-09-29.md#q8", "metric_source": "SEARCH_INDEX", "views": null,
+    "post_type": "UNKNOWN", "promotion_status": "UNKNOWN"
+  },
+  {
+    "url": "https://x.com/dotey/status/2021477874411225256", "author_handle": "dotey",
+    "posted_date": "2026-02-10", "topic": "AI 对知识工作的影响",
+    "excerpt": "翻译并评论一篇有关 AI 能力变化的长文，提示读者保持批判距离。",
+    "cohort": "unclassified", "observed_at": "2026-09-29T16:20:51Z",
+    "source_url": "https://x.com/dotey/status/2021477874411225256", "method": "public_search_index",
+    "discovery_query": "site:x.com/dotey/status/ 2026 \"AI\"",
+    "evidence_note": "Search index displayed about 5.1万 views; approximate multilingual rendering is kept in prose. Long translated/quoted source, not comparable with an original short post; underlying claims unverified.",
+    "evidence_ref": "docs/QUERY_PROBE_2026-09-29.md#q13", "metric_source": "SEARCH_INDEX", "views": null,
+    "post_type": "UNKNOWN", "promotion_status": "UNKNOWN"
+  }
+]

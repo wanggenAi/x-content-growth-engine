@@ -1,0 +1,28 @@
+[
+  {
+    "source_url": "https://openai.com/index/introducing-dots/",
+    "discovery_url": "https://news.ycombinator.com/item?id=49896604",
+    "source_kind": "vendor_announcement",
+    "published_at": "2026-09-29",
+    "discovered_at": "2026-09-30T14:01:00Z",
+    "observation": "OpenAI 公告介绍 Dot：可持续处理任务、使用独立云端电脑和插件，并强调访问权限、审批与人工控制；文中案例和能力描述仍是官方自述。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "把全天候智能体拆成任务持续性、权限边界和人工审批三个问题，分别寻找可复现实例，不把产品宣传当成实际效果。",
+    "region": "global",
+    "rights_note": "仅保存官方链接和原创短摘要；不复制公告正文、图片或案例表述，不把官方能力描述写成独立实测结论。",
+    "review_after": "2026-10-30"
+  },
+  {
+    "source_url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+    "discovery_url": "https://news.ycombinator.com/item?id=49890707",
+    "source_kind": "open_hardware_project",
+    "published_at": "2026-07-20",
+    "discovered_at": "2026-09-30T14:01:00Z",
+    "observation": "Arduino Project Hub 介绍 JBR-001：可 3D 打印的桌面陪伴机器人，把摄像头、距离传感器、显示和舵机连接到 UNO Q，用于边缘 AI 与计算机视觉实验。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "核对从可打印结构到传感器反馈的真实装配门槛，区分项目页面描述、开源文件许可和实际运行效果。",
+    "region": "global",
+    "rights_note": "仅保存项目链接和原创短摘要；项目页标示部分资源为 CC0 1+，使用任何文件前仍须逐项核对许可、作者和硬件安全说明。",
+    "review_after": "2026-10-30"
+  }
+]

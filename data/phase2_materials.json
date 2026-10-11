@@ -1,0 +1,19 @@
+[
+  {
+    "source_url": "https://fidoalliance.org/passkeys/", "discovery_url": "https://fidoalliance.org/passkeys/",
+    "source_kind": "standards_body_explainer", "published_at": null, "discovered_at": "2026-09-29T16:10:00Z",
+    "observation": "FIDO Alliance 解释 passkey 使用非对称密钥登录，可同步或绑定设备；跨设备使用及账号恢复仍取决于具体服务和密钥管理方式。",
+    "verification_status": "SOURCE_CHECKED", "content_direction": "围绕普通人换手机时的登录与恢复问题，区分密码钓鱼防护和账号恢复体验。",
+    "region": "global", "rights_note": "仅引用官方链接并用原创中文概述；不复用页面图文或营销统计。",
+    "review_after": "2026-10-30"
+  },
+  {
+    "source_url": "https://science.nasa.gov/missions/landsat/landsat-reveals-role-of-green-spaces-in-cooling-cities/",
+    "discovery_url": "https://science.nasa.gov/missions/landsat/landsat-reveals-role-of-green-spaces-in-cooling-cities/",
+    "source_kind": "research_summary", "published_at": "2024-11-26", "discovered_at": "2026-09-29T16:10:00Z",
+    "observation": "NASA 概述一项比较全球 500 个大城市绿地降温能力的研究；计算使用 2017-2019 年最热月份的地表温度和植被指数，不能代表当前个人体感。",
+    "verification_status": "SOURCE_CHECKED", "content_direction": "以城市步行路线的树荫与热暴露差异为问题，区分卫星地表温度与实际空气温度。",
+    "region": "global", "rights_note": "仅引用 NASA 链接和原创新角度；不搬用图像及论文结论作个人体验断言。",
+    "review_after": "2026-10-30"
+  }
+]

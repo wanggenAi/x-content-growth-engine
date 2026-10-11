@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-09T03:21:54.974912Z",
+  "state": "C365_P2_PUBLISHED_PENDING_FEEDBACK",
+  "primary_sources": [
+    "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+  ],
+  "source_summary": "两份Oct8官方原文完整核对。29,000为候选漏洞而非全确证；6,000为约数人工review/triage；近5,000未验证报告仅维护者请求后发送。97为早期版本48项目high/critical抽查，不推广为全服务测量或独立复现；85符合CVD标准，11真实但重复，1无效。严重性夸大是原文反馈。服务opt-in、eligible且case-by-case；candidate patches when available，不保证每条有补丁。仅普通公开防御性服务介绍，不包含实际利用步骤、靶标或操作。",
+  "date_boundary": "公告日期2026-10-08；预期指标不是独立复现。",
+  "new_publications": 1,
+  "publication_authorization": "ACTIVE",
+  "no_other_account_actions": true,
+  "continued_at_utc": "2026-10-09T03:34:29.228330Z",
+  "url": "https://x.com/qiluo27808/status/2108401545540944260",
+  "completed_at_utc": "2026-10-09T03:40:26.951771Z"
+}

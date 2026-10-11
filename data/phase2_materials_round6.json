@@ -1,0 +1,54 @@
+[
+  {
+    "source_url": "https://github.com/zhuwei321/SMTPD",
+    "discovery_url": "https://github.com/zhuwei321/SMTPD",
+    "source_kind": "source_checked_research_method",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:52:58.192848Z",
+    "observation": "多语言、多模态发布后 30 天热度序列；明确区分早期热度是否作为输入。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "有早期指标时是发布后预测；main.py 中随机分折不能直接用于我们的未来时间外验证；GPU/模型数据路线不适合当前标准库起步。",
+    "region": "global",
+    "rights_note": "公开链接和原创短方法笔记；未复制或运行第三方代码，未下载或训练数据。仓库版本 9658ea11aff81c533c46070b53b5bd90d1a29c70。许可证不等于社交数据使用权。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://github.com/craftingcodegig/skapp",
+    "discovery_url": "https://github.com/craftingcodegig/skapp",
+    "source_kind": "source_checked_research_method",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:52:58.192848Z",
+    "observation": "相似历史内容检索、选择性筛选、知识增强预测；检索池从训练集合创建。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "代码所查 SMPD 预处理用随机 train_test_split；仍需额外检验时间、作者、相同事件泄漏；研究训练配置需GPU与大内存。",
+    "region": "global",
+    "rights_note": "公开链接和原创短方法笔记；未复制或运行第三方代码，未下载或训练数据。仓库版本 4d3020d62d33fb53aff4d1f1ad165689db743f8b。许可证不等于社交数据使用权。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://github.com/natematias/upworthy-archive",
+    "discovery_url": "https://github.com/natematias/upworthy-archive",
+    "source_kind": "source_checked_research_method",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:52:58.192848Z",
+    "observation": "同故事的标题/图像随机变体，区分探索与确认；维护方提供已知问题标记。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "2024 年维护方更新指出约22%实验可能有分配问题，建议不对2013-06-25至2014-01-10区间作因果确认；英文点击结果不能直接等同中文X传播。",
+    "region": "global",
+    "rights_note": "公开链接和原创短方法笔记；未复制或运行第三方代码，未下载或训练数据。仓库版本 822141cfa6c357763895a5ed1820132fc2adc57e。许可证不等于社交数据使用权。",
+    "review_after": "2026-11-01"
+  },
+  {
+    "source_url": "https://github.com/xai-org/x-algorithm",
+    "discovery_url": "https://github.com/xai-org/x-algorithm",
+    "source_kind": "source_checked_research_method",
+    "published_at": null,
+    "discovered_at": "2026-09-30T23:52:58.192848Z",
+    "observation": "当前公开 For You 管线：个性化行为预测、加权排名、作者多样性、冷启动和过滤。",
+    "verification_status": "SOURCE_CHECKED",
+    "content_direction": "权重乘预测概率/连续值而非原始互动数；部分提示和规则未公开；排序机制不证明某文案会爆。",
+    "region": "global",
+    "rights_note": "公开链接和原创短方法笔记；未复制或运行第三方代码，未下载或训练数据。仓库版本 77d431aabf409ca1c1eed9bec7e2183f7c914e23。许可证不等于社交数据使用权。",
+    "review_after": "2026-11-01"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "subject_value": "AI单价和整件任务成本，具体数字/动作形成可讨论取舍。",
+  "information_gap": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？",
+  "payload": "官方短提示价格表：每百万输入token1美元到0.1美元、输出5美元到0.5美元；长提示价格降幅不同，新tokenizer同任务token略多，完整任务平均降约75%是公司估计。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "使用客服AI的开发者与业务人员讨论单次价格和人工接手成本。",
+  "novelty_check": "全358条来源无重复，近30已发全文已读；C357审批实验、C359芯片生态不是本条单价与任务成本或配送硬件自主安排。",
+  "audit_language_separation": "官方完整原页与脚注/动作已读；C360价格和75%为公司账表及估计，不等于独立测评；C361原发2025-10-22、更新2026-09-21，测试和便利为公司自述，不声称监控/强制/裁员因果。",
+  "follow_reason": "持续找科技实际动作、成本和人的取舍，有可核对原页。",
+  "material_strength": "STRONG",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "AI单价和整件任务成本",
+        "reader_thought": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "AI单价和整件任务成本，具体数字/动作形成可讨论取舍。",
+    "predicted_inner_response": "Haiku5.5单价降90%，为什么公司估计平均完整任务成本只降约75%？",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT",
+      "EXPLANATION_RIGHT",
+      "KNOWLEDGE_DISPLAY"
+    ],
+    "opinion_space": "HIGH",
+    "opinion_space_reason": "使用者可解释完成客服任务的完整成本与错误后人工接手率，而非只比token单价。"
+  },
+  "candidate_id": "C360",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C360-R1",
+  "publication_version": "C360-P1",
+  "text": "AI价格战，已经有模型按一折卖了。\n\n10月7日发布的Claude Haiku 5.5，提示不超过10万token时，每百万输出token从上一代的5美元降到0.5美元，输入从1美元降到0.1美元。这是开发者API价格，不是聊天订阅费。\n\n但Anthropic自己算的完整任务成本，平均约省75%，并不是90%。长提示降价幅度不同，新模型做同一件事也会用略多token。\n\n单价便宜，和把活干完便宜，是两张账单。\n\n如果拿它做客服，你更在意每次回答便宜，还是出了错有多少需要人工接手？\n\nhttps://www.anthropic.com/claude-haiku-5-5",
+  "source_refs": [
+    {
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_date": "2026-10-07",
+      "checked_at_utc": "2026-10-09T02:15:47.991606Z",
+      "author_visible": "Anthropic",
+      "source_type": "OFFICIAL_PRIMARY"
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_PRIMARY_BODY_AND_BOUNDARIES_READ",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "experiment": {
+    "hypothesis": "C360_CONCRETE_TECH_TRADEOFF",
+    "primary_outcome": "independent_real_reader_substantive_comments",
+    "numeric_comment_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ]
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C360",
+  "url": "https://x.com/qiluo27808/status/2108381049927750139",
+  "published_at": "2026-10-09T02:16:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "10:16 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T02:21:46.188675Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "verification_note": "Exact Chinese five-paragraph text/format verified before single click; independent detail navigation and reload; source card clicked and resolved to anthropic.com/claude-haiku-5-5. No human text review claimed.",
+  "private_evidence_path": "data/private/publication_2026-10-09/"
+}

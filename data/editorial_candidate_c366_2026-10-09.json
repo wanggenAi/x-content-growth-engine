@@ -1,0 +1,118 @@
+{
+  "candidate_id": "C366",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C366-R1",
+  "publication_version": "C366-P1",
+  "text": "微软劝人换电脑，这次的口号直接叫“和你的MacBook分手”。\n\n在美国、加拿大，买指定Surface Laptop Ultra并换购符合条件的MacBook Pro，最高可获1000美元现金返还。活动到11月23日，金额看设备与验机结果，不是人人都拿满。\n\n这台10月7日开放预订的笔记本，官方建议价2599美元起，10月16日起上市。它用了英伟达RTX Spark；配置最高128GB统一内存，微软称能在本机运行超过1200亿参数的AI模型。起售价不代表满配，能装下模型也不等于回答质量和速度都胜过云端。\n\n黄仁勋和纳德拉这次同台谈的，是把更多AI工作放回个人电脑。\n\n如果每天都用AI，你会为“更多任务在自己电脑上跑”换一台机器，还是宁愿继续用云端服务？\n\nhttps://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+  "subject_value": "微软以分手MacBook的直接口号和最高1000美元条件换购，配合新本地AI笔记本形成具体品牌争夺与个人选择；不是陌生算力数字独立充当价值。",
+  "information_gap": "为什么微软给换MacBook的人返钱，这次新电脑提供什么本地AI工作方式，又有哪些价格与性能边界？",
+  "payload": "原始活动条件、2599起价与上市日期、最高128GB统一内存及厂商120B本地模型宣称，让读者能讨论自己是否愿意为本地AI换机器。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "每天用AI并考虑工作电脑的人，可按工作需求/隐私/维护负担说出愿意换机或保留云端的理由。",
+  "novelty_check": "全364历史记录无MacBook/Surface/RTX Spark匹配；近30全文已读。不同于C360单价与任务成本、C363云端同事身份和C365安全审查瓶颈：本稿是微软换购品牌行动与本机AI换电脑选择；不用责任审批问句、不是/而是模板、成功率反差。",
+  "audit_language_separation": "完整微软Oct7公告及脚注、NVIDIA Oct7活动全文已读。换购限US/Canada Microsoft Store online，Oct7-Nov23，合格新设备+MacBook Pro、检验和审批，最高1000不是固定返额；不当作中国报价或买入建议。2599为宣布MSRP起价，商业型号不是同价；128GB为最高统一系统内存且GPU可寻址低于总数，未声称2599满配。超过120B本地模型为厂商能力宣称，未独立实测/不等于云模型全面性能；1petaflop为理论稀疏FP4不入正文。RTX Spark笔记本Oct16、桌面Nov，Windows功能部分upcoming不混全GA。黄仁勋/纳德拉Oct7同台为NVIDIA官方活动记录。未购买、无推荐/承诺或财务收益判断。",
+  "follow_reason": "继续从知名企业的具体产品和商业动作，拆解技术宣传对普通工作选择究竟意味着什么。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+      "source_type": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
+      "source_date": "2026-10-07",
+      "checked_at_utc": "2026-10-09T03:44:07.311899Z",
+      "checked_facts": [
+        "Full133-line article and footnotes read",
+        "Eligible MacBook Pro trade-in cashback up to1000 US/Canada online restrictions and dates",
+        "MSRP2599 starting price Oct16 availability; max128GB configuration-dependent",
+        "120B local model support company claim, no independent benchmark"
+      ]
+    },
+    {
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "source_type": "OFFICIAL_PRIMARY_EVENT_REPORT",
+      "source_date": "2026-10-07",
+      "checked_at_utc": "2026-10-09T03:44:07.311899Z",
+      "checked_facts": [
+        "Full71-line event report read",
+        "Jensen Huang and Satya Nadella same-stage Oct7 Windows/Surface event",
+        "Laptop Oct16 desktopsNovember; local AI strategy"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_PRIMARY_ANNOUNCEMENTS_AND_OFFER_FOOTNOTES_CHECKED_COMPANY_CAPABILITY_CLAIMS_ATTRIBUTED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "微软为符合条件的MacBook换购最高返1000美元，本地AI是否值得换机",
+        "reader_thought": "我想在本机跑项目，但要先看实际速度；也可能继续云服务省维护。"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "每天用AI的人可以按自己的数据、性能、预算和维护负担说出是否换机器，品牌争夺有真实现金条件与上市日期。",
+    "predicted_inner_response": "本地跑对我哪些任务重要？我是否愿意为它换电脑？",
+    "self_relevance": "HIGH",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "PERSONAL_EXPERIENCE",
+      "PREDICTION"
+    ],
+    "opinion_space": "HIGH"
+  },
+  "experiment": {
+    "hypothesis": "C366_LOCAL_AI_HARDWARE_SWITCH_CHOICE_REPLY_VALUE",
+    "primary_outcome": "independent_real_reader_substantive_comments_naming_local_or_cloud_choice_and_reason",
+    "numeric_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "publication_preflight": {
+    "native_editor": "FULL_TEXT_FORMAT_ACCOUNT_AND_NATIVE_SOURCE_CARD_CHECKED",
+    "submission": "ONE_SUBMISSION_PUBLIC_DETAIL_RELOAD_VERIFIED",
+    "completed_at_utc": "2026-10-09T03:47:11.245880Z"
+  },
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "publication_preflight_complete": true
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C366",
+  "url": "https://x.com/qiluo27808/status/2108403331072946200",
+  "published_at": "2026-10-09T03:45:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "11:45 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T03:47:11.245880Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "ready_for_publication": false,
+  "source_url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+  "source_checked": true,
+  "source_kind": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
+  "verification_note": "Own Gen @qiluo27808 native visible editor full five Chinese paragraphs/blank lines/punctuation and genuine Microsoft source card checked. One Post AX click. Editor closed; own profile showed actual newURL. Independently opened URL and reloaded; full five paragraphs, author and displayed11:45AM matched. t.co/8nhepjQhou clicked and resolved to exact Microsoft announcement. No uploaded media or ambient analytics imported; no purchases or other-account actions."
+}

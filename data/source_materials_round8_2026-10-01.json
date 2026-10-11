@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-01T01:13:50.070899Z",
+  "materials": [
+    {
+      "id": "M20",
+      "source_url": "https://cs.uwaterloo.ca/~Brecht/courses/856/readings/how-to-read/keshav-paper-reading.pdf",
+      "title": "How to Read a Paper",
+      "source_checked": true,
+      "source_kind": "AUTHOR_PAPER_UNIVERSITY_COPY",
+      "summary": "Keshav三遍阅读法；第一遍约5–10分钟可决定不再深入。不是阅读提效随机实验。"
+    },
+    {
+      "id": "M21",
+      "source_url": "https://hrss.sz.gov.cn/szsi/zxbs/zdyw/gpywcj/yljslbl/",
+      "title": "企业职工养老金申领：最低缴费年限表",
+      "source_checked": true,
+      "source_kind": "OFFICIAL_GOVERNMENT_PAGE",
+      "summary": "2025–2029为15年，2030起每年增加6个月，2035为18年，2039为20年；这里是职工养老金，不能推广为所有养老待遇条件。"
+    },
+    {
+      "id": "M22",
+      "source_url": "https://www.nature.com/articles/s41562-023-01538-4",
+      "title": "Negativity drives online news consumption",
+      "source_checked": true,
+      "source_kind": "ORIGINAL_REGISTERED_REPORT",
+      "summary": "英文新闻标题点击率研究；作者留出分析及档案复核不能直接保证中文X效果。"
+    }
+  ],
+  "audit_source": "https://upworthy.natematias.com/2024-06-upworthy-archive-update.html",
+  "rights": "LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY",
+  "no_corpus_downloaded": true
+}

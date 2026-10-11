@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-02T20:44:57Z",
+  "purpose": "C280-C284读者兴趣优先的社会冲突、金钱代价、关系与人性素材；公开报道只作为事实支点，不是流量证据。",
+  "materials": [
+    {
+      "id": "CAM-C091",
+      "title": "深圳无业青年住进24小时台球厅",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3367698/new-wall-hanging-trend-sees-jobless-chinese-youth-working-1-day-lying-flat-3",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-16",
+      "observed_at": "2026-10-02T20:44:57Z",
+      "verified_claims": [
+        "南华早报报道，29岁的郭子豪在深圳一间24小时台球厅醒来，这类场所曾是他数月的临时住处。",
+        "报道写到他最困难时口袋只剩20元；他来自湖南、拥有经济管理学位，曾设想过一条可预期的成功道路。"
+      ],
+      "limits": ["报道讲述个人经历和一个网络称呼，不把‘工作一天、躺三天’写成所有失业青年的共同规律。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C092",
+      "title": "成都92岁摊主被博主挑衅拍成恶婆婆",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3366515/chinese-food-vendor-sparks-camera-bullying-debate-after-vloggers-portray-her-evil-granny",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-06",
+      "observed_at": "2026-10-02T20:44:57Z",
+      "verified_claims": [
+        "南华早报报道，成都一名92岁小吃摊主被视频博主故意挑衅，发火片段被剪成‘恶婆婆’内容。",
+        "报道引用律师观点：出现在公共场所不等于放弃人格权；事件引发对未经同意拍摄和流量剥削的争议。"
+      ],
+      "limits": ["报道讨论的是具体事件和法律观点，不声称所有街拍都构成侵权，也不使用未核对的传播量。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C093",
+      "title": "江西中专生看演唱会后家庭生活补助受影响",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3367251/china-teens-hong-kong-concert-trip-costs-family-government-subsidies-sparking-mixed-reaction",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-12",
+      "observed_at": "2026-10-02T20:44:57Z",
+      "verified_claims": [
+        "南华早报报道，江西赣州一名中专女生去香港看偶像演唱会，父母依靠每月约2000元的生活补助。",
+        "报道转述亲属社交媒体内容：女生靠零花钱和暑期劳动在8月底攒下约3000至5000元；社区曾提醒出行可能影响家庭补助资格。"
+      ],
+      "limits": ["身份细节来自报道转述的亲属发帖，补助资格争议按报道和律师观点呈现，不把个案规则推成普遍政策。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C094",
+      "title": "中国宠物殡葬套餐最高约1500美元",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3366455/chinas-billion-dollar-pet-funeral-industry-stays-largely-unregulated-without-public-oversight",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-05",
+      "observed_at": "2026-10-02T20:44:57Z",
+      "verified_claims": [
+        "南华早报报道，大连一对夫妇为陪伴8年的猫举行告别仪式；宠物殡葬行业快速扩张但缺少统一公共监管。",
+        "报道提到高端定制服务约1500美元，包含礼宾车和四名仪仗人员。"
+      ],
+      "limits": ["价格是报道所述高端服务，不是行业均价；不把宠物家庭化或消费选择写成所有饲主的共同立场。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    },
+    {
+      "id": "CAM-C095",
+      "title": "广西夫妻22年生13个孩子谈村庄安全感",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3368855/china-couple-have-13-kids-avoid-village-bullying-elderly-loneliness-dividing-public-opinion",
+      "source_kind": "PUBLIC_SCMP_REPORTING",
+      "source_page_publication_date": "2026-09-26",
+      "observed_at": "2026-10-02T20:44:57Z",
+      "verified_claims": [
+        "南华早报报道，广西钦州一对49岁和42岁的夫妻结婚22年，有8个儿子、5个女儿，最小的孩子2岁。",
+        "报道转述父亲说，孩子多让家庭少受村里欺负，年老时也不孤单。"
+      ],
+      "limits": ["这是一个家庭的自述和社交媒体讨论，不把13个孩子写成解决养老、欺凌或出生率问题的办法。"],
+      "rights": "Public SCMP reporting; paraphrase only."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "model_version": "SELF_MIRRORING_V1",
+  "claim_status": "HYPOTHESIS",
+  "checked_at_utc": "2026-10-08T00:15:20Z",
+  "report": "docs/SELF_MIRRORING_RESEARCH_2026-10-08.md",
+  "annotation_file": "data/reader_model_annotations_2026-10-08.json",
+  "external_unique_links": 315,
+  "external_annotated_structure_summaries": 114,
+  "external_needs_review": 201,
+  "external_above_10000_at_recorded_capture": 167,
+  "own_unique_published_links": 183,
+  "own_full_text_annotated": 34,
+  "own_needs_review": 149,
+  "historical_backtest_distinct_posts": 21,
+  "strict_24h_eligible": 0,
+  "verified_on_own_account": [],
+  "formula_promotions": 0,
+  "new_x_observations": 0,
+  "new_comments": 0,
+  "new_publications": 0,
+  "production_priority": "A-I bottleneck review; no virality score",
+  "raw_account_data": "IGNORED_PRIVATE_ONLY",
+  "observations": [
+    "Relatively higher-read examples include C204/C291/C016/C201 with different self-mirroring distances; no visible interactions in four independent historical detail checks.",
+    "Near self-mirroring, concrete stakes and opinion space do not establish sufficient growth conditions."
+  ],
+  "account_hypotheses": [
+    {
+      "id": "ASH1",
+      "status": "HYPOTHESIS",
+      "claim": "Reader-checkable occupational or life sub-account detail may increase verification/share value.",
+      "support": [
+        "C204"
+      ],
+      "counterexamples": [
+        "C289",
+        "C297"
+      ],
+      "limits": "Unequal age/selected snapshots; no uniform baseline or causal control."
+    },
+    {
+      "id": "ASH2",
+      "status": "HYPOTHESIS",
+      "claim": "Fact correction or unusual concrete material may admit distant identity readers.",
+      "support": [
+        "C016",
+        "C291"
+      ],
+      "limits": "No observed interaction or follow benefit."
+    },
+    {
+      "id": "ASH3",
+      "status": "HYPOTHESIS",
+      "claim": "A genuine explanation/experience gap may activate substantive replies without CTA.",
+      "support": [],
+      "limits": "No real comment-body coding or fixed-window own evidence yet."
+    }
+  ],
+  "rejected_production_rules": [
+    "Hot topic is enough to admit weak material.",
+    "Closer demographic distance always means better results.",
+    "Seven-factor product is a measured success probability.",
+    "High views justify misinformation or identity attacks."
+  ],
+  "next_test": "New, source-checked reader-comparable sub-account material with a genuine explanation gap; preregister first; no candidate admitted or auto-publication.",
+  "validation": {
+    "checked_at_utc": "2026-10-08T00:15:20Z",
+    "unit_tests_passed": 27,
+    "git_diff_check": "PASS",
+    "source_files_checked": 20,
+    "raw_research_files_unchanged": 19,
+    "campaign_posts_unchanged": 354,
+    "actual_campaign_record_count": 354,
+    "historical_stale_queue_count": 353,
+    "published_count_unchanged": 158,
+    "derived_records": 498,
+    "runtime_latest_annotations": 498,
+    "private_outputs_ignored": true,
+    "rebuild": "PASS",
+    "runtime_seed_audit": "11 links/13 observations/0 own feedback/0 READY pairs; existing limitations preserved; not reader-model verification"
+  },
+  "actual_campaign_records": 354,
+  "git_receipt": {
+    "implementation_commit": "3ff7532ce1aac9a254a7ca6f411d90c94ab2b4a8",
+    "branch": "feature/x-research-phase2",
+    "push": "SUCCESS",
+    "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/5",
+    "remote_ci": "TWO_UNITTEST_RUNS_SUCCESS",
+    "run_ids": [
+      37706844395,
+      37706840100
+    ],
+    "scope": "Implementation commit; following receipt checkpoint only changes saved state/docs."
+  }
+}

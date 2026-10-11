@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-30T23:52:58.192848Z",
+  "status": "PLANNED_NOT_REGISTERED_EXPERIMENT",
+  "formula_status": "HYPOTHESIS",
+  "target": "Chinese X relevant readers across the project themes; select a comparable topic block for each pilot, do not permanently narrow account to AI.",
+  "primary_observation_window_hours": 24,
+  "secondary_windows_hours": [
+    1,
+    72
+  ],
+  "outcome_fields": [
+    "views",
+    "reposts",
+    "replies",
+    "likes"
+  ],
+  "missingness_rule": "Unknown stays null; never infer missed historical observations from current totals.",
+  "method_registry": "data/virality_method_registry_2026-10-01.json",
+  "new_pilot_ids": [
+    "R01"
+  ],
+  "historical_account_publications": 17,
+  "historical_posts_are_controls": false,
+  "prospective_comparisons": [
+    {
+      "id": "T01",
+      "mechanism": "inspectable factual correction",
+      "comparison": "direct statement of same kind of independently sourced fact",
+      "controls": [
+        "topic",
+        "reader group",
+        "format",
+        "source credibility",
+        "posting age/window"
+      ],
+      "confounders": [
+        "initial distribution",
+        "author baseline",
+        "current event",
+        "negative feedback"
+      ],
+      "support": "Source code verifies facts only; Upworthy supplies comparison method, not X content effectiveness."
+    },
+    {
+      "id": "T02",
+      "mechanism": "concrete reproducible result/demo",
+      "comparison": "description of capability without demonstrated result",
+      "controls": [
+        "same workflow class",
+        "audience",
+        "topic demand",
+        "media"
+      ],
+      "counterexample_requirement": "Seek nonviral demos and successful plain descriptions before claiming mechanism."
+    },
+    {
+      "id": "T03",
+      "mechanism": "failure condition or boundary",
+      "comparison": "feature-only explanation",
+      "controls": [
+        "same task class",
+        "source evidence",
+        "length",
+        "topic"
+      ],
+      "counterexample_requirement": "Keep successful feature-only posts and failed boundary posts."
+    }
+  ],
+  "assessment": "Within-topic repeated observations and independent-author/later-date holdouts; a sequential X publishing comparison is not a randomized A/B test. No formula promotion from score or single winner."
+}

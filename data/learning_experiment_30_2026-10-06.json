@@ -1,0 +1,97 @@
+{
+  "experiment_id": "LE30-2026-10-06",
+  "status": "PUBLISHED_SINGLE_C355_PENDING_FEEDBACK",
+  "purpose": "learn which strong materials and reader actions fit this account; publication count is not a success metric",
+  "planned_capacity": 30,
+  "cells": [
+    "REALITY_FINANCIAL_STAKES",
+    "IDENTITY_SITUATION",
+    "FRESH_INTERNET_FINDING",
+    "RESOURCE_TOOL",
+    "INTEREST_CONFLICT",
+    "TECH_AI_CHANGE",
+    "TRUE_UNUSUAL_EVENT",
+    "HISTORY_CULTURE_REFRAME",
+    "STRONG_PERSON_CONTRAST",
+    "ANSWERABLE_DISAGREEMENT"
+  ],
+  "allocation": "UNASSIGNED_UNTIL_MATERIAL_STRENGTH_AND_EDITORIAL_GATE_PASS",
+  "publication_schedule": null,
+  "selected_candidate": "C355",
+  "measurement_windows": [
+    "1h",
+    "6h",
+    "24h",
+    "72h",
+    "7d"
+  ],
+  "primary_metrics": [
+    "relative_account_baseline",
+    "primary_action_rate"
+  ],
+  "required_candidate_fields": [
+    "experiment_id",
+    "candidate_id",
+    "topic",
+    "material_source",
+    "mechanism",
+    "primary_action",
+    "expected_reader",
+    "why_share",
+    "why_reply",
+    "why_follow",
+    "novelty",
+    "payload",
+    "publication_format",
+    "media_type",
+    "published_at",
+    "measurement_windows",
+    "reader_model"
+  ],
+  "stopping_rules": [
+    "editorial_gate_failure",
+    "material_strength_insufficient",
+    "severe_repetition",
+    "observation_window_open",
+    "missing_human_verified_feedback"
+  ],
+  "formula_states_unchanged": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05"
+  ],
+  "candidate_history": [
+    {
+      "candidate_id": "C354",
+      "state": "EDITORIAL_REVIEW",
+      "gate_result": "BLOCKED_HUMAN_WORD_FOR_WORD_CHECK",
+      "human_checked": false,
+      "editorial_reviewed": false,
+      "source_checked": true,
+      "final_state": "FAIL_REPETITIVE",
+      "secondary_reason": "FAIL_LOW_INTEREST",
+      "rejected_at_utc": "2026-10-07T02:07:51.271070Z"
+    },
+    {
+      "candidate_id": "C355",
+      "state": "PUBLISHED_PENDING_FEEDBACK",
+      "gate_result": "PASS_WITH_USER_DIRECT_PUBLICATION_AUTHORIZATION",
+      "human_checked": true,
+      "source_checked": true,
+      "material_strength": "STRONG",
+      "publication_version": "C355-P1",
+      "created_at_utc": "2026-10-07T06:13:13.753551Z",
+      "editorial_reviewed": true,
+      "published_at": "2026-10-07T13:19:00Z",
+      "publication_url": "https://x.com/qiluo27808/status/2107823209806713075",
+      "verified_at_utc": "2026-10-07T13:24:19Z"
+    }
+  ],
+  "scheduled_posts": 0,
+  "research_packet": "docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md",
+  "updated_at_utc": "2026-10-08T00:15:20Z",
+  "selected_experiment_file": "data/learning_experiment_c355_2026-10-07.json",
+  "reader_model_checkpoint_at_utc": "2026-10-08T00:09:19Z"
+}

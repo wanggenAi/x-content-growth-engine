@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-09T02:59:49.326360Z",
+  "state": "C364_PUBLISHED_PENDING_FEEDBACK",
+  "primary_sources": [
+    "https://www.skild.ai/blogs/s1",
+    "https://www.skild.ai/blogs",
+    "https://www.skild.ai/blogs/physical-self-play",
+    "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
+  ],
+  "source_summary": "S1原文与日期索引已读。单视频任务提示无需针对新任务改权重；66%逐步成功率有失败恢复干预，不是全任务自主成功。已见小数据任务存在反例，充分后训练仍能超过单视频。杯子替代浇水壶只作公司报告，不冒充独立复现。",
+  "date_boundary": "S1索引Aug18/文末August2026；NVIDIA Sep10稿称lastweek不可靠，不用作今天新突破。PhysicalSelfPlay Sept23为旧于当前的后训练报告。",
+  "alternative_lead": {
+    "url": "https://www.skild.ai/blogs/physical-self-play",
+    "status": "RESEARCH_ONLY",
+    "summary": "公司称140年模拟自博弈后转移到真实机器人，目标进球；作者明确足球仍远低于人类。没有独立复现或系统成绩，未观看完整视频，不用稀有数字强行发帖。"
+  },
+  "new_publications": 1,
+  "new_verified_feedback": 0,
+  "formula_promotions": 0,
+  "publication_authorization": "ACTIVE",
+  "no_other_account_actions": true,
+  "continued_at_utc": "2026-10-09T03:07:25.288654Z",
+  "native_demo_check": "5:14 official video played initial segment; later/individual clips buffered, cup action not directly verified. P2 attributes factual example to full official report and does not claim independent replication.",
+  "completed_at_utc": "2026-10-09T03:14:50.155728Z",
+  "publication_url": "https://x.com/qiluo27808/status/2108395078104555851"
+}

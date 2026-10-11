@@ -1,0 +1,52 @@
+{
+  "observed_at_utc": "2026-10-05T16:36:00Z",
+  "kind": "DIRECT_VISIBLE_X_HIGH_VIEW_STRUCTURE_AUDIT_NOT_CAUSAL",
+  "source": "https://x.com/search?q=min_faves%3A10000%20lang%3Azh%20-filter%3Areplies&src=typed_query&f=top",
+  "materials": [
+    {
+      "url": "https://x.com/OttoHuang120/status/2106636584087077191",
+      "displayed_views": 7668293,
+      "structure": "短中文冲突标题+两张图片+明确赛事/人物事件",
+      "limit": "view count observed in search at capture time; no causal claim"
+    },
+    {
+      "url": "https://x.com/DUBIANCHEOVO/status/2099664504753971600",
+      "displayed_views": 2889673,
+      "structure": "政治判断用历史时期对照，单一结论句",
+      "limit": "opinion/forecast, not verified fact"
+    },
+    {
+      "url": "https://x.com/OttoHuang120/status/2105906405119308274",
+      "displayed_views": 1091356,
+      "structure": "短结果标题+48秒嵌入视频，视频本身是证据",
+      "limit": "media intrinsic to event; no general formula claim"
+    },
+    {
+      "url": "https://x.com/edson98471431/status/2106898899701297237",
+      "displayed_views": 4321322,
+      "structure": "震撼标题+图片",
+      "limit": "X Community Note labels story false; retained only as exclusion/counterexample"
+    },
+    {
+      "url": "https://x.com/hhJUN3lXgL6419/status/2106778373213298848",
+      "displayed_views": 1335454,
+      "structure": "私密/禁忌冲击式标题+两图",
+      "limit": "do not reuse explicit material; high view not endorsement"
+    },
+    {
+      "url": "https://x.com/xixikawaii/status/2103041981270384847",
+      "displayed_views": 29183478,
+      "structure": "极端露骨文字",
+      "limit": "exclude from editorial reuse"
+    },
+    {
+      "url": "https://x.com/lchngwi1993771/status/2106655570631508346",
+      "displayed_views": 18960230,
+      "structure": "露骨建议型正文",
+      "limit": "exclude from editorial reuse"
+    }
+  ],
+  "user_steer": "2026-10-05: stop using V2EX as a main source; recent verifiable events preferred, while undated original jokes/human-nature/political commentary are allowed when clearly framed as opinion or story.",
+  "rights": "LINK_AND_SHORT_SUMMARY_ONLY",
+  "private_evidence": "data/private/publication_round_2026-10-05_batch6/highview_search_10000_2026-10-05.txt"
+}

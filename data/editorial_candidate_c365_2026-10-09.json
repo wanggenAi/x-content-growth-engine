@@ -1,0 +1,120 @@
+{
+  "candidate_id": "C365",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C365-R1",
+  "publication_version": "C365-P2",
+  "text": "AI找出了约2.9万个候选漏洞，Anthropic人工只审了约6000个。\n\n瓶颈已经从“找不到”，变成“来不及确认”。公司说，有开源维护者干脆要求把未验证报告也发来；按这些请求，它已发送近5000份报告。\n\n10月8日推出的OSS Scanner，把这条快通道做成了免费定期扫描服务：符合条件的开源项目自愿加入，收到模型生成、未经人工审核的报告，附复现材料和可提供的候选补丁。\n\n快，也有代价。官方早期测试抽查了48个项目的97个高危或严重候选漏洞：85个达到人工披露标准，11个是真问题但重复，1个无效。维护者还反馈过严重性被夸大。\n\n“找出漏洞”这件事正在加速；确认它有多危险、补丁该不该进代码库，仍是另一份工作。\n\nhttps://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "subject_value": "2.9万候选漏洞与约6000人工复核形成具体产出/审查瓶颈；维护者主动要求接收未经验证报告，解释免费快通道为何出现。",
+  "information_gap": "漏洞报告堆积时为什么维护者反而主动要求未验证结果；候选、重复、无效与合格披露如何区分？",
+  "payload": "官方六个月29,000候选/约6,000审核，受请求近5,000直接发送；48项目97条早期高危抽查85合格、11真实但重复、1无效，服务需项目自愿加入与资格判断。",
+  "primary_action": "SHARE",
+  "primary_action_reader": "写代码、维护开源依赖、安全审查的同事可分享这组具体瓶颈与分类，解释AI漏洞数量与可修复结果的差别。",
+  "novelty_check": "363条历史记录全部检查，OSS Scanner/Cyber Mission/技术原文来源均无匹配；近30全文已读。C365-P1重复责任问句并误译proof of concept为利用概念，未提交实际Post，已撤出采用。P2用人工处理瓶颈、维护者主动请求和97条分类叙事，区别于C360成本、C362情绪限制、C363代理邮箱与C364机器人成功率；没有泛泛责任问句。",
+  "audit_language_separation": "两份Oct8官方原文完整核对。29,000为候选漏洞而非全确证；6,000为约数人工review/triage；近5,000未验证报告仅维护者请求后发送。97为早期版本48项目high/critical抽查，不推广为全服务测量或独立复现；85符合CVD标准，11真实但重复，1无效。严重性夸大是原文反馈。服务opt-in、eligible且case-by-case；candidate patches when available，不保证每条有补丁。仅普通公开防御性服务介绍，不包含实际利用步骤、靶标或操作。",
+  "follow_reason": "继续拆解AI技术产出变成可用成果时的具体工作量，提供能转给工程同事的原始证据。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source_type": "OFFICIAL_PRIMARY_ANNOUNCEMENT",
+      "source_date": "2026-10-08",
+      "checked_at_utc": "2026-10-09T03:21:54.974912Z",
+      "checked_facts": [
+        "OSS Scanner opt-in periodic scans for open-source projects, free of charge",
+        "reports include proof of concept, explanation and suggested fix where available",
+        "reports model-generated and sent without human review",
+        "Anthropic expects true-positive rate above 90% and warns severity ratings may be inaccurate"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "source_type": "OFFICIAL_PRIMARY_TECHNICAL_REPORT",
+      "source_date": "2026-10-08",
+      "checked_at_utc": "2026-10-09T03:34:29.228330Z",
+      "checked_facts": [
+        "Full technical report read",
+        "29,000 candidate vulnerabilities, about6,000 reviewed/triaged",
+        "nearly5,000 unvalidated reports sent upon maintainer requests",
+        "97 high/critical sample across48projects:85CVD eligible,11real duplicates,1invalid",
+        "eligible opt-in service; reproducer and candidate patch when available; severity inflation feedback"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_ANNOUNCEMENT_AND_TECHNICAL_BODY_CHECKED_SAMPLE_SCOPE_AND_CONDITIONAL_PATCHES_RETAINED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "SOCIAL_CURRENCY",
+        "strength": "HIGH",
+        "cue": "2.9万个候选漏洞，人工只审约6000；97条抽查分成合格/重复/无效",
+        "reader_thought": "这组分类可以发给代码审查同事，发现数量并不等于能直接合并的补丁。"
+      }
+    ],
+    "dominant_reader_value_route": "SOCIAL_CURRENCY",
+    "why_reader_cares": "工程师要处理AI生成漏洞报告，具体审查瓶颈与有效/重复分类能用于团队讨论。",
+    "predicted_inner_response": "可以把这组数据转给维护依赖的同事，光看发现数量会误判工作量。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "social_currency": "HIGH",
+    "share_recipient": "开源维护者、安全审查与依赖维护同事",
+    "share_reason": "官方具体产出/复核瓶颈及样本分类能帮助讨论为何需要快通道与如何解读候选数。"
+  },
+  "experiment": {
+    "hypothesis": "C365_VULNERABILITY_REVIEW_BOTTLENECK_SHARE_VALUE",
+    "primary_outcome": "independent_real_reader_reposts_or_quotes",
+    "numeric_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "publication_preflight": {
+    "native_dynamic_demo": "NOT_APPLICABLE",
+    "native_editor": "FULL_TEXT_FORMAT_ACCOUNT_AND_NATIVE_SOURCE_CARD_CHECKED",
+    "submission": "ONE_SUBMISSION_PUBLIC_DETAIL_RELOAD_VERIFIED",
+    "reason": "Full official reports checked; 29,000 candidate count and approximate 6,000 reviews retained; 97 findings are scoped early high/critical sample across48 projects. Candidate patches conditional, company process not independent replication. Ordinary defensive service discussion, no exploit instructions.",
+    "prior_native_input_failure": "P1 mistakenly used string line position73 instead of AX element67; no actual Post action. Own profile navigated/reloaded twice, latest remainedC364. P1 text re-entered but never submitted; user changed Chrome, no other account actions.",
+    "completed_at_utc": "2026-10-09T03:40:26.951771Z"
+  },
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "publication_preflight_complete": true
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "id": "C365",
+  "url": "https://x.com/qiluo27808/status/2108401545540944260",
+  "published_at": "2026-10-09T03:37:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "11:37 AM · Oct 9, 2026",
+  "verified_at": "2026-10-09T03:40:26.951771Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "ready_for_publication": false,
+  "source_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "source_checked": true,
+  "source_kind": "OFFICIAL_PRIMARY_TECHNICAL_REPORT",
+  "verification_note": "Own Gen @qiluo27808 visible editor checked all five Chinese paragraphs, punctuation, blank lines and native Anthropic source card. Actual Post AX button clicked once. Own new URL observed; independently navigated then reloaded. Full five paragraphs, author and 11:37 AM displayed minute matched. Card t.co/cbjIV8LDbN clicked and resolved to official technical report. No uploaded media or ambient analytics imported. P1 had no actual Post action; no duplicate submission."
+}
