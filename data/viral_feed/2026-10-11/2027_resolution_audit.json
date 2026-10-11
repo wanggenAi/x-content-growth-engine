@@ -1,0 +1,14 @@
+{
+  "schema_version": "viral_feed_identity_resolution_audit_v1",
+  "observed_at": "2026-10-11T20:27:00Z",
+  "source": "https://xbangdan.com/account/BlockInsight214/",
+  "resolved_status_ids": [
+    "2108870153735925986",
+    "2108785027433775167",
+    "2108400320204386435"
+  ],
+  "source_page_updated_local": "2026-10-11 18:32",
+  "direct_x_rendering": "403",
+  "metric_as_of": null,
+  "notes": "Original links visible via public outbound links; Snowflake minutes verified; secondary exposure is not official X views."
+}
