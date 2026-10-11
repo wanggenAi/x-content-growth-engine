@@ -1,14 +1,14 @@
 {
   "schema_version": "viral_feed_index_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/0829.json",
-  "latest_run_id": "2026-10-11T08:29Z-public-rotation-01",
-  "latest_run_completed_at": "2026-10-11T08:29:00Z",
-  "total_run_count": 3,
-  "recent_admitted_post_count": 2,
-  "unique_status_id_count": 2,
-  "latest_successful_nonzero_run": "2026-10-11T08:29Z-public-rotation-01",
+  "latest_run_path": "data/viral_feed/2026-10-11/1216.json",
+  "latest_run_id": "2026-10-11T12:16Z-public-aggregator-recovery-01",
+  "latest_run_completed_at": "2026-10-11T12:16:00Z",
+  "total_run_count": 4,
+  "recent_admitted_post_count": 5,
+  "unique_status_id_count": 5,
+  "latest_successful_nonzero_run": "2026-10-11T12:16Z-public-aggregator-recovery-01",
   "consecutive_zero_yield_or_blocked_runs": 0,
-  "duplicate_count": 0,
+  "duplicate_count": 1,
   "near_duplicate_count": 0,
   "route_totals": {
     "AUTHOR_WATCH": {
@@ -28,16 +28,25 @@
       "candidate_count": 7,
       "admitted_count": 2,
       "failure_count": 15
+    },
+    "PUBLIC_X_AGGREGATOR": {
+      "query_count": 8,
+      "candidate_count": 6,
+      "admitted_count": 4,
+      "failure_count": 2
     }
   },
   "route_admitted_per_query": {
     "AUTHOR_WATCH": 0,
     "TOPIC_WATCH": 0,
-    "EVENT_TWO_HOP": 0.07407407407407407
+    "EVENT_TWO_HOP": 0.07407407407407407,
+    "PUBLIC_X_AGGREGATOR": 0.5
   },
-  "health": "DISCOVERY_PARTIAL_PUBLIC_EMBED_METRICS_NO_VIEW_COUNTS",
+  "health": "DISCOVERY_OPERATIONAL_PUBLIC_CORROBORATION_DIRECT_X_RENDER_BLOCKED",
   "high_view_verified_count": 0,
-  "interaction_observed_count": 1,
+  "interaction_observed_count": 4,
+  "original_permalink_corroborated_count": 5,
+  "public_embed_metric_count": 3,
   "health_notification_sent": false,
-  "note": "Third run found nine public X status leads, but retained two best-evidenced representative records. X originals remain inaccessible (403), no view counts verified; one has third-party untimed likes/reposts. Seven further candidate leads remain unadmitted."
+  "note": "Discovery is operational through public X aggregators/corroborating sources. Direct X rendering still fails, but real numeric status permalinks, Snowflake timestamps, excerpts and labeled engagement can be collected without cookies or hidden endpoints. One repeated ChatGPT status is deduplicated at index level; conflicting untimed metrics are retained instead of collapsed."
 }
