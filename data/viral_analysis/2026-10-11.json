@@ -1,36 +1,50 @@
 {
   "schema_version": "viral_analysis_v1",
-  "analysis_as_of": "2026-10-11T04:31:44Z",
+  "analysis_as_of": "2026-10-11T04:36:30Z",
   "input_run_ids": [
-    "2026-10-11T04:31Z-manual-bootstrap"
+    "2026-10-11T04:31Z-manual-bootstrap",
+    "2026-10-11T04:36Z-multiroute-manual"
   ],
   "sample_counts": {
-    "feed_runs": 1,
+    "feed_runs": 2,
     "recent_posts": 0,
     "evergreen_rediscovery_posts": 0,
     "high_distribution_posts": 0,
     "ordinary_or_low_distribution_controls": 0
   },
+  "discovery_health": {
+    "status": "DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD",
+    "consecutive_zero_yield_or_blocked_runs": 2,
+    "route_totals": {
+      "AUTHOR_WATCH": {"query_count": 4, "admitted_count": 0},
+      "TOPIC_WATCH": {"query_count": 11, "admitted_count": 0},
+      "EVENT_TWO_HOP": {"query_count": 10, "admitted_count": 0}
+    },
+    "diagnosis": "Generic topic search, targeted historical-author search and event-to-X second-hop search all failed to return verifiable current X status permalinks through the available public index route. Upstream event discovery itself worked."
+  },
   "cohort_definitions": {
-    "recent": "Publicly verifiable X observations from the current feed window; none admitted in this bootstrap run.",
-    "evergreen": "Older evidence with explicit durable rediscovery value; none admitted in this bootstrap run."
+    "recent": "Publicly verifiable X observations from the current feed window; none admitted across the first two runs.",
+    "evergreen": "Older evidence with explicit durable rediscovery value; none admitted in these fresh-feed runs."
   },
   "structure_labels": [],
   "candidate_patterns": [],
   "counterexamples": [],
   "confounders": [
-    "No fresh verifiable X status samples were available from the bootstrap public-search route.",
-    "Historical repository samples are intentionally not relabeled as current evidence."
+    "No fresh verifiable X status samples are available yet, so current structural comparisons cannot be performed.",
+    "Historical repository samples are intentionally not relabeled as current evidence.",
+    "Search-engine result ranking cannot be used as a proxy for X distribution."
   ],
   "recent_changes": [
-    "The repository now has a separated scheduled viral-feed ingestion and analysis contract.",
-    "The first run preserved a zero-yield discovery failure instead of recycling stale observations."
+    "The collector now has a durable feed contract, schemas, query rotation plan and route-level yield tracking.",
+    "The first run tested topic/public X search routes and preserved zero yield.",
+    "The second run explicitly tested AUTHOR_WATCH, TOPIC_WATCH and EVENT_TWO_HOP; upstream event discovery succeeded but no verifiable X status permalink was returned."
   ],
   "next_sampling_priorities": [
-    "Obtain fresh public X status URLs through permitted public discovery routes.",
-    "Prioritize same-author or similar-age ordinary controls alongside high-distribution samples.",
-    "Keep 0-24h, 24-48h, 2-7d and evergreen rediscovery cohorts separate."
+    "Allow the scheduled collector to rotate to different authors and topic buckets instead of repeating this manual probe.",
+    "Continue EVENT_TWO_HOP using distinctive current event names, but never treat upstream event popularity as X reach evidence.",
+    "If the third consecutive run still has zero usable X status samples, mark discovery as blocked and require a visible-browser or other authorized X source rather than weakening evidence rules.",
+    "Once fresh samples exist, deliberately collect ordinary/low-distribution controls and prefer similar-author/similar-age comparisons."
   ],
   "evidence_grade": "INSUFFICIENT_FRESH_SAMPLE",
-  "note": "No viral mechanism is promoted from this zero-sample fresh batch. Historical research remains available only as prior hypotheses."
+  "note": "This is discovery-health analysis, not content-pattern analysis. No viral mechanism is promoted until fresh X observations exist."
 }
