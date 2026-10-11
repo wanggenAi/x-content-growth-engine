@@ -1,1 +1,21 @@
-{"schema_version":"viral_feed_v1","latest_run_path":"data/viral_feed/2026-10-11/0829.json","latest_run_id":"2026-10-11T08:29Z-public-rotation-01","latest_run_completed_at":"2026-10-11T08:29:00Z","admitted_count":2,"status":"PARTIAL_EVIDENCE_NONZERO","recent_0_48h_count":2,"high_view_verified_count":0,"interaction_observed_count":1,"route_summary":{"AUTHOR_WATCH":{"queries":4,"admitted":0},"TOPIC_WATCH":{"queries":9,"admitted":0},"EVENT_TWO_HOP":{"queries":17,"admitted":2}},"note":"Two third-party X status leads. No verified views; direct X 403."}
+{
+  "schema_version": "viral_feed_v1",
+  "latest_run_path": "data/viral_feed/2026-10-11/1216.json",
+  "latest_run_id": "2026-10-11T12:16Z-public-aggregator-recovery-01",
+  "latest_run_completed_at": "2026-10-11T12:16:00Z",
+  "admitted_count": 4,
+  "status": "OPERATIONAL_PUBLIC_CORROBORATED_NONZERO",
+  "recent_0_48h_count": 4,
+  "high_view_verified_count": 0,
+  "interaction_observed_count": 4,
+  "route_summary": {
+    "PUBLIC_X_AGGREGATOR": {
+      "queries": 8,
+      "candidates": 6,
+      "admitted": 4,
+      "failures": 2
+    }
+  },
+  "direct_x_rendering": "BLOCKED_OR_CACHE_MISS",
+  "note": "Free public discovery is now non-zero without cookies or hidden endpoints. Real X status permalinks are corroborated through current public aggregators/mirrors; direct X rendering remains unavailable, so evidence levels and metric provenance stay explicit."
+}
