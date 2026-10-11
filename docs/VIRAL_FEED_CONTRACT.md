@@ -28,6 +28,7 @@ Required run-level fields:
 - `candidate_count`
 - `admitted_count`
 - `failure_count`
+- `route_stats`
 - `queries`
 - `failures`
 - `posts`
@@ -38,6 +39,7 @@ Each admitted post should preserve, where publicly observable:
 - `status_id`
 - `author_handle`
 - `published_at`
+- `published_at_source`
 - `observed_at`
 - `topic`
 - `language`
@@ -48,22 +50,61 @@ Each admitted post should preserve, where publicly observable:
 - `replies`
 - `metric_source`
 - `metric_as_of`
+- `metric_precision`
+- `metric_observations`
 - `post_type`
 - `promotion_status`
 - `discovery_query`
 - `discovery_route`
 - `source_url`
+- `corroborating_urls`
+- `evidence_level`
+- `original_access_status`
 - `evidence_note`
 - `freshness_class`
 - `near_duplicate_group`
+
+Unknown values remain JSON `null`. Missing metrics must never be converted to zero.
+
+## 2. Discovery routes
 
 Allowed `discovery_route` values:
 
 - `AUTHOR_WATCH` — rotate historically useful public author leads from `data/discovery_author_pool.json`; historical metrics are discovery seeds only and never carry forward to a new post.
 - `TOPIC_WATCH` — rotate current-interest topic searches.
-- `EVENT_TWO_HOP` — identify a current entity/event from public news/Hacker News/Reddit-index/GitHub sources, then search public indexes for a corresponding real `x.com/.../status` URL. The upstream event source is discovery context, not X-post reach evidence.
+- `EVENT_TWO_HOP` — identify a current entity/event from public news/Hacker News/Reddit-index/GitHub sources, then search for a corresponding X post. Upstream event popularity is context, not X reach evidence.
+- `PUBLIC_X_AGGREGATOR` — use public pages that expose current X post IDs/permalinks, excerpts or publicly displayed engagement, then corroborate the original X identity with additional public evidence where possible. Registered sources and limitations live in `data/public_x_discovery_sources.json`.
 
-Unknown values remain JSON `null`. Do not infer a numeric metric from prose such as “viral” or “many views”.
+The collector should not depend on one generic search route. A normal run should attempt a bounded mix of routes and rotate them when yield drops.
+
+## 3. Evidence levels
+
+Allowed `evidence_level` values:
+
+- `ORIGINAL_X_RENDERED` — original X status/article page rendered and checked directly.
+- `ORIGINAL_PERMALINK_CORROBORATED` — a real numeric X status permalink is corroborated by one or more public sources, but original X rendering is blocked or unavailable.
+- `PUBLIC_EMBED_METRICS` — a public third-party page exposes the X status ID plus labeled public engagement values.
+- `SECONDARY_METRIC_OBSERVATION` — a secondary source reports a numeric observation such as “about 17K views after 10 minutes”; precision and timing must be retained.
+- `PUBLIC_MIRROR_OBSERVED` — a public mirror shows post text/date/metrics but the original permalink may not yet be resolved.
+- `DISCOVERY_LEAD_ONLY` — useful lead, not strong enough for structural/propagation claims.
+
+Direct X `403` does not invalidate a real permalink if the status ID, author and content are independently corroborated. It does lower the evidence level.
+
+A numeric X `status_id` may be used to derive `published_at` from the X/Twitter Snowflake epoch. If so, set `published_at_source` to `X_SNOWFLAKE_STATUS_ID`; do not present it as an original-page timestamp.
+
+Mirror-only records without a resolved original status URL remain discovery leads unless the analysis explicitly supports mirror evidence.
+
+## 4. Metric discipline
+
+Third-party metrics are allowed only with provenance.
+
+- exact labeled values may populate canonical fields when there is no conflicting evidence;
+- approximate prose values require `metric_precision=APPROXIMATE`;
+- untimed cached values should have `metric_as_of=null` and an explanatory note;
+- multiple observations belong in `metric_observations` rather than being overwritten;
+- if two untimed sources show impossible decreasing cumulative metrics, canonical metric fields become `null` and the conflict is retained;
+- do not infer unlabeled metric positions from a mirror layout;
+- do not infer X reach from upstream news/HN/Reddit popularity.
 
 Allowed `freshness_class` values:
 
@@ -75,15 +116,7 @@ Allowed `freshness_class` values:
 
 `STALE_REFERENCE_ONLY` items may be preserved for audit but must not be counted as current-trend evidence.
 
-The collector does not generate drafts, publish posts or promote a writing mechanism.
-
-## 2. Discovery discipline
-
-The collector should not depend on one generic search route. Each normal run should attempt a bounded mix of author-watch, topic-watch and event-to-X two-hop discovery. If one route is blocked or produces no usable status URLs, preserve that failure and rotate the next run rather than silently substituting old observations.
-
-A specific X permalink may be admitted only to the evidence level actually supported by public observation. If the URL is real but current metrics cannot be seen, keep those metrics `null`. If publication time cannot be established, do not classify the item as a fresh 0–48h sample.
-
-## 3. Index behavior
+## 5. Index behavior
 
 `data/viral_feed/index.json` is a compact registry rather than a second copy of all post bodies. It should track at least:
 
@@ -93,11 +126,13 @@ A specific X permalink may be admitted only to the evidence level actually suppo
 - unique status-id count;
 - latest successful non-zero run;
 - consecutive zero-yield/blocked runs;
-- known duplicate / near-duplicate totals.
+- duplicate / near-duplicate totals;
+- per-route query/candidate/admitted/failure totals;
+- current discovery health.
 
 The index must not turn missing metrics into zero.
 
-## 4. Analyzer input and output
+## 6. Analyzer input and output
 
 The analyzer consumes the most recent available feed packets, normally at least seven days when enough history exists.
 
@@ -122,7 +157,7 @@ Required analysis-level fields include:
 - `next_sampling_priorities`
 - `evidence_grade`
 
-Candidate patterns must carry an evidence state such as:
+Candidate patterns may carry:
 
 - `OBSERVATION`
 - `HYPOTHESIS`
@@ -130,9 +165,9 @@ Candidate patterns must carry an evidence state such as:
 - `SUPPORTED_ON_HOLDOUT`
 - `SUPPORTED_ON_OWN_ACCOUNT`
 
-No pattern may jump directly from a small convenience sample to a “viral formula”.
+No pattern may jump directly from a convenience sample to a “viral formula”. Mirror evidence should be down-weighted relative to direct original-page evidence when the two disagree.
 
-## 5. Comparison discipline
+## 7. Comparison discipline
 
 Prefer comparisons that reduce obvious confounding:
 
@@ -142,26 +177,18 @@ Prefer comparisons that reduce obvious confounding:
 - similar publication window;
 - original vs original rather than reply vs original;
 - promotion/paid-partnership status separated;
-- quoted/reposted material separated when it changes the exposure mechanism.
+- quoted/reposted material separated when it changes exposure mechanism.
 
-When matching is not possible, the analysis must retain the limitation instead of treating raw view differences as causal evidence.
+When matching is not possible, retain the limitation instead of treating raw metric differences as causal evidence.
 
-## 6. Editorial consumption
+## 8. Editorial consumption
 
-Editorial work may use the newest analysis as a hypothesis source, but must still independently check:
-
-- material strength;
-- source quality;
-- novelty against recent own-account posts;
-- reader value;
-- self-relevance / psychological stake where relevant;
-- a single primary reader action;
-- factual and safety boundaries.
+Editorial work may use the newest analysis as a hypothesis source, but must still independently check material strength, source quality, novelty against recent own-account posts, reader value, self-relevance / psychological stake where relevant, a single primary reader action, and factual/safety boundaries.
 
 External viral observations are not proof that the same mechanism will work on the user's account.
 
-## 7. Failure semantics
+## 9. Failure semantics
 
 A blocked or zero-yield collector run is valid data when it records the reason. Do not recycle old posts merely to keep admitted-count positive.
 
-If public discovery access degrades for several consecutive runs, preserve route-level failures in `index.json`, expand the next run's route rotation, and surface the problem instead of silently substituting stale snapshots.
+If direct X rendering is blocked, the collector should attempt registered `PUBLIC_X_AGGREGATOR` and corroboration sources before declaring the discovery chain blocked. If all permitted public routes degrade for several consecutive runs, surface the blocker instead of silently substituting stale snapshots.
