@@ -1,0 +1,41 @@
+{
+  "schema_version": "viral_analysis_v1",
+  "required_fields": [
+    "schema_version",
+    "analysis_as_of",
+    "input_run_ids",
+    "sample_counts",
+    "cohort_definitions",
+    "structure_labels",
+    "candidate_patterns",
+    "counterexamples",
+    "confounders",
+    "recent_changes",
+    "next_sampling_priorities",
+    "evidence_grade"
+  ],
+  "pattern_evidence_states": [
+    "OBSERVATION",
+    "HYPOTHESIS",
+    "REPLICATED_HYPOTHESIS",
+    "SUPPORTED_ON_HOLDOUT",
+    "SUPPORTED_ON_OWN_ACCOUNT"
+  ],
+  "core_dimensions": [
+    "opening_hook",
+    "information_gap",
+    "reversal",
+    "specificity",
+    "named_people_or_numbers",
+    "self_relevance",
+    "psychological_stake",
+    "opinion_space",
+    "forwarding_target",
+    "narrative_length",
+    "structure_rhythm",
+    "media_form",
+    "freshness",
+    "topic"
+  ],
+  "notes": "Analysis output only. Preserve confounders and counterexamples; do not auto-publish or declare a viral formula from convenience samples."
+}
