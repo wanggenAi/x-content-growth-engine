@@ -51,10 +51,17 @@ Each admitted post should preserve, where publicly observable:
 - `post_type`
 - `promotion_status`
 - `discovery_query`
+- `discovery_route`
 - `source_url`
 - `evidence_note`
 - `freshness_class`
 - `near_duplicate_group`
+
+Allowed `discovery_route` values:
+
+- `AUTHOR_WATCH` — rotate historically useful public author leads from `data/discovery_author_pool.json`; historical metrics are discovery seeds only and never carry forward to a new post.
+- `TOPIC_WATCH` — rotate current-interest topic searches.
+- `EVENT_TWO_HOP` — identify a current entity/event from public news/Hacker News/Reddit-index/GitHub sources, then search public indexes for a corresponding real `x.com/.../status` URL. The upstream event source is discovery context, not X-post reach evidence.
 
 Unknown values remain JSON `null`. Do not infer a numeric metric from prose such as “viral” or “many views”.
 
@@ -70,7 +77,13 @@ Allowed `freshness_class` values:
 
 The collector does not generate drafts, publish posts or promote a writing mechanism.
 
-## 2. Index behavior
+## 2. Discovery discipline
+
+The collector should not depend on one generic search route. Each normal run should attempt a bounded mix of author-watch, topic-watch and event-to-X two-hop discovery. If one route is blocked or produces no usable status URLs, preserve that failure and rotate the next run rather than silently substituting old observations.
+
+A specific X permalink may be admitted only to the evidence level actually supported by public observation. If the URL is real but current metrics cannot be seen, keep those metrics `null`. If publication time cannot be established, do not classify the item as a fresh 0–48h sample.
+
+## 3. Index behavior
 
 `data/viral_feed/index.json` is a compact registry rather than a second copy of all post bodies. It should track at least:
 
@@ -84,7 +97,7 @@ The collector does not generate drafts, publish posts or promote a writing mecha
 
 The index must not turn missing metrics into zero.
 
-## 3. Analyzer input and output
+## 4. Analyzer input and output
 
 The analyzer consumes the most recent available feed packets, normally at least seven days when enough history exists.
 
@@ -119,7 +132,7 @@ Candidate patterns must carry an evidence state such as:
 
 No pattern may jump directly from a small convenience sample to a “viral formula”.
 
-## 4. Comparison discipline
+## 5. Comparison discipline
 
 Prefer comparisons that reduce obvious confounding:
 
@@ -133,7 +146,7 @@ Prefer comparisons that reduce obvious confounding:
 
 When matching is not possible, the analysis must retain the limitation instead of treating raw view differences as causal evidence.
 
-## 5. Editorial consumption
+## 6. Editorial consumption
 
 Editorial work may use the newest analysis as a hypothesis source, but must still independently check:
 
@@ -147,8 +160,8 @@ Editorial work may use the newest analysis as a hypothesis source, but must stil
 
 External viral observations are not proof that the same mechanism will work on the user's account.
 
-## 6. Failure semantics
+## 7. Failure semantics
 
 A blocked or zero-yield collector run is valid data when it records the reason. Do not recycle old posts merely to keep admitted-count positive.
 
-If public discovery access degrades for several consecutive runs, preserve the failures in `index.json` and surface the problem instead of silently substituting stale snapshots.
+If public discovery access degrades for several consecutive runs, preserve route-level failures in `index.json`, expand the next run's route rotation, and surface the problem instead of silently substituting stale snapshots.
