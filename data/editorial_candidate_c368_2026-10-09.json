@@ -1,0 +1,99 @@
+{
+  "candidate_id": "C368",
+  "state": "EDITORIAL_REVIEW",
+  "research_version": "C368-R1",
+  "publication_version": "C368-P1",
+  "text": "马斯克要买的，不只是卫星频谱，而是一张能进室内的手机网。\n\n10月8日，SpaceX宣布协议，拟收购美国全国性800MHz低频频谱组合，最多14MHz成对频谱；交易仍需FCC批准。公司说，低频补上Starlink Mobile穿墙覆盖的技术缺口。\n\nSpaceX还称，FCC本周批准了Starlink Mobile Gen2申请，可发射1.5万颗优化2GHz的卫星。两件事叠在一起，目标从“卫星补盲”变成美国移动运营商竞争。\n\n但这不是已经建成的手机网：频谱交易待批准，覆盖、容量、资费和终端体验，都还没被这份公告证明。\n\n这一步你更看重哪笔账：不用换专用卫星机，还是它会不会真的把运营商的网络成本打下来？\n\nhttps://www.spacex.com/updates/starship-moon-announcement\nhttps://www.prnewswire.com/news-releases/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex-302902974.html\nhttps://www.investing.com/news/stock-market-news/spacex-to-acquire-spectrum-that-enables-starlink-mobile-services-4939769",
+  "subject_value": "SpaceX在10月8日宣布收购美国全国性800MHz低频频谱组合，并与Starlink Mobile Gen2卫星获批叠加，呈现出从卫星补盲向移动运营商竞争推进的真实商业动作与监管边界。",
+  "information_gap": "读者第一行知道马斯克与卫星手机有关，但仍不知道为何要买低频频谱、这笔交易是否已完成，以及卫星数量批准与手机覆盖之间如何连接。",
+  "payload": "读者带走14MHz成对800MHz频谱、交易仍待FCC批准、SpaceX称Gen2获准发射1.5万颗2GHz卫星，以及低频穿墙优势并不等于已经建成可用手机网。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "关心手机资费、运营商覆盖或卫星通信的中文科技读者，会在“终端不用换”和“网络成本是否下降”之间给出判断并说明理由。",
+  "novelty_check": "已查全campaign来源与近30条正文；没有发现800MHz频谱收购、Starlink Mobile低频覆盖或马斯克进入美国移动运营商竞争的同题材。与C366的Surface本地AI换机不同，本稿聚焦频谱资产、监管条件和通信网络竞争，不重复本地模型配置或黄仁勋微软同台。",
+  "audit_language_separation": "SpaceX官方页面称其宣布收购最多14MHz成对800MHz全国性低频频谱，并称FCC本周批准Gen2申请；Grain公告称交易须经FCC批准及惯常交割条件；Reuters报道交易仍待FCC批准、现有手机大多支持800MHz，并报道FCC批准1.5万颗卫星。本文不写已完成收购，不承诺覆盖、资费、容量或成本结果，不把公司‘技术缺口’表述当作独立实测。",
+  "follow_reason": "读者可继续追踪后续FCC批准、卫星部署和实际手机服务，而下一条可以核对宣传中的网络能力是否落地。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    "https://www.spacex.com/updates/starship-moon-announcement",
+    "https://www.prnewswire.com/news-releases/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex-302902974.html",
+    "https://www.investing.com/news/stock-market-news/spacex-to-acquire-spectrum-that-enables-starlink-mobile-services-4939769"
+  ],
+  "fact_check_status": "FULL_OFFICIAL_AND_INDEPENDENT_REPORTING_CHECKED_WITH_PENDING_FCC_CLOSING_BOUNDARY",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "User explicitly waived individual text review on 2026-10-09; human_checked remains false and agent verification is recorded separately.",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "14MHz频谱、穿墙优势与待FCC批准的交割边界",
+        "reader_thought": "这不只是火箭公司的新闻，它可能改变手机运营商的竞争账。"
+      },
+      {
+        "route": "COMPARISON",
+        "strength": "MEDIUM",
+        "cue": "不用换专用卫星机 vs 网络成本是否下降",
+        "reader_thought": "我会把便利、覆盖和资费放在同一笔账里比较。"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "它把马斯克的卫星计划翻成普通手机用户能比较的两笔账：是否要换设备，以及网络竞争最终会不会影响覆盖和成本；同时保留交易尚未获批和结果未知的边界。",
+    "predicted_inner_response": "原来频谱交易才是卫星手机进入日常网络的关键一步，但新闻里的‘将改变通信’还不是我的实际体验。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT",
+      "FAIRNESS_JUDGMENT"
+    ],
+    "opinion_space": "HIGH",
+    "comparison_basis": "把普通用户的终端更换成本与运营商网络覆盖/基础设施成本放在同一比较框架，且两项结果都尚未被公告证明。",
+    "social_currency": "MEDIUM",
+    "expectation_violation": "MEDIUM"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C368-COMPARISON",
+    "primary_action_target": null,
+    "pre_registered_hypothesis": "将一项知名企业家的通信资产动作拆成用户可比较的设备与网络成本两笔账，并保留监管未完成边界，可能激活有内容的判断评论。",
+    "learning_fields": [
+      "reply_quality",
+      "reader_stake",
+      "source_click_intent"
+    ],
+    "numeric_target": null
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "gate_result": {
+    "ready": false,
+    "reason": "human_checked remains false under explicit user waiver; content gate and native publication preflight completed."
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "ready_for_publication": false,
+  "source_checked": true,
+  "source_kind": "OFFICIAL_COMPANY_AND_SELLER_RELEASE_PLUS_REUTERS_REPORTING",
+  "id": "C368",
+  "url": "https://x.com/qiluo27808/status/2108416469520503187",
+  "published_at": "2026-10-09T04:37:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "12:37 PM · Oct 9, 2026",
+  "verified_at": "2026-10-09T04:39:13Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "source_url": "https://www.spacex.com/updates/starship-moon-announcement",
+  "publication_preflight": {
+    "native_editor": "FULL_TEXT_FORMAT_ACCOUNT_AND_NATIVE_SOURCE_CARD_CHECKED",
+    "submission": "ONE_SUBMISSION_PUBLIC_DETAIL_RELOAD_VERIFIED",
+    "completed_at_utc": "2026-10-09T04:39:13Z"
+  },
+  "private_evidence_path": "data/private/publication_2026-10-09/"
+}

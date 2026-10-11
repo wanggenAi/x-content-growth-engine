@@ -1,0 +1,140 @@
+{
+  "candidate_id": "C372",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C372-R1",
+  "publication_version": "C372-P1",
+  "text": "“视频里有人吹生日蜡烛”，也可以直接拿来找片段，不必记住文件名和拍摄日期。\n\nGoogle 10月6日发布的EmbeddingGemma 2，把文字、图片、视频和声音放进同一个搜索模型。官方AI Edge Gallery里的新示例，可以按描述定位本地视频的时间点，检索过程无需联网。\n\n它只有7.4亿参数。Google给出的Pixel 11 Pro量化测试中，完整多模态模型最低约占567MB运行内存；只加载文字部分，模型权重最低约占191MB。这是特定设备和量化配置的数字，不是整个相册App的内存预算。\n\n它负责把内容变成可比较的搜索表示，不是替你聊天的大模型。开放权重采用Apache 2.0许可；想做离线相册、录音或本地资料搜索，已有官方示例和开发入口。\n\n对这类功能，我更在意的一点是：找自己的视频，不必先把视频交给云端。\n\nhttps://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/",
+  "subject_value": "能按描述定位本地视频片段、离线检索与小内存开放模型，提供明确场景、实现资源与端侧成本边界。",
+  "information_gap": "找视频可以不记日期和文件名，怎样在不上传云端的条件下实现，以及模型到底有多大。",
+  "payload": "10月6日发布、7.4亿参数、Pixel 11 Pro量化内存条件、离线官方示例和Apache 2.0开放入口。",
+  "primary_action": "SAVE_RETURN",
+  "primary_action_reader": "想开发离线相册、录音或资料检索的人，保存官方示例和内存边界供后续实验。",
+  "novelty_check": "检索370条公开campaign记录未命中EmbeddingGemma/语义检索/本地相册；近30条全文已读。C366虽谈本机AI电脑，但材料为硬件换购，本条是开放检索模型的离线视频定位；C371是生成交互界面，本条不生成界面、不沿用反问或二选一结尾。近50/100仅主题与来源检索，不冒称逐条重审。",
+  "audit_language_separation": "公开版明确官方示例和测试设备；研究层保留全文来源、未独立复现、量化内存不等于完整App峰值、搜索准确率不可泛化。",
+  "follow_reason": "持续提供AI能力落到具体任务时的真实资源、成本与适用条件。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source_type": "GOOGLE_OFFICIAL",
+      "source_date": "2026-10-06",
+      "checked_at_utc": "2026-10-09T07:28:37.778885Z"
+    },
+    {
+      "url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2",
+      "source_type": "GOOGLE_OFFICIAL",
+      "source_date": null,
+      "checked_at_utc": "2026-10-09T07:28:37.778885Z"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/",
+      "source_type": "GOOGLE_OFFICIAL",
+      "source_date": "2026-10-06",
+      "checked_at_utc": "2026-10-09T07:28:37.778885Z"
+    }
+  ],
+  "fact_check_status": "OFFICIAL_FULL_TEXT_CHECKED_COMPANY_DEMOS_NOT_INDEPENDENT_REPLICATION",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "2026-10-09用户授权持续普通公开新帖并免逐条亲自正文审核；human_checked保持false。",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "UTILITY",
+        "strength": "HIGH",
+        "cue": "官方离线视频时间点检索示例、开放模型与设备内存条件",
+        "reader_thought": "做本地搜索时可以回来查实现入口和预算。"
+      }
+    ],
+    "dominant_reader_value_route": "UTILITY",
+    "why_reader_cares": "应用开发者与关心本地数据的人得到可实际查阅的离线搜索资源。",
+    "predicted_inner_response": "视频不用先上传，也能按内容找；这个实现入口值得留着。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "utility": "HIGH",
+    "future_usefulness": "做离线相册或录音检索时可回看模型规模、示例和入口。",
+    "concrete_resource": "Google AI Edge Gallery示例与开发文档：https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C372-OFFLINE_MEDIA_RESOURCE",
+    "pre_registered_hypothesis": "用本地视频定位场景和可复用官方资源，可能产生真实收藏/后续回访；并非效果承诺。",
+    "primary_action_target": null,
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "learning_fields": [
+      "bookmarks",
+      "return_visits",
+      "substantive_reader_comments"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "research_boundaries": {
+    "independent_replication": false,
+    "benchmark": "Model card reports full precision MTEB Code78.68 vs68.76; not confused with quantized device memory, not a global quality score.",
+    "context": "8192 tokens, audio327seconds or video58frames default; not unlimited video processing in a single input.",
+    "memory": "Full multimodal lower bound567MB at stated Pixel11Pro quantized config; text-only191MB refers active RAM for weights. Whole application indexing/database overhead excluded.",
+    "source_conflict_excluded": "Developer article claims output storage up to8x while primary release says6x; neither number used."
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "publication_preflight": {
+    "body_digest": "d6f5366498bb3bb721585bf5f4a3bc4fbe3a681aa59cc3188e4049a3fbb74e77",
+    "submission_attempts": 1,
+    "submission_status": "ONE_CLICK_PUBLICLY_VERIFIED",
+    "account_required": "@qiluo27808",
+    "post_submission_rule": "One click only; persist immediately and inspect own profile if uncertain.",
+    "reserved_at_utc": "2026-10-09T07:29:46.618171Z",
+    "native_account_verified": "Gen @qiluo27808",
+    "empty_composer_verified": true,
+    "editor_full_body_verified": true,
+    "paragraph_breaks_screenshot_verified": true,
+    "source_url_verified": true,
+    "source_preview": "Google Developers card with EmbeddingGemma 2 illustration; generic site title",
+    "media": "NONE",
+    "submission_click_utc": "2026-10-09T07:30:07.655118Z"
+  },
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "content_requirements_pass": true,
+    "personal_review_waiver": true,
+    "note": "Formal READY withheld, explicit user waiver recorded separately."
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "source_checked": true,
+  "source_kind": "GOOGLE_OFFICIAL_OPEN_MODEL_AND_EDGE_DEMOS",
+  "published_url": "https://x.com/qiluo27808/status/2108459946228752581",
+  "published_at_utc": "2026-10-09T07:29:00Z",
+  "published_seconds_precision": "unknown",
+  "displayed_time": "3:29 PM · Oct 9, 2026",
+  "verified_at_utc": "2026-10-09T07:32:37.229375Z",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/",
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "submission_click_utc": "2026-10-09T07:30:07.655118Z",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible AX and screenshot inspection; no human metrics evidence."
+  }
+}

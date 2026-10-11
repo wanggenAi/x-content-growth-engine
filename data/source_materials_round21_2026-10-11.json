@@ -1,0 +1,42 @@
+{
+  "round_id": "2026-10-11-restricted-materials-01",
+  "created_at_utc": "2026-10-11T13:21:37Z",
+  "purpose": "Five restricted-material leads screened under latest voice and evidence rules; only C386 entered editorial review.",
+  "leads": [
+    {
+      "id": "L21-01",
+      "subject": "GreatFire FreeWeChat archive server termination",
+      "source": "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+      "domestic_visibility_evidence": "Specific 2025 Tencent/Vultr hosting action, independently corroborated by Index on Censorship",
+      "status": "C386_PUBLISHED_VERIFIED"
+    },
+    {
+      "id": "L21-02",
+      "subject": "Reddit access blocked in mainland China",
+      "source": "https://www.govinfo.gov/content/pkg/CHRG-116shrg46137/pdf/CHRG-116shrg46137.pdf",
+      "domestic_visibility_evidence": "Secondary historical congressional hearing reference; original event page not rechecked in this round",
+      "status": "HOLD_NEEDS_PRIMARY_EVENT_CHECK"
+    },
+    {
+      "id": "L21-03",
+      "subject": "WeChat public posts archived then marked censored",
+      "source": "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+      "domestic_visibility_evidence": "Organization describes archive method, but this repeats C386 material",
+      "status": "FAIL_REPETITIVE"
+    },
+    {
+      "id": "L21-04",
+      "subject": "China platform content moderation staffing and takedown rules",
+      "source": "https://2021-2025.state.gov/reports/2018-country-reports-on-human-rights-practices/china-includes-tibet-hong-kong-and-macau-china/",
+      "domestic_visibility_evidence": "Government report gives broad policy context but no single fresh material payload",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "id": "L21-05",
+      "subject": "Foreign hosting provider trust-and-safety process used in censorship dispute",
+      "source": "https://www.indexoncensorship.org/2025/12/china-media-giant-tencent-gags-freewechat/",
+      "domestic_visibility_evidence": "Same FreeWeChat/Vultr event as C386",
+      "status": "FAIL_REPETITIVE"
+    }
+  ]
+}

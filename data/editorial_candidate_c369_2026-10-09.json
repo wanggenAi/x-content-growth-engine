@@ -1,0 +1,98 @@
+{
+  "candidate_id": "C369",
+  "state": "EDITORIAL_REVIEW",
+  "research_version": "C369-R1",
+  "publication_version": "C369-P1",
+  "text": "黄仁勋把“AI改变科学”先写成了一张十亿美元的支票。\n\n英伟达10月8日宣布，未来五年将投入总值10亿美元，支持美国高校、量子计算、云服务和政府任务，重点指向量子、医疗与能源安全。\n\n但公告证明的是承诺，不是突破：钱会怎样分配、哪些项目能拿到算力、成果如何独立验收，都还没有答案。公司把它放在“超级智能加速科学”的叙事里，不能直接当成科学成果本身。\n\n这笔钱最该先买什么：更多算力、更好的实验数据，还是独立复核？\n\nhttps://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+  "subject_value": "黄仁勋与英伟达在2026-10-08宣布未来五年总值10亿美元的美国科学承诺，牵涉高校、量子、医疗、能源和云基础设施；承诺金额与可验证科学产出之间存在明确的信息缺口。",
+  "information_gap": "十亿美元科学承诺究竟会买到哪些算力与研究资源，以及公众应如何区分资金承诺和已发生的科学突破？",
+  "payload": "读者获得承诺的金额、期限、支持对象和领域，并带走一套把资金投入、项目分配、算力可得性和独立验收分开的判断框架。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "关注AI基础设施、科研经费或科技产业的人，会在算力、数据和独立复核之间选择优先项并说明理由。",
+  "novelty_check": "已查campaign来源与近30条正文；没有发现英伟达十亿美元科学承诺或科研资金验收主题。不同于C359的黄仁勋访谈复述、C366的Surface换机、C368的SpaceX频谱资产，本稿聚焦资金承诺与成果验证之间的账。",
+  "audit_language_separation": "英伟达官方新闻稿日期为2026-10-08，称未来五年承诺总值10亿美元，支持高校研究、量子领导力和云服务商，并列举Genesis Mission第二阶段项目。新闻稿同时以forward-looking声明说明未来表现与收益不保证。本文不声称资金已拨付、不声称项目已产生突破、不推断具体分配比例或科研回报。",
+  "follow_reason": "读者可继续追踪后续项目名单、拨款落地、算力使用和独立科学成果，检验“资金承诺”是否变成可复核产出。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+      "source_type": "OFFICIAL_PRIMARY_COMPANY_PRESS_RELEASE",
+      "source_date": "2026-10-08",
+      "checked_at_utc": "2026-10-09T04:55:00Z",
+      "checked_facts": [
+        "NVIDIA states commitments valued at $1 billion over five years",
+        "Release names higher-education institutions, quantum computing and cloud providers",
+        "Release identifies quantum, healthcare and energy security as fields",
+        "Release labels future benefits and performance as forward-looking and not guaranteed"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_RELEASE_CHECKED_FORWARD_LOOKING_BOUNDARY_RETAINED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "User explicitly waived individual text review on 2026-10-09; human_checked remains false and agent verification is recorded separately.",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "十亿美元承诺与科学成果之间的验收缺口",
+        "reader_thought": "我想知道这笔钱先该换算力、数据，还是换来可独立复核的结果。"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "科技公司把算力、科研和国家竞争放在同一张支票上，读者可以用资金如何转成可验证成果来判断这类承诺，而不是只复述金额。",
+    "predicted_inner_response": "十亿美元很大，但关键是项目怎么分、谁来验收、几年后留下什么。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT",
+      "FAIRNESS_JUDGMENT"
+    ],
+    "opinion_space": "HIGH",
+    "social_currency": "MEDIUM",
+    "expectation_violation": "MEDIUM",
+    "comparison_basis": "把公司承诺金额与读者可要求的项目分配、算力使用和独立验收放在同一账本中比较。"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C369-MONEY_TO_EVIDENCE",
+    "primary_action_target": null,
+    "pre_registered_hypothesis": "把知名AI公司的大额科学承诺拆成资金、分配和验收三层，可能激活读者对钱怎么变成可验证产出的实质判断。",
+    "learning_fields": [
+      "reply_quality",
+      "reader_stake",
+      "source_click_intent"
+    ],
+    "numeric_target": null
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "gate_result": {
+    "ready": false,
+    "reason": "human_checked remains false under explicit user waiver; all other content gate fields were prepared and verified during agent-verified native publication."
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "source_checked": true,
+  "source_kind": "OFFICIAL_PRIMARY_COMPANY_PRESS_RELEASE",
+  "published_url": "https://x.com/qiluo27808/status/2108431779422216219",
+  "published_at_utc": "2026-10-09T05:38:00Z",
+  "displayed_time": "1:38 PM · Oct 9, 2026",
+  "published_seconds_precision": "unknown",
+  "verified_at_utc": "2026-10-09T05:47:38Z",
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "source_card_verified": true,
+    "public_detail_reloaded": true,
+    "single_submission": true
+  },
+  "private_evidence_path": "data/private/publication_2026-10-09/"
+}

@@ -1,0 +1,117 @@
+{
+  "candidate_id": "C367",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C367-R1",
+  "publication_version": "C367-P1",
+  "text": "OpenAI 说，内部系统给出了 Navier–Stokes 的重大结果。\n\n但 10 月 6 日一篇新 arXiv 论文把争议拆得很具体：Lean 代码通过检查，不自动等于自然语言证明被忠实翻译。作者报告，形式化代码与论文论证之间存在不一致。\n\n这不是一句“AI 会不会数学”能概括的事。至少要分开核对：定理到底写了什么、翻译是否保留原意、形式系统检查了什么、数学家能否独立复核。\n\n你会把 Lean 通过当作哪一级证据：机器检查、数学同行复核，还是两者都要？\n\nhttps://openai.com/index/navier-stokes-solution/\nhttps://arxiv.org/abs/2610.08144",
+  "subject_value": "最新公开争议把AI数学成果的证据链拆成可核对的层次：OpenAI的内部系统声明与一篇10月6日arXiv技术论文对Lean形式化是否忠实对应自然语言论证的不同判断。",
+  "information_gap": "Lean形式化通过究竟证明了什么，为什么还需要检查自然语言论证与形式代码是否对应？",
+  "payload": "读者获得两条原始材料、争议的具体技术边界，以及定理陈述、翻译、形式验证、独立复核四层核验框架。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "关注AI科研可信度、数学或软件验证的读者，可按证据标准说明自己会把机器检查放在哪一级。",
+  "novelty_check": "已查全campaign记录与近30条全文；无Navier–Stokes、Lean翻译失配或数学证明审计主题匹配。不同于C363的产品模型定价、C365的安全扫描瓶颈、C366的本地AI换机选择，本稿聚焦AI科学成果的证据链和新技术质疑。",
+  "audit_language_separation": "OpenAI官方文章称其内部系统产生有限时间奇异性结果，并提供Lean形式化与代码；arXiv 2610.08144发表于2026-10-06，作者声称形式化Lean证明不对应自然语言证明并列出翻译失配案例。本文不判定OpenAI结果最终正确与否，不把预印本当同行评审结论，也不使用“已解决千禧年难题”作事实。",
+  "follow_reason": "继续跟踪AI重大突破时，把公司宣称、机器检查与独立数学审计分开，给出可复用的证据链。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "source_type": "OFFICIAL_PRIMARY_COMPANY_RESEARCH_RELEASE",
+      "source_date": "2026-09-08",
+      "checked_at_utc": "2026-10-09T04:03:24Z",
+      "checked_facts": [
+        "OpenAI describes an internal-system result and Lean formalization/verification",
+        "OpenAI distinguishes its result from related Euler work and says it is not claiming the Millennium Prize"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.08144",
+      "source_type": "PRIMARY_PREPRINT_TECHNICAL_CRITIQUE",
+      "source_date": "2026-10-06",
+      "checked_at_utc": "2026-10-09T04:03:24Z",
+      "checked_facts": [
+        "Authors argue Lean autoformalization need not preserve natural-language meaning",
+        "Abstract states their analysis finds the formalized Lean proof does not correspond to the natural-language blow-up proof"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_PRIMARY_AND_PREPRINT_BOUNDARY_CHECKED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "EXPLICIT_USER_WAIVER_OF_PERSONAL_TEXT_REVIEW",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "KNOWLEDGE_CORRECTION",
+        "strength": "HIGH",
+        "cue": "Lean通过不等于自然语言证明忠实对应",
+        "reader_thought": "我需要区分机器能检查的形式对象和论文声称的数学对象。"
+      }
+    ],
+    "dominant_reader_value_route": "KNOWLEDGE_CORRECTION",
+    "why_reader_cares": "AI科研新闻常把形式验证当成最终背书；这条材料给出可复核的分层标准，数学、软件和科研读者都能据此表达证据要求。",
+    "predicted_inner_response": "我以后看AI证明时要问代码检查的对象是否就是论文声称的对象。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "KNOWLEDGE_DISPLAY",
+      "CORRECTION"
+    ],
+    "opinion_space": "HIGH",
+    "correction": {
+      "common_claim": "Lean代码编译通过就等于论文中的自然语言证明已经被完整验证。",
+      "supported_correction": "arXiv:2610.08144的作者报告，形式化Lean证明与自然语言论证之间存在不一致，因此代码通过和论证忠实对应是两个需要分别核对的命题。",
+      "source_ref": "https://arxiv.org/abs/2610.08144"
+    }
+  },
+  "experiment": {
+    "hypothesis": "C367_AI_MATH_EVIDENCE_CHAIN_REPLY_VALUE",
+    "primary_outcome": "independent_real_reader_substantive_comments_naming_machine_or_peer_review_evidence_standard",
+    "numeric_target": null,
+    "measurement_windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "distribution_confidence": "UNKNOWN"
+  },
+  "uploaded_media": false,
+  "submission_attempts": 1,
+  "gate_result": {
+    "content_gate_passed": true,
+    "formal_ready": false,
+    "user_waived_personal_review": true,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ]
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "ready_for_publication": false,
+  "source_checked": true,
+  "id": "C367",
+  "url": "https://x.com/qiluo27808/status/2108410027736432779",
+  "published_at": "2026-10-09T04:11:00Z",
+  "published_at_precision": "displayed_minute_seconds_unknown",
+  "published_second": null,
+  "displayed_time": "12:11 PM · Oct 9, 2026",
+  "verified_at": "2026-10-09T04:12:30Z",
+  "verification_status": "PUBLIC_DETAIL_RELOAD_FULL_TEXT_AND_SOURCE_TARGET_VERIFIED",
+  "verification_source": "NATIVE_CHROME_PUBLIC_DETAIL_RELOAD",
+  "source_url": "https://openai.com/index/navier-stokes-solution/",
+  "publication_preflight": {
+    "native_editor": "FULL_TEXT_FORMAT_ACCOUNT_AND_NATIVE_SOURCE_CARD_CHECKED",
+    "submission": "ONE_SUBMISSION_PUBLIC_DETAIL_RELOAD_VERIFIED",
+    "completed_at_utc": "2026-10-09T04:12:30Z"
+  },
+  "private_evidence_path": "data/private/publication_2026-10-09/"
+}

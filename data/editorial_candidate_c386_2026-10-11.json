@@ -1,0 +1,178 @@
+{
+  "candidate_id": "C386",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C386-R1",
+  "publication_version": "C386-P1",
+  "text": "最讽刺的不是微信文章被删。\n\n是记录这些删帖的网站，也被追着下线。\n\nGreatFire 的 FreeWeChat 专门保存微信公开文章，隔一段时间回看，标记哪些后来消失了。2025年6月，GreatFire称腾讯通过代理向美国主机商 Vultr 投诉，Vultr 随后关停了它的服务器；11月28日，Vultr 发出终止服务通知。\n\nGreatFire 只好换主机，网站暂时还活着。Index on Censorship 也记录了这次经过。\n\n这件事把一层常被忽略的关系摆出来：审查不只发生在原平台。连“哪些内容消失了”的档案，也可能变成目标。\n\nhttps://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+  "created_at_utc": "2026-10-11T13:21:37Z",
+  "text_digest": "035407f268d78c5499e93a3c8ab52827b5023ac0b866ba57d06ebe2759980849",
+  "subject_value": "2025年腾讯与Vultr围绕FreeWeChat的具体服务器关停与终止服务事件，展示内容审查如何延伸到保存删帖证据的基础设施。",
+  "information_gap": "读者通常只想到原平台删文，不知道记录删文的第三方档案也会受到主机和投诉链条影响。",
+  "payload": "GreatFire对FreeWeChat用途的说明、2025-06服务器被关停、2025-11-28终止服务通知、迁移第二主机、Index on Censorship的独立同期报道。",
+  "primary_action": "SHARE",
+  "primary_action_reader": "关注平台治理、数字权利或独立档案的中文读者，把具体的主机层处置案例转给同事或朋友。",
+  "novelty_check": "检查最近384条campaign正文与来源关键词，无FreeWeChat/Vultr/GreatFire同素材；与既有AI产品公告不同，首屏是具体处置和基础设施代价。",
+  "novelty_review": {
+    "campaign_records_checked": 385,
+    "duplicate_source_found": false,
+    "repeated_hook_risk": "审查题材可能与历史内容情绪相近，本稿用主机终止服务的具体时间线和档案用途区分，不写泛化结论。"
+  },
+  "audit_language_separation": "FreeWeChat关停、终止服务和迁移信息归因GreatFire，Index on Censorship作独立报道；不写成中国境内所有主机都被普遍要求下线，也不声称网站目前永久不可访问。",
+  "follow_reason": "后续可继续追踪中文平台删帖如何被第三方保存、验证和迁移，保留具体事件与证据链。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+      "source_type": "PRIMARY_ORGANIZATION_ACCOUNT",
+      "source_date": "2025-12-08",
+      "checked_at_utc": "2026-10-11T13:21:37Z",
+      "checked_sections": [
+        "FreeWeChat purpose",
+        "June 2025 suspension timeline",
+        "November 28 2025 termination",
+        "second-host migration"
+      ]
+    },
+    {
+      "url": "https://www.indexoncensorship.org/2025/12/china-media-giant-tencent-gags-freewechat/",
+      "source_type": "INDEPENDENT_CORROBORATION",
+      "source_date": "2025-12-08",
+      "checked_at_utc": "2026-10-11T13:21:37Z",
+      "checked_sections": [
+        "June 12 complaint",
+        "November 28 termination",
+        "FreeWeChat moved provider"
+      ]
+    }
+  ],
+  "domestic_visibility_evidence": {
+    "status": "SUPPORTED_NARROW_EVENT",
+    "original_material_url": "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+    "material_date": "2025-12-08",
+    "affected_region_platform_time": "Tencent/WeChat-related public archive; hosting action in 2025; relevance to mainland Chinese platform censorship evidence",
+    "evidence_type": [
+      "specific_verified_takedown_or_hosting_action",
+      "independent_corrobation"
+    ],
+    "reliable_evidence_urls": [
+      "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+      "https://www.indexoncensorship.org/2025/12/china-media-giant-tencent-gags-freewechat/"
+    ],
+    "narrow_claim_supported": "GreatFire公开记录称其保存微信删帖档案的FreeWeChat在2025年遭腾讯代理投诉后被Vultr关停并收到终止服务通知；该事件具体支持这次处置，不证明所有平台或所有境外主机普遍受同样处理。",
+    "unknown_or_contrary": "Vultr完整调查依据和法律结论未独立确认；FreeWeChat迁移后仍可访问，不能写成永久消失。"
+  },
+  "fact_check_status": "AGENT_CHECKED_PRIMARY_ACCOUNT_AND_INDEPENDENT_CORROBORATION",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "2026-10-09用户持续普通公开新帖授权、免逐条亲自正文审核；个人豁免与代理核验分开，不伪填human_checked。",
+  "voice_review": {
+    "chat_cues_used": [
+      "直接短句",
+      "先说谁做了什么和代价",
+      "不用公告摘要腔",
+      "不以固定问题收尾"
+    ],
+    "removed_from_draft": [
+      "机构介绍式开头",
+      "泛化的审查结论",
+      "统一的限制免责声明段"
+    ],
+    "final_read": "像在直接告诉朋友一个具体事件，事实和归因边界留在句子里。"
+  },
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "SOCIAL_CURRENCY",
+        "strength": "HIGH",
+        "cue": "主机商关停保存删帖档案的具体时间线",
+        "reader_thought": "原来审查链条还能碰到保存证据的服务器，这个案例值得转给做平台和档案的人。"
+      }
+    ],
+    "dominant_reader_value_route": "SOCIAL_CURRENCY",
+    "why_reader_cares": "读者获得一个少见且可核对的基础设施层案例，不把单个平台删文误解成全部故事。",
+    "predicted_inner_response": "原来保存被删内容本身也有成本和风险。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "social_currency": "HIGH",
+    "share_recipient": "关心平台治理、数字权利或内容档案的朋友",
+    "share_reason": "具体主体、时间线和主机处置让抽象的审查讨论变成可核对事件。"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C386-ARCHIVE_INFRASTRUCTURE",
+    "pre_registered_hypothesis": "具体的档案基础设施处置案例可能比泛泛平台审查描述更促成转发；仅编辑假设。",
+    "primary_action_target": null,
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "learning_fields": [
+      "reposts",
+      "quotes",
+      "substantive_reader_comments"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "research_boundaries": {
+    "event_scope": "Only GreatFire/FreeWeChat and Vultr 2025 event",
+    "attribution": "Tencent role and sequence attributed to GreatFire; Index on Censorship independently reports core timeline",
+    "current_access": "GreatFire says FreeWeChat moved to a second provider and remained live at publication",
+    "domestic_claim": "Specific documented event; no nationwide or universal blocking claim"
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before formal manual publication review"
+    ],
+    "state": "EDITORIAL_REVIEW",
+    "content_requirements_pass": true,
+    "personal_review_waiver": true,
+    "note": "Formal READY withheld solely for human_checked; standing user waiver explicitly applies."
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "published_url": "https://x.com/qiluo27808/status/2109275256351604863",
+  "published_at_utc": "2026-10-11T13:29:00Z",
+  "verified_at_utc": "2026-10-11T13:32:43Z",
+  "source_checked": true,
+  "source_kind": "PRIMARY_ORGANIZATION_ACCOUNT_WITH_INDEPENDENT_CORROBORATION",
+  "publication_preflight": {
+    "submission_status": "SUBMITTED_ONCE_INDEPENDENT_PUBLIC_DETAIL_VERIFIED",
+    "submission_attempts": 1,
+    "body_digest": "035407f268d78c5499e93a3c8ab52827b5023ac0b866ba57d06ebe2759980849",
+    "native_account_verified": "Gen @qiluo27808",
+    "empty_composer_verified": true,
+    "editor_full_body_verified": true,
+    "paragraph_breaks_verified": true,
+    "source_url_verified": true,
+    "source_preview": "en.greatfire.org matching GreatFire.org card",
+    "media": "NONE",
+    "method": "native_visible_chrome",
+    "submission_click_local_time": "2026-10-11 21:29 Asia/Shanghai"
+  },
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://en.greatfire.org/blog/2025/dec/tencent-enlisting-american-cloud-hosting-providers-enforce-censorship",
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "displayed_time": "9:29 PM · Oct 11, 2026",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible Chrome; account and exact editor text checked before one submit; account profile reloaded independently; exact public detail and body/paragraphs/source card verified."
+  },
+  "feedback_path": "data/private/publication_2026-10-11/C386-feedback.json"
+}

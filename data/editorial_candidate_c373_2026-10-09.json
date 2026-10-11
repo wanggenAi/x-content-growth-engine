@@ -1,0 +1,138 @@
+{
+  "candidate_id": "C373",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C373-R1",
+  "publication_version": "C373-P1",
+  "text": "你让ChatGPT画图，广告准备在旁边等你。\n\nOpenAI 10月5日宣布，本月晚些时候将在美国面向部分Free和Go用户测试视觉广告。广告会有明确标识，与正在生成的图片分开。公司还承诺，广告不影响ChatGPT的回答。\n\n同次更新也扩展了广告测量工具：商家可以把自己系统里的转化数据传给ChatGPT Ads，用来了解投放带来了多少生意。\n\n这次商业变化很具体：图片可以继续按你的要求生成，旁边的位置则开始替商家找顾客。\n\n如果广告确实不改图片和回答，什么情况下你会觉得它有用，什么情况下仍觉得被打断？\n\nhttps://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+  "subject_value": "作图期间视觉广告的具体测试计划、地区/套餐范围及商家转化测量，呈现AI工具服务与广告变现同时发生的实际决策。",
+  "information_gap": "广告在哪里出现、哪些用户先遇到、生成图片是否被广告影响，以及商家怎样衡量生意。",
+  "payload": "10月5日计划、美国本月稍晚测试、部分Free/Go、标识和分离原则、商家传入转化数据。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "用ChatGPT作图的读者，能以自己接受广告的条件、任务相关性或打断成本解释观点；不诱导虚假互动。",
+  "novelty_check": "371条campaign全量来源及广告主题检索无本公告/作图视觉广告命中；近30条正文检查。C371同产品但具体交付为菜谱界面，本条主冲突是作图界面商业化与用户打断感；C372为离线本地检索，非同来源或交付。近50/100来源/关键词覆盖，不冒称全篇逐字重审。",
+  "audit_language_separation": "公开版自然表述计划及公司承诺，不声称已见广告、不泛化为所有地区或所有套餐、不暗示卖出用户对话。公司测量案例数字、隐私承诺执行效果与独立效果证据留研究层。",
+  "follow_reason": "持续追踪AI能力之外真实商业决定如何改变使用体验，提供可核对的功能和利益边界。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "source_type": "OPENAI_OFFICIAL_PRODUCT_ANNOUNCEMENT",
+      "source_date": "2026-10-05",
+      "checked_at_utc": "2026-10-09T07:35:55.630801Z",
+      "checked_facts": [
+        "Full announcement read; original explicitly Free/Go, US initial advertisers, later this month",
+        "Clearly labelled ads separate from image; answer independence is company commitment",
+        "Advertisers send their own conversion data through integrations; not a claim that private conversations are supplied to advertisers"
+      ]
+    }
+  ],
+  "fact_check_status": "FULL_OFFICIAL_TEXT_CHECKED_PLANNED_TEST_AND_COMPANY_COMMITMENT_LABELLED",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "用户2026-10-09持续普通公开新帖授权及免逐条亲自正文审核；human_checked保持false。",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "作图时广告分开显示、公司承诺答案独立，但读者仍可讨论相关性与打断成本",
+        "reader_thought": "对任务有用的广告我能接受，但等待出图时的打断是另一回事。"
+      }
+    ],
+    "dominant_reader_value_route": "OPINION_EXPRESSION",
+    "why_reader_cares": "使用AI作图的人需要判断自己能接受的商业化体验条件。",
+    "predicted_inner_response": "有广告不一定不能用，但我在意它出现的时机和是否帮得上这个任务。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "DISAGREEMENT"
+    ],
+    "opinion_space": "HIGH"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C373-ADS_ACCEPTANCE_CONDITIONS",
+    "pre_registered_hypothesis": "具体广告测试范围和独立承诺，可能让真实读者解释接受条件与打断成本；待验证，不承诺评论数。",
+    "primary_action_target": null,
+    "numeric_target": null,
+    "learning_fields": [
+      "substantive_reader_comments",
+      "replies",
+      "views"
+    ],
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "research_boundaries": {
+    "release_status": "Announced Oct5; later-in-month US test planned, not live worldwide availability",
+    "privacy": "Announcement says brand suitability pilots use controlled testing without accessing private user conversations; does not prove all privacy outcomes",
+    "metrics_excluded": "15.3% CPA,67% net-new purchases,93% new visitors are partner attributed reports, neither universal nor independent causal proof. No result figures used.",
+    "no_firsthand_claim": true
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "publication_preflight": {
+    "status": "ONE_CLICK_PUBLICLY_VERIFIED",
+    "checked_at_utc": "2026-10-09T07:39:30.373656Z",
+    "account": "Gen @qiluo27808",
+    "full_text_and_paragraphs_checked": true,
+    "source_card_checked": true,
+    "source_card_title": "Building advertising for the way people use AI",
+    "source_card_domain": "openai.com",
+    "uploaded_media": "NONE",
+    "method": "native_visible_chrome",
+    "attempts": 1,
+    "submitted_at_utc": "2026-10-09T07:39:43.431285Z",
+    "body_digest": "237b9a33b7da63a3b0187eda17b4812f0fee4ba4906b72b756913522acbe80b6",
+    "submission_attempts": 1,
+    "submission_status": "ONE_CLICK_PUBLICLY_VERIFIED",
+    "native_account_verified": "Gen @qiluo27808",
+    "editor_full_body_verified": true,
+    "paragraph_breaks_screenshot_verified": true
+  },
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "content_requirements_pass": true,
+    "personal_review_waiver": true,
+    "note": "Formal READY withheld; publication rests on separate explicit user review waiver."
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "source_checked": true,
+  "source_kind": "OPENAI_OFFICIAL_ADVERTISING_PRODUCT_ANNOUNCEMENT",
+  "published_url": "https://x.com/qiluo27808/status/2108462363984658725",
+  "published_at_utc": "2026-10-09T07:39:00Z",
+  "published_seconds_precision": "unknown",
+  "displayed_time": "3:39 PM · Oct 9, 2026",
+  "verified_at_utc": "2026-10-09T07:42:29.732105Z",
+  "private_evidence_path": "data/private/publication_2026-10-09/",
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://openai.com/zh-Hans-CN/index/new-chatgpt-ads-format-and-measurement/",
+    "source_short_link": "https://t.co/GQm2uheGFB",
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "submission_click_utc": "2026-10-09T07:39:43.431285Z",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible AX and screenshot inspection; no human metrics evidence."
+  }
+}

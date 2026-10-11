@@ -1041,3 +1041,191 @@ C366-P1：https://x.com/qiluo27808/status/2108403331072946200，显示11:45 Asia
 固定窗口已建ignored，反馈本轮新增到期：C363:1h；缺少人工来源/截图/human_checked的到期窗口DUE_MISSING，指标和实际观察年龄null，检查年龄单独保存。无完整新增评论证据，不分类；C356负例及F01-F05 HYPOTHESIS不变。持续普通发布授权有效，缺失反馈不阻止合格新帖。本轮新增1条，累计169新增+25历史基线=194仅输出盘点。截图/原始AX/反馈只在ignored路径，用户未跟踪材料不触碰。
 
 定向审计通过：364历史记录不变，仅新增C366，URL唯一、单次提交和盘点镜像一致。V2内容门槛仅保留用户显式免除的个人审核原因；diff --check及ignored路径检查通过，审计未读取private证据或无关未跟踪材料。
+
+## 2026-10-09T04:12:30Z — C367 published
+- C367 published via visible native Chrome on @qiluo27808.
+- URL: https://x.com/qiluo27808/status/2108410027736432779
+- Topic: OpenAI Navier–Stokes claim versus Oct 6 arXiv critique of Lean/natural-language correspondence.
+- Primary action: REPLY; numeric target null; feedback windows 1h/6h/24h/72h/7d pending.
+- One submission; independent public-detail reload verified full text, account, timestamp (displayed minute; seconds unknown), and official/arXiv source cards. human_checked=false; agent_checked=true; personal text review waived by user.
+
+## 2026-10-09T04:15:54Z — C364 feedback window maintenance
+C364 的 1h 窗口于 04:12Z 到期；没有人工来源、截图路径或 `human_checked=true` 观察，已记录 `DUE_MISSING`。所有指标和实际观察年龄按规则保留为 null/仅记录实际帖子年龄，不推断数值；C364 仍只进入反馈学习，F01-F05 不变。检查范围仅限 tracked feedback 文件，未读取 private evidence 或无关未跟踪材料。
+
+## 2026-10-09T04:39:13Z — C368 published
+- C368 published via visible native Chrome on @qiluo27808.
+- URL: https://x.com/qiluo27808/status/2108416469520503187
+- Topic: SpaceX's proposed acquisition of nationwide 800MHz low-band spectrum and the Starlink Mobile Gen2 regulatory boundary.
+- Primary action: REPLY; numeric target null; feedback windows 1h/6h/24h/72h/7d pending.
+- One submission; independent public-detail reload verified full text, account, timestamp (displayed minute; seconds unknown), and official SpaceX/seller/Reuters source cards. human_checked=false; agent_checked=true; personal text review waived by user.
+
+## 2026-10-09T04:53:27.910Z — C365/C366 feedback window maintenance
+C365 的 1h 窗口于 04:37Z 到期，C366 的 1h 窗口于 04:45Z 到期。没有人工来源、截图路径或 human_checked=true 观察，均已标记 DUE_MISSING；指标、证据引用和实际观察年龄按规则保留 null 或仅记录实际帖子年龄。C356 仍为用户否定的低兴趣负例，F01-F05 不变；C367/C368 尚未到 1h 窗口。检查范围仅限 tracked feedback 文件，未读取 private evidence 或无关未跟踪材料。
+
+## 2026-10-09T05:47:38Z — C369 published and independently verified
+C369：https://x.com/qiluo27808/status/2108431779422216219。主题为英伟达宣布未来五年总值10亿美元的美国科学承诺；正文把承诺、资金分配和独立验收分开，来源卡核对至英伟达官方新闻稿。显示时间为1:38 PM · Oct 9, 2026（秒数未知）。本机原生可见Chrome在Gen @qiluo27808编辑器中单次提交，主页取得URL后独立公开详情重载，全文、账号和来源卡均匹配。主动作REPLY，numeric target=null；human_checked=false、agent_checked=true，用户已免除逐条正文审核。固定1h/6h/24h/72h/7d反馈窗口已建立，指标保持null，F01-F05不变；C356仍为低兴趣负例。审计范围仅限公开候选及tracked campaign/state，未读取private evidence或无关未跟踪材料。
+
+## 2026-10-09T06:04:28.189Z — C367/C368 feedback window maintenance
+C367 的1h窗口于05:11Z到期，C368的1h窗口于05:37Z到期。没有人工来源、截图路径或 `human_checked=true` 观察，均标记 `DUE_MISSING`；实际观察年龄分别为113.5和87.5分钟，views、互动、停留、关注和点击等指标保持null。没有完整可见评论证据，不分类；C367/C368仅进入反馈学习，F01-F05不变。检查范围仅限tracked feedback文件及公开状态记录，未读取private evidence或无关未跟踪材料。
+
+## 2026-10-09T06:46:44Z — C370 published and independently verified
+- C370：<https://x.com/qiluo27808/status/2108448645553312057>。
+- 主题：马斯克公开表示 Tesla 与 SpaceX 将建设并运营德州 Terafab AI 芯片厂；正文区分项目规划、运营控制权表态与芯片制造能力尚未证明的兑现成本，来源为 Reuters 报道（Euronext转载）。
+- 通过用户自己的 Gen @qiluo27808 本机原生可见 Chrome 单次提交；主页取得 URL 后独立公开详情重载，全文、账号、来源卡和显示时间均匹配（2:45 PM · Oct 9, 2026，秒数未知）。主动作 REPLY，numeric target=null；human_checked=false、agent_checked=true，用户已免除逐条正文审核。
+- C370 固定 1h/6h/24h/72h/7d 反馈窗口已建立，指标保持 null；C356 仍为低兴趣负例，F01-F05 不变。审计范围仅限公开候选及 tracked campaign/state，未读取 private evidence 或无关未跟踪材料。
+
+## 2026-10-09T06:46:44Z — C370 duplicate reconciliation
+C370 的公开主页核验发现同一正文已有较早公开帖 <https://x.com/qiluo27808/status/2108447108093419582>（显示2:38 PM · Oct 9, 2026），本轮之后又出现相同正文的 <https://x.com/qiluo27808/status/2108448645553312057>（显示2:45 PM · Oct 9, 2026）。两者均保留公开记录；不修改或删除旧帖，C370 以较早 URL 为 canonical，重复 URL 不计入新增发布，submission_attempts=2，状态 DUPLICATE_RECONCILED。反馈窗口绑定 canonical URL，指标保持 null；F01-F05 与 C356 负例不变。
+
+
+## 2026-10-09T06:57:17Z — C369 feedback window maintenance
+C369 的 1h 窗口于 06:38Z 到期；截至 06:57:17Z 没有人工来源、截图路径或 `human_checked=true` 观察，已记录 `DUE_MISSING`，实际帖子年龄 79.3 分钟。各项指标及证据引用保持 null/空，不推断评论。C370 1h 窗口尚未到期；本轮没有新的已核实发布或读者反馈。检查仅限公开状态与对应 feedback 文件，未读取 private evidence 或无关未跟踪用户材料。
+
+
+## 2026-10-09T07:04:28Z — 可见发布入口暂不可用
+检查到OpenAI于2026-10-07发布GPT-6 Intelligent UI官方公告，可作为研究线索；尚未完成该题候选的全campaign语义去重、预注册与编辑器预检，本轮未发布。native computer-use在获取Chrome状态和打开公开来源时返回“Codex auth token is unavailable”，因此没有进入或操作X，也未提交任何内容。按用户规定只允许本人账号可见编辑器，本轮将发布阻塞记录为工具会话不可用；待可见编辑器访问恢复后再完成审核和发布，不进行备用自动化。C369 1h窗口已按规则DUE_MISSING（上条记录）；未检查private证据或无关未跟踪材料。
+
+
+## 2026-10-09T07:21:06Z — C371单次发布、原生入口恢复与盘点同步
+C371：https://x.com/qiluo27808/status/2108457228391076028，显示3:19 PM · Oct 9, 2026（UTC07:19，秒数未知）。正文从官方菜谱人数按钮讲Intelligent UI，主动作SHARE，numeric target=null。本人Gen @qiluo27808可见空编辑器、完整中文和空行、原生来源卡均核验；发送前持久记录一次点击预约，单次点击后立即记为已提交，不重发。独立输入公开详情URL并重载核对全文；点击来源卡t.co实际解析到OpenAI同篇中文官方公告。原生cua.getApp可用，此前扩展token失败并不代表整个原生入口不可用；此前阻塞已解除。human_checked=false，代理核验和用户免亲自审核分别记录；机器形式READY仍仅因human_checked失败，不伪称完全通过。
+Campaign清单此前只到C366，现保留原365记录逐条不变，附入已有C367/C368/C369/C370记录与新C371；C370继续DUPLICATE_RECONCILED不计新增。原campaign169加三条已有记录及本条为173，合计198，仅历史输出盘点；旧state171偏差已同步，非KPI。C371五个固定反馈窗口ignored，指标全null；没有人工评论证据或公式升级。审计只读精确公开候选与tracked campaign/state，不读取private evidence及无关未跟踪用户材料。
+
+缺失窗口字段纠正：C364:1h, C365:1h, C366:1h, C367:1h, C368:1h, C369:1h 的旧observed_at_utc实际是本地检查时间，现迁移为checked_at_utc；帖子年龄保存为check_age_minutes，observed_at_utc及实际观察年龄恢复null。没有加入指标、来源或人工确认。旧日志里的“观察年龄”是误称，应读为检查年龄。
+
+C356的24h窗口（2026-10-09T05:41:00Z）已到期，本轮检查2026-10-09T07:21:06Z、检查年龄1540.1分钟，记录DUE_MISSING；无人工观察，实际观察年龄和指标均null。C356永久保留用户否定的低兴趣负例，不因指标更改其结论。C357-C359未发现新增到期PENDING窗口。
+定向检查通过：C371内容/V2仅保留用户已免除的human_checked形式原因、单次提交、独立重载、来源目标、URL唯一及盘点镜像；diff --check通过。本次不是公式有效性或增长成果的里程碑。
+
+## 2026-10-09T07:32:37.229375Z — C372离线媒体检索单次发布完成
+
+- 公开帖：https://x.com/qiluo27808/status/2108459946228752581；显示3:29 PM · Oct 9, 2026，UTC07:29，秒数未知。本人Gen @qiluo27808原生可见编辑器单次提交，独立公开详情重载核对五段正文、空行、来源卡片；卡片t.co/5pAYxqhCVN实际落点为Google官方开发博客。
+- 10月6日EmbeddingGemma 2发布/模型卡/Edge示例全文事实核验：本地视频按内容找时间点、740M参数、Apache 2.0，Pixel11Pro量化内存下界明确不代表完整App。公司演示与独立复现分开，未宣称所有手机通用表现。近30正文及全历史主题/来源查重；主动作SAVE_RETURN，H-C372-OFFLINE_MEDIA_RESOURCE预注册，numeric target null。
+- 内容gate仅剩human_checked形式要求；用户免亲自正文审核另记，human_checked false、agent_checked true，不伪称完全READY。所有旧帖记录保留，C370重复事件仍排除发布盘点。安全公开candidate/campaign/state同步；campaign total_verified_series修复旧194滞后镜像为25+174=199，仅输出盘点。
+- C356-C371到期状态已检查，新到期变化[]，无人工来源/截图/human_checked，不录入界面显示指标或猜评论。C372新建1h/6h/24h/72h/7d窗口，1h到期08:29UTC；观察时间与观察年龄null。F01-F05未升级。
+- 验证限定C372及tracked公开状态，私有反馈维护与审计分开；未读取原始私有证据或修改其他未跟踪材料。
+- 完成限定公开记录审计：370条原campaign记录逐值保留，单次提交、唯一URL、正文digest与盘点镜像一致；gate只剩明确豁免项，git diff --check通过。无代码变更，未运行会读取私有证据或未跟踪材料的广域测试。
+
+## 2026-10-09T07:44:11.841071Z — C373视觉广告单次发布完成
+
+- 公开帖：https://x.com/qiluo27808/status/2108462363984658725；显示3:39 PM · Oct 9, 2026，UTC07:39，秒数未知。Gen @qiluo27808原生可见编辑器单次提交，独立公开详情重载核对完整五段中文与空行；来源卡片t.co/GQm2uheGFB落地OpenAI同篇中文官方公告。
+- 10月5日公告全文核对：本月晚些时候美国部分Free/Go用户视觉广告测试，标识与图片分开、广告不影响回答为公司承诺；商家转化数据测量与用户接受条件形成明确商业变化。未泛化广告效果、隐私结果或独立复现；主动作REPLY、H-C373-ADS_ACCEPTANCE_CONDITIONS预注册，numeric target null。全历史来源/主题查重及近30全文审阅，近50/100仅主题与来源检索。
+- 内容gate仅剩human_checked形式要求；个人正文审核豁免另记，human_checked false、agent_checked true，不伪称完全READY。371条既有campaign记录不改；counts与verified_publications滞后镜像同步为175新帖+25基线=200，仅历史输出盘点。
+- C356-C373反馈窗口维护，新到期变化['C370:1h']；缺人工来源/截图/human_checked的指标和实际观察年龄保持null，检查UTC/检查年龄另记。无完整人工评论证据或公式升级。C373五个窗口新建，1h到期08:39UTC。
+- 审计限定精确公开candidate/campaign/state；私有反馈维护独立，不读取原始私有证据或其他未跟踪用户材料。
+- 限定公开审计通过：371条旧campaign记录逐值保留，唯一URL/正文digest/单次提交/盘点镜像一致、F01-F05注册表未改、私有路径ignored、git diff --check通过；无代码变更，不运行广域私有证据扫描测试。
+
+## 2026-10-09T07:53:59.983793Z — C374换书实验履约断点单次发布
+
+- 公开帖：https://x.com/qiluo27808/status/2108465280972472564；显示3:51 PM · Oct 9, 2026，UTC07:51，秒数未知。Gen @qiluo27808原生可见空编辑器核对五段完整中文/标点/空行及官方来源卡；预约并实际提交一次，独立新标签打开详情重载匹配全文，卡片t.co/32AifpqDtw实际落地Anthropic Project Swap。
+- 9月24日官方研究设计/对照/限制/讨论/实物履约段落核验：201员工换书，相关代理同意才成交，部分人未带书、取放未跟踪、团队催交补救后放弃。公司自报低风险内部实验、不推普遍失约率，不指控个人偷窃。AI谈成与实物交付的验收点为作者判断。唯一SHARE，H-C374-PHYSICAL_FULFILLMENT_GAP预注册，numeric target null。NVIDIA10亿美元公告已C369，重复线索淘汰。
+- reader route为有用真实失败案例的SOCIAL_CURRENCY，不制造错误常识当知识纠正；机器内容gate仅余human_checked形式项，用户个人审核豁免单独记录，agent_checked true/human_checked false。全372历史来源主题查重与近30正文分批复核；近50/100仅来源主题检索。
+- 372条旧campaign记录逐值保留；本条为176新增+25基线=201，仅输出盘点。C356-C374固定窗维护，新到期['C357:24h']，缺人工来源/截图/human_checked保持指标null、实际观察年龄null，UTC检查及检查年龄独立；新C374窗口1h到期08:51UTC，无人工完整评论证据或公式升级。
+- 审计限定精确公开候选及tracked campaign/state，不读取原始私有证据、不触碰其他未跟踪材料或其他仓库。
+- 限定公开审计通过：372条历史campaign记录逐值保留，单次提交/唯一URL/正文digest/盘点镜像一致，F01-F05未改，私有路径ignored与diff --check通过；无代码变更，未运行广域证据扫描。
+
+## 2026-10-09T08:05:10.368094Z — C375视觉辅助取景入口单次发布
+
+- 公开帖：https://x.com/qiluo27808/status/2108468123976573228；显示4:02 PM · Oct 9, 2026，UTC08:02，秒数未知。本人Gen @qiluo27808原生可见空编辑器核对完整五段中文/标点/空行与Google真实卡片，预约后单次实际提交；独立新标签详情重载全文匹配，t.co/OqBLlkvXwk落地官方Guided Vision原文。
+- Oct1官方全文核验：语音调整取景、标签/旋钮/耳机用途、1000多名Aira测试者参与、Android9+与地区语言条件、设置入口及非导航/白杖替代边界。参与人数不冒充准确率，无亲测/独立可靠性保证、不称今天突破。唯一SAVE_RETURN，H-C375-VISUAL_ASSISTANCE_ENTRY预注册，numeric target null。全373来源主题查重与近30全文复核，近50/100仅主题来源检索。
+- 内容gate仅剩human_checked形式项，用户亲自审核豁免单独记录；agent_checked true/human_checked false，不伪称完全READY。373旧campaign记录保留；177新增+25基线=202只是盘点。NVIDIA回购授权与WeatherNext研究线索未硬凑。
+- C356-C375固定窗口维护，新到期['C358:24h']；无人工来源/截图/human_checked保持指标和实际观察年龄null，UTC检查与检查年龄另存。新C375窗口1h到期09:02UTC；没有完整人工评论证据或公式升级。
+- 审计只用精确公开候选及tracked campaign/state；私有反馈元数据维护独立，不读取原始证据或无关未跟踪用户材料。
+- 限定公开审计通过：373条历史campaign逐值保留，单次提交/唯一URL/正文digest/盘点镜像一致，F01-F05未改，私有路径ignored与diff --check通过；无代码变更，未运行广域私有证据扫描测试。
+
+## 2026-10-09T08:18:36.262842Z — C376独立芯片停止控制单次发布
+
+- 公开帖：https://x.com/qiluo27808/status/2108471493491671354；显示4:15 PM · Oct 9, 2026，UTC08:15，秒数未知。本人Gen @qiluo27808原生可见空编辑器核对完整中文/标点/空行与英伟达真实卡片，预约后单次实际提交；独立新标签详情重载全文匹配，t.co/4VbiJQi2ec落地官方Open Agent Safety Platform原文。提交时间记录为点击后立即保存时间，不能替代显示分钟精度。
+- Sept28英伟达公告及技术正文全文核验：OpenShell软件权限、Sentry运行BlueField4且独立于主机的可选参考硬件控制；毫秒隔离明确归为公司宣称，未独立实测，不声称万能安全或今天新发布。唯一SHARE，H-C376-EXTERNAL_AGENT_STOP_CONTROL预注册，numeric target null；全374来源主题查重与近30全文复核，近50/100仅主题来源检索。Ironclad评估线索因近帖测量叙事相似暂缓，不硬凑。
+- 内容gate仅human_checked形式项，用户亲自审核豁免独立记录；agent_checked true/human_checked false，不伪称完全READY。374旧campaign记录保留；178新增+25基线=203只作盘点。
+- C356-C376固定反馈窗维护，新到期['C360:6h']；无人工来源/截图/human_checked保留指标和实际观察年龄null，UTC检查与检查年龄另存。新C376窗1h到期09:15UTC；完整人工评论待核验项[]，未升级公式。
+- 审计限定精确公开候选与tracked campaign/state，私有反馈元数据维护独立，不读取原始私有证据或其他未跟踪用户材料，不改其他仓库。
+- 限定公开审计通过：374条历史campaign逐值保留，单次提交/唯一URL/正文digest/盘点镜像一致，F01-F05未改，私有路径ignored与diff --check通过；无代码变更，未运行广域证据扫描测试。
+
+## 2026-10-09T08:29:25.597320Z — C377撤AI后的独立判断单次发布
+
+- 公开帖：https://x.com/qiluo27808/status/2108474300684763601；显示4:27 PM · Oct 9, 2026，UTC08:27，秒数未知。本人Gen @qiluo27808原生可见空编辑器核对完整六段中文/标点/空行与Google原文卡片，预约后单次实际提交；独立新标签详情重载全文匹配，t.co/Wyhg6ExGnk落地Does better work always mean better workers?原文。点击时间为点击后立即保存时间，不替代显示分钟。
+- Oct7研究作者官方解释全文与原始摘要核验：133名美国专利律师、11律所、随机分组、三个月无AI改稿、盲评；资深获益与新人未测出平均提升且高低分分化。NBER页面和PDF403，未绕过、未冒称全文论文核验；不称今天论文新发或独立复现，不外推所有职业。撤工具自检为明确作者建议而非试验验证的训练方案。
+- 全375来源/关键词及近30正文复核；近50/100仅主题来源检索；Gemini企业代理及Haiku线索已发淘汰，紫外天图原文核验后因远距离兴趣暂缓、不以AI预测补空包装观测突破。唯一REPLY，H-C377-UNAIDED_SKILL_CHECK预注册，numeric target null。
+- gate仅human_checked形式项，用户亲自审核豁免独立记录；agent_checked true/human_checked false。375旧campaign记录保留；179新增+25基线=204只作盘点。
+- C356-C377固定反馈窗维护，新到期['C361:6h', 'C371:1h', 'C372:1h']，缺人工来源/截图/human_checked保留指标与实际观察年龄null，UTC检查及检查年龄另存。新C377窗口1h到期09:27UTC；人工完整评论待核验项[]，无公式升级。
+- 审计精确公开候选与tracked campaign/state；私有反馈元数据维护独立，不读取原始私有证据、不触碰无关未跟踪用户材料或其他仓库。原生Chrome绑定失活通过重新getApp恢复，无提交失败或重复提交。
+- 限定公开审计通过：375条历史campaign逐值保留，单次提交/唯一URL/正文digest/盘点镜像一致，F01-F05未改，私有路径ignored；同步campaign总盘点204与C377质量检查点。无代码变更，未运行广域证据扫描测试。
+
+## 2026-10-09T08:45:26.813053Z — C378 Playground单次发布与独立核验
+
+- 公开帖：https://x.com/qiluo27808/status/2108478006016790798；显示4:34 PM · Oct 9, 2026，UTC08:34，秒数未知。Gen @qiluo27808原生可见空编辑器核对完整五段中文、空行、标点与Google真实来源卡；单次提交后公开主页取得唯一新URL，独立详情重载核对失败的预设URL后改查主页，全文/卡片匹配，t.co/xnZEbCKiZb落地Google Playground原文。
+- Google 10月7日官方全文与Unity合作公告全文核验：可用文字提示创建/修改游戏、即时试玩、私密/链接/公开作品库、部分多人/排行榜、安全筛查；首发美国18岁以上，创作额度按Google AI订阅分档；Unity Spark测试/封闭测试尚待，不把未来能力当现成。Playground公开直访重定向登录，未登录、不接受条款、不付费、不冒充独立试玩。
+- 唯一主动作SHARE，H-C378-PLAYABLE_GAME_SHARING预注册，numeric target null；human_checked=false、agent_checked=true，用户个人审核豁免显式保留，形式gate仅保留human_checked原因。
+- 全376campaign来源与关键词无同一Playground交付，近30全文复核；近50/100仅主题/来源查重，未声称全文审阅。C371临时界面、C372本地检索、C375辅助识别为不同材料。
+- C378固定反馈窗已建ignored，1h到期09:34UTC；缺人工来源/截图/human_checked保留null与观察年龄null，F01-F05无升级。审计限定公开候选与tracked campaign/state，不读取原始私有证据或无关未跟踪材料。
+- 限定公开审计通过：376条历史campaign逐值保留，C378单次提交/唯一URL/正文digest/盘点镜像一致，F01-F05未改，私有路径ignored，diff --check通过；无代码变更，未运行广域证据扫描测试。
+
+
+## 2026-10-09T09:10:28Z — C379 DOE Genesis Mission 项目清单
+
+- 来源：美国能源部 2026-10-08 官方公告，完整主文已核。12 个第二阶段项目合计 1.59 亿美元，另有 6 个第一阶段项目。稿件将任务明确写成待执行项目，不称已完成科学突破；C369 的企业科研资金承诺与本条政府项目授予不同。
+- C379 已在 Gen @qiluo27808 的原生可见编辑器单次提交；公开详情重载后核实全文、段落、energy.gov 卡片和目标来源。URL：https://x.com/qiluo27808/status/2108484372710199391；显示 5:07 PM · Oct 9, 2026（分钟精度，秒未知）。
+- human_checked=false、agent_checked=true；用户持续发帖授权/免逐条正文审核豁免单独记录。反馈窗口 1h/6h/24h/72h/7d 初始化为 PENDING/null；未导入读者指标或评论。F01–F05 未升级。
+- 记录审计和发布状态同步完成；公开记录未读取截图或其他私有证据。
+
+## 2026-10-09T09:42:10Z — C380 OpenAI 虚假前台影响行动报告
+
+- 来源：OpenAI 2026-10-08 官方安全报告，完整主文已核。报道明确归因于OpenAI的调查：俄伊两组账号、假研究机构/假记者署名、近100篇文章在约12家媒体发布或转载；报告称社媒评论未见明显互动。OpenAI称俄方行动为其首个Breakout Scale 5级，文中清楚标记这是OpenAI自评，不是独立影响测量。
+- C380 已由 Gen @qiluo27808 在原生可见编辑器单次提交；独立公开详情重载核实账号、全文、段落、OpenAI卡片与来源目标。URL：https://x.com/qiluo27808/status/2108491897165733966；显示 5:36 PM · Oct 9, 2026（分钟精度，秒未知）。
+- 与C365同一Anthropic Cyber Mission来源不同，C380核验的是OpenAI影响行动报告；用户审核豁免单独记录，human_checked=false、agent_checked=true。反馈窗口1h/6h/24h/72h/7d保持PENDING/null；无评论分类或公式升级，F01–F05仍为HYPOTHESIS。
+- C380候选、campaign、task state 已同步。审计仅检查公开候选和tracked状态；未读取原始私有证据或无关未跟踪材料。
+
+## 2026-10-09T10:15:13Z — C381 Anthropic AI生物发现筛选单次发布
+
+- 来源：Anthropic官方科学文章与配套预印本全文核验。文章称Claude代理在21.5小时、949个会话中扫描约19亿蛋白簇；从约20万个逆转录酶簇和约3500个候选系统收窄到20个重点候选，17个候选家族中仅3个确认是此前未报道的逆转录酶关联，ART主要功能仍未知，实验室工作由人完成。公开帖保留公司归因、未知功能和人工实验边界。
+- C381已由Gen @qiluo27808在本机原生可见Chrome编辑器逐字核对后单次提交；来源卡片显示anthropic.com Claude discovers a novel enzyme system。独立公开详情重载核对账号、全文、段落、卡片和目标来源。URL：https://x.com/qiluo27808/status/2108499286770229293；显示6:06 PM · Oct 9, 2026（分钟精度，秒未知，UTC约10:06）。
+- 唯一主动作SHARE，H-C381-AI_BIO_DISCOVERY_CANDIDATE_FILTERING预注册，numeric target null。候选过滤率用于拆开AI搜索规模与科学验证，不把公司披露写成独立复现或已完成生物学用途。
+- human_checked=false、agent_checked=true；用户2026-10-09持续普通公开发帖授权及免逐条正文审核已单独记录。反馈窗口1h/6h/24h/72h/7d初始化为PENDING/null，未录入界面显示指标或评论；F01–F05仍为HYPOTHESIS。
+- C381候选、campaign与state已同步；公开发布记录计数更新为183、rolling queue 380，历史remaining 821仅作输出盘点。审计限定公开候选及tracked状态，未读取原始私有证据或无关未跟踪材料。
+
+## 2026-10-09T10:44:00Z — C382 Google Cloud Gemini agent 单次发布
+
+- 来源：Google Cloud官方公告《Google Cloud introduces the Gemini agent》，全文核验。公告称Gemini agent可读取组织业务上下文、规划工作、调用技能与工具、连接业务系统，并把完成结果带回文档、收件箱和开发环境；“最佳模型”、成本控制、安全与治理仍保留为公司产品描述，未写成跨企业实测结果。
+- C382由Gen @qiluo27808在本机原生可见Chrome编辑器单次提交；公开URL：https://x.com/qiluo27808/status/2108507361497530682；显示6:38 PM · Oct 9, 2026（分钟精度，秒未知，UTC约10:38）。独立公开详情重载后，来源卡片在可见Chrome中打开并匹配官方Google Cloud页面。
+- 唯一主动作SHARE，H-C382-ENTERPRISE_AGENT_ACCEPTANCE预注册，numeric target null。帖子把产品公告拆成系统调用、成本和审计验收问题，不承诺部署效果；human_checked=false、agent_checked=true，用户免逐条正文审核授权单独保留。
+- C382反馈窗口1h/6h/24h/72h/7d初始化PENDING/null；公开详情核验不计作读者反馈，未录入界面指标或评论，F01–F05仍为HYPOTHESIS。campaign计数更新为published_count/published_new 184、rolling queue 380；remaining_new_publications 821仅作历史盘点。审计限定公开候选及tracked状态，未读取原始私有证据或无关未跟踪材料。
+
+## C383 — GPT-6 Sol/Luna 部署安全报告（2026-10-09）
+
+- checkpoint_utc: 2026-10-09T11:00:15Z
+- state: `PUBLISHED_AND_PUBLIC_DETAIL_VERIFIED`; feedback state: `PENDING`
+- source: OpenAI Deployment Safety Hub, “GPT-6 Sol and GPT-6 Luna: October 2026 update” (published 2026-10-07), https://deploymentsafety.openai.com/gpt-6-october
+- public_url: https://x.com/qiluo27808/status/2108511957599060304
+- published_at_utc: 2026-10-09T10:56:00Z (visible minute precision; seconds unknown)
+- primary_action: `SHARE`; numeric_target: `null`
+- body: official report’s prompt-injection robustness and HealthBench Professional gains are presented alongside statistically significant regressions in selected safety evaluations; the report’s difficult-eval, manual-review, system-mitigation and High-capability caveats are retained.
+- verification: native visible Chrome, one submission, public detail reloaded, exact body/paragraphs and source card matched; source page title/date and relevant tables were independently read.
+- source_target_verified: `true`; `agent_checked: true`; `human_checked: false` under the user’s explicit review waiver; no human_checked value was fabricated.
+- experiment: `H-C383-SAFETY_TRADEOFF`; feedback windows `1h/6h/24h/72h/7d` opened; views, likes, reposts, quotes, replies, follows, clicks and dwell remain `null` until human-provided evidence.
+- F01–F05 remain `HYPOTHESIS`; no formula or success state was promoted.
+- inventory checkpoint: published_count=185, published_new=185, total_verified_series=210; historical remaining_new_publications=821; queue counts are output inventory only.
+
+
+## 2026-10-09T13:16:10.429572Z — C385 RRSI 单次发布及固定反馈窗口维护
+
+- 公开URL：https://x.com/qiluo27808/status/2108545575633260797。Gen @qiluo27808 原生可见Chrome编辑器只提交一次；显示9:10 PM · Oct 9, 2026，UTC约13:10，分钟精度、秒未知。独立新标签公开详情重载后全文及空行一致，来源卡片实际打开并核对 https://arxiv.org/abs/2609.24972 的论文标题与9月21日首发/10月4日更新日期；核验UTC 2026-10-09T13:14:09.144Z。
+- 素材：RRSI原论文固定模型/同起点预算对照、具体改动与限制，作者开源README。约8500英文词规则的对照在未参与优化的三套测试均值38.0，初始39.7，RRSI43.6；20轮32候选仅保留4项改动。保留模型评分、作者实验、非独立复现和非今日突破边界；不概括所有长提示有害。
+- 已核对全383条历史来源及近20/50/100正文，EmbeddingGemma2重复素材淘汰。唯一主动作SHARE，H-C385-HARNESS_RULE_ACCUMULATION预注册，numeric target null。内容条件通过；正式READY仅因human_checked要求未通过，显式使用用户免逐条正文审核授权，human_checked=false、agent_checked=true。
+- C385的1h/6h/24h/72h/7d窗口初始化PENDING/null。指定C356–C384反馈JSON仅维护元数据，新到期缺失窗口：C359:24h, C362:6h, C363:6h, C364:6h, C365:6h, C366:6h, C367:6h, C368:6h, C369:6h, C370:6h, C373:1h, C374:1h, C375:1h, C376:1h, C377:1h, C378:1h, C379:1h, C380:1h, C381:1h, C382:1h, C383:1h, C384:1h。没有人工来源/截图/human_checked数据，指标和实际观察年龄保持null；检查年龄另记；无新完整评论证据。C356负例、F01–F05 HYPOTHESIS不变，缺失反馈不阻止合格新帖。
+- 盘点：新发布187，含25基线总计212，campaign记录384；旧目标/remaining只作历史盘点。同步纠正当前计数镜像的旧C379引用，不改变过去记录。截图和原生详情原始证据只在ignored private路径。审计限定本轮公开候选、tracked状态及本轮开始的基线快照，不读取原始私有证据和无关未跟踪材料。
+
+- 本轮审计：383条原campaign记录逐项不变；新增C385 URL未重复、正文摘要匹配、仅一次提交、来源目标及重载核验字段完整；内容门槛仅保留human_checked个人审核豁免。formula_registry、C356负例及持续授权控制均与本轮前一致。diff空白检查通过。检查只读取精确公开候选/状态及本轮基线快照；未跑触碰私有原始证据或无关用户材料的全量审计。
+- 检查点提交只包含本轮C385公开候选和TASK_STATE增量；campaign/state已本地同步，保留其本轮前已有未提交工作，不混入用户其他未跟踪素材。
+
+
+## 2026-10-10T03:15:18.526196Z — 2026-10-10 最新文风与选题纠偏
+
+- 用户否定近期帖文的AI式语言和低浏览；记录为定性负反馈，没有导入数值指标。
+- 新执行文件：docs/VOICE_AND_RESTRICTED_MATERIAL_2026-10-10.md；AGENTS、正文工作流和editorial gate已追加最新优先要求。直接聊天语气、停止固定摘要模板；新材料需具体大陆传播限制/审核处置证据，不再只是国外新闻源偏好。追加voice_review和domestic_visibility_evidence，不假称现有Python校验器已实现这两项。
+- 未发布READY候选0；后续候选重新审，已发C385及所有历史URL/版本/计数不变，F01–F05保持HYPOTHESIS。持续普通发布授权和审核豁免仍有效，没有将缺失反馈变成全局发布暂停。
+- 自动化x提示已通过应用工具更新；现场读取实际状态PAUSED，保持暂停、原5分钟频率及失败才提醒。本轮没有新帖、X操作或私有指标采集。
+- 本轮检查仅变更公开规则与tracked状态，未读原始私有证据、未跟踪用户素材或其他仓库。当前断点：按新材料条件研究并做聊天语气审稿；调度状态保持实际PAUSED。
+
+
+## 2026-10-11 restricted-material production round — C386 published
+
+已读取 origin/main 最新状态（merge 4184a429，当前发现管线有 6 个 canonical status ID、matched candidate 1、verified high-view 0）。按最新文风与受限材料规则研究 5 个候选，4 个因证据不足、重复或仅背景被 HOLD 或淘汰；C386 进入 EDITORIAL_REVIEW。C386 素材为 GreatFire 对 FreeWeChat 在 2025 年遭腾讯代理投诉、Vultr 关停服务器并于 11 月 28 日终止服务的记录，Index on Censorship 独立核对核心时间线。正文采用短句和具体主体，primary action=SHARE；domestic_visibility_evidence 只支持该具体处置事件，不泛化为全国普遍封禁。已通过本机可见 Chrome 向 @qiluo27808 单次提交 C386，账号主页及独立详情页验证成功；详情页显示 2 次累计浏览（仅当前观测，不是固定窗指标）。反馈窗口暂无捕获，保持 null。

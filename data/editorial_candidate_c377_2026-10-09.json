@@ -1,0 +1,162 @@
+{
+  "candidate_id": "C377",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C377-R1",
+  "publication_version": "C377-P1",
+  "text": "AI帮新人把专利写得更好，却没让他们在三个月后独立改稿时，平均变得更强。\n\nGoogle 10月7日介绍了一项随机对照试验：美国11家律所的133名专利律师，一部分提前使用AI写作助手，另一部分作为对照。三个月后，所有人都要修改一份有错误的专利申请，这次谁也不能用AI，由不知道分组的专家评分。\n\n结果很有意思：此前用过AI的资深律师，独立改稿表现更好；新人没有测出平均提升，而且分化了——高分更多，低分也更多。交稿质量提高，并没有自动变成自己的判断力提高。\n\n这项研究只跟踪了特定工具下的专利律师三个月，不能推成所有职业的结论。但它给日常使用AI留了一个检查办法：隔一段时间，关掉助手，看看自己还能不能找出问题、说清为什么要改。\n\n你用AI时，最容易省掉的是重复劳动，还是自己判断对错的那一步？\n\nhttps://research.google/blog/does-better-work-always-mean-better-workers/",
+  "subject_value": "133名律师随机分组试验揭示交稿质量与撤工具后独立判断并不同步，关乎职业成长。",
+  "information_gap": "为什么AI帮新人交更好的稿，却没测出三个月后的平均独立改稿提升。",
+  "payload": "11家美国律所133人、三个月、无AI改稿与盲评、新人高低分分化及资深改善；读者可撤工具自检。",
+  "primary_action": "REPLY",
+  "primary_action_reader": "用AI工作或带新人的知识工作者，分享省掉哪些判断步骤、如何保留练习机会。",
+  "novelty_check": "全375 campaign来源/专利/新人/独立改稿检索，无本研究来源或结果命中；近30正文复核、近50/100主题来源检索。C051/C131为历史材料专利字段，无本研究来源。C365人工审核瓶颈、C374交货、C376硬件边界均不同；本条撤工具后人的学习差异与具体使用步骤，避免泛问模型可靠性。",
+  "audit_language_separation": "样本/对照/盲评/短期外推在研究记录；不把未测出平均提升说成所有新人变笨，不称独立复现或今天论文新发。",
+  "follow_reason": "持续查清AI改变哪一步工作、哪些能力留在人身上，给使用者具体检查点。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+      "source_type": "AUTHOR_OFFICIAL_RESEARCH_EXPLAINER",
+      "source_date": "2026-10-07",
+      "checked_at_utc": "2026-10-09T08:25:14.148356Z",
+      "checked_sections": "Full main article: design, aided and unaided tasks, seniority, blinded grading,limitations."
+    },
+    {
+      "url": "https://research.google/pubs/does-ai-assistance-enhance-or-erode-expertise-evidence-from-a-three-month-field-experiment-in-patent-drafting/",
+      "source_type": "AUTHOR_OFFICIAL_PAPER_ABSTRACT",
+      "source_date": "2026; exact paper release date not verified",
+      "checked_at_utc": "2026-10-09T08:25:14.148356Z",
+      "checked_sections": "Full official abstract/author list; NBER landing/PDF403, no full-paper claim."
+    }
+  ],
+  "fact_check_status": "AUTHOR_FULL_EXPLAINER_AND_ORIGINAL_ABSTRACT_CHECKED_FULL_PAPER_UNAVAILABLE_NO_INDEPENDENT_REPLICATION",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "用户2026-10-09持续普通公开新帖授权及免逐条亲自正文审核；human_checked保持false。",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "SELF_RELEVANCE",
+        "strength": "HIGH",
+        "cue": "交稿更好但撤AI后未测出新人平均提升",
+        "reader_thought": "工作看起来进步，自己到底学会了多少？"
+      },
+      {
+        "route": "OPINION_EXPRESSION",
+        "strength": "HIGH",
+        "cue": "省掉重复劳动还是判断步骤",
+        "reader_thought": "我可以说说实际用AI后哪一步最容易跳过。"
+      }
+    ],
+    "dominant_reader_value_route": "SELF_RELEVANCE",
+    "why_reader_cares": "AI使用者和带新人者有交付与职业积累双重筹码，研究提供不同于即时效率的任务。",
+    "predicted_inner_response": "不能只看交稿速度，也该看看离开AI能不能解释和改好。",
+    "concrete_stakes": "工作者交付质量、独立判断能力与未来晋升；带新人者的训练机会。",
+    "self_relevance": "HIGH",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "PERSONAL_EXPERIENCE",
+      "EXPERIENCE_DISPLAY",
+      "DISAGREEMENT"
+    ],
+    "opinion_space": "HIGH",
+    "opinion_space_reason": "不同职业/使用方式可能省劳动或替代判断，读者可给出步骤、异议与方法，不要求站队。"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C377-UNAIDED_SKILL_CHECK",
+    "pre_registered_hypothesis": "撤工具任务与新人/资深差异可能激活真实使用者对练习与判断步骤的有内容经验；只作编辑假设、不保证评论。",
+    "primary_action_target": null,
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "learning_fields": [
+      "substantive_reader_comments",
+      "replies"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "research_boundaries": {
+    "source_status": "Full official author explainer + original abstract. NBER landing and PDF403; no access bypass/no full-paper-read claim.",
+    "controls": "Randomized access within11firms; AI encourageddrafting, none allowed90dayredlining; blindedexpert scoring.",
+    "population": "133 US patent lawyers in11firms with nonexclusiveGooglebusiness; senior7+years juniorunder7;3months/specifictool.",
+    "finding": "No averagejunior gain does not mean each lostskill; more high andlow scores. Senior contrast notallprofessionguarantee.",
+    "publication_date": "Oct7 is explainerdate, originalpaper exactdate notverified; no today breakthrough claim.",
+    "replication": "No independent replication; blinded expert grading is partofreported trial.",
+    "availability": "Then-unreleasedtool nowpartGeminiNotebook perexplainer; no newaccess/priceclaim.",
+    "other_leads": [
+      {
+        "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+        "date": "2026-10-08",
+        "decision": "Fullread; roughlyone-third predicted notnewlyobserved; deferred distantcuriosity afterC356negative."
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+        "decision": "AlreadyC363."
+      },
+      {
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "decision": "AlreadyC360."
+      }
+    ]
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "state": "EDITORIAL_REVIEW"
+  },
+  "text_digest": "292f227b174075c36e266cc134d17edad2bb21b8c8337bee635427c4d10696cb",
+  "publication_preflight": {
+    "reserved_at_utc": "2026-10-09T08:26:41.925969Z",
+    "status": "SINGLE_SUBMISSION_PUBLICLY_VERIFIED",
+    "account": "Gen @qiluo27808",
+    "native_visible_editor": true,
+    "empty_editor_checked": true,
+    "full_text_punctuation_blank_lines_checked": true,
+    "source_card_checked": "research.google Does better work always mean better workers?",
+    "uploaded_media": [],
+    "text_digest": "292f227b174075c36e266cc134d17edad2bb21b8c8337bee635427c4d10696cb",
+    "personal_review_waiver": "用户2026-10-09持续普通公开新帖授权及免逐条亲自正文审核；human_checked保持false。",
+    "submission_policy": "One actual native Post click; uncertain result inspect own original before retry.",
+    "submitted_at_utc": "2026-10-09T08:27:12.986491Z"
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "source_checked": true,
+  "source_kind": "GOOGLE_AUTHOR_RESEARCH_EXPLAINER_AND_ORIGINAL_ABSTRACT",
+  "published_url": "https://x.com/qiluo27808/status/2108474300684763601",
+  "published_at_utc": "2026-10-09T08:27:00Z",
+  "published_seconds_precision": "displayed_minute_seconds_unknown",
+  "displayed_time": "4:27 PM · Oct 9, 2026",
+  "verified_at_utc": "2026-10-09T08:29:25.597320Z",
+  "private_evidence_path": "data/private/publication_2026-10-09/C377-feedback.json",
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+    "source_short_link": "https://t.co/Wyhg6ExGnk",
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "submission_click_utc": "2026-10-09T08:27:12.986491Z",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible AX and screenshot inspection; not human reader metrics evidence."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "candidate_id": "C376",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C376-R1",
+  "publication_version": "C376-P1",
+  "text": "AI越权时，英伟达准备让另一块芯片把它隔离。\n\n9月28日公布的Open Agent Safety Platform，把AI的工作环境和监督它的安全层分开：OpenShell软件限定代理能访问哪些文件、网络和工具；Sentry则运行在BlueField-4芯片上，从独立于主机的硬件环境里监控、执行权限规则。\n\n按英伟达的描述，代理试图越界时，Sentry可在毫秒内隔离、停止它。这个速度是公司宣称，不是独立实测。OpenShell已经开源；Sentry是参考系统设计里的可选硬件安全层，需要相应的基础设施。\n\n这套设计有个很直白的意思：让AI干活，也给它配一个自己够不到的停止键。任务能跑几天以后，谁能强制叫停它，应当和“它能做多少事”一起考虑。\n\nhttps://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "subject_value": "英伟达实际发布软件与独立芯片监控相结合的代理参考设计；强制停止控制与AI执行环境分离形成具体机制。",
+  "information_gap": "监督AI的系统为什么放到另一块芯片、发生越权时谁能强制停止。",
+  "payload": "OpenShell限定文件/网络/工具，Sentry在BlueField4独立于主机执行规则，毫秒隔离属公司能力宣称；开源软件与可选硬件参考设计区分。",
+  "primary_action": "SHARE",
+  "primary_action_reader": "开发代理及部署企业自动化的技术团队，把控制边界设计转给安全和运维同事。",
+  "novelty_check": "全374 campaign来源与OpenShell/Sentry/BlueField/平台名检索0命中。近30全文复核：C365漏洞发现与人工审核、本条硬件控制；C374交换实物履约、本条软件权限边界；C375视觉辅助。本条无泛化观点问句，近50/100主题来源检索不冒称全文审稿。",
+  "audit_language_separation": "官方架构/发布日期与毫秒宣称分别记录；不冒充独立安全验证，不复述未经另核的越狱事件或提供逃逸指导；公开用停止键比喻解释边界。",
+  "follow_reason": "用具体可查架构辨别AI演示能力、运行权限和停止责任。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_type": "NVIDIA_OFFICIAL_PRESS_RELEASE",
+      "source_date": "2026-09-28",
+      "checked_at_utc": "2026-10-09T08:12:08.526473Z",
+      "checked_sections": "Full main release, software availability, hardware reference design and availability caveats"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "source_type": "NVIDIA_OFFICIAL_TECHNICAL_ARCHITECTURE",
+      "source_date": "2026-09-28",
+      "checked_at_utc": "2026-10-09T08:12:08.526473Z",
+      "checked_sections": "Full main article, excluding generated summary as evidence; three layers, out-of-band control, BlueField4 and software availability"
+    }
+  ],
+  "fact_check_status": "OFFICIAL_RELEASE_AND_TECHNICAL_FULL_ARTICLES_CHECKED_NO_INDEPENDENT_SECURITY_TEST",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "用户2026-10-09持续普通公开新帖授权及免逐条亲自正文审核；human_checked保持false。",
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "SOCIAL_CURRENCY",
+        "strength": "HIGH",
+        "cue": "独立于AI执行环境的BlueField4安全层，可执行规则和隔离代理",
+        "reader_thought": "这个控制架构值得转给负责代理上线和安全的人。"
+      }
+    ],
+    "dominant_reader_value_route": "SOCIAL_CURRENCY",
+    "why_reader_cares": "部署代理的团队要把能力开放与外部停止控制一起考虑，可带去讨论具体架构而非模型自律保证。",
+    "predicted_inner_response": "AI干活的机器外面还有一道能把它停下来的控制；值得给团队看看。",
+    "self_relevance": "MEDIUM",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "social_currency": "HIGH",
+    "share_recipient": "代理产品、安全和运维团队同事",
+    "share_reason": "运行权限和可强制停止能力需要一起设计，源文提供软件与硬件分层参考。"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C376-EXTERNAL_AGENT_STOP_CONTROL",
+    "pre_registered_hypothesis": "独立硬件停止控制与软件边界的具体架构可能使代理从业者转给安全/运维同事；仅编辑假设，不承诺传播。",
+    "primary_action_target": null,
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "learning_fields": [
+      "reposts",
+      "quotes",
+      "substantive_reader_comments"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "research_boundaries": {
+    "company_self_report": true,
+    "independent_replication": false,
+    "latency": "Milliseconds quarantine is NVIDIA claim; no independent benchmark or general success rate in sources.",
+    "availability": "OpenShell open source Apache2.0; Sentry optional reference design on BlueField4, not universal app or free hardware. No integration installed or purchased.",
+    "date": "2026-09-28, not today launch.",
+    "safety_scope": "High-level defensive boundaries only; no exploit instructions or bypass guidance.",
+    "architecture": "Technical article main body corroborates isolated host-independent policy enforcement; AI generated summary not sole evidence.",
+    "deferred_lead": "Oct6 Ironclad 11-task evaluation: mean rubric55 vs41.6, simulated time not customer savings; held this round due similarity of recent completion/measurement framing.",
+    "fetch_issue": "First querystring technical ref timed out; canonical article then fully fetched; not X or publication failure."
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "state": "EDITORIAL_REVIEW"
+  },
+  "text_digest": "569da3d229ff595264abc3bd45d090814cfdad03f6b7bb43982a519a1996180f",
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "source_checked": true,
+  "source_kind": "NVIDIA_OFFICIAL_AGENT_SAFETY_REFERENCE_ARCHITECTURE",
+  "published_url": "https://x.com/qiluo27808/status/2108471493491671354",
+  "published_at_utc": "2026-10-09T08:15:00Z",
+  "published_seconds_precision": "displayed_minute_seconds_unknown",
+  "displayed_time": "4:15 PM · Oct 9, 2026",
+  "verified_at_utc": "2026-10-09T08:18:36.262842Z",
+  "private_evidence_path": "data/private/publication_2026-10-09/C376-feedback.json",
+  "publication_preflight": {
+    "checked_at_utc": "2026-10-09T08:15:38.337698Z",
+    "status": "SINGLE_SUBMISSION_PUBLICLY_VERIFIED",
+    "account": "Gen @qiluo27808",
+    "native_visible_editor": true,
+    "empty_editor_confirmed": true,
+    "full_text_checked": true,
+    "paragraphs_checked": true,
+    "source_card_checked": true,
+    "source_card_domain": "nvidianews.nvidia.com",
+    "uploaded_media": [],
+    "text_digest": "569da3d229ff595264abc3bd45d090814cfdad03f6b7bb43982a519a1996180f",
+    "user_review_waiver": true,
+    "submission_policy": "Single native visible Post click; uncertain result requires original-post check, no blind retry.",
+    "submission_click_utc": "2026-10-09T08:16:01.679820Z"
+  },
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "source_short_link": "https://t.co/4VbiJQi2ec",
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "submission_click_utc": "2026-10-09T08:16:01.679820Z",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible AX and screenshot inspection; not human reader metrics evidence."
+  }
+}
