@@ -1,20 +1,43 @@
 {
   "schema_version": "viral_feed_index_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/0436.json",
-  "latest_run_id": "2026-10-11T04:36Z-multiroute-manual",
-  "latest_run_completed_at": "2026-10-11T04:36:30Z",
-  "total_run_count": 2,
-  "recent_admitted_post_count": 0,
-  "unique_status_id_count": 0,
-  "latest_successful_nonzero_run": null,
-  "consecutive_zero_yield_or_blocked_runs": 2,
+  "latest_run_path": "data/viral_feed/2026-10-11/0829.json",
+  "latest_run_id": "2026-10-11T08:29Z-public-rotation-01",
+  "latest_run_completed_at": "2026-10-11T08:29:00Z",
+  "total_run_count": 3,
+  "recent_admitted_post_count": 6,
+  "unique_status_id_count": 9,
+  "latest_successful_nonzero_run": "2026-10-11T08:29Z-public-rotation-01",
+  "consecutive_zero_yield_or_blocked_runs": 0,
   "duplicate_count": 0,
-  "near_duplicate_count": 0,
+  "near_duplicate_count": 3,
   "route_totals": {
-    "AUTHOR_WATCH": {"query_count": 4, "candidate_count": 0, "admitted_count": 0, "failure_count": 4},
-    "TOPIC_WATCH": {"query_count": 11, "candidate_count": 0, "admitted_count": 0, "failure_count": 11},
-    "EVENT_TWO_HOP": {"query_count": 10, "candidate_count": 0, "admitted_count": 0, "failure_count": 6}
+    "AUTHOR_WATCH": {
+      "query_count": 8,
+      "candidate_count": 0,
+      "admitted_count": 0,
+      "failure_count": 8
+    },
+    "TOPIC_WATCH": {
+      "query_count": 20,
+      "candidate_count": 2,
+      "admitted_count": 2,
+      "failure_count": 18
+    },
+    "EVENT_TWO_HOP": {
+      "query_count": 27,
+      "candidate_count": 7,
+      "admitted_count": 7,
+      "failure_count": 15
+    }
   },
-  "health": "DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD",
-  "note": "Two valid zero-yield runs are preserved. The second exercised AUTHOR_WATCH, TOPIC_WATCH and EVENT_TWO_HOP; upstream event discovery worked but no verifiable X status permalink was returned by public indexes. Do not substitute stale samples."
+  "route_admitted_per_query": {
+    "AUTHOR_WATCH": 0,
+    "TOPIC_WATCH": 0.1,
+    "EVENT_TWO_HOP": 0.259259
+  },
+  "health": "DISCOVERY_PARTIAL_PUBLIC_EMBED_METRICS_NO_VIEW_COUNTS",
+  "high_view_verified_count": 0,
+  "interaction_observed_count": 6,
+  "health_notification_sent": false,
+  "note": "After two zero-yield runs, third run recovered nine real status permalinks from public third-party sources, six with likes/reposts but no views or direct X fetch. No confirmed 10k-view viral cohort."
 }
