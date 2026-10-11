@@ -1,0 +1,118 @@
+{
+  "schema_version": "secondary_control_leads_v1",
+  "observed_at": "2026-10-11T12:48:54Z",
+  "status": "SECONDARY_METRICS_ORIGINAL_STATUS_IDS_UNRESOLVED",
+  "source": "https://xbangdan.com/",
+  "cost_policy": "PUBLIC_PAGE_ONLY_NO_PAID_FEATURES",
+  "note": "These public account pages expose labeled exposure/like/comment metrics and author-scale context. They are useful for prioritizing high-vs-low control resolution, but remain outside the canonical feed until each original X status URL/status_id is resolved.",
+  "accounts": [
+    {
+      "author_handle": "BlockInsight214",
+      "display_name": "王小庄",
+      "source_url": "https://xbangdan.com/account/BlockInsight214/",
+      "page_updated_local": "2026-10-11 18:32",
+      "followers": 5407,
+      "account_7d_avg_exposure": 5822,
+      "account_state": "CURRENT",
+      "comparison_role": "HIGH_DISTRIBUTION_CHINESE_TECH_LEAD",
+      "posts": [
+        {
+          "published_local": "2026-10-10 18:40",
+          "excerpt": "Google AI Pro 订阅加入 Colab 高级权益，可使用 A100 80GB；帖子进一步解释 80GB 显存对 Gemma 4 运行和微调意味着什么。",
+          "exposure": 136000,
+          "likes": 781,
+          "comments": 45,
+          "interaction_rate": 0.007,
+          "status_url": null,
+          "status_id": null,
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        },
+        {
+          "published_local": "2026-10-09 11:33",
+          "excerpt": "无需注册/API key/安装，通过 ssh chat.hf.co 直接使用 Qwen3.8-27B，并强调这是低门槛随身 AI。",
+          "exposure": 91000,
+          "likes": 976,
+          "comments": 60,
+          "interaction_rate": 0.013,
+          "status_url": null,
+          "status_id": null,
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        },
+        {
+          "published_local": "2026-10-10 13:01",
+          "excerpt": "让 Muse 自己创建、生成并发布一个抖音账号，计划一个月后回来看结果。",
+          "exposure": 69000,
+          "likes": 166,
+          "comments": 92,
+          "interaction_rate": 0.004,
+          "status_url": null,
+          "status_id": null,
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        }
+      ]
+    },
+    {
+      "author_handle": "momo_peggy",
+      "display_name": "夏林果的出海日记",
+      "source_url": "https://xbangdan.com/account/momo_peggy/",
+      "page_updated_local": "2026-10-11 15:51",
+      "followers": 6239,
+      "account_7d_avg_exposure": 2883,
+      "account_state": "CURRENT",
+      "comparison_role": "SAME_AUTHOR_HIGH_LOW_CONTROL_RESOLUTION_PRIORITY",
+      "posts": [
+        {
+          "published_local": "2026-10-09 18:13",
+          "excerpt": "谢谢可可替我省了4小时 hhh。",
+          "exposure": 132000,
+          "likes": 378,
+          "comments": 3,
+          "interaction_rate": 0.003,
+          "status_url": null,
+          "status_id": null,
+          "distribution_label": "SECONDARY_HIGH_LEAD",
+          "media_context_unknown": true,
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        },
+        {
+          "published_local": "2026-10-09 17:49",
+          "excerpt": "讨论一篇出海教程被 Google 收录、被 Gemini 引用，并解释 X 长文获得搜索与 AI 引用的价值。",
+          "exposure": 3945,
+          "likes": 23,
+          "comments": 9,
+          "interaction_rate": 0.009,
+          "status_url": null,
+          "status_id": null,
+          "distribution_label": "SECONDARY_LOW_LEAD",
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        },
+        {
+          "published_local": "2026-10-10 11:33",
+          "excerpt": "为了拿 X 创作者收益，这个月也得奋起直追。",
+          "exposure": 1114,
+          "likes": 26,
+          "comments": 19,
+          "interaction_rate": 0.04,
+          "status_url": null,
+          "status_id": null,
+          "distribution_label": "SECONDARY_LOW_LEAD",
+          "resolution_needed": "ORIGINAL_X_STATUS_PERMALINK_AND_ID"
+        }
+      ],
+      "pair_note": "Same author and nearby dates provide a potentially strong high-vs-low comparison once original status identities are resolved. The high-exposure short post may depend on unseen media/quote context, which must be checked before any structural inference."
+    },
+    {
+      "author_handle": "WEEXAILabs",
+      "display_name": "WEEX AI Labs",
+      "source_url": "https://xbangdan.com/account/WEEXAILabs/",
+      "page_updated_local": "2026-10-11 00:26",
+      "followers": 6331,
+      "account_7d_avg_exposure": 1465,
+      "account_highest_post_exposure": 6329,
+      "account_state": "CURRENT",
+      "comparison_role": "SIMILAR_AUTHOR_SCALE_BASELINE_ONLY",
+      "confounders": ["brand account", "AI x crypto topic mismatch", "not a direct structural control for BlockInsight214 or momo_peggy"],
+      "resolution_needed": "SELECT_MATCHED_POST_AND_RESOLVE_ORIGINAL_X_STATUS"
+    }
+  ]
+}
