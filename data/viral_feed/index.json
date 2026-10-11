@@ -1,15 +1,20 @@
 {
   "schema_version": "viral_feed_index_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/0431.json",
-  "latest_run_id": "2026-10-11T04:31Z-manual-bootstrap",
-  "latest_run_completed_at": "2026-10-11T04:31:44Z",
-  "total_run_count": 1,
+  "latest_run_path": "data/viral_feed/2026-10-11/0436.json",
+  "latest_run_id": "2026-10-11T04:36Z-multiroute-manual",
+  "latest_run_completed_at": "2026-10-11T04:36:30Z",
+  "total_run_count": 2,
   "recent_admitted_post_count": 0,
   "unique_status_id_count": 0,
   "latest_successful_nonzero_run": null,
-  "consecutive_zero_yield_or_blocked_runs": 1,
+  "consecutive_zero_yield_or_blocked_runs": 2,
   "duplicate_count": 0,
   "near_duplicate_count": 0,
-  "health": "DISCOVERY_DEGRADED_NO_USABLE_PUBLIC_X_RESULTS",
-  "note": "Bootstrap public-search run produced no verifiable current X status candidates; failure is preserved instead of recycling stale samples."
+  "route_totals": {
+    "AUTHOR_WATCH": {"query_count": 4, "candidate_count": 0, "admitted_count": 0, "failure_count": 4},
+    "TOPIC_WATCH": {"query_count": 11, "candidate_count": 0, "admitted_count": 0, "failure_count": 11},
+    "EVENT_TWO_HOP": {"query_count": 10, "candidate_count": 0, "admitted_count": 0, "failure_count": 6}
+  },
+  "health": "DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD",
+  "note": "Two valid zero-yield runs are preserved. The second exercised AUTHOR_WATCH, TOPIC_WATCH and EVENT_TWO_HOP; upstream event discovery worked but no verifiable X status permalink was returned by public indexes. Do not substitute stale samples."
 }
