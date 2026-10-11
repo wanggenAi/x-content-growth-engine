@@ -32,10 +32,16 @@
     "post_type",
     "promotion_status",
     "discovery_query",
+    "discovery_route",
     "source_url",
     "evidence_note",
     "freshness_class",
     "near_duplicate_group"
+  ],
+  "discovery_route_values": [
+    "AUTHOR_WATCH",
+    "TOPIC_WATCH",
+    "EVENT_TWO_HOP"
   ],
   "freshness_class_values": [
     "RECENT_0_24H",
@@ -46,5 +52,5 @@
   ],
   "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero.",
   "dedup_key": "status_id",
-  "notes": "Collector output only. No drafting, publishing, or formula promotion."
+  "notes": "Collector output only. No drafting, publishing, or formula promotion. Historical author-pool metrics are discovery seeds only and must never be copied to new posts."
 }
