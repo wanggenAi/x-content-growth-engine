@@ -1,20 +1,22 @@
 {
   "schema_version": "viral_feed_index_v1",
-  "latest_run_path": "data/viral_feed/2026-10-11/1216.json",
-  "latest_run_id": "2026-10-11T12:16Z-public-aggregator-recovery-01",
-  "latest_run_completed_at": "2026-10-11T12:16:00Z",
-  "total_run_count": 4,
-  "recent_admitted_post_count": 5,
-  "unique_status_id_count": 5,
-  "latest_successful_nonzero_run": "2026-10-11T12:16Z-public-aggregator-recovery-01",
+  "latest_run_path": "data/viral_feed/2026-10-11/1244.json",
+  "latest_run_id": "2026-10-11T12:44Z-author-matched-comparison-01",
+  "latest_run_completed_at": "2026-10-11T12:44:26Z",
+  "total_run_count": 5,
+  "recent_admitted_post_count": 6,
+  "unique_status_id_count": 6,
+  "latest_successful_nonzero_run": "2026-10-11T12:44Z-author-matched-comparison-01",
   "consecutive_zero_yield_or_blocked_runs": 0,
   "duplicate_count": 1,
   "near_duplicate_count": 0,
+  "matched_comparison_candidate_count": 1,
+  "unresolved_current_lead_count": 4,
   "route_totals": {
     "AUTHOR_WATCH": {
-      "query_count": 8,
-      "candidate_count": 0,
-      "admitted_count": 0,
+      "query_count": 12,
+      "candidate_count": 2,
+      "admitted_count": 1,
       "failure_count": 8
     },
     "TOPIC_WATCH": {
@@ -37,16 +39,16 @@
     }
   },
   "route_admitted_per_query": {
-    "AUTHOR_WATCH": 0,
+    "AUTHOR_WATCH": 0.08333333333333333,
     "TOPIC_WATCH": 0,
     "EVENT_TWO_HOP": 0.07407407407407407,
     "PUBLIC_X_AGGREGATOR": 0.5
   },
-  "health": "DISCOVERY_OPERATIONAL_PUBLIC_CORROBORATION_DIRECT_X_RENDER_BLOCKED",
+  "health": "DISCOVERY_OPERATIONAL_MATCHED_COMPARISON_AND_DIVERSE_LEADS",
   "high_view_verified_count": 0,
   "interaction_observed_count": 4,
-  "original_permalink_corroborated_count": 5,
+  "original_permalink_corroborated_count": 6,
   "public_embed_metric_count": 3,
   "health_notification_sent": false,
-  "note": "Discovery is operational through public X aggregators/corroborating sources. Direct X rendering still fails, but real numeric status permalinks, Snowflake timestamps, excerpts and labeled engagement can be collected without cookies or hidden endpoints. One repeated ChatGPT status is deduplicated at index level; conflicting untimed metrics are retained instead of collapsed."
+  "note": "Free discovery remains operational. AUTHOR_WATCH now has its first admitted recent sample, intentionally selected as a same-author/similar-age comparison candidate for an existing ClaudeDevs post. Four Chinese-language current public-mirror leads are preserved in a sidecar but remain outside the canonical set until their original X status IDs are resolved. No unlabeled mirror metric positions are inferred."
 }
