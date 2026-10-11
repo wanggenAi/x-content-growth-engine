@@ -1,0 +1,50 @@
+{
+  "schema_version": "viral_feed_v1",
+  "run_required": [
+    "schema_version",
+    "run_id",
+    "started_at",
+    "completed_at",
+    "discovery_window_hours",
+    "query_count",
+    "candidate_count",
+    "admitted_count",
+    "failure_count",
+    "queries",
+    "failures",
+    "posts"
+  ],
+  "post_fields": [
+    "url",
+    "status_id",
+    "author_handle",
+    "published_at",
+    "observed_at",
+    "topic",
+    "language",
+    "excerpt",
+    "views",
+    "likes",
+    "reposts",
+    "replies",
+    "metric_source",
+    "metric_as_of",
+    "post_type",
+    "promotion_status",
+    "discovery_query",
+    "source_url",
+    "evidence_note",
+    "freshness_class",
+    "near_duplicate_group"
+  ],
+  "freshness_class_values": [
+    "RECENT_0_24H",
+    "RECENT_24_48H",
+    "RECENT_2_7D",
+    "EVERGREEN_REDISCOVERY",
+    "STALE_REFERENCE_ONLY"
+  ],
+  "null_policy": "Unknown values remain null. Missing metrics must never be converted to zero.",
+  "dedup_key": "status_id",
+  "notes": "Collector output only. No drafting, publishing, or formula promotion."
+}
