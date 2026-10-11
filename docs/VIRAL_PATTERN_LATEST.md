@@ -1,35 +1,41 @@
 # Viral Pattern Latest
 
-Updated: 2026-10-11 04:31Z
+Updated: 2026-10-11 04:36Z
 
 Evidence grade: `INSUFFICIENT_FRESH_SAMPLE`
 
+Current discovery health: `DISCOVERY_DEGRADED_PUBLIC_INDEX_ZERO_STATUS_YIELD`
+
 ## Fresh-feed status
 
-The first run of the new separated viral-feed pipeline completed as a valid zero-yield run. Public web search returned X help/business pages rather than verifiable current status URLs, and direct public X search pages could not be fetched by the available public reader. No hidden endpoints, cookies, access-control bypasses or stale-sample substitution were used.
+Two valid fresh-feed runs have completed and **no current X status sample has yet been admitted**. This is being preserved as a discovery-channel problem rather than hidden by recycling the repository's October 1 samples.
 
-Fresh sample counts for this analysis:
+Current route totals:
 
-- recent X posts: 0
-- evergreen rediscoveries: 0
-- high-distribution posts: 0
-- ordinary/low-distribution controls: 0
+| Route | Queries | Admitted |
+| --- | ---: | ---: |
+| AUTHOR_WATCH | 4 | 0 |
+| TOPIC_WATCH | 11 | 0 |
+| EVENT_TWO_HOP | 10 | 0 |
 
-Therefore this checkpoint promotes **no new viral pattern**.
+The second run deliberately tested all three routes. Public event discovery itself worked: recent Hacker News/news material produced concrete event seeds such as REA Reverse, the Telegram Desktop file-theft vulnerability, AI-agent safety incidents and the Surface RTX Spark announcement. The second hop back to public X indexes still failed to return a verifiable `x.com/<handle>/status/<id>` permalink.
+
+Therefore this checkpoint promotes **no new content pattern**. Search-engine ranking and upstream news/HN popularity are not being substituted for X reach evidence.
 
 ## Historical priors that remain hypotheses
 
-The repository still contains earlier research suggesting potentially useful dimensions such as first-screen hook strength, information gap, concrete people/numbers/actions, reversal, self-relevance, psychological stake, opinion space, forwarding target and a single clear reader payoff. These are research priors, not current-trend facts and not validated viral formulas.
+Earlier repository research still suggests dimensions worth testing once fresh samples exist: first-screen hook strength, information gap, concrete people/numbers/actions, reversal, self-relevance, psychological stake, opinion space, forwarding target and a single clear reader payoff. These remain prior hypotheses rather than current-trend facts or validated viral formulas.
 
-Do not use old high-view examples as if they were observations from the current 48-hour window.
+## Discovery changes already applied
 
-## What the next useful batch must improve
+- Added `data/discovery_author_pool.json` from historical high-view observations, with an explicit rule that old metrics never carry forward.
+- Added `data/discovery_query_plan.json` to rotate authors, topic buckets and event-to-X searches rather than repeat generic terms.
+- Added route-level yield tracking to `viral_feed_v1`.
+- Scheduled collector now records AUTHOR_WATCH / TOPIC_WATCH / EVENT_TWO_HOP separately.
+- Scheduled analyzer now diagnoses discovery health first and does not manufacture structural findings from zero samples.
 
-1. Discover verifiable fresh status URLs through permitted public routes.
-2. Collect ordinary/low-distribution controls, not only winners.
-3. Prefer same-author, similar-topic and similar-age comparisons where possible.
-4. Keep `RECENT_0_24H`, `RECENT_24_48H`, `RECENT_2_7D` and `EVERGREEN_REDISCOVERY` distinct.
-5. Preserve missing metrics as `null`; do not infer reach from search ranking or wording.
-6. Use later own-account fixed-window outcomes to reject as well as support external-pattern hypotheses.
+## Next threshold
 
-The next non-zero feed should replace this zero-sample summary with actual high-vs-control structural evidence.
+The scheduled collector should run its next rotated batch. If a **third consecutive** run still yields no usable X status sample, the feed index should switch to `DISCOVERY_BLOCKED_NEEDS_VISIBLE_BROWSER_OR_AUTHORIZED_SOURCE` and surface that public-index discovery is not sufficient. At that point the evidence rule should stay strict; the project should use a visible-browser or another authorized X source rather than pretending stale/index-only material is live data.
+
+Once a non-zero fresh batch exists, the next analysis priority is high-distribution vs ordinary/low-distribution controls with similar author/topic/post age wherever possible.
