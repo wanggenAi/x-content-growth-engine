@@ -1,0 +1,168 @@
+{
+  "candidate_id": "C389",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C389-R1",
+  "publication_version": "C389-P1",
+  "text": "给别人送蛋糕的骑手，找老板多要了一盒蜡烛。\n\n三联生活实验室今年4月发布的采访里，这位骑手快过自己的生日了。\n\n“一会儿回去我就把蜡烛插在我的面条上。”\n\nhttps://chinadigitaltimes.net/chinese/727105.html",
+  "text_digest": "a77e9b69a704fb5c61e2d6a5b669e7442a4e45ad99aadfbf346bc7628f140747",
+  "created_at_utc": "2026-10-12T01:55:32.096208Z",
+  "subject_value": "配送蛋糕的骑手为自己的生日多要一盒蜡烛，打算插在面条上。",
+  "information_gap": "送别人的蛋糕，自己的生日却打算用面条插蜡烛。",
+  "payload": "Full text of Sanlian documentary companion article: delivery cake, requested extra candles, upcoming birthday and quoted plan to put candles on noodles.",
+  "primary_action": "SHARE",
+  "novelty_check": "387 campaign records source/body checked; no same delivery-birthday event. Recent20/50/100 comparison: C372 candle video search is unrelated technology; C272 dog wedding cake is distinct. C388 labour hours material has different person, detail and reader action.",
+  "novelty_review": {
+    "campaign_records_checked": 387,
+    "recent_body_review_windows": [
+      20,
+      50,
+      100
+    ],
+    "duplicate_source_found": false,
+    "near_keyword_items": [
+      "C372 technology candle-search",
+      "C272 dog wedding cake"
+    ]
+  },
+  "audit_language_separation": "Attribute to April17 Sanlian companion text. Anonymous rider; no income or hardship reason inferred. Candle request and planned use, not witnessed completed birthday. No nationwide censorship claim.",
+  "follow_reason": "Continue showing sourced details of ordinary daily life that institutional summaries overlook.",
+  "material_strength": "STRONG",
+  "fact_check_status": "AGENT_CHECKED_FULL_PRIMARY_COMPANION_TEXT_IN_SPECIFIC_ARCHIVE",
+  "source_refs": [
+    {
+      "url": "https://chinadigitaltimes.net/chinese/727105.html",
+      "source_type": "FULL_PRIMARY_DOCUMENTARY_COMPANION_TEXT_ARCHIVE",
+      "source_date": "2026-04-17",
+      "archive_date": "2026-05-10",
+      "checked_at_utc": "2026-10-12T01:55:32.096208Z",
+      "checked_sections": [
+        "CDT source/date card",
+        "cake delivery and extra candle request",
+        "exact noodles quote"
+      ],
+      "original_archive_locator": "https://archive.ph/KCcaF",
+      "locator_fetch_result": "429; not bypassed",
+      "video_watched": false
+    }
+  ],
+  "domestic_visibility_evidence": {
+    "status": "SUPPORTED_NARROW_SPECIFIC_404_VIDEO_ARCHIVE_ENTRY",
+    "original_material_url": "https://archive.ph/KCcaF",
+    "material_date": "2026-04-17",
+    "affected_region_platform_time": "Sanlian mainland original documentary/companion material; CDT specific404video archive May10",
+    "evidence_type": [
+      "specific_404_archive_entry"
+    ],
+    "reliable_evidence_urls": [
+      "https://chinadigitaltimes.net/chinese/727105.html",
+      "https://chinadigitaltimes.net/chinese/category/特色栏目/404文库"
+    ],
+    "narrow_claim_supported": "This particular material appears in CDT404video archive; category records material disappearance.",
+    "unknown_or_contrary": "Original directURL unresolved, archive locator429, removal actor/reason and present original availability not independently observed. Do not claim all related text or all platforms blocked."
+  },
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "Standing ordinary public posting and per-item personal review waiver.",
+  "voice_review": {
+    "chat_cues_used": [
+      "specific ordinary-person scene",
+      "leave interpretation to reader"
+    ],
+    "removed_from_draft": [
+      "editorial verdict",
+      "poverty inference",
+      "forced question"
+    ],
+    "final_read": "只留动作、出处与原话；不加苦难总结、道德判断、反问，也不编没钱买蛋糕或他已经把蜡烛插上。",
+    "open_ending_without_verdict": true
+  },
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "CHECKED",
+    "reader_value_routes": [
+      {
+        "route": "EMOTIONAL_RESONANCE",
+        "strength": "HIGH",
+        "cue": "送别人的蛋糕，自己的生日却打算用面条插蜡烛。",
+        "reader_thought": "我也有一个人过生日的时候。"
+      }
+    ],
+    "dominant_reader_value_route": "EMOTIONAL_RESONANCE",
+    "why_reader_cares": "读者能联想到自己的生日、在外工作的日常和想给自己留一点仪式的时刻。",
+    "predicted_inner_response": "我也有一个人过生日的时候。",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "LOW",
+    "self_relevance": "MEDIUM",
+    "social_currency": "MEDIUM",
+    "share_recipient": "在外工作、曾自己过生日的朋友。",
+    "share_reason": "一个真实的生日细节，让朋友看见骑手工作之外的生活；没有代替当事人诉苦或替读者判定。"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C389-BIRTHDAY-NOODLES-OPEN-ENDING",
+    "pre_registered_hypothesis": "Concrete sourced birthday contrast without editorial verdict may encourage genuine sharing; editorial hypothesis only, no validated account effect.",
+    "primary_metric": "genuine_reposts_and_quotes",
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "missing_metrics_do_not_block_publication": true
+  },
+  "uploaded_media": [],
+  "submission_attempts": 1,
+  "published_url": "https://x.com/qiluo27808/status/2109464860774011122",
+  "verified_at_utc": "2026-10-12T02:08:01.464152Z",
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review"
+    ],
+    "content_requirements_pass": true,
+    "personal_review_waiver": true
+  },
+  "publication_preflight": {
+    "submission_status": "SUBMITTED_ONCE_INDEPENDENT_PUBLIC_DETAIL_VERIFIED",
+    "submission_intents": 1,
+    "submission_attempts": 1,
+    "intent_at_utc": "2026-10-12T02:01:33.864827+00:00",
+    "native_account_verified": "Gen @qiluo27808; current account menu Log out @qiluo27808",
+    "empty_composer_verified": true,
+    "editor_full_body_verified": true,
+    "paragraph_breaks_verified": true,
+    "source_url_verified": true,
+    "source_preview": "CDT404video Sanlian 2026 rider documentary title/domain matched",
+    "media": "NONE_UPLOADED_NATIVE_SOURCE_PREVIEW",
+    "evidence_method": "Native visible Chrome AX and screenshot",
+    "user_browser_switches": "Navigation interrupted twice; fresh states used, no submissions before final preflight",
+    "rejected_ui_action": {
+      "element_id": 273,
+      "result": "invalid element ID; no input sent",
+      "actual_submit_element_id": 62
+    }
+  },
+  "published_at_utc": "2026-10-12T02:03:00Z",
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://chinadigitaltimes.net/chinese/727105.html",
+    "source_short_url": "https://t.co/1CkG79tNgv",
+    "source_page_body_loaded": true,
+    "displayed_time": "10:03 AM · Oct 12, 2026",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible Chrome editor AX/screenshot, account-menu identity, independent profile URL and public-detail reload/full AX, actual source card click."
+  },
+  "feedback_path": "data/private/publication_2026-10-12/C389-feedback.json"
+}
