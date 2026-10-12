@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-10-12T00:56:52.426952Z",
+  "source_strategy": "User-selected everyday gossip and on-scene material, source attribution before publication",
+  "sources": [
+    {
+      "name": "吃瓜驿站",
+      "url": "https://t.me/DNYQWCG",
+      "public_preview": "https://t.me/s/DNYQWCG",
+      "priority": "USER_SPECIFIED_FIRST",
+      "observed_scope": "ONE_PUBLIC_PAGE_15_MESSAGES",
+      "purpose": "现场冲突、日常趣闻、生活故事与视频素材",
+      "account_action_performed": false
+    },
+    {
+      "name": "工劳快讯",
+      "url": "https://t.me/s/laborpower",
+      "priority": "SUPPLEMENTARY",
+      "purpose": "劳动处境的报道出处"
+    },
+    {
+      "name": "李老师官方电报",
+      "url": "https://t.me/s/lilaoshibushinilaoshi",
+      "priority": "SUPPLEMENTARY",
+      "purpose": "现场线索和具体处置证据，需回查原始材料"
+    },
+    {
+      "name": "Reddit China_irl",
+      "url": "https://www.reddit.com/r/China_irl/",
+      "priority": "SUPPLEMENTARY",
+      "purpose": "单篇生活经历与讨论选题；不作批量数据生产依赖"
+    }
+  ],
+  "leads": [
+    {
+      "source_url": "https://t.me/DNYQWCG/259527",
+      "date": "2026-10-11T16:20:13+00:00",
+      "subject": "电瓶车与冲突视频题注",
+      "media_type": "VIDEO",
+      "status": "HOLD_VIDEO_NOT_INSPECTED",
+      "verified_scope": "只有公开题注和发布时间，不知道地点、人物、前因后果",
+      "domestic_visibility_evidence": null,
+      "rights_status": "UNKNOWN"
+    },
+    {
+      "source_url": "https://t.me/DNYQWCG/259529",
+      "date": "2026-10-11T16:20:14+00:00",
+      "subject": "退车争执视频题注",
+      "media_type": "VIDEO",
+      "status": "HOLD_VIDEO_NOT_INSPECTED",
+      "verified_scope": "只有题注，价格、币种、前因后果未知",
+      "domestic_visibility_evidence": null,
+      "rights_status": "UNKNOWN"
+    },
+    {
+      "source_url": "https://t.me/DNYQWCG/259523",
+      "date": "2026-10-11T15:41:08+00:00",
+      "subject": "亲密关系中的理解与情绪价值",
+      "media_type": "ARTICLE",
+      "status": "RESEARCH_ONLY_ORIGINAL_AUTHOR_NOT_CHECKED",
+      "domestic_visibility_evidence": null
+    },
+    {
+      "source_url": "https://search.laborinfocn.com/articles/109834",
+      "discovery_url": "https://t.me/s/laborpower",
+      "date": "2026-10-09",
+      "subject": "年轻求职者退车后仍被追讨租金",
+      "media_type": "ARCHIVED_REPORT",
+      "status": "HOLD_PRIMARY_PUBLICATION_AND_RESTRICTION_CHECK",
+      "attributed_to": "南都湾财社记者马青",
+      "verified_scope": "读到存档正文；2025年11月求职、工作两三天、2026年1月和3月追款。不能误写三天内累计全部债务；报道发布日与事件日分开。",
+      "domestic_visibility_evidence": null
+    },
+    {
+      "source_url": "https://www.sohu.com/a/1085782857_119038",
+      "discovery_url": "https://t.me/s/laborpower",
+      "date": "2026-10-10",
+      "subject": "为实习倒贴钱与履历焦虑",
+      "media_type": "REPORT",
+      "status": "SOURCE_CHECKED_RESTRICTION_HOLD",
+      "attributed_to": "中国青年网",
+      "verified_scope": "读到采访全文，不能把个案概括成所有实习生的境遇",
+      "domestic_visibility_evidence": null
+    },
+    {
+      "source_url": "https://www.reddit.com/r/China_irl/comments/1wxc7l7/",
+      "subject": "夫妻跑外卖与还债压力",
+      "media_type": "ANONYMOUS_SELF_REPORT",
+      "status": "HOLD_SELF_REPORT_AND_RESTRICTION",
+      "verified_scope": "原帖与若干评论可读；自述的收入、工时与负债未独立验证，不公开扩大个人身份线索",
+      "domestic_visibility_evidence": null
+    },
+    {
+      "source_url": "https://www.reddit.com/r/China_irl/comments/1ws868m/",
+      "subject": "婚姻中的未兑现承诺与第一次出境",
+      "media_type": "ANONYMOUS_SELF_REPORT",
+      "status": "RESEARCH_ONLY_NOT_FULLY_REVIEWED",
+      "domestic_visibility_evidence": null
+    },
+    {
+      "source_url": "https://t.me/lilaoshibushinilaoshi/57048",
+      "subject": "手机体验录像投诉下架线索",
+      "media_type": "VIDEO",
+      "status": "HOLD_PRIMARY_NOTICE_AND_VIDEO_CHECK",
+      "verified_scope": "题注称B站博主晒出投诉通知；本轮未观看视频或直接核对通知",
+      "domestic_visibility_evidence": "SECONDARY_CLAIM_NOT_ADMITTED"
+    }
+  ],
+  "published_this_round": 0,
+  "paid_calls": 0
+}

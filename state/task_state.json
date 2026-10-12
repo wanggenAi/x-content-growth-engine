@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-12T00:52:40.348392Z",
+  "updated_at": "2026-10-12T00:56:52.426952Z",
   "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
@@ -1638,5 +1638,17 @@
     "current_candidate": "C387",
     "browser_session_status": "ENDED_URL_NOT_ALLOWED",
     "submission_attempts_this_round": 0
+  },
+  "source_direction_2026_10_12": {
+    "user_quotes": [
+      "你还可以搬telegram的 reddit的 那种吃瓜群众 群什么的 文章 视频",
+      "https://t.me/DNYQWCG 类似这种"
+    ],
+    "priority_source": "https://t.me/DNYQWCG",
+    "pool_file": "data/source_materials_round23_2026-10-12.json",
+    "reviewed_public_page_messages": 15,
+    "new_verified_publications": 0,
+    "video_inspection_status": "NOT_YET_INSPECTED",
+    "next_action": "Review video context, primary attribution, restriction evidence and novelty; publish only through permitted native visible Chrome."
   }
 }
