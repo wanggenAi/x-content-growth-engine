@@ -1,15 +1,15 @@
 {
   "candidate_id": "C387",
-  "state": "EDITORIAL_REVIEW",
-  "status": "HOLD_BROWSER_SESSION_ENDED",
-  "research_version": "C387-R1",
-  "publication_version": "C387-P1",
-  "text": "你的床空着，就能让陌生人住？\n\n国庆期间，青海祁连用学校宿舍安置近500名游客。荔枝新闻追问：经过学生同意了吗？\n\n救急我能理解。但换套新被褥，解决不了床边的衣服、柜子里的私人物品，更代替不了住在这里的人点头。\n\n帮游客找地方住，也该给学生留一句“我不同意”。\n\n讨论这件事的《学生最好欺负，所以每次都欺负学生》，已被中国数字时代收进404文库。\n\nhttps://chinadigitaltimes.net/chinese/732557.html",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "research_version": "C387-R2",
+  "publication_version": "C387-P2",
+  "text": "你的床空着，就能让陌生人住？\n\n国庆期间，青海祁连用学校宿舍安置近500名游客。荔枝新闻追问：经过学生同意了吗？\n\n救急我能理解。但换套新被褥，解决不了床边的衣服、柜子里的私人物品，更代替不了住在这里的人点头。\n\n帮游客找地方住，也该给学生留一句“我不同意”。\n\nhttps://chinadigitaltimes.net/chinese/732557.html",
   "subject_value": "学生自己的床位、私人物品与临时安置游客之间的具体冲突。",
   "information_gap": "游客受助之外，学生是否有机会同意或拒绝使用居住空间。",
   "payload": "荔枝新闻近500名游客安置报道、征询同意问题与律师采访；CDT具体文章404收录。",
   "primary_action": "REPLY",
-  "novelty_check": "未完成全campaign查重，正式发布前需补全；不能声称已通过。",
+  "novelty_check": "Full campaign source/body keyword check: no same event or source; recent 20/50/100 hooks reviewed in preceding turn.",
   "audit_language_separation": "是否征询同意是报道中的疑问，不写成确定未经同意；不声称有财物损失。正文立场是编辑意见。404收录归因CDT，不宣称全面禁止或删除原因。",
   "follow_reason": "持续讲清普通人居住、工作与消费的具体代价。",
   "material_strength": "STRONG",
@@ -70,7 +70,7 @@
     "claim_status": "HYPOTHESIS",
     "material_strength": "HIGH",
     "evidence_strength": "FULL_RECORDED_TEXT",
-    "novelty_status": "UNKNOWN",
+    "novelty_status": "CHECKED",
     "reader_value_routes": [
       {
         "route": "SELF_RELEVANCE",
@@ -90,7 +90,8 @@
       "PERSONAL_EXPERIENCE",
       "FAIRNESS_JUDGMENT"
     ],
-    "opinion_space": "HIGH"
+    "opinion_space": "HIGH",
+    "concrete_stakes": "自己的床、衣服和柜子里的私人物品；临时救急是否替代居住者同意。"
   },
   "experiment": {
     "hypothesis_id": "H-C387-OWN-BED-CONSENT",
@@ -105,9 +106,9 @@
       "7d"
     ]
   },
-  "submission_attempts": 0,
-  "published_url": null,
-  "verified_at_utc": null,
+  "submission_attempts": 1,
+  "published_url": "https://x.com/qiluo27808/status/2109450696483606686",
+  "verified_at_utc": "2026-10-12T01:36:37.425931Z",
   "browser_failure": {
     "observed_url": "https://mp.weixin.qq.com/s/Uwc19YkFvTY-uAQcUwA-VQ",
     "message": "This session has been stopped because Computer Use is not allowed on the current browser URL.",
@@ -115,14 +116,61 @@
     "bypassed": false
   },
   "created_at_utc": "2026-10-12T00:52:40.348392Z",
-  "text_digest": "6ebb8373e7199f2189910d5111d7dd67df9c3998bb1fe41096b533b31c108b5e",
+  "text_digest": "9b52f4b01125312ea08aceeee812ae2a2428013f547db08710564ac0d29f8a50",
   "gate_result": {
     "ready": false,
     "reasons": [
-      "human_checked must be true before manual publication review",
-      "route/action review needs concrete_stakes"
+      "human_checked must be true before manual publication review"
     ],
     "personal_review_waiver": true,
-    "content_requirements_pass": false
-  }
+    "content_requirements_pass": true
+  },
+  "draft_versions": [
+    {
+      "publication_version": "C387-P1",
+      "text": "你的床空着，就能让陌生人住？\n\n国庆期间，青海祁连用学校宿舍安置近500名游客。荔枝新闻追问：经过学生同意了吗？\n\n救急我能理解。但换套新被褥，解决不了床边的衣服、柜子里的私人物品，更代替不了住在这里的人点头。\n\n帮游客找地方住，也该给学生留一句“我不同意”。\n\n讨论这件事的《学生最好欺负，所以每次都欺负学生》，已被中国数字时代收进404文库。\n\nhttps://chinadigitaltimes.net/chinese/732557.html",
+      "text_digest": "6ebb8373e7199f2189910d5111d7dd67df9c3998bb1fe41096b533b31c108b5e",
+      "status": "SUPERSEDED_BEFORE_ANY_SUBMISSION"
+    }
+  ],
+  "published_at_utc": "2026-10-12T01:06:00Z",
+  "novelty_review": {
+    "campaign_records_checked": 385,
+    "duplicate_source_found": false,
+    "recent_body_review_windows": [
+      20,
+      50,
+      100
+    ],
+    "evidence_method": "Prior-turn manual review plus current whole-campaign keyword recheck"
+  },
+  "publication_preflight": {
+    "submission_status": "SUBMITTED_ONCE_INDEPENDENT_PUBLIC_DETAIL_VERIFIED",
+    "submission_attempts": 1,
+    "body_digest": "9b52f4b01125312ea08aceeee812ae2a2428013f547db08710564ac0d29f8a50",
+    "native_account_verified": "Gen @qiluo27808",
+    "empty_composer_verified": true,
+    "editor_full_body_verified": true,
+    "paragraph_breaks_verified": true,
+    "source_url_verified": true,
+    "source_preview": "CDT 732557 matching article",
+    "media": "NONE_UPLOADED_NATIVE_SOURCE_PREVIEW",
+    "evidence_origin": "Recovered prior-turn visible native AX and screenshot observations; interrupted uncommitted worktree no longer exists."
+  },
+  "verification": {
+    "account": "Gen @qiluo27808",
+    "body_match": true,
+    "paragraphs_match": true,
+    "public_detail_reloaded": true,
+    "single_submission": true,
+    "source_card_verified": true,
+    "source_target_verified": true,
+    "source_target": "https://chinadigitaltimes.net/chinese/732557.html",
+    "source_short_url": "https://t.co/SkbE7451Rf",
+    "displayed_time": "9:06 AM · Oct 12, 2026",
+    "displayed_time_precision": "minute; seconds unknown",
+    "evidence_method": "Native visible Chrome AX, independent detail reload and actual source-card click"
+  },
+  "recovery_note": "用户继续授权；C387此前已提交一次，本轮只核验，没有重发。中断后临时worktree失效，未提交预检文件丢失，从聊天操作记录恢复C387-P2并明确恢复来源；已独立打开并重载公开详情，Gen @qiluo27808全文四段匹配，来源卡t.co/SkbE7451Rf实际解析到CDT 732557对应文章。既有385记录不变，新增1条；189新增+25基线=214，盘点非目标。human_checked=false，个人审核豁免有效，F01-F05保持HYPOTHESIS。",
+  "feedback_path": "data/private/publication_2026-10-12/C387-feedback.json"
 }

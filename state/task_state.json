@@ -334,21 +334,21 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 169,
+    "published_new": 189,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 194,
+    "total_verified_series": 214,
     "remaining_new_publications": 831,
-    "rolling_work_queue_count": 365,
-    "latest_publication_id": "C366",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2108403331072946200",
-    "latest_publication_verified_at": "2026-10-09T03:47:11.245880Z",
-    "latest_candidate_id": "C366",
+    "rolling_work_queue_count": 386,
+    "latest_publication_id": "C387",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2109450696483606686",
+    "latest_publication_verified_at": "2026-10-12T01:36:37.425931Z",
+    "latest_candidate_id": "C387",
     "latest_candidate_source": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
     "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
     "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-    "published_count": 169,
+    "published_count": 189,
     "ready_count": 0,
     "updated_at": "2026-10-09T03:47:11.245880Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
@@ -1601,11 +1601,11 @@
       "private_evidence_ignored": "PASS"
     }
   },
-  "latest_publication_url": "https://x.com/qiluo27808/status/2109275256351604863",
-  "latest_publication_verified_at": "2026-10-11T13:32:43Z",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2109450696483606686",
+  "latest_publication_verified_at": "2026-10-12T01:36:37.425931Z",
   "latest_publication_status": "PUBLISHED_PENDING_FEEDBACK",
-  "published_count": 188,
-  "published_new": 188,
+  "published_count": 189,
+  "published_new": 189,
   "heartbeat_2026_10_11_c386": {
     "status": "PUBLISHED_AND_PUBLIC_DETAIL_VERIFIED",
     "candidate_id": "C386",
@@ -1631,13 +1631,13 @@
     "candidate_reviewed": "C386",
     "metrics": null,
     "posting_authorization": "continued ordinary publishing",
-    "new_verified_posts": 0,
-    "next_action": "Complete C387 novelty review and resume only through an allowed native browser session; never bypass URL restriction.",
+    "new_verified_posts": 1,
+    "next_action": "Continue source-checked everyday-life material research; do not duplicate C387.",
     "latest_user_quote": "你发的都一些 别人不感兴趣的 普通老百姓不感兴趣的话题 根本就没有人看",
     "editorial_priority": "ordinary_person_concrete_stakes",
     "current_candidate": "C387",
-    "browser_session_status": "ENDED_URL_NOT_ALLOWED",
-    "submission_attempts_this_round": 0
+    "browser_session_status": "NATIVE_CHROME_AVAILABLE",
+    "submission_attempts_this_round": 1
   },
   "source_direction_2026_10_12": {
     "user_quotes": [
@@ -1650,5 +1650,24 @@
     "new_verified_publications": 0,
     "video_inspection_status": "NOT_YET_INSPECTED",
     "next_action": "Review video context, primary attribution, restriction evidence and novelty; publish only through permitted native visible Chrome."
+  },
+  "active_round_2026_10_12": {
+    "user_quotes": [
+      "好 你既然知道 我要的风格了 继续发布帖子吧 再用我们之前的框架 找到对应符合风格的帖子",
+      "继续"
+    ],
+    "candidate_id": "C387",
+    "publication_version": "C387-P2",
+    "new_verified_publications": 1,
+    "submission_attempts": 1,
+    "published_url": "https://x.com/qiluo27808/status/2109450696483606686",
+    "verified_at_utc": "2026-10-12T01:36:37.425931Z",
+    "public_detail_reloaded": true,
+    "source_target_verified": true,
+    "agent_checked": true,
+    "human_checked": false,
+    "personal_review_waiver": true,
+    "growth_outcome": "UNKNOWN",
+    "next_action": "Continue source-checked everyday-life material research; do not duplicate C387."
   }
 }
