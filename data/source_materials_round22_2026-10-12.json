@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-10-12T00:52:40.348392Z",
+  "purpose": "Ordinary-person stakes screening; five distinct leads, no forced publication",
+  "leads": [
+    {
+      "source": "https://chinadigitaltimes.net/chinese/732557.html",
+      "subject": "学生床位与游客安置",
+      "status": "C387_DRAFT_BROWSER_BLOCKED"
+    },
+    {
+      "source": "https://chinadigitaltimes.net/chinese/732672.html",
+      "subject": "养老金世代预测",
+      "status": "HOLD_UNSUPPORTED_PROJECTION"
+    },
+    {
+      "source": "https://chinadigitaltimes.net/chinese/732511.html",
+      "subject": "室友举报竞争",
+      "status": "HOLD_ANONYMOUS_STORY_NOT_INDEPENDENTLY_CONFIRMED"
+    },
+    {
+      "source": "https://chinadigitaltimes.net/chinese/732574.html",
+      "subject": "工资与共享充电宝租金的个人感受",
+      "status": "HOLD_SPECIFIC_DOMESTIC_RESTRICTION_NOT_CONFIRMED"
+    },
+    {
+      "source": "https://chinadigitaltimes.net/chinese/more-stories",
+      "subject": "汽车刹车评测争议",
+      "status": "HOLD_PRIMARY_RESPONSE_NOT_CHECKED"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-11T13:32:43Z",
+  "updated_at": "2026-10-12T00:52:40.348392Z",
   "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
@@ -1624,5 +1624,19 @@
     "experiment_id": "H-C386-ARCHIVE_INFRASTRUCTURE",
     "submission_attempts": 1,
     "public_detail_reloaded": true
+  },
+  "editorial_feedback_2026_10_12": {
+    "user_quote": "继续给我发布 为什么 还是没有发布到爆帖子  你觉得吸引人吗  你发的帖子。。",
+    "kind": "QUALITATIVE_NEGATIVE",
+    "candidate_reviewed": "C386",
+    "metrics": null,
+    "posting_authorization": "continued ordinary publishing",
+    "new_verified_posts": 0,
+    "next_action": "Complete C387 novelty review and resume only through an allowed native browser session; never bypass URL restriction.",
+    "latest_user_quote": "你发的都一些 别人不感兴趣的 普通老百姓不感兴趣的话题 根本就没有人看",
+    "editorial_priority": "ordinary_person_concrete_stakes",
+    "current_candidate": "C387",
+    "browser_session_status": "ENDED_URL_NOT_ALLOWED",
+    "submission_attempts_this_round": 0
   }
 }

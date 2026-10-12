@@ -1,0 +1,128 @@
+{
+  "candidate_id": "C387",
+  "state": "EDITORIAL_REVIEW",
+  "status": "HOLD_BROWSER_SESSION_ENDED",
+  "research_version": "C387-R1",
+  "publication_version": "C387-P1",
+  "text": "你的床空着，就能让陌生人住？\n\n国庆期间，青海祁连用学校宿舍安置近500名游客。荔枝新闻追问：经过学生同意了吗？\n\n救急我能理解。但换套新被褥，解决不了床边的衣服、柜子里的私人物品，更代替不了住在这里的人点头。\n\n帮游客找地方住，也该给学生留一句“我不同意”。\n\n讨论这件事的《学生最好欺负，所以每次都欺负学生》，已被中国数字时代收进404文库。\n\nhttps://chinadigitaltimes.net/chinese/732557.html",
+  "subject_value": "学生自己的床位、私人物品与临时安置游客之间的具体冲突。",
+  "information_gap": "游客受助之外，学生是否有机会同意或拒绝使用居住空间。",
+  "payload": "荔枝新闻近500名游客安置报道、征询同意问题与律师采访；CDT具体文章404收录。",
+  "primary_action": "REPLY",
+  "novelty_check": "未完成全campaign查重，正式发布前需补全；不能声称已通过。",
+  "audit_language_separation": "是否征询同意是报道中的疑问，不写成确定未经同意；不声称有财物损失。正文立场是编辑意见。404收录归因CDT，不宣称全面禁止或删除原因。",
+  "follow_reason": "持续讲清普通人居住、工作与消费的具体代价。",
+  "material_strength": "STRONG",
+  "source_refs": [
+    {
+      "url": "https://m.jstv.com/news/2026/10/6/1556966227261140992.html",
+      "source_type": "PRIMARY_REPORT_AND_LAWYER_INTERVIEW",
+      "checked_sections": [
+        "近500名游客安置于学校宿舍",
+        "征询同意问题"
+      ]
+    },
+    {
+      "url": "https://chinadigitaltimes.net/chinese/732557.html",
+      "source_type": "SPECIFIC_404_ARCHIVE_NATIVE_VISIBLE_CHROME",
+      "original_url": "https://mp.weixin.qq.com/s/Uwc19YkFvTY-uAQcUwA-VQ",
+      "direct_original_result": "NOT_OBSERVED_TOOL_URL_RESTRICTION"
+    },
+    {
+      "url": "https://chinadigitaltimes.net/chinese/category/特色栏目/404文库",
+      "source_type": "ARCHIVE_METHOD_AND_SPECIFIC_ENTRY"
+    }
+  ],
+  "domestic_visibility_evidence": {
+    "status": "SUPPORTED_NARROW_ARCHIVE_ENTRY",
+    "original_material_url": "https://mp.weixin.qq.com/s/Uwc19YkFvTY-uAQcUwA-VQ",
+    "material_date": "2026-10-05",
+    "affected_region_platform_time": "微信公众号建设性意见，2026-10-06具体404文库记录",
+    "evidence_type": [
+      "specific_404_archive_entry"
+    ],
+    "reliable_evidence_urls": [
+      "https://chinadigitaltimes.net/chinese/732557.html",
+      "https://chinadigitaltimes.net/chinese/category/特色栏目/404文库"
+    ],
+    "narrow_claim_supported": "该篇特定文章收进CDT的原文消失存档项目。",
+    "unknown_or_contrary": "删除主体、原因与微信当前页面未确认；同题荔枝新闻仍可读。"
+  },
+  "fact_check_status": "AGENT_CHECKED_REPORT_AND_ARCHIVE_ORIGINAL_CURRENT_ACCESS_UNKNOWN",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "2026-10-09持续普通发帖授权与个人逐条审核豁免有效。",
+  "voice_review": {
+    "chat_cues_used": [
+      "普通老百姓关心的具体处境",
+      "短句口语",
+      "自己的床与私人物品"
+    ],
+    "removed_from_draft": [
+      "公共资源属性概念开头",
+      "机构公告腔"
+    ],
+    "final_read": "先写住处与决定权，让有寄宿经历的人可以理解。"
+  },
+  "reader_model": {
+    "model_version": "READER_VALUE_V2",
+    "claim_status": "HYPOTHESIS",
+    "material_strength": "HIGH",
+    "evidence_strength": "FULL_RECORDED_TEXT",
+    "novelty_status": "UNKNOWN",
+    "reader_value_routes": [
+      {
+        "route": "SELF_RELEVANCE",
+        "strength": "HIGH",
+        "cue": "自己的床、衣物、柜子与陌生访客",
+        "reader_thought": "换成我的宿舍，我希望有机会说同意或不同意。"
+      }
+    ],
+    "dominant_reader_value_route": "SELF_RELEVANCE",
+    "why_reader_cares": "私人居住边界关系到读者自身生活。",
+    "predicted_inner_response": "可以帮游客，也应征询学生意见。",
+    "self_relevance": "HIGH",
+    "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+    "controversy_risk": "MEDIUM",
+    "opinion_activation": "HIGH",
+    "activation_mechanisms": [
+      "PERSONAL_EXPERIENCE",
+      "FAIRNESS_JUDGMENT"
+    ],
+    "opinion_space": "HIGH"
+  },
+  "experiment": {
+    "hypothesis_id": "H-C387-OWN-BED-CONSENT",
+    "pre_registered_hypothesis": "具体居住边界可能比机构动态更激活有内容的讨论，仅编辑假设。",
+    "primary_metric": "substantive_reader_comments",
+    "numeric_target": null,
+    "windows": [
+      "1h",
+      "6h",
+      "24h",
+      "72h",
+      "7d"
+    ]
+  },
+  "submission_attempts": 0,
+  "published_url": null,
+  "verified_at_utc": null,
+  "browser_failure": {
+    "observed_url": "https://mp.weixin.qq.com/s/Uwc19YkFvTY-uAQcUwA-VQ",
+    "message": "This session has been stopped because Computer Use is not allowed on the current browser URL.",
+    "scope": "COMPUTER_USE_SESSION_ENDED",
+    "bypassed": false
+  },
+  "created_at_utc": "2026-10-12T00:52:40.348392Z",
+  "text_digest": "6ebb8373e7199f2189910d5111d7dd67df9c3998bb1fe41096b533b31c108b5e",
+  "gate_result": {
+    "ready": false,
+    "reasons": [
+      "human_checked must be true before manual publication review",
+      "route/action review needs concrete_stakes"
+    ],
+    "personal_review_waiver": true,
+    "content_requirements_pass": false
+  }
+}
