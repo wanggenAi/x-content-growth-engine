@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-12T01:43:48.607079Z",
+  "purpose": "Everyday-life materials under user Telegram/Reddit style direction and existing source/restriction framework",
+  "results": [
+    {
+      "source_url": "https://chinadigitaltimes.net/chinese/732511.html",
+      "status": "HOLD_UNVERIFIED_ANONYMOUS_ALLEGATION_AND_NEAR_STUDENT_TOPIC",
+      "note": "Specific articles deleted according to archive; dormmate-report motive and chat authenticity not independently verified; do not publish accusations."
+    },
+    {
+      "source_url": "https://chinadigitaltimes.net/chinese/725195.html",
+      "candidate_id": "C388",
+      "status": "PUBLISHED_PENDING_FEEDBACK",
+      "primary_fact": "Observed 5am work vs6am punch; interview13:30work vs14:00punch; recorded8h vsactualnear10h",
+      "source_date": "2026-02-12",
+      "text_is_current_news": false,
+      "restriction_evidence": "specific404archive, original URL preserved",
+      "discovery_leads": [
+        "https://t.me/s/cdtchinesefeed?before=20997"
+      ],
+      "indexed_telegram_metrics_used": false
+    }
+  ],
+  "high_view_reference_newly_confirmed": 0,
+  "formula_upgrade": false,
+  "bulk_reddit_collection": false
+}

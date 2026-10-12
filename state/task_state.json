@@ -334,21 +334,21 @@
     "target_new_publications": 1000,
     "baseline_verified_publications": 25,
     "target_total": 1025,
-    "published_new": 189,
+    "published_new": 190,
     "ready": 0,
     "research_pending": 180,
     "status": "HISTORICAL_INVENTORY_ONLY",
-    "total_verified_series": 214,
+    "total_verified_series": 215,
     "remaining_new_publications": 831,
-    "rolling_work_queue_count": 386,
-    "latest_publication_id": "C387",
-    "latest_publication_url": "https://x.com/qiluo27808/status/2109450696483606686",
-    "latest_publication_verified_at": "2026-10-12T01:36:37.425931Z",
-    "latest_candidate_id": "C387",
+    "rolling_work_queue_count": 387,
+    "latest_publication_id": "C388",
+    "latest_publication_url": "https://x.com/qiluo27808/status/2109459043463180369",
+    "latest_publication_verified_at": "2026-10-12T01:43:48.607079Z",
+    "latest_candidate_id": "C388",
     "latest_candidate_source": "OFFICIAL_PRIMARY_PRODUCT_ANNOUNCEMENT",
     "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
     "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK",
-    "published_count": 189,
+    "published_count": 190,
     "ready_count": 0,
     "updated_at": "2026-10-09T03:47:11.245880Z",
     "publication_count_role": "OUTPUT_OBSERVATION_ONLY",
@@ -1601,11 +1601,11 @@
       "private_evidence_ignored": "PASS"
     }
   },
-  "latest_publication_url": "https://x.com/qiluo27808/status/2109450696483606686",
-  "latest_publication_verified_at": "2026-10-12T01:36:37.425931Z",
+  "latest_publication_url": "https://x.com/qiluo27808/status/2109459043463180369",
+  "latest_publication_verified_at": "2026-10-12T01:43:48.607079Z",
   "latest_publication_status": "PUBLISHED_PENDING_FEEDBACK",
-  "published_count": 189,
-  "published_new": 189,
+  "published_count": 190,
+  "published_new": 190,
   "heartbeat_2026_10_11_c386": {
     "status": "PUBLISHED_AND_PUBLIC_DETAIL_VERIFIED",
     "candidate_id": "C386",
@@ -1631,13 +1631,13 @@
     "candidate_reviewed": "C386",
     "metrics": null,
     "posting_authorization": "continued ordinary publishing",
-    "new_verified_posts": 1,
-    "next_action": "Continue source-checked everyday-life material research; do not duplicate C387.",
+    "new_verified_posts": 2,
+    "next_action": "Apply latest open-ending rule to all unpublished drafts; continue qualified ordinary-person source selection without verdicts or forced-answer questions.",
     "latest_user_quote": "你发的都一些 别人不感兴趣的 普通老百姓不感兴趣的话题 根本就没有人看",
     "editorial_priority": "ordinary_person_concrete_stakes",
     "current_candidate": "C387",
     "browser_session_status": "NATIVE_CHROME_AVAILABLE",
-    "submission_attempts_this_round": 1
+    "submission_attempts_this_round": 2
   },
   "source_direction_2026_10_12": {
     "user_quotes": [
@@ -1656,18 +1656,37 @@
       "好 你既然知道 我要的风格了 继续发布帖子吧 再用我们之前的框架 找到对应符合风格的帖子",
       "继续"
     ],
-    "candidate_id": "C387",
-    "publication_version": "C387-P2",
-    "new_verified_publications": 1,
-    "submission_attempts": 1,
-    "published_url": "https://x.com/qiluo27808/status/2109450696483606686",
-    "verified_at_utc": "2026-10-12T01:36:37.425931Z",
+    "candidate_id": "C388",
+    "publication_version": "C388-P1",
+    "new_verified_publications": 2,
+    "submission_attempts": 2,
+    "published_url": "https://x.com/qiluo27808/status/2109459043463180369",
+    "verified_at_utc": "2026-10-12T01:43:48.607079Z",
     "public_detail_reloaded": true,
     "source_target_verified": true,
     "agent_checked": true,
     "human_checked": false,
     "personal_review_waiver": true,
     "growth_outcome": "UNKNOWN",
-    "next_action": "Continue source-checked everyday-life material research; do not duplicate C387."
+    "next_action": "Apply latest open-ending rule to all unpublished drafts; continue qualified ordinary-person source selection without verdicts or forced-answer questions.",
+    "verified_ids": [
+      "C387",
+      "C388"
+    ],
+    "verified_urls": [
+      "https://x.com/qiluo27808/status/2109450696483606686",
+      "https://x.com/qiluo27808/status/2109459043463180369"
+    ]
+  },
+  "open_ending_steer_2026_10_12": {
+    "user_quote": "帮游客找地方住，也该给学生留一句“我不同意”。   类似这种总结的话语 不要添加 可以让人去回答 你不要有结论！",
+    "rule": "正文只呈现核实的事实、具体细节和矛盾，留出真实判断空间。删掉替读者下结论的总结、升华、道德裁决，也不以暗示唯一答案的反问代替结论。不强制结尾问句或索要互动。未发稿重新审；既有已发版本保留，未得到修改具体旧帖指令时不自动编辑或删除。",
+    "recorded_at_utc": "2026-10-12T01:42:18.920621+00:00",
+    "applies_to": "all unpublished and future drafts",
+    "published_before_steer": [
+      "C387-P2",
+      "C388-P1"
+    ],
+    "note": "C388已在最新纠偏到达之前单次发布，正在独立核验；其结尾公平反问仍带倾向，作为后续删除此类收束的负例，不假称它满足新要求。"
   }
 }
