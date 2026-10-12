@@ -88,7 +88,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Continue strong distinct ordinary-person material research, no editorial conclusions or forced-answer questions; no duplicate C387-C389.",
+  "next_action": "Scheduled10minute rounds: verified strong distinct gossip/ordinary-person material, at most1 new post and minimum10minute submission gap; no conclusions and no duplicates C387-C389.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -436,10 +436,13 @@
   "automation_content_sync": {
     "id": "x",
     "status": "ACTIVE",
-    "interval_minutes": 5,
+    "interval_minutes": 10,
+    "max_new_posts_per_run": 1,
+    "minimum_submission_gap_minutes": 10,
     "notification_policy": "failed_runs_only",
-    "checked_at_utc": "2026-10-09T02:28:03.191548Z",
-    "scope": "CONTINUED_USER_AUTHORIZED_PUBLICATION_AND_FEEDBACK_LEARNING"
+    "checked_at_utc": "2026-10-12T02:35:29.689573Z",
+    "scope": "USER_AUTHORIZED_SCHEDULED_ORDINARY_PUBLICATION_STRONG_CONFLICT_OPEN_ENDING",
+    "runtime_verified": false
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -1705,5 +1708,14 @@
     "personal_review_waiver": true,
     "growth_outcome": "UNKNOWN",
     "next_action": "Continue strong distinct ordinary-person material research, no editorial conclusions or forced-answer questions; no duplicate C387-C389."
+  },
+  "scheduled_publication_steer_2026_10_12": {
+    "at_utc": "2026-10-12T02:35:29.689573Z",
+    "verbatim": [
+      "给我定时发布  内容还不够刺激 你看看我发你的吃瓜频道 多刺激啊",
+      "可以10分钟发一条吧"
+    ],
+    "source": "https://t.me/DNYQWCG",
+    "decision": "Public gossip leads, strong concrete conflict, source verification, no conclusions. Every10minutes at most1 qualified post; skip insufficient material. Actual scheduler saved ACTIVE; future execution not yet observed."
   }
 }

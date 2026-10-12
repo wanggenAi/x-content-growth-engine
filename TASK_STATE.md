@@ -1276,3 +1276,18 @@ C388-P1已单次发布并独立公开详情重载核验：https://x.com/qiluo278
 ## 2026-10-12T02:08:01.464152Z — C389 verified open-ending publication
 
 用户继续做，本轮新发布C389-P1：https://x.com/qiluo27808/status/2109464860774011122，显示10:03 AM Oct12（UTC02:03，秒数未知）。按最新无结论要求只给送蛋糕、多要蜡烛、快过生日和原话，停在面条细节，不推断没钱或已实施。源为三联生活实验室2026-04-17报道，CDT2026-05-10具体404视频存档；完整配套文字已读，视频未看、未搬运。原始archive.ph定位429未绕过；source卡实际指向CDT727105并正文加载成功，短链1CkG79tNgv。原生编辑器全文/三段/空行、当前账号菜单Log out @qiluo27808核对，单次实际Post；无效旧索引273未发送输入，实际62提交一次。独立本人主页取得URL，公开详情重载正文/账号/分钟时间/来源卡一致。全387记录与近20/50/100关键词对照，无同题重复；C372蜡烛视频搜索与C272狗婚礼蛋糕是不同素材。累计191新增+25基线=216仅盘点，固定反馈窗null，F01-F05保持HYPOTHESIS。没有新确认高浏览对照，不把结构判成爆款已验证。
+
+
+## 2026-10-12T02:35:56.335662Z - 10-minute scheduled publishing and stronger gossip style
+
+给我定时发布  内容还不够刺激 你看看我发你的吃瓜频道 多刺激啊
+
+可以10分钟发一条吧
+
+最新直接用户指令（2026-10-12）：“给我定时发布 内容还不够刺激 你看看我发你的吃瓜频道 多刺激啊”；“可以10分钟发一条吧”。现在恢复ACTIVE，每10分钟唤醒，每轮最多发一条合格的新普通公开帖子，实际提交间隔至少10分钟；以最后真实提交时间核对，不补发、不连发、不积攒五条一批。无合格素材时继续研究，不能硬凑。先核对远程main及本聊天真实发布记录，C387/C388/C389已发布，不重复发；只使用已核验最新记录的工作目录，若原checkout落后则在独立worktree读取origin/main，不重置或覆盖用户未提交材料。
+
+用户指定风格来源为 https://t.me/DNYQWCG（公开预览 https://t.me/s/DNYQWCG）。优先从公开吃瓜题材找具体事件、现场动作、钱/工作/住房/关系矛盾、当事人原话和可信文章/视频，用正常人口语把最反常的具体事实放第一句，重点提高题材冲突和细节强度。不要回到机构公告、论文介绍或平淡鸡汤。公开频道仅是发现线索，核对原出处、时间、人物和完整语境；匿名题注不冒充核实事实。视频未实际观看不得写“视频显示”，传播使用权未确认则保留公开来源链接；不搬露骨性内容、私密性影像或可识别私人隐私，不转未核指控、博彩广告。Reddit不做未经授权的批量收集；零新增费用，保留既有材料证据和事实门槛。
+
+用户要求：“类似这种总结的话语 不要添加 可以让人去回答 你不要有结论！”正文停在事实、细节或准确短引语，不加总结、升华、道德裁决、鸡汤，不用带唯一答案的反问替代结论，不强制提问或索要互动。稿子交付前记录voice_review确认这一点。普通持续发布授权与个人审核豁免仍有效；human_checked=false、agent_checked单独记录。每条只在本人Gen @qiluo27808本机原生可见Chrome编辑器核对后提交一次，并独立公开详情重载和来源目标验证，结果不明先查原帖。其余来源、隐私、版权、账户边界与反馈学习条件继续适用。反馈缺失保持null，不阻断合格新帖；F01-F05保持HYPOTHESIS。没有新结果保持安静，只在实质变化、失败或需要介入时提示，通知偏好由任务设置管理。
+
+Applied via automation_update to existing heartbeat x; actual saved ACTIVE and 10-minute cadence verified. Prior actual PAUSED overrides stale state mirror. Existing notification preference retained. Public channel preview:15 messages read, captions only; video not watched, no media copied, no new production candidate admitted. Bike-loss and vehicle-return captions remain HOLD leads. Web fetch unavailable; public HTTP read succeeded. No new post or observed future execution. C387-C389 records and inventory unchanged. Checkpoint save was interrupted by a missing temporary payload key after JSON writes; recovered scheduling wording from the actual saved task prompt, no duplicate external action.

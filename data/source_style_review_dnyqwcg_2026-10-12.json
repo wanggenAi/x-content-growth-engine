@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-12T02:35:29.689573Z",
+  "source_url": "https://t.me/s/DNYQWCG",
+  "observation_method": "One bounded public-preview HTTP read; web fetch unavailable; no login/group join",
+  "message_count": 15,
+  "observed_message_urls": [
+    "https://t.me/DNYQWCG/259511",
+    "https://t.me/DNYQWCG/259517",
+    "https://t.me/DNYQWCG/259518",
+    "https://t.me/DNYQWCG/259519",
+    "https://t.me/DNYQWCG/259520",
+    "https://t.me/DNYQWCG/259523",
+    "https://t.me/DNYQWCG/259524",
+    "https://t.me/DNYQWCG/259525",
+    "https://t.me/DNYQWCG/259527",
+    "https://t.me/DNYQWCG/259528",
+    "https://t.me/DNYQWCG/259529",
+    "https://t.me/DNYQWCG/259531",
+    "https://t.me/DNYQWCG/259532",
+    "https://t.me/DNYQWCG/259534",
+    "https://t.me/DNYQWCG/259536"
+  ],
+  "source_message_dates": "2026-10-11 UTC as visible in HTML time tags",
+  "style_finding": "Short scene-first captions, unexpected action/loss, video references; mixed with opinion, unverified allegations and gambling advertising. Style discovery only, not proof of view performance.",
+  "followup_leads": [
+    {
+      "url": "https://t.me/DNYQWCG/259527",
+      "angle": "Loss of an electric bike and alleged further physical conflict",
+      "status": "HOLD_UNVERIFIED_CAPTION_ONLY"
+    },
+    {
+      "url": "https://t.me/DNYQWCG/259529",
+      "angle": "Low-priced vehicle return dispute",
+      "status": "HOLD_UNVERIFIED_CAPTION_ONLY"
+    }
+  ],
+  "video_watched": false,
+  "media_downloaded": false,
+  "production_admitted": 0,
+  "new_publications_this_checkpoint": 0,
+  "formula_upgrade": false
+}
