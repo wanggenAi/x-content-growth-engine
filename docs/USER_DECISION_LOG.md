@@ -894,3 +894,12 @@ C388-P1已单次发布并独立公开详情重载核验：https://x.com/qiluo278
 用户要求：“类似这种总结的话语 不要添加 可以让人去回答 你不要有结论！”正文停在事实、细节或准确短引语，不加总结、升华、道德裁决、鸡汤，不用带唯一答案的反问替代结论，不强制提问或索要互动。稿子交付前记录voice_review确认这一点。普通持续发布授权与个人审核豁免仍有效；human_checked=false、agent_checked单独记录。每条只在本人Gen @qiluo27808本机原生可见Chrome编辑器核对后提交一次，并独立公开详情重载和来源目标验证，结果不明先查原帖。其余来源、隐私、版权、账户边界与反馈学习条件继续适用。反馈缺失保持null，不阻断合格新帖；F01-F05保持HYPOTHESIS。没有新结果保持安静，只在实质变化、失败或需要介入时提示，通知偏好由任务设置管理。
 
 Applied via automation_update to existing heartbeat x; actual saved ACTIVE and 10-minute cadence verified. Prior actual PAUSED overrides stale state mirror. Existing notification preference retained. Public channel preview:15 messages read, captions only; video not watched, no media copied, no new production candidate admitted. Bike-loss and vehicle-return captions remain HOLD leads. Web fetch unavailable; public HTTP read succeeded. No new post or observed future execution. C387-C389 records and inventory unchanged. Checkpoint save was interrupted by a missing temporary payload key after JSON writes; recovered scheduling wording from the actual saved task prompt, no duplicate external action.
+
+
+## 2026-10-12T07:12:21.222391Z - Additional user-specified Telegram reference
+
+https://t.me/iizuk  这个也可以借鉴
+
+Additional priority public discovery/style reference, alongside DNYQWCG. Short scene-first conflict and exact attributed words; no conclusions. Verify source and event dates before production.
+
+Read six public preview messages; social-insurance responsibility is a discovery lead only. One forwarded caption has a future event date inconsistent with its forwarding date; HOLD, not silently repaired. Videos not watched or copied; caption metrics not imported. Existing heartbeat x prompt updated via app tool and saved source verified; ACTIVE10-minute cadence and max1 post/run preserved. No new publication at this source-reference checkpoint. Ongoing C391 work in the shared publication checkout is left untouched; checkpoint prepared in an isolated checkout from verified C390 HEAD.

@@ -440,9 +440,13 @@
     "max_new_posts_per_run": 1,
     "minimum_submission_gap_minutes": 10,
     "notification_policy": "failed_runs_only",
-    "checked_at_utc": "2026-10-12T02:35:29.689573Z",
+    "checked_at_utc": "2026-10-12T07:12:21.222391Z",
     "scope": "USER_AUTHORIZED_SCHEDULED_ORDINARY_PUBLICATION_STRONG_CONFLICT_OPEN_ENDING",
-    "runtime_verified": false
+    "runtime_verified": false,
+    "reference_channels": [
+      "https://t.me/DNYQWCG",
+      "https://t.me/iizuk"
+    ]
   },
   "publication_resume": {
     "user_request": "Heartbeat continuation: new C315 onward community material, prior account authorization persists",
@@ -1717,5 +1721,12 @@
     ],
     "source": "https://t.me/DNYQWCG",
     "decision": "Public gossip leads, strong concrete conflict, source verification, no conclusions. Every10minutes at most1 qualified post; skip insufficient material. Actual scheduler saved ACTIVE; future execution not yet observed."
+  },
+  "additional_source_steer_2026_10_12_iizuk": {
+    "at_utc": "2026-10-12T07:12:21.222391Z",
+    "user_verbatim": "https://t.me/iizuk  这个也可以借鉴",
+    "source_url": "https://t.me/iizuk",
+    "preview_url": "https://t.me/s/iizuk",
+    "decision": "Additional priority public discovery/style reference, alongside DNYQWCG. Short scene-first conflict and exact attributed words; no conclusions. Verify source and event dates before production."
   }
 }
