@@ -1,0 +1,213 @@
+{
+  "schema_version": "viral_analysis_v1",
+  "analysis_as_of": "2026-10-13T04:42:58Z",
+  "input_run_ids": [
+    "2026-10-11T04:31Z-manual-bootstrap",
+    "2026-10-11T04:36Z-multiroute-manual",
+    "2026-10-11T08:29Z-public-rotation-01",
+    "2026-10-11T12:16Z-public-aggregator-recovery-01",
+    "2026-10-11T12:44Z-author-matched-comparison-01",
+    "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
+    "2026-10-11T20:26Z-public-02",
+    "2026-10-11T20:26Z-public-03",
+    "2026-10-11T20:26Z-public-04",
+    "2026-10-11T20:26Z-public-05",
+    "2026-10-12T00:27Z-public-ranking-matched-01"
+  ],
+  "sample_counts": {
+    "feed_runs": 11,
+    "canonical_post_occurrences": 32,
+    "canonical_unique_posts": 31,
+    "chinese_posts": 25,
+    "unique_authors": 21,
+    "recent_0_24h": 0,
+    "recent_24_48h": 13,
+    "recent_2_7d": 18,
+    "verified_x_views": 0,
+    "secondary_exposure_posts": 19,
+    "secondary_velocity_posts": 6,
+    "matched_comparison_candidates": 9,
+    "verified_ordinary_low_controls": 0,
+    "secondary_matched_exposure_pairs": 5,
+    "secondary_control_post_leads_resolved": 6,
+    "secondary_control_post_leads_unresolved": 0,
+    "other_unresolved_mirror_leads": 3,
+    "duplicate_occurrences": 1,
+    "metric_as_of_known_posts": 0,
+    "source_cache_stale_risk_posts": 2,
+    "missing_excerpt_posts": 7
+  },
+  "cohort_definitions": {
+    "canonical": "Real numeric x.com status URL corroborated by free public evidence; not directly rendered X.",
+    "recent": "Post age recalculated at analysis_as_of.",
+    "matched": "Same-author candidate is not automatically a low-distribution control.",
+    "control": "Ordinary or low post with comparable distribution evidence, time and format; none verified.",
+    "secondary_exposure": "Third-party labeled exposure, not official X views; observation time unknown.",
+    "secondary_velocity": "Exposure per hour, not cumulative exposure.",
+    "sidecar": "Unresolved status identity excluded from canonical."
+  },
+  "discovery_health": {
+    "status": "DISCOVERY_OPERATIONAL_FRESH_CHINESE_RANKING_WITH_MATCHED_CANDIDATES",
+    "latest_run_completed_at": "2026-10-12T00:28:27.377Z",
+    "latest_run_lag_hours": 28.24,
+    "analysis_freshness_warning": "ZERO_CANONICAL_POSTS_UNDER_24H",
+    "route_yield": {
+      "AUTHOR_WATCH": "1/21",
+      "TOPIC_WATCH": "0/26",
+      "EVENT_TWO_HOP": "2/31",
+      "PUBLIC_X_AGGREGATOR": "29/34"
+    },
+    "direct_x_rendering": "BLOCKED_OR_403",
+    "identity_check": "32 occurrences checked: 0 permalink/handle/Snowflake-time mismatches."
+  },
+  "comparison_pairs": [
+    {
+      "author": "ClaudeDevs",
+      "status_ids": [
+        "2108591328732856655",
+        "2108621476538781878"
+      ],
+      "classification": "QUALITATIVE_ONLY_UNLABELED_METRICS"
+    },
+    {
+      "author": "momo_peggy",
+      "status_ids": [
+        "2108501030308868501",
+        "2108495058173591750",
+        "2108762908935258185"
+      ],
+      "secondary_exposure": [
+        132000,
+        3945,
+        1114
+      ],
+      "classification": "SECONDARY_UNTIMED_NOT_VERIFIED_CONTROLS"
+    },
+    {
+      "author": "BlockInsight214",
+      "status_ids": [
+        "2108870153735925986",
+        "2108785027433775167",
+        "2108400320204386435"
+      ],
+      "secondary_exposure": [
+        136000,
+        69000,
+        91000
+      ],
+      "classification": "SECONDARY_UNTIMED_NOT_VERIFIED_CONTROLS"
+    },
+    {
+      "author": "AI_Jasonyu",
+      "status_ids": [
+        "2108544284677005524",
+        "2108776616939675747"
+      ],
+      "secondary_exposure": [
+        87000,
+        28000
+      ],
+      "classification": "SECONDARY_UNTIMED_NOT_VERIFIED_CONTROLS"
+    },
+    {
+      "author": "shengtang135754",
+      "status_ids": [
+        "2108705442901975118",
+        "2108815856767791361"
+      ],
+      "classification": "EXCLUDED_CACHE_STALE_RISK"
+    },
+    {
+      "author": "dotey",
+      "status_ids": [
+        "2109151666020794711",
+        "2109401538279977114",
+        "2109417222724600172",
+        "2109413992280039441"
+      ],
+      "classification": "INCOMPATIBLE_RANKED_EXPOSURE_AND_HOURLY_VELOCITY"
+    }
+  ],
+  "structure_labels": [
+    {
+      "label": "CONCRETE_TOOL_PAYOFF",
+      "status_ids": [
+        "2109149852198449426",
+        "2109278327890760093",
+        "2109151666020794711"
+      ],
+      "certainty": "EXCERPT_ONLY"
+    },
+    {
+      "label": "REVERSAL_ODDITY",
+      "status_ids": [
+        "2109142524854194211",
+        "2109209388959617267"
+      ],
+      "certainty": "MEDIA_UNVERIFIED"
+    },
+    {
+      "label": "WORK_SELF_RELEVANCE",
+      "status_ids": [
+        "2109201976206725205",
+        "2109162083589800176",
+        "2108762908935258185"
+      ],
+      "certainty": "EXCERPT_ONLY"
+    }
+  ],
+  "candidate_patterns": [
+    {
+      "id": "P13_A",
+      "name": "Same-author secondary exposure varies substantially",
+      "evidence_state": "OBSERVATION",
+      "limits": "Unknown media, post age, metric_as_of and format."
+    },
+    {
+      "id": "P13_B",
+      "name": "Concrete utility appears among ranked Chinese posts",
+      "evidence_state": "OBSERVATION",
+      "limits": "Winner-only sampling, no ordinary controls."
+    },
+    {
+      "id": "P13_C",
+      "name": "Oddity and self-relevance both appear in selected posts",
+      "evidence_state": "OBSERVATION",
+      "limits": "No causal comparison or full media inspection."
+    }
+  ],
+  "counterexamples": [
+    "momo_peggy short thank-you exceeds longer tutorial in secondary exposure, but unseen quote/media precludes short-copy causal inference.",
+    "BlockInsight214 concrete AI posts vary substantially in secondary exposure.",
+    "dotey hourly velocity and ranked exposure cannot be compared.",
+    "ClaudeDevs unlabeled mirror metrics cannot classify high versus low.",
+    "ChatGPT untimed conflicting engagement remains null."
+  ],
+  "confounders": [
+    "Zero verified ordinary low controls despite nine matched candidates.",
+    "Official X views and all metric_as_of timestamps missing.",
+    "Ranked-winner selection bias and no non-ranked denominator.",
+    "Full first-screen text, media, quotes, promotion and format not verified; seven excerpts missing.",
+    "Two CACHE_STALE_RISK posts excluded.",
+    "At analysis time no canonical post is younger than 24 hours; collector latest packet 28.24h old.",
+    "Unresolved mirror leads are historical and cannot be used as current metrics."
+  ],
+  "recent_changes": [
+    "Recomputed 11 runs (Oct 11-12): 31 unique canonical identities, 25 Chinese, 21 authors.",
+    "As-of Oct 13: 0 under 24h, 13 aged 24-48h, 18 aged 2-7d.",
+    "Checked 32 admitted occurrences against numeric URL, author and Snowflake time; zero mismatches.",
+    "Six X榜单 former leads resolved; three mirror-only leads remain unresolved.",
+    "All three candidate mechanisms stay OBSERVATION."
+  ],
+  "next_sampling_priorities": [
+    "Urgently refresh free collector; no <24h canonical data and latest packet is 28.24h old.",
+    "Collect non-ranked same-author ordinary posts with comparable metric timestamps.",
+    "Inspect full media/quote/first-screen text for momo_peggy and BlockInsight214 pairs.",
+    "Resolve xieqianwan642, wings1105 and shenxiankk mirror-only IDs.",
+    "Keep ranked exposure, hourly velocity and account daily increments separate.",
+    "Exclude shengtang135754 until cache risk cleared.",
+    "No pattern promotion without verified controls and own-account holdout."
+  ],
+  "evidence_grade": "RECENT_24_48H_ONLY_SECONDARY_MATCHED_NO_VERIFIED_CONTROLS",
+  "note": "FREE_ONLY analysis. No posts drafted or published. Seven-day lookback contains only Oct 11-12 packets."
+}
