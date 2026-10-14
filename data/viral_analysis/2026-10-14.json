@@ -1,1 +1,67 @@
-{"schema_version":"viral_analysis_v1","analysis_as_of":"2026-10-14T04:48:42Z","input_run_ids":[],"sample_counts":{},"cohort_definitions":{},"structure_labels":[],"candidate_patterns":[],"counterexamples":[],"confounders":[],"recent_changes":[],"next_sampling_priorities":[],"evidence_grade":"PENDING"}
+{
+  "schema_version": "viral_analysis_v1",
+  "analysis_as_of": "2026-10-14T04:48:42Z",
+  "input_run_ids": [
+    "2026-10-11T04:31Z-manual-bootstrap",
+    "2026-10-11T04:36Z-multiroute-manual",
+    "2026-10-11T08:29Z-public-rotation-01",
+    "2026-10-11T12:16Z-public-aggregator-recovery-01",
+    "2026-10-11T12:44Z-author-matched-comparison-01",
+    "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
+    "2026-10-11T20:26Z-public-02",
+    "2026-10-11T20:26Z-public-03",
+    "2026-10-11T20:26Z-public-04",
+    "2026-10-11T20:26Z-public-05",
+    "2026-10-12T00:27Z-public-ranking-matched-01"
+  ],
+  "sample_counts": {
+    "feed_runs": 11,
+    "canonical_occurrences": 32,
+    "canonical_unique_posts": 31,
+    "chinese_posts": 25,
+    "unique_authors": 21,
+    "recent_0_24h": 0,
+    "recent_24_48h": 0,
+    "recent_2_7d": 31,
+    "matched_comparison_candidates": 9,
+    "verified_ordinary_low_controls": 0,
+    "secondary_matched_exposure_pairs": 5,
+    "secondary_exposure_posts": 19,
+    "secondary_velocity_posts": 6,
+    "verified_x_views": 0,
+    "metric_as_of_known_posts": 0,
+    "source_cache_stale_risk_posts": 2,
+    "secondary_control_post_leads_resolved": 6,
+    "secondary_control_post_leads_unresolved": 0,
+    "other_unresolved_mirror_leads": 3
+  },
+  "cohort_definitions": {
+    "canonical": "Real numeric X permalink corroborated by free public evidence, not direct X rendering.",
+    "freshness": "Post age recalculated at analysis_as_of; all 31 posts are 2-7d old.",
+    "matched": "Same-author comparison candidate is not a verified low control.",
+    "verified_control": "Requires comparable distribution evidence and observation age; none verified.",
+    "sidecar": "Unresolved status IDs excluded; six X榜单 leads already resolved.",
+    "metric_clocks": "published_at, source_snapshot_at, metric_as_of and crawler time are distinct."
+  },
+  "structure_labels": [],
+  "candidate_patterns": [],
+  "counterexamples": [],
+  "confounders": [],
+  "recent_changes": [],
+  "next_sampling_priorities": [],
+  "evidence_grade": "STALE_FEED_2_7D_ONLY_SECONDARY_UNTIMED_NO_VERIFIED_CONTROLS",
+  "discovery_health": {
+    "status": "HISTORICALLY_OPERATIONAL_COLLECTOR_STALE",
+    "index_health": "DISCOVERY_OPERATIONAL_FRESH_CHINESE_RANKING_WITH_MATCHED_CANDIDATES",
+    "latest_run_completed_at": "2026-10-12T00:28:27.377Z",
+    "latest_run_lag_hours": 52.34,
+    "newest_post_age_hours": 53.91,
+    "route_yield": {
+      "AUTHOR_WATCH": "1/21",
+      "TOPIC_WATCH": "0/26",
+      "EVENT_TWO_HOP": "2/31",
+      "PUBLIC_X_AGGREGATOR": "29/34"
+    },
+    "note": "No new packets Oct 13-14. Historical route success does not prove current liveness; direct X rendering unavailable."
+  }
+}
