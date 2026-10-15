@@ -1,1 +1,104 @@
-{"schema_version":"viral_analysis_v1","analysis_as_of":"2026-10-15T05:17:57Z","input_run_ids":[],"sample_counts":{"canonical_unique_posts":31,"verified_ordinary_low_distribution_controls":0},"cohort_definitions":{"canonical":"numeric X status"},"structure_labels":[],"candidate_patterns":[],"counterexamples":[],"confounders":["Collector stale 76.82 hours"],"recent_changes":["No new feed since October 12"],"next_sampling_priorities":["Restore collector"],"evidence_grade":"STALE_FEED_2_7D_ONLY_SECONDARY_UNTIMED_NO_VERIFIED_CONTROLS"}
+{
+  "schema_version": "viral_analysis_v1",
+  "analysis_as_of": "2026-10-15T05:17:57Z",
+  "input_run_ids": [
+    "2026-10-11T04:31Z-manual-bootstrap",
+    "2026-10-11T04:36Z-multiroute-manual",
+    "2026-10-11T08:29Z-public-rotation-01",
+    "2026-10-11T12:16Z-public-aggregator-recovery-01",
+    "2026-10-11T12:44Z-author-matched-comparison-01",
+    "2026-10-11T16:23Z-xbangdan-original-permalink-resolution-01",
+    "2026-10-11T20:26Z-public-02",
+    "2026-10-11T20:26Z-public-03",
+    "2026-10-11T20:26Z-public-04",
+    "2026-10-11T20:26Z-public-05",
+    "2026-10-12T00:27Z-public-ranking-matched-01"
+  ],
+  "sample_counts": {
+    "runs": 11,
+    "occurrences": 32,
+    "canonical_unique": 31,
+    "chinese": 25,
+    "authors": 21,
+    "under24h": 0,
+    "between24and48h": 0,
+    "between2and7d": 31,
+    "matched_candidates": 9,
+    "verified_low_controls": 0,
+    "secondary_matched_pairs": 5,
+    "secondary_exposure": 19,
+    "secondary_velocity": 6,
+    "official_x_views": 0,
+    "known_metric_as_of": 0,
+    "cache_risk": 2,
+    "secondary_leads_resolved": 6,
+    "unresolved_mirror_leads": 3
+  },
+  "cohort_definitions": {
+    "canonical": "Verified numeric X permalink.",
+    "control": "Matched comparison candidates are not verified low controls; none verified.",
+    "secondary": "Third-party exposure untimed; not official X views. Ranked exposure, hourly velocity, daily increment are distinct.",
+    "recent": "Ages recomputed at Oct 15 05:17:57Z: all 31 are 2-7d old."
+  },
+  "structure_labels": [
+    {
+      "name": "utility, oddity, self-relevance",
+      "evidence": "EXCERPT_ONLY"
+    }
+  ],
+  "candidate_patterns": [
+    {
+      "name": "Within-author exposure variation",
+      "evidence_state": "OBSERVATION"
+    },
+    {
+      "name": "Concrete utility in ranked posts",
+      "evidence_state": "OBSERVATION"
+    },
+    {
+      "name": "Oddity and work stakes in ranked posts",
+      "evidence_state": "OBSERVATION"
+    }
+  ],
+  "counterexamples": [
+    "momo_peggy 132K vs 3945 vs 1114, quote/media unknown.",
+    "dotey ranked exposure and hourly velocity incomparable.",
+    "ClaudeDevs mirror numbers unlabeled."
+  ],
+  "confounders": [
+    "Collector stale 76.82h; no posts <48h.",
+    "Zero verified low controls; nine matched candidates.",
+    "No official X views or metric_as_of timestamps.",
+    "Winner-only ranking, unknown quote/media and follower-scale.",
+    "Two cache-risk posts excluded; seven excerpts missing.",
+    "Ranked exposure, hourly velocity and daily account increments not comparable."
+  ],
+  "recent_changes": [
+    "Oct 15 audit: 11 runs, 32 occurrences, 31 unique numeric status IDs, 25 Chinese, 21 authors.",
+    "All 31 canonical posts now aged 2-7d; last feed Oct 12 00:28Z, 76.82h lag.",
+    "Six former X榜单 control leads already resolved; three mirror leads remain unresolved.",
+    "All three candidate patterns remain OBSERVATION."
+  ],
+  "next_sampling_priorities": [
+    "Restore FREE_ONLY collector; write a new run even if zero-yield and diagnose missing scheduled execution.",
+    "Collect fresh <48h Chinese original X numeric permalinks with public or authorized visible browser.",
+    "Find non-ranked same-author ordinary controls for momo_peggy and BlockInsight214; their original IDs are already resolved.",
+    "Verify media/quote/reply context and comparable metric clocks.",
+    "Resolve xieqianwan642, wings1105 and shenxiankk mirror-only IDs.",
+    "Keep exposure, hourly velocity and daily account increments separate."
+  ],
+  "evidence_grade": "STALE_FEED_2_7D_ONLY_SECONDARY_UNTIMED_NO_VERIFIED_CONTROLS",
+  "discovery_health": {
+    "status": "HISTORICALLY_OPERATIONAL_COLLECTOR_STALE",
+    "latest_run_lag_hours": 76.82,
+    "route_yield": {
+      "AUTHOR_WATCH": "1/21",
+      "TOPIC_WATCH": "0/26",
+      "EVENT_TWO_HOP": "2/31",
+      "PUBLIC_X_AGGREGATOR": "29/34"
+    },
+    "latest_run_completed_at": "2026-10-12T00:28:27.377Z",
+    "analysis_freshness_warning": "ZERO_CANONICAL_POSTS_UNDER_48H;LAST_PACKET_OVER_72H"
+  },
+  "note": "FREE_ONLY analysis; no drafting or publication. Historical discovery worked, current collection is stale."
+}
