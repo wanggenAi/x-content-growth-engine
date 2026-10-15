@@ -1300,3 +1300,7 @@ https://t.me/iizuk  这个也可以借鉴
 Additional priority public discovery/style reference, alongside DNYQWCG. Short scene-first conflict and exact attributed words; no conclusions. Verify source and event dates before production.
 
 Read six public preview messages; social-insurance responsibility is a discovery lead only. One forwarded caption has a future event date inconsistent with its forwarding date; HOLD, not silently repaired. Videos not watched or copied; caption metrics not imported. Existing heartbeat x prompt updated via app tool and saved source verified; ACTIVE10-minute cadence and max1 post/run preserved. No new publication at this source-reference checkpoint. Ongoing C391 work in the shared publication checkout is left untouched; checkpoint prepared in an isolated checkout from verified C390 HEAD.
+
+## 2026-10-15T23:55:21Z - Human Voice pipeline
+
+Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain now records locked facts, applies a conservative humanizer only when needed, rechecks AI-flavor patterns, verifies fact preservation, reviews X-native style, and evaluates comment impulse before Editorial Gate admission. C387/C388/C389 are replay fixtures only; historical publication records were not edited and no X post was submitted in this round. `python3 -m unittest discover -s tests -v` passes 47 tests, including legacy published-candidate compatibility.

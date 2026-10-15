@@ -32,6 +32,26 @@
 
 `growth_engine.editorial_gate.validate_candidate()` 实施上述必填字段、单一 primary action、允许状态和强度值检查。验证只说明“满足进入人工复核的形式条件”，不预测浏览或关注。失败记录原因，不改词绕过，不占发布数量。
 
+## HUMAN_VOICE_V1 发布契约
+
+新候选进入 `READY_FOR_MANUAL_PUBLISH` 前，必须同时保存 `human_voice`：
+
+```json
+{
+  "version": "HUMAN_VOICE_V1",
+  "ai_flavor_score": 18,
+  "ai_flavor_blocked": false,
+  "x_native_style": "PASS",
+  "fact_preservation": "PASS",
+  "comment_impulse": "PASS",
+  "rewrite_applied": true
+}
+```
+
+它由 `growth_engine.human_voice.run_human_voice_pipeline()` 生成。`ai_flavor_score` 是 deterministic blocker signal，不是“越低越好”的唯一目标；事实漂移必须为 `PASS`，X Native Style 必须为 `PASS`，而 `REPLY` 还必须通过 Comment Impulse。非 `REPLY` 动作可记录 `NOT_APPLICABLE`。缺少该合同、AI flavor 为 HIGH/blocked、`HOLD_FACT_DRIFT`、X Native Style 失败或明显共识式提问，均不得进入 READY。
+
+历史 `PUBLISHED_PENDING_FEEDBACK`、`OBSERVATION_CLOSED` 和 `LEARNING_REVIEWED` 记录可继续读取和审计，即使它们没有这个新字段；历史文本不会被回放流程改写或重发。完整实现和第三方规则参考见 [`docs/HUMAN_VOICE_PIPELINE.md`](HUMAN_VOICE_PIPELINE.md)。
+
 ## 研究版与公开版
 
 研究版可以记录“只能确认”“作者自述”“时间未知”“样本有混杂”等边界。公开版用自然人话表达已确认的事实和明确标注的自拟观点；不得伪造经历、把评论当来源、把研究限制抄成免责声明，也不得用审核通过冒充传播结果。

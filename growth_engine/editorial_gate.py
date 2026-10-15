@@ -4,6 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any
 
+from .ai_flavor_gate import ai_flavor_passes
 from .reader_model import profile_errors, review_profile
 
 PRIMARY_ACTIONS = {
@@ -33,6 +34,32 @@ def _text(value: Any) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
 
+def _human_voice_errors(candidate: dict[str, Any]) -> list[str]:
+    """Validate the publication contract without rewriting the candidate."""
+    contract = candidate.get("human_voice")
+    if not isinstance(contract, dict):
+        return ["human_voice contract is required before manual publication"]
+    errors: list[str] = []
+    if contract.get("version") != "HUMAN_VOICE_V1":
+        errors.append("human_voice version must be HUMAN_VOICE_V1")
+    score = contract.get("ai_flavor_score")
+    if not isinstance(score, (int, float)):
+        errors.append("human_voice.ai_flavor_score is required")
+    elif not ai_flavor_passes({"score": score, "blocked": bool(contract.get("ai_flavor_blocked", False))}):
+        errors.append("AI flavor gate is blocked or above threshold")
+    if contract.get("x_native_style") != "PASS":
+        errors.append("X native style gate must be PASS")
+    if contract.get("fact_preservation") != "PASS":
+        errors.append("fact preservation gate must be PASS")
+    action = candidate.get("primary_action")
+    comment_status = contract.get("comment_impulse")
+    if action == "REPLY" and comment_status != "PASS":
+        errors.append("REPLY requires a passing comment impulse gate")
+    if action != "REPLY" and comment_status not in {"PASS", "NOT_APPLICABLE"}:
+        errors.append("non-REPLY comment impulse status is invalid")
+    return errors
+
+
 def validate_candidate(candidate: dict[str, Any]) -> GateResult:
     """Validate a candidate record without changing its state or inventing evidence."""
     reasons: list[str] = []
@@ -60,6 +87,10 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
         reasons.append(f"invalid editorial state: {state}")
     if state in {"FAIL_LOW_INTEREST", "FAIL_REPETITIVE", "FAIL_NO_PAYLOAD", "FAIL_NO_PRIMARY_ACTION", "HOLD_NEEDS_EVIDENCE", "RESEARCH_ONLY"}:
         reasons.append(f"editorial hold/failure state cannot pass: {state}")
+    # Historical published records predate HUMAN_VOICE_V1 and remain auditable.
+    # Any record seeking a new manual publication slot must carry the contract.
+    if state == "READY_FOR_MANUAL_PUBLISH":
+        reasons.extend(_human_voice_errors(candidate))
     profile = candidate.get("reader_model")
     # Published historical V1 records remain readable for audit and feedback.
     # New admissions still require the explicit V2 route/action contract.
