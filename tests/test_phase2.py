@@ -149,11 +149,29 @@ class EditorialGateTests(unittest.TestCase):
         }
         from tests.test_reader_model import good_profile
         base["reader_model"] = good_profile()
-        base["human_voice"] = {
-            "version": "HUMAN_VOICE_V1", "ai_flavor_score": 12,
-            "ai_flavor_blocked": False, "x_native_style": "PASS",
-            "fact_preservation": "PASS", "comment_impulse": "NOT_APPLICABLE",
+        from growth_engine.human_voice import (
+            HUMAN_STYLE_ENGINE_VERSION, HUMAN_STYLE_GENERATOR, HUMAN_STYLE_VERSION, stable_hash,
+        )
+        base.update(
+            text="朋友给我发来一张500元账单。",
+            draft_text_before_human_style="朋友给我发来一张500元账单。",
+            locked_facts={"amount": "500元"},
+        )
+        base["human_style"] = {
+            "version": HUMAN_STYLE_VERSION,
+            "input_text_hash": stable_hash(base["draft_text_before_human_style"]),
+            "output_text_hash": stable_hash(base["text"]),
+            "locked_facts_hash": stable_hash(base["locked_facts"]),
+            "ai_flavor_score_before": 0,
+            "ai_flavor_score_after": 0,
+            "fact_preservation": "PASS",
+            "x_native_style": "PASS",
+            "comment_impulse": "NOT_APPLICABLE",
             "rewrite_applied": False,
+            "evaluated_at": "2026-10-16T00:00:00Z",
+            "engine_version": HUMAN_STYLE_ENGINE_VERSION,
+            "generated_by": HUMAN_STYLE_GENERATOR,
+            "operations": [],
         }
         self.assertTrue(validate_candidate(base).ready)
         self.assertFalse(validate_candidate({**base, "material_strength": "INSUFFICIENT"}).ready)

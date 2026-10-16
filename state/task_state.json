@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-15T23:55:21Z",
+  "updated_at": "2026-10-16T00:00:00Z",
   "phase": "CONTINUED_USER_AUTHORIZED_PUBLICATION",
   "checkpoints": {
     "environment_review": "done",
@@ -45,7 +45,8 @@
     "editorial_growth_control": "User explicitly authorizes three one-at-a-time source-checked publications this round; no heartbeat/bulk posting",
     "reader_value_v2": "implemented; route-specific validation and bounded stratified sample committed; no formula promoted",
     "prospective_experiment": "READER_VALUE_PROSPECTIVE_2026_10_08 designed_not_scheduled; 12 slots across H1/H2/H3",
-    "fixed_window_tolerances": "1h±20m, 6h±30m, 24h±60m, 72h±180m, 7d±360m; actual age/offset retained"
+    "fixed_window_tolerances": "1h±20m, 6h±30m, 24h±60m, 72h±180m, 7d±360m; actual age/offset retained",
+    "human_style_production_2026_10_16": "main 2d0133328ff6472b733bb71e2aa60f257d7401a2; candidate_pipeline V2 contract and structural X/comment gates implemented; 32-fixture blindset added; viral feed latest completion 2026-10-12 remains stale"
   },
   "counts": {
     "x_posts": 11,
@@ -1733,5 +1734,19 @@
     "at_utc": "2026-10-15T23:55:21Z",
     "decision": "Implemented deterministic HUMAN_VOICE_V1 pipeline with AI flavor, fact preservation, X native style, and comment impulse gates. Added C387/C388/C389 replay fixtures and tests. No X publication performed in this engineering round.",
     "validation": "47 unittest tests pass; local CI-equivalent workflow command passes. Historical published candidates remain readable without the new contract; READY_FOR_MANUAL_PUBLISH requires human_voice."
+  },
+  "human_style_production_2026-10-16": {
+    "at_utc": "2026-10-16T01:06:00Z",
+    "decision": "New candidates now enter through candidate_pipeline.prepare_candidate(), which runs HUMAN_STYLE_V2 before Editorial Gate admission. Hashes and a deterministic re-run bind the contract to the exact draft and locked facts; synthetic blind fixtures are refused.",
+    "blind_test": {
+      "total": 32,
+      "expected_pass": 20,
+      "actual_pass": 20,
+      "expected_fail": 12,
+      "actual_fail": 12,
+      "false_positive": [],
+      "false_negative": []
+    },
+    "validation": "55 unittest tests pass; compileall passes. pytest is unavailable in the local Python environment. Viral feed latest completion remains 2026-10-12T00:28:27.377Z and is stale for this round."
   }
 }

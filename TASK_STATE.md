@@ -1,5 +1,5 @@
 # 最新断点 — 2026-10-08 自我映射模型与历史回测
-
+本轮 unittest、compileall 与 32 条盲测已通过；pytest 未安装，待提交后由 CI 执行。
 用户本轮要求直接在现有仓库落实SELF-RELEVANCE、心理账户、表达冲动与观点空间；先重新编码历史和做真实回测，不急于大量发布。实际分支feature/x-research-phase2，开工HEAD 8fa203b，fetch后与origin一致，PR #5 OPEN、起点CI成功。以下旧C355待人工确认摘要已经过时，保留为历史；C355已按2026-10-07特定授权单次发布，未恢复自动发布。
 
 本轮实现reader_model版本化JSON/SQLite派生标注、A–I弱项优先级、既有editorial gate必填模型、独立互动率、真实评论分类校验与固定窗回测；不计算乘法总分，不升级公式。研究结论见docs/SELF_MIRRORING_RESEARCH_2026-10-08.md，安全摘要见data/self_mirroring_research_2026-10-08.json。
@@ -1304,3 +1304,6 @@ Read six public preview messages; social-insurance responsibility is a discovery
 ## 2026-10-15T23:55:21Z - Human Voice pipeline
 
 Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain now records locked facts, applies a conservative humanizer only when needed, rechecks AI-flavor patterns, verifies fact preservation, reviews X-native style, and evaluates comment impulse before Editorial Gate admission. C387/C388/C389 are replay fixtures only; historical publication records were not edited and no X post was submitted in this round. `python3 -m unittest discover -s tests -v` passes 47 tests, including legacy published-candidate compatibility.
+# 最新断点 — 2026-10-16 Human Style 生产接入与盲测
+
+从 main 起点 `2d0133328ff6472b733bb71e2aa60f257d7401a2` 开始，建立 `growth_engine.candidate_pipeline.prepare_candidate()` 作为新候选的正式装配入口：锁定事实后自动运行 Human Style V2、AI Flavor、Fact Preservation、X Native Style 和 Comment Impulse，再调用 Editorial Gate。新增 hash 绑定的 `HUMAN_STYLE_V2` 合同，历史 `HUMAN_VOICE_V1` 发布记录保持读取兼容；合成盲测 fixture 明确拒绝进入生产。X Native/Comment Impulse 改为结构特征和利益/边界分叉判断，移除 C387/C388/C389 特定场景词依赖。新增 32 条未参与规则设计的 `data/human_style_blindset_v1.json`，回放与完整测试待本轮提交前完成。素材流最新完成时间仍为 `2026-10-12T00:28:27.377Z`，相对本轮日期 stale，未伪造恢复。
