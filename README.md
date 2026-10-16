@@ -71,6 +71,8 @@ python3 -m growth_engine capture --port 8765
 python3 -m unittest discover -s tests -v
 ```
 
+新候选的中文生产链包含 `HUMAN_VOICE_V1`：事实锁定 → deterministic AI Flavor → 保守 Human Voice rewrite → Fact Preservation → X Native Style → Comment Impulse → Editorial Gate。它只在需要时改写，保护数字、日期、实体、链接和原话；高 AI flavor、事实漂移、微型议论文式 X 文本和 REPLY 的 obvious-answer 问题会被挡在 `READY_FOR_MANUAL_PUBLISH` 之前。实现与回放说明见 [`docs/HUMAN_VOICE_PIPELINE.md`](docs/HUMAN_VOICE_PIPELINE.md)。
+
 默认数据库为 `data/research.sqlite3`（不提交 Git）。本地 `capture` 只监听 `127.0.0.1`，用于人工核对公开原帖后的结构化录入。CSV/JSON 导入按帖子 ID 和完整观察指纹去重，冲突值并存供审查。截图和账号专属信息应保留在 ignored 路径，如 `data/private/` / `data/evidence/`。
 
 ## 证据纪律

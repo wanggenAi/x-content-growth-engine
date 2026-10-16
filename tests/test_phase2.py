@@ -149,6 +149,12 @@ class EditorialGateTests(unittest.TestCase):
         }
         from tests.test_reader_model import good_profile
         base["reader_model"] = good_profile()
+        base["human_voice"] = {
+            "version": "HUMAN_VOICE_V1", "ai_flavor_score": 12,
+            "ai_flavor_blocked": False, "x_native_style": "PASS",
+            "fact_preservation": "PASS", "comment_impulse": "NOT_APPLICABLE",
+            "rewrite_applied": False,
+        }
         self.assertTrue(validate_candidate(base).ready)
         self.assertFalse(validate_candidate({**base, "material_strength": "INSUFFICIENT"}).ready)
         self.assertFalse(validate_candidate({**base, "primary_action": "SHARE,REPLY"}).ready)

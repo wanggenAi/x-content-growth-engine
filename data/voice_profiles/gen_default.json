@@ -1,0 +1,18 @@
+{
+  "profile_id": "GEN_DEFAULT",
+  "version": "1",
+  "platform": "X_ZH",
+  "calibration_basis": "多作者公开样本的结构性人工校准；不是个人文风模仿，也不是总体统计估计。",
+  "sentence_length": "mixed",
+  "short_sentence_ratio": 0.55,
+  "abstract_noun_tolerance": "LOW",
+  "conclusion_tolerance": "LOW",
+  "rhetorical_question_tolerance": "MEDIUM",
+  "first_person_tolerance": "MEDIUM",
+  "internet_slang_tolerance": "LOW_MEDIUM",
+  "imperfection_tolerance": "MEDIUM",
+  "explanation_depth": "LOW",
+  "scene_first": true,
+  "concrete_detail_priority": "HIGH",
+  "default_primary_action": "REVIEW_REQUIRED"
+}
