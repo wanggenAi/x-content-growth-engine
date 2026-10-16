@@ -60,6 +60,8 @@
 
 历史 `PUBLISHED_PENDING_FEEDBACK`、`OBSERVATION_CLOSED` 和 `LEARNING_REVIEWED` 记录可继续读取和审计，即使它们没有这个新字段；历史文本不会被回放流程改写或重发。完整实现和第三方规则参考见 [`docs/HUMAN_VOICE_PIPELINE.md`](HUMAN_VOICE_PIPELINE.md)。
 
+若用户已明确授权公开发布且逐条人工审核被豁免，候选必须保留 `human_checked=false`，同时由代码写入 `agent_checked=true`、`user_authorized=true` 和 `publication_review_exception=USER_AUTHORIZED_AGENT_REVIEW`；这是显式豁免，不得把代理检查伪填成人工检查。
+
 ## 研究版与公开版
 
 研究版可以记录“只能确认”“作者自述”“时间未知”“样本有混杂”等边界。公开版用自然人话表达已确认的事实和明确标注的自拟观点；不得伪造经历、把评论当来源、把研究限制抄成免责声明，也不得用审核通过冒充传播结果。
