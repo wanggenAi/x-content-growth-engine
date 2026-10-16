@@ -60,12 +60,18 @@
       "c390_rank": 30,
       "pytest_passed": 81,
       "unittest_passed": 81,
-      "ci": "PENDING",
+      "ci": {
+        "status": "SUCCESS",
+        "implementation_commit": "7c9ac244fba757a024953c6478a5a0f86ca21353",
+        "push_run": 38841479175,
+        "pr_run": 38841504284
+      },
       "new_x_submissions": 0,
       "details": "docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md",
       "scheduled_collector": "STALE_2026-10-12",
       "sample_limit": "single-domain convenience sample; six historical cases",
-      "compileall": "PASS"
+      "compileall": "PASS",
+      "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/11"
     }
   },
   "counts": {
@@ -109,7 +115,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Review saved Top10/Top5/Top1; no X submission. Complete final tests, push/PR/merge/CI. Explicit later resume required.",
+  "next_action": "Review saved Top10/Top5/Top1; no X submission. Explicit later resume required. Scheduled collector and production evidence holds remain unresolved.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",

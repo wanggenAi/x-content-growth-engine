@@ -4,7 +4,7 @@ Starting main `6a18d016061aa914afdac254e9e16a8694be2158`; branch `feature/topic-
 
 Implemented evidence-grounded Viral Admission, >=10 reviewed fresh independent materials, relative rank1/margin, semantic field/source/context binding, fail-before-rewrite, recomputed contracts and live stop switch. Topic and writing scores separated. No new X submission; heartbeat remains PAUSED. Real 26-request/24-page collection plus6 historical cases =>30 challenge; Top1 R1248681 topic88 margin19, C390 topic0 rank30. 12 sources both checked and <48h. Single-domain convenience sample, not general audience proof; scheduled feed still stale Oct12.
 
-Saved dry-run reaches READY with code-generated style and editorial PASS but DRY_RUN_ONLY plus production HOLDs; live preflight blocks. Review Top10 before any later explicit resume. Reports: `docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md`, `data/viral_admission_ranking_2026-10-16.json`. Local pytest81 and unittest81 passed; final compile/CI/push/merge pending. Historical count aggregates are not recomputed from this repair. Existing older checkpoints below remain historical.
+Saved dry-run reaches READY with code-generated style and editorial PASS but DRY_RUN_ONLY plus production HOLDs; live preflight blocks. Review Top10 before any later explicit resume. Reports: `docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md`, `data/viral_admission_ranking_2026-10-16.json`. Local pytest81 and unittest81 passed; compileall passed. Implementation `7c9ac24` pushed; PR #11 push/PR CI green (38841479175 / 38841504284). Receipt commit and merge follow; final main verification is reported in the task result. Historical count aggregates are not recomputed from this repair. Existing older checkpoints below remain historical.
 
 ---
 
