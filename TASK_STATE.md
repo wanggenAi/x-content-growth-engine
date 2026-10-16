@@ -1,3 +1,13 @@
+# Latest checkpoint — 2026-10-16T02:36:34.766672Z / TOPIC ADMISSION FAILURE repair
+
+Starting main `6a18d016061aa914afdac254e9e16a8694be2158`; branch `feature/topic-admission-integrity`. C390 fixture contamination traced to `/tmp/build_c390.py` importing test `good_profile()`, not copy/state leakage. Original historical text/annotations kept; actual prior publication metadata reconciled with minute precision and incomplete reload/source-target follow-up noted.
+
+Implemented evidence-grounded Viral Admission, >=10 reviewed fresh independent materials, relative rank1/margin, semantic field/source/context binding, fail-before-rewrite, recomputed contracts and live stop switch. Topic and writing scores separated. No new X submission; heartbeat remains PAUSED. Real 26-request/24-page collection plus6 historical cases =>30 challenge; Top1 R1248681 topic88 margin19, C390 topic0 rank30. 12 sources both checked and <48h. Single-domain convenience sample, not general audience proof; scheduled feed still stale Oct12.
+
+Saved dry-run reaches READY with code-generated style and editorial PASS but DRY_RUN_ONLY plus production HOLDs; live preflight blocks. Review Top10 before any later explicit resume. Reports: `docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md`, `data/viral_admission_ranking_2026-10-16.json`. Local pytest81 and unittest81 passed; compileall passed. Implementation `7c9ac24` pushed; PR #11 push/PR CI green (38841479175 / 38841504284). Receipt commit and merge follow; final main verification is reported in the task result. Historical count aggregates are not recomputed from this repair. Existing older checkpoints below remain historical.
+
+---
+
 # 最新断点 — 2026-10-08 自我映射模型与历史回测
 本轮 unittest、compileall 与 32 条盲测已通过；pytest 未安装，待提交后由 CI 执行。
 用户本轮要求直接在现有仓库落实SELF-RELEVANCE、心理账户、表达冲动与观点空间；先重新编码历史和做真实回测，不急于大量发布。实际分支feature/x-research-phase2，开工HEAD 8fa203b，fetch后与origin一致，PR #5 OPEN、起点CI成功。以下旧C355待人工确认摘要已经过时，保留为历史；C355已按2026-10-07特定授权单次发布，未恢复自动发布。

@@ -1,3 +1,9 @@
+# 2026-10-16 upstream topic admission requirement
+
+New READY candidates must additionally carry a recomputable `VIRAL_ADMISSION_V1` contract and a current source-grounded Reader Model semantic binding. `prepare_candidate()` checks both before Human Style. At least ten independently reviewed <48h materials, rank1 and a >=5-point lead are required. Source confidence and writing quality cannot increase topic interest. Full inputs and thresholds: [TOPIC_ADMISSION.md](TOPIC_ADMISSION.md).
+
+Real submission additionally requires `pre_publish_assert()`, ACTIVE publication control, no candidate production holds and a competition snapshot <=24h old. Current control is PAUSED; the saved challenge winner is explicitly DRY_RUN_ONLY. Historical published records are retained without retrospective migration. Older authorizations below do not resume this repair.
+
 # Editorial Gate（发布硬闸门）
 
 更新：2026-10-06。该闸门是候选进入 `READY_FOR_MANUAL_PUBLISH` 前的机器可读和人工复核契约。事实核验仍是必要条件，但事实核验通过不等于值得发布。

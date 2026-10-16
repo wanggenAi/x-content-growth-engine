@@ -9,11 +9,11 @@ from growth_engine.human_voice import HUMAN_STYLE_VERSION, stable_hash
 from growth_engine.human_voice import run_human_style_pipeline
 from growth_engine.x_native_style import review_comment_impulse, review_x_native_style
 from growth_engine.publication_preflight import pre_publish_assert
-from tests.test_reader_model import good_profile
+from tests.topic_helpers import bind_candidate
 
 
 def candidate(text="朋友给我发来一张500元账单。", action="SHARE"):
-    return {
+    return bind_candidate({
         "candidate_id": "B-PIPELINE", "research_version": "research-v1",
         "publication_version": "public-v1", "subject_value": "具体账单冲突",
         "information_gap": "谁承担这笔钱", "payload": "500元账单",
@@ -22,9 +22,9 @@ def candidate(text="朋友给我发来一张500元账单。", action="SHARE"):
         "follow_reason": "后续观察关系边界", "material_strength": "STRONG",
         "source_refs": ["https://example.com/source"],
         "fact_check_status": "SOURCE_CHECKED", "human_checked": True,
-        "reader_model": good_profile(), "state": "DRAFT",
+        "state": "DRAFT",
         "text": text, "locked_facts": {"amount": "500元"},
-    }
+    })
 
 
 class HumanStyleProductionTests(unittest.TestCase):
@@ -48,7 +48,7 @@ class HumanStyleProductionTests(unittest.TestCase):
 
     def test_pre_publish_assert_binds_exact_text_and_hash(self):
         prepared = prepare_candidate(candidate())
-        result = pre_publish_assert(prepared, prepared["text"])
+        result = pre_publish_assert(prepared, prepared["text"], dry_run=True)
         self.assertTrue(result["passed"])
         with self.assertRaises(ValueError):
             pre_publish_assert(prepared, prepared["text"] + " 改过了")

@@ -101,7 +101,7 @@
     "curiosity": "HIGH",
     "narrative_progression": "the error appears after submission"
   },
-  "state": "READY_FOR_MANUAL_PUBLISH",
+  "state": "PUBLISHED_PENDING_FEEDBACK",
   "text": "车祸后，丈夫四年不能工作。家里已经为车贷还了5万美元，他又给自己家里转了1万美元，还从存款里拿走1700美元。\n\n妻子写道：“I’m so mad I see red.”\n\nhttps://www.benzinga.com/personal-finance/management/26/10/62307290/couple-nearly-lost-everything-yet-husband-gave-his-family-over-10k-took-more-from-savings-i-am-so-mad-i-see-red",
   "locked_facts": {
     "numbers": [
@@ -264,5 +264,21 @@
     "passed": true,
     "text_hash": "810e558cf5c259603068a757a096d030565ec92152b558c2b720cc68c5b3f3dc",
     "candidate_id": "C390"
-  }
+  },
+  "status": "PUBLISHED_PENDING_FEEDBACK",
+  "published_url": "https://x.com/qiluo27808/status/2110912757210173693",
+  "published_at_utc": "2026-10-16T01:56:00Z",
+  "published_at_precision": "MINUTE_UI_DISPLAY",
+  "publication_verification": {
+    "account": "Gen @qiluo27808",
+    "public_detail_opened": true,
+    "body_matched": true,
+    "displayed_time": "9:56 AM · Oct 16, 2026",
+    "display_timezone": "Asia/Shanghai",
+    "source_preview_domain": "benzinga.com",
+    "source_target_reloaded": false,
+    "detail_reloaded": false,
+    "note": "Visible send confirmation followed by separate public detail-page inspection before the repair instruction. Reload/source-target follow-up was interrupted; not fabricated as complete. Original text and contaminated Reader Model preserved for incident audit."
+  },
+  "incident_status": "TOPIC_ADMISSION_FAILURE_CONFIRMED_USER_QUALITATIVE_FEEDBACK"
 }

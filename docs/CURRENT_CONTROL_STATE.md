@@ -1,3 +1,7 @@
+# Latest control — 2026-10-16 topic admission repair
+
+`PAUSED_FOR_TOPIC_ADMISSION_REVIEW` overrides the older continued-publishing authorizations below for this repair. User explicitly requested no new X submission and review of Top10/Top5/Top1 first. Repository stop switch: `state/publication_control.json` (PAUSED); heartbeat x was already PAUSED and was not resumed. Only dry-run preparation is allowed. See `docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md` and `docs/TOPIC_ADMISSION.md`.
+
 # Current Control State
 
 Updated: 2026-10-11 (Asia/Shanghai)

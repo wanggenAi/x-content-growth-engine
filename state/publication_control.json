@@ -1,0 +1,7 @@
+{
+  "status": "PAUSED",
+  "reason": "USER_REQUEST_TOPIC_ADMISSION_REPAIR_AND_REVIEW_TOP10_BEFORE_PUBLICATION",
+  "requested_at": "2026-10-16",
+  "scope": "All new real X publication; dry run preparation remains allowed. Do not delete, edit or repost existing posts.",
+  "resume_requires": "New explicit user instruction after reviewing competition results"
+}

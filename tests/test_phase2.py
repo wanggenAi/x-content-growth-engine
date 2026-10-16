@@ -173,6 +173,9 @@ class EditorialGateTests(unittest.TestCase):
             "generated_by": HUMAN_STYLE_GENERATOR,
             "operations": [],
         }
+        from tests.topic_helpers import bind_candidate
+        from growth_engine.candidate_pipeline import prepare_candidate
+        base = prepare_candidate(bind_candidate(base))
         self.assertTrue(validate_candidate(base).ready)
         self.assertFalse(validate_candidate({**base, "material_strength": "INSUFFICIENT"}).ready)
         self.assertFalse(validate_candidate({**base, "primary_action": "SHARE,REPLY"}).ready)

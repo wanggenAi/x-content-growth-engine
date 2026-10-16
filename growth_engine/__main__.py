@@ -407,6 +407,10 @@ def main() -> None:
     prepare_parser = sub.add_parser("prepare-candidates")
     prepare_parser.add_argument("file", type=Path)
     prepare_parser.add_argument("--output", required=True, type=Path)
+    ranking_parser = sub.add_parser("rank-materials")
+    ranking_parser.add_argument("file", type=Path)
+    ranking_parser.add_argument("--output", required=True, type=Path)
+    ranking_parser.add_argument("--as-of")
     reader_importer = sub.add_parser("import-reader-annotations")
     reader_importer.add_argument("file", type=Path)
     reader_parser = sub.add_parser("reader-packet")
@@ -453,7 +457,8 @@ def main() -> None:
                     print(json.dumps({"comments_saved": len(result), "output": str(args.output)}))
                 else:
                     result = [{"entity_id": r.get("entity_id", r.get("candidate_id")),
-                               "review": reader_model.review_profile(r.get("reader_model"), r.get("primary_action", r.get("review_primary_action")))} for r in records]
+                               "review": reader_model.review_profile(r.get("reader_model"), r.get("primary_action", r.get("review_primary_action"))),
+                               "semantic_integrity": reader_model.reader_model_semantic_integrity(r)} for r in records]
                     print(json.dumps(result, ensure_ascii=False, indent=2))
         except (OSError, ValueError, TypeError, KeyError) as exc:
             parser.exit(1, f"reader review failed: {exc}\n")
@@ -474,16 +479,44 @@ def main() -> None:
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             parser.exit(1, f"editorial gate failed: {exc}\n")
         return
+    if args.command == "rank-materials":
+        try:
+            from .viral_admission import rank_materials
+            from datetime import timezone
+            packet = json.loads(args.file.read_text(encoding="utf-8"))
+            records = packet.get("materials") if isinstance(packet, dict) else packet
+            as_of = args.as_of or (packet.get("as_of") if isinstance(packet, dict) else None)
+            as_of = as_of or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+            report = rank_materials(records, as_of=as_of)
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(json.dumps({k: report[k] for k in ("candidate_count", "selected_material_id", "ranking_margin")}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            parser.exit(1, f"material ranking failed: {exc}\n")
+        return
     if args.command == "prepare-candidates":
         try:
             records = json.loads(args.file.read_text(encoding="utf-8"))
             if not isinstance(records, list):
                 raise ValueError("candidate input must be a JSON array")
-            prepared = [prepare_candidate(record) for record in records]
+            from .viral_admission import rank_materials
+            from datetime import timezone
+            as_of = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+            materials = [record.get("material", record) for record in records]
+            competition = rank_materials(materials, as_of=as_of)
+            prepared = []
+            from .viral_admission import material_hash
+            for record, material in zip(records, materials):
+                item = dict(record)
+                item.update(material_pool=materials, competition_as_of=as_of,
+                            material_id=material.get("material_id"), material_hash=material_hash(material))
+                prepared.append(prepare_candidate(item))
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(prepared, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             print(json.dumps({"prepared": len(prepared),
                               "ready": sum(row.get("state") == "READY_FOR_MANUAL_PUBLISH" for row in prepared),
+                              "candidate_count": competition["candidate_count"],
+                              "top1": competition["top1"].get("material_id") if competition["top1"] else None,
                               "output": str(args.output)}, ensure_ascii=False))
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
             parser.exit(1, f"candidate preparation failed: {exc}\n")

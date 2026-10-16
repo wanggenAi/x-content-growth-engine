@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -312,6 +313,88 @@ def review_profile(profile: Any, primary_action: str | None = None) -> dict:
             "primary_action": primary_action, "dominant_route": dominant, "checks": checks,
             "signals": {k: profile.get(k, "UNKNOWN") for k in ("self_relevance", "opinion_activation", "social_currency", "expectation_violation")},
             "prediction_is_observed_response": False}
+
+
+# These are deliberately broad semantic anchors, not a topic classifier.  The
+# gate only uses them to catch an obviously copied annotation (for example an
+# ``applicant/submission`` profile attached to a family-money candidate).
+_SEMANTIC_GROUPS = {
+    "application": {"application", "applicant", "submission", "submit", "submitted", "error", "failure", "failed", "申请", "提交", "报错"},
+    "relationship_money": {"丈夫", "妻子", "夫妻", "男朋友", "女朋友", "伴侣", "婚姻", "家人", "父母", "钱", "存款", "工资", "转账", "车贷", "账单", "借钱", "婚恋"},
+    "work": {"老板", "员工", "同事", "工作", "加班", "工资", "绩效", "升职", "离职", "职场", "工牌", "客户"},
+    "technology": {"ai", "模型", "芯片", "软件", "代码", "平台", "算法", "openai", "anthropic", "nvidia", "科技"},
+    "social_life": {"朋友", "聚餐", "礼物", "房租", "室友", "外卖", "酒店", "朋友圈", "消息", "照片", "相亲", "约会"},
+}
+
+
+def reader_context(candidate: dict[str, Any]) -> dict:
+    """Every semantic input is bound, including action and source identity."""
+    return {key: candidate.get(key) for key in
+            ("text", "subject_value", "payload", "source_refs", "topic", "primary_action", "locked_facts")}
+
+
+def _groups(text: str) -> set[str]:
+    text = text.lower()
+    return {name for name, words in _SEMANTIC_GROUPS.items()
+            if sum(bool(re.search(r"\b" + re.escape(w) + r"\b", text)) if w.isascii() else w in text
+                   for w in words) >= 2}
+
+
+def reader_model_semantic_integrity(candidate: dict[str, Any]) -> dict[str, Any]:
+    """Fail closed on ungrounded or stale reader hypotheses.
+
+    Exact source spans, field/value hashes and the complete candidate context
+    bind each annotation. Broad topic anchors additionally catch conspicuous
+    cross-topic copying. These checks establish integrity, not psychological
+    truth; the remaining editorial hypotheses need real feedback.
+    """
+    from .human_voice import stable_hash
+    profile = candidate.get("reader_model")
+    if not isinstance(profile, dict):
+        return {"passed": False, "status": "FAIL_READER_MODEL_TOPIC_MISMATCH", "reasons": ["reader_model must be an object"]}
+    context = reader_context(candidate)
+    corpus = " ".join(str(v) for k, v in context.items() if k not in {"source_refs", "primary_action"} and v)
+    corpus_groups = _groups(corpus)
+    evidence_fields = ("why_reader_cares", "predicted_inner_response", "concrete_stakes", "information_gap",
+                       "identity_trigger", "opinion_space_reason", "share_recipient", "share_reason", "attention_mechanism",
+                       "psychological_accounts", "reader_value_routes", "narrative_progression", "concrete_resource")
+    semantic_text = " ".join(str(profile.get(key, "")) for key in evidence_fields)
+    profile_groups = _groups(semantic_text)
+    reasons: list[str] = []
+    if corpus_groups and profile_groups and not (corpus_groups & profile_groups):
+        reasons.append("FAIL_READER_MODEL_TOPIC_MISMATCH")
+    if "application" in profile_groups and "application" not in corpus_groups:
+        reasons.append("FAIL_READER_MODEL_TOPIC_MISMATCH: unrelated application profile")
+    for field in evidence_fields:
+        field_groups = _groups(str(profile.get(field, "")))
+        if field_groups and corpus_groups and not field_groups & corpus_groups:
+            reasons.append(f"FAIL_READER_MODEL_TOPIC_MISMATCH:{field}")
+    high_fields = [key for key, value in profile.items() if value == "HIGH"]
+    rationales = profile.get("rationale") if isinstance(profile.get("rationale"), dict) else {}
+    generic_high = [key for key in high_fields if str(rationales.get(key, "")).strip().lower()
+                    in {"concrete evidence reviewed", "evidence reviewed", "reviewed"}]
+    if generic_high:
+        reasons.append("FAIL_UNSUPPORTED_READER_HIGH_SCORE:" + ",".join(generic_high))
+    binding = profile.get("semantic_binding") if isinstance(profile.get("semantic_binding"), dict) else {}
+    if binding.get("context_hash") != stable_hash(context):
+        reasons.append("FAIL_READER_MODEL_STALE_CONTEXT")
+    if profile.get("annotation_origin") in {None, "TEST_FIXTURE", "DEFAULT", "FALLBACK"}:
+        reasons.append("FAIL_READER_MODEL_ANNOTATION_ORIGIN")
+    evidence = binding.get("field_evidence") if isinstance(binding.get("field_evidence"), dict) else {}
+    required = [key for key in evidence_fields if profile.get(key)] + high_fields
+    for key in dict.fromkeys(required):
+        proof = evidence.get(key) if isinstance(evidence.get(key), dict) else {}
+        quote, explanation = proof.get("quote"), proof.get("reason")
+        if (not isinstance(quote, str) or len(quote.strip()) < 2 or quote not in corpus
+                or not isinstance(explanation, str) or len(explanation.strip()) < 8
+                or explanation.strip().lower() in {"reviewed", "concrete evidence reviewed", "evidence reviewed"}
+                or proof.get("value_hash") != stable_hash(profile.get(key))):
+            prefix = "FAIL_UNSUPPORTED_READER_HIGH_SCORE" if key in high_fields else "FAIL_READER_MODEL_UNGROUNDED_EVIDENCE"
+            reasons.append(f"{prefix}:{key}")
+    return {"passed": not reasons, "status": "PASS" if not reasons else reasons[0].split(":", 1)[0],
+            "reasons": reasons, "candidate_groups": sorted(corpus_groups),
+            "profile_groups": sorted(profile_groups), "high_fields": high_fields,
+            "generic_high_fields": generic_high, "context_hash": stable_hash(context)}
 
 
 def migrate(db: sqlite3.Connection) -> None:

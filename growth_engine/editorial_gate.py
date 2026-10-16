@@ -12,7 +12,7 @@ from .human_voice import (
     run_human_style_pipeline,
     stable_hash,
 )
-from .reader_model import profile_errors, review_profile
+from .reader_model import profile_errors, reader_model_semantic_integrity, review_profile
 
 PRIMARY_ACTIONS = {
     "SHARE", "REPLY", "QUOTE", "FOLLOW", "DWELL", "SAVE_RETURN", "CLICK_RESOURCE", "LIKE"
@@ -141,6 +141,11 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
     # Any record seeking a new manual publication slot must carry the contract.
     if state == "READY_FOR_MANUAL_PUBLISH":
         reasons.extend(_human_voice_errors(candidate))
+        from .viral_admission import candidate_admission
+        expected_admission = candidate_admission(candidate)
+        if candidate.get("viral_admission") != expected_admission:
+            reasons.append("VIRAL_ADMISSION_GATE: stale or forged admission contract")
+        reasons.extend(expected_admission["reasons"])
     profile = candidate.get("reader_model")
     # Published historical V1 records remain readable for audit and feedback.
     # New admissions still require the explicit V2 route/action contract.
@@ -148,6 +153,11 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
                          state in {"PUBLISHED_PENDING_FEEDBACK", "OBSERVATION_CLOSED", "LEARNING_REVIEWED"})
     model_errors = profile_errors(profile, for_candidate=not historical_legacy, primary_action=action if isinstance(action, str) else None)
     reasons.extend(model_errors)
+    # New candidates with text must carry a profile grounded in that text.  Do
+    # not rewrite or migrate historical published annotations in place.
+    if state not in {"PUBLISHED_PENDING_FEEDBACK", "OBSERVATION_CLOSED", "LEARNING_REVIEWED"} and isinstance(candidate.get("text"), str) and candidate.get("text").strip():
+        semantic = reader_model_semantic_integrity(candidate)
+        reasons.extend(semantic["reasons"])
     if not model_errors and not historical_legacy:
         review = review_profile(profile, action)
         reasons.extend(review["reasons"])
