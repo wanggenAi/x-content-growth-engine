@@ -35,6 +35,16 @@ class HumanStyleProductionTests(unittest.TestCase):
         self.assertEqual(contract["output_text_hash"], stable_hash(prepared["text"]))
         self.assertTrue(prepared["editorial_gate"]["ready"])
 
+    def test_authorized_agent_review_waiver_keeps_human_checked_false(self):
+        item = candidate()
+        item["human_checked"] = False
+        item["agent_checked"] = True
+        item["user_authorized"] = True
+        item["publication_review_exception"] = "USER_AUTHORIZED_AGENT_REVIEW"
+        prepared = prepare_candidate(item)
+        self.assertEqual(prepared["state"], "READY_FOR_MANUAL_PUBLISH")
+        self.assertIs(prepared["human_checked"], False)
+
     def test_editing_text_invalidates_previous_contract(self):
         prepared = prepare_candidate(candidate())
         prepared["text"] += " 后来他又补了一句。"

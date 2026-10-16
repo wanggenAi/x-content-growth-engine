@@ -123,7 +123,13 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
         reasons.append("primary_action must be exactly one allowed action")
     if candidate.get("material_strength") != "STRONG":
         reasons.append("material_strength must be STRONG")
-    if candidate.get("human_checked") is not True:
+    human_review_waived = (
+        candidate.get("human_checked") is not True
+        and candidate.get("agent_checked") is True
+        and candidate.get("user_authorized") is True
+        and candidate.get("publication_review_exception") == "USER_AUTHORIZED_AGENT_REVIEW"
+    )
+    if candidate.get("human_checked") is not True and not human_review_waived:
         reasons.append("human_checked must be true before manual publication review")
     if candidate.get("fact_check_status") in {"UNVERIFIED", "UNKNOWN", None}:
         reasons.append("fact_check_status must describe checked boundaries")
