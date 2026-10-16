@@ -32,23 +32,31 @@
 
 `growth_engine.editorial_gate.validate_candidate()` 实施上述必填字段、单一 primary action、允许状态和强度值检查。验证只说明“满足进入人工复核的形式条件”，不预测浏览或关注。失败记录原因，不改词绕过，不占发布数量。
 
-## HUMAN_VOICE_V1 发布契约
+## HUMAN_STYLE_V2 发布契约
 
-新候选进入 `READY_FOR_MANUAL_PUBLISH` 前，必须同时保存 `human_voice`：
+新候选进入 `READY_FOR_MANUAL_PUBLISH` 前，必须由 `growth_engine.candidate_pipeline.prepare_candidate()` 自动生成 `human_style`：
 
 ```json
 {
-  "version": "HUMAN_VOICE_V1",
-  "ai_flavor_score": 18,
-  "ai_flavor_blocked": false,
+  "version": "HUMAN_STYLE_V2",
+  "input_text_hash": "...",
+  "output_text_hash": "...",
+  "locked_facts_hash": "...",
+  "ai_flavor_score_before": 42,
+  "ai_flavor_score_after": 18,
   "x_native_style": "PASS",
   "fact_preservation": "PASS",
   "comment_impulse": "PASS",
-  "rewrite_applied": true
+  "rewrite_applied": true,
+  "evaluated_at": "...",
+  "engine_version": "human-style-v2-deterministic",
+  "generated_by": "growth_engine.candidate_pipeline.prepare_candidate"
 }
 ```
 
-它由 `growth_engine.human_voice.run_human_voice_pipeline()` 生成。`ai_flavor_score` 是 deterministic blocker signal，不是“越低越好”的唯一目标；事实漂移必须为 `PASS`，X Native Style 必须为 `PASS`，而 `REPLY` 还必须通过 Comment Impulse。非 `REPLY` 动作可记录 `NOT_APPLICABLE`。缺少该合同、AI flavor 为 HIGH/blocked、`HOLD_FACT_DRIFT`、X Native Style 失败或明显共识式提问，均不得进入 READY。
+它由 `growth_engine.human_voice.run_human_style_pipeline()` 生成，并由真实 candidate 入口自动写入。Editorial Gate 会重新计算输入文本、输出文本和锁定事实的 SHA-256；人工填入 PASS 或改稿后，旧合同立即失效。`ai_flavor_score` 是 deterministic blocker signal，不是“越低越好”的唯一目标；事实漂移必须为 `PASS`，X Native Style 必须为 `PASS`，而 `REPLY` 还必须通过 Comment Impulse。非 `REPLY` 动作可记录 `NOT_APPLICABLE`。缺少该合同、AI flavor 为 HIGH/blocked、`HOLD_FACT_DRIFT`、X Native Style 失败或明显共识式提问，均不得进入 READY。
+
+历史 `HUMAN_VOICE_V1` 记录只在已发布状态保持兼容读取；新候选不能手填旧合同绕过生产入口。
 
 历史 `PUBLISHED_PENDING_FEEDBACK`、`OBSERVATION_CLOSED` 和 `LEARNING_REVIEWED` 记录可继续读取和审计，即使它们没有这个新字段；历史文本不会被回放流程改写或重发。完整实现和第三方规则参考见 [`docs/HUMAN_VOICE_PIPELINE.md`](HUMAN_VOICE_PIPELINE.md)。
 

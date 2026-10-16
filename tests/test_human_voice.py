@@ -99,7 +99,7 @@ class HumanVoicePipelineTests(unittest.TestCase):
             "primary_action": "SHARE",
         }
         result = run_human_voice_pipeline(request)
-        self.assertEqual(result["human_voice"]["version"], "HUMAN_VOICE_V1")
+        self.assertEqual(result["human_voice"]["version"], "HUMAN_STYLE_V2")
         self.assertEqual(result["human_voice"]["fact_preservation"], "PASS")
         self.assertEqual(result["human_voice"]["comment_impulse"], "NOT_APPLICABLE")
         self.assertIn("一会儿回去我就把蜡烛插在我的面条上", result["rewritten_text"])
@@ -135,7 +135,8 @@ class HumanVoicePipelineTests(unittest.TestCase):
                 self.assertIn("removed_author_verdict_or_mechanical_question", result["changes"])
                 self.assertEqual(result["x_native_style_report"]["status"], "PASS")
             elif cid == "c388":
-                self.assertTrue(result["ai_flavor_report"]["blocked"])
+                self.assertTrue(result["ai_flavor_report_before"]["blocked"])
+                self.assertFalse(result["passed"])
                 self.assertEqual(result["comment_impulse_report"]["status"], "FAIL")
             else:
                 self.assertFalse(result["ai_flavor_report"]["blocked"])

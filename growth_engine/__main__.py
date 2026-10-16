@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .editorial_gate import validate_candidate
+from .candidate_pipeline import prepare_candidate
 from . import reader_model
 from .phase2 import (import_annotations, import_pairs, import_queries, import_research_review, insert_observation, migrate,
                      packet_markdown, quality_report, research_packet)
@@ -403,6 +404,9 @@ def main() -> None:
     sub.add_parser("audit")
     gate_parser = sub.add_parser("editorial-gate")
     gate_parser.add_argument("file", type=Path)
+    prepare_parser = sub.add_parser("prepare-candidates")
+    prepare_parser.add_argument("file", type=Path)
+    prepare_parser.add_argument("--output", required=True, type=Path)
     reader_importer = sub.add_parser("import-reader-annotations")
     reader_importer.add_argument("file", type=Path)
     reader_parser = sub.add_parser("reader-packet")
@@ -469,6 +473,20 @@ def main() -> None:
                 raise SystemExit(1)
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             parser.exit(1, f"editorial gate failed: {exc}\n")
+        return
+    if args.command == "prepare-candidates":
+        try:
+            records = json.loads(args.file.read_text(encoding="utf-8"))
+            if not isinstance(records, list):
+                raise ValueError("candidate input must be a JSON array")
+            prepared = [prepare_candidate(record) for record in records]
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(json.dumps(prepared, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(json.dumps({"prepared": len(prepared),
+                              "ready": sum(row.get("state") == "READY_FOR_MANUAL_PUBLISH" for row in prepared),
+                              "output": str(args.output)}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            parser.exit(1, f"candidate preparation failed: {exc}\n")
         return
     if args.command == "capture":
         from .capture import serve
