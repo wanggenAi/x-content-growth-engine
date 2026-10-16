@@ -8,6 +8,7 @@ from growth_engine.fact_preservation import HOLD_FACT_DRIFT, check_fact_preserva
 from growth_engine.human_voice import HUMAN_STYLE_VERSION, stable_hash
 from growth_engine.human_voice import run_human_style_pipeline
 from growth_engine.x_native_style import review_comment_impulse, review_x_native_style
+from growth_engine.publication_preflight import pre_publish_assert
 from tests.test_reader_model import good_profile
 
 
@@ -44,6 +45,13 @@ class HumanStyleProductionTests(unittest.TestCase):
         prepared = prepare_candidate(item)
         self.assertEqual(prepared["state"], "READY_FOR_MANUAL_PUBLISH")
         self.assertIs(prepared["human_checked"], False)
+
+    def test_pre_publish_assert_binds_exact_text_and_hash(self):
+        prepared = prepare_candidate(candidate())
+        result = pre_publish_assert(prepared, prepared["text"])
+        self.assertTrue(result["passed"])
+        with self.assertRaises(ValueError):
+            pre_publish_assert(prepared, prepared["text"] + " 改过了")
 
     def test_editing_text_invalidates_previous_contract(self):
         prepared = prepare_candidate(candidate())
