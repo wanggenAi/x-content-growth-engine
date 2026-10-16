@@ -2,12 +2,12 @@
 
 Every new candidate is reviewed through this local, deterministic sequence:
 
-`material → fact lock → human tension → reader model → raw draft → run_human_style_pipeline() → AI flavor → rewrite when needed → fact preservation → X Native Style → Comment Impulse → Editorial Gate → READY_FOR_MANUAL_PUBLISH`
+`fresh material pool → evidence-backed Viral Admission → relative competition winner → fact lock → Reader Model semantic integrity → raw draft → run_human_style_pipeline() → AI flavor → rewrite when needed → fact preservation → X Native Style → Comment Impulse → Editorial Gate → READY_FOR_MANUAL_PUBLISH → publication preflight`
 
 The implementation lives in:
 
 - `growth_engine/ai_flavor_gate.py` detects Chinese templates, abstract-noun density, over-explanation, rhythm uniformity, rhetorical-question abuse and forced humanization. `analyze_ai_flavor()` returns a JSON-safe report. A high score is a blocker signal, not an authorship detector and not a goal of zero.
-- `growth_engine/candidate_pipeline.py` is the production entry for new candidates. `prepare_candidate()` refuses synthetic blind fixtures, runs Human Style before admission, writes the rewritten text and the generated contract, then invokes the Editorial Gate.
+- `growth_engine/candidate_pipeline.py` is the production entry for new candidates. `prepare_candidate()` refuses synthetic blind fixtures, checks material competition and Reader Model integrity before invoking Human Style, writes the rewritten text and generated contract, then invokes the Editorial Gate. Weak topics never enter rewriting. See [Topic Admission](TOPIC_ADMISSION.md).
 - `growth_engine/human_voice.py` implements `run_human_style_pipeline()` and the hash-bound `HUMAN_STYLE_V2` contract. It protects URLs and quoted spans, removes only known editorial residue, records the raw first reaction and can leave an already-natural draft unchanged. The historical `run_human_voice_pipeline` symbol remains an alias.
 - `growth_engine/fact_preservation.py` compares locked numbers, dates, names/entities, URLs and direct quotes, and flags new causal claims. Any drift is `HOLD_FACT_DRIFT`.
 - `growth_engine/x_native_style.py` scores scene concreteness, first-screen stopping power, rhythm, abstraction, explanation load and conclusion overreach. `review_comment_impulse()` is required for `REPLY`: a moral-consensus question with an obvious answer fails even when it is grammatically polished.

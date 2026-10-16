@@ -8,7 +8,7 @@ from .editorial_gate import validate_candidate
 from .human_voice import HUMAN_STYLE_VERSION, stable_hash
 
 
-def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str) -> dict[str, Any]:
+def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str, *, dry_run: bool = False) -> dict[str, Any]:
     """Fail closed if the text about to be pasted differs from the admitted candidate."""
     if candidate.get("fixture_type") == "SYNTHETIC_TEST_FIXTURE":
         raise ValueError("synthetic fixture cannot be published")
@@ -45,4 +45,18 @@ def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str) -> dict[
     gate = validate_candidate(dict(candidate))
     if not gate.ready:
         raise ValueError("editorial gate failed: " + "; ".join(gate.reasons))
-    return {"passed": True, "text_hash": stable_hash(publish_text), "candidate_id": candidate.get("candidate_id")}
+    from .publication_control import publication_control
+    control = publication_control()
+    if not dry_run and control.get("status") != "ACTIVE":
+        raise ValueError("PUBLICATION_PAUSED: " + str(control.get("reason")))
+    if not dry_run and (candidate.get("publication_mode") == "DRY_RUN_ONLY" or candidate.get("production_holds")):
+        raise ValueError("DRY_RUN_OR_PRODUCTION_HOLD: candidate is not authorized for live submission")
+    if not dry_run:
+        from datetime import datetime, timezone
+        as_of = candidate.get("competition_as_of", "")
+        reviewed = datetime.fromisoformat(as_of.replace("Z", "+00:00"))
+        age = (datetime.now(timezone.utc) - reviewed).total_seconds() / 3600
+        if not 0 <= age <= 24:
+            raise ValueError("COMPETITION_EXPIRED: refresh material pool and ranking")
+    return {"passed": True, "text_hash": stable_hash(publish_text), "candidate_id": candidate.get("candidate_id"),
+            "dry_run": dry_run, "publication_allowed": not dry_run and control.get("status") == "ACTIVE"}

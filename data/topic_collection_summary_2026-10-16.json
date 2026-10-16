@@ -1,0 +1,14 @@
+{
+  "latest_run_completed_at": "2026-10-16T02:22:15.771569Z",
+  "attempted": 26,
+  "source_pages_retrieved": 24,
+  "under24h": 6,
+  "between24and48h": 8,
+  "older48h": 10,
+  "unique_source_urls": 24,
+  "unique_domains": 1,
+  "duplicate_ratio": 0.0,
+  "source_timestamp_basis": "Original topic-header title attribute, not last reply/search date.",
+  "scope": "One real public HTTP collection for this repair; NOT a restored scheduled viral collector.",
+  "scheduled_viral_feed_latest_run_completed_at": "2026-10-12T00:28:27.377Z"
+}

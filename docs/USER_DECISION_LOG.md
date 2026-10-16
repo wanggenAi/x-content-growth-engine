@@ -903,3 +903,12 @@ https://t.me/iizuk  这个也可以借鉴
 Additional priority public discovery/style reference, alongside DNYQWCG. Short scene-first conflict and exact attributed words; no conclusions. Verify source and event dates before production.
 
 Read six public preview messages; social-insurance responsibility is a discovery lead only. One forwarded caption has a future event date inconsistent with its forwarding date; HOLD, not silently repaired. Videos not watched or copied; caption metrics not imported. Existing heartbeat x prompt updated via app tool and saved source verified; ACTIVE10-minute cadence and max1 post/run preserved. No new publication at this source-reference checkpoint. Ongoing C391 work in the shared publication checkout is left untouched; checkpoint prepared in an isolated checkout from verified C390 HEAD.
+
+
+## 2026-10-16T02:36:34.766672Z — Topic admission failure C390 / publication paused
+
+Latest direct task: repair selection, not Human Style; trace wrong application/submission Reader Model, no default HIGH, add source-grounded Viral Admission and relative competition, >=30 real challenge cases, >=20 actual fetch dry-run, show Top10/5/1 before any new X post. Do not delete already published posts. Commit/push/PR/merge main and require pytest/CI green. This overrides earlier continued-posting permission for this repair.
+
+Root cause: agent production assembly imported test good_profile() and manually selected from five drafts with no competitive ranking. A passing prose gate had been mistaken for a topic endorsement. Historical C390 kept for audit. Prior actual C390 URL https://x.com/qiluo27808/status/2110912757210173693 ; minute UI time 2026-10-16T01:56Z, send and detail body/account observed, additional reload/source-target follow-up interrupted. No duplicate submission.
+
+24 real new pages plus six historical challenges; all source times explicit; 6 under24h and8 between24–48h. One V2EX convenience sample is insufficient to claim general interest or scheduled collector recovery. Top1 R1248681 dry-run only; source self-report, domestic visibility evidence unknown, production held. Scoring is editorial hypothesis; no empirical metrics, view predictions or formula promotions invented. Existing heartbeat x remains PAUSED, stop switch PAUSED. Repair added no X submissions.
