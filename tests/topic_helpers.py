@@ -2,20 +2,48 @@
 from copy import deepcopy
 from growth_engine.human_voice import stable_hash
 from growth_engine.reader_model import empty_value_profile, reader_context
-from growth_engine.viral_admission import WEIGHTS, material_hash
+from growth_engine.viral_admission import PRODUCTION_MODE, WEIGHTS, material_hash
 
 AS_OF = '2026-10-16T02:00:00Z'
 
 
 def material(mid='m1', rating=4):
-    text = '朋友聚餐后给我发来一张500元账单。' + ('第'+mid+'场聚餐。' if mid != 'm1' else '')
-    proof = {'evidence': '500元账单', 'reason': '聚餐的关系与分账成本具体可见，仍是待反馈检验的编辑判断。'}
-    review = {k: dict(proof, rating=rating) for k in WEIGHTS}
-    review.update(audience_distance=dict(proof, value='NEAR'), background_cost=dict(proof, value='LOW'),
-                  hook=dict(proof, text='聚餐后才收到500元账单'), novelty='CHECKED_DISTINCT')
+    suffix = '第'+mid+'场聚餐。' if mid != 'm1' else ''
+    text = ('朋友聚餐后给我发来一张500元账单。原本说好他请客，结果散场后才发账单。'
+            '朋友坚持分账，我认为请客约定应该算数。这笔钱够买一周午饭。'
+            '聚餐后才收到500元账单。吃饭分账不需要行业背景。有人会照付，也有人会先问清约定。'
+            '我会把这张账单发给同桌的人。评论里会分成按账单付和按原约定两种立场。'+suffix)
+    evidence = {
+        'raw_material_strength':'朋友聚餐后给我发来一张500元账单',
+        'surprise':'原本说好他请客，结果散场后才发账单',
+        'conflict':'朋友坚持分账，我认为请客约定应该算数',
+        'self_insertion':'这笔钱够买一周午饭',
+        'first_screen_stopping_power':'聚餐后才收到500元账单',
+        'mass_relevance':'吃饭分账不需要行业背景',
+        'share_potential':'我会把这张账单发给同桌的人',
+        'reply_potential':'评论里会分成按账单付和按原约定两种立场',
+    }
+    reasons = {
+        'raw_material_strength':'金额、动作和当事人关系都在原文里，素材不是抽象观点。',
+        'surprise':'先说请客后发账单形成明确预期反差，意外结果由原文支持。',
+        'conflict':'朋友双方对请客约定和分账责任有直接利益冲突。',
+        'self_insertion':'普通读者能把一周午饭钱映射到自己的日常支出并产生代入。',
+        'first_screen_stopping_power':'首屏第一句同时给出朋友、聚餐和500元具体动作，三秒内可懂。',
+        'mass_relevance':'吃饭分账是大众日常经验，不需专业背景，随机读者也能理解。',
+        'share_potential':'读者可转发给同桌朋友核对分账约定，分享对象明确。',
+        'reply_potential':'按账单付款与按原约定处理形成两个真实评论分叉和立场。',
+    }
+    review = {k: {'evidence':evidence[k], 'reason':reasons[k], 'rating':rating} for k in WEIGHTS}
+    review.update(review_type='DEEP_EDITORIAL_REVIEW', reviewer='TEST_EDITOR', reviewed_at=AS_OF,
+                  possible_reply_branches=['按账单支付','按请客约定处理'],
+                  audience_distance={'evidence':'吃饭分账不需要行业背景','reason':'角色和付款行为是普通读者熟悉的日常关系，不需额外前情。','value':'NEAR'},
+                  background_cost={'evidence':'朋友聚餐后给我发来一张500元账单','reason':'一句话即可交代人物、动作与金额，阅读背景成本低。','value':'LOW'},
+                  hook={'evidence':'聚餐后才收到500元账单','reason':'首屏直接给出散场后收到具体金额账单的动作。','text':'聚餐后才收到500元账单'}, novelty='CHECKED_DISTINCT')
+    family = ('CHINESE_MEDIA','TELEGRAM','HACKER_NEWS','GITHUB')[sum(ord(c) for c in mid) % 4]
     return {'material_id': mid, 'event_id': mid, 'topic': '朋友聚餐分账', 'text': text,
             'source': {'url': 'https://example.com/'+mid, 'published_at': '2026-10-16T00:00:00Z',
-                       'timestamp_precision': 'SECOND', 'evidence_text': text, 'status': 'SOURCE_CHECKED', 'confidence': 'SELF_REPORT'},
+                       'timestamp_precision': 'SECOND', 'evidence_text': text, 'status': 'SOURCE_CHECKED',
+                       'confidence': 'SELF_REPORT', 'family': family},
             'review': review}
 
 
@@ -39,9 +67,10 @@ def grounded_profile(candidate):
 
 def bind_candidate(candidate):
     candidate = deepcopy(candidate)
-    pool = [material()] + [material('m'+str(n), rating=1) for n in range(2,11)]
+    pool = [material()] + [material('m'+str(n), rating=1) for n in range(2,31)]
     pool[0]['draft_text'] = candidate['text']
     candidate.update(material_id='m1', material_hash=material_hash(pool[0]), material_pool=pool,
+                     admission_mode=PRODUCTION_MODE,
                      competition_as_of=AS_OF, source_refs=[pool[0]['source']['url']])
     candidate['reader_model']=grounded_profile(candidate)
     return candidate

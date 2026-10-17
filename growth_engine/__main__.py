@@ -413,6 +413,7 @@ def main() -> None:
     ranking_parser.add_argument("--output", required=True, type=Path)
     ranking_parser.add_argument("--as-of")
     ranking_parser.add_argument("--top-n", type=int, default=5)
+    ranking_parser.add_argument("--mode", choices=("preview", "production"), default="preview")
     hunt_parser = sub.add_parser("hunt", help="Codex public-source discovery, ranking and checked draft previews; never posts")
     hunt_parser.add_argument("--rss", action="append", help="public RSS/Atom URL; repeatable")
     hunt_parser.add_argument("--telegram", action="append", default=[], help="public channel name")
@@ -423,6 +424,19 @@ def main() -> None:
     hunt_parser.add_argument("--top-n", type=int, default=5)
     hunt_parser.add_argument("--limit", type=int, default=20)
     hunt_parser.add_argument("--output", type=Path, default=Path("data/private/hunt/latest.json"))
+    scheduled_parser = sub.add_parser("collect-feed", help="scheduled public collection only; never publishes")
+    scheduled_parser.add_argument("--output-root", type=Path, default=Path("data/viral_feed"))
+    scheduled_parser.add_argument("--rss", action="append")
+    scheduled_parser.add_argument("--telegram", action="append", default=["DNYQWCG", "iizuk"])
+    scheduled_parser.add_argument("--limit", type=int, default=100)
+    validation_parser = sub.add_parser("validate-hunt", help="strict production competition dry run; never publishes")
+    validation_parser.add_argument("feed", type=Path)
+    validation_parser.add_argument("reviews", type=Path)
+    validation_parser.add_argument("--output", required=True, type=Path)
+    leads_parser = sub.add_parser("import-search-leads", help="import browser search leads after original-page verification")
+    leads_parser.add_argument("file", type=Path)
+    leads_parser.add_argument("--output", required=True, type=Path)
+    leads_parser.add_argument("--captured-at")
     search_parser = sub.add_parser("search-queries")
     search_parser.add_argument("category", nargs="?", default="all")
     reader_importer = sub.add_parser("import-reader-annotations")
@@ -500,6 +514,19 @@ def main() -> None:
         except ValueError as exc:
             parser.exit(1, str(exc)+"\n")
         return
+    if args.command == "import-search-leads":
+        try:
+            from .discovery import import_search_leads
+            records = json.loads(args.file.read_text(encoding="utf-8"))
+            if not isinstance(records, list): raise ValueError("search leads input must be an array")
+            captured = args.captured_at or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+            materials = import_search_leads(records, captured_at=captured)
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(json.dumps(materials, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(json.dumps({"imported": len(materials), "output": str(args.output)}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            parser.exit(1, f"search lead import failed: {exc}\n")
+        return
     if args.command == "hunt":
         try:
             from .hunt import hunt, hunt_materials
@@ -520,15 +547,42 @@ def main() -> None:
         except (OSError, ValueError, TypeError, KeyError) as exc:
             parser.exit(1, f"hunt failed: {exc}\n")
         return
+    if args.command == "collect-feed":
+        try:
+            from .hunt import scheduled_collection
+            result = scheduled_collection(output_root=args.output_root, rss_urls=args.rss,
+                                          telegram_channels=args.telegram, limit=args.limit)
+            print(json.dumps({"as_of": result["as_of"], "materials": len(result["materials"]),
+                              "source_families": result["source_families"], "health": result["collector_health"],
+                              "publication_triggered": result["publication_triggered"], "paths": result["paths"]}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            parser.exit(1, f"scheduled collection failed: {exc}\n")
+        return
+    if args.command == "validate-hunt":
+        try:
+            from .hunt import production_dry_run
+            feed = json.loads(args.feed.read_text(encoding="utf-8")); reviews = json.loads(args.reviews.read_text(encoding="utf-8"))
+            result = production_dry_run(feed, reviews)
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            ranking = result["ranking"]
+            print(json.dumps({"status": ranking["status"], "top1": ranking["selected_material_id"],
+                              "top3": [r["material_id"] for r in ranking["top3"]],
+                              "reviewed": ranking["reviewed_source_count"], "previews": len(result["top1_previews"]),
+                              "publication_allowed": False, "output": str(args.output)}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            parser.exit(1, f"hunt validation failed: {exc}\n")
+        return
     if args.command == "rank-materials":
         try:
-            from .viral_admission import rank_materials
+            from .viral_admission import PREVIEW_MODE, PRODUCTION_MODE, rank_materials
             from datetime import timezone
             packet = json.loads(args.file.read_text(encoding="utf-8"))
             records = packet.get("materials") if isinstance(packet, dict) else packet
             as_of = args.as_of or (packet.get("as_of") if isinstance(packet, dict) else None)
             as_of = as_of or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-            ranking_report = rank_materials(records, as_of=as_of, top_n=args.top_n)
+            mode = PRODUCTION_MODE if args.mode == "production" else PREVIEW_MODE
+            ranking_report = rank_materials(records, as_of=as_of, top_n=args.top_n, admission_mode=mode)
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(ranking_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             print(json.dumps({k: ranking_report[k] for k in ("candidate_count", "selected_material_id", "selected_material_ids", "ranking_margin")}, ensure_ascii=False))
@@ -540,17 +594,17 @@ def main() -> None:
             records = json.loads(args.file.read_text(encoding="utf-8"))
             if not isinstance(records, list):
                 raise ValueError("candidate input must be a JSON array")
-            from .viral_admission import rank_materials
+            from .viral_admission import PRODUCTION_MODE, rank_materials
             from datetime import timezone
             as_of = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
             materials = [record.get("material", record) for record in records]
-            competition = rank_materials(materials, as_of=as_of, top_n=args.top_n)
+            competition = rank_materials(materials, as_of=as_of, admission_mode=PRODUCTION_MODE)
             prepared = []
             from .viral_admission import material_hash
             for record, material in zip(records, materials):
                 item = dict(record)
                 item.update(material_pool=materials, competition_as_of=as_of,
-                            admission_top_n=args.top_n,
+                            admission_mode=PRODUCTION_MODE,
                             material_id=material.get("material_id"), material_hash=material_hash(material))
                 prepared.append(prepare_candidate(item))
             args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-17T09:06:03.414030Z",
+  "updated_at": "2026-10-17T12:56:38.143594Z",
   "phase": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
   "checkpoints": {
     "environment_review": "done",
@@ -72,6 +72,34 @@
       "sample_limit": "single-domain convenience sample; six historical cases",
       "compileall": "PASS",
       "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/11"
+    },
+    "strict_viral_hunt_production_2026_10_17": {
+      "starting_main": "c6cef782fbb3e261dd943ab6b8e9e231903db671",
+      "policy": "VIRAL_ADMISSION_V3",
+      "preview": "PREVIEW_ONLY_TOP5_MIN1",
+      "production": "UNIQUE_TOP1_ONLY",
+      "absolute_min_pool": 10,
+      "target_raw_pool": 30,
+      "target_reviewed_pool": 20,
+      "min_under48h": 10,
+      "min_source_families": 4,
+      "scheduler_changed": true,
+      "scheduler_can_publish": false,
+      "automatic_x_submission": false,
+      "latest_run_completed_at": "2026-10-17T12:56:38.143594Z",
+      "real_materials": 83,
+      "deep_reviewed": 20,
+      "under48h": 65,
+      "source_family_counts": {"CHINESE_MEDIA": 7, "TELEGRAM": 23, "HACKER_NEWS": 31, "GITHUB": 20},
+      "top1": "D071e81714bf4d9be",
+      "top1_previews": 3,
+      "new_x_submissions": 0,
+      "unittest_passed": 111,
+      "pytest_passed": 111,
+      "compileall": "PASS",
+      "diff_check": "PASS",
+      "browser_harness": "CHROME_RUNNING_DAEMON_UNAVAILABLE",
+      "details": "docs/CODEX_VIRAL_HUNT.md"
     },
     "codex_viral_hunt_2026_10_17": {
       "starting_main": "a70a8aa7efcd483aa18fe2f55e7cfc4e407ce327",

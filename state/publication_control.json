@@ -1,11 +1,11 @@
 {
   "status": "ACTIVE",
   "mode": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
-  "reason": "USER_ADOPTED_CODEX_UPGRADE_2026_10_17",
-  "updated_at": "2026-10-17T09:06:03.414030Z",
-  "scope": "Public discovery, rewrite and qualified manual publication only. hunt never submits X; existing candidate holds remain.",
+  "reason": "STRICT_VIRAL_HUNT_PRODUCTION_COMPETITION_2026_10_17",
+  "updated_at": "2026-10-17T12:56:38.143594Z",
+  "scope": "Scheduled collection and preview are non-publishing. Production requires V3 multi-source deep review and unique Top1 before the existing manual publication chain.",
   "automatic_x_submission": false,
-  "scheduler_changed": false,
+  "scheduler_changed": true,
   "publication_requires": [
     "SOURCE_FACT_REVIEW",
     "READER_MODEL_SEMANTIC_INTEGRITY",

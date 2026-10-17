@@ -1,0 +1,213 @@
+{
+  "reviewer": "CODEX_EDITORIAL_REVIEW",
+  "reviewed_at": "2026-10-17T13:10:00Z",
+  "source_packet": "data/viral_feed/2026-10-17/1256.json",
+  "dimension_order": ["raw_material_strength", "surprise", "conflict", "self_insertion", "first_screen_stopping_power", "mass_relevance", "share_potential", "reply_potential"],
+  "records": [
+    {
+      "material_id": "D071e81714bf4d9be",
+      "ratings": [4, 1, 1, 4, 4, 4, 4, 4],
+      "evidence": ["跑了8天外卖挣的没有200块钱", "连着7天中午只吃了一个西红柿加一个鸡蛋", "我想交 可公司不交", "家里还有一个生病的老人", "宝妈外卖员绝望求助", "灵活就业人员/农民工/新就业形态人员", "分享了类似的艰难处境", "我想买, 公司不给买, 怎么办"],
+      "reasons": ["八天收入、三孩母亲和具体饮食构成可压缩的强事实动作。", "原文有困难累积但没有可靠反转，surprise只给低分。", "评论有分歧但原帖没有清晰双方责任冲突，conflict保守低评。", "普通读者能把收入、孩子和老人照护直接代入自己的家庭账本。", "首屏第一句同时出现身份、八天和不到200元，三秒内可理解。", "外卖收入和社保是大众日常议题，不需行业背景即可理解。", "读者会转发给做灵活就业或正在交社保的人，分享对象明确。", "想交但公司不交、不想交和想退保形成至少三个真实评论分叉。"],
+      "possible_reply_branches": ["想交但公司不交", "收入太低先顾生活", "个人不愿继续参保"],
+      "audience_distance": {"value": "NEAR", "evidence": "跑了8天外卖挣的没有200块钱", "reason": "收入、吃饭和社保都属于无需制度前情的日常生活成本。"},
+      "background_cost": {"value": "LOW", "evidence": "3孩母亲向网友哭诉求助", "reason": "人物和困境一句话即可交代，不必先解释复杂机构关系。"},
+      "hook": {"text": "跑了8天外卖挣的没有200块钱", "evidence": "跑了8天外卖挣的没有200块钱", "reason": "首屏保留时间和收入两个具体事实，不补结论。"},
+      "previews": [
+        {"id": "A", "primary_action": "REPLY", "text": "一位3孩母亲自述，跑了8天外卖，挣了不到200块钱。\n\n家里还有生病的老人。她说自己连续7天中午只吃一个西红柿加一个鸡蛋。\n\n评论区有人说：先把社保交一下。"},
+        {"id": "B", "primary_action": "REPLY", "text": "“我想交，可公司不交。”\n\n一位3孩母亲自述，跑了8天外卖还不到200块钱。另一条评论是：有点想退保了。"},
+        {"id": "C", "primary_action": "SHARE", "text": "跑外卖8天，不到200块钱。\n\n她问网友：“有没有好心的网友告诉我，我能干点啥？”\n\n家里还有3个孩子和一个生病的老人。"}
+      ]
+    },
+    {
+      "material_id": "Dfdccb9deb671f4f8",
+      "ratings": [3, 1, 3, 4, 3, 4, 3, 4],
+      "evidence": ["一位产后数月的27岁宝妈投递简历求职", "最终应聘了一则招油漆工的广告", "被HR以年龄为由拒绝", "女性求职者常被追问婚育状况", "27岁宝妈投递简历求职", "就业中的年龄限制", "遭遇歧视者诉诸劳动部门", "32岁以上女性应聘者需“慎重推荐”"],
+      "reasons": ["年龄、产后状态和求职动作具体，素材强度中高。", "结局有落差但原文没有清楚预期反差词，surprise保守低评。", "求职者与HR围绕年龄和婚育形成规则冲突。", "普通读者尤其女性求职者可直接代入面试中的婚育盘问。", "首屏可用27岁产后求职被拒，但当前摘要前情略长。", "年龄和婚育是大众就业议题，随机读者无需专业知识。", "适合转发给求职者核对招聘标准，但旧案例会降低分享新鲜度。", "年龄门槛、企业用人成本和反歧视立场形成评论分叉。"],
+      "possible_reply_branches": ["年龄限制就是歧视", "企业会考虑岗位连续性", "关键是岗位标准是否透明"],
+      "audience_distance": {"value": "NEAR", "evidence": "27岁宝妈投递简历求职", "reason": "求职和婚育盘问是普通职场经验。"},
+      "background_cost": {"value": "MEDIUM", "evidence": "作者由此引出另一桩案例", "reason": "摘要串联两个案例和法律观点，压缩前需要辨别案例边界。"},
+      "hook": {"text": "27岁宝妈投递简历求职", "evidence": "27岁宝妈投递简历求职", "reason": "具体年龄和动作可作为首屏事实。"}
+    },
+    {
+      "material_id": "D067e6d5a8db34392",
+      "ratings": [3, 1, 1, 2, 3, 2, 2, 3],
+      "evidence": ["那三辆被封存的尊界", "懂车帝只有道歉和整改才能脱身", "问你懂车帝要这三辆车，你是给还是不给", "很多人投鼠忌器", "官军下场，懂车帝不太妙", "汽车工业的规范", "前三场测评就会沦为悬疑鬼片", "前三次测评是否真实"],
+      "reasons": ["三辆封存车辆和测评争议提供了具体物证线索。", "作者判断多于可核反转，surprise不据此给高分。", "平台测评与调查机关对标准和证据控制存在规则冲突。", "普通读者可代入汽车安全，但政商分析提高代入距离。", "首屏有主体和风险，能停留但用语带强作者立场。", "汽车安全具大众关联，但长篇行业与权力背景限制mass范围。", "可转发给关注汽车测评的人，受众相对集中。", "平台测评可信度与国家标准权威形成不同评论立场和分叉。"],
+      "possible_reply_branches": ["以复测实物为准", "以国家标准为准", "先核验前三次测试流程"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "三辆被封存的尊界", "reason": "汽车安全直观，但具体测评史和监管关系需要上下文。"},
+      "background_cost": {"value": "HIGH", "evidence": "前三场测评是否有证", "reason": "理解文章需掌握多轮测评、涉事企业和调查语境。"},
+      "hook": {"text": "官军下场，懂车帝不太妙", "evidence": "官军下场，懂车帝不太妙", "reason": "第一句有主体和结果预期，但需去除作者定性后使用。"}
+    },
+    {
+      "material_id": "D5651a390b56c879f",
+      "ratings": [3, 1, 3, 2, 3, 2, 2, 3],
+      "evidence": ["刹车踏板支架断裂的问题", "江淮汽车的股价迅速涨停", "一方志在必得，一方偃旗息鼓", "我都无法接受塑料件做刹车踏板支架", "三部门联合调查有关刹车踏板支架断裂", "新能源汽车产业发展大局", "懂车帝还下架了尊界V800的测试视频", "最后会如何收场呢"],
+      "reasons": ["断裂部件、调查主体和公开回应构成可核材料。", "调查发布后结果是相关股价涨停，形成清楚预期反差。", "企业、测评平台和监管方之间存在标准与声誉利益冲突。", "普通读者能代入车辆安全，但技术材料判断仍需专业证据。", "首屏若直给断裂部件和三部门调查，停留力中高。", "车辆安全有大众性，具体品牌舆情和材料学降低广泛度。", "可转发给车主，但原文结论和技术断言需先核验。", "支持企业、支持测评和等待调查三种立场形成评论分叉。"],
+      "possible_reply_branches": ["相信联合调查", "相信独立测评", "先看复测和材料标准"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "刹车踏板支架断裂", "reason": "安全后果直观，但品牌舆情和材料标准需要背景。"},
+      "background_cost": {"value": "HIGH", "evidence": "此事刚开始很多人都说是江淮汽车", "reason": "文本依赖此前测评、企业回应和多轮舆情。"},
+      "hook": {"text": "刹车踏板支架断裂的问题", "evidence": "刹车踏板支架断裂的问题", "reason": "首屏直接出现具体故障，不用先铺品牌立场。"}
+    },
+    {
+      "material_id": "Df3d63e8b6b44e023",
+      "ratings": [4, 1, 1, 2, 4, 2, 3, 3],
+      "evidence": ["熊峰当律师了", "以警营初心，赴法治新程", "办理李庄案为何没有回避", "还有一个普通人的名字", "重庆打黑警察熊峰转行为刑辩律师", "刑事辩护", "同一个名字有另一种分量", "警察身份"],
+      "reasons": ["职业转换和公开履历形成非常具体的核心事实。", "材料本身有反差但该证据缺少可独立核验的反转过程，低评。", "办案回避争议与新职业之间形成规则冲突。", "普通读者理解职业反差容易，但案件历史复杂影响代入。", "首屏一句警察转刑辩律师，角色动作极强。", "职业伦理可理解，重庆打黑旧案前情限制大众覆盖。", "适合转发给法律从业者和关注旧案的人。", "职业转换、程序正义和既往指控形成多种评论立场分叉。"],
+      "possible_reply_branches": ["经验适合刑辩", "既往争议应先回应", "执业资格与道德判断分开"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "熊峰当律师了", "reason": "职业反差直观，但人物和旧案对多数读者陌生。"},
+      "background_cost": {"value": "HIGH", "evidence": "李庄案二审辩护词", "reason": "需要理解十多年前案件和多名当事人的指控边界。"},
+      "hook": {"text": "熊峰当律师了", "evidence": "熊峰当律师了", "reason": "首屏只有人物和职业变化，压缩后仍保留张力。"}
+    },
+    {
+      "material_id": "Dd46923fae87f5146",
+      "ratings": [3, 1, 1, 2, 3, 2, 2, 2],
+      "evidence": ["成立联合调查组开展核查", "官方首次公开明确的阶段性表态", "车企是否能够通过对供应商的管理", "公民生命财产安全", "刹车踏板支架断裂问题", "新能源汽车行业", "有关情况将及时公布", "营销宣传是否符合实际情况"],
+      "reasons": ["调查主体、故障部件和公开引语较完整。", "属于阶段性官方信息，没有明确预期反差结果。", "车企与供应商对一致性责任存在规则冲突。", "普通读者能理解安全风险，但监管条款降低直接代入。", "首屏可用具体部件和联合调查产生停留。", "汽车安全有一定大众性，专项行动细则背景较重。", "可转发给车主等待后续，但当前缺最终结果。", "责任在车企、供应商或测试流程之间存在有限评论分叉。"],
+      "possible_reply_branches": ["车企负主要责任", "供应商一致性是关键", "等待调查测试结论"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "公民生命财产安全", "reason": "后果直观，但监管文件和技术标准需要解释。"},
+      "background_cost": {"value": "HIGH", "evidence": "专项行动的重点整治问题", "reason": "原文大量列举专项行动条款，压缩成本高。"},
+      "hook": {"text": "刹车踏板支架断裂问题", "evidence": "刹车踏板支架断裂问题", "reason": "首屏保留具体故障对象。"}
+    },
+    {
+      "material_id": "De18d7f50f8e138d5",
+      "ratings": [4, 1, 1, 2, 4, 2, 3, 2],
+      "evidence": ["一本在旧书网上购得的油印讲义", "时隔60年", "因为中国对文革的禁忌症", "唯一的儿子", "1966年8月23日", "文学教授", "450页、有红色钢笔批注的讲义", "是什么让他决意赴死"],
+      "reasons": ["油印讲义、日期和寻访动作构成强档案素材。", "跨60年寻访有时间落差，但不是可快速表达的结果反转。", "个人档案寻找与公共禁忌之间存在有限规则冲突。", "普通读者可理解寻找家人记忆，历史距离仍较远。", "首屏日期、身份和旧讲义能形成强叙事停留。", "历史题材有公共价值，但不是低背景成本的大众即时议题。", "可转发给历史和家族记忆关注者，具体物件增强分享。", "如何讲述历史有立场差异，但即时评论分叉不强。"],
+      "possible_reply_branches": ["应公开更多个人档案", "先尊重家属边界"],
+      "audience_distance": {"value": "FAR", "evidence": "1966年8月23日", "reason": "历史事件重要但离当下日常经验较远。"},
+      "background_cost": {"value": "HIGH", "evidence": "试图一点点地拼凑出他的人生来", "reason": "人物生平和历史语境需要长篇阅读。"},
+      "hook": {"text": "油印讲义", "evidence": "一本在旧书网上购得的油印讲义", "reason": "首屏由具体物件开启寻访，不先下价值结论。"}
+    },
+    {
+      "material_id": "Dd8c7bc5a8fa798a8",
+      "ratings": [1, 1, 1, 1, 1, 1, 1, 1],
+      "evidence": ["每日一语", "每日一语 2026", "一语 2026", "2026.10", "2026.10.16", "10.16", "每日一语 2026.10", "语 2026.10.16"],
+      "reasons": ["只有栏目名和日期，没有事件。", "没有结果或反差。", "没有双方利益冲突。", "没有可供读者代入的生活动作。", "首屏没有具体人物或动作。", "日期不等于大众相关性。", "缺少可转发的信息增量。", "没有真实评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "FAR", "evidence": "每日一语", "reason": "无法判断与读者的具体关系。"},
+      "background_cost": {"value": "HIGH", "evidence": "2026.10.16", "reason": "正文缺失，无法靠现有文本理解。"},
+      "hook": {"text": "每日一语", "evidence": "每日一语", "reason": "仅能提取栏目名，不能构成生产钩子。"}
+    },
+    {
+      "material_id": "Dfee5fcf586b47c08",
+      "ratings": [3, 1, 1, 1, 3, 1, 2, 1],
+      "evidence": ["布加迪Chiron", "先抢他们, 再保护他们", "涉嫌监视赖清德之子案", "商业伙伴", "超跑照片牵出太子集团人物", "美方太子集团起诉书", "CBS追查", "共谋者二号"],
+      "reasons": ["超跑、人物关系和起诉书归因提供具体线索。", "指控严重但并非适合当反转消费，surprise低评。", "被指监视与执法指控存在冲突，但多为转述。", "国外政治与复杂人物链让普通读者难代入。", "首屏超跑照片和人物关系有停留力。", "复杂跨国指控不具低门槛大众相关性。", "可转发给关注案件者，但事实风险高。", "严重指控不适合用问题硬造评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "FAR", "evidence": "赖清德之子", "reason": "跨国政治人物与多层商业关系离日常经验远。"},
+      "background_cost": {"value": "HIGH", "evidence": "商业伙伴, 与太子集团相关人物", "reason": "至少四层人物关系和多份指控需要背景核验。"},
+      "hook": {"text": "超跑照片牵出太子集团人物", "evidence": "超跑照片牵出太子集团人物", "reason": "具体物件可停留，但不能省略指控归因。"}
+    },
+    {
+      "material_id": "De77f102e4eedcd73",
+      "ratings": [2, 1, 1, 2, 3, 2, 2, 1],
+      "evidence": ["两名男子分别倒在台阶旁和树旁", "人抓到了没有", "事件起因", "最近还是别去这个公园了", "湖南娄底孙水公园", "公园", "具体伤亡", "尚待核实"],
+      "reasons": ["地点和投稿所称现场动作具体，但尚未核实。", "没有可靠反转，不能因伤害画面给高分。", "起因和主体未知，无法建立事实冲突。", "普通读者能代入公共场所安全担忧。", "首屏地点和持刀事件有停留力，但风险高。", "公共安全可理解，信息缺口限制mass价值。", "可提醒当地人，但未核内容不宜扩散。", "事实未明，不应把问号当评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "MEDIUM", "evidence": "孙水公园", "reason": "本地公共安全直观，对非当地读者距离较远。"},
+      "background_cost": {"value": "LOW", "evidence": "具体伤亡/事件起因及嫌疑人是否被控制尚待核实", "reason": "事实结构简单，但关键字段缺失。"},
+      "hook": {"text": "湖南娄底孙水公园", "evidence": "湖南娄底孙水公园", "reason": "地点明确，但必须同时保留尚待核实。"}
+    },
+    {
+      "material_id": "D254f39b51bcccd05",
+      "ratings": [2, 1, 1, 2, 3, 2, 2, 1],
+      "evidence": ["货车冲入对向车道致1死2伤", "肇事司机已被警方控制", "多车相撞", "上海徐浦大桥", "上海徐浦大桥多车相撞", "警方通报", "重大事故", "货车"],
+      "reasons": ["事故地点、动作和伤亡数字具体。", "控制司机是进展，不构成可讨论反转。", "事故责任尚无足够双方证据。", "普通读者能代入道路安全，但没有个人选择。", "首屏地点和事故动作清楚，停留力中等。", "道路安全有大众性，单条通报信息增量有限。", "可做即时提醒，长期分享价值弱。", "事故是否严重不是意见分叉，reply低评。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "NEAR", "evidence": "上海徐浦大桥", "reason": "道路事故无需专业背景即可理解。"},
+      "background_cost": {"value": "LOW", "evidence": "1死2伤", "reason": "一条通报即可交代核心事实。"},
+      "hook": {"text": "货车冲入对向车道致1死2伤", "evidence": "货车冲入对向车道致1死2伤", "reason": "首屏是具体动作和伤亡数字。"}
+    },
+    {
+      "material_id": "Dcbdc2d1112563d4a",
+      "ratings": [2, 1, 1, 2, 3, 2, 2, 2],
+      "evidence": ["特斯拉 Roadster", "为什么是人家先想到", "只能跟着学", "网友亲自演示", "为什么能“吸”在路上", "原理很简单", "把原理讲得明明白白", "问题是"],
+      "reasons": ["产品、演示动作和问题具体，但正文依赖未看的视频。", "只有作者激将句，没有结果反转。", "不存在双方利益或规则冲突。", "普通读者能代入学习和模仿感受。", "首屏具体问车辆为何吸地，有一定停留力。", "汽车原理可懂但不是广泛日常利益。", "可转发给汽车爱好者，受众较窄。", "原创与学习的判断有有限评论分叉。"],
+      "possible_reply_branches": ["想到比原理更难", "工程实现才是难点"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "Roadster", "reason": "产品有知名度，具体空气动力原理仍需视频。"},
+      "background_cost": {"value": "HIGH", "evidence": "网友亲自演示", "reason": "视频未观看，文字不足以复原演示。"},
+      "hook": {"text": "为什么能“吸”在路上", "evidence": "为什么能“吸”在路上", "reason": "首屏问题具体，但不可替代视频核验。"}
+    },
+    {
+      "material_id": "De86479a2ed2bdee0",
+      "ratings": [3, 1, 1, 2, 3, 2, 2, 2],
+      "evidence": ["新增被执行约20.5亿元", "优势也可能变成包袱", "现金流和风险控制", "企业跑得太快", "公开累计金额超过490亿元", "企业做大后", "最该守住的底线", "你觉得企业做大后"],
+      "reasons": ["两组执行金额和企业转型路径具体，但需核对公告。", "规模优势变包袱构成经营预期反差。", "扩张目标与现金流责任形成利益冲突。", "普通读者可代入负债和风险，但企业体量较远。", "首屏若直给20.5亿与490亿有停留力。", "企业债务可理解，具体集团史降低大众覆盖。", "可转发给经营者，普通关系场景较弱。", "扩张优先还是现金流优先形成有限评论分叉。"],
+      "possible_reply_branches": ["扩张阶段允许高负债", "现金流应先于规模", "先区分公司与个人债务"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "现金流和风险控制", "reason": "债务概念易懂，但大型集团结构离个人生活有距离。"},
+      "background_cost": {"value": "MEDIUM", "evidence": "宝万之争", "reason": "需要少量企业历史才能理解金额来源。"},
+      "hook": {"text": "新增被执行约20.5亿元", "evidence": "新增被执行约20.5亿元", "reason": "首屏可见具体新增金额。"}
+    },
+    {
+      "material_id": "D2be57fc4aad5f817",
+      "ratings": [3, 1, 1, 3, 3, 3, 3, 1],
+      "evidence": ["15个省份5696名参与者", "全国前列", "统计关联", "江浙沪人群", "血清中多种有害化学物质", "高血压/糖尿病/肥胖", "并不意味着江浙沪所有居民", "不能据此认定"],
+      "reasons": ["样本量、地区和化学物质均具体，摘要保留了限制。", "地区排序不是人性反转，surprise低评。", "没有人物之间的利益冲突。", "普通读者尤其江浙沪居民会代入健康风险。", "首屏地区和血清检测有停留力。", "健康暴露有大众性，但统计关联需要谨慎解释。", "可转发给当地居民并同时保留研究限制。", "对风险解释有分歧，但不适合硬凑健康评论问题。"],
+      "possible_reply_branches": ["关注环境暴露", "不能把统计关联当因果"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "江浙沪人群", "reason": "健康与地域直接相关，但研究统计需要背景。"},
+      "background_cost": {"value": "MEDIUM", "evidence": "统计关联", "reason": "必须解释关联不等于超标或因果。"},
+      "hook": {"text": "15个省份5696名参与者", "evidence": "15个省份5696名参与者", "reason": "首屏用样本范围替代恐慌结论。"}
+    },
+    {
+      "material_id": "D84aa498c136dfdcd",
+      "ratings": [3, 1, 1, 2, 4, 2, 3, 3],
+      "evidence": ["restaurant group", "hedge playoff risk", "$60k Dodgers bet", "restaurant", "used $60k Dodgers bet", "playoff", "Kalshi says", "bet to hedge"],
+      "reasons": ["餐厅、六万美元下注和对冲目的形成具体事件。", "下注不是赌博冲动而是经营对冲，形成明确预期反差。", "餐厅营收风险与下注成本形成利益冲突。", "普通读者能理解比赛带来的客流风险，但美国餐饮背景稍远。", "首屏六万美元下注和餐厅两个元素有强停留力。", "经营对冲易懂，职业和地区背景限制大众范围。", "可转发给做生意或关注体育的人，分享对象明确。", "这是风险管理还是赌博形成真实评论分叉。"],
+      "possible_reply_branches": ["这是合理对冲", "企业不该用下注管理经营", "要看赔率和损失上限"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "LA restaurant group", "reason": "生意风险易懂，但美国季后赛和预测市场需要一点背景。"},
+      "background_cost": {"value": "MEDIUM", "evidence": "hedge playoff risk", "reason": "需要一句解释比赛结果如何影响餐厅营收。"},
+      "hook": {"text": "used $60k Dodgers bet", "evidence": "used $60k Dodgers bet", "reason": "首屏金额、球队和动作完整。"}
+    },
+    {
+      "material_id": "Db1c72563bdbe18c2",
+      "ratings": [3, 1, 1, 3, 3, 2, 3, 4],
+      "evidence": ["trusting LLMs for writing production code", "forcing you to use LLMs", "beyond your trust in it", "team norms", "review line by line", "industry changes", "brought more excitement", "agentic code/PR/fix loops"],
+      "reasons": ["五种使用层级和团队压力问题具体。", "这是调查提问而非结果反转，surprise低评。", "个人信任与团队效率要求形成真实目标冲突。", "普通技术读者可代入工作流程，非技术大众距离较远。", "首屏直接问生产代码信任程度，停留力中等。", "软件从业者相关性高，不代表随机中文读者大众相关。", "可转发给同事比较团队规范，分享对象明确。", "逐行审查、只审设计和代理闭环构成多个评论分叉。"],
+      "possible_reply_branches": ["只把LLM当聊天助手", "逐行审查生成代码", "主要审设计和测试"],
+      "audience_distance": {"value": "FAR", "evidence": "production code", "reason": "对软件工程师近，对账号的大众中文读者远。"},
+      "background_cost": {"value": "MEDIUM", "evidence": "agentic code/PR/fix loops", "reason": "需要理解代码审查和代理工作流。"},
+      "hook": {"text": "trusting LLMs", "evidence": "trusting LLMs for writing production code", "reason": "首屏问题直接但属于窄行业。"}
+    },
+    {
+      "material_id": "D6b10edb38f7953be",
+      "ratings": [2, 1, 1, 2, 3, 2, 2, 2],
+      "evidence": ["90% of US working hours", "not covered well", "AI benchmarks", "US working hours", "90%", "tasks", "covered well by AI", "benchmarks"],
+      "reasons": ["90%数字和基准覆盖范围明确，但只有标题摘要。", "没有结果反转证据。", "没有呈现双方利益冲突。", "普通上班族可代入工作任务，但美国样本和方法未知。", "首屏90%数字有停留力，仍需打开研究核验。", "工作与AI有广泛关联，单标题不足以支撑高mass评分。", "可转发给关注AI工作影响的人，证据细节不足。", "基准是否代表工作有有限评论分叉。"],
+      "possible_reply_branches": ["现有基准低估工作", "工作任务不等于可自动化"],
+      "audience_distance": {"value": "MEDIUM", "evidence": "working hours", "reason": "工作时间直观，但美国研究范围需要解释。"},
+      "background_cost": {"value": "HIGH", "evidence": "AI benchmarks", "reason": "没有方法摘要，必须阅读全文才能判断90%的含义。"},
+      "hook": {"text": "90% of US working hours", "evidence": "90% of US working hours", "reason": "首屏数字明确但不能单独当结论。"}
+    },
+    {
+      "material_id": "D011f4fe70a62a1fe",
+      "ratings": [2, 1, 1, 1, 3, 1, 2, 1],
+      "evidence": ["Five years in orbit", "Mission complete", "there's nothing I can do", "Planet Earth is blue", "floating 'round my tin can", "Earth is blue", "Far above the moon", "Five years"],
+      "reasons": ["五年支持周期和终止发布是具体产品事件。", "用太空歌词宣布任务结束形成轻微表达反差。", "没有双方利益或规则冲突。", "只对仍使用Python 3.10的技术用户直接相关。", "首屏歌词有停留感，但版本事实没有在正文直说。", "窄技术版本生命周期不具大众相关性。", "可转发给维护旧Python项目的同事。", "升级与否是技术决策，不是强社会评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "FAR", "evidence": "Five years in orbit", "reason": "只有熟悉版本生命周期的开发者能立即理解。"},
+      "background_cost": {"value": "HIGH", "evidence": "Mission complete", "reason": "正文是隐喻，需结合发布标题才知道终止支持。"},
+      "hook": {"text": "Five years in orbit", "evidence": "Five years in orbit", "reason": "首屏有表达特色但事实信息不足。"}
+    },
+    {
+      "material_id": "D38a5c87a8693fe60",
+      "ratings": [2, 1, 1, 1, 2, 1, 2, 1],
+      "evidence": ["add safety identifiers", "3.33.0", "image requests and responses", "Decisions cache", "2026-10-16", "api", "share Decisions", "breakpoint parameter type"],
+      "reasons": ["版本、发布日期和两个改动项具体。", "常规发布没有反转。", "没有社会利益冲突。", "只对使用该SDK的开发者可代入。", "首屏版本号和功能可识别，停留力有限。", "API更新不具随机中文读者大众相关性。", "可转发给依赖该SDK的开发团队。", "没有自然社会评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "FAR", "evidence": "api", "reason": "需要特定SDK使用背景。"},
+      "background_cost": {"value": "HIGH", "evidence": "Decisions cache breakpoint parameter type", "reason": "需要理解SDK类型和接口上下文。"},
+      "hook": {"text": "add safety identifiers", "evidence": "add safety identifiers", "reason": "功能明确但不适合账号大众首屏。"}
+    },
+    {
+      "material_id": "D28d37e6550f294b0",
+      "ratings": [1, 1, 1, 1, 1, 1, 1, 1],
+      "evidence": ["Python", "3.16", "16.0", "0a1", "Python 3", "3.16.0", "16.0a1", "Python 3.16.0a1"],
+      "reasons": ["只有版本名，没有功能或事件内容。", "原文没有任何结果反转信息。", "原文没有双方利益或规则冲突。", "没有普通读者可代入的日常动作。", "版本号本身缺少首屏停留力。", "单一开发版本不具大众相关性。", "正文缺少可供转发的信息增量。", "原文没有真实不同评论分叉。"],
+      "possible_reply_branches": [],
+      "audience_distance": {"value": "FAR", "evidence": "Python", "reason": "仅特定开发者认识该版本。"},
+      "background_cost": {"value": "HIGH", "evidence": "3.16.0a1", "reason": "没有发行说明，无法判断变化。"},
+      "hook": {"text": "Python 3.16.0a1", "evidence": "Python 3.16.0a1", "reason": "只能用版本号，不能形成账号选题。"}
+    }
+  ]
+}

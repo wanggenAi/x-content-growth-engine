@@ -1,4 +1,14 @@
-# Latest checkpoint — 2026-10-17T09:06:03.414030Z / Codex viral hunt upgrade
+# Latest checkpoint — 2026-10-17T12:56:38.143594Z / strict Viral Hunt production repair
+
+Starting main `c6cef782fbb3e261dd943ab6b8e9e231903db671`. `VIRAL_ADMISSION_V3` removes singleton/Top5 production admission. Preview remains small-pool Top5; production enforces distinct>=10, raw>=30, grounded deep reviews>=20, under48h>=10 and source families>=4, with only unique Top1 admitted. Automatic screen scores no longer fill formal ratings. Repeated reason/evidence and plain-number bonus paths are blocked.
+
+Scheduled GitHub Actions collection now runs every four hours, with read-only repository permission and explicit no-publication assertions. The actual on-demand run completed at `2026-10-17T12:56:38.143594Z`:83 materials,65 under48h, families Chinese media7/Telegram23/Hacker News31/GitHub20, errors0. Twenty materials received explicit Codex deep review. Top1 `D071e81714bf4d9be`; three dry-run previews passed Human Style;0 READY and0 X submissions. Browser Harness remained unavailable because its daemon had no active connection; public no-login sources were used.
+
+Local unittest111, pytest111, compileall and diff/JSON checks passed. Final CI/merge is recorded in the task result. Evidence:`docs/CODEX_VIRAL_HUNT.md`, `data/viral_feed/2026-10-17/1256.json`, `data/viral_hunt_deep_reviews_2026-10-17.json`, `data/viral_hunt_validation_2026-10-17.json`.
+
+---
+
+# Historical checkpoint — 2026-10-17T09:06:03.414030Z / Codex viral hunt upgrade
 
 Direct user request adopts `/Users/seker./Downloads/claude_x_upgrade_prompts.md` with Codex as executor. Starting main `a70a8aa7efcd483aa18fe2f55e7cfc4e407ce327`, branch `feature/codex-viral-hunt`. Current mode ACTIVE_VIRAL_HUNTING_AND_REWRITE supersedes the previous topic-review pause and minimum-ten/margin5 policy. MIN_POOL1, MIN_TOPIC62, defaultTop5 and parallel qualified admissions implemented. No previous post/candidate record is silently migrated, edited or republished.
 

@@ -1,6 +1,27 @@
 {
-  "schema_version": "viral_feed_v1",
-  "run_required": [
+  "schema_version": "viral_feed_v3_with_v1_legacy",
+  "current_packet_schema": "VIRAL_FEED_PACKET_V3",
+  "current_packet_required": [
+    "schema_version",
+    "as_of",
+    "collection",
+    "source_families",
+    "source_family_counts",
+    "duplicates",
+    "errors",
+    "materials",
+    "top20_preview",
+    "collector_health",
+    "automatic_x_submission",
+    "publication_triggered"
+  ],
+  "current_safety_contract": {
+    "admission_mode": "PREVIEW_ONLY",
+    "automatic_x_submission": false,
+    "publication_triggered": false,
+    "search_leads_require": "ORIGINAL_PAGE_CHECKED"
+  },
+  "legacy_v1_run_required": [
     "schema_version",
     "run_id",
     "started_at",
