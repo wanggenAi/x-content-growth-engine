@@ -85,6 +85,18 @@ class DiscoveryTests(unittest.TestCase):
         self.assertFalse(reddit_authorized(rights, ['other'], AS_OF))
         self.assertFalse(reddit_authorized({**rights,'expires_at':'2026-10-16T02:00:00Z'}, ['China_irl'], AS_OF))
 
+    def test_authorized_hot_and_daily_top_routes_are_both_supported(self):
+        rights = {'verified':True,'rights_reference':'grant','expires_at':'2027-01-01T00:00:00Z','subreddits':['China_irl']}
+        urls = []
+        def fetch(url):
+            urls.append(url)
+            return '{"data":{"children":[]}}'
+        for order in ['hot', 'top']:
+            auto_discover_materials(rss_urls=[], reddit_communities=['China_irl'],reddit_authorization=rights,
+                reddit_sort=order, as_of=AS_OF,fetcher=fetch)
+        self.assertIn('/hot.json?limit=20',urls[0])
+        self.assertIn('/top.json?t=day',urls[1])
+
     def test_network_boundary_rejects_private_x_credentials_and_dtd(self):
         for url in ['http://example.com', 'https://x.com/a', 'https://user:pass@example.com', 'https://reddit.com/r/a']:
             with self.subTest(url=url), self.assertRaises(ValueError): _public_url(url)

@@ -58,7 +58,7 @@ def plain_text(value: str) -> str:
 
 
 def source_time(value: str | None) -> str | None:
-    if not value:
+    if not isinstance(value, str) or not value:
         return None
     try:
         dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
@@ -213,10 +213,12 @@ def reddit_authorized(record: dict | None, communities: list[str], as_of: str) -
 
 
 def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_communities=(),
-                            reddit_authorization=None, seen_hashes=(), limit=20, as_of=None, fetcher=None) -> dict:
+                            reddit_authorization=None, reddit_sort="top", seen_hashes=(), limit=20, as_of=None, fetcher=None) -> dict:
     """Collect bounded public leads. Exact dedup is never semantic novelty proof."""
     if not 1 <= limit <= 100:
         raise ValueError("limit must be between 1 and 100")
+    if reddit_sort not in {"top", "hot"}:
+        raise ValueError("reddit_sort must be top or hot")
     now = as_of or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     sources = [("rss", url) for url in (DEFAULT_RSS if rss_urls is None else rss_urls)]
     for channel in telegram_channels:
@@ -228,7 +230,8 @@ def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_commu
     elif authorized:
         for community in reddit_communities:
             if not re.fullmatch(r"[A-Za-z0-9_]{2,64}", community): raise ValueError("invalid subreddit")
-            sources.append(("reddit", f"https://www.reddit.com/r/{community}/top.json?t=day&limit=20"))
+            query = "t=day&limit=20" if reddit_sort == "top" else "limit=20"
+            sources.append(("reddit", f"https://www.reddit.com/r/{community}/{reddit_sort}.json?{query}"))
     if len(sources) > 12: raise ValueError("at most 12 source requests per run")
     materials = []; seen = set(seen_hashes); urls = set(); duplicates = 0; requests = 0
     for kind, url in sources:

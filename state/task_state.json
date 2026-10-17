@@ -86,9 +86,15 @@
       "new_x_submissions": 0,
       "scheduler_changed": false,
       "reddit_live_requests": 0,
-      "pytest_passed": 102,
+      "pytest_passed": 103,
       "details": "docs/CODEX_VIRAL_HUNT.md",
-      "ci": "PENDING",
+      "ci": {
+        "status": "SUCCESS",
+        "implementation_commit": "e4a2210692288330bc44bdc1fdb66dcd101018b8",
+        "implementation_tests": 102,
+        "push_run": 39020014930,
+        "pr_run": 39020037210
+      },
       "collection": {
         "latest_run_completed_at": "2026-10-17T09:06:16.688262Z",
         "attempted_sources": 3,
@@ -106,9 +112,10 @@
       "style_previews_held": 1,
       "smoke_summary": "data/codex_hunt_smoke_2026-10-17.json",
       "audit": "isolated seed audit executes; historical sample limitations retained",
-      "unittest_passed": 102,
+      "unittest_passed": 103,
       "compileall": "PASS",
-      "diff_check": "PASS"
+      "diff_check": "PASS",
+      "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/12"
     }
   },
   "counts": {

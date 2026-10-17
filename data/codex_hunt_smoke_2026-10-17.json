@@ -133,8 +133,8 @@
     "CLI ranking local variable shadowed report()/audit(), fixed and regression-tested"
   ],
   "validation": {
-    "pytest_passed": 102,
-    "unittest": "102 PASSED",
+    "pytest_passed": 103,
+    "unittest": "103 PASSED",
     "compileall": "PASS",
     "audit": "Isolated seed SQLite audit executes: seven public index records, seven observations; stale index/unknown followers/insufficient sample limitations remain, not current source feed validation."
   },

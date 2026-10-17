@@ -417,6 +417,7 @@ def main() -> None:
     hunt_parser.add_argument("--rss", action="append", help="public RSS/Atom URL; repeatable")
     hunt_parser.add_argument("--telegram", action="append", default=[], help="public channel name")
     hunt_parser.add_argument("--reddit", action="append", default=[], help="requires a verified use-rights record")
+    hunt_parser.add_argument("--reddit-sort", choices=("top", "hot"), default="top")
     hunt_parser.add_argument("--reddit-authorization", type=Path)
     hunt_parser.add_argument("--materials", type=Path, help="offline material array or discovery packet")
     hunt_parser.add_argument("--top-n", type=int, default=5)
@@ -509,7 +510,7 @@ def main() -> None:
             else:
                 rights = json.loads(args.reddit_authorization.read_text()) if args.reddit_authorization else None
                 result = hunt(rss_urls=args.rss, telegram_channels=args.telegram, reddit_communities=args.reddit,
-                              reddit_authorization=rights, top_n=args.top_n, limit=args.limit)
+                              reddit_authorization=rights, reddit_sort=args.reddit_sort, top_n=args.top_n, limit=args.limit)
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
             print(json.dumps({"drafts": len(result["drafts"]), "held": len(result["held_drafts"]),
