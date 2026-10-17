@@ -1,3 +1,21 @@
+# 2026-10-17 — Codex active hunting and rewrite
+
+Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
+
+Codex may proactively search public web results, read permitted public RSS/Atom and Telegram previews, use free built-in discovery scripts, and prepare source-attributed drafts. Search results are usable discovery evidence with method and capture time; they are not direct-X observations or independent factual corroboration. Supported modes: high-interest source refinement with attribution; multi-source lead checking; an outside-platform perspective on a documented domestic event. No whole-article copying, fabricated first-person experience, invented metrics or unsubstantiated censorship claims.
+
+Missing ratings can receive labelled structural estimates. `VIRAL_ADMISSION_V2` uses MIN_POOL=1, topic>=62 and default Top5; margin is informational. Human Style, fact locks, semantic binding, source-fact review, provenance and exact prepublish checks remain. Claims of deletion/restriction require specific supporting evidence; this is not a universal requirement for ordinary social/human-interest topics.
+
+The `hunt` command never submits X. ACTIVE permits research, rewrite and qualified manual publication through existing controls, not an unattended publisher. Existing scheduler settings are not changed by this engineering round. Reddit remains unavailable without verified authorization/use-rights evidence. Ordinary public HTTP requires no session, cookies, paid service or new subscription. Manual X capture remains compatible and its genuine human-check field is not auto-filled.
+
+## Public-source implementation review
+
+`growth_engine/discovery.py` uses only standard-library public HTTPS requests. It reads at most 12 configured sources/run, <=2MB/response, with 12-second request timeouts and per-source errors. No account state, Cookie header or credentials are used. RSS and public Telegram previews were actually read in the smoke run; access is free and no new integration/service was purchased. Existing local network routing is respected. Custom endpoints reject private/local destinations; known public CDT/Telegram hosts authenticate through HTTPS. Failed direct requests may be inspected with the existing browser-harness/Chrome workflow. Current harness doctor: Chrome running, daemon unavailable; no account/browser action succeeded during this round.
+
+Reddit hot/top JSON parsing exists behind a checked authorization record (scope, rights reference, expiry). No Reddit network call was made in the live smoke run. An access-denied or login page is a failure, not a reason to extract cookies or bypass controls. X search queries are generated for discovery; this collector never requests X endpoints. Existing separately scoped visible account actions below remain distinct from discovery.
+
+Fetching a feed entry sets SOURCE_CHECKED only for the recorded retrieval scope (`PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED`). It leaves `fact_verification=UNVERIFIED`, human_checked=false, original event time unknown and media_inspected=false where relevant. Exact-hash dedup records its scope; it does not claim semantic novelty or copyright permission.
+
 # Browser research permission gate
 
 Reviewed 2026-09-29. The local Browser Harness CLI reported version 0.1.13, a live Chrome connection and a working navigation to a non-X test page. It subsequently opened the project's local capture form and submitted one synthetic record to a temporary database. No X session, login state or account permission was inspected or assumed. One initial navigation timed out while the temporary server was starting; retry succeeded after the server was listening. Local UI testing yielded one synthetic test record, zero research samples.

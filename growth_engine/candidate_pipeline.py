@@ -28,9 +28,8 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
         raise ValueError("candidate text is required")
     if not isinstance(locked_facts, Mapping) or not locked_facts:
         raise ValueError("locked_facts are required before Human Style")
-    # Topic admission happens before Human Style.  A missing competition pool
-    # is an explicit hold; it must never silently become a single-candidate
-    # first-pass publication.
+    # Topic admission happens before Human Style. V2 accepts a real one-item
+    # pool; a fabricated count or unbound draft still cannot replace evidence.
     admission = candidate_admission(result)
     result["viral_admission"] = admission
     semantic = reader_model_semantic_integrity(result)

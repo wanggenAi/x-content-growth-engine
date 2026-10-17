@@ -407,10 +407,24 @@ def main() -> None:
     prepare_parser = sub.add_parser("prepare-candidates")
     prepare_parser.add_argument("file", type=Path)
     prepare_parser.add_argument("--output", required=True, type=Path)
+    prepare_parser.add_argument("--top-n", type=int, default=5)
     ranking_parser = sub.add_parser("rank-materials")
     ranking_parser.add_argument("file", type=Path)
     ranking_parser.add_argument("--output", required=True, type=Path)
     ranking_parser.add_argument("--as-of")
+    ranking_parser.add_argument("--top-n", type=int, default=5)
+    hunt_parser = sub.add_parser("hunt", help="Codex public-source discovery, ranking and checked draft previews; never posts")
+    hunt_parser.add_argument("--rss", action="append", help="public RSS/Atom URL; repeatable")
+    hunt_parser.add_argument("--telegram", action="append", default=[], help="public channel name")
+    hunt_parser.add_argument("--reddit", action="append", default=[], help="requires a verified use-rights record")
+    hunt_parser.add_argument("--reddit-sort", choices=("top", "hot"), default="top")
+    hunt_parser.add_argument("--reddit-authorization", type=Path)
+    hunt_parser.add_argument("--materials", type=Path, help="offline material array or discovery packet")
+    hunt_parser.add_argument("--top-n", type=int, default=5)
+    hunt_parser.add_argument("--limit", type=int, default=20)
+    hunt_parser.add_argument("--output", type=Path, default=Path("data/private/hunt/latest.json"))
+    search_parser = sub.add_parser("search-queries")
+    search_parser.add_argument("category", nargs="?", default="all")
     reader_importer = sub.add_parser("import-reader-annotations")
     reader_importer.add_argument("file", type=Path)
     reader_parser = sub.add_parser("reader-packet")
@@ -479,6 +493,33 @@ def main() -> None:
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             parser.exit(1, f"editorial gate failed: {exc}\n")
         return
+    if args.command == "search-queries":
+        from .capture import build_search_queries
+        try:
+            print(json.dumps({"executor": "Codex", "queries": build_search_queries(args.category)}, ensure_ascii=False))
+        except ValueError as exc:
+            parser.exit(1, str(exc)+"\n")
+        return
+    if args.command == "hunt":
+        try:
+            from .hunt import hunt, hunt_materials
+            if args.materials:
+                packet = json.loads(args.materials.read_text(encoding="utf-8"))
+                materials = packet.get("materials") if isinstance(packet, dict) else packet
+                result = hunt_materials(materials, top_n=args.top_n)
+            else:
+                rights = json.loads(args.reddit_authorization.read_text()) if args.reddit_authorization else None
+                result = hunt(rss_urls=args.rss, telegram_channels=args.telegram, reddit_communities=args.reddit,
+                              reddit_authorization=rights, reddit_sort=args.reddit_sort, top_n=args.top_n, limit=args.limit)
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+            print(json.dumps({"drafts": len(result["drafts"]), "held": len(result["held_drafts"]),
+                              "selected": result["ranking"]["selected_material_ids"], "publication_allowed": False,
+                              "collection": result.get("collection"), "errors": result.get("errors", []),
+                              "output": str(args.output)}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            parser.exit(1, f"hunt failed: {exc}\n")
+        return
     if args.command == "rank-materials":
         try:
             from .viral_admission import rank_materials
@@ -487,10 +528,10 @@ def main() -> None:
             records = packet.get("materials") if isinstance(packet, dict) else packet
             as_of = args.as_of or (packet.get("as_of") if isinstance(packet, dict) else None)
             as_of = as_of or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-            report = rank_materials(records, as_of=as_of)
+            ranking_report = rank_materials(records, as_of=as_of, top_n=args.top_n)
             args.output.parent.mkdir(parents=True, exist_ok=True)
-            args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            print(json.dumps({k: report[k] for k in ("candidate_count", "selected_material_id", "ranking_margin")}, ensure_ascii=False))
+            args.output.write_text(json.dumps(ranking_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(json.dumps({k: ranking_report[k] for k in ("candidate_count", "selected_material_id", "selected_material_ids", "ranking_margin")}, ensure_ascii=False))
         except (OSError, ValueError, TypeError, KeyError) as exc:
             parser.exit(1, f"material ranking failed: {exc}\n")
         return
@@ -503,12 +544,13 @@ def main() -> None:
             from datetime import timezone
             as_of = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
             materials = [record.get("material", record) for record in records]
-            competition = rank_materials(materials, as_of=as_of)
+            competition = rank_materials(materials, as_of=as_of, top_n=args.top_n)
             prepared = []
             from .viral_admission import material_hash
             for record, material in zip(records, materials):
                 item = dict(record)
                 item.update(material_pool=materials, competition_as_of=as_of,
+                            admission_top_n=args.top_n,
                             material_id=material.get("material_id"), material_hash=material_hash(material))
                 prepared.append(prepare_candidate(item))
             args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -516,6 +558,7 @@ def main() -> None:
             print(json.dumps({"prepared": len(prepared),
                               "ready": sum(row.get("state") == "READY_FOR_MANUAL_PUBLISH" for row in prepared),
                               "candidate_count": competition["candidate_count"],
+                              "selected_material_ids": competition["selected_material_ids"],
                               "top1": competition["top1"].get("material_id") if competition["top1"] else None,
                               "output": str(args.output)}, ensure_ascii=False))
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:

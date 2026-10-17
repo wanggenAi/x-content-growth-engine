@@ -1,4 +1,4 @@
-"""Local, manual-only X research capture form."""
+"""Compatible manual X form and public-source discovery entry points."""
 
 from __future__ import annotations
 
@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+
+from .discovery import auto_discover_materials, build_search_queries
 
 
 FORM = """<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

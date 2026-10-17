@@ -84,12 +84,13 @@ class TopicCompetitionTests(unittest.TestCase):
     def pool(self):
         return [material('m'+str(i), 1) for i in range(10)] + [material('winner',4)]
 
-    def test_first_pass_trap_selects_later_stronger_material(self):
+    def test_ranking_keeps_stronger_first_but_admits_other_qualified_material(self):
         pool = self.pool()
         pool[0] = material('first', 3)  # Individually passes; still must lose.
         self.assertTrue(score_material(pool[0],as_of=AS_OF)['admitted'])
         report = rank_materials(pool,as_of=AS_OF)
         self.assertEqual(report['selected_material_id'],'winner')
+        self.assertIn('first', report['selected_material_ids'])
         self.assertEqual(report,rank_materials(list(reversed(pool)),as_of=AS_OF) | {'pool_hash':report['pool_hash']})
 
     def test_missing_pool_and_hand_filled_rank_cannot_reach_ready(self):
@@ -117,7 +118,9 @@ class TopicCompetitionTests(unittest.TestCase):
         near=material(); far=deepcopy(near)
         far['review']['audience_distance']['value']='FAR'
         far['review']['background_cost']['value']='HIGH'
-        self.assertGreater(score_material(near,as_of=AS_OF)['topic_strength'],score_material(far,as_of=AS_OF)['topic_strength']+30)
+        self.assertGreater(score_material(near,as_of=AS_OF)['topic_strength'],score_material(far,as_of=AS_OF)['topic_strength'])
+        self.assertEqual(score_material(far,as_of=AS_OF)['penalties']['distance'], 8)
+        self.assertEqual(score_material(far,as_of=AS_OF)['penalties']['background'], 8)
         # A far-away story with an exceptional hook may still compete.
         far['review']['background_cost']['value']='LOW'
         self.assertTrue(score_material(far,as_of=AS_OF)['admitted'])
@@ -138,7 +141,7 @@ class TopicCompetitionTests(unittest.TestCase):
         p=prepare_candidate(candidate());p['material_pool'][1]['review']['raw_material_strength']['rating']=4
         self.assertFalse(validate_candidate(p).ready)
 
-    def test_missing_evidence_unknown_time_synthetic_and_close_ranking_hold(self):
+    def test_missing_evidence_time_and_synthetic_hold_but_close_ranking_admits(self):
         m=material();m['review']['mass_relevance']['evidence']='no matching evidence'
         self.assertFalse(score_material(m,as_of=AS_OF)['admitted'])
         m=material();m['source']['published_at']=None
@@ -146,19 +149,19 @@ class TopicCompetitionTests(unittest.TestCase):
         pool=self.pool();pool[0]['fixture_type']='SYNTHETIC_TEST_FIXTURE'
         self.assertIsNone(rank_materials(pool,as_of=AS_OF)['selected_material_id'])
         pool=self.pool();pool[0]=material('near_tie',4)
-        self.assertIsNone(rank_materials(pool,as_of=AS_OF)['selected_material_id'])
+        self.assertEqual(set(rank_materials(pool,as_of=AS_OF)['selected_material_ids']), {'near_tie','winner'})
 
     def test_material_draft_cannot_be_swapped_after_ranking(self):
         p=prepare_candidate(candidate());p['draft_text_before_human_style']='另一篇帖子'
         self.assertIn('MATERIAL_DRAFT_MISMATCH',candidate_admission(p)['reasons'])
 
-    def test_ten_fresh_sources_must_also_have_grounded_reviews(self):
+    def test_missing_rating_is_estimated_without_minimum_ten_fresh_lock(self):
         pool = self.pool()
         pool[0]['review'].pop('mass_relevance')
         pool[1]['source']['published_at'] = '2026-10-10T00:00:00Z'
         report = rank_materials(pool, as_of=AS_OF)
-        self.assertEqual(report['reviewed_under48h_count'], 9)
-        self.assertFalse(report['competition_passed'])
+        self.assertEqual(report['reviewed_under48h_count'], 10)
+        self.assertTrue(report['competition_passed'])
 
     def test_contaminated_winner_never_enters_human_style(self):
         c = candidate(); c['reader_model'] = good_profile()
@@ -170,8 +173,13 @@ class TopicCompetitionTests(unittest.TestCase):
     def test_saved_real_dry_run_and_ranking_are_reproducible(self):
         packet = json.loads(Path('data/viral_admission_challenge_2026-10-16.json').read_text())
         saved = json.loads(Path('data/viral_admission_ranking_2026-10-16.json').read_text())
-        self.assertEqual(saved, rank_materials(packet['materials'], as_of=packet['as_of']))
+        self.assertEqual(saved['version'], 'VIRAL_ADMISSION_V1')  # Historical policy snapshot, never overwritten.
+        current = rank_materials(packet['materials'], as_of=packet['as_of'])
+        self.assertEqual(current, rank_materials(packet['materials'], as_of=packet['as_of']))
+        self.assertEqual(current['version'], 'VIRAL_ADMISSION_V2')
         dry = json.loads(Path('data/viral_admission_dry_run_2026-10-16.json').read_text())
+        self.assertFalse(validate_candidate(dry).ready)  # V1 admission cannot masquerade as current V2.
+        dry = prepare_candidate(dry)
         self.assertTrue(validate_candidate(dry).ready)
         self.assertEqual(dry['publication_mode'], 'DRY_RUN_ONLY')
         self.assertFalse(pre_publish_assert(dry, dry['text'], dry_run=True)['publication_allowed'])
@@ -198,15 +206,16 @@ class TopicCompetitionTests(unittest.TestCase):
             self.assertEqual(run.returncode, 0, run.stderr)
             result = json.loads(output.read_text())
         ready = [c['material_id'] for c in result if c['state'] == 'READY_FOR_MANUAL_PUBLISH']
-        self.assertEqual(ready, ['cli9'])
+        self.assertEqual(ready, ['cli0', 'cli9'])  # Both exceed the user-selected absolute threshold.
 
     def test_full_entry_ready_but_real_publication_stays_paused(self):
         p=prepare_candidate(candidate())
         self.assertTrue(validate_candidate(p).ready)
         self.assertTrue(pre_publish_assert(p,p['text'],dry_run=True)['passed'])
         self.assertFalse(pre_publish_assert(p,p['text'],dry_run=True)['publication_allowed'])
-        with self.assertRaisesRegex(ValueError,'PUBLICATION_PAUSED'):
-            pre_publish_assert(p,p['text'])
+        with patch('growth_engine.publication_control.publication_control', return_value={'status':'PAUSED'}):
+            with self.assertRaisesRegex(ValueError,'PUBLICATION_PAUSED'):
+                pre_publish_assert(p,p['text'])
 
     def test_real_challenge_replay_and_c390_demoted_without_id_rule(self):
         packet=json.loads(Path('data/viral_admission_challenge_2026-10-16.json').read_text())

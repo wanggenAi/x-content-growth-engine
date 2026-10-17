@@ -8,16 +8,16 @@
 
 - canonical branch：`main`
 - PR #5 / `feature/x-research-phase2` 已于 2026-10-11 squash merge 回 `main`
-- 当前发布状态：`PAUSED_FOR_TOPIC_ADMISSION_REVIEW`；本轮只做选题竞争和 dry-run，不提交 X
+- 当前模式：`ACTIVE_VIRAL_HUNTING_AND_REWRITE`；Codex 主动采集与二创，`hunt` 不自动提交 X
 - 历史 1000 帖目标、queue 数和 publication count 只作盘点，不是成功 KPI
 - 没有经过验证的“爆款公式”；高浏览结构、读者心理和自我映射机制仍按证据等级管理
 - 事实性内容继续要求来源核验、去重、内容门槛和真实发布后的独立详情页核对
 
 完整控制规则见 [`docs/CURRENT_CONTROL_STATE.md`](docs/CURRENT_CONTROL_STATE.md)。
 
-### 选题准入与竞争（2026-10-16）
+### 选题准入与竞争（2026-10-17）
 
-新稿通过 `prepare_candidate()` / `prepare-candidates`：先核验真实素材池、带原文证据的选题评分和相对排名，再检查 Reader Model 与当前文本/事实/来源的绑定，最后执行 Human Style 和 Editorial Gate。至少 10 条已审且在 48 小时内的独立素材；仅竞争第一且领先至少 5 分者可继续。文案质量不能补选题分；没有证据的 HIGH 不通过。
+新稿通过 `prepare_candidate()` / `prepare-candidates`：先核验真实素材池、带原文证据的选题评分和相对排名，再检查 Reader Model 与当前文本/事实/来源的绑定，最后执行 Human Style 和 Editorial Gate。`VIRAL_ADMISSION_V2` 接受 1 条起的真实素材池，选题 >=62 按分数取 Top5；不再要求第一名领先 5 分。文案质量不能补选题分；没有证据的 HIGH 不通过。
 
 ```sh
 python3 -m growth_engine rank-materials data/viral_admission_challenge_2026-10-16.json --output /tmp/topic-ranking.json
@@ -26,6 +26,17 @@ python3 -m compileall -q growth_engine tests
 ```
 
 评分是可审计的编辑假设，不是预测浏览量的模型。实际 30 条挑战、Top10、C390 根因和 dry-run 限制见 [`docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md`](docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md)。`pre_publish_assert()` 重算合同、检查暂停开关及候选生产 HOLD；dry-run 永不授权发布。
+
+## Codex 公开热点狩猎
+
+```sh
+python3 -m growth_engine search-queries all
+python3 -m growth_engine hunt --rss https://chinadigitaltimes.net/chinese/feed --telegram DNYQWCG --telegram iizuk
+python3 -m growth_engine hunt --materials /tmp/reviewed-materials.json --top-n 3 --output data/private/hunt/review.json
+python3 -m growth_engine prepare-candidates /tmp/reviewed-candidates.json --top-n 5 --output data/private/hunt/prepared.json
+```
+
+无需收费 API 或额外运行依赖。自动初评保留证据和特征，人工评分优先；封禁加分须有已核验出处。采集→评分→每条实际 Human Style/Fact/X Native/Comment 预检可一键运行。自动摘录是 `PASS_STYLE_PENDING_EDITORIAL`，不会伪填人审、事实核验或 READY；Codex 核实来源、事实边界和 Reader Model 后再通过正式 `prepare_candidate()`。三个二创角度返回 Codex 写作合同，不承诺提示词能保证通过闸门。详见 [CODEX_VIRAL_HUNT.md](docs/CODEX_VIRAL_HUNT.md)。
 
 ## 新鲜爆帖数据链
 

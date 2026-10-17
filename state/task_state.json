@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-16T02:36:34.766672Z",
-  "phase": "TOPIC_ADMISSION_REPAIR_PUBLICATION_PAUSED",
+  "updated_at": "2026-10-17T09:06:03.414030Z",
+  "phase": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -72,6 +72,50 @@
       "sample_limit": "single-domain convenience sample; six historical cases",
       "compileall": "PASS",
       "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/11"
+    },
+    "codex_viral_hunt_2026_10_17": {
+      "starting_main": "a70a8aa7efcd483aa18fe2f55e7cfc4e407ce327",
+      "executor": "Codex",
+      "request": "adopt user-provided upgrade manual; do not invoke Claude",
+      "mode": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
+      "policy": "VIRAL_ADMISSION_V2",
+      "min_pool": 1,
+      "topic_threshold": 62,
+      "default_top_n": 5,
+      "margin_blocker": false,
+      "new_x_submissions": 0,
+      "scheduler_changed": false,
+      "reddit_live_requests": 0,
+      "pytest_passed": 103,
+      "details": "docs/CODEX_VIRAL_HUNT.md",
+      "ci": {
+        "status": "SUCCESS",
+        "implementation_commit": "e4a2210692288330bc44bdc1fdb66dcd101018b8",
+        "implementation_tests": 102,
+        "push_run": 39020014930,
+        "pr_run": 39020037210
+      },
+      "collection": {
+        "latest_run_completed_at": "2026-10-17T09:06:16.688262Z",
+        "attempted_sources": 3,
+        "unique_sources": 2,
+        "collected": 33,
+        "returned": 30,
+        "duplicates": 0,
+        "duplicate_ratio": 0.0,
+        "under24h": 30,
+        "between24and48h": 0,
+        "unknown_time": 0
+      },
+      "selected_count": 5,
+      "style_previews_passed": 4,
+      "style_previews_held": 1,
+      "smoke_summary": "data/codex_hunt_smoke_2026-10-17.json",
+      "audit": "isolated seed audit executes; historical sample limitations retained",
+      "unittest_passed": 103,
+      "compileall": "PASS",
+      "diff_check": "PASS",
+      "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/12"
     }
   },
   "counts": {
@@ -115,7 +159,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Review saved Top10/Top5/Top1; no X submission. Explicit later resume required. Scheduled collector and production evidence holds remain unresolved.",
+  "next_action": "Codex hunt public feeds/search, review original evidence and Reader Model, write A/B/C variants and run current gates; only qualified drafts may enter manual publication.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -659,7 +703,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": "USER_REQUESTED_TOPIC_ADMISSION_REVIEW_BEFORE_PUBLICATION",
+  "current_blocker": null,
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -1121,22 +1165,18 @@
     "historical_publication_corpus": "C001-C353 preserved for retrospective analysis"
   },
   "control_state": {
-    "mode": "TOPIC_ADMISSION_REPAIR",
-    "publication_state": "PAUSED_FOR_TOPIC_ADMISSION_REVIEW",
-    "heartbeat_can": "Research, review and dry-run only. No new X submission.",
+    "mode": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
+    "publication_state": "ACTIVE_WITH_FACT_AND_STYLE_GATES",
+    "heartbeat_can": "Research and prepare review; scheduler configuration unchanged. No autonomous submission from hunt.",
     "heartbeat_cannot": "Bypass content quality, use X API/DOM/hidden requests/cookies, operate other accounts, fabricate engagement or human review, blindly resubmit.",
-    "pause_reasons": [
-      "USER_REQUEST_REVIEW_TOP10_BEFORE_PUBLICATION"
-    ],
+    "pause_reasons": [],
     "next_publication_requires": [
-      "EXPLICIT_USER_RESUME_AFTER_SHORTLIST_REVIEW",
-      "VIRAL_ADMISSION_COMPETITION_WINNER",
+      "SOURCE_FACT_REVIEW",
       "READER_MODEL_SEMANTIC_INTEGRITY",
-      "HUMAN_STYLE_AND_EDITORIAL_PASS",
-      "NO_PRODUCTION_HOLDS",
-      "LIVE_PRE_PUBLISH_ASSERT",
-      "VISIBLE_EDITOR_SINGLE_SUBMISSION",
-      "INDEPENDENT_PUBLIC_DETAIL_RELOAD"
+      "HUMAN_STYLE_V2",
+      "EDITORIAL_GATE",
+      "PRE_PUBLISH_ASSERT",
+      "MANUAL_VISIBLE_SUBMISSION"
     ]
   },
   "editorial_gate": {
@@ -1300,7 +1340,7 @@
       "scope": "Retrospective already-published C355; no new publication authorization or submission"
     }
   },
-  "publication_mode": "DRY_RUN_ONLY",
+  "publication_mode": "QUALIFIED_MANUAL_ONLY",
   "reader_model_research": {
     "model_version": "SELF_MIRRORING_V1",
     "claim_status": "HYPOTHESIS",

@@ -2,7 +2,9 @@
 
 Every new candidate is reviewed through this local, deterministic sequence:
 
-`fresh material pool → evidence-backed Viral Admission → relative competition winner → fact lock → Reader Model semantic integrity → raw draft → run_human_style_pipeline() → AI flavor → rewrite when needed → fact preservation → X Native Style → Comment Impulse → Editorial Gate → READY_FOR_MANUAL_PUBLISH → publication preflight`
+`fresh material pool → evidence-backed Viral Admission → absolute-threshold Top-N selection → fact lock → Reader Model semantic integrity → raw draft → run_human_style_pipeline() → AI flavor → rewrite when needed → fact preservation → X Native Style → Comment Impulse → Editorial Gate → READY_FOR_MANUAL_PUBLISH → publication preflight`
+
+The Oct17 extension retains existing detectors and fact locks, adds newsroom residue signals and protected short-paragraph layout. `hunt` runs this engine for draft previews without manufacturing editorial approval. `generate_viral_variants_prompt()` produces three Codex/provider-neutral angles; gates must actually run for every written version. Attribution, direct quotes, all source URLs and uncertainty qualifiers are preserved; unsupported transformations remain HOLD.
 
 The implementation lives in:
 
@@ -34,7 +36,7 @@ The request to `run_human_style_pipeline()` includes `draft_text`, `locked_facts
   "comment_impulse": "PASS",
   "rewrite_applied": true,
   "evaluated_at": "...",
-  "engine_version": "human-style-v2-deterministic",
+  "engine_version": "human-style-v2.1-codex-layout",
   "generated_by": "growth_engine.candidate_pipeline.prepare_candidate"
 }
 ```

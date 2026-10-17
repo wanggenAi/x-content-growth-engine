@@ -1,3 +1,15 @@
+# Latest checkpoint — 2026-10-17T09:06:03.414030Z / Codex viral hunt upgrade
+
+Direct user request adopts `/Users/seker./Downloads/claude_x_upgrade_prompts.md` with Codex as executor. Starting main `a70a8aa7efcd483aa18fe2f55e7cfc4e407ce327`, branch `feature/codex-viral-hunt`. Current mode ACTIVE_VIRAL_HUNTING_AND_REWRITE supersedes the previous topic-review pause and minimum-ten/margin5 policy. MIN_POOL1, MIN_TOPIC62, defaultTop5 and parallel qualified admissions implemented. No previous post/candidate record is silently migrated, edited or republished.
+
+Public RSS/Atom and Telegram collection, rights-gated Reddit parser, Codex search matrices, structural auto estimates, evidence-only censorship bonus, social scene/branch coverage, protected quote/attribution/URL layout and A/B/C writing contracts implemented. `hunt` actually runs style/fact gates, returns previews with explicit source-fact/Reader Model/semantic-novelty holds; no fabricated manual review or READY. Source retrieval is not independent fact verification, source-message age is not event age. Qualifying reviewed candidates still use prepare_candidate and live preflight. No new X submission or scheduler modification.
+
+Browser-harness could not connect (Chrome running, daemon unavailable); no browser action succeeded. Ordinary public HTTP succeeded after correcting handling of the user's preexisting network routing. Initial and retry failures retained under ignored data/private/hunt. Core and tests remain local/free/stdlib; no Reddit network request or paid service.
+
+Local pytest103/unittest103/compileall/diff checks passed. Implementation e4a2210 pushed in PR #12; push39020014930/PR39020037210 CI green (102 tests at that commit). Added authorized hot/day-top route coverage and receipt; final CI/merge verification follows. Actual final smoke:33 parsed,30 retained, all30 source-message timestamps under24h,5 selected,4 style previews passed,1 held. Source event dates are not inferred from repost time. Isolated seed audit now executes after fixing preexisting report-variable shadowing; stale-index/unknown-followers limitations remain. Safe smoke summary:data/codex_hunt_smoke_2026-10-17.json. See docs/CODEX_VIRAL_HUNT.md. Earlier snapshots below are historical, including the previous paused control and V1 ranking.
+
+---
+
 # Latest checkpoint — 2026-10-16T02:36:34.766672Z / TOPIC ADMISSION FAILURE repair
 
 Starting main `6a18d016061aa914afdac254e9e16a8694be2158`; branch `feature/topic-admission-integrity`. C390 fixture contamination traced to `/tmp/build_c390.py` importing test `good_profile()`, not copy/state leakage. Original historical text/annotations kept; actual prior publication metadata reconciled with minute precision and incomplete reload/source-target follow-up noted.

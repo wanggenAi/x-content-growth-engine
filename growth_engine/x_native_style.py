@@ -13,14 +13,16 @@ from typing import Any
 from .ai_flavor_gate import ABSTRACT_NOUNS, analyze_ai_flavor
 
 
-ROLE_RE = re.compile(r"(?:一个|一位|这位|那个)?(?:男人|女人|男朋友|女朋友|伴侣|丈夫|妻子|前任|朋友|同事|老板|员工|父母|妈妈|爸爸|爸妈|我妈|我爸|孩子|室友|邻居|租客|乘客|客人|店员|服务员|客户|司机|医生|老师|同学|学生|游客|家人|新人|老人|顾客|雇主|雇员|她|他|我|我们|对方)")
-ACTION_RE = re.compile(r"(?:给|拿|说|买|删|回|借|等|住|打|发|收|转|付|抢|退|换|问|看|做|带|躲|关|开|送|约|见|分|存|管|领|加|辞|搬|吃|喝|睡|签|改|拒绝|允许|不同意|公开|隐藏|联系|取消|安排|比较|支付|请|记|算|收走)")
+ROLE_RE = re.compile(r"(?:一个|一位|这位|那个)?(?:网友|当事人|知情人|家属|业主|保安|物业|城管|官方|领导|闺蜜|大爷|大妈|博主|记者|外卖员|网约车司机|男人|女人|男朋友|女朋友|伴侣|丈夫|妻子|前任|朋友|同事|老板|员工|父母|妈妈|爸爸|爸妈|我妈|我爸|孩子|室友|邻居|租客|乘客|客人|店员|服务员|客户|司机|医生|老师|同学|学生|游客|家人|新人|老人|顾客|雇主|雇员|她|他|我|我们|对方)")
+ACTION_RE = re.compile(r"(?:删帖|封号|禁言|撤热搜|通报|辟谣|曝光|实名举报|录音|截图|背刺|反转|拉黑|跑路|维权|瞒报|甩锅|算账|给|拿|说|买|删|回|借|等|住|打|发|收|转|付|抢|退|换|问|看|做|带|躲|关|开|送|约|见|分|存|管|领|加|辞|搬|吃|喝|睡|签|改|拒绝|允许|不同意|公开|隐藏|联系|取消|安排|比较|支付|请|记|算|收走)")
 QUANTITY_RE = re.compile(r"(?:\d+(?:\.\d+)?\s*(?:万|亿|元|块|岁|人|小时|分钟|点|次|天|个月|年|公里|米)?|[一二三四五六七八九十百千万两]+(?:个)?(?:次|年|个月|天|小时|分钟|块|元|人|岁))")
 TIME_RE = re.compile(r"(?:凌晨|早上|上午|中午|下午|晚上|半夜)?\s*\d{1,2}(?::\d{1,2})?(?:点|时)?|(?:今天|昨天|明天|上周|今年|去年|三年|多年)")
-OBJECT_RE = re.compile(r"(?:工资|收入|账单|房租|房子|照片|消息|电话|合同|红包|礼物|车票|机票|饭|火锅|钱|账户|订单|钥匙|门|行李|手机|电脑|药|包|床位|房间|椅子|朋友圈|聊天|工作|岗位|考试|学费|彩礼|借款|存款|加班|假期|家|酒店|餐厅|飞机|高铁)")
+OBJECT_RE = re.compile(r"(?:聊天记录|微信群|通告|截图|监控录像|监控|视频|词条|热搜|赔偿|嫁妆|编制|烂尾楼|贷款|医药费|工资|收入|账单|房租|房子|照片|消息|电话|合同|红包|礼物|车票|机票|饭|火锅|钱|账户|订单|钥匙|门|行李|手机|电脑|药|包|床位|房间|椅子|朋友圈|聊天|工作|岗位|考试|学费|彩礼|借款|存款|加班|假期|家|酒店|餐厅|飞机|高铁)")
 QUOTE_RE = re.compile(r"[\"“”『』「」‘’].+?[\"“”『』「」‘’]")
 LOCATION_RE = re.compile(r"(?:在|从|到|回|住在|来自)[\u4e00-\u9fff]{1,12}(?:，|。|、|的|上|里|中|$)")
 BOUNDARY_RE = {
+    "censorship_truth_boundary": re.compile(r"被删|404|发不出来|夹了|捂嘴|通报|真相|外网|墙内|热搜消失"),
+    "human_nature_boundary": re.compile(r"人性|底线|凉薄|算计|白眼狼|救命|落井下石|真面目|利益面前|大难临头"),
     "relationship_boundary": re.compile(r"(?:恋爱|结婚|男朋友|女朋友|伴侣|前任|朋友|家人|妈妈|爸爸|父母|夫妻|相亲|约会|室友|陌生人|朋友圈|发照片|公开|联系|已读|删除)"),
     "money_boundary": re.compile(r"(?:钱|工资|收入|房租|借款|借钱|还钱|转账|账单|分摊|AA|买单|请客|存款|存着|花钱|消费|彩礼|红包|价格|贵|便宜|失业|酒店)"),
     "privacy_boundary": re.compile(r"(?:隐私|私下|公开|照片|消息|聊天|手机|账号|密码|朋友圈|已读|删除|不发|不说|逐笔|陌生人|房间|控制)"),
@@ -66,6 +68,10 @@ def _opinion_model(text: str) -> dict[str, Any]:
     scene = extract_scene_features(body)
     stakeholders = scene["entity_count"]
     boundary_flags = {key: bool(pattern.search(body)) for key, pattern in BOUNDARY_RE.items()}
+    # Topic labels alone must not manufacture two reasonable positions.
+    public_tradeoff = bool(re.search(r"公开|知情|透明|披露", body) and re.search(r"隐私|核实|安全|规则|调查", body))
+    boundary_flags["censorship_truth_boundary"] &= public_tradeoff and stakeholders >= 2
+    boundary_flags["human_nature_boundary"] &= scene["event_chain"] and stakeholders >= 2 and bool(TRADEOFF_RE.search(body))
     categories = sum(boundary_flags.values())
     work_tradeoff = bool(re.search(r"(?:加班|升职|责任心|努力|绩效)", body)) and stakeholders >= 1
     cost_tradeoff = (bool(TRADEOFF_RE.search(body)) and (stakeholders >= 2 or scene["quantity_count"] >= 1)) or \
@@ -86,6 +92,10 @@ def _opinion_model(text: str) -> dict[str, Any]:
         branches.append({"direction": "money_boundary", "basis": "公平分摊与照顾关系的成本不同"})
     if boundary_flags["privacy_boundary"]:
         branches.append({"direction": "privacy_boundary", "basis": "个人隐私与关系确认的边界不同"})
+    if boundary_flags["censorship_truth_boundary"]:
+        branches.append({"direction": "public_transparency", "basis": "公众知情与隐私、调查核实或安全之间有具体代价"})
+    if boundary_flags["human_nature_boundary"]:
+        branches.append({"direction": "relationship_cost", "basis": "不同当事人在具体动作中承担的利益和关系成本不同"})
     if cost_tradeoff:
         branches.append({"direction": "cost_tradeoff", "basis": "时间、收入或精力的交换不同"})
     if norm_conflict and len(branches) < 2:
@@ -137,6 +147,8 @@ def review_x_native_style(text: str | None, primary_action: str | None = None) -
         hard_blockers.append("forced_humanization")
     if report.pattern_counts.get("fact_to_value_question"):
         hard_blockers.append("obvious_ai_moral_question")
+    if report.pattern_counts.get("newsroom_residue"):
+        hard_blockers.append("newsroom_residue")
     reasons = list(hard_blockers)
     if len(sentences) >= 5 and abstractness < 60:
         reasons.append("essay_like_abstraction")
@@ -168,7 +180,10 @@ def review_comment_impulse(text: str | None, primary_action: str = "REPLY") -> d
     score += 22 if model["opinion_branching"] else 0
     score += 12 if model["experience_split"] else 0
     score += 10 if low_friction else 0
-    score = _score(score - obvious_penalty)
+    open_detail = bool(sentences and not re.search(r"[？?]$|你怎么看|大家觉得", body)
+                       and (QUOTE_RE.search(sentences[-1]) or QUANTITY_RE.search(sentences[-1])))
+    detail_bonus = 6 if open_detail and model["opinion_branching"] and not model["fairness_consensus"] else 0
+    score = _score(score + detail_bonus - obvious_penalty)
     reasons: list[str] = []
     if obvious_penalty:
         reasons.append("obvious_answer_penalty")
@@ -178,7 +193,7 @@ def review_comment_impulse(text: str | None, primary_action: str = "REPLY") -> d
         reasons.append("reply_friction_high")
     passed = score >= 48 and model["opinion_branching"] and not obvious_penalty
     return {"passed": passed, "status": "PASS" if passed else "FAIL", "score": score,
-            "self_insertion": self_insertion, "real_tradeoff": model["competing_interests"],
+            "open_detail_bonus": detail_bonus, "self_insertion": self_insertion, "real_tradeoff": model["competing_interests"],
             "opinion_branching": model["opinion_branching"], "identity_trigger": model["identity_split"],
             "experience_trigger": model["experience_split"], "low_reply_friction": low_friction,
             "obvious_answer_penalty": obvious_penalty, "reasons": reasons, **model}

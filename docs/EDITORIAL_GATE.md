@@ -1,8 +1,8 @@
-# 2026-10-16 upstream topic admission requirement
+# 2026-10-17 active V2 topic admission
 
-New READY candidates must additionally carry a recomputable `VIRAL_ADMISSION_V1` contract and a current source-grounded Reader Model semantic binding. `prepare_candidate()` checks both before Human Style. At least ten independently reviewed <48h materials, rank1 and a >=5-point lead are required. Source confidence and writing quality cannot increase topic interest. Full inputs and thresholds: [TOPIC_ADMISSION.md](TOPIC_ADMISSION.md).
+New candidates use recomputable `VIRAL_ADMISSION_V2`: MIN_POOL=1, topic>=62, default Top5; the relative margin is audit-only. Missing ordinal ratings receive clearly marked structural estimates, while existing authored ratings and semantic Reader Model integrity remain. The earlier Oct16 minimum-ten/winner-only policy is superseded by the user’s adopted Codex upgrade request.
 
-Real submission additionally requires `pre_publish_assert()`, ACTIVE publication control, no candidate production holds and a competition snapshot <=24h old. Current control is PAUSED; the saved challenge winner is explicitly DRY_RUN_ONLY. Historical published records are retained without retrospective migration. Older authorizations below do not resume this repair.
+Discovery SOURCE_CHECKED describes retrieved feed/channel content only. When `source.fact_verification=UNVERIFIED`, production requires an explicit `source_fact_review` bound to its URL and an exact evidence span. Auto previews have no human/agent review and cannot acquire READY. `prepare_candidate()` and live `pre_publish_assert()` still recompute all contracts. No API or X submission was added. See [CODEX_VIRAL_HUNT.md](CODEX_VIRAL_HUNT.md) and [TOPIC_ADMISSION.md](TOPIC_ADMISSION.md).
 
 # Editorial Gate（发布硬闸门）
 
