@@ -9,10 +9,10 @@ from unittest.mock import patch
 from growth_engine.ai_flavor_gate import PATTERNS, analyze_ai_flavor
 from growth_engine.capture import auto_discover_materials, build_search_queries
 from growth_engine.candidate_pipeline import prepare_candidate
-from growth_engine.discovery import parse_rss, parse_telegram, reddit_authorized, _public_url
+from growth_engine.discovery import import_search_leads, parse_rss, parse_telegram, reddit_authorized, _public_url
 from growth_engine.human_voice import generate_viral_variants_prompt, run_human_style_pipeline
-from growth_engine.hunt import hunt_materials
-from growth_engine.viral_admission import auto_rate_material, rank_materials, score_material, material_hash
+from growth_engine.hunt import collector_health, hunt_materials, production_dry_run, scheduled_collection
+from growth_engine.viral_admission import PREVIEW_MODE, PRODUCTION_MODE, auto_rate_material, rank_materials, score_material, material_hash
 from growth_engine.x_native_style import review_comment_impulse, review_x_native_style
 from tests.topic_helpers import AS_OF, material
 from tests.test_human_style_production import candidate
@@ -97,6 +97,19 @@ class DiscoveryTests(unittest.TestCase):
         self.assertIn('/hot.json?limit=20',urls[0])
         self.assertIn('/top.json?t=day',urls[1])
 
+    def test_hacker_news_official_top_best_new_are_supported(self):
+        urls=[]
+        def fetch(url):
+            urls.append(url)
+            if 'stories.json' in url: return '[101]'
+            return json.dumps({'id':101,'type':'story','title':'A public release','url':'https://example.com/release',
+                               'time':1792112400,'score':20,'descendants':4,'by':'author'})
+        packet=auto_discover_materials(rss_urls=[],hacker_news=['top','best','new'],as_of=AS_OF,fetcher=fetch)
+        self.assertEqual(packet['materials'][0]['source']['family'],'HACKER_NEWS')
+        self.assertTrue(any('/topstories.json' in url for url in urls))
+        self.assertTrue(any('/beststories.json' in url for url in urls))
+        self.assertTrue(any('/newstories.json' in url for url in urls))
+
     def test_network_boundary_rejects_private_x_credentials_and_dtd(self):
         for url in ['http://example.com', 'https://x.com/a', 'https://user:pass@example.com', 'https://reddit.com/r/a']:
             with self.subTest(url=url), self.assertRaises(ValueError): _public_url(url)
@@ -106,25 +119,29 @@ class DiscoveryTests(unittest.TestCase):
 
 
 class HuntAdmissionTests(unittest.TestCase):
-    def test_single_material_and_near_ties_are_admitted(self):
-        self.assertEqual(rank_materials([material()], as_of=AS_OF)['selected_material_ids'], ['m1'])
-        p = rank_materials([material('a'), material('b')], as_of=AS_OF)
-        self.assertEqual(p['ranking_margin'], 0)
-        self.assertEqual(len(p['selected_material_ids']), 2)
+    def test_single_material_preview_passes_but_production_fails(self):
+        preview = rank_materials([material()], as_of=AS_OF)
+        self.assertEqual(preview['selected_material_ids'], ['m1'])
+        self.assertEqual(preview['status'], PREVIEW_MODE)
+        production = rank_materials([material()], as_of=AS_OF, admission_mode=PRODUCTION_MODE)
+        self.assertFalse(production['competition_passed'])
+        self.assertIn('FAIL_INSUFFICIENT_PRODUCTION_COMPETITION', production['pool_reasons'])
 
-    def test_top_n_and_threshold_limit_admission_without_source_prestige(self):
+    def test_preview_top_n_never_means_production_admission(self):
         pool = [material(str(i),4) for i in range(7)]
         self.assertEqual(len(rank_materials(pool,as_of=AS_OF)['selected_material_ids']), 5)
         self.assertEqual(len(rank_materials(pool,as_of=AS_OF,top_n=2)['selected_material_ids']), 2)
-        self.assertFalse(score_material(material(rating=1), as_of=AS_OF)['admitted'])
+        production = rank_materials(pool,as_of=AS_OF,admission_mode=PRODUCTION_MODE)
+        self.assertEqual(production['selected_material_ids'], [])
 
-    def test_missing_scores_are_estimates_not_default_high_and_human_scores_survive(self):
+    def test_auto_screen_does_not_fill_editorial_dimensions(self):
         m = parse_rss(RSS, 'https://example.com/feed', AS_OF)[0]
         p = auto_rate_material(m)
-        self.assertEqual(len(p['auto_rating']['filled_dimensions']), 8)
-        self.assertGreater(len(set(p['review'][k]['rating'] for k in p['auto_rating']['filled_dimensions'])), 1)
-        p['review']['mass_relevance']['rating'] = 0
-        self.assertEqual(auto_rate_material(p)['review']['mass_relevance']['rating'], 0)
+        self.assertIn('auto_screen', p)
+        self.assertNotIn('mass_relevance', p['review'])
+        report = score_material(p, as_of=AS_OF)
+        self.assertIsNone(report['editorial_topic_score'])
+        self.assertFalse(report['admitted'])
 
     def test_censorship_and_artifact_words_alone_do_not_create_evidence_bonus(self):
         m = material(); m['text'] += '据称被删，404，截图，热搜。'
@@ -136,7 +153,7 @@ class HuntAdmissionTests(unittest.TestCase):
         self.assertEqual(score_material(m,as_of=AS_OF)['viral_bonus']['censorship_scarcity_bonus'], 0)
 
     def test_discovered_source_requires_fact_review_before_production_ready(self):
-        c = candidate(); c['material_pool'] = [c['material_pool'][0]]
+        c = candidate()
         c['material_pool'][0]['source']['fact_verification'] = 'UNVERIFIED'
         c['material_hash'] = material_hash(c['material_pool'][0])
         self.assertIn('HOLD_DISCOVERED_SOURCE_FACT_REVIEW', prepare_candidate(c)['editorial_gate']['reasons'])
@@ -162,8 +179,44 @@ class HuntAdmissionTests(unittest.TestCase):
                                   '--output',str(output)], capture_output=True, text=True)
             self.assertEqual(run.returncode, 0, run.stderr)
             result = json.loads(output.read_text())
-            self.assertEqual(result['engine'], 'CODEX_VIRAL_HUNT_V1')
+            self.assertEqual(result['engine'], 'CODEX_VIRAL_HUNT_V2')
             self.assertFalse(result['publication_allowed'])
+
+    def test_search_lead_requires_checked_original_page(self):
+        lead = {'title':'公开页','target_url':'https://example.com/story','query':'公开搜索',
+                'original_page_text':'原页面写明朋友散场后收到一张账单。','original_page_status':'SEARCH_SNIPPET_ONLY'}
+        with patch('growth_engine.discovery.socket.getaddrinfo', return_value=[(2,1,6,'',('93.184.216.34',443))]):
+            with self.assertRaisesRegex(ValueError, 'ORIGINAL_PAGE_CHECKED'):
+                import_search_leads([lead], captured_at=AS_OF)
+
+    def test_collector_health_and_scheduled_collection_never_publish(self):
+        stale = {'as_of':'2026-10-15T00:00:00Z','source_families':['TELEGRAM'],
+                 'collection':{'latest_run_completed_at':'2026-10-15T00:00:00Z','under24h':2,'between24and48h':0}}
+        health = collector_health(stale, now=AS_OF)
+        self.assertEqual(set(health['reasons']), {'STALE','LOW_SOURCE_DIVERSITY','INSUFFICIENT_FRESH_MATERIAL'})
+        with tempfile.TemporaryDirectory() as directory:
+            packet = scheduled_collection(output_root=Path(directory), rss_urls=['https://example.com/feed'],
+                telegram_channels=(), as_of=AS_OF, fetcher=lambda _: RSS)
+            self.assertFalse(packet['publication_triggered'])
+            self.assertFalse(packet['automatic_x_submission'])
+            self.assertTrue(Path(packet['paths']['latest']).exists())
+        workflow = Path('.github/workflows/viral-hunt.yml').read_text()
+        self.assertIn('17 */4 * * *', workflow)
+        self.assertIn('collect-feed', workflow)
+        self.assertNotIn('pre_publish_assert', workflow)
+        self.assertNotIn('x.com/compose', workflow)
+
+    def test_saved_real_multisource_dry_run_has_one_winner_and_three_safe_previews(self):
+        feed=json.loads(Path('data/viral_feed/2026-10-17/1256.json').read_text())
+        reviews=json.loads(Path('data/viral_hunt_deep_reviews_2026-10-17.json').read_text())
+        result=production_dry_run(feed,reviews); ranking=result['ranking']
+        self.assertEqual(ranking['raw_count'],83)
+        self.assertEqual(ranking['reviewed_source_count'],20)
+        self.assertEqual(ranking['source_family_count'],4)
+        self.assertEqual(len(ranking['selected_material_ids']),1)
+        self.assertEqual(len(result['top1_previews']),3)
+        self.assertTrue(all(row['human_style_passed'] for row in result['top1_previews']))
+        self.assertFalse(result['publication_allowed'])
 
     def test_existing_report_and_audit_cli_are_not_shadowed_by_ranking_variable(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -17,10 +17,11 @@
 
 ### 选题准入与竞争（2026-10-17）
 
-新稿通过 `prepare_candidate()` / `prepare-candidates`：先核验真实素材池、带原文证据的选题评分和相对排名，再检查 Reader Model 与当前文本/事实/来源的绑定，最后执行 Human Style 和 Editorial Gate。`VIRAL_ADMISSION_V2` 接受 1 条起的真实素材池，选题 >=62 按分数取 Top5；不再要求第一名领先 5 分。文案质量不能补选题分；没有证据的 HIGH 不通过。
+新稿通过 `prepare_candidate()` / `prepare-candidates`：先核验真实素材池和独立八维深评，再检查 Reader Model、Human Style 与事实绑定。`VIRAL_ADMISSION_V3` 的 preview 可从 1 条起取 Top5；production 至少 10 个独立事件，同时要求原始池 >=30、有效深评 >=20、48 小时内 >=10、来源族 >=4，并且只有唯一 Top1 可进入候选生产链。自动筛选分不会写入或替代正式 editorial score。
 
 ```sh
-python3 -m growth_engine rank-materials data/viral_admission_challenge_2026-10-16.json --output /tmp/topic-ranking.json
+python3 -m growth_engine rank-materials data/viral_admission_challenge_2026-10-16.json --mode preview --output /tmp/topic-ranking.json
+python3 -m growth_engine collect-feed --output-root data/viral_feed --limit 100
 python3 -m unittest discover -s tests -v
 python3 -m compileall -q growth_engine tests
 ```
@@ -33,10 +34,10 @@ python3 -m compileall -q growth_engine tests
 python3 -m growth_engine search-queries all
 python3 -m growth_engine hunt --rss https://chinadigitaltimes.net/chinese/feed --telegram DNYQWCG --telegram iizuk
 python3 -m growth_engine hunt --materials /tmp/reviewed-materials.json --top-n 3 --output data/private/hunt/review.json
-python3 -m growth_engine prepare-candidates /tmp/reviewed-candidates.json --top-n 5 --output data/private/hunt/prepared.json
+python3 -m growth_engine prepare-candidates /tmp/reviewed-candidates.json --output data/private/hunt/prepared.json
 ```
 
-无需收费 API 或额外运行依赖。自动初评保留证据和特征，人工评分优先；封禁加分须有已核验出处。采集→评分→每条实际 Human Style/Fact/X Native/Comment 预检可一键运行。自动摘录是 `PASS_STYLE_PENDING_EDITORIAL`，不会伪填人审、事实核验或 READY；Codex 核实来源、事实边界和 Reader Model 后再通过正式 `prepare_candidate()`。三个二创角度返回 Codex 写作合同，不承诺提示词能保证通过闸门。详见 [CODEX_VIRAL_HUNT.md](docs/CODEX_VIRAL_HUNT.md)。
+无需收费 API 或额外运行依赖。自动初评仅做粗筛；正式八维评分要求独立 evidence/reason，重复灌水会失效。GitHub Actions 每 4 小时只采集 RSS/Atom、HN 官方 Firebase、GitHub releases 与公开 Telegram，生成 preview artifact；它不导入发布模块，也不提交 X。详见 [CODEX_VIRAL_HUNT.md](docs/CODEX_VIRAL_HUNT.md)。
 
 ## 新鲜爆帖数据链
 

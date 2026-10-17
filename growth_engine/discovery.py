@@ -14,7 +14,12 @@ import xml.etree.ElementTree as ET
 
 from .human_voice import stable_hash
 
-DEFAULT_RSS = ("https://chinadigitaltimes.net/chinese/feed",)
+DEFAULT_RSS = (
+    "https://chinadigitaltimes.net/chinese/feed",
+    "https://github.com/openai/openai-python/releases.atom",
+    "https://github.com/python/cpython/releases.atom",
+)
+HN_INDEXES = {name: f"https://hacker-news.firebaseio.com/v0/{name}stories.json" for name in ("top", "best", "new")}
 SEARCH_QUERIES = {
     "censorship": ['"被删" "404" 最新 原文 存档', '"热搜消失" "通报" 时间 原始链接'],
     "human_conflict": ['"聊天记录" "转账" 真实经历 原话', '"录音" "曝光" 反转 当事人 回应'],
@@ -142,9 +147,12 @@ def parse_rss(body: str, feed_url: str, captured_at: str) -> list[dict]:
             continue
         # Keep excerpts bounded; archives remain discovery leads, not proof of deletion.
         excerpt = fields.get("encoded") or fields.get("content") or fields.get("description") or fields.get("summary") or ""
+        host = urlsplit(feed_url).netloc.lower()
+        family = "HACKER_NEWS" if host == "hnrss.org" else "GITHUB" if host == "github.com" else "CHINESE_MEDIA" if host.endswith("chinadigitaltimes.net") else "NEWS_MEDIA"
         output.append(_material(fields.get("title", ""), plain_text(excerpt)[:1600], link.strip(),
             fields.get("pubDate") or fields.get("published") or fields.get("updated"), captured_at,
             "PUBLIC_RSS", feed_url=feed_url, author=fields.get("creator") or fields.get("author") or None,
+            family=family,
             timestamp_basis="FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"))
     return output
 
@@ -199,7 +207,7 @@ def parse_telegram(body: str, captured_at: str) -> list[dict]:
             continue
         output.append(_material(text.splitlines()[0][:100], text[:1600], "https://t.me/"+row["post"],
             row["time"], captured_at, "PUBLIC_TELEGRAM", views_display="".join(row["views"]) or None,
-            views=None, media_inspected=False, author=row["post"].split('/')[0],
+            views=None, media_inspected=False, author=row["post"].split('/')[0], family="TELEGRAM",
             timestamp_basis="CHANNEL_MESSAGE_TIME_NOT_ORIGINAL_EVENT_TIME"))
     return output
 
@@ -212,7 +220,7 @@ def reddit_authorized(record: dict | None, communities: list[str], as_of: str) -
                 and set(communities) <= set(record.get("subreddits", [])))
 
 
-def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_communities=(),
+def auto_discover_materials(*, rss_urls=None, telegram_channels=(), hacker_news=(), reddit_communities=(),
                             reddit_authorization=None, reddit_sort="top", seen_hashes=(), limit=20, as_of=None, fetcher=None) -> dict:
     """Collect bounded public leads. Exact dedup is never semantic novelty proof."""
     if not 1 <= limit <= 100:
@@ -224,6 +232,9 @@ def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_commu
     for channel in telegram_channels:
         if not re.fullmatch(r"[A-Za-z0-9_]{3,64}", channel): raise ValueError("invalid Telegram channel")
         sources.append(("telegram", "https://t.me/s/"+channel))
+    for route in hacker_news:
+        if route not in HN_INDEXES: raise ValueError("Hacker News route must be top, best or new")
+        sources.append(("hacker_news", HN_INDEXES[route]))
     errors = []; authorized = reddit_authorized(reddit_authorization, list(reddit_communities), now)
     if reddit_communities and not authorized:
         errors.append({"channel": "reddit", "reason": "HOLD_AUTHORIZATION_AND_USE_RIGHTS"})
@@ -240,6 +251,24 @@ def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_commu
             body = fetcher(url) if fetcher else fetch_public(url, reddit_allowed=kind == "reddit" and authorized)
             if kind == "rss": rows = parse_rss(body, url, now)
             elif kind == "telegram": rows = parse_telegram(body, now)
+            elif kind == "hacker_news":
+                ids = json.loads(body); rows = []
+                if not isinstance(ids, list): raise ValueError("invalid Hacker News index")
+                for item_id in ids[:12]:
+                    item_url = f"https://hacker-news.firebaseio.com/v0/item/{int(item_id)}.json"
+                    try:
+                        requests += 1
+                        item = json.loads(fetcher(item_url) if fetcher else fetch_public(item_url))
+                        if not isinstance(item, dict) or item.get("deleted") or item.get("dead") or item.get("type") != "story": continue
+                        discussion = f"https://news.ycombinator.com/item?id={item['id']}"
+                        target = item.get("url") if isinstance(item.get("url"), str) and item["url"].startswith("https://") else discussion
+                        published = datetime.fromtimestamp(item["time"], timezone.utc).isoformat()
+                        rows.append(_material(item.get("title", ""), plain_text(item.get("text") or item.get("title") or "")[:1600],
+                            target, published, now, "OFFICIAL_HACKER_NEWS_FIREBASE", family="HACKER_NEWS",
+                            discussion_url=discussion, hn_score=item.get("score"), hn_comments=item.get("descendants"),
+                            author=item.get("by"), timestamp_basis="HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"))
+                    except (OSError, ValueError, KeyError, TypeError) as exc:
+                        errors.append({"url": item_url, "reason": str(exc)[:200]})
             else:
                 packet = json.loads(body); rows = []
                 for child in packet["data"]["children"]:
@@ -248,7 +277,7 @@ def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_commu
                     published = datetime.fromtimestamp(r["created_utc"], timezone.utc).isoformat()
                     rows.append(_material(r["title"], r.get("selftext", "")[:1600], "https://www.reddit.com"+r["permalink"],
                         published, now, "AUTHORIZED_REDDIT_JSON", score=r.get("score"), comments=r.get("num_comments"),
-                        outbound_url=r.get("url"), author=r.get("author")))
+                        outbound_url=r.get("url"), author=r.get("author"), family="REDDIT"))
             for row in rows:
                 if row["content_hash"] in seen or row["source"]["url"] in urls:
                     duplicates += 1; continue
@@ -264,6 +293,30 @@ def auto_discover_materials(*, rss_urls=None, telegram_channels=(), reddit_commu
     return {"as_of": now, "materials": retained, "search_queries": build_search_queries(), "errors": errors,
             "collection": {"latest_run_completed_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
                 "attempted_sources": requests, "unique_sources": len({urlsplit(m["source"]["url"]).netloc for m in retained}),
+                "source_families": sorted({m["source"].get("family", "OTHER") for m in retained}),
                 "collected": len(materials), "returned": len(retained), "duplicates": duplicates,
                 "duplicate_ratio": duplicates/max(1, len(materials)+duplicates), "under24h": sum(0 <= a < 24 for a in ages),
                 "between24and48h": sum(24 <= a < 48 for a in ages), "unknown_time": sum(not m["source"]["published_at"] for m in retained)}}
+
+
+def import_search_leads(records: list[dict], *, captured_at: str) -> list[dict]:
+    """Import browser/public-search leads only after the original page was opened.
+
+    Search snippets remain discovery context. The material text must be copied
+    from the checked public page and the record must preserve its query.
+    """
+    output = []
+    for row in records:
+        if not isinstance(row, dict): raise ValueError("search lead must be an object")
+        url = row.get("target_url")
+        _public_url(url)
+        if row.get("original_page_status") != "ORIGINAL_PAGE_CHECKED":
+            raise ValueError("search lead requires ORIGINAL_PAGE_CHECKED")
+        text = row.get("original_page_text")
+        if not isinstance(text, str) or len(text.strip()) < 10:
+            raise ValueError("checked original page text required")
+        output.append(_material(row.get("title", ""), text[:1600], url, row.get("published_at"), captured_at,
+            "PUBLIC_SEARCH_ORIGINAL_PAGE", family="SEARCH_LEADS", discovery_query=row.get("query"),
+            search_result_url=row.get("search_result_url"), search_snippet=row.get("snippet"),
+            original_page_status="ORIGINAL_PAGE_CHECKED", timestamp_basis="ORIGINAL_PAGE_TIMESTAMP_OR_UNKNOWN"))
+    return output

@@ -1,8 +1,8 @@
-# 2026-10-17 active V2 topic admission
+# 2026-10-17 strict V3 topic admission
 
-New candidates use recomputable `VIRAL_ADMISSION_V2`: MIN_POOL=1, topic>=62, default Top5; the relative margin is audit-only. Missing ordinal ratings receive clearly marked structural estimates, while existing authored ratings and semantic Reader Model integrity remain. The earlier Oct16 minimum-ten/winner-only policy is superseded by the user’s adopted Codex upgrade request.
+New candidates use recomputable `VIRAL_ADMISSION_V3`. Preview is explicitly `PREVIEW_ONLY` and may return Top5 from a small pool. Production requires at least 10 distinct events, with targets enforced at raw>=30, grounded deep reviews>=20, under48h>=10 and source families>=4. Only the unique Top1 can pass `candidate_admission()`; a close Top1/Top2 invokes the second-stage editorial judge. Automatic screen scores never become production editorial scores.
 
-Discovery SOURCE_CHECKED describes retrieved feed/channel content only. When `source.fact_verification=UNVERIFIED`, production requires an explicit `source_fact_review` bound to its URL and an exact evidence span. Auto previews have no human/agent review and cannot acquire READY. `prepare_candidate()` and live `pre_publish_assert()` still recompute all contracts. No API or X submission was added. See [CODEX_VIRAL_HUNT.md](CODEX_VIRAL_HUNT.md) and [TOPIC_ADMISSION.md](TOPIC_ADMISSION.md).
+Each production dimension has its own grounded rating/evidence/reason. Three or more repeated evidence or reason values invalidate the deep review. Discovery SOURCE_CHECKED still means retrieval only; unverified source facts require a URL-bound source review. `prepare_candidate()` and live `pre_publish_assert()` recompute all contracts. The scheduled collector cannot publish. See [CODEX_VIRAL_HUNT.md](CODEX_VIRAL_HUNT.md) and [TOPIC_ADMISSION.md](TOPIC_ADMISSION.md).
 
 # Editorial Gate（发布硬闸门）
 

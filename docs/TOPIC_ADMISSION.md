@@ -1,7 +1,9 @@
-# Topic admission V2 production contract
+# Topic admission V3 production contract
 
-The current Oct17 contract is [CODEX_VIRAL_HUNT.md](CODEX_VIRAL_HUNT.md). It supersedes the Oct16 minimum-ten/winner-only specification: minimum1, score>=62, default Top5; margin is informational. `rank-materials`, `hunt`, `prepare-candidates`, `prepare_candidate()` and Editorial Gate all use the same deterministic V2 selection. Topic interest and writing quality remain separate.
+`PREVIEW_ONLY` accepts a small pool and returns up to five auto-screened leads for editorial work. It never grants publication admission.
 
-Every candidate still binds the actual material, source, original draft, entire pool and the exact Reader Model context. Source-fact review is required for automatically discovered, unverified source claims. READY requires the generated Human Style V2 contract and current Editorial Gate; live preflight additionally requires active manual-publication control, no production holds, exact text and a nonexpired snapshot. Frozen V1 research snapshots remain readable but are not current publication contracts.
+`PRODUCTION_COMPETITION` requires at least 10 distinct events and enforces raw pool >=30, valid deep reviews >=20, source age under48h >=10 and source families >=4. Deep reviews require eight separate rating/evidence/reason records; repeated evidence or reasons invalidate the score. Plain monetary numbers produce no hard-evidence bonus.
 
-The previous root-cause audit and its 30-item evaluation are historical: [TOPIC_ADMISSION_REPAIR_2026-10-16.md](TOPIC_ADMISSION_REPAIR_2026-10-16.md). Their inputs, scores, labels and original publication records are not overwritten to fit the new policy. Current tests verify the explicitly changed singleton/tie/Top-N behavior while retaining provenance, contamination, low-topic and fact-drift rejection.
+The production shortlist exposes Top10 and Top3 for review, but `candidate_admission()` accepts only the unique Top1. A margin under five triggers the deterministic second-stage judge over first-screen stop, mass relevance, background cost, audience distance, freshness and human tension. It still produces at most one winner.
+
+Candidate material, pool, source, draft and Reader Model remain hash-bound. Human Style, Editorial Gate and prepublish run after topic admission. Frozen V1/V2 snapshots remain readable as history but cannot serve as current contracts.

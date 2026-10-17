@@ -1,0 +1,27 @@
+name: viral-hunt-collection
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect public leads and build preview packet
+        run: python3 -m growth_engine collect-feed --output-root data/viral_feed --limit 100
+      - name: Verify collection cannot trigger publication
+        run: |
+          python3 -c 'import json; p=json.load(open("data/viral_feed/latest.json")); assert p["publication_triggered"] is False; assert p["automatic_x_submission"] is False'
+      - name: Preserve run packet
+        uses: actions/upload-artifact@v4
+        with:
+          name: viral-feed-${{ github.run_id }}
+          path: data/viral_feed/
+          retention-days: 14

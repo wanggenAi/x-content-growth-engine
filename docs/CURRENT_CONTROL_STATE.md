@@ -10,7 +10,15 @@ The `hunt` command never submits X. ACTIVE permits research, rewrite and qualifi
 
 Older dated control snapshots below are historical.
 
-# Latest control — 2026-10-16 topic admission repair
+# Latest control — 2026-10-17 strict Viral Hunt production competition
+
+`VIRAL_ADMISSION_V3` separates preview auto screening from production editorial scoring. Preview can show Top5 from one item; production requires >=10 distinct events plus raw30/deep-reviewed20/under48h10/source-families4, and only unique Top1 can continue. Missing ratings are not filled for production. Repeated evidence/reason invalidates deep review.
+
+The scheduled GitHub Actions collector runs every four hours and only collects/deduplicates/screens public leads. It cannot submit X and `state/publication_control.json` keeps `automatic_x_submission=false`. Latest on-demand run: `2026-10-17T12:56:38.143594Z`, 83 materials, 65 under48h, four source families. No new X submission occurred.
+
+See `docs/CODEX_VIRAL_HUNT.md` and `data/viral_hunt_validation_2026-10-17.json`. Older control sections below are historical.
+
+# Historical control — 2026-10-16 topic admission repair
 
 `PAUSED_FOR_TOPIC_ADMISSION_REVIEW` overrides the older continued-publishing authorizations below for this repair. User explicitly requested no new X submission and review of Top10/Top5/Top1 first. Repository stop switch: `state/publication_control.json` (PAUSED); heartbeat x was already PAUSED and was not resumed. Only dry-run preparation is allowed. See `docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md` and `docs/TOPIC_ADMISSION.md`.
 

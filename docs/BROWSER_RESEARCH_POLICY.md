@@ -1,12 +1,12 @@
-# 2026-10-17 — Codex active hunting and rewrite
+# 2026-10-17 — strict production topic competition
 
-Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
+Codex may use Browser Harness for permitted public search and original-page verification. Search snippets remain leads and cannot become source-checked material until the original public page is opened and recorded as `ORIGINAL_PAGE_CHECKED`.
 
 Codex may proactively search public web results, read permitted public RSS/Atom and Telegram previews, use free built-in discovery scripts, and prepare source-attributed drafts. Search results are usable discovery evidence with method and capture time; they are not direct-X observations or independent factual corroboration. Supported modes: high-interest source refinement with attribution; multi-source lead checking; an outside-platform perspective on a documented domestic event. No whole-article copying, fabricated first-person experience, invented metrics or unsubstantiated censorship claims.
 
-Missing ratings can receive labelled structural estimates. `VIRAL_ADMISSION_V2` uses MIN_POOL=1, topic>=62 and default Top5; margin is informational. Human Style, fact locks, semantic binding, source-fact review, provenance and exact prepublish checks remain. Claims of deletion/restriction require specific supporting evidence; this is not a universal requirement for ordinary social/human-interest topics.
+Automatic screen ratings are preview-only. Production uses independent deep review, raw30/reviewed20/under48h10/source families4, and a unique Top1. Browser access does not waive source-fact or rights review.
 
-The `hunt` command never submits X. ACTIVE permits research, rewrite and qualified manual publication through existing controls, not an unattended publisher. Existing scheduler settings are not changed by this engineering round. Reddit remains unavailable without verified authorization/use-rights evidence. Ordinary public HTTP requires no session, cookies, paid service or new subscription. Manual X capture remains compatible and its genuine human-check field is not auto-filled.
+The four-hour scheduled collector never opens a browser or submits X. Reddit remains unavailable without verified authorization/use-rights evidence. The 2026-10-17 Browser Harness doctor found Chrome running but no daemon or active connection; public no-login feeds completed the recorded run instead.
 
 ## Public-source implementation review
 

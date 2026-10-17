@@ -67,5 +67,31 @@
     "source": "https://xbangdan.com/",
     "finding": "Daily summary exposure is incremental, not historical cumulative. Ranked post exposure and hourly velocity are different fields; no direct X views.",
     "observed_at": "2026-10-12T00:28:27.377Z"
-  }
+  },
+  "runs": [
+    {
+      "as_of": "2026-10-17T12:55:41.936045Z",
+      "path": "data/viral_feed/2026-10-17/1255.json",
+      "materials": 50,
+      "source_families": [
+        "CHINESE_MEDIA",
+        "GITHUB",
+        "TELEGRAM"
+      ],
+      "health": "HEALTHY"
+    },
+    {
+      "as_of": "2026-10-17T12:56:38.143594Z",
+      "path": "data/viral_feed/2026-10-17/1256.json",
+      "materials": 83,
+      "source_families": [
+        "CHINESE_MEDIA",
+        "GITHUB",
+        "HACKER_NEWS",
+        "TELEGRAM"
+      ],
+      "health": "HEALTHY"
+    }
+  ],
+  "latest": "data/viral_feed/2026-10-17/1256.json"
 }

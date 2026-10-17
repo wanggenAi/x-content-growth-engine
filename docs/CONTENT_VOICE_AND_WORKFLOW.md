@@ -1,12 +1,12 @@
-# 2026-10-17 — Codex active hunting and rewrite
+# 2026-10-17 — strict production topic competition
 
-Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
+Latest direct user request repairs the half-complete Viral Hunt with **Codex** as executor. Existing historical posts, review records and DRY_RUN_ONLY candidates are not migrated or republished.
 
 Codex may proactively search public web results, read permitted public RSS/Atom and Telegram previews, use free built-in discovery scripts, and prepare source-attributed drafts. Search results are usable discovery evidence with method and capture time; they are not direct-X observations or independent factual corroboration. Supported modes: high-interest source refinement with attribution; multi-source lead checking; an outside-platform perspective on a documented domestic event. No whole-article copying, fabricated first-person experience, invented metrics or unsubstantiated censorship claims.
 
-Missing ratings can receive labelled structural estimates. `VIRAL_ADMISSION_V2` uses MIN_POOL=1, topic>=62 and default Top5; margin is informational. Human Style, fact locks, semantic binding, source-fact review, provenance and exact prepublish checks remain. Claims of deletion/restriction require specific supporting evidence; this is not a universal requirement for ordinary social/human-interest topics.
+`AUTO_SCREEN_SCORE` is only a coarse filter. `EDITORIAL_TOPIC_SCORE` requires eight independent grounded judgments and cannot be synthesized from missing ratings. Production requires raw30/reviewed20/under48h10/source families4 and only Top1; preview remains small-pool Top5. Human Style, fact locks, semantic binding, source-fact review, provenance and exact prepublish checks remain.
 
-The `hunt` command never submits X. ACTIVE permits research, rewrite and qualified manual publication through existing controls, not an unattended publisher. Existing scheduler settings are not changed by this engineering round. Reddit remains unavailable without verified authorization/use-rights evidence. Ordinary public HTTP requires no session, cookies, paid service or new subscription. Manual X capture remains compatible and its genuine human-check field is not auto-filled.
+The `hunt` command never submits X. A four-hour GitHub Actions schedule runs `collect-feed` only and uploads the resulting feed artifact; `automatic_x_submission=false`. Reddit remains unavailable without verified authorization/use-rights evidence. Ordinary public HTTP uses no session, cookies, paid service or new subscription.
 
 # 2026-10-08 自我映射与表达冲动（覆盖旧数量驱动默认）
 
