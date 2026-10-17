@@ -1,3 +1,13 @@
+# 2026-10-17 — Codex active hunting and rewrite
+
+Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
+
+Codex may proactively search public web results, read permitted public RSS/Atom and Telegram previews, use free built-in discovery scripts, and prepare source-attributed drafts. Search results are usable discovery evidence with method and capture time; they are not direct-X observations or independent factual corroboration. Supported modes: high-interest source refinement with attribution; multi-source lead checking; an outside-platform perspective on a documented domestic event. No whole-article copying, fabricated first-person experience, invented metrics or unsubstantiated censorship claims.
+
+Missing ratings can receive labelled structural estimates. `VIRAL_ADMISSION_V2` uses MIN_POOL=1, topic>=62 and default Top5; margin is informational. Human Style, fact locks, semantic binding, source-fact review, provenance and exact prepublish checks remain. Claims of deletion/restriction require specific supporting evidence; this is not a universal requirement for ordinary social/human-interest topics.
+
+The `hunt` command never submits X. ACTIVE permits research, rewrite and qualified manual publication through existing controls, not an unattended publisher. Existing scheduler settings are not changed by this engineering round. Reddit remains unavailable without verified authorization/use-rights evidence. Ordinary public HTTP requires no session, cookies, paid service or new subscription. Manual X capture remains compatible and its genuine human-check field is not auto-filled.
+
 # 2026-10-08 自我映射与表达冲动（覆盖旧数量驱动默认）
 
 本轮用户三条原则：人表面看别人，很多时候看自己；评论应由真实观点/经验激活，不靠索要；给足事实和上下文，不替读者完成最后10%的判断。正式契约和真实历史回测见docs/SELF_MIRRORING_RESEARCH_2026-10-08.md。

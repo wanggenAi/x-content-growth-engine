@@ -21,6 +21,7 @@ ABSTRACT_NOUNS = (
 URL_RE = re.compile(r"https?://\S+")
 
 PATTERNS: dict[str, tuple[str, int]] = {
+    "newsroom_residue": (r"(?:引发了广泛关注|网友们纷纷表示|这不禁让人深思|事情的真相究竟如何|在这个快节奏的时代|让我们拭目以待)", 15),
     "balanced_contrast": (r"(?:不是.{0,42}[，,]?而是|重要的不是.{0,42}[，,。！？]?而是|一方面.{0,42}另一方面)", 13),
     "abstract_conclusion": (r"(?:真正的问题是|更值得关注的是|这背后反映的是|换句话说|值得我们思考|这件事让我意识到|从某种意义上说|某种程度上|本质上|归根结底)", 10),
     "mechanical_transition": (r"(?:我能理解[，,。]?但是|救急我能理解[，,。]?但|看起来.{0,25}其实|首先.{0,25}其次.{0,25}(?:最后|再次)|值得注意的是)", 9),
@@ -82,7 +83,8 @@ def analyze_ai_flavor(text: str | None) -> AIFlavorReport:
     counts: Counter[str] = Counter()
     score = 0
     for name, (pattern, weight) in PATTERNS.items():
-        matches = re.findall(pattern, analysis_text, flags=re.IGNORECASE)
+        target = re.sub(r'[“「『\"].*?[”」』\"]', '', analysis_text) if name == "newsroom_residue" else analysis_text
+        matches = re.findall(pattern, target, flags=re.IGNORECASE)
         if matches:
             counts[name] = len(matches)
             score += weight * min(len(matches), 2)
