@@ -267,7 +267,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.282793Z",
+        "evaluated_at": "2026-10-19T05:18:29.206743Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -281,7 +281,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.282793Z",
+        "evaluated_at": "2026-10-19T05:18:29.206743Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -567,7 +567,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.283753Z",
+        "evaluated_at": "2026-10-19T05:18:29.207595Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -581,7 +581,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.283753Z",
+        "evaluated_at": "2026-10-19T05:18:29.207595Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -870,7 +870,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.284620Z",
+        "evaluated_at": "2026-10-19T05:18:29.208379Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -884,7 +884,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.284620Z",
+        "evaluated_at": "2026-10-19T05:18:29.208379Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -1174,7 +1174,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.285509Z",
+        "evaluated_at": "2026-10-19T05:18:29.209260Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1188,7 +1188,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.285509Z",
+        "evaluated_at": "2026-10-19T05:18:29.209260Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -1501,7 +1501,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.286402Z",
+        "evaluated_at": "2026-10-19T05:18:29.210126Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1515,7 +1515,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.286402Z",
+        "evaluated_at": "2026-10-19T05:18:29.210126Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -1817,7 +1817,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.287236Z",
+        "evaluated_at": "2026-10-19T05:18:29.210970Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1831,7 +1831,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.287236Z",
+        "evaluated_at": "2026-10-19T05:18:29.210970Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2113,7 +2113,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.287888Z",
+        "evaluated_at": "2026-10-19T05:18:29.211644Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -2127,7 +2127,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.287888Z",
+        "evaluated_at": "2026-10-19T05:18:29.211644Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2139,23 +2139,23 @@
     "material_id": "Dbc931046914e718c",
     "variant": "B",
     "before": "来吃喜酒的人，每人还收到新人给的200元红包。\n\n这是9月26日宁波咸祥的一场婚礼。宁波晚报的报道里，新娘说，当地本来给宾客送烟，她改成了现金。\n\n婚车、司仪、伴郎伴娘都没请。父亲上台致辞41秒，开席。\n\n小两口也没省掉自己想要的纪念：婚纱照去了丽江，背景是玉龙雪山。\n\nhttps://feng.ifeng.com/c/8xA1cjWnAm0",
-    "after": "婚车没请，司仪没请，来吃席的人倒是每人发200元。\n\n9月26日，宁波咸祥这场婚礼，连伴郎伴娘都省了。新娘父亲上台，41秒，开席。\n\n据宁波晚报报道，新人给的红包替了当地的喜烟。新娘说，现在很多人不抽烟了，她觉得换成红包更实在。\n\n婚纱照可没省。小两口专门去了丽江拍，玉龙雪山当背景。\n\nhttps://feng.ifeng.com/c/8xA1cjWnAm0",
+    "after": "婚车没请，司仪没请，来吃席的人倒是每人领了200元。\n\n9月26日，宁波咸祥这场婚礼，连伴郎伴娘都省了。新娘父亲上台，41秒，开席。\n\n据宁波晚报报道，新人给的红包替了当地的喜烟。新娘说，现在很多人不抽烟了，她觉得换成红包更实在。\n\n婚纱照可没省。小两口专门去了丽江拍，玉龙雪山当背景。\n\nhttps://feng.ifeng.com/c/8xA1cjWnAm0",
     "source": "https://feng.ifeng.com/c/8xA1cjWnAm0",
     "failure": "原稿信息正确，但按红包、地点、报道依次播报。",
     "difference": "先给省掉的排场与保留的待客花销，再让41秒和雪山照片落地；“可没省”指没省掉拍照，不暗示价格。",
     "limitation": "三稿中推荐进入人工审核；明确9月26日，不能当作今天新发生。",
     "style": {
-      "rewritten_text": "婚车没请，司仪没请，来吃席的人倒是每人发200元。\n\n9月26日，宁波咸祥这场婚礼，连伴郎伴娘都省了。新娘父亲上台，41秒，开席。\n\n据宁波晚报报道，新人给的红包替了当地的喜烟。新娘说，现在很多人不抽烟了，她觉得换成红包更实在。\n\n婚纱照可没省。小两口专门去了丽江拍，玉龙雪山当背景。\n\nhttps://feng.ifeng.com/c/8xA1cjWnAm0",
+      "rewritten_text": "婚车没请，司仪没请，来吃席的人倒是每人领了200元。\n\n9月26日，宁波咸祥这场婚礼，连伴郎伴娘都省了。新娘父亲上台，41秒，开席。\n\n据宁波晚报报道，新人给的红包替了当地的喜烟。新娘说，现在很多人不抽烟了，她觉得换成红包更实在。\n\n婚纱照可没省。小两口专门去了丽江拍，玉龙雪山当背景。\n\nhttps://feng.ifeng.com/c/8xA1cjWnAm0",
       "changes": [],
       "operations": [],
       "authoring": {
         "version": "HUMAN_STYLE_V3",
         "method": "SUPPLIED_AUTHOR_REVISION",
         "before_text_hash": "cfd128cc6d2eed974d141372613fdd89f515f19b520b2aeb8afcee17dec13a91",
-        "after_text_hash": "d1543565c95fb8dd4a16a2cf09a6004d60d6506e466e72c46c608219b81dc666",
+        "after_text_hash": "b5f854561f17795b3225065b421eb9d7c22dcf463bd4d2ef93b13aad1e8632fa",
         "textual_change": true,
         "before_opening": "来吃喜酒的人，每人还收到新人给的200元红包",
-        "after_opening": "婚车没请，司仪没请，来吃席的人倒是每人发200元",
+        "after_opening": "婚车没请，司仪没请，来吃席的人倒是每人领了200元",
         "quality_status": "REQUIRES_TEXT_FIRST_EDITORIAL_REVIEW"
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
@@ -2258,7 +2258,7 @@
         "sentence_stats": {
           "count": 7,
           "lengths": [
-            24,
+            25,
             23,
             13,
             21,
@@ -2266,14 +2266,14 @@
             6,
             18
           ],
-          "mean": 18.43,
-          "stdev": 6.25,
+          "mean": 18.57,
+          "stdev": 6.39,
           "short_ratio": 0.143,
           "question_count": 0,
           "abstract_count": 0,
           "abstract_density": 0.0,
           "paragraph_lengths": [
-            25,
+            26,
             38,
             47,
             26
@@ -2296,15 +2296,15 @@
       "x_native_style_report": {
         "passed": true,
         "status": "PASS",
-        "score": 79,
-        "soft_score": 79,
+        "score": 80,
+        "soft_score": 80,
         "assessment_scope": "SURFACE_STYLE_ONLY_NOT_CONTENT_VALUE",
         "hard_blockers": [],
         "dimensions": {
-          "first_screen_stopping_power": 68,
+          "first_screen_stopping_power": 69,
           "scene_concreteness": 93,
           "human_reaction": 42,
-          "sentence_rhythm": 70,
+          "sentence_rhythm": 71,
           "abstractness": 94,
           "explanation_overload": 92,
           "conclusion_overreach": 94,
@@ -2320,13 +2320,13 @@
           "concrete_action": true,
           "action_count": 7,
           "actions": [
-            "发",
             "吃",
             "开",
             "换",
             "给",
             "说",
-            "请"
+            "请",
+            "领"
           ],
           "concrete_quantity": true,
           "quantity_count": 4,
@@ -2354,7 +2354,7 @@
         "sentence_stats": {
           "count": 7,
           "lengths": [
-            24,
+            25,
             23,
             13,
             21,
@@ -2362,14 +2362,14 @@
             6,
             18
           ],
-          "mean": 18.43,
-          "stdev": 6.25,
+          "mean": 18.57,
+          "stdev": 6.39,
           "short_ratio": 0.143,
           "question_count": 0,
           "abstract_count": 0,
           "abstract_density": 0.0,
           "paragraph_lengths": [
-            25,
+            26,
             38,
             47,
             26
@@ -2412,7 +2412,7 @@
       "human_style": {
         "version": "HUMAN_STYLE_V2",
         "input_text_hash": "cfd128cc6d2eed974d141372613fdd89f515f19b520b2aeb8afcee17dec13a91",
-        "output_text_hash": "d1543565c95fb8dd4a16a2cf09a6004d60d6506e466e72c46c608219b81dc666",
+        "output_text_hash": "b5f854561f17795b3225065b421eb9d7c22dcf463bd4d2ef93b13aad1e8632fa",
         "locked_facts_hash": "5fed081a26059b834f28a703e0d645901aa2cc8d25c460ac6901399b87be9c86",
         "ai_flavor_score_before": 0,
         "ai_flavor_score_after": 0,
@@ -2420,13 +2420,13 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.288631Z",
+        "evaluated_at": "2026-10-19T05:18:29.212399Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
         "version": "HUMAN_STYLE_V2",
         "input_text_hash": "cfd128cc6d2eed974d141372613fdd89f515f19b520b2aeb8afcee17dec13a91",
-        "output_text_hash": "d1543565c95fb8dd4a16a2cf09a6004d60d6506e466e72c46c608219b81dc666",
+        "output_text_hash": "b5f854561f17795b3225065b421eb9d7c22dcf463bd4d2ef93b13aad1e8632fa",
         "locked_facts_hash": "5fed081a26059b834f28a703e0d645901aa2cc8d25c460ac6901399b87be9c86",
         "ai_flavor_score_before": 0,
         "ai_flavor_score_after": 0,
@@ -2434,7 +2434,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.288631Z",
+        "evaluated_at": "2026-10-19T05:18:29.212399Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2719,7 +2719,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.289314Z",
+        "evaluated_at": "2026-10-19T05:18:29.213075Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -2733,7 +2733,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:15:48.289314Z",
+        "evaluated_at": "2026-10-19T05:18:29.213075Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
