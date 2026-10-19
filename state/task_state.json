@@ -1876,5 +1876,20 @@
     "fresh_main_pool": 123,
     "fresh_main_reviewed_topics": 20,
     "verification_file": "data/content_quality_2026-10-19/main_verification.json"
+  },
+  "human_style_v3_2026_10_19": {
+    "updated_at_utc": "2026-10-19T05:15:14.446260Z",
+    "mode": "LIGHTWEIGHT_CODEX_AUTHORING_DRY_RUN_ONLY",
+    "status": "IMPLEMENTED_LOCAL_VALIDATION",
+    "base_main": "ec2bec40b0c4748a5c9f859acd1563adf88b9f10",
+    "runtime_dependencies_added": 0,
+    "local_models": false,
+    "automatic_x_submission": false,
+    "history_drafts_compared": 9,
+    "fresh_topics_tested": 3,
+    "artifact": "data/human_style_v3_2026-10-19/",
+    "human_approval": "UNKNOWN",
+    "traffic_outcome": "UNKNOWN",
+    "next_action": "PR CI, merge, latest main replay"
   }
 }

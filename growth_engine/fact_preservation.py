@@ -74,7 +74,7 @@ def check_fact_preservation(before: str, after: str, locked_facts: Mapping[str, 
         after_tokens = _tokens(after, pattern)
         removed = sorted(before_tokens - after_tokens)
         added = sorted(after_tokens - before_tokens)
-        if removed or (label == "url" and added):
+        if removed or added:
             changed.append({"category": label, "removed": removed, "added": added})
 
     before_sentences = { _compact(item) for item in re.split(r"[。！？!?\n]+", before) if _compact(item) }

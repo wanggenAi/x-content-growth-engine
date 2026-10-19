@@ -33,7 +33,11 @@ PATTERNS: dict[str, tuple[str, int]] = {
     "fact_to_value_question": (r"(?:\d|小时|工资|工牌|考勤)[\s\S]{0,180}(?:公平|尊严|权益|边界|选择权|凭什么|为什么)[\s\S]{0,45}[？?]", 35),
 }
 
-FORCED_HUMANIZATION = re.compile(r"(?:卧槽|兄弟们|哈哈哈|哈哈哈哈|绝了|离谱了吧).*(?:卧槽|兄弟们|哈哈哈|哈哈哈哈|绝了|离谱了吧)|[!！]{3,}|[😂🤣😅😭🤡]{2,}")
+# Only a tight pile-up is a mechanical signal. Separate contextual reactions,
+# and other people's quoted words, are not evidence of forced humanization.
+REACTION = r"(?:卧槽|我草|我去|兄弟们|哈哈哈+|绝了|离谱了吧|不是吧|真的假的|太离谱了|有点意思|这也行)"
+REACTION_JOIN = r"(?:[\s，,。！!？?：:]|也|太|这|真|吧|了)*"
+FORCED_HUMANIZATION = re.compile(rf"{REACTION}{REACTION_JOIN}{REACTION}{REACTION_JOIN}{REACTION}")
 QUESTION_END = re.compile(r"[？?]$")
 
 
@@ -109,7 +113,8 @@ def analyze_ai_flavor(text: str | None) -> AIFlavorReport:
     if len(sentences) >= 6 and all(any(marker in sentence for marker in ("因为", "所以", "但是", "因此", "这")) for sentence in sentences[1:]):
         counts["over_explanation"] += 1
         score += 8
-    forced = bool(FORCED_HUMANIZATION.search(analysis_text))
+    reaction_text = re.sub(r'[“「『\"].*?[”」』\"]', '', analysis_text, flags=re.DOTALL)
+    forced = bool(FORCED_HUMANIZATION.search(reaction_text))
     if forced:
         counts["forced_humanization"] += 1
         score += 25
@@ -119,6 +124,8 @@ def analyze_ai_flavor(text: str | None) -> AIFlavorReport:
     warnings: list[str] = []
     if forced:
         warnings.append("forced_humanization_signals")
+    if re.search(r"[!！]{3,}|[😂🤣😅😭🤡]{2,}", reaction_text):
+        warnings.append("emphasis_needs_context_review_not_authorship_verdict")
     if abstract_density >= 0.025:
         warnings.append("abstract_terms_are_a_signal_not_a_ban")
     blocked = severity == "HIGH" or forced

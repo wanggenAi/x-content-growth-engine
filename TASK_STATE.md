@@ -1355,3 +1355,12 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 
 2026-10-19合并后验收：PR #14已合并，代码合并SHA c63d9050cfd9eb8b257a999834e839c49d1cf8ff。PR CI、main CI及main手动采集Actions均SUCCESS。merged main上unittest/pytest各126通过，compileall/diff-check通过；原始45事件/9稿完整重放与提交结果完全一致。远端main最新采集208条，保留100条，4来源族、100条源发布时间48h内，health HEALTHY、errors空、没有发布。与已审来源快照合并后123个独立事件，20个已审；新线索没有继承旧评审，Top3/9稿重新通过正文来源检查。见data/content_quality_2026-10-19/main_verification.json。Top5最终为校园信息测试、屋檐催款、9月婚礼重读、公益捐股承诺（HOLD）、游艇卫星图线索（HOLD）；鲜笋调查在Top5之外。
 工程修复和合并已完成，但内容吸引力仍是编辑判断；同一Codex分作者/编辑两次执行，不冒充独立真人审查。三篇推荐稿可进入人工审核，尚不是完整发布预检通过记录；实际曝光/互动/涨粉仍UNKNOWN，没有本轮X投稿或增长验证。原工作区3条未推送的无关本地提交保留，未并入本次PR。下一步读者人工审稿、合法获取有时间戳的真实反馈；没有新的明确授权不向X提交。
+
+
+## 2026-10-19 Human Style V3 轻量升级
+
+最新直接用户要求：普通苹果电脑、零本地模型/收费API/新服务/运行依赖；由Codex实质原创改写，简短Voice Profile与负例，保留事实和人工发布审核。本轮不授权X提交，覆盖早期持续发帖授权。
+已核对origin/main ec2bec40b0c4748a5c9f859acd1563adf88b9f10，无未合并PR；复用独立worktree，新分支feature/human-style-v3，原checkout三个未推送的无关提交不动。
+根因：V2只做正则清理，GEN_DEFAULT字符串未真正载入个人配置；无变化的低AI味被误读成写作成功。V3传入authored_text/保留原稿，旧V2合同继续校验；写作结果与程序检查明确区分。修复自然口语/引用被强制人性化误判、新增数字未被事实保留检查拒绝；hunt输出真实前后全文，正文变化必须重审。
+产物：data/human_style_v3_2026-10-19/，九篇历史稿完整对照，校园/屋檐/婚礼三组重放；最新100条免费采集4来源族，另读Guardian Money RSS，新增居家养老/东北虎放归旧事/BT投诉三稿。日期与套餐费用等反证保留。九稿及三新稿事实锁/来源编辑复核通过，不冒称独立真人或流量验收。
+标准库本机9稿重放0.54秒，峰值RSS24,772,608字节，无GPU/常驻进程。三个参考项目MIT，仅借鉴方法，不复制大段代码或安装依赖。风格正例无人认可，列表留空。完成本地测试后进行PR/CI/合并；X未发布，真实增长UNKNOWN。

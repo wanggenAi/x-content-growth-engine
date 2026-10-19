@@ -1,18 +1,50 @@
 {
   "profile_id": "GEN_DEFAULT",
-  "version": "1",
+  "version": "3",
   "platform": "X_ZH",
-  "calibration_basis": "多作者公开样本的结构性人工校准；不是个人文风模仿，也不是总体统计估计。",
+  "calibration_basis": "Codex写作指引；没有已获用户认可的V3正例，不能冒称个人风格已校准。",
   "sentence_length": "mixed",
   "short_sentence_ratio": 0.55,
   "abstract_noun_tolerance": "LOW",
   "conclusion_tolerance": "LOW",
   "rhetorical_question_tolerance": "MEDIUM",
   "first_person_tolerance": "MEDIUM",
-  "internet_slang_tolerance": "LOW_MEDIUM",
+  "internet_slang_tolerance": "CONTEXTUAL",
   "imperfection_tolerance": "MEDIUM",
   "explanation_depth": "LOW",
   "scene_first": true,
   "concrete_detail_priority": "HIGH",
-  "default_primary_action": "REVIEW_REQUIRED"
+  "default_primary_action": "REVIEW_REQUIRED",
+  "writing_brief": [
+    "先给读者一个具体的人、动作或反常细节，再补必要背景；像给朋友讲一件真事。",
+    "短句和正常长句穿插，口语自然，用词有偏好；不做新闻播报，不刻意写金句。",
+    "可以有即时反应、克制吐槽和幽默，依据事实，不强塞口头禅；严肃受害事件不玩梗。",
+    "个人观察只落在可核对的细节上，不编亲历、对话、心理、因果或群体判断。",
+    "保留关键事实、来源、日期与未知；引用按原意，不把转述变成证实。",
+    "停在具体细节，不升华，不套问句；已自然的句子可以原样留。"
+  ],
+  "optional_expressions": [
+    "我去",
+    "卧槽",
+    "我草",
+    "不是吧",
+    "真的假的",
+    "绝了",
+    "这也行？",
+    "太离谱了",
+    "有点意思"
+  ],
+  "expression_policy": "仅供按语境选用，不是必选词表，不按出现次数加分。",
+  "approved_examples": [],
+  "approved_examples_status": "AWAITING_USER_ACCEPTANCE",
+  "rejected_examples": [
+    {
+      "reference": "C390 / 用户明确否定",
+      "failure": "金额密集、文风高分，仍是未经独立核实的自述；文风不能替题材和来源背书。"
+    },
+    {
+      "reference": "2026-10-19 campus A",
+      "failure": "记者注册、这是报道、短短几天、报道未公开：信息有用，但逐句播报、重点被背景打断。"
+    }
+  ]
 }
