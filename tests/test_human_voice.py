@@ -139,6 +139,14 @@ class HumanVoicePipelineTests(unittest.TestCase):
         self.assertEqual(result['draft_text_before_human_style'], c['text'])
         self.assertTrue(result['human_style_result']['authoring']['textual_change'])
         self.assertFalse(result['editorial_gate']['ready'])  # old approval cannot follow a new body
+        from growth_engine.human_voice import stable_hash
+        c['content_review']['text_hash'] = stable_hash(c['authored_text'])
+        for claim in c['content_review']['claims']:
+            claim['draft_span'] = claim['draft_span'].replace('朋友', '一个朋友', 1)
+        checked = prepare_candidate(c)
+        self.assertTrue(checked['editorial_gate']['ready'])
+        checked['authored_text'] = checked['authored_text'].replace('朋友', '同事')
+        self.assertFalse(validate_candidate(checked).ready)  # exact author payload is rechecked
 
     def test_actual_v3_drafts_retain_locks_and_source_bound_editorial_reviews(self):
         from growth_engine.content_review import review_content
