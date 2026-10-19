@@ -92,6 +92,84 @@ class XNativeAndCommentTests(unittest.TestCase):
 
 
 class HumanVoicePipelineTests(unittest.TestCase):
+    def test_default_profile_reaches_codex_without_a_runtime_model(self):
+        from growth_engine.human_voice import generate_viral_variants_prompt
+        profile = generate_viral_variants_prompt({})['voice_profile']
+        self.assertEqual(profile['profile_id'], 'GEN_DEFAULT')
+        self.assertTrue(profile['writing_brief'])
+        self.assertEqual(profile['approved_examples'], [])  # no fabricated user approval
+
+    def test_cleanup_noop_does_not_claim_original_authoring_or_quality(self):
+        text = '记者收到推销电话。'
+        result = humanize_text({'draft_text': text, 'locked_facts': {'roles': ['记者']}})
+        self.assertEqual(result['rewritten_text'], text)
+        self.assertFalse(result['authoring']['textual_change'])
+        self.assertIn('cleanup_is_not_original_authoring', result['warnings'])
+        self.assertIn('unchanged_text_is_not_evidence_of_quality', result['warnings'])
+        self.assertEqual(result['authoring']['quality_status'], 'REQUIRES_TEXT_FIRST_EDITORIAL_REVIEW')
+
+    def test_supplied_prose_is_checked_against_original_not_its_own_locks(self):
+        request = {'draft_text': '记者收到5个电话。', 'locked_facts': {'roles': ['记者'], 'numbers': ['5个']},
+                   'authored_text': '才过几天，记者就收到5个电话。', 'primary_action': 'SHARE'}
+        result = run_human_voice_pipeline(request)
+        self.assertEqual(result['rewritten_text'], request['authored_text'])
+        self.assertTrue(result['fact_preservation_report']['passed'])
+        self.assertTrue(result['authoring']['textual_change'])
+        self.assertEqual(result['voice_features']['raw_human_reaction'], '才过几天，记者就收到5个电话')
+        request['authored_text'] += '另有99个人来电。'
+        self.assertFalse(run_human_voice_pipeline(request)['fact_preservation_report']['passed'])
+        request['authored_text'] = ''
+        with self.assertRaises(ValueError):
+            run_human_voice_pipeline(request)
+
+    def test_contextual_reactions_and_quoted_slang_are_not_a_blanket_ban(self):
+        for text in ['我去，婚车没请，客人每人拿200元红包。婚纱照去了丽江，有点意思。',
+                     '我去，绝了！客人每人收到200元红包。', '这也行！！！😂😂',
+                     '她说：“卧槽，绝了！”随后给出了具体账单。',
+                     '不是吧。报价250英镑，上门之后涨到3500英镑。']:
+            self.assertNotIn('forced_humanization', analyze_ai_flavor(text).matched_patterns, text)
+        self.assertIn('forced_humanization', analyze_ai_flavor('卧槽，绝了，兄弟们！！！').matched_patterns)
+
+    def test_candidate_uses_authored_text_but_expires_original_editor_review(self):
+        from tests.test_human_style_production import candidate
+        from growth_engine.candidate_pipeline import prepare_candidate
+        c = candidate()
+        c['authored_text'] = c['text'].replace('朋友', '一个朋友', 1)
+        result = prepare_candidate(c)
+        self.assertIn('一个朋友', result['text'])
+        self.assertEqual(result['draft_text_before_human_style'], c['text'])
+        self.assertTrue(result['human_style_result']['authoring']['textual_change'])
+        self.assertFalse(result['editorial_gate']['ready'])  # old approval cannot follow a new body
+        from growth_engine.human_voice import stable_hash
+        c['content_review']['text_hash'] = stable_hash(c['authored_text'])
+        for claim in c['content_review']['claims']:
+            claim['draft_span'] = claim['draft_span'].replace('朋友', '一个朋友', 1)
+        checked = prepare_candidate(c)
+        self.assertTrue(checked['editorial_gate']['ready'])
+        checked['authored_text'] = checked['authored_text'].replace('朋友', '同事')
+        self.assertFalse(validate_candidate(checked).ready)  # exact author payload is rechecked
+
+    def test_actual_v3_drafts_retain_locks_and_source_bound_editorial_reviews(self):
+        from growth_engine.content_review import review_content
+        folder = Path('data/human_style_v3_2026-10-19')
+        comparisons = json.loads((folder / 'nine_comparisons.json').read_text())
+        records = json.loads((folder / 'editorial_reviews.json').read_text())['records']
+        locks_by_variant = {(r['material_id'], v['id']): v['locked_facts']
+                            for r in records for v in r.get('previews', []) if 'locked_facts' in v}
+        self.assertEqual(len(comparisons), 9)
+        for row in comparisons:
+            self.assertEqual(row['style']['voice_profile']['profile_id'], 'GEN_DEFAULT')
+            self.assertTrue(check_fact_preservation(row['before'], row['after'],
+                locks_by_variant[(row['material_id'], row['variant'])])['passed'])
+        packet = json.loads((folder / 'fresh_three.json').read_text())
+        for row in packet['records']:
+            self.assertTrue(check_fact_preservation(row['original_text'], row['text'], row['locks'])['passed'])
+            reviewed = {'text': row['text'], 'content_review': row['content_review'],
+                        'publication_memory': packet['publication_memory']}
+            self.assertTrue(review_content(reviewed, row['material'])['passed'])
+            reviewed['text'] += '还有9999元奖金。'
+            self.assertFalse(review_content(reviewed, row['material'])['passed'])
+
     def test_pipeline_preserves_quote_and_returns_contract(self):
         request = {
             "draft_text": "更值得关注的是：他说‘一会儿回去我就把蜡烛插在我的面条上。’",

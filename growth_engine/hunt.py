@@ -183,12 +183,16 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
         checked = []
         for variant in authored:
             text = variant.get("text", "")
-            style = run_human_style_pipeline({"draft_text": text, "locked_facts": lock_draft_facts(text),
+            before = variant.get("original_text", text)
+            style = run_human_style_pipeline({"draft_text": before,
+                "authored_text": text if "original_text" in variant else None,
+                "locked_facts": variant.get("locked_facts", lock_draft_facts(before)),
                 "primary_action": variant.get("primary_action", "SHARE"), "target_platform": "X_ZH",
                 "voice_profile": "GEN_DEFAULT", "preserve_quotes": True})
             content = review_content({**variant, "text": style["rewritten_text"], "content_review": variant.get("content_review"),
                                       "publication_memory": memory}, material)
-            checked.append({**variant, "before": text, "after": style["rewritten_text"],
+            checked.append({**variant, "before": before, "after": style["rewritten_text"],
+                            "authoring": style["authoring"], "fact_preservation_report": style["fact_preservation_report"],
                             "human_style_passed": style["passed"], "content_review_result": content,
                             "publication_allowed": False})
         if mid == winner_id: previews = checked
@@ -220,7 +224,13 @@ def render_editorial_drafts(result: dict) -> str:
                   "事件时间状态：" + str(source.get("event_time_status", "UNKNOWN")), "",
                   "编辑建议：" + topic["editorial_recommendation"] + "；推荐版本：" + str(topic["recommended_variant"]), ""]
         for v in topic["variants"]:
-            lines += ["### " + str(v.get("id")) + " / " + str(v.get("mode", "UNKNOWN")), "", v["after"], "",
+            reasons = list(v["content_review_result"]["reasons"])
+            if not v["human_style_passed"]:
+                reasons.append("风格或事实保留检查未通过；不能进入发布审核")
+            lines += ["### " + str(v.get("id")) + " / " + str(v.get("mode", "UNKNOWN")), ""]
+            if "original_text" in v:
+                lines += ["原稿：", "", v["before"], "", "Codex改写后的实际检查正文：", ""]
+            lines += [v["after"], "",
                       "编辑依据：" + str((v.get("content_review") or {}).get("payoff", {}).get("reason", "未审")), "",
-                      "淘汰/保留问题：" + "; ".join(v["content_review_result"]["reasons"] or ["编辑通过；实际传播效果UNKNOWN"]), ""]
+                      "淘汰/保留问题：" + "; ".join(reasons or ["编辑通过；实际传播效果UNKNOWN"]), ""]
     return "\n".join(lines)

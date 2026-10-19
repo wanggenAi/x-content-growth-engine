@@ -83,6 +83,7 @@ def _human_voice_errors(candidate: dict[str, Any]) -> list[str]:
     if not errors:
         expected = run_human_style_pipeline({
             "draft_text": candidate["draft_text_before_human_style"],
+            "authored_text": candidate.get("authored_text"),
             "locked_facts": candidate.get("locked_facts", {}),
             "target_platform": candidate.get("target_platform", "X_ZH"),
             "voice_profile": candidate.get("voice_profile", "GEN_DEFAULT"),

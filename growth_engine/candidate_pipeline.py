@@ -41,6 +41,7 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
         return result
     pipeline = run_human_style_pipeline({
         "draft_text": draft,
+        "authored_text": result.get("authored_text"),
         "locked_facts": locked_facts,
         "target_platform": result.get("target_platform", "X_ZH"),
         "voice_profile": result.get("voice_profile", "GEN_DEFAULT"),
@@ -67,6 +68,8 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
     result["writing_quality"] = pipeline["x_native_style_report"]["score"]
     result["human_style_result"] = {
         "passed": pipeline["passed"],
+        "authoring": pipeline["authoring"],
+        "assessment_scope": pipeline["assessment_scope"],
         "ai_flavor_report": pipeline["ai_flavor_report"],
         "fact_preservation_report": pipeline["fact_preservation_report"],
         "x_native_style_report": pipeline["x_native_style_report"],
