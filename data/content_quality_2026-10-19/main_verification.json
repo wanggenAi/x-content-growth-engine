@@ -1,0 +1,43 @@
+{
+  "implementation_merge": "c63d9050cfd9eb8b257a999834e839c49d1cf8ff",
+  "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/14",
+  "tests": {
+    "unittest": 126,
+    "pytest": 126,
+    "compileall": "PASS",
+    "diff_check": "PASS"
+  },
+  "ci": {
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39200354934",
+    "main": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39200475767",
+    "main_collection": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39200600863",
+    "all": "SUCCESS"
+  },
+  "postmerge_collection": {
+    "as_of": "2026-10-19T04:40:02.417226Z",
+    "collected": 208,
+    "returned": 100,
+    "health": {
+      "status": "HEALTHY",
+      "reasons": [],
+      "completion_age_hours": 0,
+      "source_family_count": 4,
+      "under48h": 100
+    },
+    "errors": []
+  },
+  "postmerge_end_to_end": {
+    "distinct_pool": 123,
+    "reviewed": 20,
+    "pool_hash": "38a994f845f96f789b31fabe6e36b8dd7312ddf1b726826fe65279d527a1b29f",
+    "status": "EDITORIAL_REVIEW_DRAFTS",
+    "recommended_top1": "Da344dc59d622a1e7",
+    "drafts": 9,
+    "publication_allowed": false,
+    "new_unreviewed_leads": "Retained without inherited judgments; require their own source/text reviews."
+  },
+  "historical_replay": "Exact match of committed result.json on merged main before adding newly collected leads.",
+  "traffic_growth_verified": false,
+  "independent_human_review": false,
+  "x_submissions": 0
+}

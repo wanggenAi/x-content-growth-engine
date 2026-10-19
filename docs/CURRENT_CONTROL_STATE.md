@@ -1,3 +1,7 @@
+# 2026-10-19 — merged code; drafts awaiting human review
+
+PR #14 merged as c63d905. Main tests and fresh collector passed. Source-bound text review is mandatory for new READY admission. Top3 have nine reviewable drafts; actual growth remains UNKNOWN. X submission remains PAUSED under the current user instruction. Reproducible artifacts: `data/content_quality_2026-10-19/`; main replay/CI receipt: `main_verification.json`. This is a code-repair milestone, not a claim of proven reader appeal.
+
 # 2026-10-19 — content quality repair; dry-run only
 
 Latest direct instruction: repair, test, create PR and merge main; research and authored dry runs only. No new X submission is authorized in this round. `content_review` is now required before a new READY admission and final prepublish validation. Style/keyword scores are surface checks, never content success. Full source/time/text/memory binding and a separate text-first editorial comparison are required. Older control snapshots below are historical.

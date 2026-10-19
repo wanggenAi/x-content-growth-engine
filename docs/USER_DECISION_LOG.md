@@ -937,3 +937,9 @@ Four-hour GitHub Actions collection is restored as collection-only with read-onl
 本地unittest123通过；pytest首次环境未装，免费测试venv下载发生超时，正在恢复并等待CI。没有新X提交；193条实际发布正文/来源参与去重；历史21条反馈快照无合格固定窗口，当前指标/增长UNKNOWN。下一步完成pytest/CI、PR合并并从最新main重放验收。
 
 2026-10-19验证补记：unittest与pytest均126通过、compileall与diff-check通过。pytest免费venv重试成功；审计首次误传对象格式文件被拒绝，随后按README导入seed与direct-page记录，7帖/8观察/2材料，无公式验证，旧索引指标与粉丝分母缺失仍保留为审计问题。实际生产dry-run返回3组选题/9稿，2条HOLD；下一步PR/CI/merge。
+
+
+## 2026-10-19 合并与真实产物验收
+
+2026-10-19合并后验收：PR #14已合并，代码合并SHA c63d9050cfd9eb8b257a999834e839c49d1cf8ff。PR CI、main CI及main手动采集Actions均SUCCESS。merged main上unittest/pytest各126通过，compileall/diff-check通过；原始45事件/9稿完整重放与提交结果完全一致。远端main最新采集208条，保留100条，4来源族、100条源发布时间48h内，health HEALTHY、errors空、没有发布。与已审来源快照合并后123个独立事件，20个已审；新线索没有继承旧评审，Top3/9稿重新通过正文来源检查。见data/content_quality_2026-10-19/main_verification.json。Top5最终为校园信息测试、屋檐催款、9月婚礼重读、公益捐股承诺（HOLD）、游艇卫星图线索（HOLD）；鲜笋调查在Top5之外。
+工程修复和合并已完成，但内容吸引力仍是编辑判断；同一Codex分作者/编辑两次执行，不冒充独立真人审查。三篇推荐稿可进入人工审核，尚不是完整发布预检通过记录；实际曝光/互动/涨粉仍UNKNOWN，没有本轮X投稿或增长验证。原工作区3条未推送的无关本地提交保留，未并入本次PR。下一步读者人工审稿、合法获取有时间戳的真实反馈；没有新的明确授权不向X提交。
