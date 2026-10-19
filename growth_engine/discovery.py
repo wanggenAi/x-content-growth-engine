@@ -16,8 +16,11 @@ from .human_voice import stable_hash
 
 DEFAULT_RSS = (
     "https://chinadigitaltimes.net/chinese/feed",
+    "https://www.chinanews.com.cn/rss/society.xml",
+    "https://www.scmp.com/rss/91/feed",
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://www.theguardian.com/money/rss",
     "https://github.com/openai/openai-python/releases.atom",
-    "https://github.com/python/cpython/releases.atom",
 )
 HN_INDEXES = {name: f"https://hacker-news.firebaseio.com/v0/{name}stories.json" for name in ("top", "best", "new")}
 SEARCH_QUERIES = {
@@ -146,9 +149,12 @@ def parse_rss(body: str, feed_url: str, captured_at: str) -> list[dict]:
         if not link.startswith("https://"):
             continue
         # Keep excerpts bounded; archives remain discovery leads, not proof of deletion.
-        excerpt = fields.get("encoded") or fields.get("content") or fields.get("description") or fields.get("summary") or ""
+        # Some feeds put a photo credit in content:encoded and the actual
+        # discovery text in description. Do not silently discard that text.
+        excerpts = [plain_text(fields.get(k, "")) for k in ("encoded", "content", "description", "summary")]
+        excerpt = max(excerpts, key=len)
         host = urlsplit(feed_url).netloc.lower()
-        family = "HACKER_NEWS" if host == "hnrss.org" else "GITHUB" if host == "github.com" else "CHINESE_MEDIA" if host.endswith("chinadigitaltimes.net") else "NEWS_MEDIA"
+        family = "HACKER_NEWS" if host == "hnrss.org" else "GITHUB" if host == "github.com" else "CHINESE_MEDIA" if host.endswith(("chinadigitaltimes.net", "chinanews.com.cn")) else "NEWS_MEDIA"
         output.append(_material(fields.get("title", ""), plain_text(excerpt)[:1600], link.strip(),
             fields.get("pubDate") or fields.get("published") or fields.get("updated"), captured_at,
             "PUBLIC_RSS", feed_url=feed_url, author=fields.get("creator") or fields.get("author") or None,

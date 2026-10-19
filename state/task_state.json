@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-17T12:56:38.143594Z",
+  "updated_at": "2026-10-19T04:32:50.124337Z",
   "phase": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
   "checkpoints": {
     "environment_review": "done",
@@ -90,7 +90,12 @@
       "real_materials": 83,
       "deep_reviewed": 20,
       "under48h": 65,
-      "source_family_counts": {"CHINESE_MEDIA": 7, "TELEGRAM": 23, "HACKER_NEWS": 31, "GITHUB": 20},
+      "source_family_counts": {
+        "CHINESE_MEDIA": 7,
+        "TELEGRAM": 23,
+        "HACKER_NEWS": 31,
+        "GITHUB": 20
+      },
       "top1": "D071e81714bf4d9be",
       "top1_previews": 3,
       "new_x_submissions": 0,
@@ -187,7 +192,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Codex hunt public feeds/search, review original evidence and Reader Model, write A/B/C variants and run current gates; only qualified drafts may enter manual publication.",
+  "next_action": "Finish CI/PR merge and replay current material competition and all nine drafts from merged main; no X submission.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -1193,19 +1198,9 @@
     "historical_publication_corpus": "C001-C353 preserved for retrospective analysis"
   },
   "control_state": {
-    "mode": "ACTIVE_VIRAL_HUNTING_AND_REWRITE",
-    "publication_state": "ACTIVE_WITH_FACT_AND_STYLE_GATES",
-    "heartbeat_can": "Research and prepare review; scheduler configuration unchanged. No autonomous submission from hunt.",
-    "heartbeat_cannot": "Bypass content quality, use X API/DOM/hidden requests/cookies, operate other accounts, fabricate engagement or human review, blindly resubmit.",
-    "pause_reasons": [],
-    "next_publication_requires": [
-      "SOURCE_FACT_REVIEW",
-      "READER_MODEL_SEMANTIC_INTEGRITY",
-      "HUMAN_STYLE_V2",
-      "EDITORIAL_GATE",
-      "PRE_PUBLISH_ASSERT",
-      "MANUAL_VISIBLE_SUBMISSION"
-    ]
+    "mode": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
+    "publication_state": "PAUSED",
+    "reason": "Latest user instruction: no new X submission in this round; repair and merge authorized."
   },
   "editorial_gate": {
     "file": "docs/EDITORIAL_GATE.md",
@@ -1853,5 +1848,25 @@
     "verification": "send confirmation and public body/account observed; additional reload/source target follow-up interrupted",
     "reconciled_from_actual_observation": true,
     "counts": "historical aggregates unchanged, not recomputed"
+  },
+  "content_quality_repair_2026_10_19": {
+    "starting_main": "85c5106f8b5fad5c5da4fc91ca0f28142182fda2",
+    "artifact_root": "data/content_quality_2026-10-19",
+    "source_events": 45,
+    "reviewed_topics": 20,
+    "authored_drafts": 9,
+    "unit_tests": 126,
+    "traffic_growth_verified": false,
+    "publication_submissions": 0,
+    "independence_scope": "Text-first comparison separate from scoring; same Codex agent, no independent human review claimed.",
+    "status": "AWAITING_CI_AND_MERGE",
+    "pytest": 126,
+    "compileall": "PASS",
+    "diff_check": "PASS",
+    "runtime_audit": "Seed integrity checked; no formula validation; historical indexed metrics and missing follower denominators remain limitations.",
+    "recoverable_failures": [
+      "System Python lacked pytest; isolated free test venv installed successfully after download timeout.",
+      "Initial audit import used an object instead of an observation array; rejected; rerun with documented seed files."
+    ]
   }
 }

@@ -11,6 +11,7 @@ from .discovery import auto_discover_materials
 from .human_voice import generate_viral_variants_prompt, run_human_style_pipeline
 from .viral_admission import PREVIEW_MODE, PRODUCTION_MODE, auto_rate_material, rank_materials
 from .x_native_style import extract_scene_features
+from .content_review import review_content, review_variant_set
 
 
 def lock_draft_facts(text: str) -> dict:
@@ -152,8 +153,9 @@ def apply_deep_review_records(materials: list[dict], review_packet: dict) -> lis
             raise ValueError("deep review needs eight ratings, evidence spans and reasons")
         review = {key: {"rating": ratings[index], "evidence": evidence[index], "reason": reasons[index]}
                   for index, key in enumerate(dimensions)}
-        review.update(review_type="DEEP_EDITORIAL_REVIEW", reviewer=reviewer, reviewed_at=reviewed_at,
+        review.update(review_type=record.get("review_type", "DEEP_EDITORIAL_REVIEW"), reviewer=reviewer, reviewed_at=reviewed_at,
                       possible_reply_branches=record.get("possible_reply_branches", []), novelty="CHECKED_DISTINCT")
+        if "contrast_basis" in record: review["contrast_basis"] = record["contrast_basis"]
         for key in ("audience_distance", "background_cost", "hook"):
             value = record.get(key)
             if not isinstance(value, dict): raise ValueError(f"{key} review required")
@@ -163,21 +165,62 @@ def apply_deep_review_records(materials: list[dict], review_packet: dict) -> lis
 
 
 def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
-    """Run the strict competition and preview three authored Top1 variants."""
+    """Compete topics, then vet authored A/B/C text separately from scores.
+
+    Old packets replay as historical style previews but cannot obtain a final
+    recommendation without a source-bound text-first editorial decision.
+    """
     materials = apply_deep_review_records(feed_packet.get("materials", []), review_packet)
     ranking = rank_materials(materials, as_of=feed_packet["as_of"], admission_mode=PRODUCTION_MODE)
     winner_id = ranking["selected_material_id"]
-    previews = []
-    if winner_id:
-        record = next((r for r in review_packet["records"] if r.get("material_id") == winner_id), {})
-        winner = next(m for m in materials if m["material_id"] == winner_id)
-        for variant in record.get("previews", []):
+    previews = []; topics = []
+    memory = review_packet.get("publication_memory")
+    for row in ranking["top5"]:
+        mid = row["material_id"]
+        record = next((r for r in review_packet["records"] if r.get("material_id") == mid), {})
+        material = next(m for m in materials if m["material_id"] == mid)
+        authored = record.get("previews", [])
+        checked = []
+        for variant in authored:
             text = variant.get("text", "")
             style = run_human_style_pipeline({"draft_text": text, "locked_facts": lock_draft_facts(text),
                 "primary_action": variant.get("primary_action", "SHARE"), "target_platform": "X_ZH",
                 "voice_profile": "GEN_DEFAULT", "preserve_quotes": True})
-            previews.append({"id": variant.get("id"), "before": text, "after": style["rewritten_text"],
-                             "human_style_passed": style["passed"], "publication_allowed": False})
-    return {"version": "VIRAL_HUNT_PRODUCTION_DRY_RUN_V1", "as_of": feed_packet["as_of"],
+            content = review_content({**variant, "text": style["rewritten_text"], "content_review": variant.get("content_review"),
+                                      "publication_memory": memory}, material)
+            checked.append({**variant, "before": text, "after": style["rewritten_text"],
+                            "human_style_passed": style["passed"], "content_review_result": content,
+                            "publication_allowed": False})
+        if mid == winner_id: previews = checked
+        diversity = review_variant_set(authored)
+        preferred = next((v for v in checked if v.get("id") == record.get("recommended_variant")), None)
+        ready = bool(row["admitted"] and diversity["passed"] and preferred
+                     and preferred["content_review_result"]["passed"] and preferred["human_style_passed"])
+        topics.append({"material_id": mid, "topic": material.get("topic"), "source": material.get("source"),
+                       "variants": checked, "variant_set_review": diversity,
+                       "recommended_variant": record.get("recommended_variant") if ready else None,
+                       "editorial_recommendation": "REVIEWABLE_DRAFT" if ready else "HOLD",
+                       "production_preflight_passed": False})
+    final = next((t for t in topics if t["material_id"] == winner_id
+                  and t["editorial_recommendation"] == "REVIEWABLE_DRAFT"), None)
+    return {"version": "VIRAL_HUNT_PRODUCTION_DRY_RUN_V2", "as_of": feed_packet["as_of"],
             "ranking": ranking, "top1_previews": previews, "publication_allowed": False,
+            "topics": topics, "recommended_top1": final["material_id"] if final else None,
+            "final_status": "EDITORIAL_REVIEW_DRAFTS" if final else "NO_ACCEPTED_TOP1_CONTINUE_HUNTING",
             "automatic_x_submission": False}
+
+
+def render_editorial_drafts(result: dict) -> str:
+    """Readable artifact from the actual checked output, including rejected text."""
+    lines = ["# 实际素材与原创稿（未发布）", "", "采集时间：" + result["as_of"], "",
+             "编辑判断不等于用户认可或真实流量。所有稿件仍需人工发布审核。", ""]
+    for index, topic in enumerate(result["topics"], 1):
+        source = topic["source"]
+        lines += [f"## {index}. {topic['topic']}", "", source["url"], "",
+                  "事件时间状态：" + str(source.get("event_time_status", "UNKNOWN")), "",
+                  "编辑建议：" + topic["editorial_recommendation"] + "；推荐版本：" + str(topic["recommended_variant"]), ""]
+        for v in topic["variants"]:
+            lines += ["### " + str(v.get("id")) + " / " + str(v.get("mode", "UNKNOWN")), "", v["after"], "",
+                      "编辑依据：" + str((v.get("content_review") or {}).get("payoff", {}).get("reason", "未审")), "",
+                      "淘汰/保留问题：" + "; ".join(v["content_review_result"]["reasons"] or ["编辑通过；实际传播效果UNKNOWN"]), ""]
+    return "\n".join(lines)

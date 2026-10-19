@@ -70,6 +70,7 @@ def source_family(source: dict) -> str:
 def material_hash(material: dict) -> str:
     fields = {k: material.get(k) for k in ("material_id", "event_id", "event_key", "topic", "text", "draft_text", "source", "review")}
     if "verified_evidence" in material: fields["verified_evidence"] = material["verified_evidence"]
+    if "source_evidence" in material: fields["source_evidence"] = material["source_evidence"]
     return stable_hash(fields)
 
 
@@ -124,7 +125,10 @@ def validate_deep_review(material: dict) -> dict:
     if any(count >= 3 for count in Counter(evidences).values()): reasons.append("DUPLICATED_DIMENSION_EVIDENCE")
     if any(count >= 3 for count in Counter(rationales).values()): reasons.append("DUPLICATED_DIMENSION_REASON")
     surprise = review.get("surprise") or {}
-    if surprise.get("rating", 0) >= 2 and not re.search(r"却|反而|结果|原本|没想到|先.{1,20}再|以前.{1,30}现在", surprise.get("evidence", "")):
+    contrast = review.get("contrast_basis") or {}
+    grounded_contrast = (all(isinstance(contrast.get(k), str) and len(contrast[k]) >= 4 and contrast[k] in corpus
+                             for k in ("before", "after")) and contrast.get("before") != contrast.get("after"))
+    if surprise.get("rating", 0) >= 2 and not grounded_contrast and not re.search(r"却|反而|结果|原本|没想到|先.{1,20}再|以前.{1,30}现在", surprise.get("evidence", "")):
         reasons.append("UNSUPPORTED_DIMENSION_EVIDENCE:surprise")
     conflict = review.get("conflict") or {}
     if conflict.get("rating", 0) >= 2 and not re.search(r"拒绝|争议|分账|不同意|承担|责任|冲突|一方|另一方|老板|员工|朋友", conflict.get("evidence", "")):
@@ -153,7 +157,9 @@ def _verified_bonus(material: dict, corpus: str) -> dict:
     artifact = 6 if verified("artifact") else 0
     cost = evidence.get("cost_binding") or {}
     bound_cost = 6 if verified("cost_binding") and re.search(r"差距|代价|成本|反差|省.{0,20}(?:花|烧|赔)|多.{0,10}少", cost.get("reason", "")) else 0
-    dilemma = 6 if review_comment_impulse(str(material.get("text") or ""), "REPLY")["opinion_branching"] else 0
+    # Reply potential already has a review dimension. Counting the same
+    # keyword-derived fork again was circular evidence for a high topic score.
+    dilemma = 0
     hard = max(artifact, bound_cost)
     return {"censorship_scarcity_bonus": censorship, "hard_evidence_bonus": hard,
             "human_nature_dilemma_bonus": dilemma, "total": min(20, censorship + hard + dilemma),
@@ -162,7 +168,9 @@ def _verified_bonus(material: dict, corpus: str) -> dict:
 
 def _source_age(source: dict, as_of: str) -> tuple[float | None, str | None]:
     try:
-        observed = datetime.fromisoformat(as_of.replace("Z", "+00:00")); published = datetime.fromisoformat(str(source["published_at"]).replace("Z", "+00:00"))
+        # A recent mirror/repost cannot reset a known event's age.
+        timestamp = source.get("event_time") or source.get("published_at")
+        observed = datetime.fromisoformat(as_of.replace("Z", "+00:00")); published = datetime.fromisoformat(str(timestamp).replace("Z", "+00:00"))
         if observed.tzinfo is None or published.tzinfo is None: raise ValueError
         age = (observed - published).total_seconds() / 3600
         if age < 0: raise ValueError

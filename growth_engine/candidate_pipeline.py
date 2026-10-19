@@ -9,6 +9,7 @@ from .editorial_gate import validate_candidate
 from .human_voice import HUMAN_STYLE_GENERATOR, run_human_style_pipeline
 from .viral_admission import candidate_admission
 from .reader_model import reader_model_semantic_integrity
+from .content_review import review_content
 
 
 def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
@@ -28,8 +29,7 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
         raise ValueError("candidate text is required")
     if not isinstance(locked_facts, Mapping) or not locked_facts:
         raise ValueError("locked_facts are required before Human Style")
-    # Topic admission happens before Human Style. V2 accepts a real one-item
-    # pool; a fabricated count or unbound draft still cannot replace evidence.
+    # Topic admission is not endorsement of the final prose.
     admission = candidate_admission(result)
     result["viral_admission"] = admission
     semantic = reader_model_semantic_integrity(result)
@@ -72,14 +72,20 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
         "x_native_style_report": pipeline["x_native_style_report"],
         "comment_impulse_report": pipeline["comment_impulse_report"],
     }
+    material = next((m for m in result.get("material_pool", [])
+                     if m.get("material_id") == result.get("material_id")), {})
+    content = review_content(result, material)
+    result["content_review_result"] = content
     result["state"] = result.get("state", "EDITORIAL_REVIEW")
-    if pipeline["passed"] and admission["admitted"] and result["state"] in {"DRAFT", "EDITORIAL_REVIEW"}:
+    if pipeline["passed"] and admission["admitted"] and content["passed"] and result["state"] in {"DRAFT", "EDITORIAL_REVIEW"}:
         result["state"] = "READY_FOR_MANUAL_PUBLISH"
+    elif result["state"] in {"DRAFT", "READY_FOR_MANUAL_PUBLISH"}:
+        result["state"] = "EDITORIAL_REVIEW"
     gate = validate_candidate(result)
     result["editorial_gate"] = {
-        "ready": gate.ready,
+        "ready": gate.ready and content["passed"] and pipeline["passed"],
         "state": gate.state,
-        "reasons": list(gate.reasons),
+        "reasons": list(gate.reasons) + content["reasons"],
     }
     if result["state"] == "READY_FOR_MANUAL_PUBLISH" and not gate.ready:
         result["state"] = "EDITORIAL_REVIEW"

@@ -560,13 +560,15 @@ def main() -> None:
         return
     if args.command == "validate-hunt":
         try:
-            from .hunt import production_dry_run
+            from .hunt import production_dry_run, render_editorial_drafts
             feed = json.loads(args.feed.read_text(encoding="utf-8")); reviews = json.loads(args.reviews.read_text(encoding="utf-8"))
             result = production_dry_run(feed, reviews)
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            args.output.with_suffix(".md").write_text(render_editorial_drafts(result), encoding="utf-8")
             ranking = result["ranking"]
-            print(json.dumps({"status": ranking["status"], "top1": ranking["selected_material_id"],
+            print(json.dumps({"status": result["final_status"], "topic_selection_status": ranking["status"],
+                              "top1": result["recommended_top1"],
                               "top3": [r["material_id"] for r in ranking["top3"]],
                               "reviewed": ranking["reviewed_source_count"], "previews": len(result["top1_previews"]),
                               "publication_allowed": False, "output": str(args.output)}, ensure_ascii=False))
