@@ -1,0 +1,2210 @@
+{
+  "schema_version": "CONTENT_QUALITY_SOURCE_PACKET_V1",
+  "as_of": "2026-10-19T04:35:33.410286Z",
+  "materials": [
+    {
+      "material_id": "Da344dc59d622a1e7",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
+      "topic": "记者用不同专属姓氏测试校园交友软件，随后收到贷款与兼职来电",
+      "text": "《法治日报》记者对多款校园交友软件开展实名注册实测，采用专属姓氏溯源方式排查泄露源头\n在注册不同软件时，记者特意预留了区分度不同的专属姓氏信息，以此排查信息泄露渠道，排除其他干扰因素。\n注册完成后短短几天时间，记者的手机便频繁接到陌生人的来电骚扰\n一类是信贷贷款推销电话\n另一类是兼职招募骚扰电话\n蒋同学在某平台为领取考研备考资料填写了自己的手机号码。提交表单后，骚扰电话数量明显增多\n她联系客服要求停止致电但并未起效，直到她明确告知将发起投诉，骚扰来电才最终停止。\n2026年10月19日 07:32",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
+        "published_at": "2026-10-18T23:32:00Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "《法治日报》记者对多款校园交友软件开展实名注册实测，采用专属姓氏溯源方式排查泄露源头\n在注册不同软件时，记者特意预留了区分度不同的专属姓氏信息，以此排查信息泄露渠道，排除其他干扰因素。\n注册完成后短短几天时间，记者的手机便频繁接到陌生人的来电骚扰\n一类是信贷贷款推销电话\n另一类是兼职招募骚扰电话\n蒋同学在某平台为领取考研备考资料填写了自己的手机号码。提交表单后，骚扰电话数量明显增多\n她联系客服要求停止致电但并未起效，直到她明确告知将发起投诉，骚扰来电才最终停止。\n2026年10月19日 07:32",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "ATTRIBUTED_REPORT_CHECKED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月19日"
+        ]
+      },
+      "content_hash": "f95975f9ad736f0c61dc426b4340cf311e5c4d2c9db66d234261b79184101196",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "source_evidence": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
+          "excerpt": "《法治日报》记者对多款校园交友软件开展实名注册实测，采用专属姓氏溯源方式排查泄露源头\n在注册不同软件时，记者特意预留了区分度不同的专属姓氏信息，以此排查信息泄露渠道，排除其他干扰因素。\n注册完成后短短几天时间，记者的手机便频繁接到陌生人的来电骚扰\n一类是信贷贷款推销电话\n另一类是兼职招募骚扰电话\n蒋同学在某平台为领取考研备考资料填写了自己的手机号码。提交表单后，骚扰电话数量明显增多\n她联系客服要求停止致电但并未起效，直到她明确告知将发起投诉，骚扰来电才最终停止。\n2026年10月19日 07:32",
+          "retrieved_at": "2026-10-19T04:35:33.410286Z",
+          "method": "PUBLIC_HTTP_ORIGINAL_PAGE",
+          "scope": "ATTRIBUTED_REPORT_NOT_INDEPENDENT_CASE_VERIFICATION"
+        }
+      ]
+    },
+    {
+      "material_id": "D7d8527a3159a70af",
+      "event_id": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
+      "topic": "英国修屋檐报价250英镑，65岁住户最终付出3500英镑",
+      "text": "a 65-year-old woman posted on an online platform that she needed someone to fix a dripping sound in her gutters.\nA builder phoned her to say that it would cost £250\nhe and another man came and examined her roof they said they had discovered more problems and the price quickly grew.\ntwo men in front of me in the dark, demanding money and making it clear they weren’t moving\nso I paid £3,500.\nThe next day there was no trace that any work was done\nSun 18 Oct 2026",
+      "source": {
+        "url": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
+        "published_at": "2026-10-18T06:00:51Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "a 65-year-old woman posted on an online platform that she needed someone to fix a dripping sound in her gutters.\nA builder phoned her to say that it would cost £250\nhe and another man came and examined her roof they said they had discovered more problems and the price quickly grew.\ntwo men in front of me in the dark, demanding money and making it clear they weren’t moving\nso I paid £3,500.\nThe next day there was no trace that any work was done\nSun 18 Oct 2026",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "ATTRIBUTED_REPORT_CHECKED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.theguardian.com/money/rss",
+        "author": "Shane Hickey",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月18日"
+        ]
+      },
+      "content_hash": "dcb8f7e8ba85cc74c4494810387093a5bdf185a31b769bb86e589e9d51b8741c",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "source_evidence": [
+        {
+          "url": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
+          "excerpt": "a 65-year-old woman posted on an online platform that she needed someone to fix a dripping sound in her gutters.\nA builder phoned her to say that it would cost £250\nhe and another man came and examined her roof they said they had discovered more problems and the price quickly grew.\ntwo men in front of me in the dark, demanding money and making it clear they weren’t moving\nso I paid £3,500.\nThe next day there was no trace that any work was done\nSun 18 Oct 2026",
+          "retrieved_at": "2026-10-19T04:35:33.410286Z",
+          "method": "PUBLIC_HTTP_ORIGINAL_PAGE",
+          "scope": "ATTRIBUTED_REPORT_NOT_INDEPENDENT_CASE_VERIFICATION"
+        }
+      ]
+    },
+    {
+      "material_id": "Dbc931046914e718c",
+      "event_id": "https://www.scmp.com/news/people-culture/trending-china/article/3371308/no-fuss-just-dinner-china-couple-trade-wedding-extravagance-us11000-feast-cash-gifts?utm_source=rss_feed",
+      "topic": "9月婚礼重读：父亲致辞41秒，每位宾客收到200元红包",
+      "text": "9月26日在女方老家咸祥镇球东村文化礼堂又办了一次。\n无接亲，无婚车，无司仪，无跟妆师和摄影摄像，连伴郎伴娘都没请。\n小朱的父亲上台，讲了41秒\n9月26日晚宴，每位前来吃席的人都收到了新人赠送的200元红包。\n其实按照我们咸祥的习俗，是给宾客送烟的。\n现在很多人都不抽烟了，不如换成红包来得实在。\n2026年10月12日\n父母觉得好歹要安排婚车队，结果小两口只是简单地从酒店自己开车到婚礼现场。\n他们选择去云南丽江拍婚纱照，以玉龙雪山为背景。",
+      "source": {
+        "url": "https://feng.ifeng.com/c/8xA1cjWnAm0",
+        "published_at": "2026-10-19T02:00:10Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "9月26日在女方老家咸祥镇球东村文化礼堂又办了一次。\n无接亲，无婚车，无司仪，无跟妆师和摄影摄像，连伴郎伴娘都没请。\n小朱的父亲上台，讲了41秒\n9月26日晚宴，每位前来吃席的人都收到了新人赠送的200元红包。\n其实按照我们咸祥的习俗，是给宾客送烟的。\n现在很多人都不抽烟了，不如换成红包来得实在。\n2026年10月12日\n父母觉得好歹要安排婚车队，结果小两口只是简单地从酒店自己开车到婚礼现场。\n他们选择去云南丽江拍婚纱照，以玉龙雪山为背景。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "ATTRIBUTED_REPORT_CHECKED",
+        "event_time": "2026-09-26T00:00:00Z",
+        "event_time_status": "EVERGREEN_REDISCOVERY",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.scmp.com/rss/91/feed",
+        "author": "Alice Yan",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "9月26日"
+        ],
+        "rediscovery_reason": "婚礼流程与待客预算仍有讨论价值；标明九月事件，不冒充今日婚礼。"
+      },
+      "content_hash": "cf00445835aeba023181f13b95b8591d9f1483501c33775424c6b919c3e430b0",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "source_evidence": [
+        {
+          "url": "https://feng.ifeng.com/c/8xA1cjWnAm0",
+          "excerpt": "9月26日在女方老家咸祥镇球东村文化礼堂又办了一次。\n无接亲，无婚车，无司仪，无跟妆师和摄影摄像，连伴郎伴娘都没请。\n小朱的父亲上台，讲了41秒\n9月26日晚宴，每位前来吃席的人都收到了新人赠送的200元红包。\n其实按照我们咸祥的习俗，是给宾客送烟的。\n现在很多人都不抽烟了，不如换成红包来得实在。\n2026年10月12日\n父母觉得好歹要安排婚车队，结果小两口只是简单地从酒店自己开车到婚礼现场。\n他们选择去云南丽江拍婚纱照，以玉龙雪山为背景。",
+          "retrieved_at": "2026-10-19T04:35:33.410286Z",
+          "method": "PUBLIC_HTTP_ORIGINAL_PAGE",
+          "scope": "ATTRIBUTED_REPORT_NOT_INDEPENDENT_CASE_VERIFICATION"
+        }
+      ]
+    },
+    {
+      "material_id": "D833157ac6e8170fb",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+      "topic": "这里的竹笋为何在用硫磺熏",
+      "text": "读者反映，四川乐山马边彝族自治县和泸州古蔺县、叙永县存在硫磺熏制鲜竹笋出售情况——",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+        "published_at": "2026-10-19T02:05:09Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "这里的竹笋为何在用硫磺熏-中新网 即时 时政 财经 同心 东西问 国际 社会 理论·评论 中国侨网 大湾区 文娱 体育 教育 法治 健康 生活 铸牢中华民族共同体意识 宗教 一带一路 中国—东盟商贸资讯平台 中国新闻周刊 国是直通车 创意 直播 视频 图片 专栏 各地 安徽|北京|重庆|福建|甘肃| 贵州|广东|广西|海南|河北| 河南| 湖北|湖南|黑龙江|江苏|江西| 吉林| 辽宁|内蒙古|宁夏|青海|山东| 山西| 陕西|上海|四川|天津|新疆| 兵团| 云南|浙江 即时 时政 高层| 人事| 反腐| 深度| 两岸| 科教| 军事 东西问 中外对话|世界观|广角镜|Z世代|洋腔队|舆论场|新漫评|思享家| 会客厅|研究院|问西东 财经 宏观|产经|中国新观察|三里河|民生调查局|中新财评| 商业风云录|智库|公益 国际 世界观|国际识局|国际人物|国际热评|新漫评|国际视野 社会 热点追踪| 中新真探| 新闻浮世绘| 中新法治| 第一现场 大湾区 港澳|风向标|快车道|青年说|专家建言|湾得福|Video|湾区MAP 健康 大医生来了|医学的温度|医药新观察 教育 法治 生活 华人 同心 统战要闻|统战时讯|各地统战 铸牢中华民族共同体意识 民族传承|政策法规|学术动态|地方实践|国际传播 一带一路 热点聚焦|深度访谈|各方关注|海外视角|项目动态|丰硕成果 文娱 文化漫谈|艺苑大观|收藏考古|星闻联播|影音综艺 体育 独家视角|绿茵赛场|篮坛竞技|综合其他|视频播报 视频 热点|国内|社会|国际|军事|文娱|体育|财经|港澳台侨|微视界| 洋腔队|Z世代|澜湄印象|中国风|中国新视野 图片 中新画报|国内|社会|国际|娱乐|体育|军事|科技| 港澳台侨|凡人歌 创意 理论 直播 专题 专栏 这里的竹笋为何在用硫磺熏 分享到： 首页 → 社会新闻 分享到： 这里的竹笋为何在用硫磺熏 2026-10-19 10:05:09 来源：人民日报 作者：刘湃 责任编辑：刘湃 2026年10月19日 10:05 来源：人民日报 大字体 小字体 分享到： 读者反映，四川乐山马边彝族自治县和泸州古蔺县、叙永县存在硫磺熏制鲜竹笋出售情况—— 这里的竹笋为何在用硫磺熏(来信调查) 编辑同志： 我们是四川乐山马边彝族自治县和泸州古蔺县、叙永县的居民。又到了笋子收获的季节。一些人为了保鲜、卖相好，用硫磺熏鲜竹笋。硫磺熏鲜竹笋既可能对消费者身体健康造成损害，又严重污染空气。我们多次向有关部门反映，都没得到有效处理。 四川",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": "2026-09-22T00:00:00Z",
+        "event_time_status": "EVERGREEN_REDISCOVERY",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "rediscovery_reason": "10月19日刊出的调查涉及9月22日至27日走访和10月跟进，不能把刊出时间当作现场发生时间。",
+        "visible_date_labels": [
+          "9月",
+          "10月19日"
+        ]
+      },
+      "content_hash": "e528eeb69f95de53a573668454d3796695632ce626a8adafb18b4b2a55b709fa",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Db93423fcf928cc5e",
+      "event_id": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "topic": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+      "text": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-19T02:41:41Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 1 hour ago Artificial intelligence (AI) giant Anthropic says it will commit 5% of its shares to a fund that will make donations for the \"public good\". The announcement comes as Anthropic lays the ground for a potential blockbuster stock market listing that could value the firm at more than $1tn (£750bn). The AI industry has come under intense scrutiny recently over safety concerns and fears about its impact on society and the economy. Anthropic reportedly said in its initial public offering (IPO) filing that AI could pose \"catastrophic or existential risks to humanity\". Anthropic said its proposed fund could support nonprofit organisations, and efforts to address AI's impact on the jobs market. None of the shares held by the the fund would be used for lobbying or political donations in the US or overseas, it added. Anthropic's Public Benefit Fund could also receive another 2% of the firm's shares at its board's discretion, the Claude developer said in a statement released on Sunday. Technology billionaire Elon Musk responded to the announcement on social media with: \"I recommend giving the shares directly to the public.\" \"This is what I will be doing,\" he added. Last week, Anthropic told prospective investors that its revenue surged by 45% to $16.8bn (£12.6bn) in the three months to the end of September. In common with other AI firms, it is seeking to position itself as being able to generate huge profits despite spending billions on developing the technology and building infrastructure to power its models. Companies around the world, primarily technology firms, have cut thousands of jobs after investing in AI, with many pointing to higher efficiencies from its adoption. Research by the International Monetary Fund (IMF) published in 2024 suggested that alm",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "cdc500bec08e71fd72959c2bfddc8497e20db2eb586eab68812a5a32cb47422c",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D0c18af1d5bd3e949",
+      "event_id": "https://www.theguardian.com/uk-news/2026/oct/16/cloned-number-plates-uk-roads-record-high",
+      "topic": "Number of cloned number plates on UK roads at record high, data shows",
+      "text": "Photograph: Anthony Smith/Alamy",
+      "source": {
+        "url": "https://www.theguardian.com/uk-news/2026/oct/16/cloned-number-plates-uk-roads-record-high",
+        "published_at": "2026-10-16T04:00:52Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Number of cloned number plates on UK roads at record high, data shows | Transport | The Guardian Skip to main contentSkip to navigation Close dialogue1/1Next imagePrevious imageToggle caption Print subscriptions Search jobs Sign in IntInternational editionUK editionUS editionAustralia editionEurope edition The Guardian - Back to homeThe Guardian NewsOpinionSportCultureLifestyle Show moreHide expanded menu NewsView all NewsWorld newsUS politicsUK newsClimate crisisMiddle EastUkraineEnvironmentScienceGlobal developmentFootballTechBusinessObituaries OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLetters SportView all SportFootballCricketRugby unionTennisCyclingF1GolfUS sports CultureView all CultureBooksMusicTV & radioArt & designFilmGamesClassicalStage LifestyleView all LifestyleFashionFoodRecipesLove & sexHealth & fitnessHome & gardenWomenMenFamilyTravelMoney Search input google-search Search Support usPrint subscriptionsSearch jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout UsThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTips Search input google-search Search Search jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout Us UKUK politicsEducationMediaSocietyLawScotlandWalesNorthern Ireland An investigation last year found at least 130 official number plate suppliers willing to sell cloned versions. Photograph: Anthony Smith/AlamyView image in fullscreenAn investigation last year found at least 130 official number plate suppliers willing to sell cloned ver",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.theguardian.com/money/rss",
+        "author": "Gwyn Topham Transport correspondent",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "af77a0bad2d04f59ef07e5342d67f43c9875875206a6617d828b5f2812cb5da2",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Db016ae670280efb1",
+      "event_id": "https://www.theguardian.com/business/2026/oct/17/make-firms-pay-more-train-older-workers-youth-apprentices-england",
+      "topic": "Plan to make firms pay more to train older workers than youth apprentices in England",
+      "text": "Photograph: Christopher Furlong/AFP/Getty Images",
+      "source": {
+        "url": "https://www.theguardian.com/business/2026/oct/17/make-firms-pay-more-train-older-workers-youth-apprentices-england",
+        "published_at": "2026-10-17T07:00:24Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Plan to make firms pay more to train older workers than youth apprentices in England | Business | The Guardian Skip to main contentSkip to navigation Close dialogue1/1Next imagePrevious imageToggle caption Print subscriptions Search jobs Sign in IntInternational editionUK editionUS editionAustralia editionEurope edition The Guardian - Back to homeThe Guardian NewsOpinionSportCultureLifestyle Show moreHide expanded menu NewsView all NewsWorld newsUS politicsUK newsClimate crisisMiddle EastUkraineEnvironmentScienceGlobal developmentFootballTechBusinessObituaries OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLetters SportView all SportFootballCricketRugby unionTennisCyclingF1GolfUS sports CultureView all CultureBooksMusicTV & radioArt & designFilmGamesClassicalStage LifestyleView all LifestyleFashionFoodRecipesLove & sexHealth & fitnessHome & gardenWomenMenFamilyTravelMoney Search input google-search Search Support usPrint subscriptionsSearch jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout UsThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTips Search input google-search Search Search jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout Us MoneyPropertyPensionsSavingsBorrowingCareers Andy Burnham meets an apprentice during a visit to BAE Systems’s submarine skills academy in Barrow-in-Furness. Photograph: Christopher Furlong/AFP/Getty ImagesView image in fullscreenAndy Burnham meets an apprentice during a visit to BAE Systems’s submarine skills academy in B",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.theguardian.com/money/rss",
+        "author": "Richard Partington Senior economics correspondent",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "edbdab6272ec7d65a52d76f6895f817532b8c4630c36bed3806735fbfd09ab75",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Dc0d2568fec00555c",
+      "event_id": "https://www.theguardian.com/money/2026/oct/17/uk-pensions-retire-early-fixed-term-annuities",
+      "topic": "UK sees growing demand for help bridging gap between end of work and start of pension",
+      "text": "Photograph: Halfpoint/Getty Images/iStockphoto",
+      "source": {
+        "url": "https://www.theguardian.com/money/2026/oct/17/uk-pensions-retire-early-fixed-term-annuities",
+        "published_at": "2026-10-17T06:00:22Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "UK sees growing demand for help bridging gap between end of work and start of pension | Pensions | The Guardian Skip to main contentSkip to navigation Close dialogue1/4Next imagePrevious imageToggle caption Print subscriptions Search jobs Sign in IntInternational editionUK editionUS editionAustralia editionEurope edition The Guardian - Back to homeThe Guardian NewsOpinionSportCultureLifestyle Show moreHide expanded menu NewsView all NewsWorld newsUS politicsUK newsClimate crisisMiddle EastUkraineEnvironmentScienceGlobal developmentFootballTechBusinessObituaries OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLetters SportView all SportFootballCricketRugby unionTennisCyclingF1GolfUS sports CultureView all CultureBooksMusicTV & radioArt & designFilmGamesClassicalStage LifestyleView all LifestyleFashionFoodRecipesLove & sexHealth & fitnessHome & gardenWomenMenFamilyTravelMoney Search input google-search Search Support usPrint subscriptionsSearch jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout UsThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTips Search input google-search Search Search jobsHolidaysDigital ArchiveGuardian LicensingLive eventsAbout Us MoneyPropertyPensionsSavingsBorrowingCareers After falling out of fashion, annuities have become more popular with those planning their retirement. Photograph: Halfpoint/Getty Images/iStockphotoView image in fullscreenAfter falling out of fashion, annuities have become more popular with those planning their retirement. Ph",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.theguardian.com/money/rss",
+        "author": "Rupert Jones",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "702be583b0d4641d3e40e1e2712c6c69f57b92ee3f221946d32891c7495b566d",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D1b798ffb171da310",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10716934.shtml",
+      "topic": "零门槛、低成本 创业服务让岗位直通“家门口”",
+      "text": "人岗精准匹配、服务就近落地，基层就业服务正在向社区延伸，帮有想法的青年低成本起步。在上海曹家渡街道，一间不大的“创益小铺”成为青年创业的第一站。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716934.shtml",
+        "published_at": "2026-10-19T00:22:43Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "零门槛、低成本 创业服务让岗位直通“家门口”-中新网 即时 时政 财经 同心 东西问 国际 社会 理论·评论 中国侨网 大湾区 文娱 体育 教育 法治 健康 生活 铸牢中华民族共同体意识 宗教 一带一路 中国—东盟商贸资讯平台 中国新闻周刊 国是直通车 创意 直播 视频 图片 专栏 各地 安徽|北京|重庆|福建|甘肃| 贵州|广东|广西|海南|河北| 河南| 湖北|湖南|黑龙江|江苏|江西| 吉林| 辽宁|内蒙古|宁夏|青海|山东| 山西| 陕西|上海|四川|天津|新疆| 兵团| 云南|浙江 即时 时政 高层| 人事| 反腐| 深度| 两岸| 科教| 军事 东西问 中外对话|世界观|广角镜|Z世代|洋腔队|舆论场|新漫评|思享家| 会客厅|研究院|问西东 财经 宏观|产经|中国新观察|三里河|民生调查局|中新财评| 商业风云录|智库|公益 国际 世界观|国际识局|国际人物|国际热评|新漫评|国际视野 社会 热点追踪| 中新真探| 新闻浮世绘| 中新法治| 第一现场 大湾区 港澳|风向标|快车道|青年说|专家建言|湾得福|Video|湾区MAP 健康 大医生来了|医学的温度|医药新观察 教育 法治 生活 华人 同心 统战要闻|统战时讯|各地统战 铸牢中华民族共同体意识 民族传承|政策法规|学术动态|地方实践|国际传播 一带一路 热点聚焦|深度访谈|各方关注|海外视角|项目动态|丰硕成果 文娱 文化漫谈|艺苑大观|收藏考古|星闻联播|影音综艺 体育 独家视角|绿茵赛场|篮坛竞技|综合其他|视频播报 视频 热点|国内|社会|国际|军事|文娱|体育|财经|港澳台侨|微视界| 洋腔队|Z世代|澜湄印象|中国风|中国新视野 图片 中新画报|国内|社会|国际|娱乐|体育|军事|科技| 港澳台侨|凡人歌 创意 理论 直播 专题 专栏 零门槛、低成本 创业服务让岗位直通“家门口” 分享到： 首页 → 社会新闻 分享到： 零门槛、低成本 创业服务让岗位直通“家门口” 2026-10-19 08:22:43 来源：央视新闻客户端 作者：梁异 责任编辑：梁异 2026年10月19日 08:22 来源：央视新闻客户端 大字体 小字体 分享到： 人岗精准匹配、服务就近落地，基层就业服务正在向社区延伸，帮有想法的青年低成本起步。在上海曹家渡街道，一间不大的“创益小铺”成为青年创业的第一站。 在上海曹家渡街道的就业服务站，一间14.9平方米的社区小铺被打造成社区创业实践空间，面向青年创业群体开放。毕业于上海戏剧学院的蔡惠云就是这里的首位入驻者。 美妆",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "b8c54b5369eabfcdc500374831afd0e28627cbf4c44ae1914207f6f75103bac4",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D69005553be173ab2",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10716966.shtml",
+      "topic": "先暖“娃” 再暖“新”",
+      "text": "河北“共青团·伙伴计划”赋能新就业群体团的建设——",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716966.shtml",
+        "published_at": "2026-10-19T01:29:57Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "先暖“娃” 再暖“新”-中新网 即时 时政 财经 同心 东西问 国际 社会 理论·评论 中国侨网 大湾区 文娱 体育 教育 法治 健康 生活 铸牢中华民族共同体意识 宗教 一带一路 中国—东盟商贸资讯平台 中国新闻周刊 国是直通车 创意 直播 视频 图片 专栏 各地 安徽|北京|重庆|福建|甘肃| 贵州|广东|广西|海南|河北| 河南| 湖北|湖南|黑龙江|江苏|江西| 吉林| 辽宁|内蒙古|宁夏|青海|山东| 山西| 陕西|上海|四川|天津|新疆| 兵团| 云南|浙江 即时 时政 高层| 人事| 反腐| 深度| 两岸| 科教| 军事 东西问 中外对话|世界观|广角镜|Z世代|洋腔队|舆论场|新漫评|思享家| 会客厅|研究院|问西东 财经 宏观|产经|中国新观察|三里河|民生调查局|中新财评| 商业风云录|智库|公益 国际 世界观|国际识局|国际人物|国际热评|新漫评|国际视野 社会 热点追踪| 中新真探| 新闻浮世绘| 中新法治| 第一现场 大湾区 港澳|风向标|快车道|青年说|专家建言|湾得福|Video|湾区MAP 健康 大医生来了|医学的温度|医药新观察 教育 法治 生活 华人 同心 统战要闻|统战时讯|各地统战 铸牢中华民族共同体意识 民族传承|政策法规|学术动态|地方实践|国际传播 一带一路 热点聚焦|深度访谈|各方关注|海外视角|项目动态|丰硕成果 文娱 文化漫谈|艺苑大观|收藏考古|星闻联播|影音综艺 体育 独家视角|绿茵赛场|篮坛竞技|综合其他|视频播报 视频 热点|国内|社会|国际|军事|文娱|体育|财经|港澳台侨|微视界| 洋腔队|Z世代|澜湄印象|中国风|中国新视野 图片 中新画报|国内|社会|国际|娱乐|体育|军事|科技| 港澳台侨|凡人歌 创意 理论 直播 专题 专栏 先暖“娃” 再暖“新” 分享到： 首页 → 社会新闻 分享到： 先暖“娃” 再暖“新” 2026-10-19 09:29:57 来源：中国青年报 作者：何颖 责任编辑：何颖 2026年10月19日 09:29 来源：中国青年报 大字体 小字体 分享到： 河北“共青团·伙伴计划”赋能新就业群体团的建设—— 先暖“娃” 再暖“新” “孩子谁来管？”曾是不少新就业群体家长假期里的烦心事。今年暑假，河北省衡水市安平县幸福社区外卖配送员李先生松了口气：“平时上班没时间照看孩子，爱心托管站既能免费看护，还有趣味活动，解决了我们最大的难题。” 在河北，像李先生这样不再发愁的家长还有很多。2026年暑期，团河北省委实施“共青团·伙伴计",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "4488690b60dfd9202dd86280ebaa8ac38dc29530abb2e7188ae6399e11957149",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D5325701fe9a359ce",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10716930.shtml",
+      "topic": "老年人口逐年增加 城乡多元模式破解照护难题",
+      "text": "近几年，我国老年人口的数量在逐年增加，数据显示，截至2023年底、2024年底、2025年底，全国60周岁及以上老年人口分别是2.97亿、3.10亿和3.23亿人。而另一方面，同样是这三年的统计数据，全国各类养老机构和设施中养老床位的数量却在逐年减少。这两个数据一增一减，背后的原因是什么？能否满足社会养老需求？各地有何应对举措？目前我国养老体系建设面临哪些挑战和发展趋势？",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716930.shtml",
+        "published_at": "2026-10-18T23:46:13Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "老年人口逐年增加 城乡多元模式破解照护难题-中新网 即时 时政 财经 同心 东西问 国际 社会 理论·评论 中国侨网 大湾区 文娱 体育 教育 法治 健康 生活 铸牢中华民族共同体意识 宗教 一带一路 中国—东盟商贸资讯平台 中国新闻周刊 国是直通车 创意 直播 视频 图片 专栏 各地 安徽|北京|重庆|福建|甘肃| 贵州|广东|广西|海南|河北| 河南| 湖北|湖南|黑龙江|江苏|江西| 吉林| 辽宁|内蒙古|宁夏|青海|山东| 山西| 陕西|上海|四川|天津|新疆| 兵团| 云南|浙江 即时 时政 高层| 人事| 反腐| 深度| 两岸| 科教| 军事 东西问 中外对话|世界观|广角镜|Z世代|洋腔队|舆论场|新漫评|思享家| 会客厅|研究院|问西东 财经 宏观|产经|中国新观察|三里河|民生调查局|中新财评| 商业风云录|智库|公益 国际 世界观|国际识局|国际人物|国际热评|新漫评|国际视野 社会 热点追踪| 中新真探| 新闻浮世绘| 中新法治| 第一现场 大湾区 港澳|风向标|快车道|青年说|专家建言|湾得福|Video|湾区MAP 健康 大医生来了|医学的温度|医药新观察 教育 法治 生活 华人 同心 统战要闻|统战时讯|各地统战 铸牢中华民族共同体意识 民族传承|政策法规|学术动态|地方实践|国际传播 一带一路 热点聚焦|深度访谈|各方关注|海外视角|项目动态|丰硕成果 文娱 文化漫谈|艺苑大观|收藏考古|星闻联播|影音综艺 体育 独家视角|绿茵赛场|篮坛竞技|综合其他|视频播报 视频 热点|国内|社会|国际|军事|文娱|体育|财经|港澳台侨|微视界| 洋腔队|Z世代|澜湄印象|中国风|中国新视野 图片 中新画报|国内|社会|国际|娱乐|体育|军事|科技| 港澳台侨|凡人歌 创意 理论 直播 专题 专栏 老年人口逐年增加 城乡多元模式破解照护难题 分享到： 首页 → 社会新闻 分享到： 老年人口逐年增加 城乡多元模式破解照护难题 2026-10-19 07:46:13 来源：央视新闻客户端 作者：梁异 责任编辑：梁异 2026年10月19日 07:46 来源：央视新闻客户端 大字体 小字体 分享到： 近几年，我国老年人口的数量在逐年增加，数据显示，截至2023年底、2024年底、2025年底，全国60周岁及以上老年人口分别是2.97亿、3.10亿和3.23亿人。而另一方面，同样是这三年的统计数据，全国各类养老机构和设施中养老床位的数量却在逐年减少。这两个数据一增一减，背后的原因是什么？能否满足社会养老需求？各地有何应对举措",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "feca6c31b2fd36348900b63b6aad6cd2d41058802df3840c01d9f79d5e86ac7a",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Dfdbdd0097fe51a3f",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-19/10716927.shtml",
+      "topic": "AI越“懂你”，青年越需要“我再想想”",
+      "text": "从改论文、做PPT，到投简历、模拟面试，再到深夜里聊一聊情绪和关系，生成式人工智能正在成为不少青年的“学习搭子”“求职搭子”，甚至是随时在线的“参谋”。今年春招，某互联网求职平台一项面向2040名2026届毕业生的调查显示，超过86%的受访者使用过生成式AI工具；另一项面向1333名应届毕业生的调查中，91.1%的受访者表示在AI快速发展的背景下调整了求职规划，超六成会分析AI相关岗位要求、针对性准备简历和面试。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716927.shtml",
+        "published_at": "2026-10-18T23:35:24Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "来源：中国青年报 2026年10月19日 06版 【编辑:梁异】 更多精彩内容请进入社会新闻 发表评论 文明上网理性发言，请遵守新闻评论服务协议 社会新闻精选： 四川宜宾警方通报“女子打砸酒水经营店铺” 2026年10月19日 10:46:39 周杰伦家在大陆有大鹿 2026年10月18日 23:21:33 （活力中国）跨境观瀑掀旅游热 中越双向客流大增长 2026年10月18日 20:47:41 宁夏举办银龄阅读展演活动 长者登台分享岁月书香 2026年10月18日 20:44:14 “药都”江西樟树如何持续擦亮“药交会”招牌？ 2026年10月18日 20:18:33 非遗传雅韵 《鄂尔多斯婚礼》联结港台访客 2026年10月18日 20:01:24 部分日化品包装高度“食品化”，如何防误食？ 2026年10月18日 19:58:00 要“降糖”也要“排酸”，专家给出糖尿病合并高尿酸患者“饮食指南” 2026年10月18日 18:56:19 中外专家：AI可为传统医学提供现代科学语言“翻译” 2026年10月18日 17:55:05 中外学者寒泉精舍共植香樟 以朱子林架文明互鉴之桥 2026年10月18日 17:31:18 换一批 推荐阅读 1/62/63/64/65/66/6 九组数字，看见三峡新变化 四川雅安：村民上山看牛途中偶遇野生大熊猫 “取消吃饭”的日本年轻人，正替日本扛下GDP排名下滑的代价 白云机场重回榜首 航空枢纽格局生变 更年期不是病，为什么还需要看医生？ 人这一辈子，一定要去宜昌邂逅“长江精灵” 河北大学，105岁生日快乐！ 人这一辈子，一定要去一趟良渚！ 从“薯都”到“token之都”，中国草原跑出算力黑马 核安全监管升级护航核电高质量发展 欧洲采购商争当代理：要务实面对中国新能源汽车领跑 把涉疆谎言写成“论文”，就成事实了？ 中国汽车质量信誉不能被刹车踏板踩断 全网进入“不烧心”时代，包括台湾 92岁老人守着5公斤剪报，等到高铁开进延安那天 人脑为何比AI更灵活？我国科学家破解底层奥秘 广交会七十载见证中国外贸之变 商业航天IPO生死局，谁能突围？ 热点视频 奇闻趣事 河南郑州：高校学子用镜头为老人圆婚纱梦 安徽池州：“天空之镜”遇上火烧云奇观 新疆“阿达西”西安卖馕爆火 记者实地探访 北京八达岭长城秋雨云海交织 宋兆普夸徒弟“洋得很” 徒弟随身带针 采访现场给记者问诊 医生教你怎样吃才不“烧心” 对话“大明湖最有腔调的爷爷”：湖边吹乐，不为流量只为开心 “00后”本科生当钉蹄师：冷门手艺亦有天地 保安大叔手把手教外国游客摆pose 新疆“阿达西”在西安卖馕走红 珍稀“四不像”现身牯牛降 林间悠闲觅食 黑龙江东宁：红外相机捕捉罕见短尾雌虎 湖北神农架现罕见白化亚洲黑熊 变造号牌车辆“送上门”，交警当场查处 主人结婚小狗变“氛围组",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "aca140c312acd4561e2718eb9a05c088fad5902a57a63c32dca7c0604912fef1",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "De5394eb93ed65f5c",
+      "event_id": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+      "topic": "Macron calls for 'calm and order' after riots across France",
+      "text": "French President Emmanuel Macron gives a national address after widespread disorder and as some looting continued in Paris.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-18T20:33:21Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 18 October 2026 French President Emmanuel Macron has called for \"calm and order\" after a major day of protests turned into rioting and looting on Saturday, and as some disorder continued in Paris on Sunday. In a national address from the Élysée Palace, he warned those who had taken part not to \"escalate\", adding: \"We all feel anger and shame.\" Some 550,000 demonstrators took to the streets for largely peaceful protests against rising fuel prices, the cost of living and deteriorating public services, including schools. Macron said a distinction must be drawn between the \"legitimate demands\" of protesters and \"those who destroyed, smashed and looted\". Police have arrested about 2,400 people, according to France's interior ministry. The French president said \"nothing justifies\" the \"unbridled\" violence seen and said those involved would face justice. Groups of rioters, some dressed in black and wearing masks and balaclavas, also came out in Paris, Marseille and other towns and cities, with some setting fire to cars and buildings. To play this video you need to enable JavaScript in your browser. This video can not be playedFigure caption, 'Very upsetting': Residents in shock after historic French town hall set alight On Sunday, looting and clashes with police continued on a smaller scale in parts of the capital and Lyon. Tear gas and stun grenades were fired at hundreds of people in Paris, according to the AFP news agency, and bottles and rocks were again hurled at police. Sunday saw cities across the country confront the impact of what developed into one of the worst bouts of disorder in modern French history. In Limoges, the ornate 19th Century city hall was gutted by a fire started by rioters on Saturday, its clock tower and roof collapsin",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "0493dc176b60a86dce81983074ecd410468e9943cce3bd632b2c37190ada1f50",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Ddbb8839714c73ba7",
+      "event_id": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+      "topic": "Major fire at Canada military base leaves four dead, dozens injured",
+      "text": "Prime Minister Carney said military and emergency crews fought the flames throughout the night in \"some of the worst conditions imaginable\".",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-18T23:06:09Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 5 hours ago Four members of the Canadian military have died and dozens were injured in a major fire at a base in the province of Alberta. Addressing the nation on Sunday from Ottawa, Prime Minister Mark Carney described it as \"one of the worst tragedies for the forces on Canadian soil in peacetime\". The fire broke out at about 16:00 local time (22:00 GMT) on Saturday at Canadian Forces Base Wainwright, one of the country's busiest military training bases, and is now contained. Its cause is still unclear, but officials said it did not appear tied to \"terrorist activity\". \"The nation is in mourning for those brave members of our armed forces who we have lost,\" said Carney. The BBC has confirmed that Sgt Morgan Wong, Pte Shaun Farrell, Pte Aidan Goulding and Pte Hayden Lykkemark have died. Of the 39 injured people being cared for in hospital, at least 19 are in a critical condition, Alberta Premier Danielle Smith said at a press briefing on Sunday evening. Fire and rescue teams are remaining at the scene to contain any potential flare-ups, Wainwright Mayor Bruce Pugh told the BBC. Members of the infantry had been conducting \"high-intensity combat training with live munitions\" at a grenade range and attack range, where 10 soldiers practise attacking a simulated enemy, Maj-Gen Wade Rutland told reporters at the briefing. \"There was a multitude of ordnance moving through the Wainwright training area,\" he said, including a grenade launcher, grenades, small arms and ammunition. A grass fire ignited about 1km (0.6 miles) away, with the cause currently under investigation, and moved toward the attack range. \"What I would say is there was multiple training activities happening throughout the training area at the time,\" he said. \"Uncommonly strong winds caused the ",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "aedce02e9d9c61afbe4876ea960788c2616eb26703921d3dd2ae29cb6d8dfeb7",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D6c53adc38dd837c7",
+      "event_id": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss",
+      "topic": "Bollywood actor Tiger Shroff survives shooting in Mumbai",
+      "text": "Video published by several news outlets shows gunmen firing multiple shots at a car while it is moving past a crowd.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-19T01:50:48Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 2 hours ago Bollywood actor Tiger Shroff has survived a shooting in Mumbai and has not sustained any gunshot wounds, according to Indian police who are investigating the incident. The 36-year-old was shot at on Sunday evening, while he was in a car that was leaving a football club in the suburb of Juhu. Several news outlets have published a video showing at least two gunmen firing multiple shots at close range at the front passenger seat of a car while it is slowly moving past a crowd. The incident has heightened concern about the safety of public figures in India, with some killed or injured in targeted attacks in recent years. \"These attempts to intimidate people will not be tolerated, and we will put an end to this hooliganism,\" said Eknath Shinde, deputy chief minister of Maharashtra state, where Mumbai is located. He paid a visit to Shroff after the shooting on Sunday evening, and said the actor and his mother had been left \"shaken\" by the attack. Police said two people were injured in the shooting, including Shroff's driver, local media reported. This is the latest in a string of attacks on some of the country's biggest public figures in recent years. In 2024, police in India arrested two members of a criminal gang for a gun attack targeting the home of Bollywood actor Salman Khan. That same year, influential Indian politician Baba Siddique was shot dead in Mumbai. The son of two actors, Tiger Shroff made his acting debut in 2014 with the romance film Heropanti and went on to star in several films. He is also a football enthusiast who plays for the professional football club Mumbay FC. Related topics IndiaMumbai The video playlist Watch our pick of standout clips from across the BBC PreviousNext 1:11Limoges town hall fire 'a tragedy',",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "a160aea13aac0d810142276efaca6d75d01efdf11962d7b82dc24782b23fdc0b",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D34d51c106b8091a4",
+      "event_id": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+      "topic": "Threat forces Israel to Austria flight into emergency landing",
+      "text": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-19T02:41:50Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 1 hour ago An Austrian Airlines flight from Israel to Austria has been forced to divert to Bulgaria after a reported bomb threat. The Airbus A320 plane was travelling from Tel Aviv to Vienna on Sunday night but made an emergency landing in Sofia, where passengers were evacuated, the Bulgarian transport ministry said in a statement. The Bulgarian air force scrambled a MiG-29 fighter jet to escort the airliner, the transport ministry said. No injuries have been reported and an investigation has begun. It comes after a pilot attempted to hijack a Flydubai flight en route to Tel Aviv last month by attacking the captain, before the flight's crew and passengers overpowered him and landed the plane safely in Saudi Arabia. Bulgarian and Israeli media reported that a bomb threat had been made. Austrian Airlines has confirmed a threat was made, without giving further details. A spokesperson told the AFP news agency there were 51 passengers and six crew members on board the jet. Authorities conducted a security search of the plane after it landed in Sofia, about 30 minutes from when the alert was first raised. It was over Romania when it diverted to Sofia. Flight tracking data showed Austrian Airlines 82 left Ben Gurion Airport in Tel Aviv on Sunday evening before landing at Vasil Levski airport in Sofia three hours later. Last week, Croatia and Germany both scrambled fighter jets after a commercial flight from the Greek holiday island of Corfu to the German city of Nuremberg accidentally sent out a hijacking alert. The BBC has sought further comment from Lufthansa, the owner of Austrian Airlines. Related topics Aviation safetyIsraelAviation accidents and incidentsAustriaLufthansa More on this story 'I was not going to let others die' - pilot of Flydubai fli",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "56096bdeb08fcdd4b2cd91703adccbfacdcfde5c48719fa46b70f85d494b85b3",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D2064d808e1e7e059",
+      "event_id": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "topic": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "text": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-18T23:28:45Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 4 hours ago The boss of one of Ukraine's biggest steel companies has called on the European Union to drop import restrictions on products made from the country, arguing it has been \"bundled together\" in measures aimed a curbing cheap imports from the likes of China. Yuriy Ryzhenkov, chief executive of Metinvest, told the BBC the recently-imposed tariffs on imported steel to the EU were \"unfair\" and had been put in place \"without any consideration for the situation Ukraine is in\". He said he wished to see \"at least a carve out\" for Ukraine to access the EU market. A spokesperson for the European Commission said the EU \"took into account the difficult situation\" of Ukraine when deciding its steel policy. The trading bloc has recently imposed restrictions on steel imports in an effort to protect steel manufacturers of member nations. It has capped the amount of steel which can enter the EU tax free at 18.3 million tonnes per year - a 47% reduction from 2024 levels. There are some country-specific quotas in the policy, but the overall aim is to cut the amount of steel that can be imported due to member nations struggling to compete with cheap imports from the likes of China and Turkey. Despite a free-trade agreement (FTA) being in place between the EU and Ukraine, the FTA does not stop the EU from introducing separate trade protection measures. \"Ukraine has been bundled together into those measures without any consideration for the situation Ukraine is in,\" Ryzhenkov said, pointing to the war with Russia. \"Access to the European market is crucial for survival,\" he added. \"The restrictive measures that have been put in place by the authorities in the European Union, they don't help. \"I think it's unfair that Ukraine has been treated in the same way as all of th",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "cb6823e2977cf61abdccc724894f52325211348a52e329ad4e7ae5a4a1044656",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "Dde7a52e65340618d",
+      "event_id": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
+      "topic": "Search for Amelia Earhart's plane resumes after stormy weather",
+      "text": "An expedition to a remote Pacific island hoping to uncover the American aviator's wreckage was on hold for three days.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-18T13:47:07Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 18 October 2026 A search for the wreckage of Amelia Earhart's plane on a remote island in the Pacific Ocean has resumed after severe weather caused researchers to stop for several days. A team has travelled to Nikumaroro Island, part of Kiribati, hoping to solve the mystery of the famed aviator's disappearance by investigating the so-called Taraia Object, spotted in the atoll's lagoon in aerial imagery. The American pioneer vanished while attempting to circumnavigate the globe in 1937, spawning decades of speculation about her fate. Rough seas and strong winds forced the team to remain on their research vessel for three days, until the weather cleared on Sunday. \"We are finally getting off the ship and able to land on Nikumaroro,\" Sirisha Bandla, a technology specialist who is part of the expedition, said in a video update from the deck of the Marin Mainiku. The researchers arrived at the uninhabited atoll last week and began an underwater survey of the area of interest. But the weather - powered by strong El Niño conditions in the Pacific - has so far prevented them from beginning a second of three phases, in which underwater objects will be probed to determine their depth and sediment will be dredged. Image source, Getty ImagesImage caption, Amelia Earhart disappeared over the Pacific Ocean while piloting her Electra plane in 1937 \"We're working to get everything done today if we can,\" Bandla said. \"The crew's really excited.\" Earhart had already successfully flown from California across South America, Africa and Asia in her twin-engine Lockheed Electra when she arrived in Lae, Papua New Guinea on 2 July 1937. From there, she and her navigator Fred Noonan had planned to travel towards Hawaii and then finally back to California. But her plane va",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "b7c218a148e3b2976d38a616fe0586c5209f66921ee7569583fa668c2ac78012",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D880a0eaff04e0931",
+      "event_id": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
+      "topic": "The uncertain future of Canada's 30 rescued belugas",
+      "text": "An international rescue operation for the last 30 captive whales in Canada made headlines. Then five of them died.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-17T01:18:08Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 17 October 2026 Tofino approached each of his handlers in turn as they knelt in shallow water and stroked his sides. Shortly after, a crane hoisted the more than 1,500kg beluga whale into a lorry to be shipped out of Canada to his new home, SeaWorld San Antonio - the last of 30 belugas and four dolphins to leave Marineland, a shuttered sea park near Niagara Falls. Marineland needed to find a new home for its whales. But when the Canadian government rejected its plan to sell them to China over concerns about animal welfare, the park's operations said they would have to be euthanised. That spurred an international rescue operation by several aquariums, leading to the largest ever transfer of captive whales this summer. But hopes that the animals were headed to a better life have been dampened by a number of deaths in the group. Photographer Carlos Osorio documented the move, which involved whales being flown to Chicago, Atlanta, San Diego, San Antonio and even Valencia in Spain. Osorio recalls watching footage from a drone overhead as Tofino appeared to say his own goodbyes. Tofino was the last captive whale in Canada. The country banned cetacean captivity and breeding seven years ago and Osorio felt the weight of the moment. \"This is the last one to happen and it's never going to happen again,\" he says. To play this video you need to enable JavaScript in your browser. This video can not be playedFigure caption, Watch: First beluga whales rescued from closed Marineland park arrive at new homes in the US Despite the rescue operation, tragically, five of the belugas have since died, as well as one dolphin. Chicago's Shedd Aquarium has had the most deaths. Peekachu, 23, Rain, 20, Orisis, 26, and Caspian, 27, were all transferred from Marineland,",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "4fc8fc126e07238a685a9ece96c6e547ed70978c9f629c3b9ec7b681a9ad96d6",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D15dda46e4ddf7538",
+      "event_id": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+      "topic": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+      "text": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-17T22:09:50Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:41.738787+00:00",
+        "evidence_text": "Published 17 October 2026 An 80m (263ft) luxury vessel has been repeatedly spotted in satellite images off North Korea's Wonsan coast from July to mid-October this year. What stands out is the 50m swimming pool along the deck, with a cluster of waterslides at one end. After sitting idle for months at a maintenance facility, it relocated in early July to waters off a strip of coastline known as the Kalma Peninsula. This is close to Wonsan, a seaside resort with a sprawling villa used by North Korean leader Kim Jong Un and his family. It was not the only large vessel on the move. A handful of others were also repeatedly seen near Kim's villa, in satellite images analysed by the BBC. The vessels are widely believed to be used by Kim and his family. Former North Korean officials, defectors and experts say it would be difficult for anyone unconnected to the regime's leadership to own or freely use vessels of this size. \"In winter, they would keep them at the shipyard. When summer came, they would bring them out and move them to Kim Jong Un's villa or towards Kalma, and use them for swimming and recreation,\" says Ri Jong Ho. Ri was once an official at the Workers' Party's Office 39, which is believed to be involved in raising and managing foreign currency for the leadership. The wealth of those who sit at the top of the secretive North Korean dictatorship is just as hard to pin down as the country's economic figures. The United Nations and others rely on estimates to classify North Korea as one of the world's poorest countries, with an especially large military budget that funds a sanctioned nuclear programme. Most North Koreans, according to a 2025 UN report, live under \"systematic, widespread and gross human rights violations\" with total state contro",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "author": null,
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "df4648633a482583708e193648cfd3e7f97218077db3ca79bfd0bab739833ae7",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false
+    },
+    {
+      "material_id": "D857c8c48db27adc5",
+      "event_id": "https://www.lesswrong.com/posts/avtquSx2PkWsxXW6T/how-to-measure-intelligence-beyond-human-scale",
+      "topic": "Measuring Intelligence Beyond Human Scale",
+      "text": "Measuring Intelligence Beyond Human Scale",
+      "source": {
+        "url": "https://www.lesswrong.com/posts/avtquSx2PkWsxXW6T/how-to-measure-intelligence-beyond-human-scale",
+        "published_at": "2026-10-19T04:17:14Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Measuring Intelligence Beyond Human Scale",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148320",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "nicholascarolan",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "b6e0fd7f36b0cac62012ead7fda128b76d925b832a8b654126d8ed649de4e3b9",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Ddd0b0b4519fe339b",
+      "event_id": "https://www.smh.com.au/national/nsw/sydney-man-allegedly-discussed-plans-for-childcare-mass-shooting-with-ai-chatbot-20261019-p616oc.html",
+      "topic": "Man arrested after discussing plans for childcare mass shooting with [Claude]",
+      "text": "Man arrested after discussing plans for childcare mass shooting with [Claude]",
+      "source": {
+        "url": "https://www.smh.com.au/national/nsw/sydney-man-allegedly-discussed-plans-for-childcare-mass-shooting-with-ai-chatbot-20261019-p616oc.html",
+        "published_at": "2026-10-19T04:13:29Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Man arrested after discussing plans for childcare mass shooting with [Claude]",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148298",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "milderworkacc",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "acd97bc263b22f104b91cf45b0452876608415fa1e3b070da33033bb7948619b",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D4067d0f727cf2289",
+      "event_id": "https://xyzzy.com",
+      "topic": "Xyzzy",
+      "text": "Xyzzy",
+      "source": {
+        "url": "https://xyzzy.com",
+        "published_at": "2026-10-19T04:03:57Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Xyzzy",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148254",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "sans_souse",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "d6b39f51b627412c3b9cf3887b029343e24a699061a0de1d1ec20d013966c843",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Da878f53b38175e3a",
+      "event_id": "https://spectrum.ieee.org/chip-hall-of-fame-signetics-ne555",
+      "topic": "Chip Hall of Fame: The Signetics NE555",
+      "text": "Chip Hall of Fame: The Signetics NE555",
+      "source": {
+        "url": "https://spectrum.ieee.org/chip-hall-of-fame-signetics-ne555",
+        "published_at": "2026-10-19T04:03:36Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Chip Hall of Fame: The Signetics NE555",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148253",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "mindcrime",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "c0a6f7e1d27ba37b441e8fedeaf576c0571b34d1b69c5b1aef97e9b8fd8373a0",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 1,
+          "time_count": 2,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D930ec9617f879874",
+      "event_id": "https://www.nitinpai.in/2026/10/19/ai-is-not-a-race",
+      "topic": "AI Is Not a Race",
+      "text": "AI Is Not a Race",
+      "source": {
+        "url": "https://www.nitinpai.in/2026/10/19/ai-is-not-a-race",
+        "published_at": "2026-10-19T04:01:23Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "AI Is Not a Race",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148243",
+        "hn_score": 2,
+        "hn_comments": 0,
+        "author": "nitin-pai",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "7f1960853c2fdceeedc25a4eb5dfae9d43e854ae1810da68a5f7d08d359aac27",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Da477c5b3dcf401ff",
+      "event_id": "https://theopenengine.com/blog/review-loop/",
+      "topic": "A small model with a review loop matches a larger one at 58% of the cost",
+      "text": "A small model with a review loop matches a larger one at 58% of the cost",
+      "source": {
+        "url": "https://theopenengine.com/blog/review-loop/",
+        "published_at": "2026-10-19T04:00:21Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "A small model with a review loop matches a larger one at 58% of the cost",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148238",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "eivindmeyer",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "5f631857015b3c87b448e6ff10509e63e91533a71b3b5461cf1f9a5b849f0384",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 1,
+          "time_count": 1,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D5f6f3f73a91b769e",
+      "event_id": "https://www.youtube.com/watch?v=GbcN0bPs-Ig",
+      "topic": "I made tiny robot eyes",
+      "text": "I made tiny robot eyes",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=GbcN0bPs-Ig",
+        "published_at": "2026-10-19T04:00:09Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "I made tiny robot eyes",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148234",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "oliculipolicula",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "ab17eeae8bb457280adad1f9205f3902772d176e6e90b29c9ba8538fa6452028",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Da61761fbe16f8f9d",
+      "event_id": "https://news.ycombinator.com/item?id=50148226",
+      "topic": "Ask HN: New Outlook` sends everything through Microsoft Servers",
+      "text": "Did anyone knew about this?\nI'm honestly suprised I only found out about this today.",
+      "source": {
+        "url": "https://news.ycombinator.com/item?id=50148226",
+        "published_at": "2026-10-19T03:58:58Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Did anyone knew about this?\nI'm honestly suprised I only found out about this today.",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148226",
+        "hn_score": 2,
+        "hn_comments": 0,
+        "author": "NicoJuicy",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "fa2fb85872467c3c315f0632663b4504e45a6fc4e8072a4780322a9f003acb91",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D3bfcc9ef73e9cf9d",
+      "event_id": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+      "topic": "Zepto Scales Customer Support on Databricks and MLflow",
+      "text": "Zepto Scales Customer Support on Databricks and MLflow",
+      "source": {
+        "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+        "published_at": "2026-10-19T03:52:04Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Zepto Scales Customer Support on Databricks and MLflow",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148186",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "akbarnama",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "5586f834ab92153814da727adcedf2c84e2db11b6c81e808507db1ef7da6677b",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D9b9507563acb763d",
+      "event_id": "https://maxmautner.com/2026/10/16/sf-car-free.html",
+      "topic": "Who lives without a car in the Bay Area",
+      "text": "Who lives without a car in the Bay Area",
+      "source": {
+        "url": "https://maxmautner.com/2026/10/16/sf-car-free.html",
+        "published_at": "2026-10-19T03:47:28Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Who lives without a car in the Bay Area",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148162",
+        "hn_score": 1,
+        "hn_comments": 2,
+        "author": "mslate",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "6092e701fd93a3c32e84b127b1ea79fbc1d9d0167a8365d7535fdb03fd68b66d",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Dd655f607635faf2b",
+      "event_id": "https://github.com/hardenedlinux/SonicBoom/issues/2",
+      "topic": "Calling all GPUs: help us benchmark SonicBoom v0.0.3",
+      "text": "Calling all GPUs: help us benchmark SonicBoom v0.0.3",
+      "source": {
+        "url": "https://github.com/hardenedlinux/SonicBoom/issues/2",
+        "published_at": "2026-10-19T03:47:27Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Calling all GPUs: help us benchmark SonicBoom v0.0.3",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148161",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "nalaginrut",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "c49715ec494ca871bb92690f0e7cd2114e347ab35b49784ce0925e85e418bd9b",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 2,
+          "time_count": 3,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D48ec43383793dcc0",
+      "event_id": "https://remade.wiki/",
+      "topic": "Remade.Wiki",
+      "text": "Remade.Wiki",
+      "source": {
+        "url": "https://remade.wiki/",
+        "published_at": "2026-10-19T03:45:25Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Remade.Wiki",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50148150",
+        "hn_score": 1,
+        "hn_comments": 0,
+        "author": "beatthatflight",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "1c9b1664c5f8e6153b39c9769f3682ba3229f55be113090728976f5fe75d3b38",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "De050c5d2bf82687a",
+      "event_id": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "topic": "Superlite: A Faster Alternatie to Superpowers",
+      "text": "Superlite: A Faster Alternatie to Superpowers",
+      "source": {
+        "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+        "published_at": "2026-10-19T02:01:16Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Superlite: A Faster Alternatie to Superpowers",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50147492",
+        "hn_score": 24,
+        "hn_comments": 10,
+        "author": "iheatuchriswogu",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "d70bcec892b94b2da1d7607fda2ad795fe7d37cd573a384da82d5dc19e656889",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Da09a3be4e5cc91f3",
+      "event_id": "https://colo.to/cyberspace.html",
+      "topic": "William Gibson and the trademarking of cyberspace",
+      "text": "William Gibson and the trademarking of cyberspace",
+      "source": {
+        "url": "https://colo.to/cyberspace.html",
+        "published_at": "2026-10-18T23:37:57Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "William Gibson and the trademarking of cyberspace",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50146625",
+        "hn_score": 99,
+        "hn_comments": 16,
+        "author": "Eric_Gullichsen",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "b749fde989aca04b46d2eaf8544a41016e11a3f7864ec53c5f402124e0742359",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D1c209af2c25b1e3d",
+      "event_id": "https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+      "topic": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
+      "text": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
+      "source": {
+        "url": "https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+        "published_at": "2026-10-18T23:37:54Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+        "family": "HACKER_NEWS",
+        "discussion_url": "https://news.ycombinator.com/item?id=50146624",
+        "hn_score": 31,
+        "hn_comments": 14,
+        "author": "gmays",
+        "timestamp_basis": "HACKER_NEWS_STORY_TIME_NOT_ORIGINAL_EVENT_TIME"
+      },
+      "content_hash": "473e3cd7123936580a83050b1076129a0b4aa10928ac4d8035886facb1211925",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Dddb992ee87d6c82d",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.35.1",
+      "topic": "v3.35.1",
+      "text": "3.35.1 (2026-10-18)\nBug Fixes\n\npreserve beta Realtime byte reads on websockets 13 (#4102) (5766349)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.35.1",
+        "published_at": "2026-10-18T01:05:46Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.35.1 (2026-10-18)\nBug Fixes\n\npreserve beta Realtime byte reads on websockets 13 (#4102) (5766349)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "b13ca3ab92844d740fb40abf3888401643a04d79163a02ce7e4f1f591c3566c7",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 8,
+          "time_count": 14,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D87525bd1d9561d5f",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
+      "topic": "v3.35.0",
+      "text": "3.35.0 (2026-10-17)\nFeatures\n\napi: add typed Live sideband events (#4099) (8d5cbf0)\napi: add ultrafast service tier for Agents (#4101) (100bf8f)\n\nBug Fixes\n\nrealtime: preserve byte receives with websockets 13 (#4098) (309916e)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
+        "published_at": "2026-10-17T23:13:52Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.35.0 (2026-10-17)\nFeatures\n\napi: add typed Live sideband events (#4099) (8d5cbf0)\napi: add ultrafast service tier for Agents (#4101) (100bf8f)\n\nBug Fixes\n\nrealtime: preserve byte receives with websockets 13 (#4098) (309916e)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "086e90c97612f6230c9280e7917a00acc1fd7ec99013a618aa753f21adffdc9e",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 15,
+          "time_count": 23,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D12b904c1ef68ba4e",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+      "topic": "v3.34.0",
+      "text": "3.34.0 (2026-10-17)\nFeatures\n\napi: add degraded external storage status (#4097) (b216cb2)\napi: add Realtime Translation WebSocket sessions (#4095) (bfada50)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+        "published_at": "2026-10-17T20:34:04Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.34.0 (2026-10-17)\nFeatures\n\napi: add degraded external storage status (#4097) (b216cb2)\napi: add Realtime Translation WebSocket sessions (#4095) (bfada50)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "1cdb344568fff36c968e54a25072f8e25434793aa86768257503c109afbeb842",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 10,
+          "time_count": 15,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D38a5c87a8693fe60",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
+      "topic": "v3.33.0",
+      "text": "3.33.0 (2026-10-16)\nFeatures\n\napi: add safety identifiers to image requests and responses (#4093) (c969e32)\napi: share Decisions cache breakpoint parameter type (#4092) (f7cefda)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
+        "published_at": "2026-10-17T00:29:04Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.33.0 (2026-10-16)\nFeatures\n\napi: add safety identifiers to image requests and responses (#4093) (c969e32)\napi: share Decisions cache breakpoint parameter type (#4092) (f7cefda)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "1f9a3432af820b5b5a8d87d51325708991d7190171c3dd97b0bfe4bb6534c780",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 10,
+          "time_count": 15,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Df2bbffb158fe8635",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+      "topic": "v3.32.0",
+      "text": "3.32.0 (2026-10-16)\nFeatures\n\napi: add cache settings and key options [2/2] (#4087) (325da45)\napi: add prompt-based voice creation (#4091) (2e39db7)\napi: add regional processing residency options (#4081) (21ce0c2)\napi: add response error diagnostics and model notices (#4086) (e71d781)\napi: support audio fixture playback in Live sessions (#4085) (9998c1a)\napi: support Decisions in Live sessions (#4088) (230a923)\n\nBug Fixes\n\napi: declare Realtime response error messages (#4083) (95dbee9)\n\nChores\n\napi: clarify Decisions request and response fields (#4079) (d42accb)\n\nRefactors\n\nshare WebSocket connection handling (#4084) (70d4738)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+        "published_at": "2026-10-16T20:17:26Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.32.0 (2026-10-16)\nFeatures\n\napi: add cache settings and key options [2/2] (#4087) (325da45)\napi: add prompt-based voice creation (#4091) (2e39db7)\napi: add regional processing residency options (#4081) (21ce0c2)\napi: add response error diagnostics and model notices (#4086) (e71d781)\napi: support audio fixture playback in Live sessions (#4085) (9998c1a)\napi: support Decisions in Live sessions (#4088) (230a923)\n\nBug Fixes\n\napi: declare Realtime response error messages (#4083) (95dbee9)\n\nChores\n\napi: clarify Decisions request and response fields (#4079) (d42accb)\n\nRefactors\n\nshare WebSocket connection handling (#4084) (70d4738)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "fc0a75970efbc3077912a47e5a3cfb7c7d6fe714f36a20b084d144a6d9f5412f",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 35,
+          "time_count": 52,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "Df1d896ad43916b00",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+      "topic": "v3.31.0",
+      "text": "3.31.0 (2026-10-14)\nFeatures\n\nadd browser and computer toolsets (1/4) (#4073) (47b9e4e)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+        "published_at": "2026-10-14T05:38:46Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.31.0 (2026-10-14)\nFeatures\n\nadd browser and computer toolsets (1/4) (#4073) (47b9e4e)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "246b6255c43cdf56114f04958901b29b421395bca0dc4b6a751abcb45f7cc43e",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 11,
+          "time_count": 14,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D867ed6f1560d08ef",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
+      "topic": "v3.30.0",
+      "text": "3.30.0 (2026-10-14)\nFeatures\n\napi: add beta session spending limits (#4058) (b570279)\napi: add OCI external-storage provider support (#4060) (9eb83fe)\napi: add organization Decisions usage reporting (#4062) (5e7a23e)\napi: expose image tool error and moderation details (#4072) (c5452af)\napi: support image URLs and detailed safety alert explanations (#4061) (3c50399)\napi: support updating project API key expiry (#4066) (1f05e33)\n\nBug Fixes\n\nstreaming: restore async HTTP/1.1 connection reuse (#4041) (1f6cfe1)\n\nChores\n\napi: clarify agent tool limits and environment pagination (#4065) (0f73f1d)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
+        "published_at": "2026-10-14T04:00:19Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.30.0 (2026-10-14)\nFeatures\n\napi: add beta session spending limits (#4058) (b570279)\napi: add OCI external-storage provider support (#4060) (9eb83fe)\napi: add organization Decisions usage reporting (#4062) (5e7a23e)\napi: expose image tool error and moderation details (#4072) (c5452af)\napi: support image URLs and detailed safety alert explanations (#4061) (3c50399)\napi: support updating project API key expiry (#4066) (1f05e33)\n\nBug Fixes\n\nstreaming: restore async HTTP/1.1 connection reuse (#4041) (1f6cfe1)\n\nChores\n\napi: clarify agent tool limits and environment pagination (#4065) (0f73f1d)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "a590ab387a528d9e5997bf79c8675c5be5802e5a4b4654ea89f145a35ec28357",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 32,
+          "time_count": 48,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D28d37e6550f294b0",
+      "event_id": "https://github.com/python/cpython/releases/tag/v3.16.0a1",
+      "topic": "v3.16.0a1",
+      "text": "Python 3.16.0a1",
+      "source": {
+        "url": "https://github.com/python/cpython/releases/tag/v3.16.0a1",
+        "published_at": "2026-10-13T15:05:54Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Python 3.16.0a1",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/python/cpython/releases.atom",
+        "author": "\n      savannahostrowski\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "27e29c0b125c6ced4ee7ab530d71daa422a7723fa8625dd1e0c299aa2bbfb876",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 3,
+          "time_count": 4,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D011f4fe70a62a1fe",
+      "event_id": "https://github.com/python/cpython/releases/tag/3.10",
+      "topic": "Python 3.10 end of life",
+      "text": "Here am I floating 'round my tin can\n\nFar above the moon\n\nPlanet Earth is blue\n\nAnd there's nothing I can do\n\nFive years in orbit. Mission complete. ;)",
+      "source": {
+        "url": "https://github.com/python/cpython/releases/tag/3.10",
+        "published_at": "2026-10-12T14:17:51Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "Here am I floating 'round my tin can\n\nFar above the moon\n\nPlanet Earth is blue\n\nAnd there's nothing I can do\n\nFive years in orbit. Mission complete. ;)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/python/cpython/releases.atom",
+        "author": "\n      pablogsal\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "19409cd169b97e295ae8cf9edb508148f6459cec1bd6cd89b0c53610eb5bbf51",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 6,
+        "components": {
+          "concrete_scene": 0,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": false,
+          "quantity_count": 0,
+          "time_count": 0,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    },
+    {
+      "material_id": "D69d3bdce5fc6a4e8",
+      "event_id": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+      "topic": "v3.29.0",
+      "text": "3.29.0 (2026-10-11)\nFeatures\n\napi: add billing_not_active session error code (#4052) (c88b320)\napi: add shida to named Live voices (#4053) (7352cf5)\napi: add vault updates and metadata filters (#4047) (e72f493)\napi: align beta pagination limits and non-null parameters (#4057) (800899e)\n\nChores\n\napi: clarify decision creation documentation (#4054) (16d3d3b)\napi: clarify Decisions question and answer descriptions (#4051) (895d617)\napi: document 128-character safety identifiers (#4050) (2c1ae52)\napi: document decision choice constraints (#4055) (b7a1990)\napi: document Files API rate-limit responses (#4049) (f6a3459)",
+      "source": {
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+        "published_at": "2026-10-11T17:38:54Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-19T04:17:25.232219Z",
+        "evidence_text": "3.29.0 (2026-10-11)\nFeatures\n\napi: add billing_not_active session error code (#4052) (c88b320)\napi: add shida to named Live voices (#4053) (7352cf5)\napi: add vault updates and metadata filters (#4047) (e72f493)\napi: align beta pagination limits and non-null parameters (#4057) (800899e)\n\nChores\n\napi: clarify decision creation documentation (#4054) (16d3d3b)\napi: clarify Decisions question and answer descriptions (#4051) (895d617)\napi: document 128-character safety identifiers (#4050) (2c1ae52)\napi: document decision choice constraints (#4055) (b7a1990)\napi: document Files API rate-limit responses (#4049) (f6a3459)",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "NOT_INFERRED_FROM_REPOST_TIME",
+        "method": "PUBLIC_RSS",
+        "feed_url": "https://github.com/openai/openai-python/releases.atom",
+        "author": "\n      openai-sdks[bot]\n    ",
+        "family": "GITHUB",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME"
+      },
+      "content_hash": "397a371745eaadf5c42dc21530e303f5c13cfc7ef7da087017a77a127f5c7c72",
+      "review": {
+        "novelty": "CHECKED_DISTINCT",
+        "novelty_scope": "EXACT_TITLE_CONTENT_HASH_ONLY"
+      },
+      "human_checked": false,
+      "auto_screen": {
+        "version": "AUTO_SCREEN_V2",
+        "score": 10,
+        "components": {
+          "concrete_scene": 4,
+          "contrast": 0,
+          "visible_conflict": 0,
+          "first_screen": 6,
+          "branch_signal": 0
+        },
+        "features": {
+          "concrete_entity": false,
+          "entity_count": 0,
+          "entities": [],
+          "concrete_action": false,
+          "action_count": 0,
+          "actions": [],
+          "concrete_quantity": true,
+          "quantity_count": 34,
+          "time_count": 55,
+          "direct_quote": false,
+          "specific_object": false,
+          "object_count": 0,
+          "event_chain": false,
+          "location_hint": false
+        },
+        "decision": "LOW_PRIORITY",
+        "status": "HEURISTIC_ONLY_NOT_PRODUCTION_SCORE",
+        "engagement_used": false
+      }
+    }
+  ],
+  "collection_evidence": {
+    "baseline_collected": {
+      "latest_run_completed_at": "2026-10-19T04:19:38.134029Z",
+      "attempted_sources": 44,
+      "unique_sources": 35,
+      "source_families": [
+        "CHINESE_MEDIA",
+        "GITHUB",
+        "HACKER_NEWS",
+        "TELEGRAM"
+      ],
+      "collected": 92,
+      "returned": 92,
+      "duplicates": 1,
+      "duplicate_ratio": 0.010752688172043012,
+      "under24h": 56,
+      "between24and48h": 17,
+      "unknown_time": 0
+    },
+    "additional_rss_collected": 144,
+    "errors": [
+      {
+        "url": "https://www.theguardian.com/world/rss",
+        "reason": "Remote end closed connection without response"
+      },
+      {
+        "url": "https://www.theguardian.com/lifeandstyle/rss",
+        "reason": "Remote end closed connection without response"
+      }
+    ],
+    "raw_pages": "ignored local evidence; only bounded excerpts and public links exported"
+  }
+}

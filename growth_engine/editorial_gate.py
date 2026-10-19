@@ -140,6 +140,10 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
     # Historical published records predate HUMAN_VOICE_V1 and remain auditable.
     # Any record seeking a new manual publication slot must carry the contract.
     if state == "READY_FOR_MANUAL_PUBLISH":
+        from .content_review import review_content
+        material = next((m for m in candidate.get("material_pool", [])
+                         if m.get("material_id") == candidate.get("material_id")), {})
+        reasons.extend(review_content(candidate, material)["reasons"])
         reasons.extend(_human_voice_errors(candidate))
         from .viral_admission import candidate_admission
         expected_admission = candidate_admission(candidate)

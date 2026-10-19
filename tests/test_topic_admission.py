@@ -232,6 +232,12 @@ class TopicCompetitionTests(unittest.TestCase):
             m = material('cli'+str(index), 4 if index == 29 else 3 if index == 0 else 1)
             m['source']['published_at'] = source_time
             m['draft_text'] = c['text']
+            # This batch replaces the fixture's material/source identity, so
+            # its independent text review must bind the replacement too.
+            from tests.topic_helpers import text_review
+            m['source']['event_time_status'] = 'EVENT_DATE_CHECKED'
+            m['source_evidence'] = [{'url':m['source']['url'],'excerpt':c['text']}]
+            c['content_review'] = text_review(c['text'], m['source_evidence'], c['publication_memory'])
             c.update(material=m, source_refs=[m['source']['url']])
             c['reader_model'] = grounded_profile(c)
             records.append(c)

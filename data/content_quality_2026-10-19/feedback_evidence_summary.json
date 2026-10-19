@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-19T04:30:14.040305Z",
+  "scope": "Existing local, native-visible-UI account observations; no new X scraping or submission",
+  "historical_observations": 21,
+  "eligible_fixed_window_comparisons": 0,
+  "latest_current_metrics": {
+    "impressions": null,
+    "views": null,
+    "replies": null,
+    "reposts": null,
+    "likes": null,
+    "profile_visits": null,
+    "follows_attributed": null
+  },
+  "traffic_growth_verified": false,
+  "status": "UNKNOWN",
+  "reasons": [
+    "Historical snapshots have missing capture timestamps or mismatched ages; no valid current outcome comparison.",
+    "C390 has explicit negative user feedback; a score cannot override that qualitative verdict.",
+    "No new posts published in this repair, so none of these drafts has measured outcomes."
+  ],
+  "strategy_update": "Use actual user rejections as veto evidence; do not infer topic superiority from unmatched historical cumulative views. Keep topic/style/editor/user/actual-outcome states separate."
+}

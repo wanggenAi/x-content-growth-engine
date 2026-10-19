@@ -124,7 +124,9 @@ def review_x_native_style(text: str | None, primary_action: str | None = None) -
     abstract = sum(body.count(term) for term in ABSTRACT_NOUNS)
     first = sentences[0] if sentences else ""
     concrete_points = sum(scene[key] for key in ("concrete_entity", "concrete_action", "concrete_quantity", "direct_quote", "specific_object", "event_chain"))
-    first_screen = _score(42 + min(30, len(first) * 0.75) + concrete_points * 4 - (22 if len(first) > 70 else 0))
+    first_scene = extract_scene_features(first[:80])
+    first_points = sum(first_scene[key] for key in ("concrete_entity", "concrete_action", "concrete_quantity", "direct_quote", "specific_object"))
+    first_screen = _score(42 + min(30, len(first) * 0.75) + first_points * 4 - (22 if len(first) > 70 else 0))
     scene_score = _score(30 + concrete_points * 11 + min(16, scene["entity_count"] * 4))
     reaction = _score(42 + (16 if re.search(r"我|我的|却|居然|偏偏|没想到", body) else 0) + (12 if scene["direct_quote"] else 0))
     lengths = [len(item) for item in sentences]
@@ -159,6 +161,7 @@ def review_x_native_style(text: str | None, primary_action: str | None = None) -
     soft_score = _score(sum(dimensions.values()) / len(dimensions))
     passed = not hard_blockers and soft_score >= 62 and scene_score >= 52
     return {"passed": passed, "status": "PASS" if passed else "FAIL", "score": soft_score, "soft_score": soft_score,
+            "assessment_scope": "SURFACE_STYLE_ONLY_NOT_CONTENT_VALUE",
             "hard_blockers": hard_blockers, "dimensions": dimensions, "scene_features": scene,
             "reasons": reasons, "sentence_count": len(sentences)}
 
@@ -193,6 +196,7 @@ def review_comment_impulse(text: str | None, primary_action: str = "REPLY") -> d
         reasons.append("reply_friction_high")
     passed = score >= 48 and model["opinion_branching"] and not obvious_penalty
     return {"passed": passed, "status": "PASS" if passed else "FAIL", "score": score,
+            "assessment_scope": "STRUCTURAL_CUES_NOT_EXPECTED_COMMENTS",
             "open_detail_bonus": detail_bonus, "self_insertion": self_insertion, "real_tradeoff": model["competing_interests"],
             "opinion_branching": model["opinion_branching"], "identity_trigger": model["identity_split"],
             "experience_trigger": model["experience_split"], "low_reply_friction": low_friction,

@@ -1339,3 +1339,13 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 # 最新断点 — 2026-10-16 Human Style 生产接入与盲测
 
 从 main 起点 `2d0133328ff6472b733bb71e2aa60f257d7401a2` 开始，建立 `growth_engine.candidate_pipeline.prepare_candidate()` 作为新候选的正式装配入口：锁定事实后自动运行 Human Style V2、AI Flavor、Fact Preservation、X Native Style 和 Comment Impulse，再调用 Editorial Gate。新增 hash 绑定的 `HUMAN_STYLE_V2` 合同，历史 `HUMAN_VOICE_V1` 发布记录保持读取兼容；合成盲测 fixture 明确拒绝进入生产。X Native/Comment Impulse 改为结构特征和利益/边界分叉判断，移除 C387/C388/C389 特定场景词依赖。新增 32 条未参与规则设计的 `data/human_style_blindset_v1.json`，回放与完整测试待本轮提交前完成。素材流最新完成时间仍为 `2026-10-12T00:28:27.377Z`，相对本轮日期 stale，未伪造恢复。
+
+
+## 2026-10-19 — content quality repair; dry-run only
+
+用户要求直接修复并合并main，交付真实Top5与三组选题A/B/C；本轮不授权X投稿。已核对origin/main=85c5106，open PR=0，原工作区干净但本地main另有3条未推送的网络诊断文档提交，原样保留；本轮独立worktree从origin/main实现。
+根因：素材分数未约束成稿、草稿自提事实锁不验证来源、同一评论关键词被重复加分、首屏借用了全文细节、默认RSS偏技术且有图片署名覆盖正文摘录。修复增加逐句来源绑定的文本比较验收并接入prepare_candidate和最终editorial gate；数字/日期/发布记忆和正文变化令评审失效，用户否决优先；A/B/C差异检查及Top3实际正文输出。原门槛不降低，历史负例和记录不覆盖。
+真实输出：data/content_quality_2026-10-19/，45个安全公开事件、20个选题审查、9稿；候选前三校园信息测试/修屋檐催款/9月婚礼重读，另两条HOLD。分别保留原始来源、采集UTC、旧事日期及来源边界。逐篇编辑比较独立于评分器，但作者和编辑由同一Codex执行，未声称第二位人工或模型背书。
+本地unittest123通过；pytest首次环境未装，免费测试venv下载发生超时，正在恢复并等待CI。没有新X提交；193条实际发布正文/来源参与去重；历史21条反馈快照无合格固定窗口，当前指标/增长UNKNOWN。下一步完成pytest/CI、PR合并并从最新main重放验收。
+
+2026-10-19验证补记：unittest与pytest均126通过、compileall与diff-check通过。pytest免费venv重试成功；审计首次误传对象格式文件被拒绝，随后按README导入seed与direct-page记录，7帖/8观察/2材料，无公式验证，旧索引指标与粉丝分母缺失仍保留为审计问题。实际生产dry-run返回3组选题/9稿，2条HOLD；下一步PR/CI/merge。

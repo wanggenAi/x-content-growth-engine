@@ -3,6 +3,22 @@ from copy import deepcopy
 from growth_engine.human_voice import stable_hash
 from growth_engine.reader_model import empty_value_profile, reader_context
 from growth_engine.viral_admission import PRODUCTION_MODE, WEIGHTS, material_hash
+from growth_engine.content_review import body_sentences
+
+
+def text_review(text, sources, memory):
+    """Explicitly synthetic source/editor contract; never used by production."""
+    first = body_sentences(text)[0]
+    return {'method':'TEXT_FIRST_COMPARISON','reviewer':'TEST_ONLY_EDITOR','reviewed_at':AS_OF,
+            'text_hash':stable_hash(text),'source_hash':stable_hash(sources),'decision':'PASS','failure_reasons':[],
+            'opening':{'quote':first[:20],'reason':'测试夹具中的账单动作可在首句直接理解。'},
+            'payoff':{'quote':first[:20],'reason':'测试夹具明确展示账单金额和付款关系的具体事实。'},
+            'comparison':{'reference_text':'普通人都需要重视朋友之间的关系和边界。',
+                          'reference_failure':'抽象规劝没有人物行动或可以核对的具体交付。',
+                          'difference':'当前夹具呈现具体账单，断言仅限合约验证而非真实内容质量。'},
+            'novelty':{'memory_hash':stable_hash(memory),'distinct':True,'reason':'测试用空发布记录，不代表真实账号已完成去重。'},
+            'claims':[{'draft_span':s,'url':sources[0]['url'],'source_span':sources[0]['excerpt'],
+                       'verdict':'SUPPORTED','reason':'合成来源逐字支持这一句，只用于验证绑定行为。'} for s in body_sentences(text)]}
 
 AS_OF = '2026-10-16T02:00:00Z'
 
@@ -69,6 +85,10 @@ def bind_candidate(candidate):
     candidate = deepcopy(candidate)
     pool = [material()] + [material('m'+str(n), rating=1) for n in range(2,31)]
     pool[0]['draft_text'] = candidate['text']
+    pool[0]['source'].update(event_time_status='EVENT_DATE_CHECKED')
+    pool[0]['source_evidence'] = [{'url':pool[0]['source']['url'],'excerpt':candidate['text']}]
+    candidate['publication_memory'] = []
+    candidate['content_review'] = text_review(candidate['text'], pool[0]['source_evidence'], [])
     candidate.update(material_id='m1', material_hash=material_hash(pool[0]), material_pool=pool,
                      admission_mode=PRODUCTION_MODE,
                      competition_as_of=AS_OF, source_refs=[pool[0]['source']['url']])

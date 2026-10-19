@@ -1,3 +1,7 @@
+# 2026-10-19 — content quality repair; dry-run only
+
+Latest direct instruction: repair, test, create PR and merge main; research and authored dry runs only. No new X submission is authorized in this round. `content_review` is now required before a new READY admission and final prepublish validation. Style/keyword scores are surface checks, never content success. Full source/time/text/memory binding and a separate text-first editorial comparison are required. Older control snapshots below are historical.
+
 # 2026-10-17 — Codex active hunting and rewrite
 
 Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
