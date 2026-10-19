@@ -1878,9 +1878,9 @@
     "verification_file": "data/content_quality_2026-10-19/main_verification.json"
   },
   "human_style_v3_2026_10_19": {
-    "updated_at_utc": "2026-10-19T05:15:14.446260Z",
+    "updated_at_utc": "2026-10-19T05:25:20.826151Z",
     "mode": "LIGHTWEIGHT_CODEX_AUTHORING_DRY_RUN_ONLY",
-    "status": "IMPLEMENTED_LOCAL_VALIDATION",
+    "status": "MERGED_MAIN_VERIFIED",
     "base_main": "ec2bec40b0c4748a5c9f859acd1563adf88b9f10",
     "runtime_dependencies_added": 0,
     "local_models": false,
@@ -1890,6 +1890,14 @@
     "artifact": "data/human_style_v3_2026-10-19/",
     "human_approval": "UNKNOWN",
     "traffic_outcome": "UNKNOWN",
-    "next_action": "PR CI, merge, latest main replay"
+    "next_action": "Human review and real feedback; no X submission authorized",
+    "main_merge": "486c891ed407725c00af373556309e164d658269",
+    "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/15",
+    "unittest": 132,
+    "pytest": 132,
+    "main_ci": "SUCCESS",
+    "main_replay": "PASS_EXACT_MATCH",
+    "main_collection": "HEALTHY_100_MATERIALS_4_FAMILIES",
+    "verification_file": "data/human_style_v3_2026-10-19/main_verification.json"
   }
 }

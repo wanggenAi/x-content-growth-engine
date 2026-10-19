@@ -1,7 +1,24 @@
 {
   "as_of": "2026-10-19T05:04:15.664139Z",
   "material_count": 100,
-  "collection_evidence": null,
+  "collection_evidence": {
+    "latest_run_completed_at": "2026-10-19T05:06:52.380597Z",
+    "attempted_sources": 47,
+    "unique_sources": 19,
+    "source_families": [
+      "CHINESE_MEDIA",
+      "HACKER_NEWS",
+      "NEWS_MEDIA",
+      "TELEGRAM"
+    ],
+    "collected": 212,
+    "returned": 100,
+    "duplicates": 1,
+    "duplicate_ratio": 0.004694835680751174,
+    "under24h": 99,
+    "between24and48h": 0,
+    "unknown_time": 0
+  },
   "sources": [
     {
       "id": "Dfbf30f3820bef080",
@@ -605,5 +622,13 @@
     }
   ],
   "supplement": "Guardian Money public RSS read, 13 October complaint selected as dated follow-up, not a fresh event.",
-  "publication_triggered": false
+  "publication_triggered": false,
+  "health": {
+    "status": "HEALTHY",
+    "reasons": [],
+    "completion_age_hours": 0,
+    "source_family_count": 4,
+    "under48h": 99
+  },
+  "errors": []
 }
