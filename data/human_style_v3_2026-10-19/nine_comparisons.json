@@ -24,7 +24,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "记者注册校园交友软件时，特意给不同软件留了不同的专属姓氏信息",
+        "raw_human_reaction": "想查是谁泄露手机号，记者给不同软件留了不同的专属姓氏",
         "scene_first": true,
         "short_sentence_ratio": 0.25,
         "mixed_rhythm": true,
@@ -267,7 +267,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.206743Z",
+        "evaluated_at": "2026-10-19T05:19:16.606770Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -281,7 +281,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.206743Z",
+        "evaluated_at": "2026-10-19T05:19:16.606770Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -314,7 +314,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "为领一份考研资料留下手机号，后来得用投诉才能让推销电话停下来",
+        "raw_human_reaction": "领一份考研资料，手机号填进去了",
         "scene_first": true,
         "short_sentence_ratio": 0.0,
         "mixed_rhythm": true,
@@ -567,7 +567,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.207595Z",
+        "evaluated_at": "2026-10-19T05:19:16.607670Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -581,7 +581,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.207595Z",
+        "evaluated_at": "2026-10-19T05:19:16.607670Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -614,7 +614,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "要求别再打电话，客服没能让推销停下来；明确说要投诉，电话才停",
+        "raw_human_reaction": "找客服说别打了，没用",
         "scene_first": true,
         "short_sentence_ratio": 0.333,
         "mixed_rhythm": true,
@@ -870,7 +870,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.208379Z",
+        "evaluated_at": "2026-10-19T05:19:16.608522Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -884,7 +884,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.208379Z",
+        "evaluated_at": "2026-10-19T05:19:16.608522Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -917,7 +917,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "修一下屋檐，电话里报价250英镑，上门后变成了3500英镑",
+        "raw_human_reaction": "本来只是屋檐有滴水声，电话里说250英镑能修",
         "scene_first": true,
         "short_sentence_ratio": 0.0,
         "mixed_rhythm": true,
@@ -1174,7 +1174,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.209260Z",
+        "evaluated_at": "2026-10-19T05:19:16.609405Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1188,7 +1188,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.209260Z",
+        "evaluated_at": "2026-10-19T05:19:16.609405Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -1231,7 +1231,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "250英镑的维修，最后付了3500英镑；第二天，住户说看不出修过",
+        "raw_human_reaction": "250英镑的维修，最后付了3500英镑",
         "scene_first": true,
         "short_sentence_ratio": 0.375,
         "mixed_rhythm": true,
@@ -1501,7 +1501,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.210126Z",
+        "evaluated_at": "2026-10-19T05:19:16.610342Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1515,7 +1515,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.210126Z",
+        "evaluated_at": "2026-10-19T05:19:16.610342Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -1558,7 +1558,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "两个男人天黑后站在面前，不拿钱就不走",
+        "raw_human_reaction": "天黑了，家里只有自己，面前两个男人催着要钱，还不肯走",
         "scene_first": true,
         "short_sentence_ratio": 0.0,
         "mixed_rhythm": true,
@@ -1817,7 +1817,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.210970Z",
+        "evaluated_at": "2026-10-19T05:19:16.611175Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -1831,7 +1831,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.210970Z",
+        "evaluated_at": "2026-10-19T05:19:16.611175Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2113,7 +2113,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.211644Z",
+        "evaluated_at": "2026-10-19T05:19:16.611826Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -2127,7 +2127,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.211644Z",
+        "evaluated_at": "2026-10-19T05:19:16.611826Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2160,7 +2160,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "来吃喜酒的人，每人还收到新人给的200元红包",
+        "raw_human_reaction": "婚车没请，司仪没请，来吃席的人倒是每人领了200元",
         "scene_first": true,
         "short_sentence_ratio": 0.143,
         "mixed_rhythm": true,
@@ -2420,7 +2420,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.212399Z",
+        "evaluated_at": "2026-10-19T05:19:16.612565Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -2434,7 +2434,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.212399Z",
+        "evaluated_at": "2026-10-19T05:19:16.612565Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true
@@ -2467,7 +2467,7 @@
       },
       "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
       "voice_features": {
-        "raw_human_reaction": "父母想安排婚车队，新郎新娘最后自己从酒店开车去了婚礼现场",
+        "raw_human_reaction": "父母想安排婚车队，新郎新娘自己开车去了",
         "scene_first": true,
         "short_sentence_ratio": 0.0,
         "mixed_rhythm": true,
@@ -2719,7 +2719,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.213075Z",
+        "evaluated_at": "2026-10-19T05:19:16.613244Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "human_voice": {
@@ -2733,7 +2733,7 @@
         "x_native_style": "PASS",
         "comment_impulse": "NOT_APPLICABLE",
         "rewrite_applied": true,
-        "evaluated_at": "2026-10-19T05:18:29.213075Z",
+        "evaluated_at": "2026-10-19T05:19:16.613244Z",
         "engine_version": "human-style-v3-lightweight"
       },
       "passed": true

@@ -265,7 +265,7 @@ def humanize_text(request: Mapping[str, Any]) -> dict[str, Any]:
         "operations": changes,
         "authoring": authoring,
         "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
-        "voice_features": _voice_features(rewritten, after_report, _raw_reaction(draft)),
+        "voice_features": _voice_features(rewritten, after_report, _raw_reaction(authored if authored is not None else draft)),
         "warnings": warnings,
         "version": HUMAN_STYLE_VERSION,
         "voice_profile": profile,

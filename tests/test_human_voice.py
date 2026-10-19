@@ -115,6 +115,7 @@ class HumanVoicePipelineTests(unittest.TestCase):
         self.assertEqual(result['rewritten_text'], request['authored_text'])
         self.assertTrue(result['fact_preservation_report']['passed'])
         self.assertTrue(result['authoring']['textual_change'])
+        self.assertEqual(result['voice_features']['raw_human_reaction'], '才过几天，记者就收到5个电话')
         request['authored_text'] += '另有99个人来电。'
         self.assertFalse(run_human_voice_pipeline(request)['fact_preservation_report']['passed'])
         request['authored_text'] = ''

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-19T05:18:29.281469Z",
+  "captured_at": "2026-10-19T05:19:16.682206Z",
   "selection": "Three editorial examples, not an automated Top1 or traffic prediction",
   "publication_memory": [
     {
@@ -1213,7 +1213,7 @@
         },
         "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
         "voice_features": {
-          "raw_human_reaction": "据央视新闻10月19日报道，北京东城一处不到200平方米的养老驿站签约155个家庭养老床位",
+          "raw_human_reaction": "不到200平方米，签了155个“家庭养老床位”",
           "scene_first": true,
           "short_sentence_ratio": 0.143,
           "mixed_rhythm": true,
@@ -1458,7 +1458,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.291126Z",
+          "evaluated_at": "2026-10-19T05:19:16.692079Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "human_voice": {
@@ -1472,7 +1472,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.291126Z",
+          "evaluated_at": "2026-10-19T05:19:16.692079Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "passed": true
@@ -1480,9 +1480,9 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second editorial pass; not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.281469Z",
+        "reviewed_at": "2026-10-19T05:19:16.682206Z",
         "text_hash": "e9abe427ac40789ca99d9466773d385886a51691bfc70bcb06311a7388e10dd1",
-        "source_hash": "5d8712826a48c0adaf8edf321186268b816914a5132738d4c4127cde2ae252a5",
+        "source_hash": "3d07934147e0450519eea94a3952742dda8759f35565c880580dfeae3a15c642",
         "decision": "PASS",
         "failure_reasons": [],
         "opening": {
@@ -1597,7 +1597,7 @@
         "text": "据央视新闻10月19日报道，北京东城一处不到200平方米的养老驿站签约155个家庭养老床位。95岁的张景镐行走不便，平时由女儿照顾，签约后工作人员每周上门一次，提供基础照料等服务，也培训家庭照护者，紧急时可以呼叫工作人员。",
         "source": {
           "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716930.shtml",
-          "captured_at": "2026-10-19T05:18:29.281469Z",
+          "captured_at": "2026-10-19T05:19:16.682206Z",
           "published_at": "2026-10-18T23:46:13Z",
           "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
           "visible_date_labels": [
@@ -1612,7 +1612,7 @@
           {
             "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716930.shtml",
             "excerpt": "95岁的张景镐老人有多种慢性病，行走不便，平时由女儿照顾，签约家庭养老床位后，附近养老驿站的工作人员每周入户探访一次，提供心理慰藉、整理收纳、基础照料等服务，还定期培训老人的家庭照护者，老人遇到紧急情况也可以随时呼叫工作人员。\n　　负责老人养老服务的驿站距离老人家庭大约1公里，这个占地不到200平方米的驿站设有餐厅、活动室，签约了155个家庭养老床位，相当于建了一个中等规模的养老机构，驿站为每个老人建立健康档案。\n2026年10月19日",
-            "retrieved_at": "2026-10-19T05:18:29.281469Z",
+            "retrieved_at": "2026-10-19T05:19:16.682206Z",
             "method": "PUBLIC_HTTP_NO_SESSION"
           }
         ]
@@ -1673,7 +1673,7 @@
         },
         "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
         "voice_features": {
-          "raw_human_reaction": "《中国青年报》10月19日回顾，2021年“完达山一号”闯入黑龙江密山村落，救护人员进行体况检测，不到一个月在穆棱放归",
+          "raw_human_reaction": "“完达山一号”放归后，头一年走了三千多公里",
           "scene_first": true,
           "short_sentence_ratio": 0.0,
           "mixed_rhythm": true,
@@ -1914,7 +1914,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.344985Z",
+          "evaluated_at": "2026-10-19T05:19:16.747589Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "human_voice": {
@@ -1928,7 +1928,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.344985Z",
+          "evaluated_at": "2026-10-19T05:19:16.747589Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "passed": true
@@ -1936,9 +1936,9 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second editorial pass; not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.281469Z",
+        "reviewed_at": "2026-10-19T05:19:16.682206Z",
         "text_hash": "40018fb3b47248ec254849882f17eda310f4ef41cf90c7b570426c51d56296fd",
-        "source_hash": "64fbf87227b5267ba4d51100ca67c12c8f665a82ddf2b7f991490548e66d09e4",
+        "source_hash": "c6ae8ea809e020ecc32056f33bf288642131c8f1138fbbe4080141ffc60cf12c",
         "decision": "PASS",
         "failure_reasons": [],
         "opening": {
@@ -2053,7 +2053,7 @@
         "text": "《中国青年报》10月19日回顾，2021年“完达山一号”闯入黑龙江密山村落，救护人员进行体况检测，不到一个月在穆棱放归。选择该地是因为食物充足、环境好、活动范围大，也能通过东宁到俄罗斯。放归第一年监测轨迹三千多公里。",
         "source": {
           "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717052.shtml",
-          "captured_at": "2026-10-19T05:18:29.281469Z",
+          "captured_at": "2026-10-19T05:19:16.682206Z",
           "published_at": "2026-10-19T02:58:30Z",
           "event_time_status": "EVERGREEN_REDISCOVERY",
           "visible_date_labels": [
@@ -2068,7 +2068,7 @@
           {
             "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717052.shtml",
             "excerpt": "2021年4月，一只疑似从俄罗斯“偷偷越境”的野生东北虎“完达山一号”误入我国黑龙江省密山市的村落。黑龙江东北虎林园饲养兽医部兽医宫明回忆，参加“完达山一号”的救护工作后，经过专家的体况检测，不到一个月时间，“完达山一号”在黑龙江省牡丹江市穆棱片区放归，成为我国首次成功救护并放归的野生东北虎。\n　　宫明介绍，之所以选择穆棱片区放归，首先是该地能达到其食物链的供应，其次是自然环境好、活动范围大，能够通过东宁去俄罗斯。\n　　“完达山一号”放归第一年，救护人员通过监测发现，其总运动轨迹长3306.32公里，总活动范围覆盖9638平方公里，东西跨度180公里，南北跨度150公里，刷新了科研人员对雄虎活动范围的认知。\n2026年10月19日",
-            "retrieved_at": "2026-10-19T05:18:29.281469Z",
+            "retrieved_at": "2026-10-19T05:19:16.682206Z",
             "method": "PUBLIC_HTTP_NO_SESSION"
           }
         ]
@@ -2128,7 +2128,7 @@
         },
         "assessment_scope": "SURFACE_CHECKS_NOT_READER_APPROVAL",
         "voice_features": {
-          "raw_human_reaction": "《卫报》10月13日报道，BT用户自述2025年5月座机升级后不能使用，宽带不受影响，每月仍支付32.99英镑的座机加宽带账单",
+          "raw_human_reaction": "座机从账户里删了，收费没删",
           "scene_first": true,
           "short_sentence_ratio": 0.25,
           "mixed_rhythm": true,
@@ -2379,7 +2379,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.396387Z",
+          "evaluated_at": "2026-10-19T05:19:16.800642Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "human_voice": {
@@ -2393,7 +2393,7 @@
           "x_native_style": "PASS",
           "comment_impulse": "NOT_APPLICABLE",
           "rewrite_applied": true,
-          "evaluated_at": "2026-10-19T05:18:29.396387Z",
+          "evaluated_at": "2026-10-19T05:19:16.800642Z",
           "engine_version": "human-style-v3-lightweight"
         },
         "passed": true
@@ -2401,9 +2401,9 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second editorial pass; not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.281469Z",
+        "reviewed_at": "2026-10-19T05:19:16.682206Z",
         "text_hash": "e3ced065823a9becf8f03125b6dcb9946b13b965cd43ad31b9dd99744e0b6402",
-        "source_hash": "8e6ff2b7bf6538dc0a24e47896b643c9eadfd50dba2f1634c4d868c03f09ed97",
+        "source_hash": "97ffe113ed5a5293f6aea59f7f6aafea30cb1a4a63f004f55deadf9f8544b9c7",
         "decision": "PASS",
         "failure_reasons": [],
         "opening": {
@@ -2558,7 +2558,7 @@
         "text": "《卫报》10月13日报道，BT用户自述2025年5月座机升级后不能使用，宽带不受影响，每月仍支付32.99英镑的座机加宽带账单。BT承认1月关掉投诉，因为座机已经从账户移除，但仍在收费；BT说去年12月才收到故障投诉，用户说更早反映但无记录。电话9月恢复，用户最终接受689英镑，用于BT认可的60天故障期和两次投诉处理问题。",
         "source": {
           "url": "https://www.theguardian.com/money/2026/oct/13/bt-charge-landline-phone-digital-voice",
-          "captured_at": "2026-10-19T05:18:29.281469Z",
+          "captured_at": "2026-10-19T05:19:16.682206Z",
           "published_at": "2026-10-13T06:00:18Z",
           "event_time_status": "EVENT_DATE_CHECKED",
           "visible_date_labels": [
@@ -2573,7 +2573,7 @@
           {
             "url": "https://www.theguardian.com/money/2026/oct/13/bt-charge-landline-phone-digital-voice",
             "excerpt": "I’ve had no landline since May 2025\nYou have been paying £32.99 a month for a dead landline and broadband, which was unaffected.\nBT claims it was unaware of the problem until you complained last December.\nYou insist you had reported it before then, but do not have records of when.\nYou next complained in January, but BT admits it again closed the case because, by then, your landline had been removed from your account, though you were still being charged.\nYour line was eventually activated in September.\naccepted £689 for the 60 days without service\nand for its mishandling of the two complaints it has on record.\n13 Oct 2026",
-            "retrieved_at": "2026-10-19T05:18:29.281469Z",
+            "retrieved_at": "2026-10-19T05:19:16.682206Z",
             "method": "PUBLIC_HTTP_NO_SESSION"
           }
         ]

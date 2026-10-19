@@ -6,7 +6,7 @@
     "admission_mode": "PRODUCTION_COMPETITION",
     "status": "PRODUCTION_WINNER",
     "as_of": "2026-10-19T04:35:33.410286Z",
-    "pool_hash": "596ef3d91e06928e7b0c0be21b56f49d98bf078e9bb2afe4fbe477a50560a241",
+    "pool_hash": "36a9e02929a7a4b2592329c6ae09798c64adf549cb90064ee7e5d57e3c22caac",
     "candidate_count": 45,
     "raw_count": 45,
     "duplicate_clusters": [],
@@ -88,7 +88,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "d5d23a4c02da37d2cf0d4cd360fdae183ab9a083de28edcab89f5968fc598369",
+        "material_hash": "23038517867667e6cee91523fdf02e4f0b22098acb01209808432c494ef92a2e",
         "auto_screen_score": 57,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -178,7 +178,7 @@
         "source": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "7e80c66133e1cc4c00934e4eca2bede4213df40d488f4c03c794f23a51228c21",
+        "material_hash": "43c0d2e988b71440b45d76cfcd4929fb560bc27796b9bde92fdbc7e337672a1f",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -256,7 +256,7 @@
         "source": "https://feng.ifeng.com/c/8xA1cjWnAm0",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "0a1d593af98fbad1611211cd5c300300ab96ed2ef128b128fa61ca438dd42deb",
+        "material_hash": "7b4cce79fb83c993e59b9b6737d1d0c6d6772a5f3a58f3c784da29610668c020",
         "auto_screen_score": 77,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -348,7 +348,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "59267164d65d46944652c7ed2689f031f6bd412d02f57f5de48728fe58dfc149",
+        "material_hash": "64bf8948dc7c8f0949a6d8743164f283125a76fd00bdbbabe0940e2c8abf5b92",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -428,7 +428,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "5816a17d45d279d81904af8fa6d3216c5a6899657932b6fff4e87c1457c4135c",
+        "material_hash": "ea994e43e16a6c7a4970c18ae1badeb154cfd91b58c58099cc6341e1bccd3e95",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -508,7 +508,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "fa28480dee1355edd082a3f456f8cba680cddf86cae2f3159b9b552306307d22",
+        "material_hash": "b29a81b726bbd814b4db1aaf2dd9316d89dc222fe4f2712a9a70b9c1045246e9",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -590,7 +590,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "ccd3984cbcc9d6a2c6321510686ab357e29c2b021f32a19c11982a92e90aeef3",
+        "material_hash": "d9d1368de5c97eda29cb51425032fb592d1e3155a1104f12c53500393926025b",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -670,7 +670,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "960250bff071ede9698967a3a9ddbe0a31e5cf93a636f5571244db51a1741076",
+        "material_hash": "9c15f2d630ef9efd06559dbb5ac4925fa3bc62ae6f2dd223a87b21804f5e7dd8",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -750,7 +750,7 @@
         "source": "https://www.theguardian.com/business/2026/oct/17/make-firms-pay-more-train-older-workers-youth-apprentices-england",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "f85d9bb43a5cea2f382055d9bad7b8f991f7f088a63f24e0d537a33deddf9246",
+        "material_hash": "57ea3a4cca424056e622295114f55576e7e974e64c3232dce5f039c5a4f5558c",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -830,7 +830,7 @@
         "source": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "ce97e0ec19df727d090fca7c7ee893e6a1a37eccc93669ba25a4cf2434b5f3d9",
+        "material_hash": "b87b50f0b6af031b56f7614085a07568065eb00ee509c9744031da3ebb8482d9",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -912,7 +912,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "d5d23a4c02da37d2cf0d4cd360fdae183ab9a083de28edcab89f5968fc598369",
+        "material_hash": "23038517867667e6cee91523fdf02e4f0b22098acb01209808432c494ef92a2e",
         "auto_screen_score": 57,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1002,7 +1002,7 @@
         "source": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "7e80c66133e1cc4c00934e4eca2bede4213df40d488f4c03c794f23a51228c21",
+        "material_hash": "43c0d2e988b71440b45d76cfcd4929fb560bc27796b9bde92fdbc7e337672a1f",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1080,7 +1080,7 @@
         "source": "https://feng.ifeng.com/c/8xA1cjWnAm0",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "0a1d593af98fbad1611211cd5c300300ab96ed2ef128b128fa61ca438dd42deb",
+        "material_hash": "7b4cce79fb83c993e59b9b6737d1d0c6d6772a5f3a58f3c784da29610668c020",
         "auto_screen_score": 77,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1172,7 +1172,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "59267164d65d46944652c7ed2689f031f6bd412d02f57f5de48728fe58dfc149",
+        "material_hash": "64bf8948dc7c8f0949a6d8743164f283125a76fd00bdbbabe0940e2c8abf5b92",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1252,7 +1252,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "5816a17d45d279d81904af8fa6d3216c5a6899657932b6fff4e87c1457c4135c",
+        "material_hash": "ea994e43e16a6c7a4970c18ae1badeb154cfd91b58c58099cc6341e1bccd3e95",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1334,7 +1334,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "d5d23a4c02da37d2cf0d4cd360fdae183ab9a083de28edcab89f5968fc598369",
+        "material_hash": "23038517867667e6cee91523fdf02e4f0b22098acb01209808432c494ef92a2e",
         "auto_screen_score": 57,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1424,7 +1424,7 @@
         "source": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "7e80c66133e1cc4c00934e4eca2bede4213df40d488f4c03c794f23a51228c21",
+        "material_hash": "43c0d2e988b71440b45d76cfcd4929fb560bc27796b9bde92fdbc7e337672a1f",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1502,7 +1502,7 @@
         "source": "https://feng.ifeng.com/c/8xA1cjWnAm0",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "0a1d593af98fbad1611211cd5c300300ab96ed2ef128b128fa61ca438dd42deb",
+        "material_hash": "7b4cce79fb83c993e59b9b6737d1d0c6d6772a5f3a58f3c784da29610668c020",
         "auto_screen_score": 77,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1595,7 +1595,7 @@
       "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
       "version": "VIRAL_ADMISSION_V3",
       "admission_mode": "PRODUCTION_COMPETITION",
-      "material_hash": "d5d23a4c02da37d2cf0d4cd360fdae183ab9a083de28edcab89f5968fc598369",
+      "material_hash": "23038517867667e6cee91523fdf02e4f0b22098acb01209808432c494ef92a2e",
       "auto_screen_score": 57,
       "auto_screen": {
         "version": "AUTO_SCREEN_V2",
@@ -1686,7 +1686,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716924.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "d5d23a4c02da37d2cf0d4cd360fdae183ab9a083de28edcab89f5968fc598369",
+        "material_hash": "23038517867667e6cee91523fdf02e4f0b22098acb01209808432c494ef92a2e",
         "auto_screen_score": 57,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1776,7 +1776,7 @@
         "source": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "7e80c66133e1cc4c00934e4eca2bede4213df40d488f4c03c794f23a51228c21",
+        "material_hash": "43c0d2e988b71440b45d76cfcd4929fb560bc27796b9bde92fdbc7e337672a1f",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1854,7 +1854,7 @@
         "source": "https://feng.ifeng.com/c/8xA1cjWnAm0",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "0a1d593af98fbad1611211cd5c300300ab96ed2ef128b128fa61ca438dd42deb",
+        "material_hash": "7b4cce79fb83c993e59b9b6737d1d0c6d6772a5f3a58f3c784da29610668c020",
         "auto_screen_score": 77,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -1946,7 +1946,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "59267164d65d46944652c7ed2689f031f6bd412d02f57f5de48728fe58dfc149",
+        "material_hash": "64bf8948dc7c8f0949a6d8743164f283125a76fd00bdbbabe0940e2c8abf5b92",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2026,7 +2026,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "5816a17d45d279d81904af8fa6d3216c5a6899657932b6fff4e87c1457c4135c",
+        "material_hash": "ea994e43e16a6c7a4970c18ae1badeb154cfd91b58c58099cc6341e1bccd3e95",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2106,7 +2106,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "fa28480dee1355edd082a3f456f8cba680cddf86cae2f3159b9b552306307d22",
+        "material_hash": "b29a81b726bbd814b4db1aaf2dd9316d89dc222fe4f2712a9a70b9c1045246e9",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2188,7 +2188,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "ccd3984cbcc9d6a2c6321510686ab357e29c2b021f32a19c11982a92e90aeef3",
+        "material_hash": "d9d1368de5c97eda29cb51425032fb592d1e3155a1104f12c53500393926025b",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2268,7 +2268,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "960250bff071ede9698967a3a9ddbe0a31e5cf93a636f5571244db51a1741076",
+        "material_hash": "9c15f2d630ef9efd06559dbb5ac4925fa3bc62ae6f2dd223a87b21804f5e7dd8",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2348,7 +2348,7 @@
         "source": "https://www.theguardian.com/business/2026/oct/17/make-firms-pay-more-train-older-workers-youth-apprentices-england",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "f85d9bb43a5cea2f382055d9bad7b8f991f7f088a63f24e0d537a33deddf9246",
+        "material_hash": "57ea3a4cca424056e622295114f55576e7e974e64c3232dce5f039c5a4f5558c",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2428,7 +2428,7 @@
         "source": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "ce97e0ec19df727d090fca7c7ee893e6a1a37eccc93669ba25a4cf2434b5f3d9",
+        "material_hash": "b87b50f0b6af031b56f7614085a07568065eb00ee509c9744031da3ebb8482d9",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2508,7 +2508,7 @@
         "source": "https://www.theguardian.com/uk-news/2026/oct/16/cloned-number-plates-uk-roads-record-high",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "d857d89642a402e77c68c0269242055e793b4cb069cfb9893876f905f6d874bd",
+        "material_hash": "d8b6772af20db03d19f7a3731e7481c89a35ed8801125c0c69cd5516fb221cc6",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2588,7 +2588,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716927.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "69e3cd3ec515c0ead849e2bbd3b46bf943c92a690ffdf22c9c104196f2409e6c",
+        "material_hash": "2bab4933b1d04789af798152f27a205f1f6716a4f70a14d384203f06f4f0a550",
         "auto_screen_score": 26,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2675,7 +2675,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "b3d8d36abbea3ffca243eb07420b4bdad3b3df07087a32c708f60ee106548c51",
+        "material_hash": "bfece06d310a1d510d3310461814a279d13e6890eaaa578e530afc015cd70e4f",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2756,7 +2756,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716934.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "7df0b674d568e4cede7fd8744ea171406206f88dd4ee86c9405d99e0f2c0b840",
+        "material_hash": "1387b6f2749e099b95db3c32bc054c35c084e57442e5fd7194f3a91544442fa8",
         "auto_screen_score": 30,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2837,7 +2837,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716966.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "6b9e315ac916623dfd1c5b242d5e895c2003d6409821c10173c2a96131cbda48",
+        "material_hash": "1c9769b89f300a5151a18eba025d25be1e559f1ce66240ccd0e60bb1d9930d4c",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -2918,7 +2918,7 @@
         "source": "https://www.chinanews.com.cn/sh/2026/10-19/10716930.shtml",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "72e660c8e2efa347678cc7d0201a28b485494a007cb48223901b6646f2241242",
+        "material_hash": "280e6f090213d2f0ab09333b8a1eae23f444a8edd45a53a14f209a2735fcd389",
         "auto_screen_score": 46,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -3005,7 +3005,7 @@
         "source": "https://www.theguardian.com/money/2026/oct/17/uk-pensions-retire-early-fixed-term-annuities",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "67ef2eae5083c396a4e685fdf5f36009ba8a6184410e8d0d178b7b07276d9782",
+        "material_hash": "feb7f8ea85aff59ef8e337dccd595854935f032c9bc7d72eebaeab08cc6151b7",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -3086,7 +3086,7 @@
         "source": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "8e958638ab2077e6b1b1d75a402764c724e9d715602ff3eb96d37ce3d837fdb2",
+        "material_hash": "9e24479e20315d15e4f136eacd8ee5a00c61715f4a240c5be731f2bec2b45f4f",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -3167,7 +3167,7 @@
         "source": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "f314bbb33e244fe8a7782846adeb6fc896492c01b40b6b4288972c9aff400164",
+        "material_hash": "fd2cc2f616b7c9035f64edeaac1195b5a2431bb06eeb93d967f8191c4a95a59a",
         "auto_screen_score": 6,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -3248,7 +3248,7 @@
         "source": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
         "version": "VIRAL_ADMISSION_V3",
         "admission_mode": "PRODUCTION_COMPETITION",
-        "material_hash": "5f84ac80623dc0e5b825f59b4df6dad01525b5096d0b12f7f5846fb43fcfc0fe",
+        "material_hash": "b9f9b670c6095ce0d11a1f73ad6257b12414f9b3ceb30b6a0c9999bc21a76fb4",
         "auto_screen_score": 10,
         "auto_screen": {
           "version": "AUTO_SCREEN_V2",
@@ -5985,7 +5985,7 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.151003Z",
+        "reviewed_at": "2026-10-19T05:19:16.546972Z",
         "text_hash": "107e16897d1b93edafe9218f4755170ffdf6edb17c09734770a4aabfadef8ea8",
         "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
         "decision": "PASS",
@@ -6113,7 +6113,7 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.151003Z",
+        "reviewed_at": "2026-10-19T05:19:16.546972Z",
         "text_hash": "1358ba8ae9277abf503a48dea27085e52b53922401ac06e723bbb1b54052ffc0",
         "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
         "decision": "PASS",
@@ -6276,7 +6276,7 @@
       "content_review": {
         "method": "TEXT_FIRST_COMPARISON",
         "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-        "reviewed_at": "2026-10-19T05:18:29.151003Z",
+        "reviewed_at": "2026-10-19T05:19:16.546972Z",
         "text_hash": "d50ebc1b63e92c89512c986a21f56f451d1d05c70ef25d86ce296f17059b1577",
         "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
         "decision": "PASS",
@@ -6455,7 +6455,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "107e16897d1b93edafe9218f4755170ffdf6edb17c09734770a4aabfadef8ea8",
             "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
             "decision": "PASS",
@@ -6583,7 +6583,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "1358ba8ae9277abf503a48dea27085e52b53922401ac06e723bbb1b54052ffc0",
             "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
             "decision": "PASS",
@@ -6746,7 +6746,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "d50ebc1b63e92c89512c986a21f56f451d1d05c70ef25d86ce296f17059b1577",
             "source_hash": "c506a7ac0dfa9d534065bf62b856ea32e3a9349fcb7c276788617f4b6fb40cfd",
             "decision": "PASS",
@@ -6931,7 +6931,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "c419126baca4a00188921d56835398a69ff24374f328f9bc481673358f22b7e1",
             "source_hash": "f524e54512e815174ac950d36b2b5e15443a03a368e1ab775ebc9e035e71a289",
             "decision": "PASS",
@@ -7089,7 +7089,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "eacf5c183f1346ee2630002b6ab566e11c7dd89d7a1607f06cdbc47dce04443b",
             "source_hash": "f524e54512e815174ac950d36b2b5e15443a03a368e1ab775ebc9e035e71a289",
             "decision": "PASS",
@@ -7270,7 +7270,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "3d37afe14ec8dfffb7fe320db833767d8552e890789e22b434b2491062c5dee8",
             "source_hash": "f524e54512e815174ac950d36b2b5e15443a03a368e1ab775ebc9e035e71a289",
             "decision": "PASS",
@@ -7464,7 +7464,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "f039f92674e2e1d29fb47052ebf396ebada48fc4329dd45bd7bbf1282f6d1a15",
             "source_hash": "29a4998e4a293d8dae8880e1bfce673a30f06d0ced6f5612b3bc75b156d485b2",
             "decision": "PASS",
@@ -7595,7 +7595,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "b5f854561f17795b3225065b421eb9d7c22dcf463bd4d2ef93b13aad1e8632fa",
             "source_hash": "29a4998e4a293d8dae8880e1bfce673a30f06d0ced6f5612b3bc75b156d485b2",
             "decision": "PASS",
@@ -7760,7 +7760,7 @@
           "content_review": {
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex second text-first pass; same author/editor, not independent human",
-            "reviewed_at": "2026-10-19T05:18:29.151003Z",
+            "reviewed_at": "2026-10-19T05:19:16.546972Z",
             "text_hash": "a8851630d8265627c0450c4817aee4ec3f02845867bdc886fd923d818dd34159",
             "source_hash": "29a4998e4a293d8dae8880e1bfce673a30f06d0ced6f5612b3bc75b156d485b2",
             "decision": "PASS",
