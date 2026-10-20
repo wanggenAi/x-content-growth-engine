@@ -8,6 +8,7 @@ are evaluated by the same contract as old ones.
 from __future__ import annotations
 
 import re
+import unicodedata
 from typing import Any
 
 from .ai_flavor_gate import ABSTRACT_NOUNS, analyze_ai_flavor
@@ -41,6 +42,31 @@ def _sentences(text: str) -> list[str]:
 
 def _score(value: float) -> int:
     return max(0, min(100, round(value)))
+
+
+def platform_length(text: str) -> dict[str, Any]:
+    """NFC / twitter-text v3 weights for plain text with explicit HTTP URLs.
+
+    No emoji/TLD parser is vendored. Emoji sequences, bare domains and IDNs
+    require a composer check; a provisional count must not certify their fit.
+    This is a length check, never an attraction score.
+    """
+    normalized = unicodedata.normalize("NFC", text)
+    urls = re.compile(r"https?://[^\s<>]+")
+    body = urls.sub("", normalized)
+    uncertain = bool(re.search(r"[\U0001F000-\U0010FFFF\u200d\ufe0f\u20e3\u2600-\u27ff]|(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}", body))
+    weight = lambda c: 1 if (ord(c) <= 0x10ff or 0x2000 <= ord(c) <= 0x200d
+                            or 0x2010 <= ord(c) <= 0x201f or 0x2032 <= ord(c) <= 0x2037) else 2
+    count = sum(weight(c) for c in body)
+    for match in urls.finditer(normalized):
+        # Punctuation after a URL is prose, not part of the shortened link.
+        raw = match.group(); link = raw.rstrip('.,!?;:，。！？；：)）]】')
+        count += 23 + sum(weight(c) for c in raw[len(link):])
+        if any(ord(c) > 127 for c in link): uncertain = True
+    return {"weighted_count": count, "standard_limit": 280,
+            "fits_standard": count <= 280 and not uncertain,
+            "status": "MANUAL_COMPOSER_CHECK_REQUIRED" if uncertain else "TEXT_HTTP_URL_WEIGHT_CHECK",
+            "scope": "NFC_TEXT_AND_EXPLICIT_HTTP_URLS;NOT_FULL_TWITTER_TEXT"}
 
 
 def extract_scene_features(text: str | None) -> dict[str, Any]:

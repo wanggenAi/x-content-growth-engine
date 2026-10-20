@@ -16,6 +16,52 @@ from tests.topic_helpers import AS_OF, material
 
 
 class ContentReviewTests(unittest.TestCase):
+    def test_v4_reader_value_is_required_without_changing_legacy_contracts(self):
+        c = candidate(); m = c['material_pool'][0]
+        self.assertTrue(review_content(c, m)['passed'])
+        c['strategy_version'] = 'V4'
+        self.assertIn('CONTENT_V4_REVIEW_REQUIRED', review_content(c, m)['reasons'])
+        c['content_review']['version'] = 'CONTENT_REVIEW_V4'
+        self.assertEqual(sum(r.startswith('CONTENT_READER_VALUE_REQUIRED:')
+                             for r in review_content(c, m)['reasons']), 4)
+
+    def test_v4_live_source_competition_all_fifteen_and_no_production_admission(self):
+        root = Path('data/content_competition_v4_2026-10-20')
+        feed = json.loads((root/'source_packet.json').read_text())
+        reviews = json.loads((root/'editorial_reviews.json').read_text())
+        # Reuse full existing public history; no second copy or synthetic memory.
+        reviews['publication_memory'] = json.loads(Path(reviews['publication_memory_ref']).read_text())['publication_memory']
+        self.assertEqual(stable_hash(reviews['publication_memory']), reviews['publication_memory_hash'])
+        result = production_dry_run(feed, reviews)
+        self.assertEqual(result['ranking']['candidate_count'], 10)
+        self.assertEqual(result['ranking']['reviewed_source_count'], 10)
+        self.assertEqual(len(result['topics']), 5)
+        for topic in result['topics']:
+            self.assertTrue(topic['variant_set_review']['passed'])
+            self.assertEqual(len(topic['variants']), 3)
+            for v in topic['variants']:
+                self.assertTrue(v['human_style_passed'], v['fact_preservation_report'])
+                self.assertTrue(v['content_review_result']['passed'], v['content_review_result'])
+                self.assertFalse(v['publication_allowed'])
+        self.assertFalse(result['ranking']['competition_passed'])  # existing raw30/review20/families4 kept
+        self.assertIsNone(result['recommended_top1'])
+        self.assertFalse(result['publication_allowed'])
+        selected = result['topics'][0]['variants'][0]
+        material = next(m for m in feed['materials'] if m['material_id'] == result['topics'][0]['material_id'])
+        changed = {**selected, 'text': selected['after']+'另有9999元奖金。',
+                   'publication_memory': reviews['publication_memory']}
+        self.assertFalse(review_content(changed, material)['passed'])
+
+    def test_v4_and_legacy_variant_protocols_cannot_be_mixed(self):
+        variants = [{'id': i, 'mode': mode, 'strategy_version': 'V4', 'text': text,
+                     'structure_reason': '用不同叙事切口说明同一件事的实际动作与取舍。'}
+                    for i, mode, text in [('A', 'DIRECT', '客人把账单退了回去。'),
+                                          ('B', 'PERSONAL', '这顿饭看得我有点糊涂。朋友原来没买单。'),
+                                          ('C', 'HUMAN_CONTRAST', '散场以后才知道谁付钱。老板还在门口等着。')]]
+        self.assertTrue(review_variant_set(variants)['passed'])
+        variants[0].pop('strategy_version')
+        self.assertIn('VARIANT_STRATEGY_VERSION_MISMATCH', review_variant_set(variants)['reasons'])
+
     def test_style_and_topic_pass_cannot_replace_missing_text_review(self):
         c = candidate(); c.pop('content_review')
         p = prepare_candidate(c)

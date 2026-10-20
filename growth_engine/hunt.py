@@ -52,7 +52,9 @@ def hunt_materials(materials: list[dict], *, as_of: str | None = None, top_n: in
         entry = {"material_id": mid, "source_refs": [source["url"]], "before": draft,
                  "draft_text": style["rewritten_text"], "locked_facts": facts,
                  "primary_action": material.get("primary_action", "SHARE"),
-                 "status": "PASS_STYLE_PENDING_EDITORIAL" if style["passed"] else "NEEDS_EDITORIAL_REWRITE",
+                 "status": ("SOURCE_EXCERPT_NOT_AUTHORED" if not material.get("draft_text") else
+                            "PASS_STYLE_PENDING_EDITORIAL" if style["passed"] else "NEEDS_EDITORIAL_REWRITE"),
+                 "authoring_required": not bool(material.get("draft_text")),
                  "publication_allowed": False, "human_checked": False, "agent_checked": False,
                  "production_holds": ["SOURCE_FACTS_REQUIRE_REVIEW", "READER_MODEL_REQUIRES_REVIEW",
                                       "EXACT_DEDUP_IS_NOT_SEMANTIC_NOVELTY"],
@@ -198,12 +200,15 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
         if mid == winner_id: previews = checked
         diversity = review_variant_set(authored)
         preferred = next((v for v in checked if v.get("id") == record.get("recommended_variant")), None)
-        ready = bool(row["admitted"] and diversity["passed"] and preferred
-                     and preferred["content_review_result"]["passed"] and preferred["human_style_passed"])
+        # Sending text to a human editor is allowed below the production topic
+        # threshold. Only the unchanged competition winner can become Top1.
+        reviewable = bool(diversity["passed"] and preferred
+                          and preferred["content_review_result"]["passed"] and preferred["human_style_passed"])
         topics.append({"material_id": mid, "topic": material.get("topic"), "source": material.get("source"),
                        "variants": checked, "variant_set_review": diversity,
-                       "recommended_variant": record.get("recommended_variant") if ready else None,
-                       "editorial_recommendation": "REVIEWABLE_DRAFT" if ready else "HOLD",
+                       "recommended_variant": record.get("recommended_variant") if reviewable else None,
+                       "editorial_recommendation": "REVIEWABLE_DRAFT" if reviewable else "HOLD",
+                       "topic_admitted": row["admitted"],
                        "production_preflight_passed": False})
     final = next((t for t in topics if t["material_id"] == winner_id
                   and t["editorial_recommendation"] == "REVIEWABLE_DRAFT"), None)

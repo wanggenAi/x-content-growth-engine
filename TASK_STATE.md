@@ -1,3 +1,11 @@
+# 最新断点 — 2026-10-20 轻量内容竞争力V4
+
+用户要求实际工程、10题竞争/5题ABC/3篇推荐、测试/资源基准、PR及CI后合并；本轮不得发X，等待新明确授权。来自origin/main `5c0c5d9`的独立feature分支；本地main分叉历史保留。
+
+已完成：固定版本开源实现与MIT审查；仅修改现有写作、正文审查、hunt和长度检查；新运行依赖0。真实10题深审、15稿事实锁/来源逐句核对及风格均通过；完整发布门槛未通过，不冒充READY。21条历史反馈重跑，24h合格0；C390拒绝负例保留。137 unittest/137 pytest/compileall通过；旧20题/9稿中位耗时0.32177→0.32105秒，无明显资源退化。PR/CI/合并待继续完成。产物：`docs/CONTENT_COMPETITIVENESS_V4_2026-10-20.md`与`data/content_competition_v4_2026-10-20/`。暂停开关与调度原样保留，新发布0。
+
+以下为历史断点，最新状态以本节及机器状态V4记录为准。
+
 # Latest checkpoint — 2026-10-17T12:56:38.143594Z / strict Viral Hunt production repair
 
 Starting main `c6cef782fbb3e261dd943ab6b8e9e231903db671`. `VIRAL_ADMISSION_V3` removes singleton/Top5 production admission. Preview remains small-pool Top5; production enforces distinct>=10, raw>=30, grounded deep reviews>=20, under48h>=10 and source families>=4, with only unique Top1 admitted. Automatic screen scores no longer fill formal ratings. Repeated reason/evidence and plain-number bonus paths are blocked.
@@ -1367,3 +1375,8 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 
 
 2026-10-19 V3合并后验收：PR #15已合并，代码main SHA 486c891ed407725c00af373556309e164d658269。最终PR head与main Actions均SUCCESS；main上unittest/pytest各132通过、编译和diff-check通过，九稿重放完全一致，三篇新稿再次通过风格/事实锁/来源编辑检查。main重新免费采集100条、4来源族，99条源发布时间48h内，health HEALTHY；事件日期仍需单独检查，不把转载时间当新事件。新增资源依赖0。新来源页面实际捕获时间由首次缓存写入保留，后续复审不刷新抓取时间。完整证据见data/human_style_v3_2026-10-19/main_verification.json。未向X提交；尚缺用户认可正例、独立真人审查与可靠流量反馈。代码整改完成，内容仅可进入人工发布审核，不宣称具备爆款能力。
+
+
+# Separate Xianyu artwork checkpoint — 2026-10-20T02:07:07.191520Z
+
+User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.

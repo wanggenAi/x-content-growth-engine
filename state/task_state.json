@@ -1899,5 +1899,48 @@
     "main_replay": "PASS_EXACT_MATCH",
     "main_collection": "HEALTHY_100_MATERIALS_4_FAMILIES",
     "verification_file": "data/human_style_v3_2026-10-19/main_verification.json"
+  },
+  "side_tasks": {
+    "xianyu_price_free_cover_2026_10_20": {
+      "updated_at_utc": "2026-10-20T02:07:07.191520Z",
+      "status": "LOCAL_ASSET_READY",
+      "summary": "User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.",
+      "cover": "data/private/xianyu_listing/cover-no-price.png",
+      "prompt": "data/private/xianyu_listing/cover-no-price-prompt.txt",
+      "mode": "built-in ImageGen edit"
+    }
+  },
+  "content_competitiveness_v4_2026_10_20": {
+    "updated_at_utc": "2026-10-20T02:22:56.941392Z",
+    "status": "LOCAL_VALIDATED_PR_PENDING",
+    "baseline_main_sha": "5c0c5d90d3f154fd2ecdbac1de34a38dc5dba175",
+    "user_instruction": "直接修改测试、真实10题竞争与5题ABC、选3篇、PR并CI通过后合并；不得自动向X发布，保持暂停，零新增长驻负载。",
+    "publication_allowed": false,
+    "new_x_submissions": 0,
+    "schedule_changed": false,
+    "new_runtime_dependencies": 0,
+    "source_packet": "data/content_competition_v4_2026-10-20/source_packet.json",
+    "report": "docs/CONTENT_COMPETITIVENESS_V4_2026-10-20.md",
+    "results": {
+      "reviewed_topics": 10,
+      "drafted_topics": 5,
+      "variants": 15,
+      "style_and_source_review_passed": 15,
+      "production_admitted": false,
+      "historical_feedback_observations": 21,
+      "eligible_24h": 0,
+      "traffic_growth_verified": false,
+      "unittest": 137,
+      "pytest": 137,
+      "compileall": "PASS"
+    },
+    "pr_url": null,
+    "merge_sha": null,
+    "limitations": [
+      "One Codex writes and reviews; no independent human acceptance.",
+      "Two source families, below unchanged production competition requirements.",
+      "No actual current comparable audience metrics.",
+      "Local main has unrelated unpushed commits; preserved without reset."
+    ]
   }
 }

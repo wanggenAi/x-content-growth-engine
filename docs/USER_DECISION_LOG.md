@@ -955,3 +955,15 @@ Four-hour GitHub Actions collection is restored as collection-only with read-onl
 
 
 2026-10-19 V3合并后验收：PR #15已合并，代码main SHA 486c891ed407725c00af373556309e164d658269。最终PR head与main Actions均SUCCESS；main上unittest/pytest各132通过、编译和diff-check通过，九稿重放完全一致，三篇新稿再次通过风格/事实锁/来源编辑检查。main重新免费采集100条、4来源族，99条源发布时间48h内，health HEALTHY；事件日期仍需单独检查，不把转载时间当新事件。新增资源依赖0。新来源页面实际捕获时间由首次缓存写入保留，后续复审不刷新抓取时间。完整证据见data/human_style_v3_2026-10-19/main_verification.json。未向X提交；尚缺用户认可正例、独立真人审查与可靠流量反馈。代码整改完成，内容仅可进入人工发布审核，不宣称具备爆款能力。
+
+
+## 2026-10-20T02:07:07.191520Z — Price-free Xianyu cover
+
+User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.
+
+
+## 2026-10-20T02:22:56.941392Z — Lightweight content competitiveness V4
+
+Direct user wording: “现有系统虽然能采集素材、生成中文帖子并通过 Human Style 检查，但内容仍然偏新闻转述，不够吸引人，缺乏个性，也没有经过真实流量验证。” Engineering authorization: “直接检查、修改、测试代码，生成实际新稿，创建 PR 并在验证通过后合并 main。” Publication boundary: “不得自动向 X 发布内容。保持现有暂停开关，等待新的明确发布授权。” Highest engineering constraint is zero additional resident load; no new model, service, collector or cadence increase.
+
+Read latest origin/main5c0c5d9, preserved divergent local main. Audited pinned MIT sources, borrowed editorial methods only. Reused eight dimensions, existing authored_text/fact/source/hash interfaces; no third style detector. Ten actual different topics, five ABC sets, three human-review recommendations;15 style/source/fact passes do not grant production qualification. Existing raw30/review20/families4 and PAUSED preserved. Existing private feedback audit re-run:21 observations,0 qualifying24h; current metrics UNKNOWN, C390 negative retained. Local137unittest/137pytest/compileall PASS; same offline20-topic/9-draft benchmark0.32177→0.32105seconds,34.6→32.6MB peak; no meaningful resource regression. PR/CI/merge pending, no X access/submission.
