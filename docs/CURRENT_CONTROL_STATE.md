@@ -1,3 +1,11 @@
+# Latest control — 2026-10-20 lightweight content competitiveness V4
+
+Latest direct user request authorizes research, code, tests, real editorial dry-run, PR and merge after CI. **No X publication**; existing `state/publication_control.json` stays PAUSED. New explicit publication authorization is required. Collector cadence and scheduler unchanged; automatic_x_submission=false.
+
+V4 extends existing Human Style/source/content-review interfaces; HUMAN_STYLE_V2 contract remains compatible. Ten actual topics and fifteen drafts are editorial examples, not traffic validation or a production-admitted pool. Existing strict production competition and exact prepublish controls remain. Current comparable traffic/engagement/follows UNKNOWN; C390 user rejection retained.
+
+See [V4 evidence and drafts](CONTENT_COMPETITIVENESS_V4_2026-10-20.md). Older controls below are historical.
+
 # 2026-10-19 — merged code; drafts awaiting human review
 
 PR #14 merged as c63d905. Main tests and fresh collector passed. Source-bound text review is mandatory for new READY admission. Top3 have nine reviewable drafts; actual growth remains UNKNOWN. X submission remains PAUSED under the current user instruction. Reproducible artifacts: `data/content_quality_2026-10-19/`; main replay/CI receipt: `main_verification.json`. This is a code-repair milestone, not a claim of proven reader appeal.

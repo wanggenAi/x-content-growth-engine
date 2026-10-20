@@ -1,0 +1,2628 @@
+{
+  "reviewer": "Codex editorial judgments, not user approval or measured traffic",
+  "reviewed_at": "2026-10-20T02:23:42.935152Z",
+  "publication_memory_ref": "data/human_style_v3_2026-10-19/fresh_three.json",
+  "publication_memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+  "records": [
+    {
+      "material_id": "D9abbf4c672da514a",
+      "ratings": [
+        3,
+        3,
+        1,
+        3,
+        3,
+        4,
+        3,
+        2
+      ],
+      "evidence": [
+        "单人宿舍",
+        "计划招4人",
+        "服务需记录",
+        "抵1000元",
+        "服务50小时",
+        "入住",
+        "梁银霞",
+        "获准10月补"
+      ],
+      "reasons": [
+        "服务与租金有明确交换条件，但不是免费入住广告。",
+        "预期多人愿来与实际只有一人形成可核对反差。",
+        "责任与时间有代价；没有证明院方和入住者冲突。",
+        "租客读者能把自己的下班时间放进这笔交换。",
+        "首屏可以直接给陪伴时数和房租，不需行业术语。",
+        "租金与空闲时间是日常问题，但不假定人人愿住养老院。",
+        "可分享给正在租房的朋友，讨论时间是否真有余量。",
+        "评论分叉可落在准时兑现与生病顺延，不是道德投票。"
+      ],
+      "possible_reply_branches": [
+        "需要稳定陪伴，服务时长必须兑现",
+        "生病不接触老人，允许事后补时"
+      ],
+      "selection_note": "按原报道列明服务门槛和少招事实，不把减租写成人人可申请；具体探访和服务发生时间与报道日期不同。",
+      "reader_value": {
+        "stop_reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。",
+        "reader_gain": "知道试点的交换条件和实际入住落差，不误当普遍福利。",
+        "response_reason": "租房者可谈自己的时间；照护者可谈连续陪伴的成本。",
+        "distinct_angle": "抓住差4小时获准补时，避免只说代际共居好不好。"
+      },
+      "recommended_variant": "B",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "original_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "text": "每月陪老人50小时，抵1000元房租。\n\n中青报10月20日报道，南宁这家养老院计划招4人，当时只入住1人。\n\n她9月忙工作，又重感冒，怕传染老人，少做4小时。院方同意10月补。\n\n有单人宿舍，也有资格审核和服务记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "1000元",
+              "10717558",
+              "1人",
+              "20",
+              "2026",
+              "4人",
+              "4小时",
+              "50小时",
+              "9"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先交付50小时抵1000元，再披露四招一住和补时的实际限制。",
+          "editorial_tradeoff": "按原报道列明服务门槛和少招事实，不把减租写成人人可申请；具体探访和服务发生时间与报道日期不同。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "3c2ace8e351ad16097dfc6bd2ffb735fec25fb078c696dbdfee2cb40d08f1122",
+            "source_hash": "27c5aa8735d957b364c962cfb739b606bfa93231f0ddf20535a9e44488e4848a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。",
+              "reader_gain": "知道试点的交换条件和实际入住落差，不误当普遍福利。",
+              "response_reason": "租房者可谈自己的时间；照护者可谈连续陪伴的成本。",
+              "distinct_angle": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "opening": {
+              "quote": "每月陪老人50小时，抵1000元房租",
+              "reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。"
+            },
+            "payoff": {
+              "quote": "有单人宿舍，也有资格审核和服务记录",
+              "reason": "知道试点的交换条件和实际入住落差，不误当普遍福利。"
+            },
+            "comparison": {
+              "reference_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "每月陪老人50小时，抵1000元房租",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "中青报10月20日报道，南宁这家养老院计划招4人，当时只入住1人",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "她9月忙工作，又重感冒，怕传染老人，少做4小时",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "院方同意10月补",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "有单人宿舍，也有资格审核和服务记录",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "original_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "text": "免房租挺诱人，细看还有差的4小时。\n\n中青报10月20日报道，南宁一处养老院，陪老人50小时抵1000元房租。计划招4人，住进1人。\n\n她9月忙工作，又重感冒，怕传染老人，少做4小时。院方让她10月补。\n\n单人宿舍，入住有审核，服务也要记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "1000元",
+              "10717558",
+              "1人",
+              "20",
+              "2026",
+              "4人",
+              "4小时",
+              "50小时",
+              "9"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从免房租的诱惑转到缺工时，叙事中心是生病后的执行弹性。",
+          "editorial_tradeoff": "按原报道列明服务门槛和少招事实，不把减租写成人人可申请；具体探访和服务发生时间与报道日期不同。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "746f2f9fbc80110a09a4d6ad318b7d87232022cab474b20acac0adb9fec96866",
+            "source_hash": "27c5aa8735d957b364c962cfb739b606bfa93231f0ddf20535a9e44488e4848a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。",
+              "reader_gain": "知道试点的交换条件和实际入住落差，不误当普遍福利。",
+              "response_reason": "租房者可谈自己的时间；照护者可谈连续陪伴的成本。",
+              "distinct_angle": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "opening": {
+              "quote": "免房租挺诱人，细看还有差的4小时",
+              "reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。"
+            },
+            "payoff": {
+              "quote": "单人宿舍，入住有审核，服务也要记录",
+              "reason": "知道试点的交换条件和实际入住落差，不误当普遍福利。"
+            },
+            "comparison": {
+              "reference_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "免房租挺诱人，细看还有差的4小时",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "中青报10月20日报道，南宁一处养老院，陪老人50小时抵1000元房租",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "计划招4人，住进1人",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "她9月忙工作，又重感冒，怕传染老人，少做4小时",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "院方让她10月补",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "单人宿舍，入住有审核，服务也要记录",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "original_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "text": "重感冒了，少陪老人4小时，房租怎么算？\n\n中青报10月20日报道，南宁一处养老院让青年以服务抵租：50小时，1000元，单人宿舍。入住有审核，服务有记录。\n\n计划招4人，当时只住进1人。她9月忙工作又重感冒，怕传染老人，院方允许10月补时。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "1000元",
+              "10717558",
+              "1人",
+              "20",
+              "2026",
+              "4人",
+              "4小时",
+              "50小时",
+              "9"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先抛出因生病少工时的具体处境，再解释交换条件与实际处理，避免强造争执。",
+          "editorial_tradeoff": "按原报道列明服务门槛和少招事实，不把减租写成人人可申请；具体探访和服务发生时间与报道日期不同。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "f2ea797b62052e7047baa5901ed75b45a6be8756cd639abe93b85adede68c634",
+            "source_hash": "27c5aa8735d957b364c962cfb739b606bfa93231f0ddf20535a9e44488e4848a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。",
+              "reader_gain": "知道试点的交换条件和实际入住落差，不误当普遍福利。",
+              "response_reason": "租房者可谈自己的时间；照护者可谈连续陪伴的成本。",
+              "distinct_angle": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "opening": {
+              "quote": "重感冒了，少陪老人4小时，房租怎么算",
+              "reason": "想省房租与真实服务时间是同一笔账，首句有切身筹码。"
+            },
+            "payoff": {
+              "quote": "她9月忙工作又重感冒，怕传染老人，院方允许10月补时",
+              "reason": "知道试点的交换条件和实际入住落差，不误当普遍福利。"
+            },
+            "comparison": {
+              "reference_text": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "抓住差4小时获准补时，避免只说代际共居好不好。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "重感冒了，少陪老人4小时，房租怎么算",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "中青报10月20日报道，南宁一处养老院让青年以服务抵租：50小时，1000元，单人宿舍",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "入住有审核，服务有记录",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "计划招4人，当时只住进1人",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "她9月忙工作又重感冒，怕传染老人，院方允许10月补时",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml",
+                "source_range": [
+                  0,
+                  445
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1",
+                    "source": "一人",
+                    "reason": "原文一人转为阿拉伯数字1，人数不变，不把首批4人写成已住4人。"
+                  },
+                  {
+                    "draft": "20",
+                    "source": "2026-10-19T23:31:31Z",
+                    "reason": "RSS时间2026-10-19T23:31:31Z转北京时间是10月20日07:31，只是报道日期，非事件发生时间。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "单人宿舍",
+        "after": "计划招4人"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "抵1000元",
+        "reason": "租客读者能把自己的下班时间放进这笔交换。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "入住",
+        "reason": "租金与空闲时间是日常问题，但不假定人人愿住养老院。"
+      },
+      "hook": {
+        "text": "服务50小时",
+        "evidence": "服务50小时",
+        "reason": "首屏可以直接给陪伴时数和房租，不需行业术语。"
+      },
+      "baseline_kind": "本轮Codex按旧式摘要写成的对照，非冒充历史系统实际输出",
+      "baseline": "每月服务50小时抵1000元房租，有单人宿舍。中青报10月20日报道，南宁试点计划招4人，实际入住1人。她9月因工作和重感冒少做4小时，院方同意10月补。入住有审核、服务有记录。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10717558.shtml"
+    },
+    {
+      "material_id": "Dd73920ea4d1c6abc",
+      "ratings": [
+        3,
+        3,
+        0,
+        3,
+        4,
+        4,
+        3,
+        1
+      ],
+      "evidence": [
+        "叫成Melissa",
+        "最尴尬",
+        "没有尴尬",
+        "相亲栏目",
+        "James把Michelle",
+        "鞋跟断了",
+        "两人都愿再见",
+        "女方给7分"
+      ],
+      "reasons": [
+        "双方分别回答相同问题，错位来自可核对原话。",
+        "男方在意叫错名字，女方在意鞋跟，预期与结果不同。",
+        "没有证据说明女方生气，也没有关系冲突，保持零评。",
+        "有约会经验的读者能认出事后反复想小失误的处境。",
+        "首屏叫错名字后仍愿再见，比栏目标题更低门槛。",
+        "大众不需要英国约会制度背景就能理解这个日常失误。",
+        "适合转发给一起复盘相亲的朋友，笑点不是羞辱。",
+        "评论方向可能是名字和相处感受，但并非真实分歧或评论。"
+      ],
+      "possible_reply_branches": [],
+      "selection_note": "双方是栏目中的自述；不能断言女方没有听到、故意原谅或后来成为情侣。7.5和7只是约会评分，不是兴趣预测。",
+      "reader_value": {
+        "stop_reason": "叫错名字后的不同复盘，是轻巧真实的意外。",
+        "reader_gain": "看到双方注意力并不一致，不把尴尬等同于失败。",
+        "response_reason": "可分享自己的小失误，不要求读者给当事人判输赢。",
+        "distinct_angle": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+      },
+      "recommended_variant": "C",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "text": "他把相亲对象名字叫错了。她说，最尴尬的是鞋跟断了。\n\n《卫报》10月17日的栏目里，James把Michelle叫成Melissa，自己挺尴尬。女方说，没什么尴尬，除了散场时鞋跟断了。\n\n他给7.5分，她给7分。两人都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "2026",
+              "7",
+              "7.5"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "开头直接并列名字和鞋跟两种尴尬，再用同一栏目答案兑现。",
+          "editorial_tradeoff": "双方是栏目中的自述；不能断言女方没有听到、故意原谅或后来成为情侣。7.5和7只是约会评分，不是兴趣预测。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "8c049943acb4d58555d0cd862466614322d61598cfb87b5be45e2c172503c53b",
+            "source_hash": "d19d0e8159d02557697a75443f2a7108c77c922507402d4c579b915e21f46af2",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "叫错名字后的不同复盘，是轻巧真实的意外。",
+              "reader_gain": "看到双方注意力并不一致，不把尴尬等同于失败。",
+              "response_reason": "可分享自己的小失误，不要求读者给当事人判输赢。",
+              "distinct_angle": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "opening": {
+              "quote": "他把相亲对象名字叫错了",
+              "reason": "叫错名字后的不同复盘，是轻巧真实的意外。"
+            },
+            "payoff": {
+              "quote": "两人都愿再见",
+              "reason": "看到双方注意力并不一致，不把尴尬等同于失败。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "他把相亲对象名字叫错了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "她说，最尴尬的是鞋跟断了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日的栏目里，James把Michelle叫成Melissa，自己挺尴尬",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "女方说，没什么尴尬，除了散场时鞋跟断了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "他给7.5分，她给7分",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人都愿再见",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "text": "相亲叫错名字，居然还有下一场。\n\n《卫报》10月17日的栏目里，James把Michelle叫成Melissa。\n\n男方觉得这最尴尬。女方说，没什么尴尬，除了散场时鞋跟断了。\n\n他给7.5分，她给7分。两人都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "2026",
+              "7",
+              "7.5"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "以还有下一次的意外反应组织短叙事，把名字错误放回约会全程。",
+          "editorial_tradeoff": "双方是栏目中的自述；不能断言女方没有听到、故意原谅或后来成为情侣。7.5和7只是约会评分，不是兴趣预测。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "04eed63e0e24a5b4ba5fd069e98dd0ac9c72fad5c91c9909b0f7632b40e52874",
+            "source_hash": "d19d0e8159d02557697a75443f2a7108c77c922507402d4c579b915e21f46af2",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "叫错名字后的不同复盘，是轻巧真实的意外。",
+              "reader_gain": "看到双方注意力并不一致，不把尴尬等同于失败。",
+              "response_reason": "可分享自己的小失误，不要求读者给当事人判输赢。",
+              "distinct_angle": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "opening": {
+              "quote": "相亲叫错名字，居然还有下一场",
+              "reason": "叫错名字后的不同复盘，是轻巧真实的意外。"
+            },
+            "payoff": {
+              "quote": "两人都愿再见",
+              "reason": "看到双方注意力并不一致，不把尴尬等同于失败。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "相亲叫错名字，居然还有下一场",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日的栏目里，James把Michelle叫成Melissa",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "男方觉得这最尴尬",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "女方说，没什么尴尬，除了散场时鞋跟断了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "他给7.5分，她给7分",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人都愿再见",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "text": "同一场相亲，男方想改约会时间，女方想换双鞋。\n\n《卫报》10月17日栏目里，他下班后很累，还错过了球赛。她散场时鞋跟断了。\n\nJames把Michelle叫成Melissa，自己很尴尬，女方却没把它列为尴尬时刻。\n\n他给7.5分，她给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "2026",
+              "7",
+              "7.5"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从双方想改什么切入，男方时间与球赛、女方鞋子，展示各自在意什么。",
+          "editorial_tradeoff": "双方是栏目中的自述；不能断言女方没有听到、故意原谅或后来成为情侣。7.5和7只是约会评分，不是兴趣预测。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "e13530b476a9ff6c6b2de4c3b08aec2be6af2faf0372f45a393a337039038d8c",
+            "source_hash": "d19d0e8159d02557697a75443f2a7108c77c922507402d4c579b915e21f46af2",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "叫错名字后的不同复盘，是轻巧真实的意外。",
+              "reader_gain": "看到双方注意力并不一致，不把尴尬等同于失败。",
+              "response_reason": "可分享自己的小失误，不要求读者给当事人判输赢。",
+              "distinct_angle": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "opening": {
+              "quote": "同一场相亲，男方想改约会时间，女方想换双鞋",
+              "reason": "叫错名字后的不同复盘，是轻巧真实的意外。"
+            },
+            "payoff": {
+              "quote": "他给7.5分，她给7分，都愿再见",
+              "reason": "看到双方注意力并不一致，不把尴尬等同于失败。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "并列两人的答案，留住鞋跟细节，避免教相亲技巧。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "同一场相亲，男方想改约会时间，女方想换双鞋",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日栏目里，他下班后很累，还错过了球赛",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "她散场时鞋跟断了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "James把Michelle叫成Melissa，自己很尴尬，女方却没把它列为尴尬时刻",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "他给7.5分，她给7分，都愿再见",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
+                "source_range": [
+                  0,
+                  791
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "James把Michelle叫成Melissa",
+        "after": "Michelle说没有尴尬"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "相亲栏目",
+        "reason": "有约会经验的读者能认出事后反复想小失误的处境。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "鞋跟断了",
+        "reason": "大众不需要英国约会制度背景就能理解这个日常失误。"
+      },
+      "hook": {
+        "text": "James把Michelle",
+        "evidence": "James把Michelle",
+        "reason": "首屏叫错名字后仍愿再见，比栏目标题更低门槛。"
+      },
+      "baseline_kind": "本轮Codex按旧式摘要写成的对照，非冒充历史系统实际输出",
+      "baseline": "《卫报》10月17日相亲栏目中，James把Michelle叫成Melissa。男方认为叫错名字尴尬，女方说除了散场鞋跟断了，没有尴尬。男方给7.5分，女方给7分，都愿再见。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james"
+    },
+    {
+      "material_id": "D2ed8c18c9e01bb7f",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        3,
+        4,
+        2,
+        0
+      ],
+      "evidence": [
+        "全身瘫痪",
+        "重新学吃饭",
+        "怕它滑倒",
+        "养育者",
+        "成为导盲犬",
+        "等了好几年",
+        "地板铺垫子",
+        "日期不详"
+      ],
+      "reasons": [
+        "养育者提供具体照护动作，但没有独立病历。",
+        "先被照护再去帮助别人，反差来自训练结果。",
+        "没有双方利益冲突，不为了讨论性虚构冲突。",
+        "照护经历的读者可理解，但导盲犬离多数人有距离。",
+        "首屏重新学走路的导盲犬有明确动作与信息差。",
+        "大众可理解动物康复，无需训练专业知识。",
+        "可以分享给养狗的朋友，重点是铺垫子而非励志口号。",
+        "这是完成的照护故事，没有两种实际决策分叉。"
+      ],
+      "possible_reply_branches": [],
+      "selection_note": "只是养育者回忆，不是兽医核验；不传播疾病治疗建议；不编狗的心理。报道新，经历时间未知。",
+      "reader_value": {
+        "stop_reason": "先学走路才去带路，角色反转直观且有结果。",
+        "reader_gain": "得到一段具体照护过程，不只是狗很坚强的标签。",
+        "response_reason": "可转给关心动物的朋友；不假设悲情一定有评论。",
+        "distinct_angle": "从地板垫子讲起，把宏大励志还原成照护动作。"
+      },
+      "recommended_variant": "C",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "text": "这只导盲犬，先得重新学会走路。\n\n《卫报》10月19日刊登的养育者回忆里，Orlando患破伤风后一度瘫痪，连吃饭也要重新学。\n\n回家时，地板要铺垫子，怕它滑倒。康复后，它成为导盲犬。\n\n视力受损的新主人，为一只导盲犬等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先给导盲犬也得学走路的信息差，再走康复时间线。",
+          "editorial_tradeoff": "只是养育者回忆，不是兽医核验；不传播疾病治疗建议；不编狗的心理。报道新，经历时间未知。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "4ecbab2e365701a93370fd545bcf3635306d8024e64d3b44f8225d927e5d63d7",
+            "source_hash": "eadcbae4f40c3c00fe5e09fe9b8e40ffe11d184326745dac39af0f5cac632fbd",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "先学走路才去带路，角色反转直观且有结果。",
+              "reader_gain": "得到一段具体照护过程，不只是狗很坚强的标签。",
+              "response_reason": "可转给关心动物的朋友；不假设悲情一定有评论。",
+              "distinct_angle": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "opening": {
+              "quote": "这只导盲犬，先得重新学会走路",
+              "reason": "先学走路才去带路，角色反转直观且有结果。"
+            },
+            "payoff": {
+              "quote": "视力受损的新主人，为一只导盲犬等了好几年",
+              "reason": "得到一段具体照护过程，不只是狗很坚强的标签。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "这只导盲犬，先得重新学会走路",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登的养育者回忆里，Orlando患破伤风后一度瘫痪，连吃饭也要重新学",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "回家时，地板要铺垫子，怕它滑倒",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "康复后，它成为导盲犬",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "视力受损的新主人，为一只导盲犬等了好几年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "text": "读到导盲犬，我没想到要先讲地板上的垫子。\n\n《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭、走路重新学。接回家时要铺垫子，怕它滑倒。\n\n后来它成为导盲犬。视力受损的新主人，已经等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从小垫子这个看似不相干的物件进入，个人观察连接到康复过程。",
+          "editorial_tradeoff": "只是养育者回忆，不是兽医核验；不传播疾病治疗建议；不编狗的心理。报道新，经历时间未知。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "1042ac86919637ba31bda7cffbeec53a3d48c2f43a9c712350183905840f364d",
+            "source_hash": "eadcbae4f40c3c00fe5e09fe9b8e40ffe11d184326745dac39af0f5cac632fbd",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "先学走路才去带路，角色反转直观且有结果。",
+              "reader_gain": "得到一段具体照护过程，不只是狗很坚强的标签。",
+              "response_reason": "可转给关心动物的朋友；不假设悲情一定有评论。",
+              "distinct_angle": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "opening": {
+              "quote": "读到导盲犬，我没想到要先讲地板上的垫子",
+              "reason": "先学走路才去带路，角色反转直观且有结果。"
+            },
+            "payoff": {
+              "quote": "视力受损的新主人，已经等了好几年",
+              "reason": "得到一段具体照护过程，不只是狗很坚强的标签。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "读到导盲犬，我没想到要先讲地板上的垫子",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭、走路重新学",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "接回家时要铺垫子，怕它滑倒",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "后来它成为导盲犬",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "视力受损的新主人，已经等了好几年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "text": "养育者怕小狗滑倒，把地板铺上垫子。后来，这只狗去给别人带路了。\n\n《卫报》10月19日刊登的回忆里，Orlando患破伤风后一度瘫痪，吃饭、走路重新学。\n\n康复后它成为导盲犬。新主人视力受损，已经等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从养育者的防滑动作切到新主人的等待，叙事主角是两段照护关系。",
+          "editorial_tradeoff": "只是养育者回忆，不是兽医核验；不传播疾病治疗建议；不编狗的心理。报道新，经历时间未知。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "c8723aa95b4cb9112b56a845d50eee871b30c6a6536579991c0bd359f1547fea",
+            "source_hash": "eadcbae4f40c3c00fe5e09fe9b8e40ffe11d184326745dac39af0f5cac632fbd",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "先学走路才去带路，角色反转直观且有结果。",
+              "reader_gain": "得到一段具体照护过程，不只是狗很坚强的标签。",
+              "response_reason": "可转给关心动物的朋友；不假设悲情一定有评论。",
+              "distinct_angle": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "opening": {
+              "quote": "养育者怕小狗滑倒，把地板铺上垫子",
+              "reason": "先学走路才去带路，角色反转直观且有结果。"
+            },
+            "payoff": {
+              "quote": "新主人视力受损，已经等了好几年",
+              "reason": "得到一段具体照护过程，不只是狗很坚强的标签。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "从地板垫子讲起，把宏大励志还原成照护动作。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "养育者怕小狗滑倒，把地板铺上垫子",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "后来，这只狗去给别人带路了",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登的回忆里，Orlando患破伤风后一度瘫痪，吃饭、走路重新学",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "康复后它成为导盲犬",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "新主人视力受损，已经等了好几年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog",
+                "source_range": [
+                  0,
+                  841
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "全身瘫痪",
+        "after": "重新学吃饭"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "养育者",
+        "reason": "照护经历的读者可理解，但导盲犬离多数人有距离。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "等了好几年",
+        "reason": "大众可理解动物康复，无需训练专业知识。"
+      },
+      "hook": {
+        "text": "成为导盲犬",
+        "evidence": "成为导盲犬",
+        "reason": "首屏重新学走路的导盲犬有明确动作与信息差。"
+      },
+      "baseline_kind": "本轮Codex按旧式摘要写成的对照，非冒充历史系统实际输出",
+      "baseline": "《卫报》10月19日刊登养育者回忆：Orlando患破伤风后一度瘫痪，吃饭和走路重新学。地板铺垫子防滑。后来它成为导盲犬，视力受损的新主人等了好几年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/the-pet-ill-never-forget-orlando-was-paralysed-and-almost-died-then-became-the-perfect-guide-dog"
+    },
+    {
+      "material_id": "Df502751fe7e67acc",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "上夜班",
+        "近两年",
+        "老板",
+        "客人",
+        "午夜到清晨5点",
+        "三明治",
+        "水兵",
+        "工作回忆"
+      ],
+      "reasons": [
+        "有实际工作动作和人物，却只是单个作者回忆。",
+        "普通三明治店与复杂夜班人物有反差，意外程度有限。",
+        "老板给折扣未证明交易或威胁，不能写成保护费。",
+        "上过夜班的读者有入口，其他人距离稍远。",
+        "首屏可用夜班时间和客人组合，不需品牌介绍。",
+        "服务业工作日常可理解，外国地点稍有背景成本。",
+        "可分享给干过餐饮的朋友，认出同样的夜班。",
+        "评论方向是工作见闻，不是假定同意或反对老板。"
+      ],
+      "possible_reply_branches": [],
+      "selection_note": "1990年代旧事，10月19日新刊回忆；不把作者的我写成账号经历，不推断折扣原因。",
+      "reader_value": {
+        "stop_reason": "普通夜班会遇到哪些人，比作者履历更好进入。",
+        "reader_gain": "得到一份具体夜班人物切片，而非职场感悟。",
+        "response_reason": "餐饮工作者可能分享类似见闻，传播意愿仍未知。",
+        "distinct_angle": "把折扣与水兵口味并置，不替老板编安全动机。"
+      },
+      "recommended_variant": "A",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "text": "周六午夜到清晨5点，三明治店的客人有警察、保安，还有水兵。\n\n《卫报》10月19日刊登一位作者在1990年代珀斯的夜班回忆。老板给警察、保安打折；水兵进店，想吃熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "1990",
+              "2026",
+              "5点"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist"
+            ],
+            "roles": [
+              "保安",
+              "老板"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "用工作时段和客人名单先给夜班信息切片，后补年代归因。",
+          "editorial_tradeoff": "1990年代旧事，10月19日新刊回忆；不把作者的我写成账号经历，不推断折扣原因。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "aaa5beb334f79f476f4ee429d1f46e2cc89112593dac3c22e9bf4a278e5e87fc",
+            "source_hash": "b1656356ae881610cad54d113687abf34cada7e642402a9a431c1f0a14e0f99a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "普通夜班会遇到哪些人，比作者履历更好进入。",
+              "reader_gain": "得到一份具体夜班人物切片，而非职场感悟。",
+              "response_reason": "餐饮工作者可能分享类似见闻，传播意愿仍未知。",
+              "distinct_angle": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "opening": {
+              "quote": "周六午夜到清晨5点，三明治店的客人有警察、保安，还有水兵",
+              "reason": "普通夜班会遇到哪些人，比作者履历更好进入。"
+            },
+            "payoff": {
+              "quote": "老板给警察、保安打折；水兵进店，想吃熟悉的三明治",
+              "reason": "得到一份具体夜班人物切片，而非职场感悟。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "周六午夜到清晨5点，三明治店的客人有警察、保安，还有水兵",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登一位作者在1990年代珀斯的夜班回忆",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "老板给警察、保安打折；水兵进店，想吃熟悉的三明治",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "text": "同一家三明治店，夜班的客人名单有点意思。\n\n《卫报》10月19日刊登的1990年代珀斯工作回忆里，作者周六午夜干到清晨5点。\n\n老板给警察和保安打折。水兵来吃熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "1990",
+              "2026",
+              "5点"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist"
+            ],
+            "roles": [
+              "保安",
+              "老板"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "以同一店夜班换客人为观察组织材料，不把作者工作经历据为己有。",
+          "editorial_tradeoff": "1990年代旧事，10月19日新刊回忆；不把作者的我写成账号经历，不推断折扣原因。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "81e3c9b2cf0473213f521410d26d3ae473cd4344842cb809d8faa4272095050f",
+            "source_hash": "b1656356ae881610cad54d113687abf34cada7e642402a9a431c1f0a14e0f99a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "普通夜班会遇到哪些人，比作者履历更好进入。",
+              "reader_gain": "得到一份具体夜班人物切片，而非职场感悟。",
+              "response_reason": "餐饮工作者可能分享类似见闻，传播意愿仍未知。",
+              "distinct_angle": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "opening": {
+              "quote": "同一家三明治店，夜班的客人名单有点意思",
+              "reason": "普通夜班会遇到哪些人，比作者履历更好进入。"
+            },
+            "payoff": {
+              "quote": "水兵来吃熟悉的三明治",
+              "reason": "得到一份具体夜班人物切片，而非职场感悟。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "同一家三明治店，夜班的客人名单有点意思",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登的1990年代珀斯工作回忆里，作者周六午夜干到清晨5点",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "老板给警察和保安打折",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "水兵来吃熟悉的三明治",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "text": "水兵进三明治店，想吃的是熟悉的家乡口味。\n\n《卫报》10月19日刊登作者在1990年代珀斯的工作回忆：周六午夜到清晨5点，来过警察、保安，也来过水兵。老板还给警察和保安打折。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "1990",
+              "2026",
+              "5点"
+            ],
+            "dates": [
+              "10月19日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist"
+            ],
+            "roles": [
+              "保安",
+              "老板"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先追一类客人的熟悉口味，再退回整间店的夜班群像。",
+          "editorial_tradeoff": "1990年代旧事，10月19日新刊回忆；不把作者的我写成账号经历，不推断折扣原因。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "98c229250d422dee98324b152b4fa16992e7b76d4c6243483db9d64a7fa6f649",
+            "source_hash": "b1656356ae881610cad54d113687abf34cada7e642402a9a431c1f0a14e0f99a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "普通夜班会遇到哪些人，比作者履历更好进入。",
+              "reader_gain": "得到一份具体夜班人物切片，而非职场感悟。",
+              "response_reason": "餐饮工作者可能分享类似见闻，传播意愿仍未知。",
+              "distinct_angle": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "opening": {
+              "quote": "水兵进三明治店，想吃的是熟悉的家乡口味",
+              "reason": "普通夜班会遇到哪些人，比作者履历更好进入。"
+            },
+            "payoff": {
+              "quote": "老板还给警察和保安打折",
+              "reason": "得到一份具体夜班人物切片，而非职场感悟。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "把折扣与水兵口味并置，不替老板编安全动机。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "水兵进三明治店，想吃的是熟悉的家乡口味",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月19日刊登作者在1990年代珀斯的工作回忆：周六午夜到清晨5点，来过警察、保安，也来过水兵",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "老板还给警察和保安打折",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist",
+                "source_range": [
+                  0,
+                  793
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "1990",
+                    "source": "1998",
+                    "reason": "1998位于1990年代，仅概括年代，不把1998改成1990年。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "在珀斯Subway上夜班",
+        "after": "警察、保安和水兵"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "客人",
+        "reason": "上过夜班的读者有入口，其他人距离稍远。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "三明治",
+        "reason": "服务业工作日常可理解，外国地点稍有背景成本。"
+      },
+      "hook": {
+        "text": "午夜到清晨5点",
+        "evidence": "午夜到清晨5点",
+        "reason": "首屏可用夜班时间和客人组合，不需品牌介绍。"
+      },
+      "baseline_kind": "本轮Codex按旧式摘要写成的对照，非冒充历史系统实际输出",
+      "baseline": "《卫报》10月19日刊登作者的1990年代珀斯夜班回忆：周六午夜到清晨5点在Subway工作。老板给警察和保安打折。水兵来点熟悉的三明治。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/19/a-job-that-changed-me-on-midnight-shifts-as-a-subway-sandwich-artist"
+    },
+    {
+      "material_id": "Dcbc5d6ea32d4ed9a",
+      "ratings": [
+        3,
+        4,
+        0,
+        2,
+        4,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "真牛心",
+        "两人都是素食者",
+        "Garrett",
+        "惊骇又兴奋",
+        "情人节礼盒",
+        "早年恋情",
+        "生活创作",
+        "能否接受"
+      ],
+      "reasons": [
+        "礼物具体，来自本人回忆；没有第三方确认。",
+        "素食者收到真牛心而兴奋，是有来源的反差。",
+        "不能从古怪礼物推定虐待或争吵，保持零分。",
+        "读者可联想到礼物默契，但艺术家的表达较远。",
+        "首屏真牛心礼盒有很强的可理解意外。",
+        "大众懂情人节礼物，但文化背景限制代入。",
+        "可分享给爱古怪艺术的朋友，不鼓励模仿礼物。",
+        "可讨论表达默契，未观察到真实评论分叉。"
+      ],
+      "possible_reply_branches": [],
+      "selection_note": "旧恋情回忆，不推断具体情人节年份；两人都是男性和素食者，不能错配身份，也不能把假血写成真血。题材存在恶心和冒犯风险。",
+      "reader_value": {
+        "stop_reason": "素食者收到牛心却兴奋，有清楚的意外结果。",
+        "reader_gain": "知道当事人如何理解这份礼物，不做惊悚标题。",
+        "response_reason": "有古怪审美的朋友可能分享，不假定大众接受。",
+        "distinct_angle": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+      },
+      "recommended_variant": "A",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "text": "两个素食者过情人节，礼盒里装了一颗真牛心，上面浇的是假血。\n\n《卫报》10月17日刊登Will的早年回忆：礼物是Garrett送的，他惊骇又兴奋。两人已经一起生活、创作了二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "18",
+              "2026"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "以素食者收到真牛心的反差开场，同时交代假血和收到者喜欢。",
+          "editorial_tradeoff": "旧恋情回忆，不推断具体情人节年份；两人都是男性和素食者，不能错配身份，也不能把假血写成真血。题材存在恶心和冒犯风险。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "c2d7a5d27cbbedd5f0f9340b4da0af03b1454889a78a76abb21bb819cb26bc13",
+            "source_hash": "8bdcd317fae38eb7fd090f8afe509713792e532fa8347bc5d51788ae3439c945",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "素食者收到牛心却兴奋，有清楚的意外结果。",
+              "reader_gain": "知道当事人如何理解这份礼物，不做惊悚标题。",
+              "response_reason": "有古怪审美的朋友可能分享，不假定大众接受。",
+              "distinct_angle": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "opening": {
+              "quote": "两个素食者过情人节，礼盒里装了一颗真牛心，上面浇的是假血",
+              "reason": "素食者收到牛心却兴奋，有清楚的意外结果。"
+            },
+            "payoff": {
+              "quote": "两人已经一起生活、创作了二十年",
+              "reason": "知道当事人如何理解这份礼物，不做惊悚标题。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "两个素食者过情人节，礼盒里装了一颗真牛心，上面浇的是假血",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日刊登Will的早年回忆：礼物是Garrett送的，他惊骇又兴奋",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人已经一起生活、创作了二十年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "text": "送礼送到牛心这一步，我有点跟不上。\n\n《卫报》10月17日刊登Will的早年回忆：Garrett的情人节礼盒装着真牛心，浇了假血。两人还是素食者。\n\n收到礼物的Will，惊骇又兴奋。两人一起生活、创作了二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "18",
+              "2026"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先给对礼物的迟疑，再交代本人反而兴奋，保留审美距离。",
+          "editorial_tradeoff": "旧恋情回忆，不推断具体情人节年份；两人都是男性和素食者，不能错配身份，也不能把假血写成真血。题材存在恶心和冒犯风险。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "ddeefd44c208d90c270bb86565883a9a8d49059478d592707ebfeb3788b3072a",
+            "source_hash": "8bdcd317fae38eb7fd090f8afe509713792e532fa8347bc5d51788ae3439c945",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "素食者收到牛心却兴奋，有清楚的意外结果。",
+              "reader_gain": "知道当事人如何理解这份礼物，不做惊悚标题。",
+              "response_reason": "有古怪审美的朋友可能分享，不假定大众接受。",
+              "distinct_angle": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "opening": {
+              "quote": "送礼送到牛心这一步，我有点跟不上",
+              "reason": "素食者收到牛心却兴奋，有清楚的意外结果。"
+            },
+            "payoff": {
+              "quote": "两人一起生活、创作了二十年",
+              "reason": "知道当事人如何理解这份礼物，不做惊悚标题。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "送礼送到牛心这一步，我有点跟不上",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日刊登Will的早年回忆：Garrett的情人节礼盒装着真牛心，浇了假血",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人还是素食者",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "收到礼物的Will，惊骇又兴奋",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人一起生活、创作了二十年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "original_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "text": "他后来解释，送这份礼物，是想看对方能不能接受。\n\n《卫报》10月17日刊登Will的早年回忆：Garrett把真牛心浇上假血，放进情人节礼盒。两人都是素食者，Will却惊骇又兴奋。\n\n两人已共同生活、创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "17",
+              "18",
+              "2026"
+            ],
+            "dates": [
+              "10月17日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先交代送礼者的试探意图，再呈现礼物内容和长期关系结果。",
+          "editorial_tradeoff": "旧恋情回忆，不推断具体情人节年份；两人都是男性和素食者，不能错配身份，也不能把假血写成真血。题材存在恶心和冒犯风险。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex; writer and reviewer are the same agent, not independent human approval",
+            "reviewed_at": "2026-10-20T02:23:42.935152Z",
+            "text_hash": "31415cfcc8de09ecbc6028f04ad12a857c0fe15774716a61de3947dacbbba2b2",
+            "source_hash": "8bdcd317fae38eb7fd090f8afe509713792e532fa8347bc5d51788ae3439c945",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "素食者收到牛心却兴奋，有清楚的意外结果。",
+              "reader_gain": "知道当事人如何理解这份礼物，不做惊悚标题。",
+              "response_reason": "有古怪审美的朋友可能分享，不假定大众接受。",
+              "distinct_angle": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "opening": {
+              "quote": "他后来解释，送这份礼物，是想看对方能不能接受",
+              "reason": "素食者收到牛心却兴奋，有清楚的意外结果。"
+            },
+            "payoff": {
+              "quote": "两人已共同生活、创作二十年",
+              "reason": "知道当事人如何理解这份礼物，不做惊悚标题。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+              "reference_failure": "对照按报道背景排事实，缺少读者先想知道的反常处和真实动作。",
+              "difference": "保留真牛心和假血的区别，也保留收到者喜欢它。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "对照既有193条公开发布记忆和388条campaign来源记录的来源、正文及事件；本批同题三版只作备选，不能当三条新题。"
+            },
+            "claims": [
+              {
+                "draft_span": "他后来解释，送这份礼物，是想看对方能不能接受",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "《卫报》10月17日刊登Will的早年回忆：Garrett把真牛心浇上假血，放进情人节礼盒",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人都是素食者，Will却惊骇又兴奋",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              },
+              {
+                "draft_span": "两人已共同生活、创作二十年",
+                "url": "https://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart",
+                "source_range": [
+                  0,
+                  641
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "已对照保存的原文片段：只转述其中动作与结果；即时反应是对这些细节的编辑表达，并非亲历或额外事实。"
+              }
+            ]
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "两人都是素食者",
+        "after": "从屠夫处买来的真牛心"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "惊骇又兴奋",
+        "reason": "读者可联想到礼物默契，但艺术家的表达较远。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "早年恋情",
+        "reason": "大众懂情人节礼物，但文化背景限制代入。"
+      },
+      "hook": {
+        "text": "情人节礼盒",
+        "evidence": "情人节礼盒",
+        "reason": "首屏真牛心礼盒有很强的可理解意外。"
+      },
+      "baseline_kind": "本轮Codex按旧式摘要写成的对照，非冒充历史系统实际输出",
+      "baseline": "《卫报》10月17日刊登Will的早年恋情回忆：Garrett送的情人节礼盒装着真牛心，上面是假血。两人都是素食者，Will惊骇又兴奋。两人已共同生活创作二十年。\n\nhttps://www.theguardian.com/lifeandstyle/2026/oct/18/the-moment-i-knew-for-valentines-day-he-gave-me-a-cows-heart"
+    },
+    {
+      "material_id": "Ddd0764e8e6f08ab5",
+      "ratings": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        3,
+        1,
+        0
+      ],
+      "evidence": [
+        "老人点外卖",
+        "拍Vlog",
+        "没有具体人物",
+        "喝咖啡",
+        "文章呼吁",
+        "改善配套",
+        "文章呼吁改善配套",
+        "可核对结果"
+      ],
+      "reasons": [
+        "只有群体生活方式概括，原始材料没有单个行动链。",
+        "反刻板印象有轻微反差，却没有令人意外的真实结果。",
+        "没有可辨认的两方利益，不能造冲突。",
+        "读者可代入父母的数字生活，但具体处境尚缺。",
+        "首屏只有老人也能做什么的标签，没有停留细节。",
+        "大众懂外卖咖啡这些日常动作，背景门槛低。",
+        "可发给关注适老化的家人，但分享收益泛泛。",
+        "没有实际选择分叉，不编评论。"
+      ],
+      "possible_reply_branches": [],
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "拍Vlog、",
+        "reason": "读者需要额外背景才能判断此事与自己有什么关系。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "g、喝咖啡。",
+        "reason": "现有材料缺少独立核验或具体结果，需要补充语境。"
+      },
+      "hook": {
+        "text": "log、喝咖",
+        "evidence": "log、喝咖",
+        "reason": "目前只能提出弱首屏，没有明确的阅读收益。"
+      },
+      "selection_note": "泛泛反刻板印象，只有类别标签，不能凑成故事。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏只有老人也能做什么的标签，没有停留细节。",
+        "reader_gain": "泛泛反刻板印象，只有类别标签，不能凑成故事。",
+        "response_reason": "可发给关注适老化的家人，但分享收益泛泛。",
+        "distinct_angle": "当前不能兑现独特角度：泛泛反刻板印象，只有类别标签，不能凑成故事。"
+      }
+    },
+    {
+      "material_id": "Ddb45014bcbdc975d",
+      "ratings": [
+        2,
+        2,
+        1,
+        3,
+        2,
+        3,
+        1,
+        1
+      ],
+      "evidence": [
+        "读者来信",
+        "喜欢另一位单亲家长",
+        "对方忽冷忽热",
+        "忙于育儿",
+        "丧偶后",
+        "单亲家长",
+        "没有独立确认",
+        "她又忙于育儿"
+      ],
+      "reasons": [
+        "来信有具体处境，但缺独立确认，不能作客观人物报道。",
+        "喜欢与对方不稳定回应有真实反差，不能补具体动机。",
+        "有照护时间和关系需求的责任压力，但另一方行动少。",
+        "丧偶或单亲读者可能代入，避免消费创伤。",
+        "首屏能呈现再恋爱疑虑，但情绪前提很重。",
+        "大众知道关系与育儿，背景仍需谨慎保留。",
+        "可能分享给支持者，未必适合公开转发。",
+        "评论方向会分歧，但不应让围观者裁决当事人生活。"
+      ],
+      "possible_reply_branches": [],
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "喜欢另一位单",
+        "reason": "读者需要额外背景才能判断此事与自己有什么关系。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "位单亲家长，",
+        "reason": "现有材料缺少独立核验或具体结果，需要补充语境。"
+      },
+      "hook": {
+        "text": "另一位单亲家",
+        "evidence": "另一位单亲家",
+        "reason": "目前只能提出弱首屏，没有明确的阅读收益。"
+      },
+      "selection_note": "真实情感代价值得读，但细节很重；短帖易消费创伤或偷换为劝分，暂不写。",
+      "previews": [],
+      "contrast_basis": {
+        "before": "喜欢另一位单亲家长",
+        "after": "对方忽冷忽热"
+      },
+      "reader_value": {
+        "stop_reason": "首屏能呈现再恋爱疑虑，但情绪前提很重。",
+        "reader_gain": "真实情感代价值得读，但细节很重；短帖易消费创伤或偷换为劝分，暂不写。",
+        "response_reason": "可能分享给支持者，未必适合公开转发。",
+        "distinct_angle": "当前不能兑现独特角度：真实情感代价值得读，但细节很重；短帖易消费创伤或偷换为劝分，暂不写。"
+      }
+    },
+    {
+      "material_id": "D0e1e268ab66185f5",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "儿童礼物评测",
+        "试用",
+        "购买链接",
+        "儿童礼物",
+        "作者有玩具评测经验",
+        "页面声明",
+        "可能获得佣金",
+        "评测经验"
+      ],
+      "reasons": [
+        "有试用过程，但没有摘出一个独立可讲的结果。",
+        "儿童参与常见，未见足够意外发现。",
+        "没有人物之间真实冲突，不把佣金当造假证据。",
+        "家长读者有切身需求，英国选品接口较远。",
+        "首屏仍像购物清单，缺少值得停留的具体动作。",
+        "大众理解礼物，但跨地区购买需背景。",
+        "可分享评测方法，尚没有足够可带走的方法细节。",
+        "没有选择分叉的真实材料，不编家长争论。"
+      ],
+      "possible_reply_branches": [],
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "包含试用和购",
+        "reason": "读者需要额外背景才能判断此事与自己有什么关系。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "和购买链接，",
+        "reason": "现有材料缺少独立核验或具体结果，需要补充语境。"
+      },
+      "hook": {
+        "text": "试用和购买链",
+        "evidence": "试用和购买链",
+        "reason": "目前只能提出弱首屏，没有明确的阅读收益。"
+      },
+      "selection_note": "新闻价值不低，但选品与英国购买环境绑定，有商业利益，缺少值得讲的单个新发现。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏仍像购物清单，缺少值得停留的具体动作。",
+        "reader_gain": "新闻价值不低，但选品与英国购买环境绑定，有商业利益，缺少值得讲的单个新发现。",
+        "response_reason": "可分享评测方法，尚没有足够可带走的方法细节。",
+        "distinct_angle": "当前不能兑现独特角度：新闻价值不低，但选品与英国购买环境绑定，有商业利益，缺少值得讲的单个新发现。"
+      }
+    },
+    {
+      "material_id": "D26f6043e94917492",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": [
+        "国标和专家",
+        "柴油颜色",
+        "掺水传言",
+        "选择正规渠道",
+        "报道讨论",
+        "掺水传言，引用",
+        "引用国标",
+        "提醒选择"
+      ],
+      "reasons": [
+        "已有标准引用，但本轮未独立核对标准原文。",
+        "可能纠正常识误区，却未证实传言实际流行程度。",
+        "无可辨认的交易冲突，不能编受骗车主。",
+        "柴油车主读者接口明确，普通读者距离较远。",
+        "首屏需要介绍油品背景，停留理由弱。",
+        "大众理解加油，但柴油技术有背景成本。",
+        "核对后可分享给车主提醒，当前证据不够。",
+        "只有待核对的知识，没有真实讨论分叉。"
+      ],
+      "possible_reply_branches": [],
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "颜色与掺水传",
+        "reason": "读者需要额外背景才能判断此事与自己有什么关系。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "水传言，引用",
+        "reason": "现有材料缺少独立核验或具体结果，需要补充语境。"
+      },
+      "hook": {
+        "text": "与掺水传言，",
+        "evidence": "与掺水传言，",
+        "reason": "目前只能提出弱首屏，没有明确的阅读收益。"
+      },
+      "selection_note": "交通消费有用，却易把合格产品要求变成所有加油站绝无问题；未独立核对标准，不晋级。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏需要介绍油品背景，停留理由弱。",
+        "reader_gain": "交通消费有用，却易把合格产品要求变成所有加油站绝无问题；未独立核对标准，不晋级。",
+        "response_reason": "核对后可分享给车主提醒，当前证据不够。",
+        "distinct_angle": "当前不能兑现独特角度：交通消费有用，却易把合格产品要求变成所有加油站绝无问题；未独立核对标准，不晋级。"
+      }
+    },
+    {
+      "material_id": "Dcd58fc11ed03d147",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        3,
+        2,
+        0
+      ],
+      "evidence": [
+        "晴空颠簸",
+        "没有可见云层",
+        "既有事故",
+        "航班风险",
+        "涉及既有事故",
+        "气候趋势",
+        "介绍",
+        "并非航班风险预测"
+      ],
+      "reasons": [
+        "有事故与趋势材料，缺本轮一手研究核验。",
+        "无云也颠簸有知识反差，但不是新事实。",
+        "没有双方明确利益冲突，不造航空公司隐瞒。",
+        "乘飞机的读者能代入，但不能用事故刺激恐惧。",
+        "首屏若只写危险会误导，需先补风险边界。",
+        "大众能理解云层与飞行，数据解释有背景。",
+        "可分享给乘机朋友，但应先核对原始安全资料。",
+        "这是科普核查，没必要制造评论两派。"
+      ],
+      "possible_reply_branches": [],
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "颠簸可能没有",
+        "reason": "读者需要额外背景才能判断此事与自己有什么关系。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "没有可见云层",
+        "reason": "现有材料缺少独立核验或具体结果，需要补充语境。"
+      },
+      "hook": {
+        "text": "可能没有可见",
+        "evidence": "可能没有可见",
+        "reason": "目前只能提出弱首屏，没有明确的阅读收益。"
+      },
+      "selection_note": "单条有科普价值，但要额外核对一手航空数据；不能用旧事故制造今天的恐惧。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏若只写危险会误导，需先补风险边界。",
+        "reader_gain": "单条有科普价值，但要额外核对一手航空数据；不能用旧事故制造今天的恐惧。",
+        "response_reason": "可分享给乘机朋友，但应先核对原始安全资料。",
+        "distinct_angle": "当前不能兑现独特角度：单条有科普价值，但要额外核对一手航空数据；不能用旧事故制造今天的恐惧。"
+      }
+    }
+  ],
+  "human_checked": false,
+  "publication_allowed": false,
+  "editorial_shortlist": [
+    {
+      "material_id": "Dd73920ea4d1c6abc",
+      "variant": "C"
+    },
+    {
+      "material_id": "D9abbf4c672da514a",
+      "variant": "B"
+    },
+    {
+      "material_id": "D2ed8c18c9e01bb7f",
+      "variant": "C"
+    }
+  ]
+}

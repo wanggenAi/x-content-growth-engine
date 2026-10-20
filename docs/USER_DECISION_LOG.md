@@ -960,3 +960,10 @@ Four-hour GitHub Actions collection is restored as collection-only with read-onl
 ## 2026-10-20T02:07:07.191520Z — Price-free Xianyu cover
 
 User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.
+
+
+## 2026-10-20T02:22:56.941392Z — Lightweight content competitiveness V4
+
+Direct user wording: “现有系统虽然能采集素材、生成中文帖子并通过 Human Style 检查，但内容仍然偏新闻转述，不够吸引人，缺乏个性，也没有经过真实流量验证。” Engineering authorization: “直接检查、修改、测试代码，生成实际新稿，创建 PR 并在验证通过后合并 main。” Publication boundary: “不得自动向 X 发布内容。保持现有暂停开关，等待新的明确发布授权。” Highest engineering constraint is zero additional resident load; no new model, service, collector or cadence increase.
+
+Read latest origin/main5c0c5d9, preserved divergent local main. Audited pinned MIT sources, borrowed editorial methods only. Reused eight dimensions, existing authored_text/fact/source/hash interfaces; no third style detector. Ten actual different topics, five ABC sets, three human-review recommendations;15 style/source/fact passes do not grant production qualification. Existing raw30/review20/families4 and PAUSED preserved. Existing private feedback audit re-run:21 observations,0 qualifying24h; current metrics UNKNOWN, C390 negative retained. Local137unittest/137pytest/compileall PASS; same offline20-topic/9-draft benchmark0.32177→0.32105seconds,34.6→32.6MB peak; no meaningful resource regression. PR/CI/merge pending, no X access/submission.

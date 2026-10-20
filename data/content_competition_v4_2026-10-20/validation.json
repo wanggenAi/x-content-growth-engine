@@ -1,0 +1,182 @@
+{
+  "baseline_main_sha": "5c0c5d90d3f154fd2ecdbac1de34a38dc5dba175",
+  "updated_at_utc": "2026-10-20T02:23:42.935152Z",
+  "unittest_baseline": 132,
+  "unittest_after": 137,
+  "pytest_after": "137 passed; isolated temporary pytest environment, no runtime dependency",
+  "compileall": "PASS",
+  "ci": "PENDING",
+  "pr_url": null,
+  "merge_sha": null,
+  "production_dry_run": {
+    "deep_reviewed_topics": 10,
+    "drafted_topics": 5,
+    "variants": 15,
+    "style_pass": 15,
+    "source_review_pass": 15,
+    "unique_top1_production_admitted": false,
+    "pool_holds": [
+      "HUNT_INCOMPLETE_RAW_POOL",
+      "HUNT_INCOMPLETE_DEEP_REVIEW",
+      "HUNT_INCOMPLETE_FRESH_POOL",
+      "HUNT_INCOMPLETE_SOURCE_DIVERSITY"
+    ],
+    "recommended_for_human_review": [
+      {
+        "material_id": "Dd73920ea4d1c6abc",
+        "variant": "C"
+      },
+      {
+        "material_id": "D9abbf4c672da514a",
+        "variant": "B"
+      },
+      {
+        "material_id": "D2ed8c18c9e01bb7f",
+        "variant": "C"
+      }
+    ],
+    "publication_allowed": false,
+    "new_x_submissions": 0,
+    "rank_scores_are_editorial_not_traffic": true,
+    "reviewed_under48h": 7
+  },
+  "resources": {
+    "before": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.3217652919702232,
+      "batches_seconds": [
+        0.30315433302894235,
+        0.3072096660034731,
+        0.3223507080692798,
+        0.3217652919702232,
+        0.32387716695666313,
+        0.3192374580539763,
+        0.32346304098609835
+      ],
+      "peak_rss_bytes": 34635776,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    },
+    "after": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.32105033297557384,
+      "batches_seconds": [
+        0.3329492920311168,
+        0.32105033297557384,
+        0.3241219579940662,
+        0.3222841250244528,
+        0.31775420799385756,
+        0.3107856250135228,
+        0.31241174996830523
+      ],
+      "peak_rss_bytes": 32604160,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    }
+  },
+  "feedback": {
+    "audit_method": "scripts/backtest_reader_history.py re-run against ignored original account observations",
+    "historical_observations": 21,
+    "known_capture_timestamps": 0,
+    "eligible_24h": 0,
+    "historical_non_null_counts": {
+      "views": 21,
+      "impressions": 0,
+      "likes": 4,
+      "replies": 4,
+      "reposts": 4,
+      "profile_visits": 0,
+      "follows_attributed": 0
+    },
+    "current_comparable_metrics": {
+      "impressions": null,
+      "views": null,
+      "likes": null,
+      "replies": null,
+      "reposts": null,
+      "profile_visits": null,
+      "follows_attributed": null
+    },
+    "traffic_growth_verified": false,
+    "status": "UNKNOWN",
+    "negative_user_verdict": "C390 REJECT retained; existing historical evidence unmodified"
+  },
+  "controls": {
+    "publication_control_blob": "601339bb8249a47c76caec8b85f59bc738592741",
+    "scheduled_collector_blob": "04637243a5e809facbe6245efd744f251cb94a00",
+    "status": "PAUSED",
+    "automatic_x_submission": false,
+    "schedule_changed": false,
+    "new_runtime_dependencies": 0,
+    "new_background_processes": 0
+  },
+  "observed_failures": [
+    "Unauthenticated GitHub API rate limit; used existing authenticated gh read-only API instead.",
+    "Public article connection closure and public-address rejection recorded; no bypass.",
+    "System Python has no pytest; isolated temporary test-only environment created with existing CI pytest version constraint.",
+    "Initial regression caught missing explicit no-fake-first-person wording; wording restored, no gate weakened.",
+    "Initial dry-run found insufficient grounded contrast spans, unit-token mismatch and UTC/local date mapping; corrected source records and drafts, no fact gate weakened."
+  ],
+  "dedup": {
+    "campaign_records_scanned": 388,
+    "published_memory_records": 193,
+    "method": "Exact canonical source URL check across full campaign; similarity is review lead only; human semantic comparison of 10 topics and old V3 examples.",
+    "rows": [
+      {
+        "material_id": "D9abbf4c672da514a",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.119
+      },
+      {
+        "material_id": "Dd73920ea4d1c6abc",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.104
+      },
+      {
+        "material_id": "D2ed8c18c9e01bb7f",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.141
+      },
+      {
+        "material_id": "Df502751fe7e67acc",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.111
+      },
+      {
+        "material_id": "Dcbc5d6ea32d4ed9a",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.113
+      },
+      {
+        "material_id": "Ddd0764e8e6f08ab5",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.115
+      },
+      {
+        "material_id": "Ddb45014bcbdc975d",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.135
+      },
+      {
+        "material_id": "D0e1e268ab66185f5",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.119
+      },
+      {
+        "material_id": "D26f6043e94917492",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.091
+      },
+      {
+        "material_id": "Dcd58fc11ed03d147",
+        "exact_source_match_in_campaign": false,
+        "max_summary_text_similarity_in_memory": 0.086
+      }
+    ],
+    "same_topic_variants_are_alternatives": true
+  },
+  "seed_audit": {
+    "runtime_database": "temporary isolated SQLite, not committed",
+    "output": "{\n  \"stats\": {\n    \"x_posts\": 7,\n    \"high_candidates\": 4,\n    \"ordinary_candidates\": 3,\n    \"authors\": 4,\n    \"observations\": 7,\n    \"methods\": {\n      \"public_search_index\": 7\n    },\n    \"unknown_views\": 0,\n    \"unknown_followers\": 7,\n    \"same_author_both_cohorts\": [\n      \"AI_Jasonyu\"\n    ],\n    \"materials\": 0,\n    \"materials_needing_review\": 0,\n    \"own_posts\": 0,\n    \"own_post_observations\": 0,\n    \"ingest_runs\": 1,\n    \"failed_ingest_runs\": 0,\n    \"indexed_metric_observations\": 7,\n    \"direct_metric_observations\": 0,\n    \"quality\": {\n      \"discovered_posts\": 7,\n      \"original_confirmed\": 0,\n      \"posts_with_any_views\": 7,\n      \"posts_with_exact_index_views\": 3,\n      \"posts_with_approximate_index_views\": 4,\n      \"posts_with_dated_metrics\": 0,\n      \"provisional_high\": 4,\n      \"provisional_ordinary\": 3,\n      \"cohorts_with_relative_basis\": 0,\n      \"exploratory_pairs\": 0,\n      \"ready_pairs\": 0,\n      \"conflicting_observation_groups\": 0,\n      \"query_runs\": 0,\n      \"annotations\": 0,\n      \"reviewed_hypotheses\": 0\n    }\n  },\n  \"issues\": [\n    \"Below exploratory collection targets; no formula validation\",\n    \"All available X view counts come from stale search-index snapshots\",\n    \"Author follower counts unknown; reach cannot be normalized\"\n  ]\n}\n"
+  }
+}

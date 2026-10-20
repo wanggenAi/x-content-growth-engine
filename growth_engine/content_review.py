@@ -45,6 +45,18 @@ def review_content(candidate: dict, material: dict) -> dict:
         reasons.append("CONTENT_EDITOR_HOLD")
     if review.get("failure_reasons"):
         reasons.append("CONTENT_UNRESOLVED_FAILURES")
+    if candidate.get("strategy_version") == "V4" and review.get("version") != "CONTENT_REVIEW_V4":
+        reasons.append("CONTENT_V4_REVIEW_REQUIRED")
+    if review.get("version") == "CONTENT_REVIEW_V4":
+        # Qualitative answers, not a ninth score or a traffic prediction.
+        value = review.get("reader_value") or {}
+        for key in ("stop_reason", "reader_gain", "response_reason", "distinct_angle"):
+            if not _note(value.get(key)):
+                reasons.append("CONTENT_READER_VALUE_REQUIRED:" + key)
+        from .x_native_style import platform_length
+        length = platform_length(text)
+        if not length["fits_standard"]:
+            reasons.append("CONTENT_STANDARD_LENGTH_OR_COMPOSER_REVIEW_REQUIRED")
     sentences = body_sentences(text)
     opening = review.get("opening") or {}
     payoff = review.get("payoff") or {}
@@ -123,7 +135,11 @@ def review_variant_set(variants: list[dict]) -> dict:
     reasons = []
     if len(variants) != 3 or {v.get("id") for v in variants} != {"A", "B", "C"}:
         reasons.append("THREE_VARIANTS_REQUIRED")
-    modes = {"A": "STORY", "B": "CONTRAST", "C": "DISCUSSION"}
+    versions = {v.get("strategy_version", "LEGACY") for v in variants}
+    if len(versions) != 1 or not versions <= {"LEGACY", "V4"}:
+        reasons.append("VARIANT_STRATEGY_VERSION_MISMATCH")
+    modes = ({"A": "DIRECT", "B": "PERSONAL", "C": "HUMAN_CONTRAST"} if versions == {"V4"}
+             else {"A": "STORY", "B": "CONTRAST", "C": "DISCUSSION"})
     for v in variants:
         if v.get("mode") != modes.get(v.get("id")):
             reasons.append("VARIANT_MODE_MISMATCH")

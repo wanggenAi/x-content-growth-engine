@@ -1,3 +1,9 @@
+# 2026-10-20 — 内容竞争力V4，暂停发布
+
+最新用户要求扩大题材同池竞争，先答停留/收益/回应/独特角度；复用现有八维与正文来源审查。A直接信息差、B自然个人表达、C真实人物反差，口语无配额，自然句不为分数而改。已完成真实10题/5题15稿/3篇人工审核推荐，非用户已认可或真实流量验证。仍由Codex会话选题写稿，Python只做轻量验证。HUMAN_STYLE_V2合同兼容；生产门槛及事实、安全标准保留。C390否定不被高分覆盖。
+
+本轮禁止向X发布，现有PAUSED不变，等待新的明确发布授权；采集与调度频率不变。工程、测试、PR及CI后合并获授权。见`docs/CONTENT_COMPETITIVENESS_V4_2026-10-20.md`。以下历史授权不能覆盖此指令。
+
 # 2026-10-17 — strict production topic competition
 
 Latest direct user request repairs the half-complete Viral Hunt with **Codex** as executor. Existing historical posts, review records and DRY_RUN_ONLY candidates are not migrated or republished.

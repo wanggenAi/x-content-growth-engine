@@ -92,6 +92,28 @@ class XNativeAndCommentTests(unittest.TestCase):
 
 
 class HumanVoicePipelineTests(unittest.TestCase):
+    def test_clean_authored_paragraph_is_not_reflowed_for_a_score(self):
+        text = '客人进门了。老板递来菜单。她点了一碗面，坐在靠窗的位置等朋友。'
+        result = run_human_voice_pipeline({'draft_text': text, 'authored_text': text,
+                                          'locked_facts': {'roles': ['客人', '老板']},
+                                          'primary_action': 'SHARE'})
+        self.assertEqual(result['rewritten_text'], text)
+        self.assertEqual(result['operations'], [])
+        self.assertEqual(result['human_style']['version'], 'HUMAN_STYLE_V2')
+        self.assertEqual(result['authoring']['version'], 'HUMAN_STYLE_V4')
+
+    def test_platform_count_preserves_chinese_weights_and_uncertainty(self):
+        from growth_engine.x_native_style import platform_length
+        self.assertEqual(platform_length('中文 A')['weighted_count'], 6)
+        self.assertEqual(platform_length('e\u0301')['weighted_count'], 1)
+        self.assertEqual(platform_length('https://example.com/very/long/path。')['weighted_count'], 25)
+        self.assertTrue(platform_length('中' * 140)['fits_standard'])
+        self.assertFalse(platform_length('中' * 141)['fits_standard'])
+        self.assertTrue(platform_length('32.99英镑')['fits_standard'])
+        for text in ['👨‍👩‍👧‍👦', 'example.museum', 'https://例子.cn/']:
+            self.assertFalse(platform_length(text)['fits_standard'])
+            self.assertEqual(platform_length(text)['status'], 'MANUAL_COMPOSER_CHECK_REQUIRED')
+
     def test_default_profile_reaches_codex_without_a_runtime_model(self):
         from growth_engine.human_voice import generate_viral_variants_prompt
         profile = generate_viral_variants_prompt({})['voice_profile']
