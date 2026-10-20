@@ -1367,3 +1367,8 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 
 
 2026-10-19 V3合并后验收：PR #15已合并，代码main SHA 486c891ed407725c00af373556309e164d658269。最终PR head与main Actions均SUCCESS；main上unittest/pytest各132通过、编译和diff-check通过，九稿重放完全一致，三篇新稿再次通过风格/事实锁/来源编辑检查。main重新免费采集100条、4来源族，99条源发布时间48h内，health HEALTHY；事件日期仍需单独检查，不把转载时间当新事件。新增资源依赖0。新来源页面实际捕获时间由首次缓存写入保留，后续复审不刷新抓取时间。完整证据见data/human_style_v3_2026-10-19/main_verification.json。未向X提交；尚缺用户认可正例、独立真人审查与可靠流量反馈。代码整改完成，内容仅可进入人工发布审核，不宣称具备爆款能力。
+
+
+# Separate Xianyu artwork checkpoint — 2026-10-20T02:07:07.191520Z
+
+User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.

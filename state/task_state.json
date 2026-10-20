@@ -1899,5 +1899,15 @@
     "main_replay": "PASS_EXACT_MATCH",
     "main_collection": "HEALTHY_100_MATERIALS_4_FAMILIES",
     "verification_file": "data/human_style_v3_2026-10-19/main_verification.json"
+  },
+  "side_tasks": {
+    "xianyu_price_free_cover_2026_10_20": {
+      "updated_at_utc": "2026-10-20T02:07:07.191520Z",
+      "status": "LOCAL_ASSET_READY",
+      "summary": "User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.",
+      "cover": "data/private/xianyu_listing/cover-no-price.png",
+      "prompt": "data/private/xianyu_listing/cover-no-price-prompt.txt",
+      "mode": "built-in ImageGen edit"
+    }
   }
 }
