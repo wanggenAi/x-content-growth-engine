@@ -2,7 +2,7 @@
 
 用户要求实际工程、10题竞争/5题ABC/3篇推荐、测试/资源基准、PR及CI后合并；本轮不得发X，等待新明确授权。来自origin/main `5c0c5d9`的独立feature分支；本地main分叉历史保留。
 
-已完成：固定版本开源实现与MIT审查；仅修改现有写作、正文审查、hunt和长度检查；新运行依赖0。真实10题深审、15稿事实锁/来源逐句核对及风格均通过；完整发布门槛未通过，不冒充READY。21条历史反馈重跑，24h合格0；C390拒绝负例保留。137 unittest/137 pytest/compileall通过；旧20题/9稿中位耗时0.32177→0.32105秒，无明显资源退化。PR/CI/合并待继续完成。产物：`docs/CONTENT_COMPETITIVENESS_V4_2026-10-20.md`与`data/content_competition_v4_2026-10-20/`。暂停开关与调度原样保留，新发布0。
+已完成：固定版本开源实现与MIT审查；仅修改现有写作、正文审查、hunt和长度检查；新运行依赖0。真实10题深审、15稿事实锁/来源逐句核对及风格均通过；完整发布门槛未通过，不冒充READY。21条历史反馈重跑，24h合格0；C390拒绝负例保留。137 unittest/137 pytest/compileall通过；旧20题/9稿中位耗时0.32177→0.32105秒，无明显资源退化。PR #16已合并，merge SHA `79b92cac3e7af22a3eecff937bbe905e39d76c6a`；PR双CI与main CI39359006847成功。合并后本地再次137 unittest/137 pytest/compileall通过，代码树与评审分支一致。本次后续提交只保存验证回执。产物：`docs/CONTENT_COMPETITIVENESS_V4_2026-10-20.md`与`data/content_competition_v4_2026-10-20/`。暂停开关与调度原样保留，新发布0。
 
 以下为历史断点，最新状态以本节及机器状态V4记录为准。
 

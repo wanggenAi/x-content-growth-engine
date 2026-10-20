@@ -1,13 +1,13 @@
 {
   "baseline_main_sha": "5c0c5d90d3f154fd2ecdbac1de34a38dc5dba175",
-  "updated_at_utc": "2026-10-20T02:23:42.935152Z",
+  "updated_at_utc": "2026-10-20T02:29:03.183099Z",
   "unittest_baseline": 132,
   "unittest_after": 137,
   "pytest_after": "137 passed; isolated temporary pytest environment, no runtime dependency",
   "compileall": "PASS",
-  "ci": "PENDING",
-  "pr_url": null,
-  "merge_sha": null,
+  "ci": "PASS: both PR checks and merged-main tests workflow",
+  "pr_url": "https://github.com/wanggenAi/x-content-growth-engine/pull/16",
+  "merge_sha": "79b92cac3e7af22a3eecff937bbe905e39d76c6a",
   "production_dry_run": {
     "deep_reviewed_topics": 10,
     "drafted_topics": 5,
@@ -178,5 +178,15 @@
   "seed_audit": {
     "runtime_database": "temporary isolated SQLite, not committed",
     "output": "{\n  \"stats\": {\n    \"x_posts\": 7,\n    \"high_candidates\": 4,\n    \"ordinary_candidates\": 3,\n    \"authors\": 4,\n    \"observations\": 7,\n    \"methods\": {\n      \"public_search_index\": 7\n    },\n    \"unknown_views\": 0,\n    \"unknown_followers\": 7,\n    \"same_author_both_cohorts\": [\n      \"AI_Jasonyu\"\n    ],\n    \"materials\": 0,\n    \"materials_needing_review\": 0,\n    \"own_posts\": 0,\n    \"own_post_observations\": 0,\n    \"ingest_runs\": 1,\n    \"failed_ingest_runs\": 0,\n    \"indexed_metric_observations\": 7,\n    \"direct_metric_observations\": 0,\n    \"quality\": {\n      \"discovered_posts\": 7,\n      \"original_confirmed\": 0,\n      \"posts_with_any_views\": 7,\n      \"posts_with_exact_index_views\": 3,\n      \"posts_with_approximate_index_views\": 4,\n      \"posts_with_dated_metrics\": 0,\n      \"provisional_high\": 4,\n      \"provisional_ordinary\": 3,\n      \"cohorts_with_relative_basis\": 0,\n      \"exploratory_pairs\": 0,\n      \"ready_pairs\": 0,\n      \"conflicting_observation_groups\": 0,\n      \"query_runs\": 0,\n      \"annotations\": 0,\n      \"reviewed_hypotheses\": 0\n    }\n  },\n  \"issues\": [\n    \"Below exploratory collection targets; no formula validation\",\n    \"All available X view counts come from stale search-index snapshots\",\n    \"Author follower counts unknown; reach cannot be normalized\"\n  ]\n}\n"
+  },
+  "main_verification": {
+    "verified_code_sha": "79b92cac3e7af22a3eecff937bbe905e39d76c6a",
+    "verified_at_utc": "2026-10-20T02:29:03.183099Z",
+    "main_ci_url": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39359006847",
+    "unittest": 137,
+    "pytest": 137,
+    "compileall": "PASS",
+    "tree_matches_reviewed_pr_head": true,
+    "verification_followup_scope": "Evidence/state only; final pushed main SHA discoverable in Git history."
   }
 }

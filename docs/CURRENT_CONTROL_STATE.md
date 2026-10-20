@@ -4,6 +4,8 @@ Latest direct user request authorizes research, code, tests, real editorial dry-
 
 V4 extends existing Human Style/source/content-review interfaces; HUMAN_STYLE_V2 contract remains compatible. Ten actual topics and fifteen drafts are editorial examples, not traffic validation or a production-admitted pool. Existing strict production competition and exact prepublish controls remain. Current comparable traffic/engagement/follows UNKNOWN; C390 user rejection retained.
 
+PR [#16](https://github.com/wanggenAi/x-content-growth-engine/pull/16) merged as `79b92cac3e7af22a3eecff937bbe905e39d76c6a`; [merged-main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39359006847) passed, as did local 137 unittest/137 pytest/compileall. Follow-up changes only record verification.
+
 See [V4 evidence and drafts](CONTENT_COMPETITIVENESS_V4_2026-10-20.md). Older controls below are historical.
 
 # 2026-10-19 — merged code; drafts awaiting human review
