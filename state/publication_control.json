@@ -1,17 +1,31 @@
 {
   "status": "PAUSED",
-  "mode": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
-  "reason": "LATEST_USER_2026_10_19_NO_X_SUBMISSION",
-  "updated_at": "2026-10-19T04:32:50.124337Z",
-  "scope": "Research, edit, test, PR and merge authorized. New X submission requires explicit new authorization.",
+  "mode": "AUTHORIZED_20_MINUTE_SLOTS_TRANSPORT_BLOCKED",
+  "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
+  "updated_at": "2026-10-21T13:53:00.978522+00:00",
+  "scope": "User authorizes own-account original Chinese posts and official scheduling; no per-post confirmation. Quality and platform compliance required.",
   "automatic_x_submission": false,
-  "scheduler_changed": false,
+  "scheduler_changed": true,
   "publication_requires": [
     "SOURCE_FACT_REVIEW",
     "READER_MODEL_SEMANTIC_INTEGRITY",
     "HUMAN_STYLE_V2",
     "EDITORIAL_GATE",
     "PRE_PUBLISH_ASSERT",
-    "MANUAL_VISIBLE_SUBMISSION"
-  ]
+    "OFFICIAL_COMPLIANT_CHANNEL",
+    "VERIFIED_ACCOUNT_HISTORY",
+    "MINIMUM_20_MINUTE_INTERVAL",
+    "OFFICIAL_CONFIRMATION_AND_EXACT_TEXT"
+  ],
+  "user_publication_authorized": true,
+  "minimum_interval_minutes": 20,
+  "slot_minutes": 20,
+  "theoretical_slots_per_day": 72,
+  "conservative_original_posts_per_rolling_24h": 50,
+  "transport": {
+    "verified": false,
+    "reason": "Native website automation prohibited; Metricool has no connected network and X requires a paid add-on; no zero-cost official API verified.",
+    "native_account_schedule_capability": "UNKNOWN",
+    "checked_at": "2026-10-21T13:53:00.978522+00:00"
+  }
 }

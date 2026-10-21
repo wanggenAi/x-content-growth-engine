@@ -433,6 +433,13 @@ def main() -> None:
     validation_parser.add_argument("feed", type=Path)
     validation_parser.add_argument("reviews", type=Path)
     validation_parser.add_argument("--output", required=True, type=Path)
+    queue_parser = sub.add_parser("publication-queue", help="check local 20-minute queue; never submits X")
+    queue_parser.add_argument("queue", type=Path)
+    queue_parser.add_argument("candidate", type=Path, help="complete validate-hunt output")
+    queue_parser.add_argument("--enqueue", action="store_true")
+    queue_parser.add_argument("--receipt", type=Path, help="agent-checked official confirmation; never a local plan")
+    queue_parser.add_argument("--failed", help="candidate ID with an ambiguous/failed actual submission")
+    queue_parser.add_argument("--reason", default="")
     leads_parser = sub.add_parser("import-search-leads", help="import browser search leads after original-page verification")
     leads_parser.add_argument("file", type=Path)
     leads_parser.add_argument("--output", required=True, type=Path)
@@ -558,6 +565,38 @@ def main() -> None:
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
             parser.exit(1, f"scheduled collection failed: {exc}\n")
         return
+    if args.command == "publication-queue":
+        try:
+            import fcntl
+            from .publication_control import new_queue, review_for_queue, slot_check, record_confirmation, record_failure
+            args.queue.parent.mkdir(parents=True, exist_ok=True)
+            # Serialize read/modify/replace; two wakeups must not consume the same slot.
+            with args.queue.with_suffix(".lock").open("a") as lock:
+                fcntl.flock(lock, fcntl.LOCK_EX)
+                queue = json.loads(args.queue.read_text()) if args.queue.exists() else new_queue()
+                result = json.loads(args.candidate.read_text())
+                candidate = result["production_pipeline"]["candidate"]
+                now = datetime.now(timezone.utc).isoformat()
+                if args.enqueue:
+                    if result.get("final_status") != "READY_CANDIDATE_DRY_RUN":
+                        raise ValueError("complete production dry-run must PASS before queue review")
+                    review_for_queue(queue, candidate, now=now, candidate_ref=args.candidate,
+                                     feedback=result["production_pipeline"]["feedback_24h"])
+                if args.failed:
+                    record_failure(queue, args.failed, now=now, reason=args.reason)
+                if args.receipt:
+                    receipt = json.loads(args.receipt.read_text())
+                    record_confirmation(queue, receipt["candidate_id"], receipt, now=now)
+                slot = slot_check(queue, {candidate["candidate_id"]: candidate}, now=now)
+                temp = args.queue.with_suffix(".tmp")
+                temp.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n")
+                temp.replace(args.queue)
+            print(json.dumps({"slot": slot, "counts": {state: sum(i["status"] == state for i in queue["items"])
+                              for state in ("DRAFT", "REVIEWED", "SCHEDULED", "PUBLISHED", "FAILED", "SKIPPED")},
+                              "external_action": False}, ensure_ascii=False))
+        except (OSError, ValueError, TypeError, KeyError, StopIteration) as exc:
+            parser.exit(1, f"publication queue failed: {exc}\n")
+        return
     if args.command == "validate-hunt":
         try:
             from .hunt import production_dry_run, render_editorial_drafts
@@ -582,7 +621,6 @@ def main() -> None:
     if args.command == "rank-materials":
         try:
             from .viral_admission import PREVIEW_MODE, PRODUCTION_MODE, rank_materials
-            from datetime import timezone
             packet = json.loads(args.file.read_text(encoding="utf-8"))
             records = packet.get("materials") if isinstance(packet, dict) else packet
             as_of = args.as_of or (packet.get("as_of") if isinstance(packet, dict) else None)
@@ -601,7 +639,6 @@ def main() -> None:
             if not isinstance(records, list):
                 raise ValueError("candidate input must be a JSON array")
             from .viral_admission import PRODUCTION_MODE, rank_materials
-            from datetime import timezone
             as_of = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
             materials = [record.get("material", record) for record in records]
             competition = rank_materials(materials, as_of=as_of, admission_mode=PRODUCTION_MODE)

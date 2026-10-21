@@ -1,0 +1,594 @@
+{
+ "base_feed": "data/production_closure_v4_2026-10-21/source_packet.json",
+ "base_reviews": "data/production_closure_v4_2026-10-21/editorial_reviews.json",
+ "base_feed_hash": "83d234ff2065640c980f7dbec6da6148f8d275e832f0b539c12937d8309a69f8",
+ "base_reviews_hash": "0533615e37d1f869e255fb69d7aa2bea9047269d6c87b3cfd8492fded20244cb",
+ "reviewed_at": "2026-10-21T13:53:00.978522+00:00",
+ "reason": "Fresh original-page reread narrows overbroad browser-blocking claim; historical artifacts and competition timestamp remain unchanged.",
+ "material": {
+  "material_id": "Da5a081fa02eb50c1",
+  "event_id": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+  "topic": "证书私钥竟然只是数字4",
+  "text": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；Chrome和Firefox已直接封锁相关中间证书，不能写成所有人的浏览器已经被攻破。",
+  "source": {
+   "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+   "published_at": "2026-10-20T19:53:02.000Z",
+   "timestamp_precision": "SOURCE_TIMESTAMP",
+   "captured_at": "2026-10-21T12:25:01.594726Z",
+   "evidence_text": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+   "status": "SOURCE_CHECKED",
+   "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+   "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+   "fact_verification": "UNVERIFIED",
+   "event_time": null,
+   "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+   "method": "OFFICIAL_HACKER_NEWS_FIREBASE",
+   "family": "HACKER_NEWS",
+   "discussion_url": "https://news.ycombinator.com/item?id=50177916",
+   "hn_score": 285,
+   "hn_comments": 116,
+   "author": "hkc",
+   "timestamp_basis": "ORIGINAL_ARTICLE_PUBLISHED_TIME",
+   "original_page_captured_at": "2026-10-21T13:47:41.847330+00:00",
+   "original_page_sha256": "1d77499b4b0c0bfcdf22cdbe09a6915a9b722b1e52ed48dce8451d28d54080bf",
+   "visible_date_labels": [
+    "10月20日"
+   ],
+   "freshness_scope": "ORIGINAL_2026_10_20_REPORT_OF_REPRODUCTION;EXACT_EXPERIMENT_TIME_UNKNOWN"
+  },
+  "content_hash": "a8bbcb97f588f174ae5e39e7517e4b1c898b1303a85f5ccb0aa03f2b26bf4bcc",
+  "human_checked": false,
+  "source_evidence": [
+   {
+    "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+    "excerpt": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+    "captured_at": "2026-10-21T12:28:39.480924Z",
+    "page_sha256": "1d77499b4b0c0bfcdf22cdbe09a6915a9b722b1e52ed48dce8451d28d54080bf",
+    "scope": "SHORT_EXCERPTS_FROM_OPENED_ORIGINAL; translated material summary reviewed by Codex"
+   },
+   {
+    "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
+    "excerpt": "Mozilla was able to recover the private keys for the impacted certificates independently @ 21:48 UTC and without any knowledge of the method the original reporter used, confirming the key generation process was flawed and is trivial to exploit.",
+    "captured_at": "2026-10-21T12:30:26.873987Z",
+    "page_sha256": "73b184b70e2d16badc4431005ab5e6d6ce510b48012dd521f455b0ca3879834a"
+   }
+  ],
+  "publication_allowed": false
+ },
+ "editorial_record": {
+  "material_id": "Da5a081fa02eb50c1",
+  "ratings": [
+   3,
+   4,
+   0,
+   3,
+   4,
+   3,
+   4,
+   2
+  ],
+  "evidence": [
+   "研究者Scott Helme在10月20日文章称",
+   "从eMudhra公开证书恢复的一个私钥就是4",
+   "另有56和115",
+   "本应是384位随机数",
+   "却只占一个字节",
+   "Mozilla事件单独立确认能恢复这些私钥",
+   "Chrome和Firefox已直接封锁相关中间证书",
+   "不能写成所有人的浏览器已经被攻破"
+  ],
+  "reasons": [
+   "研究者有复现实验，Mozilla独立确认弱密钥，具体4仍按作者归因，不给满分",
+   "本应384位随机却只有一个字节，反差是安全假设与实际值",
+   "没有人际冲突或责任争执，不用厂商声望编对抗",
+   "读者熟悉密码强度，须明确这是机构证书私钥而非个人密码",
+   "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+   "大众知道钥匙不能太简单，证书术语要压到最低",
+   "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界",
+   "可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉"
+  ],
+  "possible_reply_branches": [
+   "更新浏览器是否足够，还要查其他客户端",
+   "应先纠正密钥生成与复核流程"
+  ],
+  "decision": "PASS",
+  "selection_note": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。",
+  "previews": [
+   {
+    "id": "A",
+    "mode": "DIRECT",
+    "strategy_version": "V4",
+    "text": "给网站发安全证书的机构，有把私钥竟然是4。\n\nScott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下。另两把是56和115。\n\n格式检查都过。Chrome和Firefox已直接封锁相关中间证书。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+    "locked_facts": {
+     "numbers": [
+      "10",
+      "115",
+      "20",
+      "384",
+      "4",
+      "56"
+     ],
+     "dates": [
+      "10月20日"
+     ],
+     "quotes": [],
+     "urls": [
+      "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+     ],
+     "roles": [],
+     "boundaries": []
+    },
+    "primary_action": "SHARE",
+    "structure_reason": "先把机构私钥4的荒诞事实交付，再解释强度落差和已知防护，面向无需证书背景的读者。",
+    "editorial_tradeoff": "保留：第一句交代这不是个人密码；384位和浏览器已拦截守住边界。缺点是术语仍有门槛，末句不承担新的安全建议。",
+    "content_review": {
+     "version": "CONTENT_REVIEW_V4",
+     "method": "TEXT_FIRST_COMPARISON",
+     "reviewer": "Codex / exact-text source review",
+     "reviewed_at": "2026-10-21T13:53:00.978522+00:00",
+     "text_hash": "5912dc155b281822af28891f40726b71bca4a775495a65dde6b298a0691dcec1",
+     "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+     "decision": "PASS",
+     "failure_reasons": [],
+     "opening": {
+      "quote": "给网站发安全证书的机构，有把私钥竟然是4",
+      "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+      "alternatives": [
+       {
+        "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+        "approach": "CONCRETE_INSTITUTION_ACTION",
+        "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+        "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+       },
+       {
+        "text": "格式看起来完全正常，私钥却简单到4。",
+        "approach": "PROCESS_CONTRAST",
+        "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+        "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try."
+       }
+      ],
+      "selection_reason": "保留：第一句交代这不是个人密码；384位和浏览器已拦截守住边界。缺点是术语仍有门槛，末句不承担新的安全建议。 本次删去泛化安全判断，以明确产品措施收尾。"
+     },
+     "payoff": {
+      "quote": "Chrome和Firefox已直接封锁相关中间证书",
+      "reason": "给出原文明确支持的Chrome与Firefox直接封锁边界，不将Safari的CT要求写成同一措施。"
+     },
+     "comparison": {
+      "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+      "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+      "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+      "difference": "先把机构私钥4的荒诞事实交付，再解释强度落差和已知防护，面向无需证书背景的读者。"
+     },
+     "reader_value": {
+      "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+      "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；Chrome和Firefox已直接封锁相关中间证书，不能写成所有人的浏览器已经被攻破。",
+      "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+      "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+     },
+     "novelty": {
+      "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+      "distinct": true,
+      "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+     },
+     "claims": [
+      {
+       "draft_span": "给网站发安全证书的机构，有把私钥竟然是4",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "Scott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "另两把是56和115",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "格式检查都过",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+       "verdict": "SUPPORTED",
+       "reason": "重新打开原文逐句复核；直接封锁只限定Chrome与Firefox，不推断Safari同样直接阻断；未声称本账号复现。"
+      },
+      {
+       "draft_span": "Chrome和Firefox已直接封锁相关中间证书",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      }
+     ]
+    },
+    "reader_recheck": {
+     "interest": "首屏事实可理解但证书概念仍有门槛",
+     "personal_expression": "反应与角度是编辑表达，不冒充实测",
+     "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+     "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+    }
+   },
+   {
+    "id": "B",
+    "mode": "PERSONAL",
+    "strategy_version": "V4",
+    "text": "还以为漏了一长串数字。没有，私钥就是4。\n\nScott Helme在10月20日文章中给出的eMudhra私钥，还有56和115。\n\nChrome和Firefox已直接封锁相关中间证书。最离谱的是，证书格式检查还全都过了。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+    "locked_facts": {
+     "numbers": [
+      "10",
+      "115",
+      "20",
+      "4",
+      "56"
+     ],
+     "dates": [
+      "10月20日"
+     ],
+     "quotes": [],
+     "urls": [
+      "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+     ],
+     "roles": [],
+     "boundaries": []
+    },
+    "primary_action": "SHARE",
+    "structure_reason": "把读者误以为漏看数字的反应写出来，用4、56、115递进而非复述研究过程，不冒充复现实验。",
+    "editorial_tradeoff": "未选：口语更松，但开头要读两句才懂是什么私钥，省掉384位后机制信息减少。",
+    "content_review": {
+     "version": "CONTENT_REVIEW_V4",
+     "method": "TEXT_FIRST_COMPARISON",
+     "reviewer": "Codex / exact-text source review",
+     "reviewed_at": "2026-10-21T13:53:00.978522+00:00",
+     "text_hash": "23b4d670c40f66279a76a818cbacbd0d3db8d6ee0fa3775992b10ac4db3ada14",
+     "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+     "decision": "PASS",
+     "failure_reasons": [],
+     "opening": {
+      "quote": "还以为漏了一长串数字",
+      "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+      "alternatives": [
+       {
+        "text": "还以为漏了一长串数字。",
+        "approach": "READER_REACTION",
+        "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+        "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+       },
+       {
+        "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+        "approach": "CONCRETE_INSTITUTION_ACTION",
+        "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+        "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+       }
+      ],
+      "selection_reason": "未选：口语更松，但开头要读两句才懂是什么私钥，省掉384位后机制信息减少。 本次删去泛化安全判断，以明确产品措施收尾。"
+     },
+     "payoff": {
+      "quote": "Chrome和Firefox已直接封锁相关中间证书",
+      "reason": "给出原文明确支持的Chrome与Firefox直接封锁边界，不将Safari的CT要求写成同一措施。"
+     },
+     "comparison": {
+      "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+      "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+      "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+      "difference": "把读者误以为漏看数字的反应写出来，用4、56、115递进而非复述研究过程，不冒充复现实验。"
+     },
+     "reader_value": {
+      "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+      "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；Chrome和Firefox已直接封锁相关中间证书，不能写成所有人的浏览器已经被攻破。",
+      "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+      "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+     },
+     "novelty": {
+      "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+      "distinct": true,
+      "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+     },
+     "claims": [
+      {
+       "draft_span": "还以为漏了一长串数字",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+       "verdict": "SUPPORTED",
+       "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+      },
+      {
+       "draft_span": "没有，私钥就是4",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "Scott Helme在10月20日文章中给出的eMudhra私钥，还有56和115",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "Chrome和Firefox已直接封锁相关中间证书",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+       "verdict": "SUPPORTED",
+       "reason": "重新打开原文逐句复核；直接封锁只限定Chrome与Firefox，不推断Safari同样直接阻断；未声称本账号复现。"
+      },
+      {
+       "draft_span": "最离谱的是，证书格式检查还全都过了",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+       "verdict": "SUPPORTED",
+       "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+      }
+     ]
+    },
+    "reader_recheck": {
+     "interest": "首屏事实可理解但证书概念仍有门槛",
+     "personal_expression": "反应与角度是编辑表达，不冒充实测",
+     "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+     "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+    }
+   },
+   {
+    "id": "C",
+    "mode": "HUMAN_CONTRAST",
+    "strategy_version": "V4",
+    "text": "证书格式检查，全过了。私钥，却是4。\n\n这次的问题，外观上看不出来。Scott Helme在10月20日文章里核对eMudhra证书发现：本应是384位随机数，实际取值小到一个字节就装得下。\n\nChrome和Firefox已直接封锁相关中间证书。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+    "locked_facts": {
+     "numbers": [
+      "10",
+      "20",
+      "384",
+      "4"
+     ],
+     "dates": [
+      "10月20日"
+     ],
+     "quotes": [],
+     "urls": [
+      "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+     ],
+     "roles": [],
+     "boundaries": []
+    },
+    "primary_action": "SHARE",
+    "structure_reason": "先放形式合规与极弱数值的冲突，再解释为什么外观检查不等于钥匙强度，面向制度流程讨论。",
+    "editorial_tradeoff": "未选：合规与强度的反差更尖锐，但开头未先解释证书机构，末句容易像套路总结。",
+    "content_review": {
+     "version": "CONTENT_REVIEW_V4",
+     "method": "TEXT_FIRST_COMPARISON",
+     "reviewer": "Codex / exact-text source review",
+     "reviewed_at": "2026-10-21T13:53:00.978522+00:00",
+     "text_hash": "5d79d0f9981a4ee30c51fe37bb906307a56559e8e2410041cd90fcff9b5afdcd",
+     "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+     "decision": "PASS",
+     "failure_reasons": [],
+     "opening": {
+      "quote": "证书格式检查，全过了",
+      "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+      "alternatives": [
+       {
+        "text": "证书格式检查，全过了。",
+        "approach": "PROCESS_CONTRAST",
+        "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+        "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+       },
+       {
+        "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+        "approach": "CONCRETE_INSTITUTION_ACTION",
+        "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+        "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+       }
+      ],
+      "selection_reason": "未选：合规与强度的反差更尖锐，但开头未先解释证书机构，末句容易像套路总结。 本次删去泛化安全判断，以明确产品措施收尾。"
+     },
+     "payoff": {
+      "quote": "Chrome和Firefox已直接封锁相关中间证书",
+      "reason": "给出原文明确支持的Chrome与Firefox直接封锁边界，不将Safari的CT要求写成同一措施。"
+     },
+     "comparison": {
+      "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+      "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+      "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+      "difference": "先放形式合规与极弱数值的冲突，再解释为什么外观检查不等于钥匙强度，面向制度流程讨论。"
+     },
+     "reader_value": {
+      "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+      "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；Chrome和Firefox已直接封锁相关中间证书，不能写成所有人的浏览器已经被攻破。",
+      "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+      "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+     },
+     "novelty": {
+      "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+      "distinct": true,
+      "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+     },
+     "claims": [
+      {
+       "draft_span": "证书格式检查，全过了",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "私钥，却是4",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "这次的问题，外观上看不出来",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+       "verdict": "SUPPORTED",
+       "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+      },
+      {
+       "draft_span": "Scott Helme在10月20日文章里核对eMudhra证书发现：本应是384位随机数，实际取值小到一个字节就装得下",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      },
+      {
+       "draft_span": "Chrome和Firefox已直接封锁相关中间证书",
+       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+       "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+       "verdict": "SUPPORTED",
+       "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+      }
+     ]
+    },
+    "reader_recheck": {
+     "interest": "首屏事实可理解但证书概念仍有门槛",
+     "personal_expression": "反应与角度是编辑表达，不冒充实测",
+     "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+     "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+    }
+   }
+  ],
+  "reader_value": {
+   "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+   "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；Chrome和Firefox已直接封锁相关中间证书，不能写成所有人的浏览器已经被攻破。",
+   "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+   "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+  },
+  "audience_distance": {
+   "value": "MEDIUM",
+   "evidence": "本应是384位随机数",
+   "reason": "读者熟悉密码强度，须明确这是机构证书私钥而非个人密码"
+  },
+  "background_cost": {
+   "value": "LOW",
+   "evidence": "却只占一个字节",
+   "reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息"
+  },
+  "hook": {
+   "text": "研究者Scott Helme在10月20日文章称",
+   "evidence": "研究者Scott Helme在10月20日文章称",
+   "reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息"
+  },
+  "contrast_basis": {
+   "before": "本应是384位随机数",
+   "after": "却只占一个字节"
+  },
+  "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS",
+  "recommended_variant": "A"
+ },
+ "production_candidate": {
+  "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+  "material_id": "Da5a081fa02eb50c1",
+  "variant_id": "A",
+  "research_version": "V4_FRESH_2026_10_21_1225",
+  "publication_version": "V4_CLOSURE_A_1",
+  "topic": "证书私钥竟然只是数字4",
+  "subject_value": "公开证书外观合规，实际私钥强度却极低的具体机制反差",
+  "information_gap": "证书格式合法与私钥足够难猜并非同一件事",
+  "payload": "作者恢复的一把私钥为4，并区分更新浏览器与其他客户端的防护范围",
+  "primary_action_reader": "想把具体失败机制发给写代码或维护系统朋友的中文读者",
+  "novelty_check": "对完整193条发布记忆查同事件、同来源及近似正文，未找到重复；非声明题材永不重复",
+  "audit_language_separation": "正文只保留公开事实、明确作者归因与个人反应；内部评级和假设不进入帖子",
+  "follow_reason": "后续继续解释普通人能看懂的具体技术失误及防护边界，不以宏观科技新闻摘要占位",
+  "material_strength": "STRONG",
+  "fact_check_status": "AUTHOR_REPRODUCTION_ATTRIBUTED_AND_MOZILLA_INDEPENDENT_RECOVERY_CONFIRMED; NO_LOCAL_EXPLOIT_OR_OUTCOME_CLAIM",
+  "human_checked": false,
+  "agent_checked": true,
+  "user_authorized": true,
+  "publication_review_exception": "USER_AUTHORIZED_AGENT_REVIEW",
+  "authorization_scope": "Existing AGENTS.md per-post body review waiver only; no X submission authorized. PAUSED unchanged.",
+  "source_fact_review": {
+   "status": "FACT_BOUNDARIES_REVIEWED",
+   "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+   "evidence": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+   "reason": "作者具体数字与公开证书复现按来源归因；Mozilla独立确认弱密钥恢复，Chrome/Firefox直接封锁边界与未知实际攻击分开。"
+  },
+  "reader_model": {
+   "model_version": "READER_VALUE_V2",
+   "claim_status": "HYPOTHESIS",
+   "material_strength": "HIGH",
+   "evidence_strength": "FULL_RECORDED_TEXT",
+   "novelty_status": "CHECKED",
+   "reader_value_routes": [
+    {
+     "route": "CURIOSITY",
+     "strength": "HIGH",
+     "cue": "有把私钥竟然是4",
+     "reader_thought": "为什么证书能正常通过检查，钥匙却小到这个程度"
+    }
+   ],
+   "dominant_reader_value_route": "CURIOSITY",
+   "why_reader_cares": "安全证书听起来复杂，但4这个数值把强度落差变成可理解的具体事实",
+   "predicted_inner_response": "这么简单的私钥，格式检查为什么还能过；更新浏览器与其他客户端的边界是什么",
+   "self_relevance": "MEDIUM",
+   "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+   "controversy_risk": "LOW",
+   "curiosity_types": [
+    "COUNTERINTUITIVE_FACT",
+    "MECHANISM_CURIOSITY"
+   ],
+   "curiosity": "HIGH",
+   "information_gap": "格式检查与私钥数值强度各管什么，为什么外观看起来没问题",
+   "social_currency": "MEDIUM",
+   "share_recipient": "写代码或维护系统的朋友",
+   "share_reason": "转发具体的极弱私钥案例及Chrome和Firefox已直接封锁相关中间证书的边界，讨论检查是否真的检查了强度",
+   "annotation_origin": "CODEX_EXPLICIT_SOURCE_AND_EXACT_TEXT_REVIEW",
+   "rationale": {
+    "material_strength": "独立Mozilla事件记录确认恢复弱密钥，原文复现给出4等数值，仍不声明亲自执行或真实攻击。",
+    "curiosity": "机构本应384位随机私钥却极弱，具体数值能形成可解释的信息差，而非夸大后果。"
+   },
+   "semantic_binding": {
+    "context_hash": "b90a7104337ef8516f8f62038ab0c15d04a69ae81cba4f13ee73e340ed49d7f7",
+    "field_evidence": {
+     "material_strength": {
+      "quote": "私钥竟然是4",
+      "reason": "正文精确给数值且来源已核对，强度指素材支撑充足，不是流量预测。",
+      "value_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+     },
+     "curiosity": {
+      "quote": "本该是384位随机数",
+      "reason": "正文直接给安全预期，再给小数值结果，读者假设可从原句追溯。",
+      "value_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+     },
+     "why_reader_cares": {
+      "quote": "私钥竟然是4",
+      "reason": "把专业安全问题缩到可理解的4，兴趣仍只是编辑假设。",
+      "value_hash": "a5f6bb9b0f10e23b2fbbde0f2ddfff1ebaa7e0089c51d7ace8b473897054d056"
+     },
+     "predicted_inner_response": {
+      "quote": "格式检查都过",
+      "reason": "这一句允许读者追问检查边界，未声称真实评论已经出现。",
+      "value_hash": "e585039fdb5b76830d41a4889fde80c55244d957f763a3e3c95ede7693dc889d"
+     },
+     "reader_value_routes": {
+      "quote": "私钥竟然是4",
+      "reason": "好奇入口来自具体极弱数值，不从科技标签或媒体权威推断。",
+      "value_hash": "f5e3671fa84bd4e306fd8f4135507f4e83cab99c31ae3b854980c8373a0d21c6"
+     },
+     "information_gap": {
+      "quote": "格式检查都过",
+      "reason": "形式合规与强度落差在同一条正文出现，信息差可定位。",
+      "value_hash": "ee3982cb8a8a0e1087a0bb124bf1140e0f8b6f7f645af380fb7e63cabe4685d1"
+     },
+     "share_recipient": {
+      "quote": "eMudhra证书",
+      "reason": "这个技术细节对维护系统的人有具体讨论价值，分享对象是编辑假设。",
+      "value_hash": "f5c4db677d999e33e57b11eec222546c4d4b98b51772e0573617509d95b59fdd"
+     },
+     "share_reason": {
+      "quote": "Chrome和Firefox已直接封锁相关中间证书",
+      "reason": "转发既含失败机制也含防护边界，避免把恐慌当分享理由。",
+      "value_hash": "a0aa166bff5dd1b1ce29a0ea2b583da139c4d2fedf2ec4797532b95945b1ece4"
+     }
+    }
+   }
+  }
+ }
+}
