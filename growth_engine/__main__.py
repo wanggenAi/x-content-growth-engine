@@ -562,6 +562,8 @@ def main() -> None:
         try:
             from .hunt import production_dry_run, render_editorial_drafts
             feed = json.loads(args.feed.read_text(encoding="utf-8")); reviews = json.loads(args.reviews.read_text(encoding="utf-8"))
+            if "publication_memory" not in reviews and reviews.get("publication_memory_ref"):
+                reviews["publication_memory"] = json.loads(Path(reviews["publication_memory_ref"]).read_text(encoding="utf-8"))["publication_memory"]
             result = production_dry_run(feed, reviews)
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -571,6 +573,8 @@ def main() -> None:
                               "top1": result["recommended_top1"],
                               "top3": [r["material_id"] for r in ranking["top3"]],
                               "reviewed": ranking["reviewed_source_count"], "previews": len(result["top1_previews"]),
+                              "prepublish_dry_run_passed": result["production_pipeline"]["prepublish"]["passed"],
+                              "production_holds": result["production_pipeline"]["prepublish"].get("reasons", []),
                               "publication_allowed": False, "output": str(args.output)}, ensure_ascii=False))
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
             parser.exit(1, f"hunt validation failed: {exc}\n")

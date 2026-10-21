@@ -1,3 +1,7 @@
+# 2026-10-21 — V4完整生产候选闭环
+
+最新用户要求只接通现有生产流程，不开发V5；工程、PR与CI后合并获授权，本轮禁止X提交。新采集100条，36独立题材/22有效深评/30来源时间48h内/4族，唯一Top1为eMudhra弱私钥4。Codex实写ABC、逐句来源复核，现有Reader Model、Human Style、Editorial Gate、exact-text Prepublish dry-run全PASS；输出READY_CANDIDATE_DRY_RUN。PAUSED及DRY_RUN_ONLY仍阻断实际提交。human_checked=false，正文代理审核沿用AGENTS明确豁免，不是发布授权；24h未发布记录全null/UNKNOWN，历史合格固定窗0。149 unittest/149pytest/compileall PASS。新增运行依赖、服务、数据库、定时任务均0；C390 REJECT与暂停/调度文件哈希不变。见docs/PRODUCTION_CLOSURE_V4_2026-10-21.md及data/production_closure_v4_2026-10-21/。PR/合并CI收据待实际完成后补。
+
 # Latest control — 2026-10-21 final V4 priority repair
 
 Research/code/tests/PR/CI/merge only; publication remains PAUSED. Same eight dimensions, explicit editorial veto and two-opening review, no V5/new scorer/dependency/service/schedule. Raw30/deep22/fresh22/families5 competition passes for unique topic Top1, not full publication READY. Source/fact/style checks do not authorize X. Historical24h eligible0 and real growth UNKNOWN; preserve C390 REJECT. See CONTENT_PRIORITY_V4_FINAL_2026-10-21.md. PR [#18](https://github.com/wanggenAi/x-content-growth-engine/pull/18) merged as `78d402fd5d968014b82ae3ed46343aee8ce60c0a`; [merged-main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432) SUCCESS. Merged-main local146 unittest/146pytest/compileall PASS; complete tree equals the reviewed PR head. Follow-up commit records verification only..
