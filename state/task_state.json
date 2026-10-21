@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T14:00:14.887406+00:00",
+  "updated_at": "2026-10-21T14:07:32.243243+00:00",
   "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
   "checkpoints": {
     "environment_review": "done",
@@ -2067,6 +2067,13 @@
     "queue": "state/publication_queue.json",
     "report": "docs/TWENTY_MINUTE_PUBLICATION.md",
     "growth_verified": false,
-    "tests": 161
+    "tests": 161,
+    "engineering_status": "MERGED_MAIN_VERIFIED",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/20",
+    "merge_sha": "3c9ef501dea0d223e8789bb7bba6eb8af89703cd",
+    "main_ci": 39613547769,
+    "main_ci_conclusion": "SUCCESS",
+    "skipped_slots": 2,
+    "publication_status": "TRANSPORT_BLOCKED"
   }
 }

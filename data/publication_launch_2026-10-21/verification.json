@@ -97,8 +97,17 @@
         "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
         "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
         "external_action": false
+      },
+      {
+        "slot": "2026-10-21T14:00:00+00:00",
+        "checked_at": "2026-10-21T14:06:14.207039+00:00",
+        "status": "SKIPPED",
+        "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
+        "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+        "external_action": false
       }
-    ]
+    ],
+    "skipped_slots": 2
   },
   "automation": {
     "id": "x",
@@ -119,7 +128,9 @@
     "new_dependencies": 0,
     "new_services": 0,
     "new_databases": 0,
-    "load_note": "Existing paused Codex heartbeat resumed every20min: adds brief checks and Codex account usage, no new resident process; original collector remains4h."
+    "load_note": "Existing paused Codex heartbeat resumed every20min: adds brief checks and Codex account usage, no new resident process; original collector remains4h.",
+    "queue_check_median_seconds": 0.04134262492880225,
+    "queue_check_network_actions": 0
   },
   "feedback": {
     "window": "24h",
@@ -142,5 +153,23 @@
   "protected": {
     "c390_negative_sha256": "da984d358d5113a62bc1d2663c19e6df70c30220d6e94beca0e69502c45cc616",
     "collector_workflow_sha256": "8f8d0ac4b0f7cf1911842471e95a1f5663538478795bcbbdf9c3eeba5d2d3e7d"
+  },
+  "merge_verification": {
+    "checked_at": "2026-10-21T14:07:32.243243+00:00",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/20",
+    "reviewed_head": "373e01f93edaabf3ed86eb0cf58db036acbcf707",
+    "pr_ci": 39613372815,
+    "push_ci": 39613296775,
+    "all_reviewed_head_checks": "SUCCESS",
+    "merge_sha": "3c9ef501dea0d223e8789bb7bba6eb8af89703cd",
+    "main_ci": 39613547769,
+    "main_ci_conclusion": "SUCCESS",
+    "tree_matches_reviewed_head": true,
+    "merged_main_unittest": 161,
+    "merged_main_pytest": 161,
+    "merged_main_compileall": "PASS",
+    "merged_main_production_dry_run": "READY_CANDIDATE_DRY_RUN",
+    "initial_fetch_error": "Transient SSL failure; discarded old-checkout test result. Retry succeeded and exact merged SHA/tree checked before tests.",
+    "followup_scope": "Receipt and actual skipped-slot ledger only; no code or prose changes."
   }
 }

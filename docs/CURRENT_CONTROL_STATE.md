@@ -1,6 +1,7 @@
 # 2026-10-21 — 20分钟窗口正式授权，免费合规通道阻塞
 
 最新用户正式授权本人Gen @qiluo27808中文原创普通帖及官方排程，无需逐篇确认；全天每20分钟检查，实际至少间隔20分钟，缺稿/质量/平台限制可跳过；覆盖旧每日一篇、10分钟及每轮必须发要求，不绕质量/权限/规则。起点main5f5a250，PR19与main CI已核实。官方禁止非API网页自动化，Metricool无连接且X需付费，未核实免费官方API；所以PAUSED原因改NO_VERIFIED_COMPLIANT_FREE_TRANSPORT，用户授权true，不冒充缺授权。新采集100条待深评；现有36/22/30fresh/4族竞争Top1原文重新打开，收紧Chrome/Firefox阻断边界，ABC事实/文风/Reader/Editorial/Prepublish dry-run PASS，仅A入队。队列1 REVIEWED、0 SCHEDULED、0 PUBLISHED，无X链接。已有自动化x已ACTIVE/20分钟，安静检查队列，依赖Mac/Codex在线，不网站自动提交、补发或新增采集频率；相同阻塞不反复研究。161 unittest/161pytest/compileall及生产dry-run PASS，原离线0.32039→0.31281秒，RSS33.62→33.18MB；新增运行依赖/服务/数据库0，恢复心跳有检查与Codex用量。反馈全UNKNOWN，可比较24h样本0，C390负例及4h采集不变。见docs/TWENTY_MINUTE_PUBLICATION.md和data/publication_launch_2026-10-21/。
+[PR #20](https://github.com/wanggenAi/x-content-growth-engine/pull/20)已合并为`3c9ef501dea0d223e8789bb7bba6eb8af89703cd`；[main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39613547769) SUCCESS；合并后161 unittest/161pytest/compileall及生产dry-run PASS，合并树等于审查提交。验收回执只改文档/状态，不改代码或正文。
 
 # 2026-10-21 — V4完整生产候选闭环
 

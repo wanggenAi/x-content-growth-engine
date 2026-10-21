@@ -9,7 +9,7 @@
 - 复核现有36条竞争池、22有效深评、30条源时间48h内、4族，唯一Top1仍是eMudhra弱私钥。保留原竞争时间 `2026-10-21T12:36:09.598620Z`，没有把重放时间充作新审核时间。
 - 重新打开Scott Helme原文，HTTP200，捕获 `2026-10-21T13:47:41.847330+00:00`。旧稿把原文的Chrome/Firefox直接封锁扩大成全部主流浏览器，现已收紧；Safari的CT要求不冒充直接封锁。正文以明确事实收尾，删去泛化结论。ABC均重新逐句事实、文风检查，选A；三个版本不能算三个独立可发选题。
 - Reader Model、Human Style V4/HUMAN_STYLE_V2、来源与事实、Editorial Gate、exact-text Prepublish dry-run PASS。human_checked=false，代理正文审核沿用已有明确豁免；不伪填人工核对。
-- 本地队列1 REVIEWED、0 SCHEDULED、0 PUBLISHED；**没有首篇真实X链接**，未尝试绕过规则提交。唯一已检查窗口为UTC13:40—14:00，13:53:30检查，因通道不可用SKIPPED。质量不足跳过0次；其他未实际检查窗口不编造执行记录。
+- 本地队列1 REVIEWED、0 SCHEDULED、0 PUBLISHED；**没有首篇真实X链接**，未尝试绕过规则提交。实际检查窗口为UTC13:40—14:00（13:53:30检查）与14:00—14:20（14:06:14检查），均因通道不可用SKIPPED。质量不足跳过0次；其他未实际检查窗口不编造执行记录。
 
 ## 官方能力与阻塞
 
@@ -50,3 +50,7 @@ python3 -m growth_engine audit
 本地161 unittest、161pytest、compileall、修正稿完整dry-run通过。离线同一20题/9稿、7批中位0.320386875→0.312813792秒，峰值33,619,968→33,177,600字节。该基准不包括网络和Codex会话耗时；没有新增长驻运行负载。原4h采集workflow与C390负例哈希未变。
 
 已有24h反馈模板原样复用；未发布无发布时间、无观测时间，全部指标null/UNKNOWN，未启动反馈窗。已知历史可比较24h样本0；现有audit仍提示搜索索引陈旧、作者规模未知、不能验证公式，不能宣称真实增长。详细回执见`data/publication_launch_2026-10-21/verification.json`，实际三稿见同目录`drafts.md`。PR/合并结果以最终回执为准。
+
+## 合并回执
+
+[PR #20](https://github.com/wanggenAi/x-content-growth-engine/pull/20)已合并为`3c9ef501dea0d223e8789bb7bba6eb8af89703cd`；[main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39613547769) SUCCESS。合并树与审查提交373e01f完全一致，合并后本地161 unittest/161pytest/compileall和完整生产dry-run PASS。随后的文档/状态提交仅保存验收和实际跳过窗口，不改代码或正文。
