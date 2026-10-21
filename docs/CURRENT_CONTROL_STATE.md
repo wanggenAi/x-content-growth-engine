@@ -1,3 +1,7 @@
+# Latest control — 2026-10-21 final V4 priority repair
+
+Research/code/tests/PR/CI/merge only; publication remains PAUSED. Same eight dimensions, explicit editorial veto and two-opening review, no V5/new scorer/dependency/service/schedule. Raw30/deep22/fresh22/families5 competition passes for unique topic Top1, not full publication READY. Source/fact/style checks do not authorize X. Historical24h eligible0 and real growth UNKNOWN; preserve C390 REJECT. See CONTENT_PRIORITY_V4_FINAL_2026-10-21.md. LOCAL_VERIFIED_PR_PENDING.
+
 # Latest checkpoint — 2026-10-21 V4 editorial follow-through
 
 From remote main2616019; preserve divergent local main. Explicit authored_text is now checked verbatim instead of losing factual conditions to cleanup. The same four V4 reader questions now reach the existing eight-dimensional topic review. No new scoring module/dependency/schedule. Ten newly researched topics with old event dates explicitly labelled, five ABC sets (15 full drafts), three editorial recommendations; original source dates corrected, incomplete production pool remains HOLD. PAUSED unchanged, no X access/submission. Local141 unittest/141 pytest/compileall pass; offline baseline0.328001s →0.328311s, RSS32,489,472→32,456,704B. Traffic UNKNOWN. PR [#17](https://github.com/wanggenAi/x-content-growth-engine/pull/17) merged as 130939521b628d05ff3b7e2c8ff9688348eba44c; [main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39533946703) SUCCESS, merged-main local141 unittest/141pytest/compileall PASS. Follow-up records verification only.

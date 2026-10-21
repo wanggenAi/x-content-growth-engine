@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-10-21T03:00:59.987852Z",
+  "source_families": [
+    "CHINESE_MEDIA",
+    "HACKER_NEWS",
+    "NEWS_MEDIA",
+    "TELEGRAM"
+  ],
+  "collection": {
+    "latest_run_completed_at": "2026-10-21T03:02:54.372919Z",
+    "attempted_sources": 45,
+    "unique_sources": 25,
+    "source_families": [
+      "CHINESE_MEDIA",
+      "HACKER_NEWS",
+      "NEWS_MEDIA",
+      "TELEGRAM"
+    ],
+    "collected": 173,
+    "returned": 100,
+    "duplicates": 4,
+    "duplicate_ratio": 0.022598870056497175,
+    "under24h": 99,
+    "between24and48h": 0,
+    "unknown_time": 0
+  },
+  "errors": [],
+  "collector_health": {
+    "status": "HEALTHY",
+    "reasons": [],
+    "completion_age_hours": 0,
+    "source_family_count": 4,
+    "under48h": 99
+  },
+  "command": "python3 -m growth_engine collect-feed --output-root /tmp/x-v4-final-feed --limit 100 --rss <four existing free public RSS>",
+  "collection_runs": 1,
+  "leads": 100,
+  "original_pages_reused": 10,
+  "original_pages_new_success": 20,
+  "original_page_failures": [
+    {
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac",
+      "reason": "HTTP403; not used, not retried via account or bypass"
+    }
+  ],
+  "publication_triggered": false,
+  "scheduler_changed": false
+}

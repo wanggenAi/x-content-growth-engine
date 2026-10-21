@@ -67,6 +67,22 @@ def review_content(candidate: dict, material: dict) -> dict:
     payoff = review.get("payoff") or {}
     if not opening.get("quote") or opening["quote"] not in text[:80] or not _note(opening.get("reason")):
         reasons.append("CONTENT_OPENING_NOT_REVIEWED")
+    if candidate.get("opening_comparison_required") or "alternatives" in opening:
+        alternatives = opening.get("alternatives")
+        valid = isinstance(alternatives, list) and len(alternatives) == 2
+        if valid:
+            corpus = "\n".join(str(s.get("excerpt") or "") for s in sources)
+            valid = all(isinstance(a, dict) and _note(a.get("text"))
+                        and _note(a.get("reader_reason")) and _note(a.get("source_span"))
+                        and a["source_span"] in corpus and a.get("approach") for a in alternatives)
+        if valid:
+            left, right = alternatives
+            valid = (left["approach"] != right["approach"]
+                     and SequenceMatcher(None, left["text"], right["text"]).ratio() < .72
+                     and any(text.startswith(a["text"]) for a in alternatives)
+                     and _note(opening.get("selection_reason")))
+        if not valid:
+            reasons.append("CONTENT_OPENING_COMPARISON_REQUIRED")
     if not payoff.get("quote") or payoff["quote"] not in text or not _note(payoff.get("reason")):
         reasons.append("CONTENT_PAYOFF_NOT_REVIEWED")
     comparison = review.get("comparison") or {}

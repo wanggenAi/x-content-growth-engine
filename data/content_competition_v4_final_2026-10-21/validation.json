@@ -1,0 +1,878 @@
+{
+  "baseline_main_sha": "ddc939ea70f01f06e1ae782870bc1c43cf297378",
+  "validated_at": "2026-10-21T03:16:28.240152Z",
+  "tests": {
+    "baseline_unittest_passed": 141,
+    "unittest_passed": 146,
+    "pytest_passed": 146,
+    "compileall": "PASS growth_engine tests scripts",
+    "test_runner": "existing temporary isolated pytest venv; no runtime dependency"
+  },
+  "competition": {
+    "candidate_count": 30,
+    "reviewed_source_count": 22,
+    "under48h_count": 22,
+    "reviewed_under48h_count": 22,
+    "source_families": [
+      "CHINESE_MEDIA",
+      "HACKER_NEWS",
+      "NEWS_MEDIA",
+      "PUBLIC_SCIENCE_AGENCY",
+      "RESEARCH_INSTITUTION"
+    ],
+    "source_family_count": 5,
+    "pool_reasons": [],
+    "selected_material_id": "D04e89731e0e8c0f1",
+    "competition_passed": true
+  },
+  "deep_review_records_submitted": 26,
+  "draft_validation": {
+    "top3_abc": 9,
+    "held_maggot_comparison_abc": 3,
+    "total": 12,
+    "source_text_fact_style_passed": 12,
+    "opening_comparisons": 12,
+    "weighted_length_range": [
+      181,
+      276
+    ],
+    "all_authored_preserved_verbatim": true,
+    "full_publication_preflight_passed": false,
+    "publication_allowed": false
+  },
+  "original_ranking": {
+    "selected_material_id": null,
+    "rows": [
+      {
+        "material_id": "D5fd5fbcc6a399cc1",
+        "rank": 1,
+        "editorial_topic_score": 76.25,
+        "reasons": []
+      },
+      {
+        "material_id": "D04e89731e0e8c0f1",
+        "rank": 2,
+        "editorial_topic_score": 68.75,
+        "reasons": []
+      },
+      {
+        "material_id": "Df90b36e701d2be31",
+        "rank": 3,
+        "editorial_topic_score": 62.75,
+        "reasons": []
+      },
+      {
+        "material_id": "Daabc79abe7faa361",
+        "rank": 4,
+        "editorial_topic_score": 45.0,
+        "reasons": [
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      },
+      {
+        "material_id": "De018aa291300b606",
+        "rank": 5,
+        "editorial_topic_score": 39.5,
+        "reasons": [
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      },
+      {
+        "material_id": "De70ca704ff7eb512",
+        "rank": 6,
+        "editorial_topic_score": 22.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Da5e4fdd4cf5b41a8",
+        "rank": 7,
+        "editorial_topic_score": 22.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Db980fa8f3a144c43",
+        "rank": 8,
+        "editorial_topic_score": 22.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Dd3c64c35277245ab",
+        "rank": 9,
+        "editorial_topic_score": 22.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Df463b903f3bba963",
+        "rank": 10,
+        "editorial_topic_score": 10.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      }
+    ]
+  },
+  "new_weights_old_ratings": {
+    "selected_material_id": null,
+    "rows": [
+      {
+        "material_id": "D5fd5fbcc6a399cc1",
+        "rank": 1,
+        "editorial_topic_score": 74.25,
+        "reasons": []
+      },
+      {
+        "material_id": "D04e89731e0e8c0f1",
+        "rank": 2,
+        "editorial_topic_score": 70.75,
+        "reasons": []
+      },
+      {
+        "material_id": "Df90b36e701d2be31",
+        "rank": 3,
+        "editorial_topic_score": 64.75,
+        "reasons": []
+      },
+      {
+        "material_id": "Daabc79abe7faa361",
+        "rank": 4,
+        "editorial_topic_score": 46.0,
+        "reasons": [
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      },
+      {
+        "material_id": "De018aa291300b606",
+        "rank": 5,
+        "editorial_topic_score": 42.5,
+        "reasons": [
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      },
+      {
+        "material_id": "De70ca704ff7eb512",
+        "rank": 6,
+        "editorial_topic_score": 21.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Da5e4fdd4cf5b41a8",
+        "rank": 7,
+        "editorial_topic_score": 21.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Db980fa8f3a144c43",
+        "rank": 8,
+        "editorial_topic_score": 21.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Dd3c64c35277245ab",
+        "rank": 9,
+        "editorial_topic_score": 21.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH"
+        ]
+      },
+      {
+        "material_id": "Df463b903f3bba963",
+        "rank": 10,
+        "editorial_topic_score": 9.25,
+        "reasons": [
+          "REJECT_LOW_STOPPING_REASON",
+          "REJECT_LOW_TOPIC_STRENGTH",
+          "UNKNOWN_SOURCE_TIMESTAMP"
+        ]
+      }
+    ]
+  },
+  "final_ranking": [
+    {
+      "topic": "大件闲置：能用不等于有人接",
+      "material_id": "D04e89731e0e8c0f1",
+      "rank": 1,
+      "editorial_topic_score": 87.25,
+      "reasons": [],
+      "admitted": true,
+      "source_age_hours": 3.69
+    },
+    {
+      "topic": "平台申诉：解释比金额更刺人",
+      "material_id": "D5fd5fbcc6a399cc1",
+      "rank": 2,
+      "editorial_topic_score": 79.0,
+      "reasons": [],
+      "admitted": true,
+      "source_age_hours": 21.257
+    },
+    {
+      "topic": "iPad投屏让课堂备注也上墙",
+      "material_id": "D5ebc05784eb0b417",
+      "rank": 3,
+      "editorial_topic_score": 73.25,
+      "reasons": [],
+      "admitted": true,
+      "source_age_hours": 47.262
+    },
+    {
+      "topic": "误投信箱后的长期互助",
+      "material_id": "Df90b36e701d2be31",
+      "rank": 4,
+      "editorial_topic_score": 66.0,
+      "reasons": [],
+      "admitted": true,
+      "source_age_hours": 11.828
+    },
+    {
+      "topic": "电脑里装的还是手机版应用",
+      "material_id": "D629cb57439f662dc",
+      "rank": 5,
+      "editorial_topic_score": 62.75,
+      "reasons": [],
+      "admitted": true,
+      "source_age_hours": 21.257
+    },
+    {
+      "topic": "顺风车绕路接人",
+      "material_id": "D22b51d2ff51d406b",
+      "rank": 6,
+      "editorial_topic_score": 73.0,
+      "reasons": [
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 1.347
+    },
+    {
+      "topic": "邻居清垃圾桶引发的荒诞后果",
+      "material_id": "Daabc79abe7faa361",
+      "rank": 7,
+      "editorial_topic_score": 69.0,
+      "reasons": [
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "AI泡沫破裂反而加快替人",
+      "material_id": "D93590db6a53c7325",
+      "rank": 8,
+      "editorial_topic_score": 56.0,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 16.762
+    },
+    {
+      "topic": "建城游戏先过邻居和听证会",
+      "material_id": "Df933f1f1a760390e",
+      "rank": 9,
+      "editorial_topic_score": 54.25,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "付费内推的层层话术",
+      "material_id": "D20f67acf7fa02d64",
+      "rank": 10,
+      "editorial_topic_score": 51.5,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 3.798
+    },
+    {
+      "topic": "北方秋凉华南如夏",
+      "material_id": "D9581b2f3ed60d89a",
+      "rank": 11,
+      "editorial_topic_score": 47.75,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 1.27
+    },
+    {
+      "topic": "农村免费流感疫苗通知",
+      "material_id": "D5bd82ffa3c8d354c",
+      "rank": 12,
+      "editorial_topic_score": 47.5,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 13.93
+    },
+    {
+      "topic": "垃圾袋做万圣节蝙蝠",
+      "material_id": "Dd31ffa4aef98b84e",
+      "rank": 13,
+      "editorial_topic_score": 47.25,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 37.262
+    },
+    {
+      "topic": "化石捐赠与迟到的新物种命名",
+      "material_id": "De018aa291300b606",
+      "rank": 14,
+      "editorial_topic_score": 42.5,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "矿区上方的新森林步道",
+      "material_id": "Dd65778c54c3120a7",
+      "rank": 15,
+      "editorial_topic_score": 42.25,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 21.256
+    },
+    {
+      "topic": "15分钟亲水圈",
+      "material_id": "D70b9e4a69537a03e",
+      "rank": 16,
+      "editorial_topic_score": 39.5,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 13.723
+    },
+    {
+      "topic": "两支球队争首个世界大赛冠军",
+      "material_id": "D5f4ec105e6c165de",
+      "rank": 17,
+      "editorial_topic_score": 35.5,
+      "reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 20.793
+    },
+    {
+      "topic": "扁豆意面与茄子丸",
+      "material_id": "D0d146491486fcafc",
+      "rank": 18,
+      "editorial_topic_score": 35.0,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 46.256
+    },
+    {
+      "topic": "年度气候报告发布",
+      "material_id": "D1340317780b6bccc",
+      "rank": 19,
+      "editorial_topic_score": 21.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 1.074
+    },
+    {
+      "topic": "口音与故乡身份",
+      "material_id": "De70ca704ff7eb512",
+      "rank": 20,
+      "editorial_topic_score": 21.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 12.853
+    },
+    {
+      "topic": "街头表演与跨语言交流",
+      "material_id": "Da5e4fdd4cf5b41a8",
+      "rank": 21,
+      "editorial_topic_score": 21.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 13.768
+    },
+    {
+      "topic": "养植物的修剪小实验",
+      "material_id": "Db980fa8f3a144c43",
+      "rank": 22,
+      "editorial_topic_score": 21.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 18.256
+    },
+    {
+      "topic": "食物价格与意外副产品",
+      "material_id": "Dd3c64c35277245ab",
+      "rank": 23,
+      "editorial_topic_score": 21.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 18.262
+    },
+    {
+      "topic": "铁路采访活动启幕",
+      "material_id": "D91aa25fe640f5a3e",
+      "rank": 24,
+      "editorial_topic_score": 20.5,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 1.05
+    },
+    {
+      "topic": "航空人才培训中心揭牌",
+      "material_id": "D1436a5a5419e9970",
+      "rank": 25,
+      "editorial_topic_score": 16.5,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "admitted": false,
+      "source_age_hours": 12.38
+    },
+    {
+      "topic": "小行星样本与观测落差",
+      "material_id": "Df463b903f3bba963",
+      "rank": 26,
+      "editorial_topic_score": 9.25,
+      "reasons": [
+        "REJECT_LOW_STOPPING_REASON",
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "The Future of CSS",
+      "material_id": "D67f9ceba560d7193",
+      "rank": 27,
+      "editorial_topic_score": null,
+      "reasons": [
+        "HOLD_NOVELTY_CHECK",
+        "MISSING_DEEP_EDITORIAL_REVIEW",
+        "MISSING_DEEP_REVIEW_AUDIT",
+        "MISSING_GROUNDED_REVIEW:audience_distance",
+        "MISSING_GROUNDED_REVIEW:background_cost",
+        "MISSING_GROUNDED_REVIEW:conflict",
+        "MISSING_GROUNDED_REVIEW:first_screen_stopping_power",
+        "MISSING_GROUNDED_REVIEW:mass_relevance",
+        "MISSING_GROUNDED_REVIEW:raw_material_strength",
+        "MISSING_GROUNDED_REVIEW:reply_potential",
+        "MISSING_GROUNDED_REVIEW:self_insertion",
+        "MISSING_GROUNDED_REVIEW:share_potential",
+        "MISSING_GROUNDED_REVIEW:surprise",
+        "REJECT_NO_HOOK",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "Show HN: acplause – An ACP agent for OpenAI-compatible APIs",
+      "material_id": "D249330636151aaea",
+      "rank": 28,
+      "editorial_topic_score": null,
+      "reasons": [
+        "HOLD_NOVELTY_CHECK",
+        "MISSING_DEEP_EDITORIAL_REVIEW",
+        "MISSING_DEEP_REVIEW_AUDIT",
+        "MISSING_GROUNDED_REVIEW:audience_distance",
+        "MISSING_GROUNDED_REVIEW:background_cost",
+        "MISSING_GROUNDED_REVIEW:conflict",
+        "MISSING_GROUNDED_REVIEW:first_screen_stopping_power",
+        "MISSING_GROUNDED_REVIEW:mass_relevance",
+        "MISSING_GROUNDED_REVIEW:raw_material_strength",
+        "MISSING_GROUNDED_REVIEW:reply_potential",
+        "MISSING_GROUNDED_REVIEW:self_insertion",
+        "MISSING_GROUNDED_REVIEW:share_potential",
+        "MISSING_GROUNDED_REVIEW:surprise",
+        "REJECT_NO_HOOK",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "Nano Banana 2.1 – Model Card",
+      "material_id": "D52bf10e5b6de8724",
+      "rank": 29,
+      "editorial_topic_score": null,
+      "reasons": [
+        "HOLD_NOVELTY_CHECK",
+        "MISSING_DEEP_EDITORIAL_REVIEW",
+        "MISSING_DEEP_REVIEW_AUDIT",
+        "MISSING_GROUNDED_REVIEW:audience_distance",
+        "MISSING_GROUNDED_REVIEW:background_cost",
+        "MISSING_GROUNDED_REVIEW:conflict",
+        "MISSING_GROUNDED_REVIEW:first_screen_stopping_power",
+        "MISSING_GROUNDED_REVIEW:mass_relevance",
+        "MISSING_GROUNDED_REVIEW:raw_material_strength",
+        "MISSING_GROUNDED_REVIEW:reply_potential",
+        "MISSING_GROUNDED_REVIEW:self_insertion",
+        "MISSING_GROUNDED_REVIEW:share_potential",
+        "MISSING_GROUNDED_REVIEW:surprise",
+        "REJECT_NO_HOOK",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    },
+    {
+      "topic": "C# now beats Rust on WASM size",
+      "material_id": "D809759df6b9c7ee9",
+      "rank": 30,
+      "editorial_topic_score": null,
+      "reasons": [
+        "HOLD_NOVELTY_CHECK",
+        "MISSING_DEEP_EDITORIAL_REVIEW",
+        "MISSING_DEEP_REVIEW_AUDIT",
+        "MISSING_GROUNDED_REVIEW:audience_distance",
+        "MISSING_GROUNDED_REVIEW:background_cost",
+        "MISSING_GROUNDED_REVIEW:conflict",
+        "MISSING_GROUNDED_REVIEW:first_screen_stopping_power",
+        "MISSING_GROUNDED_REVIEW:mass_relevance",
+        "MISSING_GROUNDED_REVIEW:raw_material_strength",
+        "MISSING_GROUNDED_REVIEW:reply_potential",
+        "MISSING_GROUNDED_REVIEW:self_insertion",
+        "MISSING_GROUNDED_REVIEW:share_potential",
+        "MISSING_GROUNDED_REVIEW:surprise",
+        "REJECT_NO_HOOK",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "admitted": false,
+      "source_age_hours": null
+    }
+  ],
+  "resource": {
+    "before": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.32858745800331235,
+      "batches_seconds": [
+        0.3293008749606088,
+        0.3259157920256257,
+        0.3287727920105681,
+        0.33050479204393923,
+        0.32001437502913177,
+        0.32858745800331235,
+        0.3215882909717038
+      ],
+      "peak_rss_bytes": 32571392,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    },
+    "after": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.3323667920194566,
+      "batches_seconds": [
+        0.3416088749654591,
+        0.3356970000313595,
+        0.3304100000532344,
+        0.3323667920194566,
+        0.32696612493600696,
+        0.33116708300076425,
+        0.3496504590148106
+      ],
+      "peak_rss_bytes": 32653312,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    },
+    "elapsed_change_percent": 1.15,
+    "rss_change_percent": 0.25,
+    "limitation": "Original frozen offline 20-topic/9-draft workload only, seven batches each; includes neither network collection nor Codex editing latency. Differences are not a claim of speed improvement."
+  },
+  "runtime_dependencies_added": 0,
+  "resident_services_added": 0,
+  "new_scheduled_tasks": 0,
+  "collector_runs": 1,
+  "control_and_negative_checks": {
+    "state/publication_control.json": {
+      "unchanged": true,
+      "sha256": "58b49f7247236702d4e2bc945c8c798f1af6cd3eb74004b6301fed7dfbbb223e"
+    },
+    ".github/workflows/viral-hunt.yml": {
+      "unchanged": true,
+      "sha256": "8f8d0ac4b0f7cf1911842471e95a1f5663538478795bcbbdf9c3eeba5d2d3e7d"
+    },
+    "data/content_quality_2026-10-19/negative_comparisons.json": {
+      "unchanged": true,
+      "sha256": "da984d358d5113a62bc1d2663c19e6df70c30220d6e94beca0e69502c45cc616"
+    }
+  },
+  "dedup": {
+    "memory_records": 193,
+    "campaign_records_including_unpublished": 388,
+    "checks": [
+      {
+        "material_id": "D04e89731e0e8c0f1",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": 0.3188
+      },
+      {
+        "material_id": "D5fd5fbcc6a399cc1",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": 0.2882
+      },
+      {
+        "material_id": "Df90b36e701d2be31",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "De018aa291300b606",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Daabc79abe7faa361",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": 0.266
+      },
+      {
+        "material_id": "De70ca704ff7eb512",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Da5e4fdd4cf5b41a8",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Db980fa8f3a144c43",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Dd3c64c35277245ab",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Df463b903f3bba963",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D91aa25fe640f5a3e",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D1340317780b6bccc",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D22b51d2ff51d406b",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D20f67acf7fa02d64",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D9581b2f3ed60d89a",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D5bd82ffa3c8d354c",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D1436a5a5419e9970",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D70b9e4a69537a03e",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D629cb57439f662dc",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Dd65778c54c3120a7",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Dd31ffa4aef98b84e",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D0d146491486fcafc",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D5f4ec105e6c165de",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D93590db6a53c7325",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "Df933f1f1a760390e",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D5ebc05784eb0b417",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": 0.2412
+      },
+      {
+        "material_id": "D67f9ceba560d7193",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D52bf10e5b6de8724",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D249330636151aaea",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      },
+      {
+        "material_id": "D809759df6b9c7ee9",
+        "exact_published_or_campaign_source_match": false,
+        "max_text_similarity": null
+      }
+    ],
+    "limit": "Source/text checks plus same-agent semantic review, not independent novelty proof."
+  },
+  "feedback": {
+    "history_rows": 21,
+    "published_times_present": 21,
+    "observation_times_present": 0,
+    "eligible_fixed_24h": 0,
+    "historical_nonnull_counts": {
+      "views": 21,
+      "impressions": 0,
+      "likes": 4,
+      "replies": 4,
+      "reposts": 4,
+      "profile_visits": 0,
+      "follows_attributed": 0
+    },
+    "comparable_24h_metrics": {
+      "views": null,
+      "impressions": null,
+      "likes": null,
+      "replies": null,
+      "reposts": null,
+      "profile_visits": null,
+      "follows_attributed": null
+    },
+    "display_missing_as": "UNKNOWN",
+    "formula_promotions": 0,
+    "traffic_or_follower_growth_verified": false,
+    "C390_user_verdict": "REJECT unchanged",
+    "next_capture_route": "Existing docs/FEEDBACK_LEARNING_LOOP.md + reader feedback import; local private human evidence, actual UTC observation and publication time, fixed24h window; never backfill capture time from save time."
+  },
+  "delivery": {
+    "status": "LOCAL_VERIFIED_PR_PENDING"
+  },
+  "execution_notes": [
+    "One shell-glob error happened before the collector started; one actual collector run completed.",
+    "Initial unittest invocation without -s tests found zero tests and was discarded; actual baseline -s tests ran141.",
+    "New regression fixture initially used second_stage instead of existing second_stage_judge; corrected the fixture key.",
+    "Apple C initially held for missing legacy role lock 他; restored the attribution pronoun, did not loosen fact locks.",
+    "Perplexity original page returned403 and was excluded without bypass."
+  ]
+}

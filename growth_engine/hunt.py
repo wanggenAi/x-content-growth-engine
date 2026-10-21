@@ -160,6 +160,7 @@ def apply_deep_review_records(materials: list[dict], review_packet: dict) -> lis
         if review_packet.get("strategy_version") == "V4" or "reader_value" in record:
             review.update(strategy_version="V4", reader_value=record.get("reader_value"))
         if "contrast_basis" in record: review["contrast_basis"] = record["contrast_basis"]
+        if "decision" in record: review["decision"] = record["decision"]
         for key in ("audience_distance", "background_cost", "hook"):
             value = record.get(key)
             if not isinstance(value, dict): raise ValueError(f"{key} review required")
@@ -179,7 +180,12 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
     winner_id = ranking["selected_material_id"]
     previews = []; topics = []
     memory = review_packet.get("publication_memory")
-    for row in ranking["top5"]:
+    # A strong but stale/held story may still have authored alternatives worth
+    # reviewing. Check them without moving it into the eligible winner tier.
+    authored_ids = {r.get("material_id") for r in review_packet["records"] if r.get("previews")}
+    for row in ranking["rows"]:
+        if row not in ranking["top5"] and row["material_id"] not in authored_ids:
+            continue
         mid = row["material_id"]
         record = next((r for r in review_packet["records"] if r.get("material_id") == mid), {})
         material = next(m for m in materials if m["material_id"] == mid)
@@ -194,6 +200,7 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
                 "primary_action": variant.get("primary_action", "SHARE"), "target_platform": "X_ZH",
                 "voice_profile": "GEN_DEFAULT", "preserve_quotes": True})
             content = review_content({**variant, "text": style["rewritten_text"], "content_review": variant.get("content_review"),
+                                      "opening_comparison_required": review_packet.get("opening_comparison_required", False) or variant.get("opening_comparison_required", False),
                                       "publication_memory": memory}, material)
             checked.append({**variant, "before": before, "after": style["rewritten_text"],
                             "authoring": style["authoring"], "fact_preservation_report": style["fact_preservation_report"],

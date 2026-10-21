@@ -1,0 +1,3345 @@
+{
+  "strategy_version": "V4",
+  "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+  "reviewed_at": "2026-10-21T03:15:43.340578Z",
+  "publication_memory_ref": "data/human_style_v3_2026-10-19/fresh_three.json",
+  "publication_memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+  "human_checked": false,
+  "publication_allowed": false,
+  "editorial_shortlist": [
+    {
+      "material_id": "D5ebc05784eb0b417",
+      "variant": "A",
+      "qualification": "DRAFT_ONLY_NOT_READY"
+    },
+    {
+      "material_id": "D04e89731e0e8c0f1",
+      "variant": "A",
+      "qualification": "DRAFT_ONLY_NOT_READY"
+    },
+    {
+      "material_id": "D5fd5fbcc6a399cc1",
+      "variant": "A",
+      "qualification": "DRAFT_ONLY_NOT_READY"
+    },
+    {
+      "material_id": "Daabc79abe7faa361",
+      "variant": "A",
+      "qualification": "HOLD_OLD_EVENT_TIME"
+    }
+  ],
+  "records": [
+    {
+      "material_id": "D04e89731e0e8c0f1",
+      "ratings": [
+        3,
+        4,
+        1,
+        4,
+        4,
+        3,
+        4,
+        3
+      ],
+      "evidence": [
+        "能正常运转",
+        "最后倒付70元",
+        "承担仓储运输",
+        "家里有电梯",
+        "回收商不收",
+        "挂二手平台",
+        "能不能帮搬",
+        "买家先问"
+      ],
+      "reasons": [
+        "记者有具体当事人、可用状态、清运结果，但尚无账单原件，素材强度止于3。",
+        "预期还能用就能转手，实际反而倒付70元，意外来自结果而非数字大小。",
+        "只有回收方不收与物主想处理的张力，没有发生争吵，冲突只给1。",
+        "读者买大件、搬家和闲置占地方的处境可以直接代入，不限健身人群。",
+        "首屏可直接说明还能用却倒付钱，第一句即可理解完整落差。",
+        "大件处置是大众日常问题，但租住和搬家人群更近，不夸成人人刚需。",
+        "可转发给准备买大件或搬家的朋友，分享的是退出成本这个具体提醒。",
+        "愿意付清运费与宁愿继续找下家有真实取舍分叉，不声称已有评论验证。"
+      ],
+      "possible_reply_branches": [
+        "花70元换空间，停止耗时间找下家",
+        "继续找有搬运能力的接收者，愿意多花时间"
+      ],
+      "reader_value": {
+        "stop_reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+        "reader_gain": "得到买大件时多想一步的处置成本，而非回收业新闻。",
+        "response_reason": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+        "distinct_angle": "把可用价值与接收方搬运成本并排，避免泛泛地劝人理性消费。"
+      },
+      "selection_note": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "text": "椭圆仪还能用，家里也有电梯，最后却倒贴70元才清走。\n\n《法治日报》10月21日报道，赵先生把它挂上二手平台几个月，回收商也不收，只好付钱请人搬。\n\n这东西没坏。只是从健身器材变成了谁来搬的问题。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "10718234",
+              "2026",
+              "21",
+              "70元"
+            ],
+            "dates": [
+              "10月21日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。",
+          "editorial_tradeoff": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "6ef62c0eb0c50b5a795c60c97b3f4f13f91e3c7e9726a38c557f620b94540c12",
+            "source_hash": "fca71a311a3fadeba27684da561abf0baf8f904853075cfe2439afb8f1a4173d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "reader_gain": "得到买大件时多想一步的处置成本，而非回收业新闻。",
+              "response_reason": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+              "distinct_angle": "把可用价值与接收方搬运成本并排，避免泛泛地劝人理性消费。"
+            },
+            "opening": {
+              "quote": "椭圆仪还能用，家里也有电梯，最后却倒贴70元才清走",
+              "reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "alternatives": [
+                {
+                  "text": "椭圆仪还能用，家里也有电梯，最后却倒贴70元才清走。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                },
+                {
+                  "text": "买的时候花钱，用完了还得花钱请走。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                }
+              ],
+              "selection_reason": "选可用、电梯、倒付70元同屏：另一开头两次花钱有账感，却先不说是什么东西，陌生读者还得往下找事实。"
+            },
+            "payoff": {
+              "quote": "只是从健身器材变成了谁来搬的问题",
+              "reason": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。"
+            },
+            "comparison": {
+              "reference_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "椭圆仪还能用，家里也有电梯，最后却倒贴70元才清走",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《法治日报》10月21日报道，赵先生把它挂上二手平台几个月，回收商也不收，只好付钱请人搬",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "21",
+                    "source": "2026-10-20T23:34:20Z",
+                    "reason": "来源UTC报道时间换算北京时间为10月21日，只指报道日期而不是事件发生日。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "这东西没坏",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "只是从健身器材变成了谁来搬的问题",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "选可用、电梯、倒付70元同屏：另一开头两次花钱有账感，却先不说是什么东西，陌生读者还得往下找事实。",
+            "interesting_detail": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。",
+            "reply_and_share": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+            "fact_risk": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "text": "买的时候花钱，用完了还得花钱请走。\n\n《法治日报》10月21日报道：赵先生的椭圆仪还能用，家里有电梯，二手平台挂了几个月也没处理掉，最后倒付70元清运。\n\n我现在看这类大件，价格标签旁边还想加一行：退场费。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "10718234",
+              "2026",
+              "21",
+              "70元"
+            ],
+            "dates": [
+              "10月21日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。",
+          "editorial_tradeoff": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "daaa7d328d606cdf781d047cec8f3357e79cc72871938aeb9735827313c09fc7",
+            "source_hash": "fca71a311a3fadeba27684da561abf0baf8f904853075cfe2439afb8f1a4173d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "reader_gain": "得到买大件时多想一步的处置成本，而非回收业新闻。",
+              "response_reason": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+              "distinct_angle": "把可用价值与接收方搬运成本并排，避免泛泛地劝人理性消费。"
+            },
+            "opening": {
+              "quote": "买的时候花钱，用完了还得花钱请走",
+              "reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "alternatives": [
+                {
+                  "text": "买的时候花钱，用完了还得花钱请走。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                },
+                {
+                  "text": "回收商不要，二手平台也没找到下家；还能用的椭圆仪，最后成了赵先生花70元请走的东西。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                }
+              ],
+              "selection_reason": "此版选两次花钱的个人账感：对照版把接收方和物主关系一次讲完但句子偏长；B牺牲一点信息速度换个人观察，整体仍不如A。"
+            },
+            "payoff": {
+              "quote": "我现在看这类大件，价格标签旁边还想加一行：退场费",
+              "reason": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。"
+            },
+            "comparison": {
+              "reference_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "买的时候花钱，用完了还得花钱请走",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《法治日报》10月21日报道：赵先生的椭圆仪还能用，家里有电梯，二手平台挂了几个月也没处理掉，最后倒付70元清运",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "21",
+                    "source": "2026-10-20T23:34:20Z",
+                    "reason": "来源UTC报道时间换算北京时间为10月21日，只指报道日期而不是事件发生日。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "我现在看这类大件，价格标签旁边还想加一行：退场费",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版选两次花钱的个人账感：对照版把接收方和物主关系一次讲完但句子偏长；B牺牲一点信息速度换个人观察，整体仍不如A。",
+            "interesting_detail": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "先用两次花钱的账引入个人退出成本观察，不装作自己买过这台器材。",
+            "reply_and_share": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+            "fact_risk": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "text": "回收商不要，二手平台也没找到下家；还能用的椭圆仪，最后成了赵先生花70元请走的东西。\n\n《法治日报》10月21日报道，他家有电梯，东西挂了几个月仍没处理掉。\n\n东西还能用，和有人愿意接走，原来是两件事。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "10718234",
+              "2026",
+              "21",
+              "70元"
+            ],
+            "dates": [
+              "10月21日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。",
+          "editorial_tradeoff": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "bb16735a9c5ecf3d647666eec8eaa859dfde6bd8e835d61020ba1cc0c42d8a3f",
+            "source_hash": "fca71a311a3fadeba27684da561abf0baf8f904853075cfe2439afb8f1a4173d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "reader_gain": "得到买大件时多想一步的处置成本，而非回收业新闻。",
+              "response_reason": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+              "distinct_angle": "把可用价值与接收方搬运成本并排，避免泛泛地劝人理性消费。"
+            },
+            "opening": {
+              "quote": "回收商不要，二手平台也没找到下家；还能用的椭圆仪，最后成了赵先生花70元请走的东西",
+              "reason": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+              "alternatives": [
+                {
+                  "text": "回收商不要，二手平台也没找到下家；还能用的椭圆仪，最后成了赵先生花70元请走的东西。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                },
+                {
+                  "text": "椭圆仪还能用，家里也有电梯，最后却倒贴70元才清走。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "可用状态、电梯和倒付清运费直接同屏，随后交代找下家失败，不先谈消费观。",
+                  "source_span": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。"
+                }
+              ],
+              "selection_reason": "此版选谁愿接走：比纯金额结果多讲接收方的选择，适合讨论物品价值；但首句长，所以最终编辑仍优先A。"
+            },
+            "payoff": {
+              "quote": "东西还能用，和有人愿意接走，原来是两件事",
+              "reason": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。"
+            },
+            "comparison": {
+              "reference_text": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "回收商不要，二手平台也没找到下家；还能用的椭圆仪，最后成了赵先生花70元请走的东西",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《法治日报》10月21日报道，他家有电梯，东西挂了几个月仍没处理掉",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "21",
+                    "source": "2026-10-20T23:34:20Z",
+                    "reason": "来源UTC报道时间换算北京时间为10月21日，只指报道日期而不是事件发生日。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "东西还能用，和有人愿意接走，原来是两件事",
+                "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+                "source_range": [
+                  0,
+                  511
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版选谁愿接走：比纯金额结果多讲接收方的选择，适合讨论物品价值；但首句长，所以最终编辑仍优先A。",
+            "interesting_detail": "还能正常使用却倒贴钱送走，开头就能理解反差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "从接收方不愿搬的选择讲物品价值与搬运代价，不只复述清运报价。",
+            "reply_and_share": "准备买大件的朋友是具体分享对象；付钱换空间还是继续找下家形成真实取舍。",
+            "fact_risk": "本轮复审：只写赵先生这一例；70元不是统一收费，更不能指控商家恶意压价。背景的成本来自受访者解释，不是本笔订单的审计。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "能正常运转",
+        "after": "最后倒付70元"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "家里有电梯",
+        "reason": "搬家租房读者有切身空间成本，可以把自己代入。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "挂二手平台",
+        "reason": "大众懂买和扔的日常烦恼，不需回收产业背景。"
+      },
+      "hook": {
+        "text": "回收商不收",
+        "evidence": "回收商不收",
+        "reason": "首屏倒付70元处理能用的器材，动作与筹码都清楚。"
+      },
+      "baseline": "《法治日报》10月21日报道，赵先生的椭圆仪仍能运转，家有电梯。挂二手平台几个月无人问津，回收商也不收，最后付70元请人清走。报道中的买家关心地点、电梯和搬运，回收商还要负担仓储、运输和人工。\n\nhttps://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+      "baseline_kind": "本轮实际写出的新闻摘要对照；不是声称历史系统已有这篇稿",
+      "decision": "PASS",
+      "recommended_variant": "A",
+      "opening_comparison_required": true
+    },
+    {
+      "material_id": "D5fd5fbcc6a399cc1",
+      "ratings": [
+        3,
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        "6英镑项链",
+        "照片、视频",
+        "一方索要依据",
+        "索要依据",
+        "买家称包裹是空的",
+        "平台仍退款",
+        "未获具体解释",
+        "所有申诉由人工审核"
+      ],
+      "reasons": [
+        "有姓名、交易物、双方说法及材料种类，但未见完整物流或后台记录，不给满分。",
+        "小额交易对应多种证据却仍未获解释，预期反差不等于平台必然判错。",
+        "一方要依据，另一方强调人工审，规则责任有讨论但不能编故意包庇。",
+        "普通读者遇过申诉表单，卖闲置的人更能代入，无须先懂平台政策。",
+        "首屏给6英镑项链和证据仍退款的具体动作，不先抽象谈算法。",
+        "大众读者能懂消费申诉，但英国平台和汇率仍有距离，不能假定人人使用。",
+        "可分享给卖闲置的朋友讨论证据与说明义务，不能当必胜申诉教程。",
+        "只谈审核有没有解释责任与小额纠纷处理成本这两个评论方向，不裁定买家欺诈。"
+      ],
+      "possible_reply_branches": [
+        "争议结果有依据即可，无法向一方披露所有材料",
+        "即使结果不变，也应向当事人解释哪些证据有效"
+      ],
+      "reader_value": {
+        "stop_reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+        "reader_gain": "分清退款结论、审查方式和解释充分性是三个问题。",
+        "response_reason": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+        "distinct_angle": "把证据是否有效与回应是否解释分开，不把人工审核当自动免责，也不指控机器乱判。"
+      },
+      "selection_note": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "text": "卖6英镑项链，她说照片、视频、寄件时的门铃录像都交了，平台还是退款。\n\n《卫报》10月20日报道，Catherine说买家称收到空包，她提交材料后仍没得到具体解释。\n\nVinted说，她的申诉由人工审核。有人审，和告诉你依据，好像还是两回事。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "20",
+              "2026",
+              "6"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。",
+          "editorial_tradeoff": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "68176c277f21cb9a8f5c05e1db37b6c60971b406e614257d93d7f779b1ab1685",
+            "source_hash": "c2991b7234b8438646ff2ab235def7dbdcd641791a96352c407f5a5761cc762a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "reader_gain": "分清退款结论、审查方式和解释充分性是三个问题。",
+              "response_reason": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+              "distinct_angle": "把证据是否有效与回应是否解释分开，不把人工审核当自动免责，也不指控机器乱判。"
+            },
+            "opening": {
+              "quote": "卖6英镑项链，她说照片、视频、寄件时的门铃录像都交了，平台还是退款",
+              "reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "alternatives": [
+                {
+                  "text": "卖6英镑项链，她说照片、视频、寄件时的门铃录像都交了，平台还是退款。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                },
+                {
+                  "text": "这条6英镑项链，卖得像在提交证据。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                }
+              ],
+              "selection_reason": "选项链金额和已交证据直接并排，并保留她说：卖得像举证的开头较轻巧，但读者看不到证据投入到底具体在哪。"
+            },
+            "payoff": {
+              "quote": "有人审，和告诉你依据，好像还是两回事",
+              "reason": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "卖6英镑项链，她说照片、视频、寄件时的门铃录像都交了，平台还是退款",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》10月20日报道，Catherine说买家称收到空包，她提交材料后仍没得到具体解释",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "20",
+                    "source": "2026-10-20T06:00:19Z",
+                    "reason": "这是原报道刊登日期，不把它当交易或清理发生的日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "Vinted说，她的申诉由人工审核",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "有人审，和告诉你依据，好像还是两回事",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "选项链金额和已交证据直接并排，并保留她说：卖得像举证的开头较轻巧，但读者看不到证据投入到底具体在哪。",
+            "interesting_detail": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。",
+            "reply_and_share": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+            "fact_risk": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "text": "这条6英镑项链，卖得像在提交证据。\n\n《卫报》10月20日报道，Catherine说，买家称收到空包，她交了照片、视频和寄件门铃录像，平台仍退款，没给具体解释。\n\nVinted说她的申诉由人工审。我卡在那个没说清的依据上。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "20",
+              "2026",
+              "6"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。",
+          "editorial_tradeoff": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "e2bdcbcd088983888a515b3ca9a8ca1c691f24181d9e46dab07028058c6c66c8",
+            "source_hash": "c2991b7234b8438646ff2ab235def7dbdcd641791a96352c407f5a5761cc762a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "reader_gain": "分清退款结论、审查方式和解释充分性是三个问题。",
+              "response_reason": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+              "distinct_angle": "把证据是否有效与回应是否解释分开，不把人工审核当自动免责，也不指控机器乱判。"
+            },
+            "opening": {
+              "quote": "这条6英镑项链，卖得像在提交证据",
+              "reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "alternatives": [
+                {
+                  "text": "这条6英镑项链，卖得像在提交证据。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                },
+                {
+                  "text": "卖家交了照片、视频、寄件录像，等的是一个解释；平台回应她的申诉由人工审核。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                }
+              ],
+              "selection_reason": "此版先把卖东西变成举证的荒诞感说出来；对照开头双方信息都给齐但更像摘要。B的证据延后一段，最终不如A直接。"
+            },
+            "payoff": {
+              "quote": "我卡在那个没说清的依据上",
+              "reason": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "这条6英镑项链，卖得像在提交证据",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》10月20日报道，Catherine说，买家称收到空包，她交了照片、视频和寄件门铃录像，平台仍退款，没给具体解释",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "20",
+                    "source": "2026-10-20T06:00:19Z",
+                    "reason": "这是原报道刊登日期，不把它当交易或清理发生的日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "Vinted说她的申诉由人工审",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "我卡在那个没说清的依据上",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版先把卖东西变成举证的荒诞感说出来；对照开头双方信息都给齐但更像摘要。B的证据延后一段，最终不如A直接。",
+            "interesting_detail": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "用卖货变举证的个人观察组织材料，关注解释缺口，不臆测审核者心理。",
+            "reply_and_share": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+            "fact_risk": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "text": "卖家交了照片、视频、寄件录像，等的是一个解释；平台回应她的申诉由人工审核。\n\n《卫报》10月20日报道，这是一笔6英镑项链交易，买家称收到空包。卖家Catherine说，材料交了仍被退款，没得到具体解释。\n\n一个在说证据够不够，一个在说有没有人看。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "20",
+              "2026",
+              "6"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales"
+            ],
+            "roles": [
+              "她"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。",
+          "editorial_tradeoff": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "8271a6189e8b8028fbccc85e7d4beae97090a954453716ffb0304b817a009e3f",
+            "source_hash": "c2991b7234b8438646ff2ab235def7dbdcd641791a96352c407f5a5761cc762a",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "reader_gain": "分清退款结论、审查方式和解释充分性是三个问题。",
+              "response_reason": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+              "distinct_angle": "把证据是否有效与回应是否解释分开，不把人工审核当自动免责，也不指控机器乱判。"
+            },
+            "opening": {
+              "quote": "卖家交了照片、视频、寄件录像，等的是一个解释；平台回应她的申诉由人工审核",
+              "reason": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+              "alternatives": [
+                {
+                  "text": "卖家交了照片、视频、寄件录像，等的是一个解释；平台回应她的申诉由人工审核。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                },
+                {
+                  "text": "卖6英镑项链，她说照片、视频、寄件时的门铃录像都交了，平台还是退款。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "小额交易和证据投入直接同屏；卖家自述在第一句标清，不判定平台退款对错。",
+                  "source_span": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases."
+                }
+              ],
+              "selection_reason": "此版直接并列卖家要解释和平台说有人审：比A更清楚争论空间；代价是首句过长，陌生读者要先理清双方角色。"
+            },
+            "payoff": {
+              "quote": "一个在说证据够不够，一个在说有没有人看",
+              "reason": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "卖家交了照片、视频、寄件录像，等的是一个解释；平台回应她的申诉由人工审核",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》10月20日报道，这是一笔6英镑项链交易，买家称收到空包",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "20",
+                    "source": "2026-10-20T06:00:19Z",
+                    "reason": "这是原报道刊登日期，不把它当交易或清理发生的日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "卖家Catherine说，材料交了仍被退款，没得到具体解释",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "一个在说证据够不够，一个在说有没有人看",
+                "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+                "source_range": [
+                  0,
+                  849
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版直接并列卖家要解释和平台说有人审：比A更清楚争论空间；代价是首句过长，陌生读者要先理清双方角色。",
+            "interesting_detail": "小额项链遇上大量举证，付出与金额之间有具体落差。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "把双方回答的不同问题并置，保留公司人工申诉回应，不煽动买家欺诈指控。",
+            "reply_and_share": "卖过闲置的人可能谈申诉经历；不邀请网暴买家或平台。",
+            "fact_risk": "本轮复审：买家说空包和卖家举证均经媒体转述；没有独立物流记录。不能叫买家骗子，不能断言纯AI判案，不能删平台人工审核回应。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "6英镑项链",
+        "after": "照片、视频"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "索要依据",
+        "reason": "卖过二手物的读者可能代入申诉，英国平台仍有距离。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "平台仍退款",
+        "reason": "大众能懂证据与退款，品牌不熟也不妨碍理解日常处境。"
+      },
+      "hook": {
+        "text": "买家称包裹是空的",
+        "evidence": "买家称包裹是空的",
+        "reason": "首屏6英镑纠纷却要交门铃录像，有明确停留细节。"
+      },
+      "baseline": "《卫报》10月20日报道，Catherine卖6英镑项链，买家称收到空包。她说交了照片、视频和带日期的门铃录像，平台仍退款，她未得到具体依据。Vinted回应，包括她的案件在内，所有申诉由人工审核。\n\nhttps://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+      "baseline_kind": "本轮实际写出的新闻摘要对照；不是声称历史系统已有这篇稿",
+      "decision": "PASS",
+      "recommended_variant": "A",
+      "opening_comparison_required": true
+    },
+    {
+      "material_id": "Df90b36e701d2be31",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        4,
+        3,
+        3,
+        1
+      ],
+      "evidence": [
+        "误把他家信箱",
+        "延续50年",
+        "义务送报送信",
+        "复印核桃种植技术",
+        "1976年邮递员",
+        "现在骑三轮车",
+        "村民曾拆门板",
+        "自费订农业报刊"
+      ],
+      "reasons": [
+        "起因、动作和延续时间都有报道细节，但未复核历年邮递记录。",
+        "信箱被认错反而长期帮全村送信，意外来自实际后续。",
+        "没有双方利益冲突，不拿义务劳动虚构被迫奉献。",
+        "乡村读者或收过邻里帮助的人能代入，年轻城市用户有距离。",
+        "首屏邮递员认错信箱后送了50年，具体动作本身就能停留。",
+        "大众理解送信与报恩，不需地方政策背景。",
+        "可分享给熟悉乡邻的人，重点是抬担架和复印报纸的行动。",
+        "不强造评论两派；这是分享型人物故事，讨论性偏弱。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "一次误投变成长年习惯，比独臂信使的荣誉标题更容易进入。",
+        "reader_gain": "看见互助落实到门板担架、三轮车与复印报纸这些小动作。",
+        "response_reason": "适合分享给认识类似邻居的人；没有理由期待激烈争论。",
+        "distinct_angle": "去掉报道的感恩升华，留下帮过他的人与他实际做的事。"
+      },
+      "selection_note": "误认信箱到50年具体行动仍可读，但上一篇的叙事已经完整；本轮没有新的人物细节可兑现，未选写，避免把善行等同于转发意愿。",
+      "previews": [],
+      "contrast_basis": {
+        "before": "误把他家信箱",
+        "after": "延续50年"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "复印核桃种植技术",
+        "reason": "乡村读者或收过邻里帮助的人能代入，年轻城市用户有距离。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "现在骑三轮车",
+        "reason": "大众理解送信与报恩，不需地方政策背景。"
+      },
+      "hook": {
+        "text": "1976年邮递员",
+        "evidence": "1976年邮递员",
+        "reason": "首屏邮递员认错信箱后送了50年，具体动作本身就能停留。"
+      },
+      "baseline": "中新网10月20日报道，1976年邮递员误把王保贵家信箱当成全村公用信箱，他开始义务送报送信，延续50年。以前步行，现在骑三轮车。村民曾拆门板抬他就医、凑钱帮养伤，他也自费订农业报刊，复印种植技术分给村民。\n\nhttps://www.chinanews.com.cn/sh/2026/10-20/10718206.shtml",
+      "baseline_kind": "本轮实际写出的新闻摘要对照；不是声称历史系统已有这篇稿",
+      "decision": "PASS"
+    },
+    {
+      "material_id": "De018aa291300b606",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        3,
+        2,
+        2,
+        0
+      ],
+      "evidence": [
+        "多年未研究",
+        "两块合起来",
+        "新物种",
+        "捐给博物馆",
+        "第二块标本",
+        "2019年",
+        "纪念Linster",
+        "不是10月新发现"
+      ],
+      "reasons": [
+        "有大学原始新闻与标本捐赠细节，正式论文未在本轮逐项复算。",
+        "抽屉里多年没研究与第二块让命名成立有真实反差。",
+        "没有冲突，不编研究者抢功或藏品被压下。",
+        "收藏爱好者读者可代入，普通用户对箭石仍有背景成本。",
+        "首屏捐出化石留下姓氏，比堆物种拉丁名更好理解。",
+        "大众理解捐赠与命名，但专业标本需最低背景。",
+        "可分享给爱收藏的人，不过旧事不具新闻时效优势。",
+        "未见讨论分叉，不能靠逝者故事强造情绪评论。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "一块捐赠的化石怎样变成物种名字，有人和结果。",
+        "reader_gain": "知道新物种需要标本互证，不把最胖鱿鱼直接当新鲜标题。",
+        "response_reason": "收藏爱好者可能分享；不宣称普通读者一定被追思感动。",
+        "distinct_angle": "先校正10月摘要的时间，再谈2019捐赠到9月命名，保留未等到发表。"
+      },
+      "selection_note": "本轮复审：直接改用9月10日大学一手来源；可说箭石是鱿鱼近亲，不能写成现代鱿鱼或9月才出土。命名纪念Linster及家人，并非仅纪念他一人。",
+      "previews": [],
+      "contrast_basis": {
+        "before": "多年未研究",
+        "after": "帮助辨认新物种"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "捐给博物馆",
+        "reason": "收藏爱好者读者可代入，普通用户对箭石仍有背景成本。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "2019年",
+        "reason": "大众理解捐赠与命名，但专业标本需最低背景。"
+      },
+      "hook": {
+        "text": "第二块标本",
+        "evidence": "第二块标本",
+        "reason": "首屏捐出化石留下姓氏，比堆物种拉丁名更好理解。"
+      },
+      "baseline": "曼大9月报道，Cliff Linster在2019年捐赠一块箭石化石。另一块标本在博物馆多年未研究，两块帮助识别新物种，名字纪念他及家人。他6月去世，知道研究正在做，未等到论文发表。\n\nhttps://www.manchester.ac.uk/about/news/peculiar-new-species-of-jurassic-squid-found-in-wyoming/",
+      "baseline_kind": "本轮实际写出的新闻摘要对照；不是声称历史系统已有这篇稿",
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "Daabc79abe7faa361",
+      "ratings": [
+        3,
+        4,
+        0,
+        3,
+        4,
+        3,
+        4,
+        2
+      ],
+      "evidence": [
+        "高压水枪",
+        "误以为终于下冰雹",
+        "洗生蛆的垃圾桶",
+        "邻居",
+        "开门查看",
+        "窗、车和周围院子",
+        "簸箕和刷子",
+        "旧回忆"
+      ],
+      "reasons": [
+        "有具名作者、工具和前后动作，但仍是单一作者旧回忆，没有现场多方证据。",
+        "以为下冰雹却被蛆波及，预期与实际结果反差强，不靠媒体品牌加分。",
+        "只有清理方式的外溢后果，没有邻居吵架或索赔证据，冲突必须为0。",
+        "读者熟悉邻里卫生和关窗处境，地理在英国不自动等于远距离；恶心会赶走部分人。",
+        "首屏误认天气和开门后果有具体画面，不必先读气候背景才能懂。",
+        "工具和垃圾桶都是大众日常物件，口味限制使它不是普适题材。",
+        "可发给喜欢荒诞邻里故事的朋友，分享动机是离谱的清理后果，不是重大新闻。",
+        "采用省力工具与考虑邻居外溢后果可形成取舍分叉，不伪称原文已有争论。"
+      ],
+      "possible_reply_branches": [
+        "先处理桶内问题，再清扫周边，避免把麻烦推给邻居",
+        "工具本身不必被否定，关键是使用环境和控制外溢"
+      ],
+      "reader_value": {
+        "stop_reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+        "reader_gain": "得到高压水枪并非什么都能冲的真实回忆，非卫生操作指南。",
+        "response_reason": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+        "distinct_angle": "从邻居误认天气进入真实因果，不编冲突；2022回忆在正文明确说明，不借新报道假装现场。"
+      },
+      "selection_note": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "text": "邻居以为下冰雹，开门飞来的是蛆。\n\n《卫报》作者回忆2022年伦敦酷暑：有人拿高压水枪洗生蛆的垃圾桶，把蛆冲上了四周的窗、车和院子。\n\n最后，他进去拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "locked_facts": {
+            "numbers": [
+              "20",
+              "2022",
+              "2026"
+            ],
+            "dates": [],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail"
+            ],
+            "roles": [
+              "邻居"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。",
+          "editorial_tradeoff": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "0d0b03547eef094daa5e0730bd22af81c29f3b79ff0982f494b1f93e867553a7",
+            "source_hash": "338d15555ebe5722cb21200f6feb20fdcd9f501bf0c09399c8e80f03faee445d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "reader_gain": "得到高压水枪并非什么都能冲的真实回忆，非卫生操作指南。",
+              "response_reason": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+              "distinct_angle": "从邻居误认天气进入真实因果，不编冲突；2022回忆在正文明确说明，不借新报道假装现场。"
+            },
+            "opening": {
+              "quote": "邻居以为下冰雹，开门飞来的是蛆",
+              "reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "alternatives": [
+                {
+                  "text": "邻居以为下冰雹，开门飞来的是蛆。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                },
+                {
+                  "text": "我光读到高压水枪洗生蛆的垃圾桶，就想关窗。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                }
+              ],
+              "selection_reason": "选误以为下冰雹却飞来蛆：不用先懂高压水枪，读者立刻看见误认的结果；对照开头先讲我的反应，注意力被作者自己截走。"
+            },
+            "payoff": {
+              "quote": "最后，他进去拿了簸箕和刷子",
+              "reason": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "邻居以为下冰雹，开门飞来的是蛆",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》作者回忆2022年伦敦酷暑：有人拿高压水枪洗生蛆的垃圾桶，把蛆冲上了四周的窗、车和院子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "最后，他进去拿了簸箕和刷子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "选误以为下冰雹却飞来蛆：不用先懂高压水枪，读者立刻看见误认的结果；对照开头先讲我的反应，注意力被作者自己截走。",
+            "interesting_detail": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。",
+            "reply_and_share": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+            "fact_risk": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "text": "我光读到高压水枪洗生蛆的垃圾桶，就想关窗。\n\n《卫报》作者写的是2022年旧事：蛆被冲向邻居的窗、车和院子。有人以为终于下冰雹，开门看天气，也被波及。\n\n他最后拿来了簸箕和刷子。早干嘛去了。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "locked_facts": {
+            "numbers": [
+              "20",
+              "2022",
+              "2026"
+            ],
+            "dates": [],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail"
+            ],
+            "roles": [
+              "邻居"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。",
+          "editorial_tradeoff": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "99e8cdc4e29cdd83250c49a6ab6dbd0308ef6f018728d60aa77f9901c750719a",
+            "source_hash": "338d15555ebe5722cb21200f6feb20fdcd9f501bf0c09399c8e80f03faee445d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "reader_gain": "得到高压水枪并非什么都能冲的真实回忆，非卫生操作指南。",
+              "response_reason": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+              "distinct_angle": "从邻居误认天气进入真实因果，不编冲突；2022回忆在正文明确说明，不借新报道假装现场。"
+            },
+            "opening": {
+              "quote": "我光读到高压水枪洗生蛆的垃圾桶，就想关窗",
+              "reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "alternatives": [
+                {
+                  "text": "我光读到高压水枪洗生蛆的垃圾桶，就想关窗。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                },
+                {
+                  "text": "一个人清理垃圾桶，蛆却飞到了别人家的窗、车和院子。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                }
+              ],
+              "selection_reason": "此版选读到便想关窗的身体反应，口语比外溢后果的判断更轻；但反应可被删，最终A让故事先发生更强。"
+            },
+            "payoff": {
+              "quote": "早干嘛去了",
+              "reason": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "我光读到高压水枪洗生蛆的垃圾桶，就想关窗",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》作者写的是2022年旧事：蛆被冲向邻居的窗、车和院子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "有人以为终于下冰雹，开门看天气，也被波及",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "他最后拿来了簸箕和刷子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "早干嘛去了",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版选读到便想关窗的身体反应，口语比外溢后果的判断更轻；但反应可被删，最终A让故事先发生更强。",
+            "interesting_detail": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "用读者想关窗的个人反应进入荒诞场景，未把我写成伦敦亲历者。",
+            "reply_and_share": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+            "fact_risk": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "text": "一个人清理垃圾桶，蛆却飞到了别人家的窗、车和院子。\n\n《卫报》作者回忆2022年伦敦酷暑：邻居用高压水枪洗桶。有人以为下冰雹，开门就被波及。\n\n清桶的人后来拿来簸箕和刷子。工具是省力的，麻烦是邻居的。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "locked_facts": {
+            "numbers": [
+              "20",
+              "2022",
+              "2026"
+            ],
+            "dates": [],
+            "quotes": [],
+            "urls": [
+              "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail"
+            ],
+            "roles": [
+              "邻居"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。",
+          "editorial_tradeoff": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "e0ea84230d1db9543c332bbd6db34df3e620d14ca5d587af0dee28eeb0059759",
+            "source_hash": "338d15555ebe5722cb21200f6feb20fdcd9f501bf0c09399c8e80f03faee445d",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "reader_gain": "得到高压水枪并非什么都能冲的真实回忆，非卫生操作指南。",
+              "response_reason": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+              "distinct_angle": "从邻居误认天气进入真实因果，不编冲突；2022回忆在正文明确说明，不借新报道假装现场。"
+            },
+            "opening": {
+              "quote": "一个人清理垃圾桶，蛆却飞到了别人家的窗、车和院子",
+              "reason": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+              "alternatives": [
+                {
+                  "text": "一个人清理垃圾桶，蛆却飞到了别人家的窗、车和院子。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                },
+                {
+                  "text": "邻居以为下冰雹，开门飞来的是蛆。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "先给误认天气的具体反转，下一段马上注明2022年作者回忆，工具结尾让事实自己收束。",
+                  "source_span": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush."
+                }
+              ],
+              "selection_reason": "此版先展示清理者与受影响邻居的关系，适合讨论工具外溢；对照的误认天气更有惊讶感，故最终仍选A。"
+            },
+            "payoff": {
+              "quote": "工具是省力的，麻烦是邻居的",
+              "reason": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。"
+            },
+            "comparison": {
+              "reference_text": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "一个人清理垃圾桶，蛆却飞到了别人家的窗、车和院子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "《卫报》作者回忆2022年伦敦酷暑：邻居用高压水枪洗桶",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "有人以为下冰雹，开门就被波及",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "清桶的人后来拿来簸箕和刷子",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "工具是省力的，麻烦是邻居的",
+                "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+                "source_range": [
+                  0,
+                  917
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版先展示清理者与受影响邻居的关系，适合讨论工具外溢；对照的误认天气更有惊讶感，故最终仍选A。",
+            "interesting_detail": "一次打扫如何把问题冲到别人窗台，因果链具体且荒诞。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "从一人清理给他人带来的外溢后果进入邻里取舍，不编吵架或赔偿。",
+            "reply_and_share": "分享给接受这种荒诞口味的朋友；工具省力与后果外溢有具体讨论空间。",
+            "fact_risk": "内容切口强，可作限口味的人工备选；2022年单作者回忆且事件只有年份，现有时效合同不允许正式准入。不能把2026刊登时间当2022事件时间。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        }
+      ],
+      "contrast_basis": {
+        "before": "高压水枪",
+        "after": "误以为终于下冰雹"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "邻居",
+        "reason": "读者熟悉邻里卫生和关窗处境，地理在英国不自动等于远距离；恶心会赶走部分人。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "窗、车和周围院子",
+        "reason": "大众知道垃圾桶与洗地，日常背景门槛低。"
+      },
+      "hook": {
+        "text": "开门查看",
+        "evidence": "开门查看",
+        "reason": "首屏高压水枪清桶反倒波及邻居，动作容易理解。"
+      },
+      "baseline": "《卫报》刊登作者对2022年伦敦酷暑的回忆：邻居拿高压水枪洗生蛆的垃圾桶，蛆被冲到窗、车、院子里。有邻居以为下冰雹，开门查看，也被波及。后来清桶的人拿了簸箕和刷子。\n\nhttps://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+      "baseline_kind": "本轮实际写出的新闻摘要对照；不是声称历史系统已有这篇稿",
+      "decision": "HOLD",
+      "recommended_variant": "A",
+      "opening_comparison_required": true
+    },
+    {
+      "material_id": "De70ca704ff7eb512",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "柏大卫在青海长大",
+        "司机不收钱",
+        "均为受访者转述旧事",
+        "会湟源方言",
+        "调侃他吃酿皮的童谣",
+        "带回美国挂在卧室",
+        "请人写下",
+        "黄炯回忆"
+      ],
+      "reasons": [
+        "有姓名、青海口音和童谣细节，但免费打车往事来自另一受访者回忆，不给独立证实标签。",
+        "95岁仍说故乡口音有温度，外国人会方言本身不等于强意外。",
+        "没有双方利益冲突，不把身份差异写成对立。",
+        "离乡读者能代入口音与卧室童谣，文化身份仍需少量背景。",
+        "首屏可以放童谣挂卧室，报道却没有回忆发生当时的完整现场。",
+        "大众懂思乡，但具体历史与人物关系仍有解释成本。",
+        "可分享给同乡聊记忆，目前缺可带走的新行动或信息。",
+        "免费打车是单向善意，没有可靠的两条取舍分叉，不强行提问。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "仅有潜在停留点，尚不足以作为本轮优先选题。",
+        "reader_gain": "具体口音和童谣比宏大友谊好读，但司机往事未经独立核对，报道礼赞框架很强；不靠洋面孔讲方言作猎奇。",
+        "response_reason": "没有验证分享对象和收益，暂不预测读者会回应。",
+        "distinct_angle": "当前无法兑现独特角度，需要补证据或具体行动后再判断。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "会湟源方言",
+        "reason": "需要补充背景，读者接口不足以支撑短帖的即时理解。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "带回美国挂在卧室",
+        "reason": "原始材料、事件时间或个案边界需要额外核验。"
+      },
+      "hook": {
+        "text": "调侃他吃酿皮的童谣",
+        "evidence": "调侃他吃酿皮的童谣",
+        "reason": "只保留候选线索，没有能兑现的强首屏。"
+      },
+      "selection_note": "本轮复审：具体口音和童谣比宏大友谊好读，但司机往事未经独立核对，报道礼赞框架很强；不靠洋面孔讲方言作猎奇。",
+      "previews": [],
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "Da5e4fdd4cf5b41a8",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "Marco以但丁爷爷造型在开封表演",
+        "会按观众反应调整互动",
+        "报道没有一个完整互动动作的过程和结果",
+        "他自述做街头艺术26年",
+        "在开封表演",
+        "起初做戏剧",
+        "观众反应",
+        "互动动作的过程和结果"
+      ],
+      "reasons": [
+        "有表演者姓名和从业时间，缺一场完整互动的动作与结果，素材止于背景。",
+        "但丁造型有外观新奇，没有观众预期被改变的具体结果。",
+        "没有责任或利益冲突，不编中外游客误会。",
+        "去过街头表演的读者能代入场景，但本篇不知道表演实际做了什么。",
+        "首屏造型只是标签，没有三秒能理解的动作链。",
+        "大众懂演出，仍不知道这场表演相较其他人特别在哪。",
+        "没有明确值得分享的片段，不把外国老人形象当转发理由。",
+        "观众好评没有展示不同取舍分叉，不制造文化对立求评论。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "仅有潜在停留点，尚不足以作为本轮优先选题。",
+        "reader_gain": "能看见人物却看不见那场互动到底怎样发生；不能把游客好评拼成一个并不存在的现场故事。",
+        "response_reason": "没有验证分享对象和收益，暂不预测读者会回应。",
+        "distinct_angle": "当前无法兑现独特角度，需要补证据或具体行动后再判断。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "他自述做街头艺术26年",
+        "reason": "需要补充背景，读者接口不足以支撑短帖的即时理解。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "起初做戏剧",
+        "reason": "原始材料、事件时间或个案边界需要额外核验。"
+      },
+      "hook": {
+        "text": "在开封表演",
+        "evidence": "在开封表演",
+        "reason": "只保留候选线索，没有能兑现的强首屏。"
+      },
+      "selection_note": "本轮复审：能看见人物却看不见那场互动到底怎样发生；不能把游客好评拼成一个并不存在的现场故事。",
+      "previews": [],
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "Db980fa8f3a144c43",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "作者用剪刀修掉叶片干枯部分",
+        "以前剪进绿色后又冒褐边",
+        "不是控制实验",
+        "保留一小条褐边",
+        "避免剪进绿色活组织",
+        "只是个人观察",
+        "叶片干枯部分",
+        "作者回忆"
+      ],
+      "reasons": [
+        "作者保留一小条褐边的动作具体，但只是个人观察，未对照植物机构资料。",
+        "剪进绿色又冒褐边存在小反差，不能据一次回忆得出普遍因果。",
+        "没有争议双方，不虚构养花圈争吵。",
+        "养过植物的读者能代入想把干边剪干净的冲动，仍需植物品种条件。",
+        "首屏褐边能看懂，但未说明条件时容易变成没有证据的技巧文。",
+        "大众认识叶片，不等于所有植物适用同一修剪办法。",
+        "有潜在分享给养植物朋友的用途，补核前不包装成可靠操作指南。",
+        "审美与保留活组织有潜在取舍，尚缺真实条件和不同操作结果。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "仅有潜在停留点，尚不足以作为本轮优先选题。",
+        "reader_gain": "有可带走的养护细节，但只核对到一个作者的小实验，没有植物机构资料支撑普遍结论；不直接转成方法推荐。",
+        "response_reason": "没有验证分享对象和收益，暂不预测读者会回应。",
+        "distinct_angle": "当前无法兑现独特角度，需要补证据或具体行动后再判断。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "保留一小条褐边",
+        "reason": "需要补充背景，读者接口不足以支撑短帖的即时理解。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "只是个人观察",
+        "reason": "原始材料、事件时间或个案边界需要额外核验。"
+      },
+      "hook": {
+        "text": "避免剪进绿色活组织",
+        "evidence": "避免剪进绿色活组织",
+        "reason": "只保留候选线索，没有能兑现的强首屏。"
+      },
+      "selection_note": "本轮复审：有可带走的养护细节，但只核对到一个作者的小实验，没有植物机构资料支撑普遍结论；不直接转成方法推荐。",
+      "previews": [],
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "Dd3c64c35277245ab",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "乳业为希腊酸奶和茅屋奶酪等食品提供更多乳蛋白",
+        "副产品也带来更多黄油供给",
+        "尚未核对原始农业统计",
+        "美国黄油供给增加",
+        "NPR解释美国黄油供给增加",
+        "希腊酸奶和茅屋奶酪",
+        "只核对到媒体解释",
+        "原始农业统计"
+      ],
+      "reasons": [
+        "NPR解释乳蛋白需求与黄油副产物，未核农业原表和价格时间序列，不能满分。",
+        "蛋白食品连到黄油供给有信息差，具体链条仍是媒体解释不是本轮新验证。",
+        "没有奶农与消费者争议记录，不编产业对立。",
+        "买菜读者能代入黄油价格，报道语境是美国而非中国本地。",
+        "首屏可讲副产品关系，但缺核实数据时不能说确定是价格变化原因。",
+        "大众知道食品价格，乳业供需解释需要额外背景。",
+        "可分享给关注饮食产业的朋友，本地购物省钱价值尚不能兑现。",
+        "供需解释没有个人真实取舍分叉，不拿宏观变化强造评论。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "仅有潜在停留点，尚不足以作为本轮优先选题。",
+        "reader_gain": "蛋白热潮影响黄油有信息差，但只适用于报道的美国供给语境；没核对官方供需表，不把产业解释写成确定普遍规律。",
+        "response_reason": "没有验证分享对象和收益，暂不预测读者会回应。",
+        "distinct_angle": "当前无法兑现独特角度，需要补证据或具体行动后再判断。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "美国黄油供给增加",
+        "reason": "需要补充背景，读者接口不足以支撑短帖的即时理解。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "希腊酸奶和茅屋奶酪",
+        "reason": "原始材料、事件时间或个案边界需要额外核验。"
+      },
+      "hook": {
+        "text": "NPR解释美国黄油供给增加",
+        "evidence": "NPR解释美国黄油供给增加",
+        "reason": "只保留候选线索，没有能兑现的强首屏。"
+      },
+      "selection_note": "本轮复审：蛋白热潮影响黄油有信息差，但只适用于报道的美国供给语境；没核对官方供需表，不把产业解释写成确定普遍规律。",
+      "previews": [],
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "Df463b903f3bba963",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "贝努石块内部裂隙与快速散热有关",
+        "科普摘要不是研究新发表",
+        "不是登上小行星实时直播",
+        "样本隔绝地球环境做CT",
+        "NASA在3月已经说明",
+        "10月20日",
+        "一手材料描述",
+        "快速散热有关"
+      ],
+      "reasons": [
+        "已有NASA一手说明与样本CT细节，但技术论文未逐项读完，不能补出新机制。",
+        "表面粗糙与内部裂隙影响散热有科学信息差，不是10月刚发现。",
+        "没有科研团队争议，不把观测谜题编成机构隐瞒。",
+        "好奇太空的读者有入口，普通用户仍需热性质和样本来源背景。",
+        "首屏CT检查样本比堆星名具体，但专业术语仍延缓理解。",
+        "大众知道小行星，孔隙热传导并非日常零门槛话题。",
+        "可分享给科普朋友，必须展示3月原始日期，不能靠伪新鲜感。",
+        "没有真实生活选择分叉，不借宇宙奇观强求读者站队。"
+      ],
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "仅有潜在停留点，尚不足以作为本轮优先选题。",
+        "reader_gain": "源头日期3月17日早于10月新摘要，信息本身有趣但新鲜感不成立；专业解释还需读论文，不靠NASA刚刚发现吸引点击。",
+        "response_reason": "没有验证分享对象和收益，暂不预测读者会回应。",
+        "distinct_angle": "当前无法兑现独特角度，需要补证据或具体行动后再判断。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "样本隔绝地球环境做CT",
+        "reason": "需要补充背景，读者接口不足以支撑短帖的即时理解。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "10月20日",
+        "reason": "原始材料、事件时间或个案边界需要额外核验。"
+      },
+      "hook": {
+        "text": "NASA在3月已经说明",
+        "evidence": "NASA在3月已经说明",
+        "reason": "只保留候选线索，没有能兑现的强首屏。"
+      },
+      "selection_note": "本轮复审：源头日期3月17日早于10月新摘要，信息本身有趣但新鲜感不成立；专业解释还需读论文，不靠NASA刚刚发现吸引点击。",
+      "previews": [],
+      "decision": "HOLD"
+    },
+    {
+      "material_id": "D91aa25fe640f5a3e",
+      "ratings": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": [
+        "团队计划进入高铁工务机械检测班组",
+        "报道是行程预告",
+        "未呈现具体故障处理结果",
+        "列车运行集中调度",
+        "敦煌启幕一次铁路采访活动",
+        "兰新高铁下穿明长城隧道段落",
+        "还将拍摄",
+        "中欧班列"
+      ],
+      "reasons": [
+        "来源清楚，但都是计划采访场景，没有可重建的人物行动结果。",
+        "没有意外结果；穿越古丝路是报道框架，不等于事实反转。",
+        "没有当事人之间的责任或利益争议，不借宏大工程编冲突。",
+        "普通读者能认识铁路，尚无乘客自己的处境可代入。",
+        "首屏是活动启幕，需要读到后文才能找到一点具体工具。",
+        "铁路影响大众出行，但本篇的采访行程与日常收益连接很弱。",
+        "不能说明转发给谁能得到什么，不给活动曝光当分享价值。",
+        "没有真实选择分叉；不把祝贺和点赞视作讨论空间。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：权威来源且题材重要，但只有计划和概述，缺少已经发生的具体行动；对照荒诞故事时不以权威身份保送。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏是活动启幕，需要读到后文才能找到一点具体工具。",
+        "reader_gain": "来源清楚，但都是计划采访场景，没有可重建的人物行动结果。",
+        "response_reason": "不能说明转发给谁能得到什么，不给活动曝光当分享价值。",
+        "distinct_angle": "HOLD：权威来源且题材重要，但只有计划和概述，缺少已经发生的具体行动；对照荒诞故事时不以权威身份保送。"
+      },
+      "contrast_basis": {
+        "before": "敦煌启幕一次铁路采访",
+        "after": "告，未呈现具体故障处理结果。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "列车运行集中调度",
+        "reason": "普通读者能认识铁路，尚无乘客自己的处境可代入。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "兰新高铁下穿明长城隧道段落",
+        "reason": "铁路影响大众出行，但本篇的采访行程与日常收益连接很弱。"
+      },
+      "hook": {
+        "text": "敦煌启幕一次铁路采访活动",
+        "evidence": "敦煌启幕一次铁路采访活动",
+        "reason": "首屏是活动启幕，需要读到后文才能找到一点具体工具。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D1340317780b6bccc",
+      "ratings": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "2025年单位GDP二氧化碳排放较2020年降低17.7%",
+        "本篇只列宏观指标",
+        "没有家庭或企业如何改变行为的具体过程",
+        "非化石能源消费比重21.7%",
+        "新华社报道新闻发布会和2026年度气候行动报告",
+        "单位GDP二氧化碳排放",
+        "气候行动报告",
+        "具体过程"
+      ],
+      "reasons": [
+        "有报告归因和指标，但没有核原始统计表，也没有完整的人物行动。",
+        "指标变动不自动是读者预期反差，原文没有意外行为或结果。",
+        "没有双方行动的责任冲突，不能为严肃议题补造争议。",
+        "关心气候的读者有接口，日常家庭怎样受影响尚未交代。",
+        "首屏报告发布不能立即兑现生活信息差，数字不是停留理由本身。",
+        "大众知道气候题材，但GDP强度等概念需要额外背景。",
+        "只可能分享给跟踪报告的人，普通朋友暂时没有可带走的细节。",
+        "没有具体取舍分叉，政策重要性不能代替评论方向。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：重大且有来源，不代表适合本账号；缺原始表与生活过程，不把报道级别换算成传播分。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏报告发布不能立即兑现生活信息差，数字不是停留理由本身。",
+        "reader_gain": "有报告归因和指标，但没有核原始统计表，也没有完整的人物行动。",
+        "response_reason": "只可能分享给跟踪报告的人，普通朋友暂时没有可带走的细节。",
+        "distinct_angle": "HOLD：重大且有来源，不代表适合本账号；缺原始表与生活过程，不把报道级别换算成传播分。"
+      },
+      "contrast_basis": {
+        "before": "新华社报道新闻发布会",
+        "after": "企业如何改变行为的具体过程。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "非化石能源消费比重21.7%",
+        "reason": "关心气候的读者有接口，日常家庭怎样受影响尚未交代。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "单位GDP二氧化碳排放",
+        "reason": "大众知道气候题材，但GDP强度等概念需要额外背景。"
+      },
+      "hook": {
+        "text": "新华社报道新闻发布会和2026年度气候行动报告",
+        "evidence": "新华社报道新闻发布会和2026年度气候行动报告",
+        "reason": "首屏报告发布不能立即兑现生活信息差，数字不是停留理由本身。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D22b51d2ff51d406b",
+      "ratings": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        "闫女士去机场选择顺风车",
+        "原本一个半小时的路，绕路接人又花大约一个小时",
+        "顺风车责任需要核对",
+        "车主出发前私下加二十块钱",
+        "绕路接人又花大约一个小时",
+        "乘客体验来自采访自述",
+        "陈贤说跨城出行",
+        "真假顺风车的合规边界"
+      ],
+      "reasons": [
+        "有两名乘客的具体绕路和加价动作，但未见行车或付款原始记录。",
+        "预期顺路省事，反而绕路多花时间，意外来自完整经历。",
+        "边界问题涉及乘客时间与车主接单收益，责任分配真实存在。",
+        "普通读者赶机场和省钱的处境可直接代入，实际代价明确。",
+        "首屏写原本一个半小时又绕一小时能懂，但不能偷换为所有顺风车。",
+        "日常出行是大众经验，但并非人人跨城拼车，地域规则要另核。",
+        "可分享给准备赶机场的朋友核对路线，不能宣传虚构的统一处罚。",
+        "省钱接受绕路与为准点选择其他交通有真实取舍分叉。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：生活故事强，但原标题20次黑名单与正文日均20单容易混淆，正式规则未核；本轮不把乘客案例升级成普遍法律解释。",
+      "possible_reply_branches": [
+        "愿为便宜接受绕路但提前约定时间",
+        "为准点到机场改用可确定路线的方式"
+      ],
+      "reader_value": {
+        "stop_reason": "首屏写原本一个半小时又绕一小时能懂，但不能偷换为所有顺风车。",
+        "reader_gain": "有两名乘客的具体绕路和加价动作，但未见行车或付款原始记录。",
+        "response_reason": "可分享给准备赶机场的朋友核对路线，不能宣传虚构的统一处罚。",
+        "distinct_angle": "HOLD：生活故事强，但原标题20次黑名单与正文日均20单容易混淆，正式规则未核；本轮不把乘客案例升级成普遍法律解释。"
+      },
+      "contrast_basis": {
+        "before": "原本一个半小时的路",
+        "after": "绕路接人又花大约一个小时"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "车主出发前私下加二十块钱",
+        "reason": "普通读者赶机场和省钱的处境可直接代入，实际代价明确。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "乘客体验来自采访自述",
+        "reason": "日常出行是大众经验，但并非人人跨城拼车，地域规则要另核。"
+      },
+      "hook": {
+        "text": "绕路接人又花大约一个小时",
+        "evidence": "绕路接人又花大约一个小时",
+        "reason": "首屏写原本一个半小时又绕一小时能懂，但不能偷换为所有顺风车。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D20f67acf7fa02d64",
+      "ratings": [
+        2,
+        1,
+        1,
+        3,
+        2,
+        3,
+        3,
+        1
+      ],
+      "evidence": [
+        "编造聊天记录或录用材料",
+        "先用不限专业等信息引流",
+        "没有一名完整受访求职者案例",
+        "声称只有付费内推能面试",
+        "最后以服务费和打点费收费",
+        "部门风险提示描述假央国企招聘",
+        "收款后拖延甚至失联",
+        "没有一名完整受访求职者"
+      ],
+      "reasons": [
+        "话术步骤有细节，但属于风险提示概括，不是已核对的单一人物故事。",
+        "免费咨询变收费有落差，但常见骗术缺少新结果，不把警示直接当意外。",
+        "有骗取费用的责任问题，但具体双方事实不足，不能编损失金额。",
+        "求职者和家长能代入托关系焦虑，不能推断普通内推均为诈骗。",
+        "首屏可说具体话术，但缺个体动作和最后结果，停留点一般。",
+        "求职是大众熟悉的日常处境，适用人群仍有边界。",
+        "可转发给求职朋友识别话术，分享价值高于猎奇价值。",
+        "可以谈为何信任中介，但目前没有具体取舍分叉证据。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：有实用性但缺新案例；不据风险提示指控任何具体公司，不重复常见反诈文案。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏可说具体话术，但缺个体动作和最后结果，停留点一般。",
+        "reader_gain": "话术步骤有细节，但属于风险提示概括，不是已核对的单一人物故事。",
+        "response_reason": "可转发给求职朋友识别话术，分享价值高于猎奇价值。",
+        "distinct_angle": "HOLD：有实用性但缺新案例；不据风险提示指控任何具体公司，不重复常见反诈文案。"
+      },
+      "contrast_basis": {
+        "before": "部门风险提示描述假央",
+        "after": "没有一名完整受访求职者案例。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "声称只有付费内推能面试",
+        "reason": "求职者和家长能代入托关系焦虑，不能推断普通内推均为诈骗。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "部门风险提示描述假央国企招聘",
+        "reason": "求职是大众熟悉的日常处境，适用人群仍有边界。"
+      },
+      "hook": {
+        "text": "最后以服务费和打点费收费",
+        "evidence": "最后以服务费和打点费收费",
+        "reason": "首屏可说具体话术，但缺个体动作和最后结果，停留点一般。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D9581b2f3ed60d89a",
+      "ratings": [
+        2,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "北京城区早晨约5℃",
+        "广东广西部分站点日最高35℃",
+        "时点不同",
+        "一个是晨温，一个是日最高",
+        "不是各地同时实测30℃温差",
+        "引用中央气象台",
+        "新疆雨雪预报",
+        "时点不同"
+      ],
+      "reasons": [
+        "监测信息有机构归因，但晨温和日最高不属于同一时点的可比数据。",
+        "南北体感有反差，但不同温度口径不能拼成夸张同时温差。",
+        "天气本身没有人际责任冲突，不制造南北对立。",
+        "读者穿衣与出行有直接日常代入，地区条件必须保留。",
+        "首屏温差容易看懂，却最容易省略口径造成误导。",
+        "天气是大众话题，具体预警只适用报道中的地区和时间。",
+        "可分享给异地朋友聊天，不能替代最新官方出行预警。",
+        "穿衣差异可以评论，但尚无独特生活选择分叉。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：数字看着鲜明但口径不同；不拿5℃和35℃制造同时温差标题，预警请查当时官方版本。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏温差容易看懂，却最容易省略口径造成误导。",
+        "reader_gain": "监测信息有机构归因，但晨温和日最高不属于同一时点的可比数据。",
+        "response_reason": "可分享给异地朋友聊天，不能替代最新官方出行预警。",
+        "distinct_angle": "HOLD：数字看着鲜明但口径不同；不拿5℃和35℃制造同时温差标题，预警请查当时官方版本。"
+      },
+      "contrast_basis": {
+        "before": "10月21日报道引用",
+        "after": "不是各地同时实测30℃温差。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "一个是晨温，一个是日最高",
+        "reason": "读者穿衣与出行有直接日常代入，地区条件必须保留。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "引用中央气象台",
+        "reason": "天气是大众话题，具体预警只适用报道中的地区和时间。"
+      },
+      "hook": {
+        "text": "不是各地同时实测30℃温差",
+        "evidence": "不是各地同时实测30℃温差",
+        "reason": "首屏温差容易看懂，却最容易省略口径造成误导。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D5bd82ffa3c8d354c",
+      "ratings": [
+        2,
+        1,
+        0,
+        3,
+        2,
+        2,
+        3,
+        1
+      ],
+      "evidence": [
+        "免费接种1剂次三价流感裂解疫苗",
+        "符合对象但居住在非农村地区",
+        "具体地点需查看当地公示",
+        "农村65周岁及以上老年人",
+        "每县区也会指定门诊",
+        "义务教育阶段中小学生",
+        "广东疾控局通知",
+        "当地公示"
+      ],
+      "reasons": [
+        "通知对象和就近渠道具体，但未核疾控原通知及各县公示。",
+        "符合对象住城里也有指定点略有信息差，不是人人都免费。",
+        "没有双方冲突，不编医院拒绝或收费争执。",
+        "家有老人和学生的读者能代入，但必须满足地区和资格条件。",
+        "首屏能给资格信息，背景限制较多，不适合省略限定。",
+        "大众懂疫苗话题，实际适用农村特定对象，不是所有家庭。",
+        "可分享给符合条件的亲属，实用收益具体，但仍需官方核验。",
+        "只有去哪儿查点位的需求，没有两条真实评论取舍。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：医疗及资格信息需官方原通知，本轮只记录线索，不给个人接种建议。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏能给资格信息，背景限制较多，不适合省略限定。",
+        "reader_gain": "通知对象和就近渠道具体，但未核疾控原通知及各县公示。",
+        "response_reason": "可分享给符合条件的亲属，实用收益具体，但仍需官方核验。",
+        "distinct_angle": "HOLD：医疗及资格信息需官方原通知，本轮只记录线索，不给个人接种建议。"
+      },
+      "contrast_basis": {
+        "before": "广东疾控局通知农村6",
+        "after": "诊；具体地点需查看当地公示。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "农村65周岁及以上老年人",
+        "reason": "家有老人和学生的读者能代入，但必须满足地区和资格条件。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "义务教育阶段中小学生",
+        "reason": "大众懂疫苗话题，实际适用农村特定对象，不是所有家庭。"
+      },
+      "hook": {
+        "text": "每县区也会指定门诊",
+        "evidence": "每县区也会指定门诊",
+        "reason": "首屏能给资格信息，背景限制较多，不适合省略限定。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D1436a5a5419e9970",
+      "ratings": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": [
+        "沪港机场国际航空人才培训中心10月20日在上海揭牌",
+        "介绍四个培养维度",
+        "没有一名学员经历培训后解决具体问题的过程",
+        "师资和课程",
+        "沪港机场国际航空人才培训中心",
+        "北外滩国际航空论坛",
+        "一名学员",
+        "培训后解决具体问题"
+      ],
+      "reasons": [
+        "名称和成立事项可归因，仍是组织宣布而非完成的个体故事。",
+        "没有实际前后反差，课程覆盖面不能当出乎意料的结果。",
+        "没有争议双方或利益取舍，不编区域人才竞争。",
+        "行业从业者有接口，普通中文读者缺少可代入的行动。",
+        "首屏揭牌是普通新闻导语，没有立即兑现具体收益。",
+        "随机读者需要理解培训体系和机构关系，背景成本较高。",
+        "没有明确分享对象会因此做什么，不拿信息发布当转发价值。",
+        "没有可以讨论的具体两难，不能强行提问求评论。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：消息真实不等于值得写；等待学员、案例和结果，不为新机构凑稿。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏揭牌是普通新闻导语，没有立即兑现具体收益。",
+        "reader_gain": "名称和成立事项可归因，仍是组织宣布而非完成的个体故事。",
+        "response_reason": "没有明确分享对象会因此做什么，不拿信息发布当转发价值。",
+        "distinct_angle": "HOLD：消息真实不等于值得写；等待学员、案例和结果，不为新机构凑稿。"
+      },
+      "contrast_basis": {
+        "before": "沪港机场国际航空人才",
+        "after": "历培训后解决具体问题的过程。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "师资和课程",
+        "reason": "行业从业者有接口，普通中文读者缺少可代入的行动。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "北外滩国际航空论坛",
+        "reason": "随机读者需要理解培训体系和机构关系，背景成本较高。"
+      },
+      "hook": {
+        "text": "沪港机场国际航空人才培训中心",
+        "evidence": "沪港机场国际航空人才培训中心",
+        "reason": "首屏揭牌是普通新闻导语，没有立即兑现具体收益。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D70b9e4a69537a03e",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "evidence": [
+        "城市15分钟亲水圈基本建成",
+        "没有居民使用前后经历",
+        "报道没有逐户步行实测",
+        "宝湖公园、华雁湖沙滩",
+        "银川发布会称",
+        "排污口整治和水系连通",
+        "列出宝湖公园",
+        "没有逐户步行实测"
+      ],
+      "reasons": [
+        "地点和措施具体，但15分钟是发布会概述，未实测覆盖人口或路线。",
+        "由临水难近到可亲水有反差方向，缺具体人的意外体验。",
+        "没有双方争议，不用环保成就假造利益对立。",
+        "当地家庭散步能代入，异地普通读者仍有距离。",
+        "首屏15分钟可懂，若省略基本建成和发布会归因会夸大。",
+        "大众懂公园用途，但不是全国通用的日常服务承诺。",
+        "暂时只能分享给当地朋友，尚无实用路线细节可兑现。",
+        "休闲选择可以聊，但没有实际分叉供读者讨论。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：有生活接口但未经路线实测，不能写成每个居民15分钟必到水边。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏15分钟可懂，若省略基本建成和发布会归因会夸大。",
+        "reader_gain": "地点和措施具体，但15分钟是发布会概述，未实测覆盖人口或路线。",
+        "response_reason": "暂时只能分享给当地朋友，尚无实用路线细节可兑现。",
+        "distinct_angle": "HOLD：有生活接口但未经路线实测，不能写成每个居民15分钟必到水边。"
+      },
+      "contrast_basis": {
+        "before": "银川发布会称城市15",
+        "after": "测，也没有居民使用前后经历。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "宝湖公园、华雁湖沙滩",
+        "reason": "当地家庭散步能代入，异地普通读者仍有距离。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "排污口整治和水系连通",
+        "reason": "大众懂公园用途，但不是全国通用的日常服务承诺。"
+      },
+      "hook": {
+        "text": "银川发布会称",
+        "evidence": "银川发布会称",
+        "reason": "首屏15分钟可懂，若省略基本建成和发布会归因会夸大。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D629cb57439f662dc",
+      "ratings": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        2,
+        3,
+        2
+      ],
+      "evidence": [
+        "作者试用两款Googlebook",
+        "硬件好，但手机应用放到电脑上适配不足",
+        "不是全体用户结论",
+        "Google Docs打开文档会变成Chrome窗口",
+        "手机应用投屏输入慢",
+        "浏览器缺一些桌面功能",
+        "作者特定设备体验",
+        "适配不足"
+      ],
+      "reasons": [
+        "作者实际试两台设备并写具体操作，但本轮没有自己复现或统计普遍性。",
+        "电脑硬件很强却卡在手机软件形态，预期反差来自操作结果。",
+        "是产品适配问题，没有厂商用户争吵或故意限制的证据。",
+        "在电脑上找窗口和输入延迟的读者能代入，但设备背景仍要解释。",
+        "首屏具体到文档变成浏览器窗口比堆参数好，仍需交代产品是什么。",
+        "大众用过手机应用，Googlebook在中文受众中并非低门槛日常。",
+        "可分享给考虑这类设备的朋友，分享的是操作限制而不是未经核实的购买建议。",
+        "愿为融合体验忍受早期限制与只买成熟工具有真实取舍分叉。"
+      ],
+      "decision": "PASS",
+      "selection_note": "PASS；未选写：有具体体验反差，但单一评测和中文可得性带来距离，读者收益比处置旧物窄，不写全线产品都不能用。",
+      "possible_reply_branches": [
+        "为手机电脑融合接受早期软件限制",
+        "日常生产工具优先买成熟的桌面系统"
+      ],
+      "reader_value": {
+        "stop_reason": "首屏具体到文档变成浏览器窗口比堆参数好，仍需交代产品是什么。",
+        "reader_gain": "作者实际试两台设备并写具体操作，但本轮没有自己复现或统计普遍性。",
+        "response_reason": "可分享给考虑这类设备的朋友，分享的是操作限制而不是未经核实的购买建议。",
+        "distinct_angle": "PASS；未选写：有具体体验反差，但单一评测和中文可得性带来距离，读者收益比处置旧物窄，不写全线产品都不能用。"
+      },
+      "contrast_basis": {
+        "before": "硬件好，但手机应用",
+        "after": "手机应用放到电脑上适配不足"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "Google Docs打开文档会变成Chrome窗口",
+        "reason": "在电脑上找窗口和输入延迟的读者能代入，但设备背景仍要解释。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "浏览器缺一些桌面功能",
+        "reason": "大众用过手机应用，Googlebook在中文受众中并非低门槛日常。"
+      },
+      "hook": {
+        "text": "手机应用投屏输入慢",
+        "evidence": "手机应用投屏输入慢",
+        "reason": "首屏具体到文档变成浏览器窗口比堆参数好，仍需交代产品是什么。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "Dd65778c54c3120a7",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "作者徒步威尔士森林步道80公里试点段",
+        "儿时矿村与山林仿佛分隔",
+        "不是全国网络已完工",
+        "社区共同建设的观察点与无障碍步道",
+        "路线仍有长段公路人行道",
+        "不是全程原始森林",
+        "80公里试点段",
+        "长段公路人行道"
+      ],
+      "reasons": [
+        "实地作者有路段细节和不美的一面，但未独立走线核验。",
+        "熟悉矿村上方却少有人走山路形成反差，仍主要是游记观察。",
+        "没有真实争议双方，不编开发与居民对抗。",
+        "喜欢徒步的读者可代入，普通中文用户与威尔士地理有距离。",
+        "首屏需要讲清矿村与森林的关系，读者背景成本不低。",
+        "散步大众熟悉，但具体路线不是本地可立即使用的信息。",
+        "可分享给徒步朋友，远方目的地限制了转发对象。",
+        "景观体验与公路路段可有取舍，还缺具体人物决策。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：游记有细节，但中文受众距离远，不把试点80公里写成全境森林网络。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏需要讲清矿村与森林的关系，读者背景成本不低。",
+        "reader_gain": "实地作者有路段细节和不美的一面，但未独立走线核验。",
+        "response_reason": "可分享给徒步朋友，远方目的地限制了转发对象。",
+        "distinct_angle": "HOLD：游记有细节，但中文受众距离远，不把试点80公里写成全境森林网络。"
+      },
+      "contrast_basis": {
+        "before": "儿时矿村与山林仿佛分隔",
+        "after": "如今沿路有社区共同建设的观察点与无障碍步道"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "社区共同建设的观察点与无障碍步道",
+        "reason": "喜欢徒步的读者可代入，普通中文用户与威尔士地理有距离。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "不是全程原始森林",
+        "reason": "散步大众熟悉，但具体路线不是本地可立即使用的信息。"
+      },
+      "hook": {
+        "text": "路线仍有长段公路人行道",
+        "evidence": "路线仍有长段公路人行道",
+        "reason": "首屏需要讲清矿村与森林的关系，读者背景成本不低。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "Dd31ffa4aef98b84e",
+      "ratings": [
+        2,
+        2,
+        0,
+        2,
+        3,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "母亲把垃圾袋剪成翅膀接袖子",
+        "给孩子做蝙蝠服",
+        "这些是回忆和计划",
+        "眼线笔画尖牙",
+        "垃圾袋剪成翅膀",
+        "不能写成已经参加今年派对的效果",
+        "用衬裙写本我自我等文字作文字梗",
+        "读者计划"
+      ],
+      "reasons": [
+        "材料和制作动作具体，但主要是回忆与尚未实施的读者计划。",
+        "垃圾袋变翅膀有轻巧意外，不能夸成独创或全场最佳。",
+        "没有双方冲突，不编买服装与手工派吵架。",
+        "有孩子做手工的读者能代入，万圣节习惯和英文谐音仍有距离。",
+        "首屏垃圾袋翅膀有画面，但收益是小点子，难撑长篇。",
+        "大众知道扮装，英文文字梗不是中文读者零背景能懂。",
+        "可发给爱手工的朋友，不是经过验证安全的儿童教程。",
+        "手做与购买有潜在取舍，未见完整真实分叉案例。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：可作短趣闻但不是新发生的派对，英文谐音译过来收益流失；不要硬凑成爆款。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏垃圾袋翅膀有画面，但收益是小点子，难撑长篇。",
+        "reader_gain": "材料和制作动作具体，但主要是回忆与尚未实施的读者计划。",
+        "response_reason": "可发给爱手工的朋友，不是经过验证安全的儿童教程。",
+        "distinct_angle": "HOLD：可作短趣闻但不是新发生的派对，英文谐音译过来收益流失；不要硬凑成爆款。"
+      },
+      "contrast_basis": {
+        "before": "母亲把垃圾袋",
+        "after": "给孩子做蝙蝠服"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "眼线笔画尖牙",
+        "reason": "有孩子做手工的读者能代入，万圣节习惯和英文谐音仍有距离。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "不能写成已经参加今年派对的效果",
+        "reason": "大众知道扮装，英文文字梗不是中文读者零背景能懂。"
+      },
+      "hook": {
+        "text": "垃圾袋剪成翅膀",
+        "evidence": "垃圾袋剪成翅膀",
+        "reason": "首屏垃圾袋翅膀有画面，但收益是小点子，难撑长篇。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D0d146491486fcafc",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": [
+        "扁豆意面和茄子蔬菜丸做法",
+        "没有价格或营养比较实验",
+        "不含作者做失败再调整的故事",
+        "准备5分钟、烹调55分钟",
+        "属于食谱",
+        "4人份",
+        "食谱作者提供",
+        "没有价格"
+      ],
+      "reasons": [
+        "配方和时间明确，但本轮没有试做，缺结果对照。",
+        "意面配扁豆略新奇，不能据食材名称认定有强反转。",
+        "没有利益或人际冲突，不编荤素饮食之争。",
+        "会做饭的读者可代入，但食材可得性与口味仍未知。",
+        "首屏菜名还是菜名，缺出乎意料的过程或结果。",
+        "吃饭是大众经验，具体配方对目标读者的收益需试做。",
+        "可给爱做饭的人收藏分享，未经试做不能保证省时好吃。",
+        "没有真实取舍分叉，不造健康结论刺激评论。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：普通食谱可用但不等于强故事；55分钟不能改写成5分钟快手菜。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏菜名还是菜名，缺出乎意料的过程或结果。",
+        "reader_gain": "配方和时间明确，但本轮没有试做，缺结果对照。",
+        "response_reason": "可给爱做饭的人收藏分享，未经试做不能保证省时好吃。",
+        "distinct_angle": "HOLD：普通食谱可用但不等于强故事；55分钟不能改写成5分钟快手菜。"
+      },
+      "contrast_basis": {
+        "before": "食谱作者提供扁豆意面",
+        "after": "，也没有价格或营养比较实验。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "准备5分钟、烹调55分钟",
+        "reason": "会做饭的读者可代入，但食材可得性与口味仍未知。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "4人份",
+        "reason": "吃饭是大众经验，具体配方对目标读者的收益需试做。"
+      },
+      "hook": {
+        "text": "属于食谱",
+        "evidence": "属于食谱",
+        "reason": "首屏菜名还是菜名，缺出乎意料的过程或结果。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D5f4ec105e6c165de",
+      "ratings": [
+        3,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "evidence": [
+        "光芒队赢下系列赛",
+        "两队都在寻求首冠",
+        "将与酿酒人争世界大赛冠军",
+        "中文一般受众需球队与赛制背景",
+        "是自1980年以来首次这样的对阵",
+        "球员本垒打和更衣室话语",
+        "世界大赛冠军",
+        "具体报道"
+      ],
+      "reasons": [
+        "有具体比赛结果和赛程，但未核官方联盟记录，避免转述当原始统计。",
+        "两队都求首冠有意外结果，对不认识球队的读者价值有限。",
+        "竞技对手天然竞争，不等于真实人性矛盾，冲突只给1。",
+        "球迷读者能代入，一般中文受众没有球队关系基础。",
+        "首屏首冠可懂，仍需解释什么大赛和为什么关心这两队。",
+        "大众懂夺冠，但棒球联盟背景让受众范围变窄。",
+        "只可能分享给棒球朋友，不能以全国大赛规模替代对象。",
+        "支持哪队能评论，但尚无本文独有的取舍分叉。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：题材竞争开放，但赛事重要性不能替代本账号读者兴趣；缺官方赛果复核。",
+      "possible_reply_branches": [],
+      "reader_value": {
+        "stop_reason": "首屏首冠可懂，仍需解释什么大赛和为什么关心这两队。",
+        "reader_gain": "有具体比赛结果和赛程，但未核官方联盟记录，避免转述当原始统计。",
+        "response_reason": "只可能分享给棒球朋友，不能以全国大赛规模替代对象。",
+        "distinct_angle": "HOLD：题材竞争开放，但赛事重要性不能替代本账号读者兴趣；缺官方赛果复核。"
+      },
+      "contrast_basis": {
+        "before": "将与酿酒人争世界大赛冠军",
+        "after": "两队都在寻求首冠"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "中文一般受众需球队与赛制背景",
+        "reason": "球迷读者能代入，一般中文受众没有球队关系基础。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "球员本垒打和更衣室话语",
+        "reason": "大众懂夺冠，但棒球联盟背景让受众范围变窄。"
+      },
+      "hook": {
+        "text": "是自1980年以来首次这样的对阵",
+        "evidence": "是自1980年以来首次这样的对阵",
+        "reason": "首屏首冠可懂，仍需解释什么大赛和为什么关心这两队。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D93590db6a53c7325",
+      "ratings": [
+        2,
+        3,
+        0,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "evidence": [
+        "NPR作者提出假设",
+        "企业降成本反而可能加快自动化",
+        "不是本轮观察到的失业事实",
+        "引发衰退",
+        "若AI泡沫破裂引发衰退",
+        "仍怀疑大而化之的AI预测",
+        "也不知道会发生什么",
+        "这是情景推演"
+      ],
+      "reasons": [
+        "论点和自我保留具体，但不是已发生的行动结果，原研究未逐项核对。",
+        "泡沫破裂未必阻止替人有反常识反差，必须保留假设前提。",
+        "没有真实对立双方，不编雇主已经借危机裁员的个体故事。",
+        "担忧工作的读者能代入，但不能利用焦虑当事实证据。",
+        "首屏假设有吸引力，省略如果就会把预测伪装成新闻。",
+        "大众熟悉工作焦虑，宏观自动化机制仍需要背景。",
+        "可分享给讨论技术就业的朋友，信息收益尚依赖原研究。",
+        "降本驱动替人与泡沫减缓投入有两条可能路径分叉，不预言谁已获证实。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：观点有吸引力但证据是推演，本轮不把未来情景升级成实际裁员规律。",
+      "possible_reply_branches": [
+        "衰退时降本压力可能推动自动化",
+        "泡沫破裂也可能使技术投入减速，不能直接预测"
+      ],
+      "reader_value": {
+        "stop_reason": "首屏假设有吸引力，省略如果就会把预测伪装成新闻。",
+        "reader_gain": "论点和自我保留具体，但不是已发生的行动结果，原研究未逐项核对。",
+        "response_reason": "可分享给讨论技术就业的朋友，信息收益尚依赖原研究。",
+        "distinct_angle": "HOLD：观点有吸引力但证据是推演，本轮不把未来情景升级成实际裁员规律。"
+      },
+      "contrast_basis": {
+        "before": "若AI泡沫破裂引发衰退",
+        "after": "企业降成本反而可能加快自动化"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "引发衰退",
+        "reason": "担忧工作的读者能代入，但不能利用焦虑当事实证据。"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "仍怀疑大而化之的AI预测",
+        "reason": "大众熟悉工作焦虑，宏观自动化机制仍需要背景。"
+      },
+      "hook": {
+        "text": "若AI泡沫破裂引发衰退",
+        "evidence": "若AI泡沫破裂引发衰退",
+        "reason": "首屏假设有吸引力，省略如果就会把预测伪装成新闻。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "Df933f1f1a760390e",
+      "ratings": [
+        2,
+        4,
+        1,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "evidence": [
+        "Permit Pending官网介绍",
+        "不是无所不能的神",
+        "要经过听证、反对、诉讼与上诉",
+        "盖住宅、公交道、工厂",
+        "市长却可能卡在委员会",
+        "城市仍在变化",
+        "只是开发者介绍",
+        "没有亲自试玩或核清首发日期"
+      ],
+      "reasons": [
+        "官网把玩法说得具体，但本轮未试玩，宣传描述不等于已验证体验。",
+        "熟悉建城游戏的全能视角，反而被听证和反对者卡住，有真实设计反差。",
+        "规则模拟有利益张力，但不是实际城市居民冲突，不借游戏煽动现实对立。",
+        "读者办过手续或玩过建城游戏能代入，仍需解释英文作品是什么。",
+        "首屏市长盖楼先过邻居关有画面，但尚无一局实际行动的结果。",
+        "大众能懂办事被流程卡住，英文游戏不等于人人可直接使用。",
+        "可发给玩建城游戏的朋友，分享对象具体，但不能承诺真的好玩。",
+        "想快速造城与喜欢治理约束存在真实玩法取舍分叉，不伪称玩家口碑。"
+      ],
+      "decision": "HOLD",
+      "selection_note": "HOLD：荒诞设计有趣；没有首发日期与试玩证据，不把HN提交时间当上线时间，也不把宣传文案当体验评测。",
+      "possible_reply_branches": [
+        "接受原文具体限制以保留便利",
+        "优先避免这种限制并等待更多证据"
+      ],
+      "reader_value": {
+        "stop_reason": "首屏市长盖楼先过邻居关有画面，但尚无一局实际行动的结果。",
+        "reader_gain": "官网把玩法说得具体，但本轮未试玩，宣传描述不等于已验证体验。",
+        "response_reason": "可发给玩建城游戏的朋友，分享对象具体，但不能承诺真的好玩。",
+        "distinct_angle": "HOLD：荒诞设计有趣；没有首发日期与试玩证据，不把HN提交时间当上线时间，也不把宣传文案当体验评测。"
+      },
+      "contrast_basis": {
+        "before": "盖住宅、公交道、工厂",
+        "after": "要经过听证、反对、诉讼与上诉"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "盖住宅、公交道、工厂",
+        "reason": "读者办过手续或玩过建城游戏能代入，仍需解释英文作品是什么。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "城市仍在变化",
+        "reason": "大众能懂办事被流程卡住，英文游戏不等于人人可直接使用。"
+      },
+      "hook": {
+        "text": "市长却可能卡在委员会",
+        "evidence": "市长却可能卡在委员会",
+        "reason": "首屏市长盖楼先过邻居关有画面，但尚无一局实际行动的结果。"
+      },
+      "previews": []
+    },
+    {
+      "material_id": "D5ebc05784eb0b417",
+      "ratings": [
+        3,
+        3,
+        1,
+        3,
+        4,
+        2,
+        4,
+        3
+      ],
+      "evidence": [
+        "点呈现应用外内容会把整个iPad屏幕投给学生",
+        "暴露自己的点名备注等",
+        "不能称所有iPad都如此",
+        "教师Teddy Svoronos",
+        "点呈现应用外内容",
+        "只有作者设备体验",
+        "未本机复现",
+        "不同应用恢复情况不同"
+      ],
+      "reasons": [
+        "教师博客有具体操作和应用区别，但未自己复现，不能升成全体用户结论。",
+        "本来只投讲义，点别的窗口却把自己的备注投出，预期反差具体。",
+        "是工作流回归带来的责任问题，不存在已核实的师生争吵。",
+        "读者做演示不想公开私人备注的处境能代入，不限教师。",
+        "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+        "大众理解投屏误展示，具体系统和多窗口条件仍限制适用范围。",
+        "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+        "坚持单应用演示规避与等待恢复原有多任务流程有两种取舍分叉。"
+      ],
+      "decision": "PASS",
+      "selection_note": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+      "possible_reply_branches": [
+        "接受原文具体限制以保留便利",
+        "优先避免这种限制并等待更多证据"
+      ],
+      "reader_value": {
+        "stop_reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+        "reader_gain": "教师博客有具体操作和应用区别，但未自己复现，不能升成全体用户结论。",
+        "response_reason": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+        "distinct_angle": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。"
+      },
+      "contrast_basis": {
+        "before": "点呈现应用外内容",
+        "after": "整个iPad屏幕投给学生"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "教师Teddy Svoronos",
+        "reason": "读者做演示不想公开私人备注的处境能代入，不限教师。"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "只有作者设备体验",
+        "reason": "大众理解投屏误展示，具体系统和多窗口条件仍限制适用范围。"
+      },
+      "hook": {
+        "text": "点呈现应用外内容",
+        "evidence": "点呈现应用外内容",
+        "reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。"
+      },
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "text": "上课用iPad投讲义，点一下别的应用，学生连老师的点名备注都看见了。\n\n教师Teddy Svoronos在10月19日博客描述：iPadOS27多窗口AirPlay会切成整屏投放。GoodNotes点回能恢复，Keynote却会退出演示。\n\n这是他设备上的体验，还不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026",
+              "27"
+            ],
+            "dates": [
+              "10月19日",
+              "2026-10-19"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/"
+            ],
+            "roles": [
+              "他",
+              "学生"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。",
+          "editorial_tradeoff": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "5658d5fc9b9c4c231ce1ede183d3df06c11fe7ecb1a83842c0072ca5b228b720",
+            "source_hash": "58c7ecf68823732b7f7486983876973597dce19901745ccc13e9fb430997a43c",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "reader_gain": "教师博客有具体操作和应用区别，但未自己复现，不能升成全体用户结论。",
+              "response_reason": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+              "distinct_angle": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。"
+            },
+            "opening": {
+              "quote": "上课用iPad投讲义，点一下别的应用，学生连老师的点名备注都看见了",
+              "reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "alternatives": [
+                {
+                  "text": "上课用iPad投讲义，点一下别的应用，学生连老师的点名备注都看见了。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                },
+                {
+                  "text": "老师只想切个应用，点名备注也跟着投给了学生。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                }
+              ],
+              "selection_reason": "选上课投讲义却露出点名备注的结果：另一开头只说老师切应用，场景要等下文补齐；A更快解释为什么这次切换有代价。"
+            },
+            "payoff": {
+              "quote": "这是他设备上的体验，还不是全机型结论",
+              "reason": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。"
+            },
+            "comparison": {
+              "reference_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "上课用iPad投讲义，点一下别的应用，学生连老师的点名备注都看见了",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "教师Teddy Svoronos在10月19日博客描述：iPadOS27多窗口AirPlay会切成整屏投放",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "19",
+                    "source": "2026-10-19T00:00:00-04:00",
+                    "reason": "原博客OG元数据标为10月19日，本句只标明文章日期而非缺陷首次出现日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "GoodNotes点回能恢复，Keynote却会退出演示",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "这是他设备上的体验，还不是全机型结论",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "选上课投讲义却露出点名备注的结果：另一开头只说老师切应用，场景要等下文补齐；A更快解释为什么这次切换有代价。",
+            "interesting_detail": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。",
+            "reply_and_share": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+            "fact_risk": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "text": "老师只想切个应用，点名备注也跟着投给了学生。\n\nTeddy Svoronos在10月19日博客说，iPadOS27多窗口AirPlay时，点其他应用，外屏会显示整个iPad屏幕。\n\n他写的是自己的使用情况。我会先试一遍，再把屏幕交给教室。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026",
+              "27"
+            ],
+            "dates": [
+              "10月19日",
+              "2026-10-19"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/"
+            ],
+            "roles": [
+              "他",
+              "学生"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。",
+          "editorial_tradeoff": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "af707f2653b2d18b6be70c26b2eaac2f959660b302a9dfb2b8a4d48a11809933",
+            "source_hash": "58c7ecf68823732b7f7486983876973597dce19901745ccc13e9fb430997a43c",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "reader_gain": "教师博客有具体操作和应用区别，但未自己复现，不能升成全体用户结论。",
+              "response_reason": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+              "distinct_angle": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。"
+            },
+            "opening": {
+              "quote": "老师只想切个应用，点名备注也跟着投给了学生",
+              "reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "alternatives": [
+                {
+                  "text": "老师只想切个应用，点名备注也跟着投给了学生。",
+                  "approach": "PERSONAL_OBSERVATION",
+                  "reader_reason": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                },
+                {
+                  "text": "讲义可以给学生看，点名备注得自己留着。老师说，换个应用，这条边界就没了。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                }
+              ],
+              "selection_reason": "此版选老师只想切应用的动作，保留普通演示者的无奈；边界版先讲该让谁看什么，仍要多读一句才明白具体失控动作。"
+            },
+            "payoff": {
+              "quote": "我会先试一遍，再把屏幕交给教室",
+              "reason": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。"
+            },
+            "comparison": {
+              "reference_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "老师只想切个应用，点名备注也跟着投给了学生",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "Teddy Svoronos在10月19日博客说，iPadOS27多窗口AirPlay时，点其他应用，外屏会显示整个iPad屏幕",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "19",
+                    "source": "2026-10-19T00:00:00-04:00",
+                    "reason": "原博客OG元数据标为10月19日，本句只标明文章日期而非缺陷首次出现日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "他写的是自己的使用情况",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "我会先试一遍，再把屏幕交给教室",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版选老师只想切应用的动作，保留普通演示者的无奈；边界版先讲该让谁看什么，仍要多读一句才明白具体失控动作。",
+            "interesting_detail": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "从只想切应用却带出备注的轻吐槽进入个人演示习惯，未编自己在课堂翻车。",
+            "reply_and_share": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+            "fact_risk": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "opening_comparison_required": true,
+          "original_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "text": "讲义可以给学生看，点名备注得自己留着。老师说，换个应用，这条边界就没了。\n\nTeddy Svoronos在10月19日博客描述：iPadOS27多窗口AirPlay会切成整屏投放；GoodNotes点回能恢复，Keynote却会退出演示。\n\n这是他个人的设备体验。做演示需要的，也包括让某些东西不被看见。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "19",
+              "2026",
+              "27"
+            ],
+            "dates": [
+              "10月19日",
+              "2026-10-19"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/"
+            ],
+            "roles": [
+              "他",
+              "学生"
+            ],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。",
+          "editorial_tradeoff": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex editorial judgments; no user acceptance or measured traffic",
+            "reviewed_at": "2026-10-21T03:15:43.340578Z",
+            "text_hash": "08d38565a493bc8660f16c054ad8d45db835a350b975b73f825a627a954f89e7",
+            "source_hash": "58c7ecf68823732b7f7486983876973597dce19901745ccc13e9fb430997a43c",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "reader_value": {
+              "stop_reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "reader_gain": "教师博客有具体操作和应用区别，但未自己复现，不能升成全体用户结论。",
+              "response_reason": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+              "distinct_angle": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。"
+            },
+            "opening": {
+              "quote": "讲义可以给学生看，点名备注得自己留着",
+              "reason": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+              "alternatives": [
+                {
+                  "text": "讲义可以给学生看，点名备注得自己留着。老师说，换个应用，这条边界就没了。",
+                  "approach": "HUMAN_CHOICES",
+                  "reader_reason": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                },
+                {
+                  "text": "上课用iPad投讲义，点一下别的应用，学生连老师的点名备注都看见了。",
+                  "approach": "RESULT_FIRST",
+                  "reader_reason": "先给上课展示越出讲义边界的实际操作与结果，再保留作者及系统条件，拒绝全机型泛化。",
+                  "source_span": "2026-10-19T00:00:00-04:00\nAs of iPadOS 27, if you have multiple windows open while AirPlaying (whether or not Stage Manager is on), tapping on anything other than the presenting app will snap the external display into showing your whole iPad screen. This means that my students see all my notes on who I want to call on, or poll results that should be hidden from them. They also get distracted from what we’re learning by all these jarring windows popping up and disappearing. If you’re presenting at a big conference, it’s extremely embarrassing.\nIn GoodNotes, the presenter view will return once you tap back on the app. In Keynote, it will just exit the presentation entirely. In PowerPoint, it will put the app in a limbo where you have to restart the presentation to proceed. Here’s a Reddit post illustrating the behavior in GoodNotes. But don’t just take my word for it; try it at home!"
+                }
+              ],
+              "selection_reason": "此版选讲义公开、备注私留的选择，能看见隐藏信息也是工作需要；直接版更快但少一点关系视角，整体最终仍选A。"
+            },
+            "payoff": {
+              "quote": "做演示需要的，也包括让某些东西不被看见",
+              "reason": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。"
+            },
+            "comparison": {
+              "reference_text": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+              "reference_failure": "旧版先讲抽象感受或按报道顺序推进，事实反差可能延迟到第二段。",
+              "difference": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。"
+            },
+            "novelty": {
+              "distinct": true,
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "reason": "与既有193条发布记忆和388条campaign来源对照；这些是10月21日未发布稿的继续编辑，不声称全新发现或三版三条发布。"
+            },
+            "claims": [
+              {
+                "draft_span": "讲义可以给学生看，点名备注得自己留着",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "老师说，换个应用，这条边界就没了",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "Teddy Svoronos在10月19日博客描述：iPadOS27多窗口AirPlay会切成整屏投放；GoodNotes点回能恢复，Keynote却会退出演示",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [
+                  {
+                    "draft": "19",
+                    "source": "2026-10-19T00:00:00-04:00",
+                    "reason": "原博客OG元数据标为10月19日，本句只标明文章日期而非缺陷首次出现日期。"
+                  }
+                ],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "这是他个人的设备体验",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              },
+              {
+                "draft_span": "做演示需要的，也包括让某些东西不被看见",
+                "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+                "source_range": [
+                  0,
+                  894
+                ],
+                "number_mappings": [],
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对所保存原文：事实保留归因、日期及回应；比喻与个人判断只是编辑观察，不宣称现场经历或新增因果。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "continue_reading": "此版选讲义公开、备注私留的选择，能看见隐藏信息也是工作需要；直接版更快但少一点关系视角，整体最终仍选A。",
+            "interesting_detail": "首屏讲义之外的点名备注被学生看到，具体动作与后果可马上理解。",
+            "news_summary_risk": "A把结果前置；B有个人反应但可能抢走故事；C有取舍但句长，不能把三版都当最佳。",
+            "personal_expression": "从学生可看与老师私下用的真实边界进入，强调演示也需要隐藏内容，不指控系统有意泄密。",
+            "reply_and_share": "可以分享给使用同类演示流程的朋友先自行检查，不能称已经确认的通用漏洞。",
+            "fact_risk": "PASS：可读性强，但原博客原始OG时间已核对，不能借HN时间定年；只允许明确归因的单个教师体验，不输出产品普遍结论。",
+            "outcome": "EDITORIAL_ONLY_NOT_TRAFFIC_EVIDENCE"
+          }
+        }
+      ],
+      "baseline": "教师Teddy Svoronos在10月19日博客中描述，iPadOS27多窗口AirPlay时切其他应用，整个屏幕会投给学生，包括他的点名备注。GoodNotes点回能恢复，Keynote会退出演示。这是他的设备体验，不是全机型结论。\n\nhttps://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "baseline_kind": "本轮实际撰写的摘要对照，非声称旧版已经生成过该稿",
+      "recommended_variant": "A",
+      "opening_comparison_required": true
+    }
+  ],
+  "opening_comparison_required": true,
+  "policy": {
+    "weights": {
+      "raw_material_strength": 18,
+      "surprise": 16,
+      "conflict": 6,
+      "self_insertion": 14,
+      "first_screen_stopping_power": 22,
+      "mass_relevance": 10,
+      "share_potential": 9,
+      "reply_potential": 5
+    },
+    "registered_before_new_reviews": true,
+    "not_fitted_to_engagement": true,
+    "decision_rule": "先逐项对原文评八维，再排序；HOLD不是降低事实标准的替代通道。"
+  }
+}

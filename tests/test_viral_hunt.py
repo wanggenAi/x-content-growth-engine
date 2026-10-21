@@ -12,7 +12,7 @@ from growth_engine.candidate_pipeline import prepare_candidate
 from growth_engine.discovery import import_search_leads, parse_rss, parse_telegram, reddit_authorized, _public_url
 from growth_engine.human_voice import generate_viral_variants_prompt, run_human_style_pipeline
 from growth_engine.hunt import collector_health, hunt_materials, production_dry_run, scheduled_collection
-from growth_engine.viral_admission import PREVIEW_MODE, PRODUCTION_MODE, auto_rate_material, rank_materials, score_material, material_hash
+from growth_engine.viral_admission import PREVIEW_MODE, PRODUCTION_MODE, WEIGHTS, auto_rate_material, rank_materials, score_material, material_hash
 from growth_engine.x_native_style import review_comment_impulse, review_x_native_style
 from tests.topic_helpers import AS_OF, material
 from tests.test_human_style_production import candidate
@@ -119,6 +119,38 @@ class DiscoveryTests(unittest.TestCase):
 
 
 class HuntAdmissionTests(unittest.TestCase):
+    def test_social_payoff_can_beat_broad_serious_conflict_without_authority_bonus(self):
+        funny = material('funny'); serious = material('serious')
+        # Same source quality and first-screen clarity. One has a concrete
+        # surprise and a forwarding audience, the other merely broad stakes.
+        ratings = {'funny': [3, 4, 0, 3, 4, 2, 4, 2],
+                   'serious': [3, 2, 4, 3, 4, 4, 1, 2]}
+        for m in (funny, serious):
+            for key, value in zip(WEIGHTS, ratings[m['material_id']]):
+                m['review'][key]['rating'] = value
+        result = rank_materials([serious, funny], as_of=AS_OF, admission_mode=PRODUCTION_MODE)
+        self.assertEqual(result['top1']['material_id'], 'funny')
+        self.assertEqual(result['second_stage_judge']['winner'], 'funny')
+        before = score_material(serious, as_of=AS_OF)['editorial_topic_score']
+        serious['source'].update(publisher='国家权威通讯社', family='CHINESE_MEDIA')
+        self.assertEqual(score_material(serious, as_of=AS_OF)['editorial_topic_score'], before)
+
+    def test_editor_and_user_veto_survive_perfect_topic_ratings(self):
+        m = material()
+        m['review']['decision'] = 'HOLD'
+        self.assertIn('TOPIC_EDITOR_HOLD', score_material(m, as_of=AS_OF)['reasons'])
+        self.assertFalse(score_material(m, as_of=AS_OF)['admitted'])
+        m['review']['decision'] = 'PASS'; m['user_content_verdict'] = 'REJECT'
+        self.assertIn('CONTENT_USER_REJECTED', score_material(m, as_of=AS_OF)['reasons'])
+        self.assertFalse(score_material(m, as_of=AS_OF)['admitted'])
+
+    def test_interesting_recollection_cannot_borrow_recent_republication_date(self):
+        m = material(); m['source']['event_time'] = '2022'
+        result = score_material(m, as_of=AS_OF)
+        self.assertIsNone(result['source_age_hours'])
+        self.assertIn('UNKNOWN_SOURCE_TIMESTAMP', result['reasons'])
+        self.assertFalse(result['admitted'])
+
     def test_single_material_preview_passes_but_production_fails(self):
         preview = rank_materials([material()], as_of=AS_OF)
         self.assertEqual(preview['selected_material_ids'], ['m1'])
