@@ -20,6 +20,14 @@ def _note(value) -> bool:
     return isinstance(value, str) and len(value.strip()) >= 10
 
 
+def reader_value_reasons(value) -> list[str]:
+    """The same four editorial questions at selection and text review."""
+    value = value if isinstance(value, dict) else {}
+    return ["CONTENT_READER_VALUE_REQUIRED:" + key
+            for key in ("stop_reason", "reader_gain", "response_reason", "distinct_angle")
+            if not _note(value.get(key))]
+
+
 def review_content(candidate: dict, material: dict) -> dict:
     """Fail closed on missing, rejected, stale or ungrounded editorial work.
 
@@ -49,10 +57,7 @@ def review_content(candidate: dict, material: dict) -> dict:
         reasons.append("CONTENT_V4_REVIEW_REQUIRED")
     if review.get("version") == "CONTENT_REVIEW_V4":
         # Qualitative answers, not a ninth score or a traffic prediction.
-        value = review.get("reader_value") or {}
-        for key in ("stop_reason", "reader_gain", "response_reason", "distinct_angle"):
-            if not _note(value.get(key)):
-                reasons.append("CONTENT_READER_VALUE_REQUIRED:" + key)
+        reasons.extend(reader_value_reasons(review.get("reader_value")))
         from .x_native_style import platform_length
         length = platform_length(text)
         if not length["fits_standard"]:

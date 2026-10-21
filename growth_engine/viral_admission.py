@@ -111,6 +111,9 @@ def validate_deep_review(material: dict) -> dict:
     review = material.get("review") or {}; source = material.get("source") or {}
     corpus = str(material.get("text") or "") + "\n" + str(source.get("evidence_text") or "")
     reasons: list[str] = []
+    if review.get("strategy_version") == "V4":
+        from .content_review import reader_value_reasons
+        reasons.extend(reader_value_reasons(review.get("reader_value")))
     if review.get("review_type") != "DEEP_EDITORIAL_REVIEW": reasons.append("MISSING_DEEP_EDITORIAL_REVIEW")
     if not review.get("reviewer") or not review.get("reviewed_at"): reasons.append("MISSING_DEEP_REVIEW_AUDIT")
     evidences, rationales = [], []

@@ -1,0 +1,200 @@
+{
+  "baseline_main_sha": "2616019cacba63b9529f5f80db79362b81b7e9a2",
+  "validated_at": "2026-10-21T02:31:59.970612Z",
+  "unittest": {
+    "baseline_passed": 137,
+    "current_passed": 141
+  },
+  "pytest": {
+    "passed": 141,
+    "runtime": "existing temporary isolated test venv, not a production dependency"
+  },
+  "compileall": "PASS growth_engine tests scripts",
+  "diff_check": "PASS",
+  "real_dry_run": {
+    "topics": 10,
+    "drafted_topics": 5,
+    "drafts": 15,
+    "source_bound_text_reviews_passed": 15,
+    "fact_style_checks_passed": 15,
+    "weighted_length_range": [
+      177,
+      265
+    ],
+    "authored_text_preserved_verbatim": true,
+    "competition_passed": false,
+    "production_pool_reasons": [
+      "HUNT_INCOMPLETE_RAW_POOL",
+      "HUNT_INCOMPLETE_DEEP_REVIEW",
+      "HUNT_INCOMPLETE_FRESH_POOL"
+    ],
+    "publication_allowed": false,
+    "recommended_top1": null,
+    "source_timestamp_unknown_or_partial": [
+      "2022 summer recollection: year only",
+      "original NASA release: day only",
+      "Manchester release: original date retained, not fresh"
+    ]
+  },
+  "resource": {
+    "before": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.3280011659953743,
+      "batches_seconds": [
+        0.3280011659953743,
+        0.3270190419862047,
+        0.3269067920045927,
+        0.32995070796459913,
+        0.3322358330478892,
+        0.32908087503165007,
+        0.32791195798199624
+      ],
+      "peak_rss_bytes": 32489472,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    },
+    "after": {
+      "case": "same legacy 20-topic/9-draft offline production_dry_run,7 batches",
+      "median_seconds": 0.32831091701518744,
+      "batches_seconds": [
+        0.3329045419814065,
+        0.32385645899921656,
+        0.3280815000180155,
+        0.33083795895799994,
+        0.32264720904640853,
+        0.32837658398784697,
+        0.32831091701518744
+      ],
+      "peak_rss_bytes": 32456704,
+      "drafts": 9,
+      "runtime_dependencies": 0
+    },
+    "elapsed_change_percent": 0.094,
+    "interpretation": "About 0.1% time difference is measurement noise; no material regression in this offline workload. Does not measure network or Codex session latency."
+  },
+  "runtime_dependencies_added": 0,
+  "resident_services_added": 0,
+  "scheduler_changed": false,
+  "control_file_checks": {
+    "state/publication_control.json": {
+      "unchanged": true,
+      "sha256": "58b49f7247236702d4e2bc945c8c798f1af6cd3eb74004b6301fed7dfbbb223e"
+    },
+    ".github/workflows/viral-hunt.yml": {
+      "unchanged": true,
+      "sha256": "8f8d0ac4b0f7cf1911842471e95a1f5663538478795bcbbdf9c3eeba5d2d3e7d"
+    }
+  },
+  "dedup": {
+    "publication_memory_records": 193,
+    "campaign_records_including_unpublished": 388,
+    "prior_day_topics": 10,
+    "checks": [
+      {
+        "material_id": "D04e89731e0e8c0f1",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": 0.3103,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "D5fd5fbcc6a399cc1",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": 0.2833,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Df90b36e701d2be31",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": 0.3444,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "De018aa291300b606",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": 0.2938,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Daabc79abe7faa361",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": 0.2796,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "De70ca704ff7eb512",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": null,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Da5e4fdd4cf5b41a8",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": null,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Db980fa8f3a144c43",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": null,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Dd3c64c35277245ab",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": null,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      },
+      {
+        "material_id": "Df463b903f3bba963",
+        "exact_prior_source_match": false,
+        "max_text_similarity_to_193_publication_memory": null,
+        "semantic_novelty": "CODEX_REVIEW_NOT_PROVED_BY_STRING_SIMILARITY"
+      }
+    ],
+    "limits": "Exact canonical source and textual checks plus explicit editorial review, not an independent semantic novelty guarantee."
+  },
+  "feedback": {
+    "historical_observations": 21,
+    "reliable_capture_timestamps": 0,
+    "eligible_24h": 0,
+    "nonnull_historical_metric_counts": {
+      "views": 21,
+      "impressions": 0,
+      "likes": 4,
+      "replies": 4,
+      "reposts": 4,
+      "profile_visits": 0,
+      "follows_attributed": 0
+    },
+    "current_comparable_metrics": {
+      "views": "UNKNOWN",
+      "impressions": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "replies": "UNKNOWN",
+      "reposts": "UNKNOWN",
+      "profile_visits": "UNKNOWN",
+      "follows_attributed": "UNKNOWN"
+    },
+    "traffic_growth_verified": false,
+    "formula_promotions": 0,
+    "C390_user_verdict": "REJECT (unchanged original negative case)"
+  },
+  "upstream_reviews": {
+    "x-agent-skill": {
+      "sha": "7822c29b4aedbd400b9339839d3f59f3652b1317",
+      "license": "MIT"
+    },
+    "humanizer-chinese": {
+      "sha": "1d6c08e10fbfe0e1b36ac784834451c6aae0a92c",
+      "license": "MIT"
+    },
+    "yotta-humanize": {
+      "sha": "8bfa946e72c3a7e4b018eaa2d600dd270d1bdc75",
+      "license": "MIT"
+    },
+    "changes_since_prior_audit": "none; gh api HEAD rechecked; pinned source/license excerpts reviewed; no upstream code executed or copied"
+  },
+  "delivery": {
+    "status": "LOCAL_VERIFIED_PR_PENDING"
+  }
+}

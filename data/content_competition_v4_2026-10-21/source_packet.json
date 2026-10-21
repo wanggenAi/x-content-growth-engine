@@ -1,0 +1,412 @@
+{
+  "as_of": "2026-10-21T02:31:59.000692Z",
+  "collection": {
+    "scope": "one-off session research through existing free fetch_public/parse_rss; no scheduler changes",
+    "raw_rss_leads": 202,
+    "deep_reviewed_distinct_topics": 10,
+    "publication_triggered": false,
+    "failures": [
+      {
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "error": "private/local network destinations are not allowed"
+      },
+      {
+        "url": "https://www.theguardian.com/food/2026/oct/20/fridge-or-not-whats-the-best-way-to-store-bread",
+        "error": "Remote end closed connection without response",
+        "material_id": "Df9ca3375b494e945",
+        "result": "excluded; no invented article content"
+      }
+    ],
+    "article_research": {
+      "initial_requests": 12,
+      "initial_successes": 11,
+      "extra_primary_release_requests": 2,
+      "plant_page_additional_review_requests": 1,
+      "note": "Final ten subjects exclude the failed bread lead and the transport-policy lead; two science abstracts were traced to older original releases."
+    }
+  },
+  "materials": [
+    {
+      "material_id": "D04e89731e0e8c0f1",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+      "topic": "大件闲置：能用不等于有人接",
+      "text": "赵先生的椭圆仪能正常运转，家里有电梯。挂二手平台几个月无人问津，回收商不收，最后倒付70元请人清走。记者看到买家先问在哪、有没有电梯、能不能帮搬。回收商要承担仓储运输人工成本。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+        "published_at": "2026-10-20T23:34:20Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:28.988040Z",
+        "evidence_text": "赵先生的椭圆仪能正常运转，家里有电梯。挂二手平台几个月无人问津，回收商不收，最后倒付70元请人清走。记者看到买家先问在哪、有没有电梯、能不能帮搬。回收商要承担仓储运输人工成本。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月21日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718234.shtml",
+          "excerpt": "2026-10-20T23:34:20Z\n今年上半年，北京市民赵先生打算处理家里闲置的椭圆仪。他先联系厂家，对方表示不提供回收服务；把信息挂到二手交易平台，几个月时间无人问津；又辗转找到专做家具、健身器材回收的商家，得到的答复同样是“不收”。\n赵先生家住南四环，楼层不高且有电梯，搬运物品并不困难，可即便如此，这台仍能正常运转的椭圆仪，始终找不到合适的人接手。最终，他只能找来一位收废品的师傅，倒付70元，才把这件“大件”从家里清了出去。\n记者浏览二手交易平台发现，在不少大件家具交易帖文下，买家最关注的问题往往不是价格，而是“在哪个地方”“有没有电梯”“能不能帮忙搬”。对于跨区域交易而言，运输成本更成为难以绕开的障碍；即便是同城交易，大件旧物也往往需要专业工具和多人协作才能完成搬运，而这些额外成本，很容易超过商品本身的价值。由此也导致大件旧物在二手交易平台很难卖出——买家不愿意承担运输成本，卖家包运送的话售价就要大幅上涨，导致买卖双方难以达成交易合意。\n多位受访从业者向记者表示，对于回收企业而言，回收一件大件旧物并不意味着能够立即实现价值转化。在等待交易、拆解或再利用的过程中，仓储、运输和人工成本仍在持续产生。",
+          "captured_at": "2026-10-21T02:19:28.988040Z",
+          "page_sha256": "857eadafa42c903824990765b82d1b9991d5d0945c3fb2c0ba9757403076f7bd"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "D5fd5fbcc6a399cc1",
+      "event_id": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+      "topic": "平台申诉：解释比金额更刺人",
+      "text": "Catherine卖出6英镑项链，买家称包裹是空的。她说提交了照片、视频和带日期的门铃录像，平台仍退款。她索要依据，称未获具体解释。Vinted回应所有申诉由人工审核，包括她的案件。一方索要依据，另一方回应人工审核。未核对物流和内部工单。",
+      "source": {
+        "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+        "published_at": "2026-10-20T06:00:19Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:32.881408Z",
+        "evidence_text": "Catherine卖出6英镑项链，买家称包裹是空的。她说提交了照片、视频和带日期的门铃录像，平台仍退款。她索要依据，称未获具体解释。Vinted回应所有申诉由人工审核，包括她的案件。一方索要依据，另一方回应人工审核。未核对物流和内部工单。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.theguardian.com/money/rss",
+        "author": "Sarah Marsh Consumer affairs correspondent",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales",
+          "excerpt": "2026-10-20T06:00:19Z\nAfter Catherine Warrilow sold a Zara necklace for £6 on Vinted, she packed it up and posted it off, just as she had done with many things before. Only this time the buyer claimed the parcel arrived empty.\nWarrilow, 47, from Oxford, provided Vinted with photos and videos of the package, including date-stamped Ring doorbell footage of her leaving the house to post it. But she says the resale platform refunded the buyer and left her out of pocket.\n“I challenged Vinted on what evidence they had and asked them to supply it, but they simply said ‘based on our evidence’ and ‘our evidence suggests’ and could not explain what that was,” she says. “The photos from the buyer showed that all of the parcel tape I’d used had been removed.”\nAccording to Vinted, all appeals are handled by human reviewers, including Warrilow’s cases.",
+          "captured_at": "2026-10-21T02:19:32.881408Z",
+          "page_sha256": "62133ff20968413a5fb2023dc5101f6ab85bbf01f0b9eb79cc05998a361fe0e1"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "Df90b36e701d2be31",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-20/10718206.shtml",
+      "topic": "误投信箱后的长期互助",
+      "text": "村民曾拆门板抬受伤的王保贵就医，还凑钱帮他养伤。1976年邮递员误把他家信箱当全村公用信箱，他便义务送报送信，延续50年。年轻时步行，现在骑三轮车。他还自费订农业报刊，复印核桃种植技术给村民。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718206.shtml",
+        "published_at": "2026-10-20T15:26:01Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:28.964946Z",
+        "evidence_text": "村民曾拆门板抬受伤的王保贵就医，还凑钱帮他养伤。1976年邮递员误把他家信箱当全村公用信箱，他便义务送报送信，延续50年。年轻时步行，现在骑三轮车。他还自费订农业报刊，复印核桃种植技术给村民。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718206.shtml",
+          "excerpt": "2026-10-20T15:26:01Z\n1968年，一场意外事故令王保贵右臂受重伤。危急关头，全村人自发赶来，有人撕衣包扎，有人拆下门板做成担架，众人接力把他送往医院，使他保住一条命。\n养伤期间，村民和同事自发捐款，一毛、两毛凑钱帮助他渡过难关。这份情谊，他一直铭记于心。从那时起，他便下定决心，要用实际行动回馈乡里。\n1976年，邮递员误把他家信箱当成全村公用信箱，家里常堆满别人的报刊和信件，王保贵没有置之不理，主动担起义务投递的担子，这一干就是整整50年。“早年身体好，我靠步行投递；现在年纪大了，我骑三轮车送报。”王保贵说。\n近年来，村里发展核桃种植产业，王保贵自费订阅农业科技类报刊，把有关核桃种植的技术内容复印下来，分发到村民手中。由于经常送报，王保贵成了村民眼里“最可信的人”，就连大学录取通知书、汇款单等，村民也都放心托付他代收。",
+          "captured_at": "2026-10-21T02:19:28.964946Z",
+          "page_sha256": "74739426ee889d359a1c193e9decf3e39f855620e463d8fddda5acca20a8f9b4"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "De018aa291300b606",
+      "event_id": "https://www.manchester.ac.uk/about/news/peculiar-new-species-of-jurassic-squid-found-in-wyoming/",
+      "topic": "化石捐赠与迟到的新物种命名",
+      "text": "第一块异常粗壮的箭石化石在博物馆多年未研究。Cliff Linster把第二块标本于2019年捐给博物馆，两块合起来帮助辨认新物种。曼大2026年9月公布，物种名纪念Linster及家人。他6月去世，知道研究在做，未等到论文发表。这不是10月新发现。",
+      "source": {
+        "url": "https://www.manchester.ac.uk/about/news/peculiar-new-species-of-jurassic-squid-found-in-wyoming/",
+        "published_at": "2026-09-10T00:00:00Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:21:47.069142Z",
+        "evidence_text": "第一块异常粗壮的箭石化石在博物馆多年未研究。Cliff Linster把第二块标本于2019年捐给博物馆，两块合起来帮助辨认新物种。曼大2026年9月公布，物种名纪念Linster及家人。他6月去世，知道研究在做，未等到论文发表。这不是10月新发现。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": "2026-09-10",
+        "event_time_status": "EVERGREEN_REDISCOVERY",
+        "method": "PUBLIC_HTTP_PRIMARY_RELEASE",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
+        "author": null,
+        "family": "RESEARCH_INSTITUTION",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "曼大9月"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE",
+        "rediscovery_reason": "本轮从新摘要或新回忆发现，但正文明确展示原始日期；兴趣来自具体行动与结果，不伪装突发。"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.manchester.ac.uk/about/news/peculiar-new-species-of-jurassic-squid-found-in-wyoming/",
+          "excerpt": "2026-09-10T00:00:00Z\nThe first specimen was unearthed in the late 1990s by Dr Burkhard Pohl, founder of the Wyoming Dinosaur Center, after he spotted a belemnite much bigger than any he had seen before. The fossil sat unstudied in the museum's collection draw for many years until a second specimen was discovered by fossil collector Cliff Linster near Ten Sleep, Wyoming, and donated to the Wyoming Dinosaur Center in 2019. Together, the two fossils provided the evidence needed to identify and formally describe the new species. \nThe name Wyoteuthis translates to “a squid from Wyoming”, while the species name, linsterorum , honours Cliff Linster and his family. Cliff discovered one of only two known specimens of the new species and donated it for scientific study. Cliff Linster passed away in June this year. He knew researchers were studying his remarkable discovery and was excited to see it formally described. ",
+          "captured_at": "2026-10-21T02:21:47.069142Z",
+          "page_sha256": "a8b12f5f0b594bcf9c690fddd07eee4e1a7b4ade1c42c964c12ee49f192f8a21"
+        }
+      ],
+      "publication_allowed": false,
+      "discovery_lead": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
+        "published_at": "2026-10-20T12:20:44Z",
+        "note": "摘要时间不是研究时间；以一手来源重新定年。"
+      }
+    },
+    {
+      "material_id": "Daabc79abe7faa361",
+      "event_id": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+      "topic": "邻居清垃圾桶引发的荒诞后果",
+      "text": "2022年伦敦酷热时，作者回忆邻居用高压水枪洗生蛆的垃圾桶。蛆被冲到窗、车和周围院子。有邻居误以为终于下冰雹，开门查看也被波及。作者窗户关着，后来邻居拿来簸箕和刷子。2026年10月20日刊登旧回忆，不是实时现场。",
+      "source": {
+        "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+        "published_at": "2026-10-20T06:00:19Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:31.927453Z",
+        "evidence_text": "2022年伦敦酷热时，作者回忆邻居用高压水枪洗生蛆的垃圾桶。蛆被冲到窗、车和周围院子。有邻居误以为终于下冰雹，开门查看也被波及。作者窗户关着，后来邻居拿来簸箕和刷子。2026年10月20日刊登旧回忆，不是实时现场。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": "2022",
+        "event_time_status": "EVERGREEN_REDISCOVERY",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.theguardian.com/lifeandstyle/rss",
+        "author": "Jenny Stevens",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "2022年"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE",
+        "rediscovery_reason": "本轮从新摘要或新回忆发现，但正文明确展示原始日期；兴趣来自具体行动与结果，不伪装突发。"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/oct/20/the-pest-ill-never-forget-maggots-rained-down-like-hail",
+          "excerpt": "2026-10-20T06:00:19Z\nThe record-breaking heat in London, in summer 2022, resulted in an appalling problem in my neighbourhood – which one man took on, armed only with a jet wash. My neighbour disappeared briefly, and returned carrying a jet washer. There was splat, a yell and a blossom of what looked like rice grains were blasted into the air.\nMaggots. Hundreds – maybe even thousands – of maggots, propelled into flight and falling on windows, walls, cars, gardens, hedges, pavements and bins all around. I thanked the universe I’d kept my window closed, as they landed on the windowsill, still wriggling their last wriggle. Some neighbours obviously thought that rain had finally come in the form of hail. They opened their doors to see. And then they too were hit by the unfolding horror.\nThere stood the neighbour, stray maggots in his hair and on his face, before he went inside to fetch the dustpan and brush.",
+          "captured_at": "2026-10-21T02:19:31.927453Z",
+          "page_sha256": "d52b8a1d3d26c04d6866f7780d9024c7b2c4b3cc877e91d18bdf55437d279d52"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "De70ca704ff7eb512",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-20/10718176.shtml",
+      "topic": "口音与故乡身份",
+      "text": "柏大卫在青海长大，会湟源方言。黄炯回忆他打车时司机不收钱；又请人写下调侃他吃酿皮的童谣，带回美国挂在卧室。均为受访者转述旧事。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718176.shtml",
+        "published_at": "2026-10-20T14:24:34Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:28.944282Z",
+        "evidence_text": "柏大卫在青海长大，会湟源方言。黄炯回忆他打车时司机不收钱；又请人写下调侃他吃酿皮的童谣，带回美国挂在卧室。均为受访者转述旧事。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718176.shtml",
+          "excerpt": "2026-10-20T14:24:34Z\n据黄炯回忆，闲聊时，柏大卫总爱提起少年趣事：放羊放牛、下河游泳，和伙伴在田埂偷拔萝卜，被农户追得四处跑。讲完总笑着自嘲：“当年我也当了一回‘贼娃子’(湟源话，小偷)。”\n“有一年，柏大卫打车进入西宁，刚一开口，流利的湟源土话便让司机吃惊。”黄炯说，司机不肯收车费，只留下一句话：“大卫先生，您为青海人做了那么多事，这趟车我不能收钱。”\n“美国洋人大鼻子，好吃中国的酿皮子，又调辣子又调醋，辣子抹了一鼻子……”柏大卫听完后大笑不止，连声叫好，并请求好友写下童谣，带回美国。“他说他将装裱好的童谣挂在卧室里，每天一睁眼，就能看见那几行字，那是故乡湟源的声音。”黄炯说。",
+          "captured_at": "2026-10-21T02:19:28.944282Z",
+          "page_sha256": "ec67d06012bac689832895f8042647fb1dc8cb9eafd0afb4b2764151bf94e8f7"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "Da5e4fdd4cf5b41a8",
+      "event_id": "https://www.chinanews.com.cn/sh/2026/10-20/10718131.shtml",
+      "topic": "街头表演与跨语言交流",
+      "text": "Marco以但丁爷爷造型在开封表演，会按观众反应调整互动。他自述做街头艺术26年，起初做戏剧。报道没有一个完整互动动作的过程和结果。",
+      "source": {
+        "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718131.shtml",
+        "published_at": "2026-10-20T13:29:37Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:29.173778Z",
+        "evidence_text": "Marco以但丁爷爷造型在开封表演，会按观众反应调整互动。他自述做街头艺术26年，起初做戏剧。报道没有一个完整互动动作的过程和结果。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.chinanews.com.cn/rss/society.xml",
+        "author": null,
+        "family": "CHINESE_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718131.shtml",
+          "excerpt": "2026-10-20T13:29:37Z\n“中国观众对我的态度，让我感受到了不一样的温暖，这是我人生中独一无二的体验。”近日，意大利街头艺术家Marco以“但丁爷爷”的造型亮相河南开封万岁山武侠城，开启中国首秀。他独特的造型和表演吸引游客驻足观看、拍照互动。\n现场，Marco会根据现场氛围和观众反应不断调整互动形式，在他看来，街头艺术不仅是对人物形象的塑造，更在于和观众的即时交流。\nMarco说，他最初是从戏剧开始的，后来逐渐接触街头艺术，这一做就是26年。这段经历在他看来非常美好，也让他找到了自己真正热爱的艺术。得知中国观众称呼他“但丁爷爷”，这一称呼让他觉得亲切。",
+          "captured_at": "2026-10-21T02:19:29.173778Z",
+          "page_sha256": "84a99186f24954d5c8740d178355863a1e898d87fed03382f9c630da3a384687"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "Db980fa8f3a144c43",
+      "event_id": "https://www.theguardian.com/lifeandstyle/2026/oct/20/houseplant-hacks-will-trimming-brown-leaf-tips-do-any-harm",
+      "topic": "养植物的修剪小实验",
+      "text": "作者用剪刀修掉叶片干枯部分，保留一小条褐边，避免剪进绿色活组织。作者回忆以前剪进绿色后又冒褐边；只是个人观察，不是控制实验。",
+      "source": {
+        "url": "https://www.theguardian.com/lifeandstyle/2026/oct/20/houseplant-hacks-will-trimming-brown-leaf-tips-do-any-harm",
+        "published_at": "2026-10-20T09:00:21Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:21:22.361359Z",
+        "evidence_text": "作者用剪刀修掉叶片干枯部分，保留一小条褐边，避免剪进绿色活组织。作者回忆以前剪进绿色后又冒褐边；只是个人观察，不是控制实验。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.theguardian.com/lifeandstyle/rss",
+        "author": "Gynelle Leon",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.theguardian.com/lifeandstyle/2026/oct/20/houseplant-hacks-will-trimming-brown-leaf-tips-do-any-harm",
+          "excerpt": "2026-10-20T09:00:21Z\nThe method\n \n Use clean, sharp scissors and cut along the leaf’s natural shape. Leave a thin sliver of the brown edge rather than cutting into the healthy green tissue, which would create a fresh wound that the plant then has to seal off, causing it to go brown again in the process.\nThe test\n \n I trimmed the brown tips on a philodendron, following the leaf shape, and the leaves immediately looked neater and, over time, didn’t brown further along the cut. On an earlier attempt years ago, I cut back into the green part of the leaf and watched a new brown edge form within days.",
+          "captured_at": "2026-10-21T02:21:22.361359Z",
+          "page_sha256": "429188f8a87ebcc723146b4d75ea29e3a9e641bf8dbcdd3465cc7f1d329aaf21"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "Dd3c64c35277245ab",
+      "event_id": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+      "topic": "食物价格与意外副产品",
+      "text": "NPR解释美国黄油供给增加：乳业为希腊酸奶和茅屋奶酪等食品提供更多乳蛋白，副产品也带来更多黄油供给。这里只核对到媒体解释，尚未核对原始农业统计。",
+      "source": {
+        "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+        "published_at": "2026-10-20T09:00:00Z",
+        "timestamp_precision": "SOURCE_TIMESTAMP",
+        "captured_at": "2026-10-21T02:19:34.040147Z",
+        "evidence_text": "NPR解释美国黄油供给增加：乳业为希腊酸奶和茅屋奶酪等食品提供更多乳蛋白，副产品也带来更多黄油供给。这里只核对到媒体解释，尚未核对原始农业统计。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": null,
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_ARTICLE_FROM_RSS",
+        "feed_url": "https://www.npr.org/rss/rss.php?id=1001",
+        "author": "Joe Hernandez",
+        "family": "NEWS_MEDIA",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "10月20日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+          "excerpt": "2026-10-20T09:00:00Z\nButter currently costs a lot less bread than it used to. A pound of butter averaged $3.96 in September. That was down 17.3% since last year, bucking the trend of rising food prices.\nYet even though demand for butter is high, supply is even higher. U.S. butter production is booming, in part because dairy farms grew their herds and increased milk supply to produce more milk proteins for popular foods like Greek yogurt and cottage cheese. That has also led to an oversupply of butter.",
+          "captured_at": "2026-10-21T02:19:34.040147Z",
+          "page_sha256": "59352cbd940c92b71681be66525c3a2aafcbbe4cf0bb5fb1731168569d29c83f"
+        }
+      ],
+      "publication_allowed": false
+    },
+    {
+      "material_id": "Df463b903f3bba963",
+      "event_id": "https://www.sciencedaily.com/releases/2026/10/261018205101.htm",
+      "topic": "小行星样本与观测落差",
+      "text": "NASA在3月已经说明贝努石块内部裂隙与快速散热有关。10月20日的科普摘要不是研究新发表。一手材料描述样本隔绝地球环境做CT，不是登上小行星实时直播。",
+      "source": {
+        "url": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
+        "published_at": "2026-03-17",
+        "timestamp_precision": "SOURCE_DATE_ONLY",
+        "captured_at": "2026-10-21T02:21:18.756899Z",
+        "evidence_text": "NASA在3月已经说明贝努石块内部裂隙与快速散热有关。10月20日的科普摘要不是研究新发表。一手材料描述样本隔绝地球环境做CT，不是登上小行星实时直播。",
+        "status": "SOURCE_CHECKED",
+        "confidence": "ATTRIBUTED_SOURCE_NOT_INDEPENDENTLY_CORROBORATED",
+        "check_scope": "PUBLIC_SOURCE_CONTENT_RETRIEVED_NOT_FACT_VERIFIED",
+        "fact_verification": "UNVERIFIED",
+        "event_time": "2026-03-17",
+        "event_time_status": "CURRENT_REPORT_EVENT_DATE_UNKNOWN",
+        "method": "PUBLIC_HTTP_PRIMARY_RELEASE",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
+        "author": null,
+        "family": "PUBLIC_SCIENCE_AGENCY",
+        "timestamp_basis": "FEED_PUBLICATION_TIME_NOT_CONFIRMED_EVENT_TIME",
+        "visible_date_labels": [
+          "3月17日"
+        ],
+        "freshness_scope": "ORIGINAL_PUBLICATION_DATE_NOT_AGGREGATOR_DATE"
+      },
+      "source_evidence": [
+        {
+          "url": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
+          "excerpt": "2026-10-20T02:23:00Z\nIn one of the biggest surprises of NASA's OSIRIS-REx mission, its target asteroid, Bennu, turned out to be a jagged, rugged world covered in large boulders, with few of the smooth patches that earlier observations from Earth-based instruments had indicated.\nRyan's team scrutinized rock particles collected from Bennu’s surface using a variety of laboratory analysis techniques. In a study published in Nature Communications the authors reported that the boulders are indeed porous enough to account for some of the observed heat loss, but not all of it. Rather, many of the rocks turned out to be riddled with extensive networks of cracks.\n“The sample goes into its own ‘spacesuit,’ gets a CT scan, and then comes back to its pristine environment, all without having any exposure to the terrestrial environment,” said Nicole Lunning, lead OSIRIS-REx sample curator within the Astromaterials Research and Exploration Science division at NASA Johnson and one of the study's co-authors. “We can image right through these airtight containers to visualize the shape and internal structure of the rock that's inside.”",
+          "captured_at": "2026-10-21T02:21:18.756899Z",
+          "page_sha256": "add99a213be47e42650b301062d01aa7fcd86de30121511f03fb9c8fa287bd6a"
+        }
+      ],
+      "publication_allowed": false,
+      "discovery_lead": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261018205101.htm",
+        "published_at": "2026-10-20T02:23:00Z",
+        "note": "摘要时间不是研究时间；以一手来源重新定年。"
+      }
+    }
+  ]
+}
