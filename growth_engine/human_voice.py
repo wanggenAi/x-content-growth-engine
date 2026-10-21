@@ -205,6 +205,9 @@ def generate_viral_variants_prompt(material: Mapping[str, Any]) -> dict[str, Any
             "reader_questions": ["普通中文读者为什么停下来？", "读完具体得到什么？",
                                  "为什么可能评论或分享？", "相对其他转述有什么独特角度？"],
             "topic_scope": "生活、人性、关系、社会、消费、幽默、真实人物、互联网发现与科技同池竞争；新闻价值不等于读者价值。",
+            "editorial_rubric": "八维仍逐项判断：真实反差、行动细节、读者处境、明确分享对象与真实讨论分叉；不按媒体名气、严肃程度、数字或标题关键词给高分。事实不清、旧事装新或猎奇盖过收益可直接HOLD。",
+            "opening_comparison_required": True,
+            "opening_review": "每版先比较两个叙事切口不同的开头，分别记录text、approach、reader_reason及原文source_span；选用一个置于正文起点，在opening.selection_reason解释另一开头隐藏了什么或增加了哪些理解成本。无须凑第三个；不得预言浏览量。",
             "variants": [
                 {"id": "A", "mode": "DIRECT", "angle": "直接的信息差", "instruction": "先给意外事实，迅速兑现信息差，删掉新闻导语。"},
                 {"id": "B", "mode": "PERSONAL", "angle": "自然的个人表达", "instruction": "选一个有依据的观察、犹豫或轻吐槽组织正文；不编亲历，不凑口头禅。"},
@@ -212,7 +215,7 @@ def generate_viral_variants_prompt(material: Mapping[str, Any]) -> dict[str, Any
             "constraints": ["保留人名、时间、数字、引语、归因和不确定性", "首屏具体，短段留白，无总结升华",
                             "不得为悬念省略反证，不得把转述写成已证实事实", "不搬运整篇，不伪造第一人称，不补假亲历或虚构因果；口语按语境选，不凑口头禅",
                             "每版实际调用 prepare_candidate / run_human_style_pipeline；不宣称提示词能保证100%通过"],
-            "required_output": ["draft_text", "locked_facts", "primary_action", "source_refs", "mode", "strategy_version", "structure_reason", "reader_value"],
+            "required_output": ["draft_text", "locked_facts", "primary_action", "source_refs", "mode", "strategy_version", "structure_reason", "reader_value", "opening_comparison_required", "content_review.opening"],
             "acceptance": "逐句核对原始来源；文风PASS不是吸引力PASS，另交正文比较评审。"}
 
 

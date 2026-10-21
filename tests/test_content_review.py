@@ -16,6 +16,54 @@ from tests.topic_helpers import AS_OF, material
 
 
 class ContentReviewTests(unittest.TestCase):
+    def test_final_live_competition_keeps_veto_and_checks_authored_held_story(self):
+        root = Path('data/content_competition_v4_final_2026-10-21')
+        feed = json.loads((root/'source_packet.json').read_text())
+        reviews = json.loads((root/'editorial_reviews.json').read_text())
+        reviews['publication_memory'] = json.loads(Path(reviews['publication_memory_ref']).read_text())['publication_memory']
+        result = production_dry_run(feed, reviews); ranking = result['ranking']
+        self.assertGreaterEqual(ranking['candidate_count'], 30)
+        self.assertGreaterEqual(ranking['reviewed_source_count'], 20)
+        self.assertGreaterEqual(ranking['under48h_count'], 10)
+        self.assertGreaterEqual(ranking['source_family_count'], 4)
+        self.assertEqual(ranking['selected_material_ids'], ['D04e89731e0e8c0f1'])
+        rows = {r['material_id']:r for r in ranking['rows']}
+        self.assertFalse(rows['D22b51d2ff51d406b']['admitted'])
+        self.assertIn('TOPIC_EDITOR_HOLD', rows['D22b51d2ff51d406b']['reasons'])
+        self.assertGreater(rows['Daabc79abe7faa361']['editorial_topic_score'],
+                           rows['D91aa25fe640f5a3e']['editorial_topic_score'])
+        self.assertFalse(rows['Daabc79abe7faa361']['admitted'])
+        variants = [v for t in result['topics'] for v in t['variants']]
+        self.assertEqual(len(variants), 12)
+        self.assertTrue(all(v['human_style_passed'] and v['content_review_result']['passed'] for v in variants))
+        self.assertFalse(result['publication_allowed'])
+        # The packet policy cannot be bypassed by omitting a variant flag.
+        first = reviews['records'][0]['previews'][0]
+        first.pop('opening_comparison_required', None)
+        del first['content_review']['opening']['alternatives']
+        changed = production_dry_run(feed, reviews)
+        variant = next(t for t in changed['topics'] if t['material_id'] == reviews['records'][0]['material_id'])['variants'][0]
+        self.assertIn('CONTENT_OPENING_COMPARISON_REQUIRED', variant['content_review_result']['reasons'])
+
+    def test_new_opening_comparison_is_source_bound_and_not_cosmetic(self):
+        c = candidate(); m = c['material_pool'][0]
+        c['opening_comparison_required'] = True
+        self.assertIn('CONTENT_OPENING_COMPARISON_REQUIRED', review_content(c, m)['reasons'])
+        opening = c['content_review']['opening']
+        proof = m['source_evidence'][0]['excerpt']
+        opening.update(alternatives=[
+            {'text':c['text'].split('。')[0], 'approach':'RESULT_FIRST',
+             'reader_reason':'首句直接展示付款动作和具体账单，让读者不用先猜发生什么。', 'source_span':proof},
+            {'text':'一顿饭吃完，请客约定还算不算数。', 'approach':'AGREEMENT_FIRST',
+             'reader_reason':'从约定切入可以理解分歧，但把具体金额延后，理解成本更高。', 'source_span':proof}],
+            selection_reason='保留账单动作在前；约定开头需要再读一句才知道实际代价。')
+        self.assertTrue(review_content(c, m)['passed'], review_content(c, m)['reasons'])
+        for field, value in [('source_span','完全不在原文中的虚构证据。'),
+                             ('text',opening['alternatives'][0]['text']+'啊'),
+                             ('approach','RESULT_FIRST')]:
+            changed = deepcopy(c); changed['content_review']['opening']['alternatives'][1][field] = value
+            self.assertIn('CONTENT_OPENING_COMPARISON_REQUIRED', review_content(changed, m)['reasons'])
+
     def test_v4_reader_questions_gate_topic_selection_before_writing(self):
         root = Path('data/content_competition_v4_2026-10-20')
         feed = json.loads((root/'source_packet.json').read_text())

@@ -984,3 +984,10 @@ Re-read latest origin/main2616019 and prior PR16 evidence. Reproduced factual-cl
 ## 2026-10-21T02:37:48.685569Z — V4 follow-through verified on merged main
 
 PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8ff9688348eba44c. Main CI39533946703 SUCCESS; local main141 unittest/141pytest/compileall PASS and merge tree equals PR head. Original pause/collector file bytes unchanged, no X access/submission, zero new runtime dependency/resident process. This follow-up saves completed evidence/state only. User local main history remains untouched.
+
+
+### 2026-10-21T03:18:38.408741Z — 用户要求最后一轮V4选题与首句竞争
+
+直接要求检查main/PR/CI、修复社交兴趣排序、每次编辑比较两个真正不同开头、raw30/deep20/fresh10/families4、Top10/Top3/唯一Top1、Top3 ABC、真实固定窗反馈、轻量基准、PR/CI合并；不得创建V5/新评分器/服务/依赖/定时任务，不得自动发X。
+
+执行：30独立原页、26深审、22有效深审/48h、5族，椭圆仪Top1、Vinted和iPad备选；9稿+蛆虫HOLD3稿，原文事实/锁/首句/风格通过。只改权重不能纠正旧人工分，实际保存消融对照与逐项新判断。蛆虫2022旧事与SimCity发布时间未知仍HOLD；Apple博客独立OG时间核对后才算新鲜。C390否定不变；21条历史无可靠捕获时间，24h有效0，增长UNKNOWN。原离线基准+1.15%耗时/+0.25%RSS，无明显退化；新负担0。146 unittest/pytest、compileall通过，发布暂停。产物docs/CONTENT_PRIORITY_V4_FINAL_2026-10-21.md。LOCAL_VERIFIED_PR_PENDING。

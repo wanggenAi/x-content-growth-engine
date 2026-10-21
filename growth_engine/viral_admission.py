@@ -28,9 +28,11 @@ MIN_SOURCE_FAMILIES = 4
 MIN_TOPIC = 62
 DEFAULT_TOP_N = 5
 WEIGHTS = {
-    "raw_material_strength": 18, "surprise": 12, "conflict": 10,
-    "self_insertion": 10, "first_screen_stopping_power": 22,
-    "mass_relevance": 18, "share_potential": 5, "reply_potential": 5,
+    # Editorial policy, not fitted engagement coefficients. Importance and
+    # audience breadth must not substitute for a concrete reader payoff.
+    "raw_material_strength": 18, "surprise": 16, "conflict": 6,
+    "self_insertion": 14, "first_screen_stopping_power": 22,
+    "mass_relevance": 10, "share_potential": 9, "reply_potential": 5,
 }
 GENERIC = {"reviewed", "concrete evidence reviewed", "high", "strong", "有冲突", "有数字", "已核实"}
 SUPPORT_TERMS = {
@@ -194,6 +196,8 @@ def score_material(material: dict, *, as_of: str, admission_mode: str = PRODUCTI
     if age_error: errors.append(age_error)
     if not isinstance(source.get("url"), str) or not source["url"].startswith("https://"): errors.append("SOURCE_REFERENCE_REQUIRED")
     if source.get("status") != "SOURCE_CHECKED": errors.append("HOLD_SOURCE_CHECK")
+    if material.get("user_content_verdict") == "REJECT": errors.append("CONTENT_USER_REJECTED")
+    if review.get("decision", "PASS") != "PASS": errors.append("TOPIC_EDITOR_HOLD")
     bonus = _verified_bonus(material, corpus)
     if deep["passed"]:
         total = sum(scores[k] * weight / 100 for k, weight in WEIGHTS.items())
@@ -263,10 +267,15 @@ def _second_stage(rows: list[dict]) -> dict | None:
     contenders = [r for r in rows if r["admitted"] and rows[0]["editorial_topic_score"] - r["editorial_topic_score"] < 5]
     if len(contenders) < 2: return None
     def judge(row: dict):
-        return (row["first_screen_stopping_power"] or 0, row["mass_relevance"] or 0, -row["penalties"]["background"], -row["penalties"]["distance"], -(row["source_age_hours"] if row["source_age_hours"] is not None else 10**9), row["raw_material_strength"] or 0, row["conflict"] or 0)
+        return (row["first_screen_stopping_power"] or 0, row["surprise"] or 0,
+                row["self_insertion"] or 0, row["share_potential"] or 0, row["reply_potential"] or 0,
+                row["raw_material_strength"] or 0, -row["penalties"]["background"],
+                -row["penalties"]["distance"], row["mass_relevance"] or 0,
+                -(row["source_age_hours"] if row["source_age_hours"] is not None else 10**9))
     ordered = sorted(contenders, key=lambda r: (judge(r), r["material_id"]), reverse=True); winner = ordered[0]
     return {"status": "SECOND_STAGE_EDITORIAL_JUDGE", "trigger_margin": margin,
-        "criteria": ["3_SECOND_STOP", "MASS_RELEVANCE", "BACKGROUND_COST", "AUDIENCE_DISTANCE", "SOURCE_FRESHNESS", "ORIGINAL_HUMAN_TENSION"],
+        "criteria": ["3_SECOND_STOP", "SURPRISE", "SELF_INSERTION", "SHARE_POTENTIAL", "REPLY_POTENTIAL",
+                     "RAW_MATERIAL_STRENGTH", "BACKGROUND_COST", "AUDIENCE_DISTANCE", "MASS_RELEVANCE", "SOURCE_FRESHNESS"],
         "contenders": [r["material_id"] for r in ordered], "winner": winner["material_id"],
         "decision_trace": {r["material_id"]: list(judge(r)) for r in ordered}}
 
