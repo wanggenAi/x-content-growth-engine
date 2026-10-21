@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T12:52:35.457306Z",
+  "updated_at": "2026-10-21T14:00:14.887406+00:00",
   "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
   "checkpoints": {
     "environment_review": "done",
@@ -736,7 +736,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": "X submission PAUSED by latest user; all candidate technical dry-run gates passed.",
+  "current_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT; user publication authorization present; no remote schedules or real posts.",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -2051,5 +2051,22 @@
       "compileall": "PASS"
     },
     "live_submission_allowed": false
+  },
+  "publication_launch_2026_10_21": {
+    "status": "REVIEWED_QUEUE_TRANSPORT_BLOCKED",
+    "user_publication_authorized": true,
+    "interval_minutes": 20,
+    "automation_id": "x",
+    "automation_status": "ACTIVE",
+    "reviewed_topics": 1,
+    "reviewed_variants": 3,
+    "scheduled": 0,
+    "published": 0,
+    "first_post_url": null,
+    "candidate": "V4-LAUNCH-20261021-EMUDHRA",
+    "queue": "state/publication_queue.json",
+    "report": "docs/TWENTY_MINUTE_PUBLICATION.md",
+    "growth_verified": false,
+    "tests": 161
   }
 }

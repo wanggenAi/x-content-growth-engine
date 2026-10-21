@@ -8,3 +8,4 @@ data/imports/
 data/evidence/
 exports/
 .env
+state/*.lock

@@ -1,0 +1,74 @@
+{
+  "account": "qiluo27808",
+  "interval_minutes": 20,
+  "items": [
+    {
+      "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+      "material_id": "Da5a081fa02eb50c1",
+      "status": "REVIEWED",
+      "text": "给网站发安全证书的机构，有把私钥竟然是4。\n\nScott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下。另两把是56和115。\n\n格式检查都过。Chrome和Firefox已直接封锁相关中间证书。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "text_hash": "5912dc155b281822af28891f40726b71bca4a775495a65dde6b298a0691dcec1",
+      "candidate_ref": "data/private/publication_launch/production.json",
+      "reviewed_at": "2026-10-21T13:53:30.798441+00:00",
+      "competition_as_of": "2026-10-21T12:36:09.598620Z",
+      "history": [
+        {
+          "status": "DRAFT",
+          "at": "2026-10-21T13:53:30.798441+00:00"
+        },
+        {
+          "status": "REVIEWED",
+          "at": "2026-10-21T13:53:30.798441+00:00"
+        }
+      ],
+      "post_url": null,
+      "published_at": null,
+      "scheduled_for": null,
+      "feedback_24h": {
+        "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+        "status": "AWAITING_PUBLICATION",
+        "publication_text_digest": "5912dc155b281822af28891f40726b71bca4a775495a65dde6b298a0691dcec1",
+        "primary_action": "SHARE",
+        "topic": "证书私钥竟然只是数字4",
+        "preregistered_at_utc": "2026-10-21T13:53:00.978522+00:00",
+        "window": "24h",
+        "post_url": null,
+        "published_at_utc": null,
+        "observed_at_utc": null,
+        "evidence_ref": null,
+        "human_reviewed": false,
+        "metrics_status": "UNKNOWN",
+        "views": null,
+        "impressions": null,
+        "likes": null,
+        "replies": null,
+        "reposts": null,
+        "quotes": null,
+        "bookmarks": null,
+        "profile_visits": null,
+        "follows_attributed": null,
+        "account_follower_delta": null,
+        "link_clicks": null,
+        "expanded_details": null,
+        "return_visits": null,
+        "actual_observed_at": null,
+        "actual_post_age_minutes": null,
+        "target_window": "24h",
+        "offset_from_target_minutes": null,
+        "tolerance_minutes": 60,
+        "window_class": "MISSING",
+        "learning_eligible": false
+      }
+    }
+  ],
+  "slots": [
+    {
+      "slot": "2026-10-21T13:40:00+00:00",
+      "checked_at": "2026-10-21T13:53:30.798441+00:00",
+      "status": "SKIPPED",
+      "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
+      "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+      "external_action": false
+    }
+  ]
+}

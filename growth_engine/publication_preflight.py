@@ -8,7 +8,8 @@ from .editorial_gate import validate_candidate
 from .human_voice import HUMAN_STYLE_VERSION, stable_hash
 
 
-def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str, *, dry_run: bool = False) -> dict[str, Any]:
+def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str, *, dry_run: bool = False,
+                       publication_queue: Mapping[str, Any] | None = None) -> dict[str, Any]:
     """Fail closed if the text about to be pasted differs from the admitted candidate."""
     if candidate.get("fixture_type") == "SYNTHETIC_TEST_FIXTURE":
         raise ValueError("synthetic fixture cannot be published")
@@ -53,6 +54,14 @@ def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str, *, dry_r
         raise ValueError("DRY_RUN_OR_PRODUCTION_HOLD: candidate is not authorized for live submission")
     if not dry_run:
         from datetime import datetime, timezone
+        if control.get('minimum_interval_minutes') == 20:
+            from .publication_control import validate_cadence
+            if publication_queue is None:
+                raise ValueError('PUBLICATION_QUEUE_CONTEXT_REQUIRED')
+            queued = next((i for i in publication_queue['items'] if i['candidate_id'] == candidate.get('candidate_id')), None)
+            if not queued or queued['status'] != 'REVIEWED' or queued['text_hash'] != stable_hash(publish_text):
+                raise ValueError('MATCHING_REVIEWED_QUEUE_ITEM_REQUIRED')
+            validate_cadence(publication_queue, now=datetime.now(timezone.utc).isoformat(), control=control)
         as_of = candidate.get("competition_as_of", "")
         reviewed = datetime.fromisoformat(as_of.replace("Z", "+00:00"))
         age = (datetime.now(timezone.utc) - reviewed).total_seconds() / 3600
