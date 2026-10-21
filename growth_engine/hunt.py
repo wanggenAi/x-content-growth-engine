@@ -157,6 +157,8 @@ def apply_deep_review_records(materials: list[dict], review_packet: dict) -> lis
                   for index, key in enumerate(dimensions)}
         review.update(review_type=record.get("review_type", "DEEP_EDITORIAL_REVIEW"), reviewer=reviewer, reviewed_at=reviewed_at,
                       possible_reply_branches=record.get("possible_reply_branches", []), novelty="CHECKED_DISTINCT")
+        if review_packet.get("strategy_version") == "V4" or "reader_value" in record:
+            review.update(strategy_version="V4", reader_value=record.get("reader_value"))
         if "contrast_basis" in record: review["contrast_basis"] = record["contrast_basis"]
         for key in ("audience_distance", "background_cost", "hook"):
             value = record.get(key)

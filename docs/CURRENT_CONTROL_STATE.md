@@ -1,3 +1,9 @@
+# Latest checkpoint — 2026-10-21 V4 editorial follow-through
+
+From remote main2616019; preserve divergent local main. Explicit authored_text is now checked verbatim instead of losing factual conditions to cleanup. The same four V4 reader questions now reach the existing eight-dimensional topic review. No new scoring module/dependency/schedule. Ten newly researched topics with old event dates explicitly labelled, five ABC sets (15 full drafts), three editorial recommendations; original source dates corrected, incomplete production pool remains HOLD. PAUSED unchanged, no X access/submission. Local141 unittest/141 pytest/compileall pass; offline baseline0.328001s →0.328311s, RSS32,489,472→32,456,704B. Traffic UNKNOWN. PR/CI/merge pending.
+
+See [actual drafts and limitations](CONTENT_COMPETITIVENESS_V4_2026-10-21.md).
+
 # Latest control — 2026-10-20 lightweight content competitiveness V4
 
 Latest direct user request authorizes research, code, tests, real editorial dry-run, PR and merge after CI. **No X publication**; existing `state/publication_control.json` stays PAUSED. New explicit publication authorization is required. Collector cadence and scheduler unchanged; automatic_x_submission=false.

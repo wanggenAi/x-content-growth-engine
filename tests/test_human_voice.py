@@ -92,6 +92,26 @@ class XNativeAndCommentTests(unittest.TestCase):
 
 
 class HumanVoicePipelineTests(unittest.TestCase):
+    def test_authored_conditions_and_personal_observation_are_not_auto_deleted(self):
+        for text in ['收到退货通知，她必须先垫付运费。',
+                     '小区不让电动车进楼，所以他把电池留在了车上。',
+                     '我更在意师傅愿不愿意上楼，这才是搬家时最头疼的事。']:
+            result = run_human_voice_pipeline({'draft_text': text, 'authored_text': text,
+                                              'locked_facts': {'verbatim': [text]},
+                                              'primary_action': 'SHARE'})
+            self.assertEqual(result['rewritten_text'], text)
+            self.assertEqual(result['operations'], [])
+            self.assertTrue(result['fact_preservation_report']['passed'])
+
+    def test_authored_bad_prose_is_held_without_silently_repairing_it(self):
+        text = '工牌只记8小时，凭什么让人相信它公平？'
+        result = run_human_voice_pipeline({'draft_text': text, 'authored_text': text,
+                                          'locked_facts': {'numbers': ['8小时']},
+                                          'primary_action': 'REPLY'})
+        self.assertEqual(result['rewritten_text'], text)
+        self.assertFalse(result['passed'])
+        self.assertTrue(result['ai_flavor_report']['blocked'])
+
     def test_clean_authored_paragraph_is_not_reflowed_for_a_score(self):
         text = '客人进门了。老板递来菜单。她点了一碗面，坐在靠窗的位置等朋友。'
         result = run_human_voice_pipeline({'draft_text': text, 'authored_text': text,

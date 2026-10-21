@@ -1,3 +1,7 @@
+# 2026-10-21 — preserve editorial prose; ask reader questions before selection
+
+Explicit authored_text is the exact text to inspect, not input for silent regex cleanup. Existing fact/style/source/editorial gates may reject it; they must not delete factual conditions or personal reactions to manufacture PASS. Legacy un-authored preview cleanup remains. V4 reader_value is checked within the existing eight-dimensional topic review and again on the actual text; it is qualitative editor judgment, never traffic validation. Publication PAUSED and collector cadence unchanged. See [full evidence](CONTENT_COMPETITIVENESS_V4_2026-10-21.md).
+
 # 2026-10-20 — 内容竞争力V4，暂停发布
 
 最新用户要求扩大题材同池竞争，先答停留/收益/回应/独特角度；复用现有八维与正文来源审查。A直接信息差、B自然个人表达、C真实人物反差，口语无配额，自然句不为分数而改。已完成真实10题/5题15稿/3篇人工审核推荐，非用户已认可或真实流量验证。仍由Codex会话选题写稿，Python只做轻量验证。HUMAN_STYLE_V2合同兼容；生产门槛及事实、安全标准保留。C390否定不被高分覆盖。

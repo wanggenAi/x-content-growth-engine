@@ -8,14 +8,33 @@ from growth_engine.content_review import review_content, review_variant_set
 from growth_engine.discovery import parse_rss
 from growth_engine.editorial_gate import validate_candidate
 from growth_engine.human_voice import stable_hash
-from growth_engine.hunt import production_dry_run
-from growth_engine.viral_admission import score_material
+from growth_engine.hunt import apply_deep_review_records, production_dry_run
+from growth_engine.viral_admission import score_material, validate_deep_review
 from growth_engine.x_native_style import review_x_native_style
 from tests.test_human_style_production import candidate
 from tests.topic_helpers import AS_OF, material
 
 
 class ContentReviewTests(unittest.TestCase):
+    def test_v4_reader_questions_gate_topic_selection_before_writing(self):
+        root = Path('data/content_competition_v4_2026-10-20')
+        feed = json.loads((root/'source_packet.json').read_text())
+        reviews = json.loads((root/'editorial_reviews.json').read_text())
+        mid = reviews['records'][0]['material_id']
+        m = next(m for m in apply_deep_review_records(feed['materials'], reviews)
+                 if m['material_id'] == mid)
+        self.assertTrue(validate_deep_review(m)['passed'])
+        del reviews['records'][0]['reader_value']['distinct_angle']
+        m = next(m for m in apply_deep_review_records(feed['materials'], reviews)
+                 if m['material_id'] == mid)
+        self.assertIn('CONTENT_READER_VALUE_REQUIRED:distinct_angle', validate_deep_review(m)['reasons'])
+        reviews['strategy_version'] = 'V4'
+        del reviews['records'][0]['reader_value']
+        m = next(m for m in apply_deep_review_records(feed['materials'], reviews)
+                 if m['material_id'] == mid)
+        self.assertEqual(len([r for r in validate_deep_review(m)['reasons']
+                              if r.startswith('CONTENT_READER_VALUE_REQUIRED:')]), 4)
+
     def test_v4_reader_value_is_required_without_changing_legacy_contracts(self):
         c = candidate(); m = c['material_pool'][0]
         self.assertTrue(review_content(c, m)['passed'])
@@ -61,6 +80,28 @@ class ContentReviewTests(unittest.TestCase):
         self.assertTrue(review_variant_set(variants)['passed'])
         variants[0].pop('strategy_version')
         self.assertIn('VARIANT_STRATEGY_VERSION_MISMATCH', review_variant_set(variants)['reasons'])
+
+    def test_v4_followthrough_preserves_authored_text_and_source_bound_holds(self):
+        root = Path('data/content_competition_v4_2026-10-21')
+        feed = json.loads((root/'source_packet.json').read_text())
+        reviews = json.loads((root/'editorial_reviews.json').read_text())
+        reviews['publication_memory'] = json.loads(Path(reviews['publication_memory_ref']).read_text())['publication_memory']
+        result = production_dry_run(feed, reviews)
+        self.assertEqual(result['ranking']['candidate_count'], 10)
+        self.assertEqual(sum(len(t['variants']) for t in result['topics']), 15)
+        for topic in result['topics']:
+            self.assertTrue(topic['variant_set_review']['passed'])
+            for v in topic['variants']:
+                self.assertEqual(v['text'], v['after'])
+                self.assertTrue(v['content_review_result']['passed'], v['content_review_result'])
+                self.assertTrue(v['human_style_passed'], v['fact_preservation_report'])
+        self.assertFalse(result['ranking']['competition_passed'])
+        self.assertIsNone(result['recommended_top1'])
+        self.assertFalse(result['publication_allowed'])
+        # Explicitly rejected user feedback survives a high-scoring new review.
+        m = deepcopy(feed['materials'][0]); m['user_content_verdict'] = 'REJECT'
+        c = {**reviews['records'][0]['previews'][0], 'publication_memory': reviews['publication_memory']}
+        self.assertIn('CONTENT_USER_REJECTED', review_content(c, m)['reasons'])
 
     def test_style_and_topic_pass_cannot_replace_missing_text_review(self):
         c = candidate(); c.pop('content_review')

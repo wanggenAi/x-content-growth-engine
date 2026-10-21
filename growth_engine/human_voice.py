@@ -251,7 +251,10 @@ def humanize_text(request: Mapping[str, Any]) -> dict[str, Any]:
         raise ValueError("authored_text must be nonempty when supplied")
     # Codex writes; this local function only cleans and checks the supplied prose.
     # Never simulate an original rewrite by inserting slang or a canned opinion.
-    rewritten, changes = _conservative_rewrite(authored if authored is not None else draft)
+    # Explicit editorial prose is the reviewed artifact. Cleanup can erase a
+    # factual condition ("必须") or a deliberate reaction ("所以"); report its
+    # defects through the existing gates instead of silently changing it.
+    rewritten, changes = (authored, []) if authored is not None else _conservative_rewrite(draft)
     textual_change = re.sub(r"\s+", "", draft) != re.sub(r"\s+", "", rewritten)
     authoring = {
         "version": "HUMAN_STYLE_V4",
