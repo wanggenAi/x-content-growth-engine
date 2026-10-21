@@ -139,4 +139,4 @@ iPad是本轮新选出的题材，旧版对照是本轮真实写出的普通摘�
 
 生产池通过只代表选题竞争可继续：完整Reader Model/prepublish/可见编辑器复核未完成，publication_control仍PAUSED，所有产物publication_allowed=false；没有正式发布资格、没有新发布授权。采集workflow、暂停控制与C390负例逐字节未改。一次测试因C稿缺“他”角色锁HOLD，补回归因后通过，未改锁或放宽事实校验。
 
-PR/CI/合并回执：LOCAL_VERIFIED_PR_PENDING。机器回执见 [validation.json](../data/content_competition_v4_final_2026-10-21/validation.json)。
+PR/CI/合并回执：PR [#18](https://github.com/wanggenAi/x-content-growth-engine/pull/18) merged as `78d402fd5d968014b82ae3ed46343aee8ce60c0a`; [merged-main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432) SUCCESS. Merged-main local146 unittest/146pytest/compileall PASS; complete tree equals the reviewed PR head. Follow-up commit records verification only.。机器回执见 [validation.json](../data/content_competition_v4_final_2026-10-21/validation.json)。

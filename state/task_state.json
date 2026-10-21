@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T03:18:38.408741Z",
+  "updated_at": "2026-10-21T03:25:17.304086Z",
   "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
   "checkpoints": {
     "environment_review": "done",
@@ -192,7 +192,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Complete authorized PR/CI/main verification for final V4 priority repair; later collect genuine fixed-window human feedback. No X submission without new explicit authorization.",
+  "next_action": "Review the actual Top3 drafts, gather genuine timestamped fixed-window feedback through existing permitted human capture; keep PAUSED and do not submit X without new explicit authorization.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -1972,7 +1972,7 @@
     "verified_at": "2026-10-21T02:37:48.685569Z"
   },
   "content_priority_v4_final_2026_10_21": {
-    "status": "LOCAL_VERIFIED_PR_PENDING",
+    "status": "MERGED_MAIN_CODE_AND_CI_VERIFIED",
     "baseline_main_sha": "ddc939ea70f01f06e1ae782870bc1c43cf297378",
     "report": "docs/CONTENT_PRIORITY_V4_FINAL_2026-10-21.md",
     "artifacts": "data/content_competition_v4_final_2026-10-21",
@@ -1995,6 +1995,12 @@
     "C390_verdict": "REJECT preserved",
     "runtime_dependencies_added": 0,
     "resident_services_added": 0,
-    "scheduler_changed": false
+    "scheduler_changed": false,
+    "pr_url": "https://github.com/wanggenAi/x-content-growth-engine/pull/18",
+    "merged_main_code_sha": "78d402fd5d968014b82ae3ed46343aee8ce60c0a",
+    "main_ci_url": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432",
+    "main_ci": "SUCCESS",
+    "merged_main_local_tests": "146 unittest /146 pytest /compileall PASS",
+    "verified_at": "2026-10-21T03:25:17.304086Z"
   }
 }

@@ -1,6 +1,6 @@
 # Latest control — 2026-10-21 final V4 priority repair
 
-Research/code/tests/PR/CI/merge only; publication remains PAUSED. Same eight dimensions, explicit editorial veto and two-opening review, no V5/new scorer/dependency/service/schedule. Raw30/deep22/fresh22/families5 competition passes for unique topic Top1, not full publication READY. Source/fact/style checks do not authorize X. Historical24h eligible0 and real growth UNKNOWN; preserve C390 REJECT. See CONTENT_PRIORITY_V4_FINAL_2026-10-21.md. LOCAL_VERIFIED_PR_PENDING.
+Research/code/tests/PR/CI/merge only; publication remains PAUSED. Same eight dimensions, explicit editorial veto and two-opening review, no V5/new scorer/dependency/service/schedule. Raw30/deep22/fresh22/families5 competition passes for unique topic Top1, not full publication READY. Source/fact/style checks do not authorize X. Historical24h eligible0 and real growth UNKNOWN; preserve C390 REJECT. See CONTENT_PRIORITY_V4_FINAL_2026-10-21.md. PR [#18](https://github.com/wanggenAi/x-content-growth-engine/pull/18) merged as `78d402fd5d968014b82ae3ed46343aee8ce60c0a`; [merged-main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432) SUCCESS. Merged-main local146 unittest/146pytest/compileall PASS; complete tree equals the reviewed PR head. Follow-up commit records verification only..
 
 # Latest checkpoint — 2026-10-21 V4 editorial follow-through
 

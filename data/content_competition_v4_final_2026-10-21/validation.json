@@ -866,7 +866,35 @@
     "next_capture_route": "Existing docs/FEEDBACK_LEARNING_LOOP.md + reader feedback import; local private human evidence, actual UTC observation and publication time, fixed24h window; never backfill capture time from save time."
   },
   "delivery": {
-    "status": "LOCAL_VERIFIED_PR_PENDING"
+    "status": "MERGED_MAIN_CODE_AND_CI_VERIFIED",
+    "pr_url": "https://github.com/wanggenAi/x-content-growth-engine/pull/18",
+    "pr_head_sha": "e8ae1db1e93ae8df8b2301b2e245113d4243b736",
+    "merged_main_code_sha": "78d402fd5d968014b82ae3ed46343aee8ce60c0a",
+    "merged_at": "2026-10-21T03:23:27Z",
+    "pr_ci_runs": [
+      {
+        "id": 39538180280,
+        "conclusion": "success"
+      },
+      {
+        "id": 39538190267,
+        "conclusion": "success"
+      }
+    ],
+    "main_ci": {
+      "conclusion": "success",
+      "headSha": "78d402fd5d968014b82ae3ed46343aee8ce60c0a",
+      "status": "completed",
+      "url": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432"
+    },
+    "merged_main_local_checks": {
+      "unittest": 146,
+      "pytest": 146,
+      "compileall": "PASS growth_engine tests scripts",
+      "tree_identical_to_pr_head": true
+    },
+    "verified_at": "2026-10-21T03:25:17.304086Z",
+    "receipt_followup": "Only verification records follow the code merge; no further production code edits."
   },
   "execution_notes": [
     "One shell-glob error happened before the collector started; one actual collector run completed.",
