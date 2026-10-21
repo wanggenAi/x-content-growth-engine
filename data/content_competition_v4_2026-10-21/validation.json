@@ -195,6 +195,46 @@
     "changes_since_prior_audit": "none; gh api HEAD rechecked; pinned source/license excerpts reviewed; no upstream code executed or copied"
   },
   "delivery": {
-    "status": "LOCAL_VERIFIED_PR_PENDING"
+    "status": "MERGED_MAIN_CODE_AND_CI_VERIFIED",
+    "pull_request": "https://github.com/wanggenAi/x-content-growth-engine/pull/17",
+    "pr_head_sha": "d1a0d1300ba8dffdc5502a11f2a771b6390751f2",
+    "code_merge_sha": "130939521b628d05ff3b7e2c8ff9688348eba44c",
+    "pr_checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-21T02:35:32Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39533830798/job/119005714256",
+        "name": "unittest",
+        "startedAt": "2026-10-21T02:35:10Z",
+        "status": "COMPLETED",
+        "workflowName": "tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-21T02:35:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39533801424/job/119005620292",
+        "name": "unittest",
+        "startedAt": "2026-10-21T02:34:51Z",
+        "status": "COMPLETED",
+        "workflowName": "tests"
+      }
+    ],
+    "main_ci": {
+      "conclusion": "success",
+      "databaseId": 39533946703,
+      "headSha": "130939521b628d05ff3b7e2c8ff9688348eba44c",
+      "status": "completed",
+      "url": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39533946703"
+    },
+    "merged_main_local_tests": {
+      "unittest": 141,
+      "pytest": 141,
+      "compileall": "PASS",
+      "reviewed_tree_matches_merged_main": true
+    },
+    "verified_at": "2026-10-21T02:37:48.685569Z",
+    "followup_scope": "This receipt is saved after successful merged-code verification; follow-up changes are documentation and state only."
   }
 }

@@ -979,3 +979,8 @@ PR #16 merged as 79b92cac3e7af22a3eecff937bbe905e39d76c6a after both exact-head 
 Latest direct user wording retained: “现有系统虽然能采集素材、生成中文帖子并通过 Human Style 检查，但内容仍然偏新闻转述，不够吸引人，缺乏个性，也没有经过真实流量验证。” Authorized “直接检查、修改、测试代码，生成实际新稿，创建 PR 并在验证通过后合并 main。” Boundary: “不得自动向 X 发布内容。保持现有暂停开关，等待新的明确发布授权。” No new resident load, models, services or collectors.
 
 Re-read latest origin/main2616019 and prior PR16 evidence. Reproduced factual-clause deletion by cleanup even on authored_text; fixed by checking supplied prose verbatim, while all existing gates remain. Bound existing four reader questions to original topic deep review rather than prose stage only; no new score/detector. Ten new topics,15 actual drafts, top3 editorial choices; corrected old original-source dates behind fresh abstracts. Local141 unittest/141pytest/compileall PASS, standard workload0.328001→0.328311s,32.49→32.46MB RSS. Historical feedback21observations/0reliable24h; traffic UNKNOWN. Controls unchanged, C390 REJECT retained. PR/CI/merge pending. Public artifacts under data/content_competition_v4_2026-10-21; no X access/submission.
+
+
+## 2026-10-21T02:37:48.685569Z — V4 follow-through verified on merged main
+
+PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8ff9688348eba44c. Main CI39533946703 SUCCESS; local main141 unittest/141pytest/compileall PASS and merge tree equals PR head. Original pause/collector file bytes unchanged, no X access/submission, zero new runtime dependency/resident process. This follow-up saves completed evidence/state only. User local main history remains untouched.

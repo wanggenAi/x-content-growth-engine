@@ -95,4 +95,4 @@ A从信箱误认到核桃技术复印，前后动作构成一个完整人物，�
 
 完整产物：[逐句来源与编辑记录](../data/content_competition_v4_2026-10-21/editorial_reviews.json)、[十五稿前后全文](../data/content_competition_v4_2026-10-21/drafts.md)、[验证与资源回执](../data/content_competition_v4_2026-10-21/validation.json)。离线回放继续用production_dry_run，publication_memory从publication_memory_ref读取后注入，不复制另一份历史。
 
-交付状态：本地验证完成，等待本轮PR、CI与合并后main复核。未提交X。
+交付：[PR #17](https://github.com/wanggenAi/x-content-growth-engine/pull/17)已在两个exact-head检查通过后合并；代码main SHA `130939521b628d05ff3b7e2c8ff9688348eba44c`，[main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39533946703)成功。合并树与评审分支一致，main上141 unittest、141 pytest、compileall再通过；暂停与采集文件再次逐字节核对无变化。后续提交只保存这些已发生的验收回执，不改变生产代码。未提交X。
