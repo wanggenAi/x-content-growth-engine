@@ -80,4 +80,6 @@ python3 -m growth_engine validate-hunt data/production_closure_v4_2026-10-21/sou
 
 原有同一20题9稿基准7批中位：0.322098s → 0.299456s；峰值RSS 32,505,856 → 33,259,520B（约+0.72MiB）。小样本有运行抖动，不宣称加速效果。新36题完整审核约0.235502s，峰值33,423,360B。运行依赖新增0、常驻负载新增0、定时任务新增0。149 unittest /149pytest /compileall PASS；负例覆盖缺判断/错题/换版/换文/换来源/缺事实审核/权限豁免缺失/用户否定，保留原合同。
 
-交付CI与合并收据另记录于validation.json的delivery，避免在审前捏造成功。
+PR [#19](https://github.com/wanggenAi/x-content-growth-engine/pull/19)已合并为 `a88c57742df84cfb0757cfc45ed3fa5e5534f8b5`；[合并main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39602885715) SUCCESS，本地149 unittest/149pytest/compileall与完整生产dry-run PASS，合并树等于审查分支。收据后续只改文档/状态，不改代码或稿件。
+
+详细交付收据在validation.json的delivery。

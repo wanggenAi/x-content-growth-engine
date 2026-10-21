@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T12:48:06.609541Z",
+  "updated_at": "2026-10-21T12:52:35.457306Z",
   "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
   "checkpoints": {
     "environment_review": "done",
@@ -2004,8 +2004,8 @@
     "verified_at": "2026-10-21T03:25:17.304086Z"
   },
   "production_closure_v4_2026_10_21": {
-    "status": "LOCAL_VERIFIED_PENDING_PR_CI",
-    "updated_at": "2026-10-21T12:48:06.609541Z",
+    "status": "MERGED_MAIN_VERIFIED",
+    "updated_at": "2026-10-21T12:52:35.457306Z",
     "base_main": "3f4c7e3340d2ccac7b09ed85e080d30a04c9b42f",
     "user_steer": "只完成V4真实生产闭环；工程/PR/CI后合并获授权；保持PAUSED、不提交X、不开发V5或新增运行负载。",
     "artifact_root": "data/production_closure_v4_2026-10-21",
@@ -2038,6 +2038,18 @@
     "resident_services_added": 0,
     "schedule_changed": false,
     "publication_control_changed": false,
-    "c390_reject_preserved": true
+    "c390_reject_preserved": true,
+    "pr_url": "https://github.com/wanggenAi/x-content-growth-engine/pull/19",
+    "code_merge_main_sha": "a88c57742df84cfb0757cfc45ed3fa5e5534f8b5",
+    "main_ci": {
+      "run_id": 39602885715,
+      "conclusion": "SUCCESS"
+    },
+    "merged_main_tests": {
+      "unittest": 149,
+      "pytest": 149,
+      "compileall": "PASS"
+    },
+    "live_submission_allowed": false
   }
 }

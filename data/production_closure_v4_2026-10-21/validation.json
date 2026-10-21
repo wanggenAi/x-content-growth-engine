@@ -299,6 +299,29 @@
     }
   ],
   "delivery": {
-    "status": "LOCAL_VERIFIED_PENDING_PR_CI"
+    "status": "MERGED_MAIN_VERIFIED",
+    "verified_at": "2026-10-21T12:52:35.457306Z",
+    "pr_url": "https://github.com/wanggenAi/x-content-growth-engine/pull/19",
+    "reviewed_head": "bd93a47739153b3c4c4a213a7a7d28127e5af243",
+    "pr_ci_runs": [
+      39602629361,
+      39602706172
+    ],
+    "pr_ci_conclusion": "SUCCESS",
+    "code_merge_main_sha": "a88c57742df84cfb0757cfc45ed3fa5e5534f8b5",
+    "code_merge_main_ci": {
+      "run_id": 39602885715,
+      "url": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39602885715",
+      "conclusion": "SUCCESS"
+    },
+    "merged_main_local": {
+      "unittest": 149,
+      "pytest": 149,
+      "compileall": "PASS",
+      "production_dry_run": "READY_CANDIDATE_DRY_RUN",
+      "publication_allowed": false
+    },
+    "reviewed_and_merged_tree_identical": true,
+    "receipt_followup_scope": "Evidence/checkpoint only; no production code, source or candidate text changes."
   }
 }
