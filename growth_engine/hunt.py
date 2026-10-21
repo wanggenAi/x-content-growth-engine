@@ -195,7 +195,7 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
             text = variant.get("text", "")
             before = variant.get("original_text", text)
             style = run_human_style_pipeline({"draft_text": before,
-                "authored_text": text if "original_text" in variant else None,
+                "authored_text": text if "original_text" in variant or variant.get("strategy_version") == "V4" else None,
                 "locked_facts": variant.get("locked_facts", lock_draft_facts(before)),
                 "primary_action": variant.get("primary_action", "SHARE"), "target_platform": "X_ZH",
                 "voice_profile": "GEN_DEFAULT", "preserve_quotes": True})
@@ -221,17 +221,100 @@ def production_dry_run(feed_packet: dict, review_packet: dict) -> dict:
                        "production_preflight_passed": False})
     final = next((t for t in topics if t["material_id"] == winner_id
                   and t["editorial_recommendation"] == "REVIEWABLE_DRAFT"), None)
+    closure = _prepare_production_winner(materials, review_packet, ranking, final)
+    if final:
+        final["production_preflight_passed"] = closure["prepublish"]["passed"]
     return {"version": "VIRAL_HUNT_PRODUCTION_DRY_RUN_V2", "as_of": feed_packet["as_of"],
             "ranking": ranking, "top1_previews": previews, "publication_allowed": False,
             "topics": topics, "recommended_top1": final["material_id"] if final else None,
-            "final_status": "EDITORIAL_REVIEW_DRAFTS" if final else "NO_ACCEPTED_TOP1_CONTINUE_HUNTING",
+            "final_status": ("READY_CANDIDATE_DRY_RUN" if closure["prepublish"]["passed"] else
+                             "EDITORIAL_REVIEW_DRAFTS" if final else "NO_ACCEPTED_TOP1_CONTINUE_HUNTING"),
+            "production_pipeline": closure,
             "automatic_x_submission": False}
+
+
+def _prepare_production_winner(materials: list[dict], reviews: dict, ranking: dict, winner: dict | None) -> dict:
+    """Join existing gates using an explicit editor packet, never invented reviews.
+
+    A checked preview alone is not a production candidate. Identity, source,
+    pool and exact prose come from this competition; reader/agent judgments
+    must be supplied by the editor. PAUSED remains independent of dry-run PASS.
+    """
+    from .candidate_pipeline import prepare_candidate
+    from .publication_preflight import pre_publish_assert
+    from .publication_control import publication_control
+    from .reader_model import METRICS, text_hash, window_measurement
+    from .viral_admission import material_hash
+
+    control = publication_control()
+    result = {"candidate": None, "prepublish": {"passed": False, "reasons": []},
+              "publication_control": {"status": control.get("status"), "reason": control.get("reason")},
+              "publication_allowed": False, "feedback_24h": None}
+    packet = reviews.get("production_candidate")
+    reasons = result["prepublish"]["reasons"]
+    if not isinstance(packet, dict):
+        reasons.append("PRODUCTION_CANDIDATE_REVIEW_REQUIRED")
+        return result
+    if (not winner or packet.get("material_id") != ranking["selected_material_id"]
+            or packet.get("variant_id") != winner["recommended_variant"]):
+        reasons.append("PRODUCTION_CANDIDATE_MUST_MATCH_REVIEWED_TOP1_VARIANT")
+        return result
+    variant = next(v for v in winner["variants"] if v["id"] == packet["variant_id"])
+    text = variant["after"]
+    if "text" in packet and packet["text"] != text:
+        reasons.append("PRODUCTION_CANDIDATE_TEXT_CHANGED")
+        return result
+    pool = deepcopy(materials)
+    material = next(m for m in pool if m["material_id"] == packet["material_id"])
+    material["draft_text"] = text
+    candidate = {**deepcopy(packet), "text": text, "authored_text": text,
+                 "locked_facts": variant.get("locked_facts", lock_draft_facts(text)),
+                 "primary_action": variant.get("primary_action", "SHARE"),
+                 "source_refs": [material["source"]["url"]], "material_pool": pool,
+                 "material_hash": material_hash(material), "admission_mode": PRODUCTION_MODE,
+                 "competition_as_of": ranking["as_of"], "publication_memory": reviews.get("publication_memory"),
+                 "content_review": variant.get("content_review"), "strategy_version": variant.get("strategy_version"),
+                 "opening_comparison_required": reviews.get("opening_comparison_required", False) or variant.get("opening_comparison_required", False),
+                 "state": "DRAFT", "publication_mode": "DRY_RUN_ONLY"}
+    prepared = prepare_candidate(candidate)
+    result["candidate"] = prepared
+    reasons.extend(prepared["editorial_gate"]["reasons"])
+    if not prepared["editorial_gate"]["ready"] and not reasons:
+        reasons.append("EDITORIAL_GATE_NOT_READY: inspect Human Style and source review reports")
+    if prepared["editorial_gate"]["ready"]:
+        try:
+            result["prepublish"] = pre_publish_assert(prepared, prepared["text"], dry_run=True)
+        except ValueError as exc:
+            reasons.append(str(exc))
+    # Unpublished drafts have neither a post URL nor a publication timestamp.
+    # Existing feedback machinery keeps missing values null, displayed UNKNOWN.
+    result["feedback_24h"] = {
+        "candidate_id": prepared.get("candidate_id"), "status": "AWAITING_PUBLICATION",
+        "publication_text_digest": text_hash(prepared["text"]),
+        "primary_action": prepared.get("primary_action"), "topic": prepared.get("topic"),
+        "preregistered_at_utc": reviews.get("reviewed_at"),
+        "window": "24h", "post_url": None, "published_at_utc": None, "observed_at_utc": None,
+        "evidence_ref": None, "human_reviewed": False, "metrics_status": "UNKNOWN",
+        **{key: None for key in METRICS}, **window_measurement(None, None, "24h"),
+        "learning_eligible": False,
+    }
+    return result
 
 
 def render_editorial_drafts(result: dict) -> str:
     """Readable artifact from the actual checked output, including rejected text."""
-    lines = ["# 实际素材与原创稿（未发布）", "", "采集时间：" + result["as_of"], "",
+    lines = ["# 实际素材与原创稿（未发布）", "", "竞争时点：" + result["as_of"], "",
              "编辑判断不等于用户认可或真实流量。所有稿件仍需人工发布审核。", ""]
+    closure = result.get("production_pipeline") or {}
+    candidate = closure.get("candidate")
+    if candidate:
+        lines += ["## 正式候选审核结果", "", "状态：" + result["final_status"], "",
+                  "Reader Model：" + str(candidate.get("reader_model_integrity", {}).get("passed")),
+                  "Editorial Gate：" + str(candidate["editorial_gate"]["ready"]),
+                  "Prepublish dry-run：" + str(closure["prepublish"]["passed"]),
+                  "发布控制：" + str(closure["publication_control"]["status"]) + "；未授权提交X。", "",
+                  "候选全文：", "", candidate["text"], "",
+                  "未通过原因：" + "; ".join(closure["prepublish"].get("reasons", []) or ["技术审核无剩余失败；dry-run不授予发布权限"]), ""]
     for index, topic in enumerate(result["topics"], 1):
         source = topic["source"]
         lines += [f"## {index}. {topic['topic']}", "", source["url"], "",

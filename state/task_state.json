@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T03:25:17.304086Z",
+  "updated_at": "2026-10-21T12:48:06.609541Z",
   "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
   "checkpoints": {
     "environment_review": "done",
@@ -192,7 +192,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "Review the actual Top3 drafts, gather genuine timestamped fixed-window feedback through existing permitted human capture; keep PAUSED and do not submit X without new explicit authorization.",
+  "next_action": "New explicit X publication authorization required; refresh competition and exact-text checks before qualified visible manual route. Future feedback must retain real publication/observation times; no fabricated24h data.",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -736,7 +736,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": null,
+  "current_blocker": "X submission PAUSED by latest user; all candidate technical dry-run gates passed.",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -861,9 +861,9 @@
   "remaining_new_publications": 831,
   "ready_count": 0,
   "rolling_work_queue_count": 365,
-  "latest_candidate_id": "C390",
-  "latest_candidate_status": "PUBLISHED_PENDING_FEEDBACK_WITH_INCOMPLETE_FINAL_VERIFICATION",
-  "latest_candidate_checked_at": "2026-10-09T03:47:11.245880Z",
+  "latest_candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
+  "latest_candidate_status": "READY_CANDIDATE_DRY_RUN",
+  "latest_candidate_checked_at": "2026-10-21T12:48:06.609541Z",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -2002,5 +2002,42 @@
     "main_ci": "SUCCESS",
     "merged_main_local_tests": "146 unittest /146 pytest /compileall PASS",
     "verified_at": "2026-10-21T03:25:17.304086Z"
+  },
+  "production_closure_v4_2026_10_21": {
+    "status": "LOCAL_VERIFIED_PENDING_PR_CI",
+    "updated_at": "2026-10-21T12:48:06.609541Z",
+    "base_main": "3f4c7e3340d2ccac7b09ed85e080d30a04c9b42f",
+    "user_steer": "只完成V4真实生产闭环；工程/PR/CI后合并获授权；保持PAUSED、不提交X、不开发V5或新增运行负载。",
+    "artifact_root": "data/production_closure_v4_2026-10-21",
+    "raw_pool": 36,
+    "valid_deep": 22,
+    "under48h_source_timestamps": 30,
+    "source_families": 4,
+    "top1": "Da5a081fa02eb50c1",
+    "candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
+    "candidate_state": "READY_CANDIDATE_DRY_RUN",
+    "source_review": "PASS",
+    "reader_model": "PASS",
+    "human_style": "PASS",
+    "editorial_gate": "PASS",
+    "prepublish_dry_run": "PASS",
+    "actual_submission": "BLOCKED_PAUSED",
+    "human_checked": false,
+    "review_exception": "USER_AUTHORIZED_AGENT_REVIEW",
+    "feedback": "UNKNOWN;21 historical/0 fixed24h",
+    "tests": {
+      "unittest": {
+        "passed": 149
+      },
+      "pytest": {
+        "passed": 149
+      },
+      "compileall": "PASS"
+    },
+    "dependencies_added": 0,
+    "resident_services_added": 0,
+    "schedule_changed": false,
+    "publication_control_changed": false,
+    "c390_reject_preserved": true
   }
 }

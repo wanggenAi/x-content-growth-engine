@@ -1,3 +1,7 @@
+# 2026-10-21 — V4完整生产候选闭环
+
+最新用户要求只接通现有生产流程，不开发V5；工程、PR与CI后合并获授权，本轮禁止X提交。新采集100条，36独立题材/22有效深评/30来源时间48h内/4族，唯一Top1为eMudhra弱私钥4。Codex实写ABC、逐句来源复核，现有Reader Model、Human Style、Editorial Gate、exact-text Prepublish dry-run全PASS；输出READY_CANDIDATE_DRY_RUN。PAUSED及DRY_RUN_ONLY仍阻断实际提交。human_checked=false，正文代理审核沿用AGENTS明确豁免，不是发布授权；24h未发布记录全null/UNKNOWN，历史合格固定窗0。149 unittest/149pytest/compileall PASS。新增运行依赖、服务、数据库、定时任务均0；C390 REJECT与暂停/调度文件哈希不变。见docs/PRODUCTION_CLOSURE_V4_2026-10-21.md及data/production_closure_v4_2026-10-21/。PR/合并CI收据待实际完成后补。
+
 # 2026-10-21 — preserve editorial prose; ask reader questions before selection
 
 Explicit authored_text is the exact text to inspect, not input for silent regex cleanup. Existing fact/style/source/editorial gates may reject it; they must not delete factual conditions or personal reactions to manufacture PASS. Legacy un-authored preview cleanup remains. V4 reader_value is checked within the existing eight-dimensional topic review and again on the actual text; it is qualitative editor judgment, never traffic validation. Publication PAUSED and collector cadence unchanged. See [full evidence](CONTENT_COMPETITIVENESS_V4_2026-10-21.md).

@@ -1,0 +1,2335 @@
+{
+  "strategy_version": "V4",
+  "reviewer": "Codex / source-bound independent editorial review",
+  "reviewed_at": "2026-10-21T12:47:10.019706Z",
+  "opening_comparison_required": true,
+  "publication_memory_ref": "data/human_style_v3_2026-10-19/fresh_three.json",
+  "records": [
+    {
+      "material_id": "Dce747311aa651831",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "evidence": [
+        "DepGate把依赖下载经过代理",
+        "按策略允许或拒绝",
+        "作者举出安装脚本先执行",
+        "安装后扫描已晚的风险",
+        "项目需要Docker",
+        "PostgreSQL和Redis",
+        "本轮没有安装或试用",
+        "DepGate把依赖下载"
+      ],
+      "reasons": [
+        "项目公开了代理动作和安装要求，但本轮未实测拦截效果",
+        "安装后扫描与下载前阻断有预期差，不能说所有扫描无用",
+        "没有实际攻击双方或争执，不编冲突",
+        "开发者读者熟悉依赖，普通人代入需解释",
+        "首屏需要解释依赖下载，不能只堆产品名称",
+        "面对开发人群，大众日常距离较远",
+        "可以分享给维护依赖的同事，不能当已验证推荐",
+        "部署成本与控制能力有取舍，暂无真实使用者分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "PASS",
+      "selection_note": "没有试用证据，且开发者背景成本高，保留研究而非优先成稿。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏需要解释依赖下载，不能只堆产品名称",
+        "reader_gain": "DepGate把依赖下载经过代理，按策略允许或拒绝；作者举出安装脚本先执行、安装后扫描已晚的风险。项目需要Docker、PostgreSQL和Redis，本轮没有安装或试用。",
+        "response_reason": "可以分享给维护依赖的同事，不能当已验证推荐；部署成本与控制能力有取舍，暂无真实使用者分叉",
+        "distinct_angle": "没有试用证据，且开发者背景成本高，保留研究而非优先成稿。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "安装后扫描已晚的风险",
+        "reason": "开发者读者熟悉依赖，普通人代入需解释"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "项目需要Docker",
+        "reason": "首屏需要解释依赖下载，不能只堆产品名称"
+      },
+      "hook": {
+        "text": "DepGate把依赖下载经过代理",
+        "evidence": "DepGate把依赖下载经过代理",
+        "reason": "首屏需要解释依赖下载，不能只堆产品名称"
+      },
+      "contrast_basis": {
+        "before": "DepGate把依赖下载经过代理",
+        "after": "按策略允许或拒绝"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D05204636073d710a",
+      "ratings": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "evidence": [
+        "Hirundo称用同一注册登录任务",
+        "只改变客户身份",
+        "原版Qwen3-Coder的美国客户应用可攻破比例为70%",
+        "中国客户为59%",
+        "该公司还销售去对齐模型",
+        "结果来自公司案例",
+        "未独立复现",
+        "不能据此断言故意埋后门"
+      ],
+      "reasons": [
+        "有任务和比例，但作者有商业利益且本轮未复现",
+        "只换客户身份却报告不同漏洞率，有反差但因果未证实",
+        "商业模型与安全责任值得讨论，不等于发现故意后门",
+        "写代码的读者有切身风险，大众需模型测试背景",
+        "首屏可懂身份差异，但难同时交代实验限制",
+        "技术安全影响广泛但具体实验不是大众低门槛",
+        "可分享给安全研究者核查，不能传播为国别定论",
+        "可从实验控制或独立复现两个评论方向讨论，不引导情绪站队"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：商业利益、复现缺失与因果越界风险，不用冲突放大器写它。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏可懂身份差异，但难同时交代实验限制",
+        "reader_gain": "Hirundo称用同一注册登录任务，只改变客户身份，原版Qwen3-Coder的美国客户应用可攻破比例为70%，中国客户为59%；该公司还销售去对齐模型。结果来自公司案例，未独立复现，不能据此断言故意埋后门。",
+        "response_reason": "可分享给安全研究者核查，不能传播为国别定论；可从实验控制或独立复现两个评论方向讨论，不引导情绪站队",
+        "distinct_angle": "强素材落选：商业利益、复现缺失与因果越界风险，不用冲突放大器写它。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "中国客户为59%",
+        "reason": "写代码的读者有切身风险，大众需模型测试背景"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "该公司还销售去对齐模型",
+        "reason": "首屏可懂身份差异，但难同时交代实验限制"
+      },
+      "hook": {
+        "text": "Hirundo称用同一注册登录任务",
+        "evidence": "Hirundo称用同一注册登录任务",
+        "reason": "首屏可懂身份差异，但难同时交代实验限制"
+      },
+      "contrast_basis": {
+        "before": "Hirundo称用同一注册登录任务",
+        "after": "只改变客户身份"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D5a171e03597433d2",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        3,
+        1,
+        3,
+        2
+      ],
+      "evidence": [
+        "作者自述约一周删除约1.9万行旧编译器代码",
+        "一个月后没有回滚",
+        "用两种调用图工具交叉核对范围",
+        "并承认动态调用不可见",
+        "本轮未取得仓库差异或复现记录",
+        "HN新分享不等于本周刚删完",
+        "作者自述约一周删除约1.",
+        "1.9万行旧编译器代码，"
+      ],
+      "reasons": [
+        "有方法和限制，但没有实际仓库差异可独立核对",
+        "大规模删除却未回滚有反差，结果限于作者自述",
+        "没有真实人际冲突，不能补老板阻挠桥段",
+        "程序员读者可代入清理旧代码，大众较远",
+        "首屏删代码可懂，正确性证据需要背景",
+        "大众不熟编译器调用图，不放大普适性",
+        "可分享给维护旧项目的同事，方法需自行验证",
+        "信工具交叉核对与保留动态边界有讨论分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：一月回顾被今天HN重发，时间及仓库结果未独立核验，不当最新成功案例。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏删代码可懂，正确性证据需要背景",
+        "reader_gain": "作者自述约一周删除约1.9万行旧编译器代码，一个月后没有回滚；用两种调用图工具交叉核对范围，并承认动态调用不可见。本轮未取得仓库差异或复现记录，HN新分享不等于本周刚删完。",
+        "response_reason": "可分享给维护旧项目的同事，方法需自行验证；信工具交叉核对与保留动态边界有讨论分叉",
+        "distinct_angle": "强素材落选：一月回顾被今天HN重发，时间及仓库结果未独立核验，不当最新成功案例。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "并承认动态调用不可见",
+        "reason": "程序员读者可代入清理旧代码，大众较远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "本轮未取得仓库差异或复现记录",
+        "reason": "首屏删代码可懂，正确性证据需要背景"
+      },
+      "hook": {
+        "text": "作者自述约一周删除约1.9万行旧编译器代码",
+        "evidence": "作者自述约一周删除约1.9万行旧编译器代码",
+        "reason": "首屏删代码可懂，正确性证据需要背景"
+      },
+      "contrast_basis": {
+        "before": "作者自述约一周删除约1.9万行旧编译器代码",
+        "after": "一个月后没有回滚"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D24b30dcc70e6bcc4",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "evidence": [
+        "廉桥镇报道介绍近百亿元药材市场",
+        "超2000种药材及药商传承",
+        "引用华佗等历史传说",
+        "不等于考古或医学证据",
+        "市场规模来自报道",
+        "缺一笔具体交易的反常结果",
+        "廉桥镇报道介绍近百亿元药",
+        "元药材市场、超2000种"
+      ],
+      "reasons": [
+        "有地域和市场结构，规模尚为报道概述",
+        "乡镇与市场规模有预期反差，仍主要靠数字",
+        "没有利益冲突双方，不制造真假药争执",
+        "读者能懂乡镇做生意，药材行业仍有距离",
+        "首屏市场规模直观，但缺具体动作",
+        "大众知道买药，专业市场不等于日常体验",
+        "分享对象主要是本地或药材从业者",
+        "可聊产业形成，尚无真实生活选择分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "不是因为权威媒体就晋级：规模介绍多于具体人的意外结果。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏市场规模直观，但缺具体动作",
+        "reader_gain": "廉桥镇报道介绍近百亿元药材市场、超2000种药材及药商传承；引用华佗等历史传说，不等于考古或医学证据。市场规模来自报道，缺一笔具体交易的反常结果。",
+        "response_reason": "分享对象主要是本地或药材从业者；可聊产业形成，尚无真实生活选择分叉",
+        "distinct_angle": "不是因为权威媒体就晋级：规模介绍多于具体人的意外结果。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "不等于考古或医学证据",
+        "reason": "读者能懂乡镇做生意，药材行业仍有距离"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "市场规模来自报道",
+        "reason": "首屏市场规模直观，但缺具体动作"
+      },
+      "hook": {
+        "text": "廉桥镇报道介绍近百亿元药材市场",
+        "evidence": "廉桥镇报道介绍近百亿元药材市场",
+        "reason": "首屏市场规模直观，但缺具体动作"
+      },
+      "contrast_basis": {
+        "before": "廉桥镇报道介绍近百亿元药材市场",
+        "after": "超2000种药材及药商传承"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D4b9e4f7818ce30a0",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": [
+        "青海省检察院通报前九月办理16221件案件",
+        "办案时长比2023年缩短40.1天",
+        "提到智能体辅助办案和准确率",
+        "没有公开对照评估或当事人具体体验",
+        "青海省检察院通报前九月办",
+        "月办理16221件案件，",
+        "件，办案时长比2023年",
+        "3年缩短40.1天；提到"
+      ],
+      "reasons": [
+        "机构数字可归因，但看不到具体案件证据",
+        "时长缩短是进展，不构成强意外反差",
+        "没有双方冲突或责任争议的材料",
+        "读者只看到制度摘要，切身体验没给出",
+        "首屏抽象办案统计，停留动力弱",
+        "大众能读懂快慢，但背景术语较多",
+        "可分享给行业读者，普通人收益不明确",
+        "缺具体选择，不编评论立场"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "权威但平淡的明确对照：不能把机构成绩直接当社交传播价值。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏抽象办案统计，停留动力弱",
+        "reader_gain": "青海省检察院通报前九月办理16221件案件，办案时长比2023年缩短40.1天；提到智能体辅助办案和准确率，没有公开对照评估或当事人具体体验。",
+        "response_reason": "可分享给行业读者，普通人收益不明确；缺具体选择，不编评论立场",
+        "distinct_angle": "权威但平淡的明确对照：不能把机构成绩直接当社交传播价值。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "没有公开对照评估或当事人具体体验",
+        "reason": "读者只看到制度摘要，切身体验没给出"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "青海省检察院通报前九月办",
+        "reason": "首屏抽象办案统计，停留动力弱"
+      },
+      "hook": {
+        "text": "青海省检察院通报前九月办理16221件案件",
+        "evidence": "青海省检察院通报前九月办理16221件案件",
+        "reason": "首屏抽象办案统计，停留动力弱"
+      },
+      "contrast_basis": {
+        "before": "青海省检察院通报前九月办理16221件案件",
+        "after": "办案时长比2023年缩短40.1天"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D5dd5b0e47f1a6881",
+      "ratings": [
+        2,
+        2,
+        0,
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "食谱作者买到便宜的熟透香蕉",
+        "用香蕉泥替代鸡蛋作黏合剂",
+        "橄榄油代替黄油",
+        "另加味噌",
+        "属于作者家庭食谱",
+        "本轮没有试做",
+        "不保证成功",
+        "健康或安全储存结论"
+      ],
+      "reasons": [
+        "食材和替代方法具体，但缺本轮试做",
+        "越熟的香蕉反而能作黏合有轻微反差",
+        "没有双方冲突，不编浪费与节俭对立",
+        "买多水果的读者能直接代入",
+        "首屏黑香蕉变用途，有明确动作",
+        "吃水果做饭是大众日常，材料可得性仍不同",
+        "可分享给做烘焙的朋友，非保证教程",
+        "口味与便利有取舍，尚无足够真实结果分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "PASS",
+      "selection_note": "轻巧实用但收益主要是食谱；未试做，不能升格神奇省钱技巧。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏黑香蕉变用途，有明确动作",
+        "reader_gain": "食谱作者买到便宜的熟透香蕉，用香蕉泥替代鸡蛋作黏合剂，橄榄油代替黄油，另加味噌。属于作者家庭食谱，本轮没有试做，不保证成功、健康或安全储存结论。",
+        "response_reason": "可分享给做烘焙的朋友，非保证教程；口味与便利有取舍，尚无足够真实结果分叉",
+        "distinct_angle": "轻巧实用但收益主要是食谱；未试做，不能升格神奇省钱技巧。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "另加味噌",
+        "reason": "买多水果的读者能直接代入"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "属于作者家庭食谱",
+        "reason": "首屏黑香蕉变用途，有明确动作"
+      },
+      "hook": {
+        "text": "食谱作者买到便宜的熟透香蕉",
+        "evidence": "食谱作者买到便宜的熟透香蕉",
+        "reason": "首屏黑香蕉变用途，有明确动作"
+      },
+      "contrast_basis": {
+        "before": "食谱作者买到便宜的熟透香蕉",
+        "after": "用香蕉泥替代鸡蛋作黏合剂"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D2f574da1f685415f",
+      "ratings": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": [
+        "重庆科技论坛开幕",
+        "约800名嘉宾参加",
+        "发布十大科技前瞻并组织12场平行论坛",
+        "当前报道主要是议程",
+        "发言与合作",
+        "未给出影响普通人选择的具体新发现",
+        "重庆科技论坛开幕，约80",
+        "800名嘉宾参加，发布十"
+      ],
+      "reasons": [
+        "日期议程清楚，缺可复述的新结果",
+        "论坛开幕是预期安排，没有真实意外",
+        "没有双方利益冲突，不编科技竞赛",
+        "普通读者代入的是会议名称，距离远",
+        "首屏嘉宾与成果发布仍是新闻播报",
+        "大众无需了解论坛日程，不因严肃加分",
+        "缺值得发给具体朋友的信息收益",
+        "没有可供评论的实际选择分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "权威但平淡的第二对照：重要会议不等于值得占用读者首屏。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏嘉宾与成果发布仍是新闻播报",
+        "reader_gain": "重庆科技论坛开幕，约800名嘉宾参加，发布十大科技前瞻并组织12场平行论坛。当前报道主要是议程、发言与合作，未给出影响普通人选择的具体新发现。",
+        "response_reason": "缺值得发给具体朋友的信息收益；没有可供评论的实际选择分叉",
+        "distinct_angle": "权威但平淡的第二对照：重要会议不等于值得占用读者首屏。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "当前报道主要是议程",
+        "reason": "普通读者代入的是会议名称，距离远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "发言与合作",
+        "reason": "首屏嘉宾与成果发布仍是新闻播报"
+      },
+      "hook": {
+        "text": "重庆科技论坛开幕",
+        "evidence": "重庆科技论坛开幕",
+        "reason": "首屏嘉宾与成果发布仍是新闻播报"
+      },
+      "contrast_basis": {
+        "before": "重庆科技论坛开幕",
+        "after": "约800名嘉宾参加"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D65578b264e8641da",
+      "ratings": [
+        3,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "北大湖10月21日夜启动大规模造雪",
+        "配备350台设备",
+        "赛事雪道约一周成型",
+        "计划11月初运营",
+        "当前并未开门营业",
+        "不能写成已经可去滑雪",
+        "北大湖10月21日夜启动",
+        "启动大规模造雪，配备35"
+      ],
+      "reasons": [
+        "时间设备动作具体，但缺现场个人故事",
+        "提前造雪是运营准备，反差不大",
+        "没有真实利益冲突或抱怨",
+        "滑雪读者能代入等待开板，普通人较远",
+        "首屏夜间造雪有动作，仍缺意外结果",
+        "大众懂雪场，但赛事术语增加背景",
+        "可分享给滑雪朋友，须保留未开业边界",
+        "人造雪体验与开业期待可聊但无实证分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "日期明确却未开放，不能用已开滑的标题吸引读者。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏夜间造雪有动作，仍缺意外结果",
+        "reader_gain": "北大湖10月21日夜启动大规模造雪，配备350台设备，赛事雪道约一周成型，计划11月初运营。当前并未开门营业，不能写成已经可去滑雪。",
+        "response_reason": "可分享给滑雪朋友，须保留未开业边界；人造雪体验与开业期待可聊但无实证分叉",
+        "distinct_angle": "日期明确却未开放，不能用已开滑的标题吸引读者。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "计划11月初运营",
+        "reason": "滑雪读者能代入等待开板，普通人较远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "当前并未开门营业",
+        "reason": "首屏夜间造雪有动作，仍缺意外结果"
+      },
+      "hook": {
+        "text": "北大湖10月21日夜启动大规模造雪",
+        "evidence": "北大湖10月21日夜启动大规模造雪",
+        "reason": "首屏夜间造雪有动作，仍缺意外结果"
+      },
+      "contrast_basis": {
+        "before": "北大湖10月21日夜启动大规模造雪",
+        "after": "配备350台设备"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Df2dd0a50979b4ac0",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        3,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "巨单高速10月21日通过竣工验收",
+        "报道同时说明2019年12月已开通运营",
+        "竣工验收不等于今天才通车",
+        "冷链运输收益仅为报道案例",
+        "缺完整运输对照",
+        "巨单高速10月21日通过",
+        "通过竣工验收，报道同时说",
+        "时说明2019年12月已"
+      ],
+      "reasons": [
+        "验收与运营日期并列，可防混淆",
+        "通车多年才见验收有读者预期反差，但未解释制度流程",
+        "没有责任冲突，不据日期指控违法运营",
+        "开车读者会关心是否新通路",
+        "首屏区分验收与通车可兑现信息差",
+        "大众知道高速但制度需补背景",
+        "可分享给被标题误导的新路读者",
+        "工程流程有知识分叉，暂无足够真实选择"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "PASS",
+      "selection_note": "细节有信息差，但不熟悉验收制度容易引发错误暗示，暂不优先写。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏区分验收与通车可兑现信息差",
+        "reader_gain": "巨单高速10月21日通过竣工验收，报道同时说明2019年12月已开通运营。竣工验收不等于今天才通车，冷链运输收益仅为报道案例，缺完整运输对照。",
+        "response_reason": "可分享给被标题误导的新路读者；工程流程有知识分叉，暂无足够真实选择",
+        "distinct_angle": "细节有信息差，但不熟悉验收制度容易引发错误暗示，暂不优先写。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "冷链运输收益仅为报道案例",
+        "reason": "开车读者会关心是否新通路"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "缺完整运输对照",
+        "reason": "首屏区分验收与通车可兑现信息差"
+      },
+      "hook": {
+        "text": "巨单高速10月21日通过竣工验收",
+        "evidence": "巨单高速10月21日通过竣工验收",
+        "reason": "首屏区分验收与通车可兑现信息差"
+      },
+      "contrast_basis": {
+        "before": "巨单高速10月21日通过竣工验收",
+        "after": "报道同时说明2019年12月已开通运营"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D1919889cd7f22b4a",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "evidence": [
+        "Practical Engineering回顾美国外墙消防梯",
+        "指出维护",
+        "烟气及使用问题",
+        "纽约1968年禁止新建筑用外部出口",
+        "转而强调日常使用且防火围护的内部楼梯",
+        "旧建筑不等于全部拆除",
+        "不能据此给现场逃生建议",
+        "Practical En"
+      ],
+      "reasons": [
+        "工程作者列出历史规范和缺点，本轮未逐条核查原法规",
+        "熟悉的救命梯却逐渐退场，有事实反差",
+        "规范权衡不是争吵，不编房东拒救人",
+        "看过电影的读者有熟悉画面，地理背景仍有距离",
+        "首屏熟悉的梯子为何退场可停留",
+        "大众认识外墙楼梯，法规仍需解释",
+        "可分享给喜欢建筑和电影的朋友",
+        "保留外观与维护成本形成取舍，但不能当逃生指导"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "PASS",
+      "selection_note": "强素材落选：历史条例与消防安全需更完整的一手规范核对，不用冷知识越界指导逃生。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏熟悉的梯子为何退场可停留",
+        "reader_gain": "Practical Engineering回顾美国外墙消防梯，指出维护、烟气及使用问题；纽约1968年禁止新建筑用外部出口，转而强调日常使用且防火围护的内部楼梯。旧建筑不等于全部拆除，不能据此给现场逃生建议。",
+        "response_reason": "可分享给喜欢建筑和电影的朋友；保留外观与维护成本形成取舍，但不能当逃生指导",
+        "distinct_angle": "强素材落选：历史条例与消防安全需更完整的一手规范核对，不用冷知识越界指导逃生。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "纽约1968年禁止新建筑用外部出口",
+        "reason": "看过电影的读者有熟悉画面，地理背景仍有距离"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "转而强调日常使用且防火围护的内部楼梯",
+        "reason": "首屏熟悉的梯子为何退场可停留"
+      },
+      "hook": {
+        "text": "Practical Engineering回顾美国外墙消",
+        "evidence": "Practical Engineering回顾美国外墙消防梯",
+        "reason": "首屏熟悉的梯子为何退场可停留"
+      },
+      "contrast_basis": {
+        "before": "美国外墙消防梯",
+        "after": "日常使用且防火围护的内部楼梯"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Db7d0aa96cf4590f8",
+      "ratings": [
+        2,
+        2,
+        1,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "evidence": [
+        "卫报征集英国家长对两周半学期假期的体验",
+        "说明多数学校仍一周",
+        "部分采用或考虑两周",
+        "过去有家长担心托育负担",
+        "是征集而非完成调查",
+        "不能写成英国学校全面改制",
+        "卫报征集英国家长对两周半",
+        "周半学期假期的体验，说明"
+      ],
+      "reasons": [
+        "假期机制具体，但属于征集没有新的完整家庭案例",
+        "孩子多休息却增加家长托育负担有预期反差",
+        "托育责任有张力，未见双方直接冲突",
+        "家长读者能代入假期照护难题",
+        "首屏多放一周与带娃压力可懂",
+        "大众理解放假，但英国学期制度有距离",
+        "可分享给带孩子的朋友讨论安排",
+        "孩子休息与家长工时是两个真实取舍分叉"
+      ],
+      "possible_reply_branches": [
+        "更长假期利于孩子休息",
+        "工作日托育应先有安排"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：仍在征集，不把可能发生的困境写成调查结论。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏多放一周与带娃压力可懂",
+        "reader_gain": "卫报征集英国家长对两周半学期假期的体验，说明多数学校仍一周，部分采用或考虑两周；过去有家长担心托育负担。是征集而非完成调查，不能写成英国学校全面改制。",
+        "response_reason": "可分享给带孩子的朋友讨论安排；孩子休息与家长工时是两个真实取舍分叉",
+        "distinct_angle": "强素材落选：仍在征集，不把可能发生的困境写成调查结论。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "过去有家长担心托育负担",
+        "reason": "家长读者能代入假期照护难题"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "是征集而非完成调查",
+        "reason": "首屏多放一周与带娃压力可懂"
+      },
+      "hook": {
+        "text": "卫报征集英国家长对两周半学期假期的体验",
+        "evidence": "卫报征集英国家长对两周半学期假期的体验",
+        "reason": "首屏多放一周与带娃压力可懂"
+      },
+      "contrast_basis": {
+        "before": "卫报征集英国家长对两周半学期假期的体验",
+        "after": "说明多数学校仍一周"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Da5a081fa02eb50c1",
+      "ratings": [
+        3,
+        4,
+        0,
+        3,
+        4,
+        3,
+        4,
+        2
+      ],
+      "evidence": [
+        "研究者Scott Helme在10月20日文章称",
+        "从eMudhra公开证书恢复的一个私钥就是4",
+        "另有56和115",
+        "本应是384位随机数",
+        "却只占一个字节",
+        "Mozilla事件单独立确认能恢复这些私钥",
+        "更新后的主流浏览器已阻断相关证书",
+        "不能写成所有人的浏览器已经被攻破"
+      ],
+      "reasons": [
+        "研究者有复现实验，Mozilla独立确认弱密钥，具体4仍按作者归因，不给满分",
+        "本应384位随机却只有一个字节，反差是安全假设与实际值",
+        "没有人际冲突或责任争执，不用厂商声望编对抗",
+        "读者熟悉密码强度，须明确这是机构证书私钥而非个人密码",
+        "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+        "大众知道钥匙不能太简单，证书术语要压到最低",
+        "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界",
+        "可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉"
+      ],
+      "possible_reply_branches": [
+        "更新浏览器是否足够，还要查其他客户端",
+        "应先纠正密钥生成与复核流程"
+      ],
+      "decision": "PASS",
+      "selection_note": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。",
+      "previews": [
+        {
+          "id": "A",
+          "mode": "DIRECT",
+          "strategy_version": "V4",
+          "text": "给网站发安全证书的机构，有把私钥竟然是4。\n\nScott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下。另两把是56和115。\n\n更新后的主流浏览器已阻断相关证书。格式检查都过，钥匙却简单成这样。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "115",
+              "20",
+              "384",
+              "4",
+              "56"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先把机构私钥4的荒诞事实交付，再解释强度落差和已知防护，面向无需证书背景的读者。",
+          "editorial_tradeoff": "保留：第一句交代这不是个人密码；384位和浏览器已拦截守住边界。缺点是术语仍有门槛，末句不承担新的安全建议。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex / exact-text source review",
+            "reviewed_at": "2026-10-21T12:47:10.019706Z",
+            "text_hash": "d7079af6893aac27ca9288920c3d0befbc7923883589988083addfdcd8554ac5",
+            "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "opening": {
+              "quote": "给网站发安全证书的机构，有把私钥竟然是4",
+              "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+              "alternatives": [
+                {
+                  "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+                  "approach": "CONCRETE_INSTITUTION_ACTION",
+                  "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+                  "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+                },
+                {
+                  "text": "格式看起来完全正常，私钥却简单到4。",
+                  "approach": "PROCESS_CONTRAST",
+                  "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+                  "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try."
+                }
+              ],
+              "selection_reason": "保留：第一句交代这不是个人密码；384位和浏览器已拦截守住边界。缺点是术语仍有门槛，末句不承担新的安全建议。"
+            },
+            "payoff": {
+              "quote": "已阻断相关证书",
+              "reason": "在荒诞事实后同时给出已知浏览器防护，读者获得具体边界而非恐慌结论。"
+            },
+            "comparison": {
+              "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+              "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+              "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+              "difference": "先把机构私钥4的荒诞事实交付，再解释强度落差和已知防护，面向无需证书背景的读者。"
+            },
+            "reader_value": {
+              "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+              "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；更新后的主流浏览器已阻断相关证书，不能写成所有人的浏览器已经被攻破。",
+              "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+              "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+            },
+            "novelty": {
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "distinct": true,
+              "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+            },
+            "claims": [
+              {
+                "draft_span": "给网站发安全证书的机构，有把私钥竟然是4",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "Scott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "另两把是56和115",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "更新后的主流浏览器已阻断相关证书",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "格式检查都过，钥匙却简单成这样",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+                "verdict": "SUPPORTED",
+                "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "interest": "首屏事实可理解但证书概念仍有门槛",
+            "personal_expression": "反应与角度是编辑表达，不冒充实测",
+            "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+            "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+          }
+        },
+        {
+          "id": "B",
+          "mode": "PERSONAL",
+          "strategy_version": "V4",
+          "text": "还以为漏了一长串数字。没有，私钥就是4。\n\nScott Helme在10月20日文章中给出的eMudhra私钥，还有56和115。\n\n更新后的主流浏览器已拦住相关证书。最离谱的是，证书格式检查还全都过了。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "115",
+              "20",
+              "4",
+              "56"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "把读者误以为漏看数字的反应写出来，用4、56、115递进而非复述研究过程，不冒充复现实验。",
+          "editorial_tradeoff": "未选：口语更松，但开头要读两句才懂是什么私钥，省掉384位后机制信息减少。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex / exact-text source review",
+            "reviewed_at": "2026-10-21T12:47:10.019706Z",
+            "text_hash": "736d629c1cdbc594b48eb3bdcb415d2ce1d135ccd91e9a93d1c1555777dc6772",
+            "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "opening": {
+              "quote": "还以为漏了一长串数字",
+              "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+              "alternatives": [
+                {
+                  "text": "还以为漏了一长串数字。",
+                  "approach": "READER_REACTION",
+                  "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+                  "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+                },
+                {
+                  "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+                  "approach": "CONCRETE_INSTITUTION_ACTION",
+                  "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+                  "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+                }
+              ],
+              "selection_reason": "未选：口语更松，但开头要读两句才懂是什么私钥，省掉384位后机制信息减少。"
+            },
+            "payoff": {
+              "quote": "已拦住相关证书",
+              "reason": "在荒诞事实后同时给出已知浏览器防护，读者获得具体边界而非恐慌结论。"
+            },
+            "comparison": {
+              "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+              "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+              "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+              "difference": "把读者误以为漏看数字的反应写出来，用4、56、115递进而非复述研究过程，不冒充复现实验。"
+            },
+            "reader_value": {
+              "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+              "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；更新后的主流浏览器已阻断相关证书，不能写成所有人的浏览器已经被攻破。",
+              "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+              "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+            },
+            "novelty": {
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "distinct": true,
+              "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+            },
+            "claims": [
+              {
+                "draft_span": "还以为漏了一长串数字",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+                "verdict": "SUPPORTED",
+                "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+              },
+              {
+                "draft_span": "没有，私钥就是4",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "Scott Helme在10月20日文章中给出的eMudhra私钥，还有56和115",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "更新后的主流浏览器已拦住相关证书",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "最离谱的是，证书格式检查还全都过了",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+                "verdict": "SUPPORTED",
+                "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "interest": "首屏事实可理解但证书概念仍有门槛",
+            "personal_expression": "反应与角度是编辑表达，不冒充实测",
+            "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+            "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+          }
+        },
+        {
+          "id": "C",
+          "mode": "HUMAN_CONTRAST",
+          "strategy_version": "V4",
+          "text": "证书格式检查，全过了。私钥，却是4。\n\n这次的问题，外观上看不出来。Scott Helme在10月20日文章里核对eMudhra证书发现：本应是384位随机数，实际取值小到一个字节就装得下。\n\n更新后的主流浏览器已阻断相关证书。检查能过，安全可不一定跟着过。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+          "locked_facts": {
+            "numbers": [
+              "10",
+              "20",
+              "384",
+              "4"
+            ],
+            "dates": [
+              "10月20日"
+            ],
+            "quotes": [],
+            "urls": [
+              "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+            ],
+            "roles": [],
+            "boundaries": []
+          },
+          "primary_action": "SHARE",
+          "structure_reason": "先放形式合规与极弱数值的冲突，再解释为什么外观检查不等于钥匙强度，面向制度流程讨论。",
+          "editorial_tradeoff": "未选：合规与强度的反差更尖锐，但开头未先解释证书机构，末句容易像套路总结。",
+          "content_review": {
+            "version": "CONTENT_REVIEW_V4",
+            "method": "TEXT_FIRST_COMPARISON",
+            "reviewer": "Codex / exact-text source review",
+            "reviewed_at": "2026-10-21T12:47:10.019706Z",
+            "text_hash": "bbb40c065f70164e10231cd78c00bd2acfbd01841a3e37aaf69c57484dfdf313",
+            "source_hash": "9c546fe0ed26d9c20f832a30c5f5da7a84f2ed7153319b4845a0aaed8df7b5fe",
+            "decision": "PASS",
+            "failure_reasons": [],
+            "opening": {
+              "quote": "证书格式检查，全过了",
+              "reason": "先交付原文的具体弱密钥事实，不把最醒目的数值藏在第二屏。",
+              "alternatives": [
+                {
+                  "text": "证书格式检查，全过了。",
+                  "approach": "PROCESS_CONTRAST",
+                  "reader_reason": "当前切口由原文事实兑现，编辑比较其对象清晰度与反差是否同步交付。",
+                  "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+                },
+                {
+                  "text": "给网站发安全证书的机构，有把私钥竟然是4。",
+                  "approach": "CONCRETE_INSTITUTION_ACTION",
+                  "reader_reason": "对照切口同样有事实支持，但对象解释或认知顺序不同，不能只换一个形容词。",
+                  "source_span": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second."
+                }
+              ],
+              "selection_reason": "未选：合规与强度的反差更尖锐，但开头未先解释证书机构，末句容易像套路总结。"
+            },
+            "payoff": {
+              "quote": "已阻断相关证书",
+              "reason": "在荒诞事实后同时给出已知浏览器防护，读者获得具体边界而非恐慌结论。"
+            },
+            "comparison": {
+              "reference_text": "研究者近日披露，eMudhra部分中间证书存在弱私钥问题，相关厂商已采取措施。这一事件说明安全检查需要更加完善。",
+              "reference_kind": "本轮实际写出再淘汰的新闻摘要对照；不是伪称旧系统曾输出此稿",
+              "reference_failure": "把最有价值的数字4隐去，只留下弱私钥和安全完善的新闻套话，第一屏不知道有什么不同。",
+              "difference": "先放形式合规与极弱数值的冲突，再解释为什么外观检查不等于钥匙强度，面向制度流程讨论。"
+            },
+            "reader_value": {
+              "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+              "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；更新后的主流浏览器已阻断相关证书，不能写成所有人的浏览器已经被攻破。",
+              "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+              "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+            },
+            "novelty": {
+              "memory_hash": "abfda2ebf939de2deda7a5be36757918343fd933d79df66363eababb7fda4772",
+              "distinct": true,
+              "reason": "查过完整193条发布记忆，未发现同一事件来源；这是机构弱密钥而非旧模型题材搬运。"
+            },
+            "claims": [
+              {
+                "draft_span": "证书格式检查，全过了",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "私钥，却是4",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "这次的问题，外观上看不出来",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+                "verdict": "SUPPORTED",
+                "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+              },
+              {
+                "draft_span": "Scott Helme在10月20日文章里核对eMudhra证书发现：本应是384位随机数，实际取值小到一个字节就装得下",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "One of eMudhra's certificate authority private keys is the number 4.\nNot a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.\nGoing forwards is easy, but going backwards, from the public key to d, is considered to be impractical. That's the entire security model, and it only holds if d is enormous. A P-384 private key should be a random 384-bit number, which gives you 2³⁸⁴ possibilities (or roughly 10¹¹⁵), so nobody is ever going to search that.\nThat's 47 bytes of zeros and then one byte, and all eight keys are like that. A single byte has 256 possible values, so the \"search\" is: compute 1 × G, 2 × G, 3 × G, and stop when it matches the certificate, which is at most 255 steps.\nIt's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.\nMainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.\nPage metadata article:published_time: 2026-10-20T19:53:02.000Z",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "更新后的主流浏览器已阻断相关证书",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "Mainstream and updated browsers are likely absolutely fine. Chrome and Firefox block the intermediates directly and both require CT, and Safari requires CT too.",
+                "verdict": "SUPPORTED",
+                "reason": "逐句核对作者公开证书复现及已更新浏览器边界；数字、机构身份和归因均保留。"
+              },
+              {
+                "draft_span": "检查能过，安全可不一定跟着过",
+                "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+                "source_span": "It's interesting that nothing about these certificates looks wrong. A public key derived from d = 4 is a perfectly valid point on the curve, the encoding is fine, the curve is fine, every structural check passes. The only way to find out is to try.",
+                "verdict": "SUPPORTED",
+                "reason": "这是基于原文形式检查与数值强度的个人反应，不声称已发生攻击或本账号亲身测试。"
+              }
+            ]
+          },
+          "reader_recheck": {
+            "interest": "首屏事实可理解但证书概念仍有门槛",
+            "personal_expression": "反应与角度是编辑表达，不冒充实测",
+            "reply_space": "检查合规是否足够、需要更新哪些客户端；未验证实际评论",
+            "exaggeration_review": "未声称所有用户被攻破，未把主流浏览器修复扩大为所有软件均安全"
+          }
+        }
+      ],
+      "reader_value": {
+        "stop_reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息",
+        "reader_gain": "研究者Scott Helme在10月20日文章称，从eMudhra公开证书恢复的一个私钥就是4，另有56和115；本应是384位随机数，却只占一个字节。Mozilla事件单独立确认能恢复这些私钥；更新后的主流浏览器已阻断相关证书，不能写成所有人的浏览器已经被攻破。",
+        "response_reason": "可转发给写代码或维护系统的朋友，分享具体失败机制并保留已更新浏览器边界；可以讨论更新边界与流程检查的不同判断，不能拿未证实攻击结果作分叉",
+        "distinct_angle": "保留：反差不靠权威与争吵；把已知防护写清楚，避免惊吓式安全标题。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "本应是384位随机数",
+        "reason": "读者熟悉密码强度，须明确这是机构证书私钥而非个人密码"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "却只占一个字节",
+        "reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息"
+      },
+      "hook": {
+        "text": "研究者Scott Helme在10月20日文章称",
+        "evidence": "研究者Scott Helme在10月20日文章称",
+        "reason": "首屏直接给私钥4，第一句即兑现荒诞具体信息"
+      },
+      "contrast_basis": {
+        "before": "本应是384位随机数",
+        "after": "却只占一个字节"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS",
+      "recommended_variant": "A"
+    },
+    {
+      "material_id": "Df6b6deb4643adbbd",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "卫报礼物清单包含孩子与家长意见",
+        "也标明联盟链接佣金",
+        "商品覆盖乐高",
+        "本轮没有试用和价格比对",
+        "不能说这是孩子公认最想要的礼物",
+        "卫报礼物清单包含孩子与家",
+        "与家长意见，也标明联盟链",
+        "盟链接佣金。商品覆盖乐高"
+      ],
+      "reasons": [
+        "有商品和反馈出处，但商业链接及试用范围有限",
+        "孩子自己挑与大人代选略有反差，并非意外结果",
+        "没有双方争执，不编亲子冲突",
+        "家长读者可代入买礼物",
+        "首屏仍是商品清单，缺鲜明具体动作",
+        "大众知道送礼，九岁孩子场景较窄",
+        "可分享给家长，不能当独立推荐",
+        "价格与偏好有取舍，未见具体人的决定故事"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "消费软文风险：没有独立试用，不把联盟清单改写为公认最佳。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏仍是商品清单，缺鲜明具体动作",
+        "reader_gain": "卫报礼物清单包含孩子与家长意见，也标明联盟链接佣金。商品覆盖乐高、水瓶等，本轮没有试用和价格比对，不能说这是孩子公认最想要的礼物。",
+        "response_reason": "可分享给家长，不能当独立推荐；价格与偏好有取舍，未见具体人的决定故事",
+        "distinct_angle": "消费软文风险：没有独立试用，不把联盟清单改写为公认最佳。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "本轮没有试用和价格比对",
+        "reason": "家长读者可代入买礼物"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "不能说这是孩子公认最想要的礼物",
+        "reason": "首屏仍是商品清单，缺鲜明具体动作"
+      },
+      "hook": {
+        "text": "卫报礼物清单包含孩子与家长意见",
+        "evidence": "卫报礼物清单包含孩子与家长意见",
+        "reason": "首屏仍是商品清单，缺鲜明具体动作"
+      },
+      "contrast_basis": {
+        "before": "卫报礼物清单包含孩子与家长意见",
+        "after": "也标明联盟链接佣金"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D9e5593f8d2eba57f",
+      "ratings": [
+        3,
+        3,
+        1,
+        3,
+        4,
+        2,
+        3,
+        2
+      ],
+      "evidence": [
+        "NPR10月21日报道美国夫妇预算生育自付约2700美元",
+        "6月生女后",
+        "到10月初称费用已超9000美元",
+        "保险概览不是个性化报价",
+        "金额来自当事人自述",
+        "不是全国均值或医院最终账单审计",
+        "NPR10月21日报道美",
+        "道美国夫妇预算生育自付约"
+      ],
+      "reasons": [
+        "夫妇与费用过程具体，但仍缺账单原件核验",
+        "预期2700却超过9000有强反差，不能混同医院总收费",
+        "保险估算与患者承担有责任张力，未证实违法",
+        "准备生育的读者会代入预算焦虑，美国保险仍需背景",
+        "首屏预算与实际并排，一句就懂落差",
+        "家庭预算是大众日常，但美国保险不可照搬中国",
+        "可分享给关心预算的朋友，不能当医疗保险建议",
+        "估算解释与预算余量有不同判断，不怪罪当事人"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：过程发生在6月至10月初，不能靠今天报道刷新成48小时新事件；医疗财务解释还需边界。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏预算与实际并排，一句就懂落差",
+        "reader_gain": "NPR10月21日报道美国夫妇预算生育自付约2700美元，6月生女后，到10月初称费用已超9000美元；保险概览不是个性化报价。金额来自当事人自述，不是全国均值或医院最终账单审计。",
+        "response_reason": "可分享给关心预算的朋友，不能当医疗保险建议；估算解释与预算余量有不同判断，不怪罪当事人",
+        "distinct_angle": "强素材落选：过程发生在6月至10月初，不能靠今天报道刷新成48小时新事件；医疗财务解释还需边界。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "保险概览不是个性化报价",
+        "reason": "准备生育的读者会代入预算焦虑，美国保险仍需背景"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "金额来自当事人自述",
+        "reason": "首屏预算与实际并排，一句就懂落差"
+      },
+      "hook": {
+        "text": "NPR10月21日报道美国夫妇预算生育自付约2700美元",
+        "evidence": "NPR10月21日报道美国夫妇预算生育自付约2700美元",
+        "reason": "首屏预算与实际并排，一句就懂落差"
+      },
+      "contrast_basis": {
+        "before": "预算生育自付约2700美元",
+        "after": "费用已超9000美元"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D6f1d66ecb37e9d8c",
+      "ratings": [
+        3,
+        4,
+        0,
+        2,
+        4,
+        3,
+        3,
+        2
+      ],
+      "evidence": [
+        "10月21日通报的是10月13日查获",
+        "男子骑电动车过关",
+        "车行迟缓",
+        "后轮绑藏16包银粒共20千克",
+        "不是今天现场发生",
+        "也不推测动机或获利",
+        "10月21日通报的是10",
+        "10月13日查获：男子骑"
+      ],
+      "reasons": [
+        "查获动作和位置具体，细节由海关消息归因",
+        "普通电动车却在后轮藏银粒，画面反差强",
+        "没有对话冲突，不编与关员争执",
+        "读者熟悉轮胎空间，跨境情境较远",
+        "首屏后轮藏银粒直接呈现意外",
+        "大众能懂藏物与重量，不需专业背景",
+        "可分享具体荒诞运输画面，不能作为走私方法",
+        "可聊负重与查验细节，不能补犯罪动机分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：事件10月13日，不符合48小时；保留有趣判断但不准入。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏后轮藏银粒直接呈现意外",
+        "reader_gain": "10月21日通报的是10月13日查获：男子骑电动车过关，车行迟缓；后轮绑藏16包银粒共20千克。不是今天现场发生，也不推测动机或获利。",
+        "response_reason": "可分享具体荒诞运输画面，不能作为走私方法；可聊负重与查验细节，不能补犯罪动机分叉",
+        "distinct_angle": "强素材落选：事件10月13日，不符合48小时；保留有趣判断但不准入。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "后轮绑藏16包银粒共20千克",
+        "reason": "读者熟悉轮胎空间，跨境情境较远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "不是今天现场发生",
+        "reason": "首屏后轮藏银粒直接呈现意外"
+      },
+      "hook": {
+        "text": "10月21日通报的是10月13日查获",
+        "evidence": "10月21日通报的是10月13日查获",
+        "reason": "首屏后轮藏银粒直接呈现意外"
+      },
+      "contrast_basis": {
+        "before": "男子骑电动车过关",
+        "after": "后轮绑藏16包银粒共20千克"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Dded4061003235ab6",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        3,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "三明10月21日举行火场生存挑战赛",
+        "15个国家和地区消防员参赛观摩",
+        "项目包含受限空间搜救",
+        "报道未提供某个选手的险境和最终比赛结果",
+        "三明10月21日举行火场",
+        "火场生存挑战赛，15个国",
+        "个国家和地区消防员参赛观",
+        "赛观摩，项目包含受限空间"
+      ],
+      "reasons": [
+        "比赛场景和项目具体，结果还没出现",
+        "比赛却是真火真烟有预期反差，但不等于失控危险",
+        "没有队伍冲突或责任争执",
+        "读者懂救人，专业训练离日常较远",
+        "首屏真火比赛能见动作",
+        "大众理解消防，战术概念需要解释",
+        "可分享给关注训练的朋友，不当教学",
+        "训练强度与安全可讨论，暂无具体选择结果分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "PASS",
+      "selection_note": "有动作没有人物结果，等待比赛实际故事，不套热血总结。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏真火比赛能见动作",
+        "reader_gain": "三明10月21日举行火场生存挑战赛，15个国家和地区消防员参赛观摩，项目包含受限空间搜救；报道未提供某个选手的险境和最终比赛结果。",
+        "response_reason": "可分享给关注训练的朋友，不当教学；训练强度与安全可讨论，暂无具体选择结果分叉",
+        "distinct_angle": "有动作没有人物结果，等待比赛实际故事，不套热血总结。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "报道未提供某个选手的险境和最终比赛结果",
+        "reason": "读者懂救人，专业训练离日常较远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "三明10月21日举行火场",
+        "reason": "首屏真火比赛能见动作"
+      },
+      "hook": {
+        "text": "三明10月21日举行火场生存挑战赛",
+        "evidence": "三明10月21日举行火场生存挑战赛",
+        "reason": "首屏真火比赛能见动作"
+      },
+      "contrast_basis": {
+        "before": "三明10月21日举行火场生存挑战赛",
+        "after": "15个国家和地区消防员参赛观摩"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D3d5ba890ec6069ac",
+      "ratings": [
+        3,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "evidence": [
+        "返乡创业者孔维峰称用水",
+        "酒曲和糯米",
+        "不额外添加二氧化碳",
+        "做出气泡米酒并尝试咖啡米酒",
+        "女性消费者占比和复购率来自本人介绍",
+        "未经独立账目核验",
+        "返乡创业者孔维峰称用水、",
+        "水、酒曲和糯米，不额外添"
+      ],
+      "reasons": [
+        "配方与创业者动作具体，销量复购只是自述",
+        "传统米酒与气泡咖啡有小反差，缺真实消费者意外体验",
+        "没有双方利益冲突，不编村民反对",
+        "饮料读者能代入口味，但未试喝",
+        "首屏仍是新品介绍，缺出乎预期结果",
+        "大众熟悉米酒，工艺背景需要少量解释",
+        "可分享给饮料爱好者，不当购买推荐",
+        "传统口味与跨界有取舍，缺实际消费者分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "没有试喝或独立账目，不把企业数字包装成读者已认可。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏仍是新品介绍，缺出乎预期结果",
+        "reader_gain": "返乡创业者孔维峰称用水、酒曲和糯米，不额外添加二氧化碳，做出气泡米酒并尝试咖啡米酒；女性消费者占比和复购率来自本人介绍，未经独立账目核验。",
+        "response_reason": "可分享给饮料爱好者，不当购买推荐；传统口味与跨界有取舍，缺实际消费者分叉",
+        "distinct_angle": "没有试喝或独立账目，不把企业数字包装成读者已认可。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "做出气泡米酒并尝试咖啡米酒",
+        "reason": "饮料读者能代入口味，但未试喝"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "女性消费者占比和复购率来自本人介绍",
+        "reason": "首屏仍是新品介绍，缺出乎预期结果"
+      },
+      "hook": {
+        "text": "返乡创业者孔维峰称用水",
+        "evidence": "返乡创业者孔维峰称用水",
+        "reason": "首屏仍是新品介绍，缺出乎预期结果"
+      },
+      "contrast_basis": {
+        "before": "返乡创业者孔维峰称用水",
+        "after": "酒曲和糯米"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D89df0466c0435c56",
+      "ratings": [
+        3,
+        3,
+        0,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        "卫报10月21日游记作者说厌倦相似的社交平台推荐",
+        "闭眼指西欧地图",
+        "去了法国塞文山区",
+        "到小村时谷歌地图无信号",
+        "靠房东指路",
+        "游记未交代出行日期",
+        "不写成今天刚出发或随机旅行必然成功",
+        "卫报10月21日游记作者"
+      ],
+      "reasons": [
+        "作者有选目的地动作和到达细节，但只能按游记自述归因",
+        "为追求旅行随机性却先关推荐页面，行动与日常优化习惯反差",
+        "没有人际争执，不编伴侣反对",
+        "被攻略和评分包围的读者容易代入",
+        "首屏闭眼指地图并真的去，具体动作直接兑现",
+        "大众熟悉做攻略，国外地点细节仍有距离",
+        "可分享给纠结攻略的朋友，分享选择权而非保成功攻略",
+        "计划安全感与保留随机有两种真实生活取舍分叉"
+      ],
+      "possible_reply_branches": [
+        "宁愿按攻略规划，降低假期试错成本",
+        "愿意保留随机，接受不完美目的地"
+      ],
+      "decision": "PASS",
+      "selection_note": "保留：个人行动有画面且易代入，事实为今日发表的游记，出行日期UNKNOWN。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏闭眼指地图并真的去，具体动作直接兑现",
+        "reader_gain": "卫报10月21日游记作者说厌倦相似的社交平台推荐，闭眼指西欧地图，去了法国塞文山区；到小村时谷歌地图无信号，靠房东指路。游记未交代出行日期，不写成今天刚出发或随机旅行必然成功。",
+        "response_reason": "可分享给纠结攻略的朋友，分享选择权而非保成功攻略；计划安全感与保留随机有两种真实生活取舍分叉",
+        "distinct_angle": "保留：个人行动有画面且易代入，事实为今日发表的游记，出行日期UNKNOWN。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "到小村时谷歌地图无信号",
+        "reason": "被攻略和评分包围的读者容易代入"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "靠房东指路",
+        "reason": "首屏闭眼指地图并真的去，具体动作直接兑现"
+      },
+      "hook": {
+        "text": "卫报10月21日游记作者说厌倦相似的社交平台推荐",
+        "evidence": "卫报10月21日游记作者说厌倦相似的社交平台推荐",
+        "reason": "首屏闭眼指地图并真的去，具体动作直接兑现"
+      },
+      "contrast_basis": {
+        "before": "厌倦相似的社交平台推荐",
+        "after": "闭眼指西欧地图"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Daaad0462bbc1e90f",
+      "ratings": [
+        3,
+        4,
+        1,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        "10月19日晚大明湖75岁杨树荣吹萨克斯",
+        "退休十余年后走红",
+        "儿子说老人记挂粉丝点赞回复",
+        "常到凌晨两点",
+        "现接手对外联络以保障休息",
+        "没有证据说老人被强迫营业",
+        "10月19日晚大明湖75",
+        "75岁杨树荣吹萨克斯，退"
+      ],
+      "reasons": [
+        "记者有姓名演奏动作与儿子说法，非后台睡眠记录",
+        "原本退休玩音乐却因回应粉丝熬夜，反差具体",
+        "父子关心休息有责任张力，未见强迫或争吵",
+        "读者熟悉舍不得不回复别人的处境",
+        "首屏退休老人因走红熬夜有明确动作",
+        "大众理解退休和回复，背景成本低",
+        "可分享给总怕怠慢别人的朋友",
+        "回应热情与设休息边界有真实取舍分叉"
+      ],
+      "possible_reply_branches": [
+        "回应粉丝的善意值得珍惜",
+        "应先设休息与回复边界"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：10月19日晚未见精确时间，48小时边界不能填造；温情稿不歪曲成被粉丝逼迫。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏退休老人因走红熬夜有明确动作",
+        "reader_gain": "10月19日晚大明湖75岁杨树荣吹萨克斯，退休十余年后走红，儿子说老人记挂粉丝点赞回复，常到凌晨两点，现接手对外联络以保障休息。没有证据说老人被强迫营业。",
+        "response_reason": "可分享给总怕怠慢别人的朋友；回应热情与设休息边界有真实取舍分叉",
+        "distinct_angle": "强素材落选：10月19日晚未见精确时间，48小时边界不能填造；温情稿不歪曲成被粉丝逼迫。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "常到凌晨两点",
+        "reason": "读者熟悉舍不得不回复别人的处境"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "现接手对外联络以保障休息",
+        "reason": "首屏退休老人因走红熬夜有明确动作"
+      },
+      "hook": {
+        "text": "10月19日晚大明湖75岁杨树荣吹萨克斯",
+        "evidence": "10月19日晚大明湖75岁杨树荣吹萨克斯",
+        "reason": "首屏退休老人因走红熬夜有明确动作"
+      },
+      "contrast_basis": {
+        "before": "退休十余年后走红",
+        "after": "常到凌晨两点"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D7e6be0a1f2707846",
+      "ratings": [
+        3,
+        3,
+        0,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "海关10月21日消息称货车尾部两箱外币硬币共211799枚",
+        "10月8日已鉴定为真币",
+        "折合人民币约162.2万元",
+        "不是当天发现的新案",
+        "也没有称硬币无价值",
+        "海关10月21日消息称货",
+        "称货车尾部两箱外币硬币共",
+        "币共211799枚；10"
+      ],
+      "reasons": [
+        "有币种数量与鉴定日期，缺具体当事人过程",
+        "看似零钱却对应大额价值有预期反差，不能夸成废币翻身",
+        "没有真实冲突双方",
+        "日常数零钱的读者能代入数量感，跨境用途较远",
+        "首屏箱子与硬币有画面但易变数字标题",
+        "大众熟悉硬币，货币制度需边界",
+        "可分享数量反差，不可当兑换建议",
+        "没有真实取舍分叉，不能编犯罪动机"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：鉴定早在10月8日，旧案日期不满足48小时。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏箱子与硬币有画面但易变数字标题",
+        "reader_gain": "海关10月21日消息称货车尾部两箱外币硬币共211799枚；10月8日已鉴定为真币，折合人民币约162.2万元。不是当天发现的新案，也没有称硬币无价值。",
+        "response_reason": "可分享数量反差，不可当兑换建议；没有真实取舍分叉，不能编犯罪动机",
+        "distinct_angle": "强素材落选：鉴定早在10月8日，旧案日期不满足48小时。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "不是当天发现的新案",
+        "reason": "日常数零钱的读者能代入数量感，跨境用途较远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "也没有称硬币无价值",
+        "reason": "首屏箱子与硬币有画面但易变数字标题"
+      },
+      "hook": {
+        "text": "海关10月21日消息称货车尾部两箱外币硬币共211799",
+        "evidence": "海关10月21日消息称货车尾部两箱外币硬币共211799枚",
+        "reason": "首屏箱子与硬币有画面但易变数字标题"
+      },
+      "contrast_basis": {
+        "before": "海关10月21日消息称货车尾部两箱外币硬币共211799枚",
+        "after": "10月8日已鉴定为真币"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D2690bfd91694df88",
+      "ratings": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "evidence": [
+        "卫报10月21日作者回忆一年多前分手",
+        "原本喜欢的歌让人落泪",
+        "后来去了硬核演出",
+        "逐渐不再躲自己的感受",
+        "是个人经历",
+        "不是研究或治疗建议",
+        "更不是本账号亲历",
+        "卫报10月21日作者回忆"
+      ],
+      "reasons": [
+        "作者描述了歌单与演出动作，但仅单人自述",
+        "原本躲音乐却在更吵的演出中释放感受，反差有过程",
+        "没有人际冲突，不编前任恶意",
+        "失恋读者可以代入，但并非人人喜欢拥挤演出",
+        "首屏换歌单比疗愈概念具体，仍需解释硬核现场",
+        "大众理解情歌与失恋，音乐文化需背景",
+        "可分享给喜欢音乐的朋友，不能当疗效验证",
+        "独处与现场活动是取舍，不把个人选择变普遍治疗分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：一年多前回忆，不能冒充新发生的疗愈发现。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏换歌单比疗愈概念具体，仍需解释硬核现场",
+        "reader_gain": "卫报10月21日作者回忆一年多前分手，原本喜欢的歌让人落泪，后来去了硬核演出，逐渐不再躲自己的感受。是个人经历，不是研究或治疗建议，更不是本账号亲历。",
+        "response_reason": "可分享给喜欢音乐的朋友，不能当疗效验证；独处与现场活动是取舍，不把个人选择变普遍治疗分叉",
+        "distinct_angle": "强素材落选：一年多前回忆，不能冒充新发生的疗愈发现。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "逐渐不再躲自己的感受",
+        "reason": "失恋读者可以代入，但并非人人喜欢拥挤演出"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "是个人经历",
+        "reason": "首屏换歌单比疗愈概念具体，仍需解释硬核现场"
+      },
+      "hook": {
+        "text": "卫报10月21日作者回忆一年多前分手",
+        "evidence": "卫报10月21日作者回忆一年多前分手",
+        "reason": "首屏换歌单比疗愈概念具体，仍需解释硬核现场"
+      },
+      "contrast_basis": {
+        "before": "原本喜欢的歌让人落泪",
+        "after": "后来去了硬核演出"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Dde60a44e35e3d849",
+      "ratings": [
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "evidence": [
+        "卫报报道750人在线选方格实验",
+        "往右偏可获得更多奖励",
+        "看见别人违规后部分人加码",
+        "约三分之一始终守规",
+        "专家指出任务抽象且无惩罚",
+        "现实适用未证实",
+        "本轮未取得论文全表独立核验",
+        "卫报报道750人在线选方"
+      ],
+      "reasons": [
+        "有任务和边界，尚缺原论文与结果表核对",
+        "以为只是模仿，结果有人违规更远，有意外反差",
+        "规则与奖励有利益张力，不能套用现实阵营",
+        "读者熟悉吃亏与守规选择，实验仍抽象",
+        "首屏加码行为可懂，不能省略实验前提",
+        "大众有规则经验，不等于实验能外推所有人",
+        "可分享给关心行为研究的朋友，须保留反例",
+        "可讨论激励与同伴影响的不同判断，不宣称人性定律"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "强素材落选：一手论文未核对，实验无惩罚，不能写成坏人会传染的定律。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏加码行为可懂，不能省略实验前提",
+        "reader_gain": "卫报报道750人在线选方格实验：往右偏可获得更多奖励，看见别人违规后部分人加码，约三分之一始终守规。专家指出任务抽象且无惩罚，现实适用未证实，本轮未取得论文全表独立核验。",
+        "response_reason": "可分享给关心行为研究的朋友，须保留反例；可讨论激励与同伴影响的不同判断，不宣称人性定律",
+        "distinct_angle": "强素材落选：一手论文未核对，实验无惩罚，不能写成坏人会传染的定律。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "约三分之一始终守规",
+        "reason": "读者熟悉吃亏与守规选择，实验仍抽象"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "专家指出任务抽象且无惩罚",
+        "reason": "首屏加码行为可懂，不能省略实验前提"
+      },
+      "hook": {
+        "text": "卫报报道750人在线选方格实验",
+        "evidence": "卫报报道750人在线选方格实验",
+        "reason": "首屏加码行为可懂，不能省略实验前提"
+      },
+      "contrast_basis": {
+        "before": "看见别人违规",
+        "after": "部分人加码"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D767143f806410b0c",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": [
+        "奉节10月21日发布会介绍过去GDP与未来产业目标",
+        "包括脐橙",
+        "肉兔与旅游",
+        "2030年数字是力争目标",
+        "不是已完成业绩",
+        "奉节10月21日发布会介",
+        "会介绍过去GDP与未来产",
+        "来产业目标，包括脐橙、肉"
+      ],
+      "reasons": [
+        "发布会数字可归因但没有具体个人结果",
+        "历史与未来目标不是意外反差",
+        "没有真实双方利益冲突",
+        "读者要先了解区域产业，代入远",
+        "首屏抽象目标没有具体动作",
+        "大众理解发展但不需掌握地方指标",
+        "分享对象限本地产业读者",
+        "没有具体生活取舍分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "目标性发言，缺少读者可立即获得的信息差。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏抽象目标没有具体动作",
+        "reader_gain": "奉节10月21日发布会介绍过去GDP与未来产业目标，包括脐橙、肉兔与旅游；2030年数字是力争目标，不是已完成业绩。",
+        "response_reason": "分享对象限本地产业读者；没有具体生活取舍分叉",
+        "distinct_angle": "目标性发言，缺少读者可立即获得的信息差。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "2030年数字是力争目标",
+        "reason": "读者要先了解区域产业，代入远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "不是已完成业绩",
+        "reason": "首屏抽象目标没有具体动作"
+      },
+      "hook": {
+        "text": "奉节10月21日发布会介绍过去GDP与未来产业目标",
+        "evidence": "奉节10月21日发布会介绍过去GDP与未来产业目标",
+        "reason": "首屏抽象目标没有具体动作"
+      },
+      "contrast_basis": {
+        "before": "奉节10月21日发布会介绍过去GDP与未来产业目标",
+        "after": "包括脐橙"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D850a923af9e89305",
+      "ratings": [
+        3,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "evidence": [
+        "中央气象台10月21日18时发布蓝色预警",
+        "预计蔷琵趋向日本西南部",
+        "也不排除擦过台湾东北部",
+        "预报有不确定性",
+        "不写成已登陆",
+        "中央气象台10月21日1",
+        "日18时发布蓝色预警，预",
+        "，预计蔷琵趋向日本西南部"
+      ],
+      "reasons": [
+        "气象时间和预报边界具体，非本轮独立测量",
+        "路径分支是预报正常不确定性，不制造意外",
+        "没有双方实际冲突，不能把预报分支写成争吵",
+        "海边读者出行有关，内陆代入较低",
+        "首屏路径能懂但本轮不能取代实时预警",
+        "天气是大众经验，特定海域距离不同",
+        "可以转发官方预警给沿海朋友",
+        "安全预报不是为了制造评论立场"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "有公共服务价值，实时性过强，需直接看持续更新预警，不拿天气凑话题。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏路径能懂但本轮不能取代实时预警",
+        "reader_gain": "中央气象台10月21日18时发布蓝色预警，预计蔷琵趋向日本西南部，也不排除擦过台湾东北部；预报有不确定性，不写成已登陆。",
+        "response_reason": "可以转发官方预警给沿海朋友；安全预报不是为了制造评论立场",
+        "distinct_angle": "有公共服务价值，实时性过强，需直接看持续更新预警，不拿天气凑话题。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "预报有不确定性",
+        "reason": "海边读者出行有关，内陆代入较低"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "不写成已登陆",
+        "reason": "首屏路径能懂但本轮不能取代实时预警"
+      },
+      "hook": {
+        "text": "中央气象台10月21日18时发布蓝色预警",
+        "evidence": "中央气象台10月21日18时发布蓝色预警",
+        "reason": "首屏路径能懂但本轮不能取代实时预警"
+      },
+      "contrast_basis": {
+        "before": "中央气象台10月21日18时发布蓝色预警",
+        "after": "预计蔷琵趋向日本西南部"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D860ea077fe98a62b",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": [
+        "亚太旅游协会负责人在桂林大会谈中国景点",
+        "免签和智能服务",
+        "这些是演讲者观察",
+        "没有本轮访谈游客的具体落差故事",
+        "亚太旅游协会负责人在桂林",
+        "桂林大会谈中国景点、免签",
+        "免签和智能服务；这些是演",
+        "是演讲者观察，没有本轮访"
+      ],
+      "reasons": [
+        "发言者和场合清楚，缺游客样本方法",
+        "景点受欢迎并非意外反差",
+        "没有真实双方利益冲突",
+        "读者要经行业演讲才能代入，距离远",
+        "首屏仍是宏观赞誉，没有具体动作",
+        "大众熟悉旅游但会务收益弱",
+        "缺具体分享对象与独特细节",
+        "没有真实选择分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "权威身份不加传播分，等待真实游客行为和细节。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏仍是宏观赞誉，没有具体动作",
+        "reader_gain": "亚太旅游协会负责人在桂林大会谈中国景点、免签和智能服务；这些是演讲者观察，没有本轮访谈游客的具体落差故事。",
+        "response_reason": "缺具体分享对象与独特细节；没有真实选择分叉",
+        "distinct_angle": "权威身份不加传播分，等待真实游客行为和细节。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "没有本轮访谈游客的具体落差故事",
+        "reason": "读者要经行业演讲才能代入，距离远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "亚太旅游协会负责人在桂林",
+        "reason": "首屏仍是宏观赞誉，没有具体动作"
+      },
+      "hook": {
+        "text": "亚太旅游协会负责人在桂林大会谈中国景点",
+        "evidence": "亚太旅游协会负责人在桂林大会谈中国景点",
+        "reason": "首屏仍是宏观赞誉，没有具体动作"
+      },
+      "contrast_basis": {
+        "before": "亚太旅游协会负责人在桂林大会谈中国景点",
+        "after": "免签和智能服务"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D6b50528f5be398be",
+      "ratings": [
+        2,
+        1,
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "evidence": [
+        "北外滩论坛展示洋山VTS精灵水上交通风险系统",
+        "介绍船舶安全护航和专利数量",
+        "报道没有给出一次具体告警的误差",
+        "人工对照或避免事故过程",
+        "北外滩论坛展示洋山VTS",
+        "TS精灵水上交通风险系统",
+        "系统，介绍船舶安全护航和",
+        "航和专利数量；报道没有给"
+      ],
+      "reasons": [
+        "系统用途清楚，但效益为机构数据",
+        "AI展示不自动构成预期反差",
+        "没有双方冲突，不制造人工被替代",
+        "普通读者离港口调度远",
+        "首屏可以说监控船，但难兑现一个具体结果",
+        "航运专业背景不是大众低门槛",
+        "适合分享给行业同行，普通读者收益弱",
+        "缺真实可选策略与评论分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "不把AI或专利数量当自动传播加分。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏可以说监控船，但难兑现一个具体结果",
+        "reader_gain": "北外滩论坛展示洋山VTS精灵水上交通风险系统，介绍船舶安全护航和专利数量；报道没有给出一次具体告警的误差、人工对照或避免事故过程。",
+        "response_reason": "适合分享给行业同行，普通读者收益弱；缺真实可选策略与评论分叉",
+        "distinct_angle": "不把AI或专利数量当自动传播加分。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "人工对照或避免事故过程",
+        "reason": "普通读者离港口调度远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "北外滩论坛展示洋山VTS",
+        "reason": "首屏可以说监控船，但难兑现一个具体结果"
+      },
+      "hook": {
+        "text": "北外滩论坛展示洋山VTS精灵水上交通风险系统",
+        "evidence": "北外滩论坛展示洋山VTS精灵水上交通风险系统",
+        "reason": "首屏可以说监控船，但难兑现一个具体结果"
+      },
+      "contrast_basis": {
+        "before": "北外滩论坛展示洋山VTS精灵水上交通风险系统",
+        "after": "介绍船舶安全护航和专利数量"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "Dcf3885732393488b",
+      "ratings": [
+        2,
+        1,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "evidence": [
+        "大同新荣报道介绍长城古堡",
+        "旅游公路和研学项目",
+        "引用成长潜力指数与接待量",
+        "尚未有独立走访路线",
+        "价格和游客体验对照",
+        "古堡、旅游公路和研学项目",
+        "项目，引用成长潜力指数与",
+        "数与接待量；尚未有独立走"
+      ],
+      "reasons": [
+        "地点路线存在，但本轮没实走",
+        "秘境变景点是叙述，不是具体人物意外反差",
+        "没有双方利益冲突",
+        "爱徒步的读者可代入，异地仍远",
+        "首屏古堡公路可见，缺独特动作",
+        "大众懂旅行但当地背景限制收益",
+        "仅可分享给去大同的朋友，不能保证体验",
+        "开发便利与安静有取舍，未见真实分叉人物"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "地方宣传有路线但没有验证体验，不写成亲测冷门宝藏。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏古堡公路可见，缺独特动作",
+        "reader_gain": "大同新荣报道介绍长城古堡、旅游公路和研学项目，引用成长潜力指数与接待量；尚未有独立走访路线、价格和游客体验对照。",
+        "response_reason": "仅可分享给去大同的朋友，不能保证体验；开发便利与安静有取舍，未见真实分叉人物",
+        "distinct_angle": "地方宣传有路线但没有验证体验，不写成亲测冷门宝藏。"
+      },
+      "audience_distance": {
+        "value": "MEDIUM",
+        "evidence": "尚未有独立走访路线",
+        "reason": "爱徒步的读者可代入，异地仍远"
+      },
+      "background_cost": {
+        "value": "MEDIUM",
+        "evidence": "价格和游客体验对照",
+        "reason": "首屏古堡公路可见，缺独特动作"
+      },
+      "hook": {
+        "text": "大同新荣报道介绍长城古堡",
+        "evidence": "大同新荣报道介绍长城古堡",
+        "reason": "首屏古堡公路可见，缺独特动作"
+      },
+      "contrast_basis": {
+        "before": "大同新荣报道介绍长城古堡",
+        "after": "旅游公路和研学项目"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    },
+    {
+      "material_id": "D6da3df6267ee1616",
+      "ratings": [
+        2,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2,
+        1
+      ],
+      "evidence": [
+        "敬老月报道列出北京上门法援",
+        "上海义诊市集和反诈活动",
+        "具体预约",
+        "适用对象和效果未逐项核验",
+        "不写成所有老人都可马上获得",
+        "敬老月报道列出北京上门法",
+        "门法援、上海义诊市集和反",
+        "和反诈活动；具体预约、适"
+      ],
+      "reasons": [
+        "活动和服务具体，缺实际受益案例核验",
+        "上门服务有用但不是强预期反差",
+        "没有双方利益冲突",
+        "有老人的家庭读者容易代入",
+        "首屏服务列表能懂但尚缺预约路径",
+        "养老照护是大众日常",
+        "可分享给本地家人，需进一步核对服务资格",
+        "如何获得帮助有讨论，但暂缺有效路径分叉"
+      ],
+      "possible_reply_branches": [
+        "根据已知材料保留判断",
+        "先补一手结果或实用边界再作选择"
+      ],
+      "decision": "HOLD",
+      "selection_note": "实用价值保留，欠可执行预约入口，不能写成保证福利。",
+      "previews": [],
+      "reader_value": {
+        "stop_reason": "首屏服务列表能懂但尚缺预约路径",
+        "reader_gain": "敬老月报道列出北京上门法援、上海义诊市集和反诈活动；具体预约、适用对象和效果未逐项核验，不写成所有老人都可马上获得。",
+        "response_reason": "可分享给本地家人，需进一步核对服务资格；如何获得帮助有讨论，但暂缺有效路径分叉",
+        "distinct_angle": "实用价值保留，欠可执行预约入口，不能写成保证福利。"
+      },
+      "audience_distance": {
+        "value": "NEAR",
+        "evidence": "适用对象和效果未逐项核验",
+        "reason": "有老人的家庭读者容易代入"
+      },
+      "background_cost": {
+        "value": "LOW",
+        "evidence": "不写成所有老人都可马上获得",
+        "reason": "首屏服务列表能懂但尚缺预约路径"
+      },
+      "hook": {
+        "text": "敬老月报道列出北京上门法援",
+        "evidence": "敬老月报道列出北京上门法援",
+        "reason": "首屏服务列表能懂但尚缺预约路径"
+      },
+      "contrast_basis": {
+        "before": "敬老月报道列出北京上门法援",
+        "after": "上海义诊市集和反诈活动"
+      },
+      "evidence_basis": "CODEX_TRANSLATION_CHECKED_AGAINST_OPENED_ORIGINAL_EXCERPTS"
+    }
+  ],
+  "judgment_scope": "EDITORIAL_HYPOTHESIS_NOT_OBSERVED_RESPONSE; no scores derived from author authority or unknown engagement",
+  "production_candidate": {
+    "candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
+    "material_id": "Da5a081fa02eb50c1",
+    "variant_id": "A",
+    "research_version": "V4_FRESH_2026_10_21_1225",
+    "publication_version": "V4_CLOSURE_A_1",
+    "topic": "证书私钥竟然只是数字4",
+    "subject_value": "公开证书外观合规，实际私钥强度却极低的具体机制反差",
+    "information_gap": "证书格式合法与私钥足够难猜并非同一件事",
+    "payload": "作者恢复的一把私钥为4，并区分更新浏览器与其他客户端的防护范围",
+    "primary_action_reader": "想把具体失败机制发给写代码或维护系统朋友的中文读者",
+    "novelty_check": "对完整193条发布记忆查同事件、同来源及近似正文，未找到重复；非声明题材永不重复",
+    "audit_language_separation": "正文只保留公开事实、明确作者归因与个人反应；内部评级和假设不进入帖子",
+    "follow_reason": "后续继续解释普通人能看懂的具体技术失误及防护边界，不以宏观科技新闻摘要占位",
+    "material_strength": "STRONG",
+    "fact_check_status": "AUTHOR_REPRODUCTION_ATTRIBUTED_AND_MOZILLA_INDEPENDENT_RECOVERY_CONFIRMED; NO_LOCAL_EXPLOIT_OR_OUTCOME_CLAIM",
+    "human_checked": false,
+    "agent_checked": true,
+    "user_authorized": true,
+    "publication_review_exception": "USER_AUTHORIZED_AGENT_REVIEW",
+    "authorization_scope": "Existing AGENTS.md per-post body review waiver only; no X submission authorized. PAUSED unchanged.",
+    "source_fact_review": {
+      "status": "FACT_BOUNDARIES_REVIEWED",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "evidence": "Not a number that starts with 4, or the number 4 followed by a few hundred random digits, just, 4... Another one is 56, and another is 115. I know, because I recovered all of them from their public certificates on my laptop just now, and it took less than a second.",
+      "reason": "作者具体数字与公开证书复现按来源归因；Mozilla独立确认弱密钥恢复，主流浏览器边界与未知实际攻击分开。"
+    },
+    "reader_model": {
+      "model_version": "READER_VALUE_V2",
+      "claim_status": "HYPOTHESIS",
+      "material_strength": "HIGH",
+      "evidence_strength": "FULL_RECORDED_TEXT",
+      "novelty_status": "CHECKED",
+      "reader_value_routes": [
+        {
+          "route": "CURIOSITY",
+          "strength": "HIGH",
+          "cue": "有把私钥竟然是4",
+          "reader_thought": "为什么证书能正常通过检查，钥匙却小到这个程度"
+        }
+      ],
+      "dominant_reader_value_route": "CURIOSITY",
+      "why_reader_cares": "安全证书听起来复杂，但4这个数值把强度落差变成可理解的具体事实",
+      "predicted_inner_response": "这么简单的私钥，格式检查为什么还能过；更新浏览器与其他客户端的边界是什么",
+      "self_relevance": "MEDIUM",
+      "acceptable_editorial_mechanism": "ACCEPTABLE_WITH_SOURCE_CHECK",
+      "controversy_risk": "LOW",
+      "curiosity_types": [
+        "COUNTERINTUITIVE_FACT",
+        "MECHANISM_CURIOSITY"
+      ],
+      "curiosity": "HIGH",
+      "information_gap": "格式检查与私钥数值强度各管什么，为什么外观看起来没问题",
+      "social_currency": "MEDIUM",
+      "share_recipient": "写代码或维护系统的朋友",
+      "share_reason": "转发具体的极弱私钥案例及浏览器已阻断边界，讨论检查是否真的检查了强度",
+      "annotation_origin": "CODEX_EXPLICIT_SOURCE_AND_EXACT_TEXT_REVIEW",
+      "rationale": {
+        "material_strength": "独立Mozilla事件记录确认恢复弱密钥，原文复现给出4等数值，仍不声明亲自执行或真实攻击。",
+        "curiosity": "机构本应384位随机私钥却极弱，具体数值能形成可解释的信息差，而非夸大后果。"
+      },
+      "semantic_binding": {
+        "context_hash": "809fbcad41b141e5546d95bc01d43c9bbbdb05d64f6d46eb8d2e1064aba2b64d",
+        "field_evidence": {
+          "material_strength": {
+            "quote": "私钥竟然是4",
+            "reason": "正文精确给数值且来源已核对，强度指素材支撑充足，不是流量预测。",
+            "value_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+          },
+          "curiosity": {
+            "quote": "本该是384位随机数",
+            "reason": "正文直接给安全预期，再给小数值结果，读者假设可从原句追溯。",
+            "value_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+          },
+          "why_reader_cares": {
+            "quote": "私钥竟然是4",
+            "reason": "把专业安全问题缩到可理解的4，兴趣仍只是编辑假设。",
+            "value_hash": "a5f6bb9b0f10e23b2fbbde0f2ddfff1ebaa7e0089c51d7ace8b473897054d056"
+          },
+          "predicted_inner_response": {
+            "quote": "格式检查都过",
+            "reason": "这一句允许读者追问检查边界，未声称真实评论已经出现。",
+            "value_hash": "e585039fdb5b76830d41a4889fde80c55244d957f763a3e3c95ede7693dc889d"
+          },
+          "reader_value_routes": {
+            "quote": "私钥竟然是4",
+            "reason": "好奇入口来自具体极弱数值，不从科技标签或媒体权威推断。",
+            "value_hash": "f5e3671fa84bd4e306fd8f4135507f4e83cab99c31ae3b854980c8373a0d21c6"
+          },
+          "information_gap": {
+            "quote": "格式检查都过",
+            "reason": "形式合规与强度落差在同一条正文出现，信息差可定位。",
+            "value_hash": "ee3982cb8a8a0e1087a0bb124bf1140e0f8b6f7f645af380fb7e63cabe4685d1"
+          },
+          "share_recipient": {
+            "quote": "eMudhra证书",
+            "reason": "这个技术细节对维护系统的人有具体讨论价值，分享对象是编辑假设。",
+            "value_hash": "f5c4db677d999e33e57b11eec222546c4d4b98b51772e0573617509d95b59fdd"
+          },
+          "share_reason": {
+            "quote": "已阻断相关证书",
+            "reason": "转发既含失败机制也含防护边界，避免把恐慌当分享理由。",
+            "value_hash": "b8a7f068b7ea48bc888d94e3d90a0ea656e5d77cbaf51974b705e0eeb64fdb9b"
+          }
+        }
+      }
+    }
+  }
+}
