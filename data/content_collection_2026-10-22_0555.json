@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-22T06:00:13.512009+00:00",
+  "collection_as_of": "2026-10-22T05:55:52.144186Z",
+  "completed_at": "2026-10-22T05:58:08.887667Z",
+  "interval_since_previous_completion_hours": 4.136054633333333,
+  "existing_command": "python3 -m growth_engine collect-feed --limit 100 (ignored output root)",
+  "raw_packet_ref": "data/private/content_window_20261022_0540/collection/latest.json",
+  "raw_packet_sha256": "f55af0b81bac425905e64afa154eccfea690ac2c36b7cf244b7d3e325fc180b2",
+  "returned_materials": 100,
+  "source_families": [
+    "CHINESE_MEDIA",
+    "GITHUB",
+    "HACKER_NEWS",
+    "NEWS_MEDIA",
+    "TELEGRAM"
+  ],
+  "overlap_material_ids_with_prior_packet": 30,
+  "errors": [
+    {
+      "url": "https://www.theguardian.com/money/rss",
+      "reason": "Remote end closed connection without response"
+    }
+  ],
+  "collector_health": {
+    "status": "HEALTHY",
+    "reasons": [],
+    "completion_age_hours": 0,
+    "source_family_count": 5,
+    "under48h": 100
+  },
+  "scope": "DISCOVERY_ONLY; source timestamps are not verified event dates; retrieval not corroboration",
+  "lead_triage": [
+    {
+      "material_id": "Dc66f08578d96c8d8",
+      "source_url": "https://t.me/iizuk/185237",
+      "topic": "银行App广告弹窗线索",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "公开转述题注尚无完整原始录屏、当事人出处或银行回应核验；次数/事件日不当作已核事实。附带t.co链接未访问，不自动跳转X。"
+    },
+    {
+      "material_id": "Dfa3b6bd5e1403586",
+      "source_url": "https://t.me/DNYQWCG/263727",
+      "topic": "婚礼立牌澄清线索",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "转发时间不等于婚礼或澄清发生时间；当事人完整原视频和上下文未核，未观看，不写视频显示或归责。"
+    },
+    {
+      "material_id": "D4e461a1c41db3592",
+      "source_url": "https://t.me/iizuk/185225",
+      "topic": "巴黎动漫店损失自述线索",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "只有转述题注，店主原始自述、监控、时间地点和后续未核；不把经营年数、损失或与抗议的因果当事实。"
+    }
+  ],
+  "deep_reviews_added": 0,
+  "drafts_added": 0,
+  "ready": 0,
+  "published": 0,
+  "scheduled": 0,
+  "metrics": null,
+  "growth": "UNKNOWN",
+  "publication_triggered": false,
+  "automatic_x_submission": false,
+  "new_dependencies_services_schedulers": 0
+}

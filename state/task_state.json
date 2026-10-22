@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T05:35:29.546695+00:00",
+  "updated_at": "2026-10-22T06:00:13.512009+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,28 +2158,28 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T05:35:29.546695+00:00",
-    "triggered_at": "2026-10-22T05:34:31.700Z",
+    "checked_at": "2026-10-22T06:00:13.512009+00:00",
+    "triggered_at": "2026-10-22T05:54:31.765Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "b86fdb9800c2e9840e7c90732a0f8cb8a7139629",
+    "inspected_branch_head": "d3ee4aa2fd217af6ac26d7a101cd107aad5c1c3b",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T05:20:00+00:00",
-    "slot_original_check_at": "2026-10-22T05:35:29.546695+00:00",
+    "slot": "2026-10-22T06:00:00+00:00",
+    "slot_original_check_at": "2026-10-22T06:00:13.512009+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
     "queue_ready": 0,
     "new_drafts": 0,
     "new_final_reviews": 0,
-    "new_source_triage": 0,
+    "new_source_triage": 3,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "UNCHANGED_LOCAL_CONTENT_AND_CONTROL_CHECK_ONLY; NOT_NEW_EDITORIAL_APPROVAL",
-    "last_existing_collection": "2026-10-22T01:45:40.384404Z",
-    "collector_run": false,
+    "review_scope": "FOUR_HOUR_DISCOVERY_REFRESH_AND_SOURCE_AVAILABILITY_TRIAGE; NO_NEW_DEEP_OR_FINAL_APPROVAL",
+    "last_existing_collection": "2026-10-22T05:55:52.144186Z",
+    "collector_run": true,
     "collection_cadence_hours": 4,
     "x_or_transport_accessed": false,
     "platform_permission_or_configuration_change_evidence": null,
@@ -2200,21 +2200,29 @@
     "cached_media_titles_scanned": 0,
     "source_triage": [
       {
-        "material_id": "Dd19afdac349a2b39",
-        "source_url": "https://www.scmp.com/news/hong-kong/health-environment/article/3371673/health-warning-over-beauty-jabs-using-dead-peoples-skin-following-hong-kong-raids",
+        "material_id": "Dc66f08578d96c8d8",
+        "source_url": "https://t.me/iizuk/185237",
+        "topic": "银行App广告弹窗线索",
         "status": "HOLD_BEFORE_WRITING",
-        "event_time": null,
-        "reason": "本地安全素材仅RSS标题和链接，fact_verification=UNVERIFIED。原报道、监管原始通报、涉及范围与绝对事件日未核；不把标题改写成确定的医美伤害或违法事实。"
+        "reason": "公开转述题注尚无完整原始录屏、当事人出处或银行回应核验；次数/事件日不当作已核事实。附带t.co链接未访问，不自动跳转X。"
       },
       {
-        "material_id": "D836c555b31e16294",
-        "source_url": "https://www.theguardian.com/world/2026/oct/21/bookingcom-under-investigation-eu-regulators-fake-listings-scams",
+        "material_id": "Dfa3b6bd5e1403586",
+        "source_url": "https://t.me/DNYQWCG/263727",
+        "topic": "婚礼立牌澄清线索",
         "status": "HOLD_BEFORE_WRITING",
-        "event_time": null,
-        "reason": "只有RSS标题和链接，没有原文/监管决定与具体旅客事件。调查不等于已证实违法；不添加受害人数、损失、平台责任或结果。"
+        "reason": "转发时间不等于婚礼或澄清发生时间；当事人完整原视频和上下文未核，未观看，不写视频显示或归责。"
+      },
+      {
+        "material_id": "D4e461a1c41db3592",
+        "source_url": "https://t.me/iizuk/185225",
+        "topic": "巴黎动漫店损失自述线索",
+        "status": "HOLD_BEFORE_WRITING",
+        "reason": "只有转述题注，店主原始自述、监控、时间地点和后续未核；不把经营年数、损失或与抗议的因果当事实。"
       }
     ],
-    "prior_source_triage_check_at": "2026-10-22T03:56:24.164206+00:00"
+    "last_collection_completed_at": "2026-10-22T05:58:08.887667Z",
+    "collection_summary_ref": "data/content_collection_2026-10-22_0555.json"
   },
   "operations_verification_2026_10_22": {
     "checked_at": "2026-10-22T02:32:57.515727+00:00",
@@ -2227,5 +2235,70 @@
     "current_account": "UNKNOWN",
     "actual_20m_heartbeat_runs_observed": 3,
     "continuous_real_publication_verified": false
+  },
+  "latest_content_collection": {
+    "checked_at": "2026-10-22T06:00:13.512009+00:00",
+    "collection_as_of": "2026-10-22T05:55:52.144186Z",
+    "completed_at": "2026-10-22T05:58:08.887667Z",
+    "interval_since_previous_completion_hours": 4.136054633333333,
+    "existing_command": "python3 -m growth_engine collect-feed --limit 100 (ignored output root)",
+    "raw_packet_ref": "data/private/content_window_20261022_0540/collection/latest.json",
+    "raw_packet_sha256": "f55af0b81bac425905e64afa154eccfea690ac2c36b7cf244b7d3e325fc180b2",
+    "returned_materials": 100,
+    "source_families": [
+      "CHINESE_MEDIA",
+      "GITHUB",
+      "HACKER_NEWS",
+      "NEWS_MEDIA",
+      "TELEGRAM"
+    ],
+    "overlap_material_ids_with_prior_packet": 30,
+    "errors": [
+      {
+        "url": "https://www.theguardian.com/money/rss",
+        "reason": "Remote end closed connection without response"
+      }
+    ],
+    "collector_health": {
+      "status": "HEALTHY",
+      "reasons": [],
+      "completion_age_hours": 0,
+      "source_family_count": 5,
+      "under48h": 100
+    },
+    "scope": "DISCOVERY_ONLY; source timestamps are not verified event dates; retrieval not corroboration",
+    "lead_triage": [
+      {
+        "material_id": "Dc66f08578d96c8d8",
+        "source_url": "https://t.me/iizuk/185237",
+        "topic": "银行App广告弹窗线索",
+        "status": "HOLD_BEFORE_WRITING",
+        "reason": "公开转述题注尚无完整原始录屏、当事人出处或银行回应核验；次数/事件日不当作已核事实。附带t.co链接未访问，不自动跳转X。"
+      },
+      {
+        "material_id": "Dfa3b6bd5e1403586",
+        "source_url": "https://t.me/DNYQWCG/263727",
+        "topic": "婚礼立牌澄清线索",
+        "status": "HOLD_BEFORE_WRITING",
+        "reason": "转发时间不等于婚礼或澄清发生时间；当事人完整原视频和上下文未核，未观看，不写视频显示或归责。"
+      },
+      {
+        "material_id": "D4e461a1c41db3592",
+        "source_url": "https://t.me/iizuk/185225",
+        "topic": "巴黎动漫店损失自述线索",
+        "status": "HOLD_BEFORE_WRITING",
+        "reason": "只有转述题注，店主原始自述、监控、时间地点和后续未核；不把经营年数、损失或与抗议的因果当事实。"
+      }
+    ],
+    "deep_reviews_added": 0,
+    "drafts_added": 0,
+    "ready": 0,
+    "published": 0,
+    "scheduled": 0,
+    "metrics": null,
+    "growth": "UNKNOWN",
+    "publication_triggered": false,
+    "automatic_x_submission": false,
+    "new_dependencies_services_schedulers": 0
   }
 }

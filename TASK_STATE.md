@@ -1483,3 +1483,10 @@ origin/main b5c922e及控制/质量已读；复用01:45素材，快速查看54�
 ## 2026-10-22T05:35:29.546695+00:00 — UTC05:20窗口实际SKIPPED
 
 最新origin/main b5c922e与当前指令/控制/内容已读；产物未变、5稿HOLD、合格待发0。slot_check记录实际UTC05:20窗口SKIPPED/NO_REVIEWED_CONTENT，不补发。原采集完成01:47:42Z，尚不足4小时，本轮继续复用；0新稿/最终复核，不刷新旧审核/采集时间，PAUSED及未知指标保留；无外部操作/发布/排程，反馈未启动。
+
+
+## 2026-10-22T06:00:13.512009+00:00 — 四小时采集刷新与实际SKIPPED
+
+origin/main b5c922e及控制已读。距上次采集完成超过4小时，复用现有collect-feed一次，05:55:52开始、05:58:08完成，100条/5来源族，与前102材料重合30；原始包留ignored private。Guardian Money RSS一次连接关闭，其他来源完成；HEALTHY仅为采集健康，不是事实或事件日期通过。
+
+三条银行广告、婚礼澄清、动漫店自述线索均缺原始材料/事件日/完整语境，HOLD_BEFORE_WRITING；未观看视频，未跟随t.co访问X，不把题注当事实。0新稿/深审/最终复核，原5稿仍HOLD、合格待发0，未刷新旧审核。slot_check只记录实际当前窗口SKIPPED/NO_REVIEWED_CONTENT；PAUSED未改，无外部提交/排程、无反馈启动，指标null/UNKNOWN。安全摘要data/content_collection_2026-10-22_0555.json。
