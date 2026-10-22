@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T11:35:26.400436+00:00",
+  "updated_at": "2026-10-22T11:55:21.992936+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,17 +2158,17 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T11:35:26.400436+00:00",
-    "triggered_at": "2026-10-22T11:34:33.022Z",
+    "checked_at": "2026-10-22T11:55:21.992936+00:00",
+    "triggered_at": "2026-10-22T11:54:33.105Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "d3abecbccba14a8a2f3f055178e7eb02592ff8e9",
+    "inspected_branch_head": "e27d933eb03ac8257d32d80f7c1b774c8e88753e",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T11:20:00+00:00",
-    "slot_original_check_at": "2026-10-22T11:35:26.400436+00:00",
+    "slot": "2026-10-22T11:40:00+00:00",
+    "slot_original_check_at": "2026-10-22T11:55:21.992936+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
