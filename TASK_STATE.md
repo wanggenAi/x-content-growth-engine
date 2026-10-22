@@ -1401,3 +1401,10 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 # Separate Xianyu artwork checkpoint — 2026-10-20T02:07:07.191520Z
 
 User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.
+
+
+## 2026-10-22T01:59:14.713490Z — 内容供应与质量检查（覆盖旧发布心跳）
+
+本轮仅编辑内容，不检查通道、不访问X。origin/main已fetch并核对6d6e19c；feature/chinese-reader-quality工程未完成且有未提交修改，代码原样保留。复用10月21日既有材料，新增杨树荣生活题材草稿1篇，SEPARATE_PASS_SAME_AGENT分遍复核；原始发布日/事件日与全文上下文、完整历史查重未完成，严格HOLD，READY=0。另3条材料分别因出行日不明、论文未核、法规句缺原摘录对应继续HOLD；未调用模型/采集/新增依赖或调度。
+
+“有把私钥竟然是4”保留用户语言负例，旧eMudhra A不可沿用历史通过结论；C390 REJECT不变。发布控制及队列未改，指标null/UNKNOWN，未发布不启动反馈窗。安全记录：data/content_check_2026-10-22_0154/。原competition_as_of不刷新，10题池不冒充30/20/10/4生产通过。
