@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T02:37:06.107083Z",
+  "updated_at": "2026-10-22T02:55:50.712558+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,53 +2158,32 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T02:37:06.107083Z",
-    "triggered_at": "2026-10-22T02:34:30.988Z",
+    "checked_at": "2026-10-22T02:55:50.712558+00:00",
+    "triggered_at": "2026-10-22T02:54:31.071Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "be322f63af2e36d968fc135af5edebb1a11e812d",
-    "engineering_state": "PR21_MERGED; NOT_A_CONTENT_BLOCKER",
+    "inspected_branch_head": "ce083984b48d3133993b89604d8fb2dceb280ae5",
+    "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T02:20:00+00:00",
-    "slot_original_check_at": "2026-10-22T02:32:57.515727+00:00",
-    "slot_reused_idempotently": true,
-    "queue_changed": false,
-    "existing_drafts_checked": 5,
+    "slot": "2026-10-22T02:40:00+00:00",
+    "slot_original_check_at": "2026-10-22T02:55:50.712558+00:00",
+    "slot_added": true,
+    "queue_changed": true,
     "existing_drafts_formal_hold": 5,
     "queue_ready": 0,
     "new_drafts": 0,
     "new_final_reviews": 0,
+    "new_source_triage": 0,
+    "prior_source_triage_check_at": "2026-10-22T02:37:06.107083Z",
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "SOURCE_DATE_TRIAGE_AND_EXISTING_STATUS_CHECK; NOT_NEW_DEEP_OR_FINAL_REVIEW",
-    "source_date_triage": [
-      {
-        "material_id": "Dd5877205843c9a38",
-        "status": "HOLD",
-        "reason": "退机票个案始于9月，10月22日转载不能洗成新事件；摘录仅支持9月，不能将metadata中9月23日冒作本轮已核事实。"
-      },
-      {
-        "material_id": "Q-cash-1019",
-        "status": "HOLD",
-        "reason": "原摘录写10月19日捡到现金，已超48小时；题注中防冒领效果无独立结果，不能称成功。"
-      },
-      {
-        "material_id": "Defba36f7f21731de",
-        "status": "HOLD",
-        "reason": "鲨鱼摘录仅证实围观，绝对事件日和救援顺序未核，视频未观看，不写视频显示。"
-      },
-      {
-        "material_id": "Dbce529b53b60c8ca",
-        "status": "HOLD",
-        "reason": "密封圈原摘录写2024年初，非本周发明；现有摘录不支持完整三天/三人/四十分钟细节，不据编辑笔记补事实。"
-      }
-    ],
+    "review_scope": "UNCHANGED_LOCAL_CONTENT_AND_CONTROL_CHECK_ONLY; NOT_NEW_EDITORIAL_APPROVAL",
     "last_existing_collection": "2026-10-22T01:45:40.384404Z",
     "collector_run": false,
     "collection_cadence_hours": 4,
     "x_or_transport_accessed": false,
-    "platform_rule_basis": "REUSE_RECORDED_2026-10-22_VERIFICATION; NO_NEW_PERMISSION_OR_TRANSPORT_EVIDENCE",
+    "platform_permission_or_configuration_change_evidence": null,
     "publication_control": "PAUSED",
     "automatic_x_submission": false,
     "published": 0,
