@@ -213,8 +213,8 @@
               "text_hash": "5ddb91b68bd387cf873898f37bb222981db5f16abc7f0c3787974e679a7f8a49",
               "source_hash": "0011558e075a667b3ada9ba66636029fbdb57f980a6a045b5861c1e61bd36952",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:12:53.185116+00:00",
-              "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。",
+              "reviewed_at": "2026-10-22T02:15:01.542159+00:00",
+              "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。原始公告只给日期且时区未核实，不能严格保证仍在48小时内。",
               "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。",
               "wording_recheck": "洗碗后放回和带走垃圾分别对应washing and putting away dishes / taking trash offsite；仍保留预订日期、一般规则和例外，未增加事实。"
             },
@@ -225,8 +225,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:12:53.185509+00:00",
-              "input_hash": "5f052a651bb285ef2499ac06baace8b0a22bfec3b77c62cbead940a94a10c610",
+              "reviewed_at": "2026-10-22T02:15:01.542713+00:00",
+              "input_hash": "036f33e570f02d31512da5f9bd9d0a9eb321b6a4919183a83b9041a8606f61e8",
               "decision": "PASS",
               "unresolved": [],
               "sentences": [
@@ -309,7 +309,8 @@
               },
               "source_recheck_note": "原已读摘录按URL保留单一证据条目，复核逐句引用未变化；不是新事实或自动事实认证。",
               "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
-              "wording_recheck": "重新逐句读改后全文，未再用作者分数；政策句仍偏密，但日期和例外不能省。保持内容PASS、生产HOLD。"
+              "wording_recheck": "重新逐句读改后全文，未再用作者分数；政策句仍偏密，但日期和例外不能省。保持内容PASS、生产HOLD。",
+              "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           },
           "editor_revision": {
@@ -321,7 +322,7 @@
       ],
       "recommended_variant": "A",
       "direction": "消费与旅行",
-      "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。",
+      "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。原始公告只给日期且时区未核实，不能严格保证仍在48小时内。",
       "editorial_tradeoff": "信息差和生活代入清楚；不能采用标题里的无例外全面禁止，也不能称已经生效。"
     },
     {
@@ -527,7 +528,7 @@
               "text_hash": "244d100a1c241000b3e084ef83d9d222b11630eca8fbc953fca9066aa006e23c",
               "source_hash": "9a6d2df444eff1b28cfbc6f3aa3a75e678cecb3e06bf52b2dc692864d61083cf",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:01:40.815466+00:00",
+              "reviewed_at": "2026-10-22T02:15:01.542718+00:00",
               "event_time_note": "10月22日实际读取项目页面；HN提交日期不是项目发布日期或用户训练日期，原始上线时间UNKNOWN。",
               "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。"
             },
@@ -538,8 +539,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:08:41.567209+00:00",
-              "input_hash": "56ad90dd9812733d9cce6dac8659abca7131c1541d339bd8f5e4cbd21f390219",
+              "reviewed_at": "2026-10-22T02:15:01.543076+00:00",
+              "input_hash": "fb12f7ded979abe4620a47bf74c860bead101df73bbb924530e5a28ae960f61e",
               "decision": "HOLD",
               "unresolved": [
                 "原始上线日期UNKNOWN，项目功能未实测；不能包装新产品效果。"
@@ -630,7 +631,8 @@
                 "reason": "本轮只写一个工作工具；历史虽多科技内容，这个运动动作有区别，仍不据此宣称账号受众喜欢。"
               },
               "source_recheck_note": "原已读摘录按URL保留单一证据条目，复核逐句引用未变化；不是新事实或自动事实认证。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。"
+              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           }
         }
@@ -708,8 +710,8 @@
           "id": "A",
           "mode": "DIRECT",
           "strategy_version": "V4",
-          "text": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
-          "original_text": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
+          "text": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
+          "original_text": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
           "primary_action": "SHARE",
           "locked_facts": {
             "numbers": [
@@ -736,8 +738,8 @@
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex_AUTHOR_STAGE",
             "reviewed_at": "2026-10-22T01:58:29.344023+00:00",
-            "author_completed_at": "2026-10-22T01:58:29.344023+00:00",
-            "text_hash": "0c0d3cd7b2c9b6c0a6b9d129467ca615f669a6a2310df8611ecf31b8323f92e2",
+            "author_completed_at": "2026-10-22T02:15:48.724434+00:00",
+            "text_hash": "2c93d94b02718fbc347190bcb7699669b61f1a088488cab231cb8f391a86995c",
             "source_hash": "e3bbf7881480bc7ab3b5396b4d91aefd5761181f9147de72c709f28d6d7fefff",
             "decision": "PASS",
             "failure_reasons": [],
@@ -748,11 +750,11 @@
               "distinct_angle": "饭菜细节使抽象人机恋可懂；尚未取得北京青年报原始采访页面，体验日期也不明。"
             },
             "opening": {
-              "quote": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+              "quote": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
               "reason": "先呈现具体动作与预期差，不先解释机构背景或抽象主旨。",
               "alternatives": [
                 {
-                  "text": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。",
+                  "text": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。",
                   "approach": "CONCRETE_ACTION",
                   "reader_reason": "首句交代人物或对象以及反常动作，读者不需先猜主题。",
                   "source_span": "在虚拟世界里，两个人的晚餐是她上次提到想吃的辣子鸡，推门走进餐厅时TA用手护住了玻璃门的边缘，以防撞到她。这样的画面，让现实世界里的丁瑜感到惊喜又美好，眼前的蔬菜面仿佛更香了。"
@@ -782,7 +784,7 @@
             },
             "claims": [
               {
-                "draft_span": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                "draft_span": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
                 "url": "https://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
                 "source_span": "2026年10月22日 09:16　来源：北京青年报\n丁瑜给自己设置的AI男友叫林深，建筑设计师。\n在虚拟世界里，两个人的晚餐是她上次提到想吃的辣子鸡\n这样的画面，让现实世界里的丁瑜感到惊喜又美好，眼前的蔬菜面仿佛更香了。\n尤其是她没跟林深说过喜欢吃辣但不喜欢麻，但TA却会提前跟老板说辣子鸡少放花椒。",
                 "verdict": "SUPPORTED",
@@ -829,10 +831,10 @@
                 "quotes",
                 "uncertainty"
               ],
-              "text_hash": "0c0d3cd7b2c9b6c0a6b9d129467ca615f669a6a2310df8611ecf31b8323f92e2",
+              "text_hash": "2c93d94b02718fbc347190bcb7699669b61f1a088488cab231cb8f391a86995c",
               "source_hash": "e3bbf7881480bc7ab3b5396b4d91aefd5761181f9147de72c709f28d6d7fefff",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:07:31.358763+00:00",
+              "reviewed_at": "2026-10-22T02:15:48.724578+00:00",
               "event_time_note": "北京青年报10月22日报道，中新网转载；体验实际发生日期未披露，不把报道日当体验日。",
               "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。"
             },
@@ -843,15 +845,15 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:08:41.567560+00:00",
-              "input_hash": "f2b2085da5653a7cc0d60db5d211e9a3c2627648a272c193b6152e4b3857d088",
+              "reviewed_at": "2026-10-22T02:15:48.724975+00:00",
+              "input_hash": "4101a0aebff31f082bd6f5715f95564cbdca181ca0ee80ff0d13a0d7ec2f48bf",
               "decision": "HOLD",
               "unresolved": [
                 "北京青年报原始采访尚未直读，体验日期UNKNOWN。"
               ],
               "sentences": [
                 {
-                  "text": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                  "text": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
                   "decision": "PASS",
                   "issues": [],
                   "background_cost": "NONE",
@@ -882,22 +884,22 @@
               "checks": {
                 "stop_reason": {
                   "decision": "PASS",
-                  "quote": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                  "quote": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
                   "reason": "辣子鸡与蔬菜面把抽象AI陪伴变成易理解的反差。"
                 },
                 "immediate_comprehension": {
                   "decision": "PASS",
-                  "quote": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
-                  "reason": "不用懂模型或乙游，手机与现实的区别在第一句已交代。"
+                  "quote": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                  "reason": "不用懂模型或乙游，聊天与现实的区别在第一句已交代。"
                 },
                 "new_information": {
                   "decision": "PASS",
-                  "quote": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                  "quote": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
                   "reason": "具体细节是对话安排的饭菜，原始采访和体验日期仍不完整。"
                 },
                 "share_reason": {
                   "decision": "PASS",
-                  "quote": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
+                  "quote": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面",
                   "reason": "可分享给讨论虚拟陪伴的朋友，但不能把个案当关系建议。"
                 },
                 "natural_voice": {
@@ -921,8 +923,15 @@
                 "reason": "情感个案区别于工具新闻；与本轮俯卧撑虽然都涉技术，但读者处境和分享对象不同。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。"
+              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。",
+              "wording_recheck": "首句聊天不再假定设备，再核辣子鸡/蔬菜面和虚拟情境；原始采访和日期未决，仍HOLD。"
             }
+          },
+          "editor_revision": {
+            "before": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
+            "after": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
+            "issue": "原文没有确认丁瑜使用手机还是电脑，首句改成聊天里的晚餐，不替事实补设备。"
           }
         }
       ],
@@ -1145,7 +1154,7 @@
               "text_hash": "1a5be8f3a6afe9e1209a1e7923c8bc56cd39c06ecbe59d577c811980e8e362c9",
               "source_hash": "e19c1a2a52ec08b78931cb9d48f04d3616bb31511cd5f895e0758938222ec0f6",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:07:31.359401+00:00",
+              "reviewed_at": "2026-10-22T02:15:01.543426+00:00",
               "event_time_note": "偶遇10月18日晚9时左右；10月22日扬子晚报报道，中新网转载。实际事件已超过48小时。",
               "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。"
             },
@@ -1156,8 +1165,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:08:41.567905+00:00",
-              "input_hash": "3206e6a5a85d3b3f0f4278fd30d7854e4e9352363a6f4b81469436c34d91c16c",
+              "reviewed_at": "2026-10-22T02:15:01.543767+00:00",
+              "input_hash": "596b92c5adfdc0c9145d361da67679c802c906db921ed5b777075d0fb38ba9cd",
               "decision": "HOLD",
               "unresolved": [
                 "10月18日事件已过48小时；原始采访未直读，后续UNKNOWN。"
@@ -1248,7 +1257,8 @@
                 "reason": "本轮唯一老龄出行题材，与失物幽默的生活处境不同；未见历史同源同事件。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。"
+              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           }
         }
@@ -1464,7 +1474,7 @@
               "text_hash": "d4829e8777837becca40d8312443e476bd051c371481793639a379ab1190d862",
               "source_hash": "378dfe8f6c0e185cf47f040066442bfbb3327c5c76cdf3e2b47b9f393baceb85",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:07:31.357822+00:00",
+              "reviewed_at": "2026-10-22T02:15:01.543771+00:00",
               "event_time_note": "原始记者报道10月14日，事件10月5日；10月22日新检索到不等于新发生。",
               "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。"
             },
@@ -1475,8 +1485,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:08:41.568249+00:00",
-              "input_hash": "c29962b3f811459c947e22d1f7a483c890f198358bd16a120c50765e95155db8",
+              "reviewed_at": "2026-10-22T02:15:01.544108+00:00",
+              "input_hash": "dc62afdfad3097a04d7d7eee855dd88314639b5e201b5247cd87cb10bf959710",
               "decision": "PASS",
               "unresolved": [],
               "sentences": [
@@ -1558,7 +1568,8 @@
                 "reason": "与现金招领题材相近，本轮舍弃未核实现金稿只保留这篇；原始来源和人物事件未见历史重复。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。"
+              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           },
           "editor_revision": {

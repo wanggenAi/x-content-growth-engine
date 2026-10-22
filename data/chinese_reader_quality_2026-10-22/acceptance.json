@@ -5,7 +5,7 @@
   "collection_originals": 100,
   "competition_independent_originals": 102,
   "topic_reviews_authored": 10,
-  "timestamp_qualified_deep_reviews": 7,
+  "timestamp_qualified_deep_reviews": 3,
   "fresh_source_timestamps_not_verified_event_facts": 94,
   "source_families": 5,
   "pool_holds": [
@@ -32,17 +32,6 @@
       ],
       "decision": "PASS",
       "tradeoff": "信息差和生活代入清楚；不能采用标题里的无例外全面禁止，也不能称已经生效。"
-    },
-    {
-      "material_id": "Q-cash-1019",
-      "topic": "捡到3.8万元，把联系电话变成一道题",
-      "editorial_score": 60.25,
-      "topic_reasons": [
-        "REJECT_LOW_TOPIC_STRENGTH",
-        "TOPIC_EDITOR_HOLD"
-      ],
-      "decision": "HOLD",
-      "tradeoff": "比宏观新闻更有具体悬念，但转载链不能证明已经归还或安全有效。无原始采访不升级。"
     },
     {
       "material_id": "Dcd3da564d1a0aef3",
@@ -72,10 +61,23 @@
       "editorial_score": 56.0,
       "topic_reasons": [
         "REJECT_LOW_TOPIC_STRENGTH",
-        "TOPIC_EDITOR_HOLD"
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
       ],
       "decision": "HOLD",
       "tradeoff": "故事温暖有动作；不是新鲜事件，与失物招领题材有重合，不能靠低AI分升级。"
+    },
+    {
+      "material_id": "Q-cash-1019",
+      "topic": "捡到3.8万元，把联系电话变成一道题",
+      "editorial_score": 54.25,
+      "topic_reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "decision": "HOLD",
+      "tradeoff": "比宏观新闻更有具体悬念，但转载链不能证明已经归还或安全有效。无原始采访不升级。"
     },
     {
       "material_id": "Dd5877205843c9a38",
@@ -83,7 +85,8 @@
       "editorial_score": 45.25,
       "topic_reasons": [
         "REJECT_LOW_TOPIC_STRENGTH",
-        "TOPIC_EDITOR_HOLD"
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
       ],
       "decision": "HOLD",
       "tradeoff": "反差有潜力，但缺少航司原始规则和回应；不得把受访者转述写成违法定论。旧事件不能当新鲜。"
@@ -106,7 +109,8 @@
       "editorial_score": 30.25,
       "topic_reasons": [
         "REJECT_LOW_TOPIC_STRENGTH",
-        "TOPIC_EDITOR_HOLD"
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
       ],
       "decision": "HOLD",
       "tradeoff": "权威媒体和劳动表彰不自动加传播分；具体手艺细节可读，但核心故事旧且背景成本高于租房。"
@@ -142,7 +146,7 @@
       "text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
       "source_url": "https://www.airbnb.ca/help/article/4168",
       "event_time": "2026-10-20",
-      "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。",
+      "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。原始公告只给日期且时区未核实，不能严格保证仍在48小时内。",
       "fact_review": "PASS",
       "chinese_sentence_review": "PASS",
       "reader_review": "PASS",
@@ -245,7 +249,7 @@
     {
       "material_id": "D92a272bc22945a73",
       "topic": "AI安排的晚餐与眼前的蔬菜面",
-      "text": "手机里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
+      "text": "聊天里的晚餐是辣子鸡，现实里，丁瑜吃着蔬菜面。\n10月22日《北京青年报》写到，学者丁瑜体验AI恋人：它在对话里安排晚餐，还叮嘱辣子鸡少放花椒。\n这顿饭没真的端上桌，陪伴感却有了。让人留恋的，可能就是这种随时有人认真接话的感觉。\nhttps://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
       "source_url": "https://www.chinanews.com.cn/sh/2026/10-22/10718863.shtml",
       "event_time": null,
       "event_time_note": "北京青年报10月22日报道，中新网转载；体验实际发生日期未披露，不把报道日当体验日。",
@@ -264,7 +268,7 @@
       "feedback_24h": {
         "candidate_id": "QUALITY-20261022-D92a272bc22945a73",
         "status": "AWAITING_PUBLICATION",
-        "publication_text_digest": "0c0d3cd7b2c9b6c0a6b9d129467ca615f669a6a2310df8611ecf31b8323f92e2",
+        "publication_text_digest": "2c93d94b02718fbc347190bcb7699669b61f1a088488cab231cb8f391a86995c",
         "preregistered_at_utc": "2026-10-22T02:01:07.585348+00:00",
         "window": "24h",
         "post_url": null,
@@ -353,7 +357,7 @@
       "topic": "手机找回后，相册里多了一句糊涂鬼",
       "text": "手机找回来了，相册里还多了一句“糊涂鬼”。\n10月5日的旧事：南京一对情侣捡到游客落在单车上的手机，利用锁屏拍摄功能录了段话，再交给附近警察。\n他们还说，不用买鸭翅感谢。原来朋友刚送过鸭翅，顺口开了个玩笑。\n这好意我挺喜欢：事情办妥了，还顺手逗你一下。\nhttps://www.yangtse.com/news/yysp/202610/t20261014_402352.html",
       "source_url": "https://www.yangtse.com/news/yysp/202610/t20261014_402352.html",
-      "event_time": "2026-10-05T00:00:00Z",
+      "event_time": "2026-10-05",
       "event_time_note": "原始记者报道10月14日，事件10月5日；10月22日新检索到不等于新发生。",
       "fact_review": "PASS",
       "chinese_sentence_review": "PASS",

@@ -366,7 +366,7 @@
       "source": {
         "url": "https://www.chinanews.com.cn/sh/2026/10-22/10718873.shtml",
         "published_at": "2026-10-22T01:28:51Z",
-        "event_time": "2024-01-01T00:00:00Z",
+        "event_time": "2024",
         "event_time_status": "EVERGREEN_REDISCOVERY",
         "timestamp_precision": "SOURCE_REPORTED_NOT_INFERRED",
         "captured_at": "2026-10-22T01:50:20.497126+00:00",
@@ -377,7 +377,8 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "工具故事只记2024年初；10月20日上班场景不能刷新发明日期，精确事件日UNKNOWN。"
+        "rediscovery_reason": "工具故事只记2024年初；10月20日上班场景不能刷新发明日期，精确事件日UNKNOWN。",
+        "event_time_precision": "YEAR_APPROXIMATE"
       },
       "source_evidence": [
         {
@@ -908,7 +909,7 @@
       "source": {
         "url": "https://www.chinanews.com.cn/sh/2026/10-22/10718830.shtml",
         "published_at": "2026-10-21T23:42:11Z",
-        "event_time": "2026-09-23T00:00:00Z",
+        "event_time": "2026-09-23",
         "event_time_status": "EVENT_DATE_CHECKED",
         "timestamp_precision": "SOURCE_REPORTED_NOT_INFERRED",
         "captured_at": "2026-10-22T01:50:20.334204+00:00",
@@ -919,7 +920,8 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "主体退票纠纷始于9月，10月13日受访，10月22日报道；当前处理结果UNKNOWN。"
+        "rediscovery_reason": "主体退票纠纷始于9月，10月13日受访，10月22日报道；当前处理结果UNKNOWN。",
+        "event_time_precision": "DATE"
       },
       "source_evidence": [
         {
@@ -949,7 +951,7 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。"
+        "rediscovery_reason": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。原始公告只给日期且时区未核实，不能严格保证仍在48小时内。"
       },
       "source_evidence": [
         {
@@ -985,7 +987,8 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "偶遇10月18日晚9时左右；10月22日扬子晚报报道，中新网转载。实际事件已超过48小时。"
+        "rediscovery_reason": "偶遇10月18日晚9时左右；10月22日扬子晚报报道，中新网转载。实际事件已超过48小时。",
+        "event_time_precision": "APPROXIMATE_REPORTED_CLOCK_TIME"
       },
       "source_evidence": [
         {
@@ -2211,7 +2214,7 @@
       "source": {
         "url": "https://www.yangtse.com/news/yysp/202610/t20261014_402352.html",
         "published_at": "2026-10-14T07:07:00Z",
-        "event_time": "2026-10-05T00:00:00Z",
+        "event_time": "2026-10-05",
         "event_time_status": "EVERGREEN_REDISCOVERY",
         "timestamp_precision": "SOURCE_REPORTED_NOT_INFERRED",
         "captured_at": "2026-10-22T01:50:20.550380+00:00",
@@ -2222,7 +2225,8 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "原始记者报道10月14日，事件10月5日；10月22日新检索到不等于新发生。"
+        "rediscovery_reason": "原始记者报道10月14日，事件10月5日；10月22日新检索到不等于新发生。",
+        "event_time_precision": "DATE"
       },
       "source_evidence": [
         {
@@ -2242,7 +2246,7 @@
       "source": {
         "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivyaaw4713500.shtml",
         "published_at": "2026-10-21T02:14:00Z",
-        "event_time": "2026-10-19T00:00:00Z",
+        "event_time": "2026-10-19",
         "event_time_status": "EVENT_DATE_CHECKED",
         "timestamp_precision": "SOURCE_REPORTED_NOT_INFERRED",
         "captured_at": "2026-10-22T01:50:20.508766+00:00",
@@ -2253,7 +2257,8 @@
           "10月22日",
           "10月5日"
         ],
-        "rediscovery_reason": "事件10月19日，仅日精度；10月21日为转载日期。"
+        "rediscovery_reason": "事件10月19日，仅日精度；10月21日为转载日期。",
+        "event_time_precision": "DATE"
       },
       "source_evidence": [
         {
