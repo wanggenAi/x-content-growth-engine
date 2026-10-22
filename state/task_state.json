@@ -2144,6 +2144,7 @@
     "scheduled": 0,
     "C390": "REJECT_PRESERVED",
     "private_key_negative": "REJECT_PRESERVED",
-    "status": "LOCAL_VALIDATION_PENDING_PR"
+    "status": "PR_OPEN_LOCAL_167_TESTS_PASSED",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21"
   }
 }

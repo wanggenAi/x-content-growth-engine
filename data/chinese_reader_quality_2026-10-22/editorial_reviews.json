@@ -74,8 +74,8 @@
           "id": "A",
           "mode": "DIRECT",
           "strategy_version": "V4",
-          "text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
-          "original_text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
+          "text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
+          "original_text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
           "primary_action": "SHARE",
           "locked_facts": {
             "numbers": [
@@ -105,8 +105,8 @@
             "method": "TEXT_FIRST_COMPARISON",
             "reviewer": "Codex_AUTHOR_STAGE",
             "reviewed_at": "2026-10-22T01:58:29.344023+00:00",
-            "author_completed_at": "2026-10-22T01:58:29.344023+00:00",
-            "text_hash": "3552d919af996cf1609b32a5bddb516c03643e493658271662c6dcc521595911",
+            "author_completed_at": "2026-10-22T02:12:53.184984+00:00",
+            "text_hash": "5ddb91b68bd387cf873898f37bb222981db5f16abc7f0c3787974e679a7f8a49",
             "source_hash": "0011558e075a667b3ada9ba66636029fbdb57f980a6a045b5861c1e61bd36952",
             "decision": "PASS",
             "failure_reasons": [],
@@ -167,7 +167,7 @@
                 "number_mappings": []
               },
               {
-                "draft_span": "2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外",
+                "draft_span": "2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外",
                 "url": "https://www.airbnb.ca/help/article/4168",
                 "source_span": "This policy applies to all reservations booked on or after November 20, 2026\nAsk guests to complete tasks that require significant effort or time, or would typically be performed by a cleaner, including stripping the bed, taking trash offsite, or washing and putting away dishes.\nWe understand every home is unique. In assessing whether a request is reasonable, we strive to understand the listing’s context, including the type of listing or stay and any relevant local considerations, and may grant exceptions to the general guidelines above based on those factors. For example, it may be reasonable to ask guests to limit shower time due to local drought-related water restrictions, or to dispose of trash in an animal-proof container in bear country.",
                 "verdict": "SUPPORTED",
@@ -210,12 +210,13 @@
                 "quotes",
                 "uncertainty"
               ],
-              "text_hash": "3552d919af996cf1609b32a5bddb516c03643e493658271662c6dcc521595911",
+              "text_hash": "5ddb91b68bd387cf873898f37bb222981db5f16abc7f0c3787974e679a7f8a49",
               "source_hash": "0011558e075a667b3ada9ba66636029fbdb57f980a6a045b5861c1e61bd36952",
               "reviewer": "Codex_FACT_STAGE",
-              "reviewed_at": "2026-10-22T02:01:40.815009+00:00",
+              "reviewed_at": "2026-10-22T02:12:53.185116+00:00",
               "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。",
-              "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。"
+              "scope_note": "PASS表示有限、归因的正文可由已读来源支持，不等于独立事实调查或新鲜度/生产资格。",
+              "wording_recheck": "洗碗后放回和带走垃圾分别对应washing and putting away dishes / taking trash offsite；仍保留预订日期、一般规则和例外，未增加事实。"
             },
             "final_reader_review": {
               "stage": "FINAL_CHINESE_READER",
@@ -224,8 +225,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:08:41.566676+00:00",
-              "input_hash": "1409364a0fd1d5346221bac351090c3cbdb93c1fc2ced3c60c72b1db706199af",
+              "reviewed_at": "2026-10-22T02:12:53.185509+00:00",
+              "input_hash": "5f052a651bb285ef2499ac06baace8b0a22bfec3b77c62cbead940a94a10c610",
               "decision": "PASS",
               "unresolved": [],
               "sentences": [
@@ -244,11 +245,11 @@
                   "reason": "家务清单划线是可懂的比喻，后句立即解释具体边界。"
                 },
                 {
-                  "text": "2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外",
+                  "text": "2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外",
                   "decision": "PASS",
                   "issues": [],
                   "background_cost": "NONE",
-                  "reason": "长句信息较密但日期、预订和例外缺一会误导，保留不压缩成标题。"
+                  "reason": "改成洗好碗再放回去、把垃圾带走后动作更自然；保留预订日期和例外，长句仍可理解。"
                 },
                 {
                   "text": "关空调、归拢毛巾仍可以要求",
@@ -298,7 +299,7 @@
                 },
                 "errors": {
                   "decision": "PASS",
-                  "quote": "2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外",
+                  "quote": "2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外",
                   "reason": "已对照官方原文：预订日期、一般规则和例外均在，未把房东请求写成已违法。"
                 }
               },
@@ -307,8 +308,14 @@
                 "reason": "对照193条历史未见同源同事件；本轮消费住宿题材只选这一篇，避免重复平台争议。"
               },
               "source_recheck_note": "原已读摘录按URL保留单一证据条目，复核逐句引用未变化；不是新事实或自动事实认证。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。"
+              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "wording_recheck": "重新逐句读改后全文，未再用作者分数；政策句仍偏密，但日期和例外不能省。保持内容PASS、生产HOLD。"
             }
+          },
+          "editor_revision": {
+            "before": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
+            "after": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
+            "issue": "洗碗归位和运出房源像规则翻译，换成具体动作，避免审核本身留下不自然中文。"
           }
         }
       ],

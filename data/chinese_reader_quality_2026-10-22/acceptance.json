@@ -139,7 +139,7 @@
     {
       "material_id": "D6641c2ca418268d1",
       "topic": "住民宿退房，哪些家务不该由客人做",
-      "text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗碗归位、拆床单或把垃圾运出房源，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
+      "text": "退房还得洗碗、拆床单？Airbnb要给这份家务清单划线了。\n2026年11月20日起预订的订单，房东一般不能要求客人洗好碗再放回去、拆床单，或把垃圾带走，特殊情形可例外。\n关空调、归拢毛巾仍可以要求。讲卫生我理解，退房前还得上个保洁班，就算了。\nhttps://www.airbnb.ca/help/article/4168",
       "source_url": "https://www.airbnb.ca/help/article/4168",
       "event_time": "2026-10-20",
       "event_time_note": "官方公告10月20日仅精确到日；政策适用11月20日起预订订单。公告日距本轮约26至50小时，不能保证小于48小时。",
@@ -158,7 +158,7 @@
       "feedback_24h": {
         "candidate_id": "QUALITY-20261022-D6641c2ca418268d1",
         "status": "AWAITING_PUBLICATION",
-        "publication_text_digest": "3552d919af996cf1609b32a5bddb516c03643e493658271662c6dcc521595911",
+        "publication_text_digest": "5ddb91b68bd387cf873898f37bb222981db5f16abc7f0c3787974e679a7f8a49",
         "preregistered_at_utc": "2026-10-22T02:01:07.585348+00:00",
         "window": "24h",
         "post_url": null,
