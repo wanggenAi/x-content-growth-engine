@@ -1463,3 +1463,8 @@ origin/main b5c922e及控制/质量已读；复用01:45素材，快速查看54�
 ## 2026-10-22T04:15:33.699378+00:00 — UTC04:00窗口实际SKIPPED
 
 已读最新origin/main b5c922e及当前控制/状态，内容产物哈希未变，5稿及既有两条消费线索保持HOLD，合格待发0。slot_check记录实际UTC04:00窗口SKIPPED/NO_REVIEWED_CONTENT；0新稿/来源复核/最终复核，不刷新原审核或采集时间。复用01:45素材、保持4小时采集及PAUSED；未访问外部账号/通道，0发布/排程，未启动反馈窗，指标null/UNKNOWN。
+
+
+## 2026-10-22T04:35:33.491613+00:00 — UTC04:20窗口实际SKIPPED
+
+最新origin/main b5c922e及当前控制/内容已读；产物哈希不变、5稿HOLD、待发0。slot_check新增实际UTC04:20窗口SKIPPED/NO_REVIEWED_CONTENT，不补发。0新稿/最终复核，不刷新旧审核；复用01:45素材，4小时采集与PAUSED不变；无外部操作/发布/排程，指标null/UNKNOWN，反馈未启动。
