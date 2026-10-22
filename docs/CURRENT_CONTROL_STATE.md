@@ -1,3 +1,9 @@
+# 2026-10-22 — 原生Computer Use已实查，内容与无人值守资格仍HOLD
+
+最新用户要求继续用既有Browser Harness和Computer Use。原生CU实查正确账号Gen @qiluo27808、Schedule post入口及官方空Scheduled列表；已核验10月16日历史帖真实详情。之前“账号UNKNOWN”是早先快照，当前账号已确认；未审全账号历史。Browser Harness本地daemon实测失败、连接0，非声称工具永久不可用。会话内用户指示的可见查看与20分钟无人值守发布资格分开，不把历史成功当X平台批准。
+
+新采集100条/4族，Codex新写ABC并逐句复核；Booking C修正付款主体后事实/中文可保留，但完整查重与当前生产竞争未完成，最终HOLD，不是正式Top1。新帖0、官方排程0、合格新入队0；暂停控制与automatic_x_submission=false不变。无新增服务/依赖/定时任务。证据：[稿件与复核](../data/operations_booking_draft_2026-10-22.json)、[UI核验追加记录](../data/operations_verification_2026-10-22.json)。
+
 # 2026-10-22 — 最新运营核验：BLOCKED
 
 用户已授权通过完整审核的普通中文帖及官方排程，无需逐篇授权。真实main/CI已核实；20分钟心跳有三次执行证据，但没有实发/官方排程回执。当前合格待发0，publication_control仍PAUSED/automatic_x_submission=false；这是通道与质量阻塞，不是缺用户授权。X官方禁止非API自动化，未核实Computer Use例外；Metricool当前无连接。未访问X账号，账号登录、最新历史和官方排程库存UNKNOWN。旧191等盘点不能冒充现时数量。

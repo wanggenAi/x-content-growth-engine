@@ -185,5 +185,32 @@
     "git_diff_check": "PASS",
     "runtime_code_changed": false,
     "operational_success": false
+  },
+  "later_user_directed_ui_verification": {
+    "observed_at_utc": "2026-10-22T13:22:18.993Z",
+    "method": "USER_DIRECTED_NATIVE_COMPUTER_USE",
+    "active_account": "qiluo27808",
+    "official_scheduled_count": 0,
+    "official_scheduled_url": "https://x.com/compose/post/unsent/scheduled",
+    "empty_state": "Hold that thought",
+    "latest_visible_profile_post_url": "https://x.com/qiluo27808/status/2110912757210173693",
+    "latest_post_display_time": "9:56 AM · Oct 16, 2026",
+    "display_time_zone": "UNKNOWN",
+    "new_publications": 0,
+    "new_schedules": 0,
+    "evidence_ref": "data/private/operations_live_2026-10-22/native_observation.json",
+    "private_screenshot_ref": "data/private/operations_live_2026-10-22/official_scheduled_empty.png",
+    "original_snapshot_preserved": true,
+    "browser_harness": "ATTEMPT_FAILED_DAEMON_NOT_ALIVE_ZERO_CONNECTIONS; no installation or cloud started",
+    "computer_use": "NATIVE_CHROME_READS_SUCCEEDED",
+    "account_capability": "SCHEDULE_POST_BUTTON_OBSERVED; scheduled tab empty",
+    "unattended_platform_permission": "NOT_VERIFIED; earlier user-directed success is not platform approval",
+    "content_artifact": "data/operations_booking_draft_2026-10-22.json",
+    "new_qualified_queue_items": 0,
+    "latest_main_ci_rechecked": {
+      "run": 39725122186,
+      "head_sha": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
+      "conclusion": "SUCCESS"
+    }
   }
 }

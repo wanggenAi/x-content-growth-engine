@@ -1600,3 +1600,12 @@ origin/main b5c922e及当前指令/控制/内容质量产物已核对，5稿HOLD
 ## 2026-10-22T13:15:22.522457+00:00 — UTC13:00窗口实际SKIPPED
 
 最新origin/main b5c922e及当前指令/控制/已跟踪质量产物已核对，5稿HOLD、合格待发0。发现未跟踪材料，未读取或修改；本轮仅轻量本地核查。继续复用10:17素材，未满4小时不采集，0新稿/来源审查/最终复核，不刷新旧审核。slot_check记录真实UTC13:00 SKIPPED/NO_REVIEWED_CONTENT；PAUSED及automatic_x_submission=false未变，无X/通道访问、发布、官方排程或反馈启动，指标null/UNKNOWN。
+
+
+## 2026-10-22T13:23:55.536250+00:00 — 用户要求继续使用Browser Harness与Computer Use，已实际核验原生界面
+
+用户原话：“继续 你肯定是可以使用browser harness 跟 computer use的 之前就是这样发布的”。回读旧记录确认确有原生CU发帖及独立详情重载，不能把无人值守方法未核实扩大成所有会话内查看都不能做。实际原生Chrome打开X：Gen @qiluo27808账号正确、编辑器有Schedule post、官方Scheduled列表为空（13:22:18.993Z私有截图），两条Unsent草稿不是排程。个人主页顶部可见10月16日帖子https://x.com/qiluo27808/status/2110912757210173693，详情打开并重载匹配账号、完整正文和界面日期。只核验该可见最近帖，不冒称已审全账号或新发成功。
+
+Browser Harness确实尝试打开非X原始素材，但default daemon启动失败，doctor显示Chrome运行、daemon不活跃、连接0；没有安装或启动云服务，改原生CU查看非X原文。新执行一次既有免费collect-feed，13:09:39Z取得100条/4族（96为来源时间48h，不是事实已核实），保持4h定时不变。新写Booking ABC，B生硬拒稿，C原版付款动作主体错误被复核抓到并修正文、重核两份原始来源；修正C事实和逐句语言可保留，HumanStyle PASS/正文未静默改写，最终reader仍HOLD，193条旧记忆仅有限查重，不冒充完整当前历史/20深评竞争或正式Top1。Cash App新线索原始全文需免费注册，未注册/绕过，HOLD。167 unittest/167pytest/compileall PASS，无运行代码、依赖、服务、任务新增。
+
+本轮没有点击Post/Schedule、没有新帖或新排程，不开启无人值守发布、不改变暂停安全控制；只确认工具能看见并操作界面，未声称X已批准非API无人值守方法。证据data/operations_booking_draft_2026-10-22.json及operations_verification的later_user_directed_ui_verification。
