@@ -1451,3 +1451,10 @@ origin/main b5c922e已fetch；PR21合并已记录，旧工程等待不再阻断�
 ## 2026-10-22T03:35:28.302981+00:00 — UTC03:20窗口实际SKIPPED
 
 origin/main b5c922e及现有控制/质量产物已核对，内容哈希不变、5稿HOLD、合格待发0。slot_check记录本次实际UTC03:20窗口SKIPPED/NO_REVIEWED_CONTENT；未补发、未刷新旧审核。采集仍复用01:45材料，4小时频率及PAUSED不变；0新稿/最终复核、0外部操作/发布/排程，未启动反馈窗，指标null/UNKNOWN。
+
+
+## 2026-10-22T03:56:24.164206+00:00 — UTC03:40窗口实际SKIPPED；两条消费线索先核再写
+
+origin/main b5c922e及控制/质量已读；复用01:45素材，快速查看54条未进入现有10题深评的媒体标题，未算作54深评。医美消费及Booking住宿两条具体线索在安全包均只有RSS标题/链接，事件日未知、fact_verification=UNVERIFIED；原报道/原始处置和范围未核，均HOLD_BEFORE_WRITING，不据标题制造伤害/违法结论。完整来源与缺口保存content_supply_last_window.source_triage。
+
+原5稿HOLD、待发0；slot_check记录本次实际UTC03:40窗口SKIPPED/NO_REVIEWED_CONTENT。0新稿/最终复核，不刷新旧审核或采集时间，4小时频率及PAUSED不变；未读取private证据、未访问外部账号/提交/排程，指标null/UNKNOWN，未启动反馈窗。
