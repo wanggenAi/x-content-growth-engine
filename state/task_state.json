@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T13:37:02.119921+00:00",
+  "updated_at": "2026-10-22T13:55:33.202065+00:00",
   "phase": "USER_DIRECTED_NATIVE_UI_VERIFIED_CONTENT_HOLD",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,17 +2158,17 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T13:37:02.119921+00:00",
-    "triggered_at": "2026-10-22T13:34:33.522Z",
+    "checked_at": "2026-10-22T13:55:33.202065+00:00",
+    "triggered_at": "2026-10-22T13:54:33.573Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "e45047cc387a6ad15d911901db4e33ed33970452",
+    "inspected_branch_head": "d90d6d192840241f9a356e9a6162422344a4cf09",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T13:20:00+00:00",
-    "slot_original_check_at": "2026-10-22T13:37:02.119921+00:00",
+    "slot": "2026-10-22T13:40:00+00:00",
+    "slot_original_check_at": "2026-10-22T13:55:33.202065+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
@@ -2177,7 +2177,7 @@
     "new_final_reviews": 0,
     "new_source_triage": 0,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "LOCAL_CONTROL_AND_NEW_TRACKED_OPERATIONS_RECEIPT_RECONCILIATION; NO_NEW_SOURCE_OR_FINAL_REVIEW",
+    "review_scope": "LOCAL_CONTROL_AND_EXISTING_TRACKED_QUALITY_ARTIFACT_CHECK_ONLY; NO_NEW_SOURCE_OR_FINAL_REVIEW",
     "last_existing_collection": "2026-10-22T13:09:39.687061Z",
     "collector_run": false,
     "collection_cadence_hours": 4,
@@ -2192,10 +2192,11 @@
     "C390": "REJECT_PRESERVED",
     "private_key_language_negative": "REJECT_PRESERVED",
     "feedback_windows_started": 0,
-    "content_artifacts_changed_since_previous_window": true,
+    "content_artifacts_changed_since_previous_window": false,
     "evidence_hashes": {
       "data/chinese_reader_quality_2026-10-22/acceptance.json": "85927b62942cfd14a8a8d3058f57a1506694d3f829efa2ec1f78292430ffd3c2",
-      "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57"
+      "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57",
+      "data/operations_booking_draft_2026-10-22.json": "335314dc736ab3155eddc7bb47d40d342413bd59a5d146e644d9810a2b3e1095"
     },
     "cached_media_titles_scanned": 0,
     "source_triage": [],
