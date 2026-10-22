@@ -87,3 +87,8 @@ The user explicitly requested continued research until justified confidence befo
 ## 2026-10-09T02:24:58.079200Z — 用户恢复持续发布授权（覆盖旧仅反馈限制）
 
 用户直接原话：「为什么不持续发送？？？？ 发新帖子啊 别不发啊」。持续普通公开新帖发布已获授权，旧PUBLICATION_PAUSED_FOR_LEARNING、heartbeat不能提交及只限C359单条的控制不再作为全局阻塞。继续非X公开材料研究、事实核验、强材料筛选、查重、唯一主动作和预注册反馈实验；用户已免除逐条亲自正文审核，代理核验记agent_checked，human_checked不得伪填。内容机器门槛保留，既有校验器要求human_checked导致的形式不READY必须显式记为用户审核豁免，不能假称完全通过或改值伪装。只能用用户自己的Gen @qiluo27808本机原生可见Chrome编辑器逐条核对、一次提交、独立公开详情重载与来源目标核验；结果不明先查原帖，不能盲重发。每轮最多5条，不硬凑，不因反馈缺失停发。其他账号、API/DOM/隐藏请求/Cookie/社交抓取、自动私信/回复/关注/点赞、私密或高影响通信均不在本次普通发帖授权内。质量条件/安全边界继续，F01-F05保持HYPOTHESIS，历史数量只作盘点。自动化x已从PAUSED改ACTIVE，保留5分钟唤醒与失败才提醒，任务改为持续合格选题发布及独立反馈学习。
+
+
+## 2026-10-22T13:23:55.536250+00:00 — latest bounded native UI inspection
+
+User again requested Browser Harness and Computer Use, citing prior successful native publishing. Prior native publications are historical evidence, not platform permission. A bounded user-directed native Chrome inspection now actually verified Gen @qiluo27808, the Schedule post button, an empty official Scheduled tab, and the existing October16 post after detail reload. No new post or schedule was submitted. No X CDP/DOM/script/Cookie/hidden request was used. Browser Harness was attempted only for a non-X public original and failed to start its default daemon; diagnostics showed zero connections. The native Computer Use fallback read public originals; a free-registration wall was respected. No cloud browser, integration or subscription was started. Platform permission for repeated unattended non-API publishing remains unverified; this record must not be promoted to blanket automated publishing approval.

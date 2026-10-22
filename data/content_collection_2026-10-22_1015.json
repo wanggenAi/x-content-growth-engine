@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-22T10:18:27.937174+00:00",
+  "collection_as_of": "2026-10-22T10:15:06.859585Z",
+  "completed_at": "2026-10-22T10:17:23.981540Z",
+  "interval_since_previous_completion_hours": 4.282769977222222,
+  "existing_command": "python3 -m growth_engine collect-feed --limit 100 (ignored output root)",
+  "raw_packet_ref": "data/private/content_window_20261022_1000/collection/latest.json",
+  "raw_packet_sha256": "e099f814258e7814eed2a50eda39010d77429f5ad7a8aec0210c1d5dd39db4ef",
+  "returned_materials": 100,
+  "source_families": [
+    "CHINESE_MEDIA",
+    "GITHUB",
+    "HACKER_NEWS",
+    "NEWS_MEDIA",
+    "TELEGRAM"
+  ],
+  "overlap_material_ids_with_prior_packet": 15,
+  "collection": {
+    "latest_run_completed_at": "2026-10-22T10:17:23.981540Z",
+    "attempted_sources": 47,
+    "unique_sources": 19,
+    "source_families": [
+      "CHINESE_MEDIA",
+      "GITHUB",
+      "HACKER_NEWS",
+      "NEWS_MEDIA",
+      "TELEGRAM"
+    ],
+    "collected": 214,
+    "returned": 100,
+    "duplicates": 0,
+    "duplicate_ratio": 0.0,
+    "under24h": 99,
+    "between24and48h": 0,
+    "unknown_time": 0
+  },
+  "errors": [],
+  "collector_health": {
+    "status": "HEALTHY",
+    "reasons": [],
+    "completion_age_hours": 0,
+    "source_family_count": 5,
+    "under48h": 99
+  },
+  "scope": "DISCOVERY_ONLY; source timestamps are not verified event dates; retrieval not corroboration",
+  "lead_triage": [
+    {
+      "material_id": "D311aaf3db8617377",
+      "source_url": "https://t.me/DNYQWCG/263810",
+      "topic": "苹果卡口就医线索",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "转发题注缺原始报道、事件日期与完整上下文；未看视频，不把诊断、现场动作或地域当已核事实，不传播个人医疗细节。"
+    },
+    {
+      "material_id": "D1568b74f9f47ae5d",
+      "source_url": "https://t.me/DNYQWCG/263809",
+      "topic": "婚礼致辞线索",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "未取得完整原始致辞、婚礼日期及本人上下文；不把题注的关系暗示当事实，不截句放大争议。"
+    },
+    {
+      "material_id": "D6c2c1b4ed7591aec",
+      "source_url": "https://chinadigitaltimes.net/chinese/733121.html",
+      "topic": "历史404芯片材料",
+      "status": "HOLD_BEFORE_WRITING",
+      "reason": "标题明确回溯2022年10月21日，不能以2026年feed发布时间当今日新事件；原始正文未核，不作新突破或新删除指控。"
+    }
+  ],
+  "deep_reviews_added": 0,
+  "drafts_added": 0,
+  "ready": 0,
+  "published": 0,
+  "scheduled": 0,
+  "metrics": null,
+  "growth": "UNKNOWN",
+  "publication_triggered": false,
+  "automatic_x_submission": false,
+  "new_dependencies_services_schedulers": 0
+}

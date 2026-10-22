@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-22T06:37:09.816927+00:00",
+  "scope": "CACHED_FEED_LEAD_SOURCE_AND_EVENT_DATE_TRIAGE; NOT_DRAFT_OR_FINAL_REVIEW",
+  "material_id": "Dd5877205843c9a38",
+  "source_url": "https://www.chinanews.com.cn/sh/2026/10-22/10718830.shtml",
+  "source_published_at": "2026-10-22T07:42:00+08:00",
+  "source_publication_precision": "MINUTE_DISPLAYED",
+  "source_attribution": "法治日报；记者陈磊；中新网页面转载",
+  "original_outlet_article_url": null,
+  "event_dates": {
+    "ticket_cancellation_request": "2026-09-23",
+    "interview_date": "2026-10-13"
+  },
+  "finding": "新发布的报道包含9月退票纠纷；不能用10月22日转载/采集时间将个案包装成今天发生。",
+  "appeal_judgment": "退票材料要求与现实行程错位，普通读者可以理解；吸引力不能替代事件日期和原始出处核验。",
+  "decision": "HOLD_BEFORE_WRITING",
+  "hold_reasons": [
+    "CASE_OLDER_THAN_48H",
+    "ORIGINAL_OUTLET_URL_NOT_VERIFIED",
+    "FULL_PUBLICATION_HISTORY_DUPLICATION_NOT_REVIEWED",
+    "FULL_30_20_10_4_COMPETITION_NOT_COMPLETED"
+  ],
+  "history_check": {
+    "scope": "TRACKED_SAFE_DATA_AND_DOCS_TEXT_ONLY; private and untracked material excluded",
+    "exact_url_previous_matches": [
+      "data/chinese_reader_quality_2026-10-22/source_packet.json"
+    ],
+    "interpretation": "旧素材池已有同一URL；本轮不算新发现、不宣称已完成全文历史查重。"
+  },
+  "raw_capture_ref": "data/private/content_window_20261022_0620/airline_article.html",
+  "raw_sha256": "045fac9bda7c0715ea0e44ecb7e0b24689e20185a5db44f7f4c92003eddbeb20",
+  "draft_text": null,
+  "fact_review": "SOURCE_DATE_TRIAGE_ONLY_NOT_COMPLETE_FACT_PASS",
+  "language_review": "NOT_APPLICABLE_NO_DRAFT",
+  "final_reader_review": null,
+  "new_drafts": 0,
+  "new_final_reviews": 0,
+  "ready": 0,
+  "published": 0,
+  "scheduled": 0,
+  "metrics": null,
+  "growth": "UNKNOWN"
+}

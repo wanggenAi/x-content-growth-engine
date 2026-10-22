@@ -1015,3 +1015,30 @@ PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8f
 
 
 合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。
+
+
+## 2026-10-22T02:32:57.515727+00:00 — 真实运营验收：BLOCKED，不冒充发帖成功
+
+最新用户要求核验并通过合规通道执行已授权的每20分钟发布，禁止非API网站自动化或规避规则；不要求重复逐篇授权。远端main b5c922e、PR20已合并、main CI39711093232 SUCCESS已实查。官方automation规则仍禁止非API自动化，未发现Computer Use例外；Metricool实查无任何社交网络连接。因此不访问X账号、不尝试提交/排程，登录账号、最新账号帖子与官方排程清单均UNKNOWN，不能沿用本地191等旧盘点。最近三个真实heartbeat触发为09:34:30/09:54:30/10:14:30（北京时间），分别通道跳过、生活草稿HOLD、五稿HOLD；无外部操作回执，不是连续实发。当前会话调用现有slot_check真实记SKIPPED/NO_REVIEWED_CONTENT；合格待发0，本轮核验新增已发0/官方排程0。
+
+现有20分钟心跳保留，已移除“等待PR21工程完成”的过时条件，继续严格内容供应与条件运营核验，仍不是自动发布器。不新增任务/服务/依赖/购买，不改变4小时采集。最新01:45素材池100条复用；Sierra原文实开为10月6日，拒绝当新事件；夜市视频缺原始日期/上下文，不晋级。既有五稿全部HOLD，私钥病句与C390否定保留。Mac关机后本地任务不能继续，未核实任何可远端执行的官方排程；真实流量和24h指标UNKNOWN。详见data/operations_verification_2026-10-22.json。
+
+
+## 2026-10-22T02:37:06.107083Z — 每20分钟内容质量与条件运营（覆盖旧工程等待）
+
+最新心跳明确PR21已合并，继续内容工作；用户普通原创帖/官方排程授权有效但执行必须有适用官方许可与已验证合规通道，当前仍PAUSED、automatic_x_submission=false，不能把Computer Use可见点击当规则例外。复用已有规则核验与连接结果，不重复打开账号测试；20分钟最多一篇、0合格可SKIPPED，采集仍4小时。
+
+本轮核对origin/main与当前控制、稿件，四条既有线索因旧事件或原摘录/日期不足HOLD，正式待发0。现有slot_check幂等返回已记录02:20窗口SKIPPED；没有新实发/官方排程/指标。未开发通道、未访问X，旧病句/C390 REJECT保留，无需用户重新逐篇授权。
+
+
+## 2026-10-22T13:23:55.536250+00:00 — 用户要求继续使用Browser Harness与Computer Use，已实际核验原生界面
+
+用户原话：“继续 你肯定是可以使用browser harness 跟 computer use的 之前就是这样发布的”。回读旧记录确认确有原生CU发帖及独立详情重载，不能把无人值守方法未核实扩大成所有会话内查看都不能做。实际原生Chrome打开X：Gen @qiluo27808账号正确、编辑器有Schedule post、官方Scheduled列表为空（13:22:18.993Z私有截图），两条Unsent草稿不是排程。个人主页顶部可见10月16日帖子https://x.com/qiluo27808/status/2110912757210173693，详情打开并重载匹配账号、完整正文和界面日期。只核验该可见最近帖，不冒称已审全账号或新发成功。
+
+Browser Harness确实尝试打开非X原始素材，但default daemon启动失败，doctor显示Chrome运行、daemon不活跃、连接0；没有安装或启动云服务，改原生CU查看非X原文。新执行一次既有免费collect-feed，13:09:39Z取得100条/4族（96为来源时间48h，不是事实已核实），保持4h定时不变。新写Booking ABC，B生硬拒稿，C原版付款动作主体错误被复核抓到并修正文、重核两份原始来源；修正C事实和逐句语言可保留，HumanStyle PASS/正文未静默改写，最终reader仍HOLD，193条旧记忆仅有限查重，不冒充完整当前历史/20深评竞争或正式Top1。Cash App新线索原始全文需免费注册，未注册/绕过，HOLD。167 unittest/167pytest/compileall PASS，无运行代码、依赖、服务、任务新增。
+
+本轮没有点击Post/Schedule、没有新帖或新排程，不开启无人值守发布、不改变暂停安全控制；只确认工具能看见并操作界面，未声称X已批准非API无人值守方法。证据data/operations_booking_draft_2026-10-22.json及operations_verification的later_user_directed_ui_verification。
+
+
+## 2026-10-22T14:27:13.480512+00:00 — 发布催促与真实执行状态
+原话：“快点给我发布啊”。沿用本人普通公开帖授权，无需逐篇重复确认。当前新稿已完成生产干跑并填入正确账号原生编辑器；没有点击Post，没有真实新增帖子链接，不能声称发布成功。先前用户同时要求禁止非API网站自动化并遵守平台规则；重新打开官方自动化页，未发现Computer Use明确例外，不能以工具可点击伪填合规通道。保留暂停和自动提交false，等待用户本人在已准备的原生编辑器提交或经验证的合规通道。英文原文冲突证据识别缺陷已最小修复，不改变八维权重、不增加评分器。

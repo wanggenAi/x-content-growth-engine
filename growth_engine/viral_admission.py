@@ -136,7 +136,10 @@ def validate_deep_review(material: dict) -> dict:
     if surprise.get("rating", 0) >= 2 and not grounded_contrast and not re.search(r"却|反而|结果|原本|没想到|先.{1,20}再|以前.{1,30}现在", surprise.get("evidence", "")):
         reasons.append("UNSUPPORTED_DIMENSION_EVIDENCE:surprise")
     conflict = review.get("conflict") or {}
-    if conflict.get("rating", 0) >= 2 and not re.search(r"拒绝|争议|分账|不同意|承担|责任|冲突|一方|另一方|老板|员工|朋友", conflict.get("evidence", "")):
+    if conflict.get("rating", 0) >= 2 and not re.search(
+            r"拒绝|争议|分账|不同意|承担|责任|冲突|一方|另一方|老板|员工|朋友"
+            r"|\b(?:disputed claims|opposed|disagreed|refused)\b",
+            conflict.get("evidence", ""), re.I):
         reasons.append("UNSUPPORTED_DIMENSION_EVIDENCE:conflict")
     reply = review.get("reply_potential") or {}; branches = review.get("possible_reply_branches")
     if reply.get("rating", 0) >= 2 and (not isinstance(branches, list) or len({str(x).strip() for x in branches if str(x).strip()}) < 2):

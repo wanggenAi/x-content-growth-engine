@@ -16,6 +16,19 @@ from tests.topic_helpers import AS_OF, material
 
 
 class ContentReviewTests(unittest.TestCase):
+    def test_english_conflict_evidence_still_needs_grounded_editor_review(self):
+        m = material()
+        proof = 'Drivers disputed claims their horses are mistreated.'
+        m['source']['evidence_text'] += '\n' + proof
+        m['review']['conflict'].update(rating=2, evidence=proof,
+                                      reason='车夫与支持禁令者存在双方利益冲突，需要保留两方的真实立场。')
+        self.assertNotIn('UNSUPPORTED_DIMENSION_EVIDENCE:conflict', validate_deep_review(m)['reasons'])
+        m['review']['conflict']['evidence'] = 'Drivers discussed their work.'
+        m['source']['evidence_text'] += '\nDrivers discussed their work.'
+        self.assertIn('UNSUPPORTED_DIMENSION_EVIDENCE:conflict', validate_deep_review(m)['reasons'])
+        m['review']['conflict']['evidence'] = 'Other people opposed the plan.'
+        self.assertIn('MISSING_GROUNDED_REVIEW:conflict', validate_deep_review(m)['reasons'])
+
     def test_final_live_competition_keeps_veto_and_checks_authored_held_story(self):
         root = Path('data/content_competition_v4_final_2026-10-21')
         feed = json.loads((root/'source_packet.json').read_text())

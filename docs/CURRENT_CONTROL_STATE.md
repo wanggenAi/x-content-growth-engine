@@ -1,3 +1,19 @@
+# 2026-10-22T14:27:13.480512+00:00 — 新稿已在原生编辑器，实际发布仍0
+
+100新采集/20有效深评/20源时间48h内/4族，Top1为釜山鲨鱼救援后次日返回。C版事实、逐句中文、Reader、Human Style、Editorial、exact-text Prepublish dry-run PASS；B因不妥玩笑HOLD。队列新增1 REVIEWED，真实SCHEDULED/PUBLISHED均0。原生编辑器全文已核对一致，Post未点击；live preflight仍因NO_VERIFIED_COMPLIANT_FREE_TRANSPORT失败，暂停不改。零新增依赖、常驻服务和任务；168 unittest/168pytest/compileall通过。见[data/operations_shark_2026-10-22.json](../data/operations_shark_2026-10-22.json)。以下保留历史检查记录，不冒充当前仍无稿。
+
+# 2026-10-22 — 原生Computer Use已实查，内容与无人值守资格仍HOLD
+
+最新用户要求继续用既有Browser Harness和Computer Use。原生CU实查正确账号Gen @qiluo27808、Schedule post入口及官方空Scheduled列表；已核验10月16日历史帖真实详情。之前“账号UNKNOWN”是早先快照，当前账号已确认；未审全账号历史。Browser Harness本地daemon实测失败、连接0，非声称工具永久不可用。会话内用户指示的可见查看与20分钟无人值守发布资格分开，不把历史成功当X平台批准。
+
+新采集100条/4族，Codex新写ABC并逐句复核；Booking C修正付款主体后事实/中文可保留，但完整查重与当前生产竞争未完成，最终HOLD，不是正式Top1。新帖0、官方排程0、合格新入队0；暂停控制与automatic_x_submission=false不变。无新增服务/依赖/定时任务。证据：[稿件与复核](../data/operations_booking_draft_2026-10-22.json)、[UI核验追加记录](../data/operations_verification_2026-10-22.json)。
+
+# 2026-10-22 — 最新运营核验：BLOCKED
+
+用户已授权通过完整审核的普通中文帖及官方排程，无需逐篇授权。真实main/CI已核实；20分钟心跳有三次执行证据，但没有实发/官方排程回执。当前合格待发0，publication_control仍PAUSED/automatic_x_submission=false；这是通道与质量阻塞，不是缺用户授权。X官方禁止非API自动化，未核实Computer Use例外；Metricool当前无连接。未访问X账号，账号登录、最新历史和官方排程库存UNKNOWN。旧191等盘点不能冒充现时数量。
+
+已有心跳移除PR21过时工程等待，维持20分钟严格质量与条件运营核验；不开发发布框架、不新增任务，不绕平台规则。五篇旧稿全HOLD；本会话仅记真实SKIPPED，无发布。Mac关机后本地任务不运行，官方排程无确认；真实增长UNKNOWN。证据：[运营核验](../data/operations_verification_2026-10-22.json)。
+
 合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。
 
 # 2026-10-22 中文质量优先，内容供应与发布分离
