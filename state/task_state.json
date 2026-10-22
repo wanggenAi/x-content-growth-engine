@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T06:00:13.512009+00:00",
+  "updated_at": "2026-10-22T06:17:23.457065+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,28 +2158,28 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T06:00:13.512009+00:00",
-    "triggered_at": "2026-10-22T05:54:31.765Z",
+    "checked_at": "2026-10-22T06:17:23.457065+00:00",
+    "triggered_at": "2026-10-22T06:14:31.839Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "d3ee4aa2fd217af6ac26d7a101cd107aad5c1c3b",
+    "inspected_branch_head": "477380f0b4e76856ea409b26435346d73a2396b2",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
     "slot": "2026-10-22T06:00:00+00:00",
     "slot_original_check_at": "2026-10-22T06:00:13.512009+00:00",
-    "slot_added": true,
-    "queue_changed": true,
+    "slot_added": false,
+    "queue_changed": false,
     "existing_drafts_formal_hold": 5,
     "queue_ready": 0,
     "new_drafts": 0,
     "new_final_reviews": 0,
-    "new_source_triage": 3,
+    "new_source_triage": 0,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "FOUR_HOUR_DISCOVERY_REFRESH_AND_SOURCE_AVAILABILITY_TRIAGE; NO_NEW_DEEP_OR_FINAL_APPROVAL",
+    "review_scope": "LOCAL_CONTROL_AND_EXISTING_QUALITY_ARTIFACT_CHECK_ONLY; NO_NEW_SOURCE_OR_FINAL_REVIEW",
     "last_existing_collection": "2026-10-22T05:55:52.144186Z",
-    "collector_run": true,
+    "collector_run": false,
     "collection_cadence_hours": 4,
     "x_or_transport_accessed": false,
     "platform_permission_or_configuration_change_evidence": null,
@@ -2198,29 +2198,7 @@
       "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57"
     },
     "cached_media_titles_scanned": 0,
-    "source_triage": [
-      {
-        "material_id": "Dc66f08578d96c8d8",
-        "source_url": "https://t.me/iizuk/185237",
-        "topic": "银行App广告弹窗线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "公开转述题注尚无完整原始录屏、当事人出处或银行回应核验；次数/事件日不当作已核事实。附带t.co链接未访问，不自动跳转X。"
-      },
-      {
-        "material_id": "Dfa3b6bd5e1403586",
-        "source_url": "https://t.me/DNYQWCG/263727",
-        "topic": "婚礼立牌澄清线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "转发时间不等于婚礼或澄清发生时间；当事人完整原视频和上下文未核，未观看，不写视频显示或归责。"
-      },
-      {
-        "material_id": "D4e461a1c41db3592",
-        "source_url": "https://t.me/iizuk/185225",
-        "topic": "巴黎动漫店损失自述线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "只有转述题注，店主原始自述、监控、时间地点和后续未核；不把经营年数、损失或与抗议的因果当事实。"
-      }
-    ],
+    "source_triage": [],
     "last_collection_completed_at": "2026-10-22T05:58:08.887667Z",
     "collection_summary_ref": "data/content_collection_2026-10-22_0555.json"
   },
