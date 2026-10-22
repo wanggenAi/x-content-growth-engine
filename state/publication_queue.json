@@ -275,6 +275,14 @@
       "reason": "NO_REVIEWED_CONTENT",
       "candidate_id": null,
       "external_action": false
+    },
+    {
+      "slot": "2026-10-22T10:40:00+00:00",
+      "checked_at": "2026-10-22T10:55:19.490872+00:00",
+      "status": "SKIPPED",
+      "reason": "NO_REVIEWED_CONTENT",
+      "candidate_id": null,
+      "external_action": false
     }
   ]
 }
