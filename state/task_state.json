@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T13:23:55.536250+00:00",
+  "updated_at": "2026-10-22T13:37:02.119921+00:00",
   "phase": "USER_DIRECTED_NATIVE_UI_VERIFIED_CONTENT_HOLD",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,17 +2158,17 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T13:15:22.522457+00:00",
-    "triggered_at": "2026-10-22T13:14:33.390Z",
+    "checked_at": "2026-10-22T13:37:02.119921+00:00",
+    "triggered_at": "2026-10-22T13:34:33.522Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "ffec69316c2dd57d848ad86a393e8c39ed141403",
+    "inspected_branch_head": "e45047cc387a6ad15d911901db4e33ed33970452",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T13:00:00+00:00",
-    "slot_original_check_at": "2026-10-22T13:15:22.522457+00:00",
+    "slot": "2026-10-22T13:20:00+00:00",
+    "slot_original_check_at": "2026-10-22T13:37:02.119921+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
@@ -2177,8 +2177,8 @@
     "new_final_reviews": 0,
     "new_source_triage": 0,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "LOCAL_CONTROL_AND_EXISTING_TRACKED_QUALITY_ARTIFACT_CHECK_ONLY; UNTRACKED_USER_MATERIAL_NOT_READ; NO_NEW_SOURCE_OR_FINAL_REVIEW",
-    "last_existing_collection": "2026-10-22T10:15:06.859585Z",
+    "review_scope": "LOCAL_CONTROL_AND_NEW_TRACKED_OPERATIONS_RECEIPT_RECONCILIATION; NO_NEW_SOURCE_OR_FINAL_REVIEW",
+    "last_existing_collection": "2026-10-22T13:09:39.687061Z",
     "collector_run": false,
     "collection_cadence_hours": 4,
     "x_or_transport_accessed": false,
@@ -2192,15 +2192,19 @@
     "C390": "REJECT_PRESERVED",
     "private_key_language_negative": "REJECT_PRESERVED",
     "feedback_windows_started": 0,
-    "content_artifacts_changed_since_previous_window": false,
+    "content_artifacts_changed_since_previous_window": true,
     "evidence_hashes": {
       "data/chinese_reader_quality_2026-10-22/acceptance.json": "85927b62942cfd14a8a8d3058f57a1506694d3f829efa2ec1f78292430ffd3c2",
       "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57"
     },
     "cached_media_titles_scanned": 0,
     "source_triage": [],
-    "last_collection_completed_at": "2026-10-22T10:17:23.981540Z",
-    "collection_summary_ref": "data/content_collection_2026-10-22_1015.json"
+    "last_collection_completed_at": null,
+    "collection_summary_ref": "data/operations_booking_draft_2026-10-22.json",
+    "additional_existing_hold_ref": "data/operations_booking_draft_2026-10-22.json",
+    "account_evidence_reused": true,
+    "account_verification_observed_at": "2026-10-22T13:22:18.993Z",
+    "official_schedule_count_at_prior_observation": 0
   },
   "operations_verification_2026_10_22": {
     "checked_at": "2026-10-22T02:32:57.515727+00:00",
@@ -2215,83 +2219,22 @@
     "continuous_real_publication_verified": false
   },
   "latest_content_collection": {
-    "checked_at": "2026-10-22T10:18:27.937174+00:00",
-    "collection_as_of": "2026-10-22T10:15:06.859585Z",
-    "completed_at": "2026-10-22T10:17:23.981540Z",
-    "interval_since_previous_completion_hours": 4.282769977222222,
-    "existing_command": "python3 -m growth_engine collect-feed --limit 100 (ignored output root)",
-    "raw_packet_ref": "data/private/content_window_20261022_1000/collection/latest.json",
-    "raw_packet_sha256": "e099f814258e7814eed2a50eda39010d77429f5ad7a8aec0210c1d5dd39db4ef",
+    "checked_at": "2026-10-22T13:37:02.119921+00:00",
+    "collection_as_of": "2026-10-22T13:09:39.687061Z",
+    "completed_at": null,
+    "completion_time_status": "EXACT_TIME_UNKNOWN; completed collection documented by tracked user-directed operations receipt",
+    "completion_confirmed_by": "2026-10-22T13:37:02.119921+00:00",
+    "next_automatic_collection_not_before": "2026-10-22T17:37:02.119921+00:00",
     "returned_materials": 100,
-    "source_families": [
-      "CHINESE_MEDIA",
-      "GITHUB",
-      "HACKER_NEWS",
-      "NEWS_MEDIA",
-      "TELEGRAM"
-    ],
-    "overlap_material_ids_with_prior_packet": 15,
-    "collection": {
-      "latest_run_completed_at": "2026-10-22T10:17:23.981540Z",
-      "attempted_sources": 47,
-      "unique_sources": 19,
-      "source_families": [
-        "CHINESE_MEDIA",
-        "GITHUB",
-        "HACKER_NEWS",
-        "NEWS_MEDIA",
-        "TELEGRAM"
-      ],
-      "collected": 214,
-      "returned": 100,
-      "duplicates": 0,
-      "duplicate_ratio": 0.0,
-      "under24h": 99,
-      "between24and48h": 0,
-      "unknown_time": 0
-    },
-    "errors": [],
-    "collector_health": {
-      "status": "HEALTHY",
-      "reasons": [],
-      "completion_age_hours": 0,
-      "source_family_count": 5,
-      "under48h": 99
-    },
-    "scope": "DISCOVERY_ONLY; source timestamps are not verified event dates; retrieval not corroboration",
-    "lead_triage": [
-      {
-        "material_id": "D311aaf3db8617377",
-        "source_url": "https://t.me/DNYQWCG/263810",
-        "topic": "苹果卡口就医线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "转发题注缺原始报道、事件日期与完整上下文；未看视频，不把诊断、现场动作或地域当已核事实，不传播个人医疗细节。"
-      },
-      {
-        "material_id": "D1568b74f9f47ae5d",
-        "source_url": "https://t.me/DNYQWCG/263809",
-        "topic": "婚礼致辞线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "未取得完整原始致辞、婚礼日期及本人上下文；不把题注的关系暗示当事实，不截句放大争议。"
-      },
-      {
-        "material_id": "D6c2c1b4ed7591aec",
-        "source_url": "https://chinadigitaltimes.net/chinese/733121.html",
-        "topic": "历史404芯片材料",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "标题明确回溯2022年10月21日，不能以2026年feed发布时间当今日新事件；原始正文未核，不作新突破或新删除指控。"
-      }
-    ],
-    "deep_reviews_added": 0,
-    "drafts_added": 0,
-    "ready": 0,
-    "published": 0,
-    "scheduled": 0,
-    "metrics": null,
-    "growth": "UNKNOWN",
+    "source_family_count": 4,
+    "raw_packet_ref": "data/private/operations_live_2026-10-22/feed/latest.json",
+    "source_report_ref": "data/operations_booking_draft_2026-10-22.json",
+    "previous_timed_collection_report_ref": "data/content_collection_2026-10-22_1015.json",
+    "scope": "USER_DIRECTED_COLLECTION_RECEIPT_REUSED; RAW_PRIVATE_PACKET_NOT_READ_THIS_WINDOW",
     "publication_triggered": false,
     "automatic_x_submission": false,
-    "new_dependencies_services_schedulers": 0
+    "metrics": null,
+    "growth": "UNKNOWN"
   },
   "native_ui_followup_2026_10_22": {
     "checked_at": "2026-10-22T13:22:18.993Z",
