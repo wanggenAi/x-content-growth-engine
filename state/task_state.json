@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-21T14:07:32.243243+00:00",
-  "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
+  "updated_at": "2026-10-22T02:15:59.365941Z",
+  "phase": "CONTENT_ONLY_CHINESE_QUALITY_REVIEW",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -192,7 +192,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "New explicit X publication authorization required; refresh competition and exact-text checks before qualified visible manual route. Future feedback must retain real publication/observation times; no fabricated24h data.",
+  "next_action": "只继续真实原始来源选题与逐句中文复核；允许0篇；用户另行安排Computer Use发布，不开发发布通道。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -862,7 +862,7 @@
   "ready_count": 0,
   "rolling_work_queue_count": 365,
   "latest_candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
-  "latest_candidate_status": "READY_CANDIDATE_DRY_RUN",
+  "latest_candidate_status": "HOLD_QUALITY_AND_PRODUCTION_REVIEW",
   "latest_candidate_checked_at": "2026-10-21T12:48:06.609541Z",
   "community_publication_batch7": {
     "ids": [
@@ -2075,5 +2075,107 @@
     "main_ci_conclusion": "SUCCESS",
     "skipped_slots": 2,
     "publication_status": "TRANSPORT_BLOCKED"
+  },
+  "content_supply_checkpoint_2026_10_22": {
+    "checked_at": "2026-10-22T01:59:14.713490Z",
+    "scope": "CONTENT_SUPPLY_AND_QUALITY_ONLY",
+    "base_main": "6d6e19cf0abc72cfc6b11895ab840f3f07a92d8a",
+    "engineering_branch": "feature/chinese-reader-quality",
+    "engineering_state": "UNCOMMITTED_ENGINEERING_CHANGES_PRESENT; untouched",
+    "new_drafts": 1,
+    "ready": 0,
+    "hold": 1,
+    "artifact": "data/content_check_2026-10-22_0154/review.json",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "rejected_language": "有把私钥竟然是4",
+    "previous_candidate_override": {
+      "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
+      "verdict": "HOLD_USER_REJECTED_LANGUAGE",
+      "scope": "原A正文不能沿用历史dry-run通过状态作为当前合格稿；不否定已核实事实本身。",
+      "competition_as_of_unchanged": "2026-10-21T12:36:09.598620Z"
+    },
+    "other_lead_dispositions": [
+      {
+        "material_id": "D89df0466c0435c56",
+        "decision": "HOLD",
+        "reason": "既有摘录是个人游记且旅程日期未知；无本轮全文/原始发布日核对，不把10月21日feed当出行日。"
+      },
+      {
+        "material_id": "Dde60a44e35e3d849",
+        "decision": "HOLD",
+        "reason": "750人实验只取得媒体摘录，原论文未核；不能由实验推出生活中的人必然加码违规。"
+      },
+      {
+        "material_id": "D1919889cd7f22b4a",
+        "decision": "HOLD",
+        "reason": "现有摘录未包含摘要中的1968年法律句，不能照抄未经对应的法规范围；不提供逃生建议。"
+      }
+    ],
+    "transport_checked": false,
+    "x_accessed": false,
+    "queue_or_publication_control_changed": false,
+    "collector_run": false,
+    "collection_cadence_hours": 4,
+    "models_services_dependencies_schedulers_added": 0,
+    "published": 0,
+    "scheduled": 0,
+    "metrics": null,
+    "growth": "UNKNOWN",
+    "c390": "REJECT_UNCHANGED",
+    "formula_F01_F05": "HYPOTHESIS_UNCHANGED"
+  },
+  "chinese_reader_quality_2026_10_22": {
+    "baseline_main": "6d6e19cf0abc72cfc6b11895ab840f3f07a92d8a",
+    "report": "docs/CHINESE_READER_QUALITY_2026-10-22.md",
+    "artifact_root": "data/chinese_reader_quality_2026-10-22",
+    "new_collected": 100,
+    "independent_materials": 102,
+    "directions": 10,
+    "actual_posts": 5,
+    "source_and_reader_pass": 2,
+    "formal_ready": 0,
+    "same_agent_limitation": true,
+    "tests": 167,
+    "new_dependencies": 0,
+    "new_services": 0,
+    "new_schedules": 0,
+    "growth": "UNKNOWN",
+    "published": 0,
+    "scheduled": 0,
+    "C390": "REJECT_PRESERVED",
+    "private_key_negative": "REJECT_PRESERVED",
+    "status": "PR_OPEN_LOCAL_167_TESTS_PASSED",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21"
+  },
+  "content_supply_last_window": {
+    "checked_at": "2026-10-22T02:15:59.365941Z",
+    "triggered_at": "2026-10-22T02:14:30.915Z",
+    "scope": "CONTENT_SUPPLY_AND_QUALITY_ONLY",
+    "origin_main": "6d6e19cf0abc72cfc6b11895ab840f3f07a92d8a",
+    "inspected_branch_head": "581d5fca9fcac7f0d48acfcb18987eab72799a94",
+    "engineering_state": "PR21_BRANCH_PENDING_WITH_UNCOMMITTED_CHANGES",
+    "decision": "HOLD_WAIT_FOR_ENGINEERING_COMPLETION",
+    "acceptance_ref": "data/chinese_reader_quality_2026-10-22/acceptance.json",
+    "acceptance_sha256": "d91a45244f932106aa08d73769f7148230caee8dce7ab607b8e6d6be422c73fb",
+    "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
+    "existing_drafts_checked": 5,
+    "existing_drafts_formal_hold": 5,
+    "queue_ready": 0,
+    "new_drafts": 0,
+    "new_final_reviews": 0,
+    "review_scope": "EXISTING_STATUS_CHECK_ONLY; existing same-agent reviews not repeated or promoted",
+    "previous_saxophone_draft": "HOLD_UNCHANGED",
+    "collector_run": false,
+    "last_existing_collection": "2026-10-22T01:45:40.384404Z",
+    "collection_cadence_hours": 4,
+    "x_or_transport_accessed": false,
+    "queue_or_controls_changed": false,
+    "code_or_engineering_artifacts_changed": false,
+    "published": 0,
+    "scheduled": 0,
+    "metrics": null,
+    "growth": "UNKNOWN",
+    "user_language_negative": "REJECT_PRESERVED",
+    "C390": "REJECT_PRESERVED"
   }
 }

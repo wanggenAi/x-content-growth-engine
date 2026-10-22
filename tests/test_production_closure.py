@@ -24,10 +24,10 @@ def inputs():
 
 
 class ProductionClosureTests(unittest.TestCase):
-    def test_real_winner_reaches_existing_gates_without_authorizing_publication(self):
+    def test_historical_self_pass_cannot_grant_new_content_readiness(self):
         feed, reviews = inputs()
         result = production_dry_run(feed, reviews)
-        self.assertEqual(result["final_status"], "READY_CANDIDATE_DRY_RUN")
+        self.assertNotEqual(result["final_status"], "READY_CANDIDATE_DRY_RUN")
         ranking = result["ranking"]
         self.assertGreaterEqual(ranking["candidate_count"], 30)
         self.assertGreaterEqual(ranking["reviewed_source_count"], 20)
@@ -37,8 +37,8 @@ class ProductionClosureTests(unittest.TestCase):
         candidate = closure["candidate"]
         self.assertEqual(ranking["selected_material_ids"], [candidate["material_id"]])
         self.assertTrue(candidate["reader_model_integrity"]["passed"])
-        self.assertTrue(candidate["editorial_gate"]["ready"])
-        self.assertTrue(closure["prepublish"]["passed"])
+        self.assertFalse(candidate["editorial_gate"]["ready"])
+        self.assertFalse(closure["prepublish"]["passed"])
         self.assertEqual(candidate["text"], candidate["authored_text"])
         for variant in result["top1_previews"]:
             self.assertEqual(variant["authoring"]["method"], "SUPPLIED_AUTHOR_REVISION")
@@ -46,15 +46,9 @@ class ProductionClosureTests(unittest.TestCase):
         self.assertFalse(candidate["human_checked"])
         self.assertEqual(candidate["publication_review_exception"], "USER_AUTHORIZED_AGENT_REVIEW")
         self.assertFalse(result["publication_allowed"])
-        self.assertFalse(closure["prepublish"]["publication_allowed"])
-        with patch("growth_engine.publication_control.publication_control", return_value={"status": "PAUSED"}):
-            with self.assertRaisesRegex(ValueError, "PUBLICATION_PAUSED"):
-                pre_publish_assert(candidate, candidate["text"])
-        with patch("growth_engine.publication_control.publication_control", return_value={"status": "ACTIVE"}):
-            with self.assertRaisesRegex(ValueError, "DRY_RUN_OR_PRODUCTION_HOLD"):
-                pre_publish_assert(candidate, candidate["text"])
-        with self.assertRaisesRegex(ValueError, "differs"):
-            pre_publish_assert(candidate, candidate["text"] + "!", dry_run=True)
+        self.assertIn("CONTENT_FINAL_READER_REVIEW_REQUIRED", candidate["content_review_result"]["reasons"])
+        with self.assertRaisesRegex(ValueError, 'not READY'):
+            pre_publish_assert(candidate, candidate['text'], dry_run=True)
         feedback = closure["feedback_24h"]
         self.assertEqual(feedback["publication_text_digest"], text_hash(candidate["text"]))
         self.assertEqual(feedback["window_class"], "MISSING")
@@ -99,7 +93,7 @@ class ProductionClosureTests(unittest.TestCase):
             ], capture_output=True, text=True)
             self.assertEqual(completed.returncode, 0, completed.stderr)
             result = json.loads(output.read_text())
-            self.assertTrue(result["production_pipeline"]["prepublish"]["passed"])
+            self.assertFalse(result["production_pipeline"]["prepublish"]["passed"])
             self.assertIn("正式候选审核结果", output.with_suffix(".md").read_text())
 
 

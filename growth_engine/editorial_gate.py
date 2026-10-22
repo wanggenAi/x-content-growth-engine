@@ -144,7 +144,9 @@ def validate_candidate(candidate: dict[str, Any]) -> GateResult:
         from .content_review import review_content
         material = next((m for m in candidate.get("material_pool", [])
                          if m.get("material_id") == candidate.get("material_id")), {})
-        reasons.extend(review_content(candidate, material)["reasons"])
+        content = review_content(candidate, material)
+        reasons.extend(content["reasons"])
+        reasons.extend(content["final_reader"]["reasons"])
         reasons.extend(_human_voice_errors(candidate))
         from .viral_admission import candidate_admission
         expected_admission = candidate_admission(candidate)

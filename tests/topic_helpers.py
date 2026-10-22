@@ -3,7 +3,7 @@ from copy import deepcopy
 from growth_engine.human_voice import stable_hash
 from growth_engine.reader_model import empty_value_profile, reader_context
 from growth_engine.viral_admission import PRODUCTION_MODE, WEIGHTS, material_hash
-from growth_engine.content_review import body_sentences
+from growth_engine.content_review import body_sentences, reader_review_packet, READER_CHECKS, FACT_CHECKS
 
 
 def text_review(text, sources, memory):
@@ -93,4 +93,27 @@ def bind_candidate(candidate):
                      admission_mode=PRODUCTION_MODE,
                      competition_as_of=AS_OF, source_refs=[pool[0]['source']['url']])
     candidate['reader_model']=grounded_profile(candidate)
+    add_test_final_review(candidate, pool[0])
     return candidate
+
+
+def add_test_final_review(candidate, material):
+    """Synthetic audit records for contract tests, never production content."""
+    review = candidate['content_review']
+    review['author_completed_at'] = AS_OF
+    review['fact_review'] = dict(decision='PASS', unresolved=[], checked=sorted(FACT_CHECKS),
+        text_hash=stable_hash(candidate['text']), source_hash=stable_hash(material['source_evidence']),
+        reviewer='TEST_ONLY_FACT_EDITOR', reviewed_at=AS_OF,
+        event_time_note='合成测试场景的事件时间固定，不代表任何真实新闻事件。')
+    quote = body_sentences(candidate['text'])[0]
+    review['final_reader_review'] = dict(method='TEXT_AND_SOURCE_ONLY', stage='FINAL_CHINESE_READER',
+        reviewer_scope='SEPARATE_PASS_SAME_AGENT', reviewer='TEST_ONLY_READER',
+        author_scores_used=False, reviewed_at=AS_OF,
+        input_hash=stable_hash(reader_review_packet(candidate, material)),
+        decision='PASS', unresolved=[],
+        sentences=[dict(text=s, decision='PASS', issues=[], background_cost='NONE',
+                        reason='合成句子用于验证逐句审核合同，不能作为真实读者质量正例。')
+                   for s in body_sentences(candidate['text'])],
+        checks={k:dict(decision='PASS', quote=quote,
+                       reason='仅验证合成账单文本的审核绑定，不代表真实受众喜好或人工认可。') for k in READER_CHECKS},
+        variety=dict(decision='PASS', reason='测试历史为空，仅用于验证多样性审核不能缺省。'))

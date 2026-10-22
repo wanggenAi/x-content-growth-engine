@@ -186,6 +186,11 @@ class HumanVoicePipelineTests(unittest.TestCase):
         c['content_review']['text_hash'] = stable_hash(c['authored_text'])
         for claim in c['content_review']['claims']:
             claim['draft_span'] = claim['draft_span'].replace('朋友', '一个朋友', 1)
+        self.assertFalse(prepare_candidate(c)['editorial_gate']['ready'])  # facts + final Chinese review also expire
+        from tests.topic_helpers import add_test_final_review
+        revised = {**c, 'text': c['authored_text']}
+        add_test_final_review(revised, c['material_pool'][0])
+        c['content_review'] = revised['content_review']
         checked = prepare_candidate(c)
         self.assertTrue(checked['editorial_gate']['ready'])
         checked['authored_text'] = checked['authored_text'].replace('朋友', '同事')

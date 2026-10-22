@@ -234,12 +234,13 @@ class TopicCompetitionTests(unittest.TestCase):
             m['draft_text'] = c['text']
             # This batch replaces the fixture's material/source identity, so
             # its independent text review must bind the replacement too.
-            from tests.topic_helpers import text_review
+            from tests.topic_helpers import text_review, add_test_final_review
             m['source']['event_time_status'] = 'EVENT_DATE_CHECKED'
             m['source_evidence'] = [{'url':m['source']['url'],'excerpt':c['text']}]
             c['content_review'] = text_review(c['text'], m['source_evidence'], c['publication_memory'])
             c.update(material=m, source_refs=[m['source']['url']])
             c['reader_model'] = grounded_profile(c)
+            add_test_final_review(c, m)
             records.append(c)
         with tempfile.TemporaryDirectory() as directory:
             source, output = Path(directory)/'input.json', Path(directory)/'output.json'

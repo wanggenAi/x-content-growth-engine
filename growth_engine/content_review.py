@@ -10,6 +10,91 @@ import re
 
 from .human_voice import stable_hash
 
+READER_CHECKS = ("stop_reason", "immediate_comprehension", "new_information",
+                 "share_reason", "natural_voice", "discussion_space", "errors")
+FACT_CHECKS = {"original_source", "publication_time", "event_time", "numbers",
+               "names", "quotes", "causality", "uncertainty"}
+
+
+def reader_review_packet(candidate: dict, material: dict) -> dict:
+    """A final-pass input without the writer's scores or recommendation.
+
+    This supports process separation, not a claim of independent people or
+    genuine audience validation. Reviews must be authored, never synthesized here.
+    """
+    review = candidate.get("content_review") or {}
+    source = material.get("source") or {}
+    # evidence_text may contain the topic editor's translated pitch. Original
+    # quotations belong in source_evidence, not that recommendation channel.
+    source = {k: source[k] for k in ("url", "published_at", "event_time", "event_time_status",
+              "timestamp_precision", "event_time_precision", "captured_at", "visible_date_labels") if k in source}
+    return {"text": candidate.get("text"), "source": source,
+            "source_evidence": material.get("source_evidence", []),
+            "claims": review.get("claims", []), "fact_review": review.get("fact_review"),
+            "publication_memory": candidate.get("publication_memory"),
+            "user_content_verdict": candidate.get("user_content_verdict") or material.get("user_content_verdict")}
+
+
+def review_final_reader(candidate: dict, material: dict) -> dict:
+    """Validate fact-first, sentence-by-sentence editorial evidence; no score."""
+    from .reader_model import utc
+    review = candidate.get("content_review") or {}
+    final = review.get("final_reader_review") or {}
+    fact = review.get("fact_review") or {}
+    final = final if isinstance(final, dict) else {}
+    fact = fact if isinstance(fact, dict) else {}
+    text = str(candidate.get("text") or "")
+    reasons = []
+    if (fact.get("decision") != "PASS" or fact.get("unresolved") != []
+            or not isinstance(fact.get("checked"), list)
+            or not all(isinstance(k, str) for k in fact["checked"])
+            or set(fact["checked"]) != FACT_CHECKS
+            or fact.get("text_hash") != stable_hash(text)
+            or fact.get("source_hash") != stable_hash(material.get("source_evidence", []))
+            or not _note(fact.get("event_time_note")) or not fact.get("reviewer")):
+        reasons.append("CONTENT_FACT_RECHECK_REQUIRED")
+    if (final.get("method") != "TEXT_AND_SOURCE_ONLY"
+            or final.get("stage") != "FINAL_CHINESE_READER"
+            or final.get("reviewer_scope") not in {"SEPARATE_PASS_SAME_AGENT", "SECOND_REVIEWER"}
+            or not final.get("reviewer") or final.get("author_scores_used") is not False
+            or final.get("input_hash") != stable_hash(reader_review_packet(candidate, material))):
+        reasons.append("CONTENT_FINAL_READER_REVIEW_REQUIRED")
+    try:
+        if not utc(review["author_completed_at"]) <= utc(fact["reviewed_at"]) <= utc(final["reviewed_at"]):
+            reasons.append("CONTENT_REVIEW_STAGE_ORDER_INVALID")
+    except (KeyError, TypeError, ValueError):
+        reasons.append("CONTENT_REVIEW_STAGE_ORDER_INVALID")
+    rows = final.get("sentences", [])
+    sentences = body_sentences(text)
+    if (not isinstance(rows, list) or len(rows) != len(sentences)
+            or [r.get("text") for r in rows if isinstance(r, dict)] != sentences
+            or not sentences):
+        reasons.append("CONTENT_SENTENCE_REVIEW_INCOMPLETE")
+    elif any(r.get("decision") != "PASS" or r.get("issues") != []
+             or r.get("background_cost") not in {"NONE", "EXPLAINED"}
+             or not _note(r.get("reason")) for r in rows):
+        reasons.append("CONTENT_CHINESE_LANGUAGE_OR_BACKGROUND_HOLD")
+    for key in READER_CHECKS:
+        checks = final.get("checks")
+        answer = checks.get(key) if isinstance(checks, dict) else None
+        answer = answer if isinstance(answer, dict) else {}
+        if (answer.get("decision") != "PASS" or not _note(answer.get("reason"))
+                or not answer.get("quote") or answer["quote"] not in text):
+            reasons.append("CONTENT_READER_HOLD:" + key)
+    variety = final.get("variety") or {}
+    variety = variety if isinstance(variety, dict) else {}
+    if variety.get("decision") != "PASS" or not _note(variety.get("reason")):
+        reasons.append("CONTENT_VARIETY_REVIEW_REQUIRED")
+    if final.get("decision") != "PASS" or final.get("unresolved") != []:
+        reasons.append("CONTENT_FINAL_EDITOR_HOLD")
+    # A recorded user rejection is a regression, never overridden by self-PASS.
+    # This narrow example is not advertised as a general Chinese grammar model.
+    if re.search(r"(?:有把)?私钥竟然是\s*4(?:\D|$)", text):
+        reasons.append("CONTENT_USER_REJECTED_CHINESE_PRIVATE_KEY")
+    return {"passed": not reasons, "reasons": sorted(set(reasons)),
+            "reviewer_scope": final.get("reviewer_scope", "UNKNOWN"),
+            "audience_validation": "UNKNOWN"}
+
 
 def body_sentences(text: str) -> list[str]:
     body = re.sub(r"https?://\S+", "", text)
@@ -146,7 +231,11 @@ def review_content(candidate: dict, material: dict) -> dict:
                 reasons.append("CONTENT_UNSOURCED_NUMBER:" + number)
     if re.search(r"对此你怎么看|你们觉得呢|这说明了什么|值得所有人深思", text):
         reasons.append("CONTENT_CANNED_ENDING")
+    final = review_final_reader(candidate, material)
+    if candidate.get("final_reader_review_required") or review.get("final_reader_review"):
+        reasons.extend(final["reasons"])
     return {"passed": not reasons, "reasons": sorted(set(reasons)),
+            "quality_ready": not reasons and final["passed"], "final_reader": final,
             "decision": review.get("decision", "UNKNOWN"),
             "basis": "EDITOR_JUDGMENT_NOT_TRAFFIC_VALIDATION", "text_hash": stable_hash(text)}
 

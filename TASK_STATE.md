@@ -1,3 +1,9 @@
+# 2026-10-22 中文质量优先，内容供应与发布分离
+
+最新用户自行安排Computer Use发布；本轮仅内容，不开发/操作发布通道。事实先审，正文逐句中文和七问另审；同一Codex分遍不冒充第二真人。新READY必须最终审核，历史结构PASS仅可审计。私钥病句负例保留、旧待发条目SKIPPED，C390不变。100新采集+2检索旧事，10方向/5实际正文；来源与文字复核可留稿2，正式READY0，未满足深审20和实际事件新鲜度，不凑稿。20分钟既有心跳已改内容检查，允许0；采集4h、PAUSED、automatic_x_submission=false不变。资源0新依赖/服务，测试167。增长UNKNOWN，未发X。
+
+见[实际五稿与风险](data/chinese_reader_quality_2026-10-22/drafts.md)及[工程与限制](docs/CHINESE_READER_QUALITY_2026-10-22.md)。
+
 # 2026-10-21 — 20分钟窗口正式授权，免费合规通道阻塞
 
 最新用户正式授权本人Gen @qiluo27808中文原创普通帖及官方排程，无需逐篇确认；全天每20分钟检查，实际至少间隔20分钟，缺稿/质量/平台限制可跳过；覆盖旧每日一篇、10分钟及每轮必须发要求，不绕质量/权限/规则。起点main5f5a250，PR19与main CI已核实。官方禁止非API网页自动化，Metricool无连接且X需付费，未核实免费官方API；所以PAUSED原因改NO_VERIFIED_COMPLIANT_FREE_TRANSPORT，用户授权true，不冒充缺授权。新采集100条待深评；现有36/22/30fresh/4族竞争Top1原文重新打开，收紧Chrome/Firefox阻断边界，ABC事实/文风/Reader/Editorial/Prepublish dry-run PASS，仅A入队。队列1 REVIEWED、0 SCHEDULED、0 PUBLISHED，无X链接。已有自动化x已ACTIVE/20分钟，安静检查队列，依赖Mac/Codex在线，不网站自动提交、补发或新增采集频率；相同阻塞不反复研究。161 unittest/161pytest/compileall及生产dry-run PASS，原离线0.32039→0.31281秒，RSS33.62→33.18MB；新增运行依赖/服务/数据库0，恢复心跳有检查与Codex用量。反馈全UNKNOWN，可比较24h样本0，C390负例及4h采集不变。见docs/TWENTY_MINUTE_PUBLICATION.md和data/publication_launch_2026-10-21/。
@@ -1401,3 +1407,15 @@ Implemented HUMAN_VOICE_V1 as a local deterministic production layer. The chain 
 # Separate Xianyu artwork checkpoint — 2026-10-20T02:07:07.191520Z
 
 User requested the Xianyu cover show CNY1 or omit price to simplify future repricing. Chose price-free variant. Built-in ImageGen edited the prior cover; visually verified no price or gold price plaque, cinematic artwork and benefit text retained. Final cover-no-price.png and exact prompt saved under ignored data/private/xianyu_listing. Local asset only; no live listing price/image changed. Main content workflow unchanged.
+
+
+## 2026-10-22T01:59:14.713490Z — 内容供应与质量检查（覆盖旧发布心跳）
+
+本轮仅编辑内容，不检查通道、不访问X。origin/main已fetch并核对6d6e19c；feature/chinese-reader-quality工程未完成且有未提交修改，代码原样保留。复用10月21日既有材料，新增杨树荣生活题材草稿1篇，SEPARATE_PASS_SAME_AGENT分遍复核；原始发布日/事件日与全文上下文、完整历史查重未完成，严格HOLD，READY=0。另3条材料分别因出行日不明、论文未核、法规句缺原摘录对应继续HOLD；未调用模型/采集/新增依赖或调度。
+
+“有把私钥竟然是4”保留用户语言负例，旧eMudhra A不可沿用历史通过结论；C390 REJECT不变。发布控制及队列未改，指标null/UNKNOWN，未发布不启动反馈窗。安全记录：data/content_check_2026-10-22_0154/。原competition_as_of不刷新，10题池不冒充30/20/10/4生产通过。
+
+
+## 2026-10-22T02:15:59.365941Z — 20分钟内容窗口，既有稿保持HOLD
+
+fetch后origin/main仍6d6e19c；PR21工程分支及未提交修改尚在，未并行改代码或质量产物。核对既有5稿最终均HOLD、queue_ready=0，上一窗口萨克斯稿HOLD不变；本轮0新稿、0新最终复核，不刷新原审核/竞争时间。最近已有采集01:45:40Z，本轮复用、不新增采集，4小时频率保留。日期/原始采访/生产深审不足等既有缺口不降门槛；未访问X或通道，未改发布控制、队列或反馈窗，指标null/UNKNOWN。详情state/task_state.json的content_supply_last_window。

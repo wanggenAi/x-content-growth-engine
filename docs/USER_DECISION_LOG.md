@@ -1000,3 +1000,15 @@ PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8f
 直接要求检查main/PR/CI、修复社交兴趣排序、每次编辑比较两个真正不同开头、raw30/deep20/fresh10/families4、Top10/Top3/唯一Top1、Top3 ABC、真实固定窗反馈、轻量基准、PR/CI合并；不得创建V5/新评分器/服务/依赖/定时任务，不得自动发X。
 
 执行：30独立原页、26深审、22有效深审/48h、5族，椭圆仪Top1、Vinted和iPad备选；9稿+蛆虫HOLD3稿，原文事实/锁/首句/风格通过。只改权重不能纠正旧人工分，实际保存消融对照与逐项新判断。蛆虫2022旧事与SimCity发布时间未知仍HOLD；Apple博客独立OG时间核对后才算新鲜。C390否定不变；21条历史无可靠捕获时间，24h有效0，增长UNKNOWN。原离线基准+1.15%耗时/+0.25%RSS，无明显退化；新负担0。146 unittest/pytest、compileall通过，发布暂停。产物docs/CONTENT_PRIORITY_V4_FINAL_2026-10-21.md。PR [#18](https://github.com/wanggenAi/x-content-growth-engine/pull/18) merged as `78d402fd5d968014b82ae3ed46343aee8ce60c0a`; [merged-main CI](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39538304432) SUCCESS. Merged-main local146 unittest/146pytest/compileall PASS; complete tree equals the reviewed PR head. Follow-up commit records verification only.。
+
+
+## 2026-10-22T01:59:14.713490Z — 心跳改为内容供应与两层质量审核
+
+最新要求：“仅负责 X Content Growth Engine 的中文内容供应与质量，不开发或操作发布通道”；“最新用户已决定自行安排Computer Use发布”；“每20分钟一个内容检查窗口，允许0篇通过”；“本轮工程分支完成前以现有严格门槛HOLD等待，不并行改工程代码”。免费通道阻塞不再阻止内容工作。本轮不查询API/Metricool/浏览器排程或提交X，保持4小时采集频率；事实审核与中文/七问审核分遍进行，同一Codex明确SEPARATE_PASS_SAME_AGENT，不称第二人/读者验证。
+
+用户否定“有把私钥竟然是4”为语言负例；旧A不再当合格稿，C390 REJECT保留。实际复用既有摘录写1篇生活草稿，因日期/全文与完整查重缺口、工程尚未完成而HOLD；0篇READY、0发布/排程。详细证据与具体淘汰理由见data/content_check_2026-10-22_0154/；指标null/UNKNOWN，未刷新旧competition_as_of。
+
+
+## 2026-10-22T02:06:21.918329+00:00 — 内容总编整改与实际拒稿
+
+用户明确：“技术PASS不等于内容优秀。没有真实读者愿意阅读的理由，就不要发布。” “用户已决定自行安排 Computer Use 处理 X 发布，不再要求你开发 API、第三方发布平台、自动排程或浏览器发布基础设施。” 要求真实10方向、5正文、事实与中文两层、生成/最终审核分开、私钥病句回归、0稿允许、完整测试与CI后合并。执行见CHINESE_READER_QUALITY_2026-10-22；五稿全部正式HOLD，不能将2篇文字来源通过当发布准入。同一Codex复核局限、C390和UNKNOWN指标保留。
