@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T06:37:09.816927+00:00",
+  "updated_at": "2026-10-22T06:56:04.176232+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,26 +2158,26 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T06:37:09.816927+00:00",
-    "triggered_at": "2026-10-22T06:34:31.906Z",
+    "checked_at": "2026-10-22T06:56:04.176232+00:00",
+    "triggered_at": "2026-10-22T06:54:31.973Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "ce320c44f1e485d980fa761339485dd9820ce3ea",
+    "inspected_branch_head": "f841388630ae3cca87e60f7e0f3e3ced30fc7c5d",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T06:20:00+00:00",
-    "slot_original_check_at": "2026-10-22T06:37:09.816927+00:00",
+    "slot": "2026-10-22T06:40:00+00:00",
+    "slot_original_check_at": "2026-10-22T06:56:04.176232+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
     "queue_ready": 0,
     "new_drafts": 0,
     "new_final_reviews": 0,
-    "new_source_triage": 1,
+    "new_source_triage": 0,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "ONE_EXISTING_CACHED_LEAD_SOURCE_DATE_TRIAGE; NO_NEW_DEEP_OR_FINAL_APPROVAL",
+    "review_scope": "LOCAL_CONTROL_AND_EXISTING_QUALITY_ARTIFACT_CHECK_ONLY; NO_NEW_SOURCE_OR_FINAL_REVIEW",
     "last_existing_collection": "2026-10-22T05:55:52.144186Z",
     "collector_run": false,
     "collection_cadence_hours": 4,
@@ -2198,16 +2198,9 @@
       "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57"
     },
     "cached_media_titles_scanned": 0,
-    "source_triage": [
-      {
-        "material_id": "Dd5877205843c9a38",
-        "status": "HOLD_BEFORE_WRITING",
-        "report_ref": "data/content_check_2026-10-22_0634.json"
-      }
-    ],
+    "source_triage": [],
     "last_collection_completed_at": "2026-10-22T05:58:08.887667Z",
-    "collection_summary_ref": "data/content_collection_2026-10-22_0555.json",
-    "source_triage_report_ref": "data/content_check_2026-10-22_0634.json"
+    "collection_summary_ref": "data/content_collection_2026-10-22_0555.json"
   },
   "operations_verification_2026_10_22": {
     "checked_at": "2026-10-22T02:32:57.515727+00:00",

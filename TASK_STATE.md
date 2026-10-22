@@ -1500,3 +1500,8 @@ origin/main b5c922e及控制已读。距上次采集完成超过4小时，复用
 ## 2026-10-22T06:37:09.816927+00:00 — UTC06:20窗口SKIPPED，旧事件不以转载时间洗新
 
 已核对origin/main b5c922e及当前指令/控制/质量产物；复用05:58采集，无新增采集。实读一条既有退票纠纷来源全文，页面10月22日发布，但退票申请9月23日、采访10月13日；原法治日报页面未取得，保持HOLD_BEFORE_WRITING，不写新稿。仅查tracked安全历史，已在旧素材包出现，不冒充全campaign查重或新增深审；安全记录data/content_check_2026-10-22_0634.json，原文ignored。5旧稿HOLD、合格待发0；现有slot_check记录真实UTC06:20 SKIPPED，无外部提交/排程，不刷新旧审核，PAUSED不变，反馈未启动、指标null/UNKNOWN。
+
+
+## 2026-10-22T06:56:04.176232+00:00 — UTC06:40窗口实际SKIPPED
+
+origin/main b5c922e及当前指令/控制/内容产物已核对，5稿HOLD、合格待发0；既有退票旧事件HOLD保留。复用05:58完成的100条素材，不重复采集、不刷新旧审核；本轮未新增事实或最终复核。slot_check记录实际UTC06:40 SKIPPED/NO_REVIEWED_CONTENT，PAUSED和automatic_x_submission=false不变，无X或通道访问、发布、排程和反馈启动，指标null/UNKNOWN。
