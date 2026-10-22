@@ -191,6 +191,8 @@ class HuntAdmissionTests(unittest.TestCase):
         self.assertIn('HOLD_DISCOVERED_SOURCE_FACT_REVIEW', prepare_candidate(c)['editorial_gate']['reasons'])
         c['source_fact_review'] = {'status':'FACT_BOUNDARIES_REVIEWED','url':c['source_refs'][0],
             'evidence':'500元账单','reason':'原文逐字核对账单金额和当事人归因，不把其自述当作独立证实事实。'}
+        from tests.topic_helpers import add_test_final_review
+        add_test_final_review(c, c['material_pool'][0])
         self.assertEqual(prepare_candidate(c)['state'], 'READY_FOR_MANUAL_PUBLISH')
 
     def test_hunt_runs_actual_style_and_fact_pipeline_without_inventing_ready(self):

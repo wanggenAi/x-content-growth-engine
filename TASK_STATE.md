@@ -1,3 +1,9 @@
+# 2026-10-22 中文质量优先，内容供应与发布分离
+
+最新用户自行安排Computer Use发布；本轮仅内容，不开发/操作发布通道。事实先审，正文逐句中文和七问另审；同一Codex分遍不冒充第二真人。新READY必须最终审核，历史结构PASS仅可审计。私钥病句负例保留、旧待发条目SKIPPED，C390不变。100新采集+2检索旧事，10方向/5实际正文；来源与文字复核可留稿2，正式READY0，未满足深审20和实际事件新鲜度，不凑稿。20分钟既有心跳已改内容检查，允许0；采集4h、PAUSED、automatic_x_submission=false不变。资源0新依赖/服务，测试167。增长UNKNOWN，未发X。
+
+见[实际五稿与风险](data/chinese_reader_quality_2026-10-22/drafts.md)及[工程与限制](docs/CHINESE_READER_QUALITY_2026-10-22.md)。
+
 # 2026-10-21 — 20分钟窗口正式授权，免费合规通道阻塞
 
 最新用户正式授权本人Gen @qiluo27808中文原创普通帖及官方排程，无需逐篇确认；全天每20分钟检查，实际至少间隔20分钟，缺稿/质量/平台限制可跳过；覆盖旧每日一篇、10分钟及每轮必须发要求，不绕质量/权限/规则。起点main5f5a250，PR19与main CI已核实。官方禁止非API网页自动化，Metricool无连接且X需付费，未核实免费官方API；所以PAUSED原因改NO_VERIFIED_COMPLIANT_FREE_TRANSPORT，用户授权true，不冒充缺授权。新采集100条待深评；现有36/22/30fresh/4族竞争Top1原文重新打开，收紧Chrome/Firefox阻断边界，ABC事实/文风/Reader/Editorial/Prepublish dry-run PASS，仅A入队。队列1 REVIEWED、0 SCHEDULED、0 PUBLISHED，无X链接。已有自动化x已ACTIVE/20分钟，安静检查队列，依赖Mac/Codex在线，不网站自动提交、补发或新增采集频率；相同阻塞不反复研究。161 unittest/161pytest/compileall及生产dry-run PASS，原离线0.32039→0.31281秒，RSS33.62→33.18MB；新增运行依赖/服务/数据库0，恢复心跳有检查与Codex用量。反馈全UNKNOWN，可比较24h样本0，C390负例及4h采集不变。见docs/TWENTY_MINUTE_PUBLICATION.md和data/publication_launch_2026-10-21/。

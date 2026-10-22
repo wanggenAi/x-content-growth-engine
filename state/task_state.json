@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T01:59:14.713490Z",
-  "phase": "CONTENT_QUALITY_REPAIR_DRY_RUN_ONLY",
+  "updated_at": "2026-10-22T02:06:21.918329+00:00",
+  "phase": "CONTENT_ONLY_CHINESE_QUALITY_REVIEW",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -192,7 +192,7 @@
     "updated_at": "2026-10-09T03:47:11.245880Z"
   },
   "blocked": false,
-  "next_action": "New explicit X publication authorization required; refresh competition and exact-text checks before qualified visible manual route. Future feedback must retain real publication/observation times; no fabricated24h data.",
+  "next_action": "只继续真实原始来源选题与逐句中文复核；允许0篇；用户另行安排Computer Use发布，不开发发布通道。",
   "local_browser_probe": {
     "captured_at": "2026-09-30T13:56:28Z",
     "runtime": "browser-harness 0.1.13 via local Chrome",
@@ -862,7 +862,7 @@
   "ready_count": 0,
   "rolling_work_queue_count": 365,
   "latest_candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
-  "latest_candidate_status": "READY_CANDIDATE_DRY_RUN",
+  "latest_candidate_status": "HOLD_QUALITY_AND_PRODUCTION_REVIEW",
   "latest_candidate_checked_at": "2026-10-21T12:48:06.609541Z",
   "community_publication_batch7": {
     "ids": [
@@ -2123,5 +2123,27 @@
     "growth": "UNKNOWN",
     "c390": "REJECT_UNCHANGED",
     "formula_F01_F05": "HYPOTHESIS_UNCHANGED"
+  },
+  "chinese_reader_quality_2026_10_22": {
+    "baseline_main": "6d6e19cf0abc72cfc6b11895ab840f3f07a92d8a",
+    "report": "docs/CHINESE_READER_QUALITY_2026-10-22.md",
+    "artifact_root": "data/chinese_reader_quality_2026-10-22",
+    "new_collected": 100,
+    "independent_materials": 102,
+    "directions": 10,
+    "actual_posts": 5,
+    "source_and_reader_pass": 2,
+    "formal_ready": 0,
+    "same_agent_limitation": true,
+    "tests": 167,
+    "new_dependencies": 0,
+    "new_services": 0,
+    "new_schedules": 0,
+    "growth": "UNKNOWN",
+    "published": 0,
+    "scheduled": 0,
+    "C390": "REJECT_PRESERVED",
+    "private_key_negative": "REJECT_PRESERVED",
+    "status": "LOCAL_VALIDATION_PENDING_PR"
   }
 }

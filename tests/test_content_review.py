@@ -256,7 +256,7 @@ class ContentReviewTests(unittest.TestCase):
         result = production_dry_run(json.loads((root/'source_packet.json').read_text()),
                                     json.loads((root/'editorial_reviews.json').read_text()))
         self.assertGreaterEqual(result['ranking']['reviewed_source_count'], 20)
-        self.assertIsNotNone(result['recommended_top1'])
+        self.assertIsNone(result['recommended_top1'])  # historical structural PASS is not final Chinese acceptance
         drafted = [t for t in result['topics'] if t['variants']]
         self.assertEqual(len(drafted), 3)
         for topic in drafted:

@@ -78,6 +78,9 @@ def prepare_candidate(candidate: Mapping[str, Any]) -> dict[str, Any]:
     material = next((m for m in result.get("material_pool", [])
                      if m.get("material_id") == result.get("material_id")), {})
     content = review_content(result, material)
+    # Legacy structural PASS remains readable, but never grants a new slot.
+    content["reasons"] = sorted(set(content["reasons"] + content["final_reader"]["reasons"]))
+    content["passed"] = content["quality_ready"]
     result["content_review_result"] = content
     result["state"] = result.get("state", "EDITORIAL_REVIEW")
     if pipeline["passed"] and admission["admitted"] and content["passed"] and result["state"] in {"DRAFT", "EDITORIAL_REVIEW"}:

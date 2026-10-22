@@ -366,3 +366,10 @@ C388已在最新纠偏到达之前单次发布，正在独立核验；其结尾�
 
 
 2026-10-19 V3合并后验收：PR #15已合并，代码main SHA 486c891ed407725c00af373556309e164d658269。最终PR head与main Actions均SUCCESS；main上unittest/pytest各132通过、编译和diff-check通过，九稿重放完全一致，三篇新稿再次通过风格/事实锁/来源编辑检查。main重新免费采集100条、4来源族，99条源发布时间48h内，health HEALTHY；事件日期仍需单独检查，不把转载时间当新事件。新增资源依赖0。新来源页面实际捕获时间由首次缓存写入保留，后续复审不刷新抓取时间。完整证据见data/human_style_v3_2026-10-19/main_verification.json。未向X提交；尚缺用户认可正例、独立真人审查与可靠流量反馈。代码整改完成，内容仅可进入人工发布审核，不宣称具备爆款能力。
+
+
+## 2026-10-22 当前中文读者复核流程（覆盖旧自评即READY）
+
+每20分钟可检查内容，0篇是合法结果，发布由用户另行安排。先读原文和事件日期，再写正文；修改任何字句后重审事实。在现有content_review里填写author_completed_at、fact_review（八项checked、正文/来源hash、时间、未决项），再通过reader_review_packet只导出正文/来源/事实/历史供最终遍读取，不能附作者评分、推荐或开头偏好。最终填写final_reader_review：TEXT_AND_SOURCE_ONLY、FINAL_CHINESE_READER、实际reviewer_scope、时间、input_hash、逐句自然度/背景成本/问题、七问具体引文和理由、历史多样性取舍。重要事实/中文/逻辑/阅读理由任一未决即HOLD；改稿后全部绑定失效，不自动生成PASS。示例见data/chinese_reader_quality_2026-10-22/editorial_reviews.json；复核人是同一Codex就写SEPARATE_PASS_SAME_AGENT，不可改名冒充另一人。
+
+review_content.passed仅兼容历史结构核验；quality_ready才表示正文与最终复核通过。它仍不等于生产READY：candidate_pipeline/Editorial Gate/Prepublish继续重新核对原30/20/10/4竞争、事实锁、Reader Model、授权和暂停。不得直接把quality_ready放入可发布队列；正文与来源等内容变化必须重审，未核实时间不能借新采集时间洗新。旧“私钥竟然是4”和C390均为负例，不是可换几个词重复投递的模板。

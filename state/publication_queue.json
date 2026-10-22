@@ -5,7 +5,7 @@
     {
       "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
       "material_id": "Da5a081fa02eb50c1",
-      "status": "REVIEWED",
+      "status": "SKIPPED",
       "text": "给网站发安全证书的机构，有把私钥竟然是4。\n\nScott Helme在10月20日文章里核对eMudhra证书：本该是384位随机数，实际取值小到一个字节就装得下。另两把是56和115。\n\n格式检查都过。Chrome和Firefox已直接封锁相关中间证书。\n\nhttps://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
       "text_hash": "5912dc155b281822af28891f40726b71bca4a775495a65dde6b298a0691dcec1",
       "candidate_ref": "data/private/publication_launch/production.json",
@@ -19,6 +19,11 @@
         {
           "status": "REVIEWED",
           "at": "2026-10-21T13:53:30.798441+00:00"
+        },
+        {
+          "status": "SKIPPED",
+          "at": "2026-10-22T02:04:37.459091+00:00",
+          "reason": "USER_REJECTED_CHINESE_PRIVATE_KEY; FINAL_CHINESE_READER_REVIEW_REQUIRED"
         }
       ],
       "post_url": null,
@@ -58,7 +63,8 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "skip_reason": "USER_REJECTED_CHINESE_PRIVATE_KEY; FINAL_CHINESE_READER_REVIEW_REQUIRED"
     }
   ],
   "slots": [
