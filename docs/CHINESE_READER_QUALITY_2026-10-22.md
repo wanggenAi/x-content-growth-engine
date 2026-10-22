@@ -8,7 +8,7 @@
 
 这不是中文语法模型或新的吸引力分数。人负责读句子、做判断，标准库只验证审查是否完整、有无未决项以及绑定是否失效。同一Codex分遍执行，明确SEPARATE_PASS_SAME_AGENT；未获得另一个真人或独立受众验证，仍有自评偏差。针对用户否定“私钥竟然是4 / 有把私钥竟然是4”保存窄回归和负面记忆，不宣称一条正则能识别所有中文病句。旧真实稿保留供审计，原REVIEWED条目改SKIPPED，未改成发布或删除历史。C390原负例文件字节未动。
 
-实际采集与竞争：执行一次既有免费collect-feed，100条真实新线索、5来源族；额外检索两条生活旧事，102独立事件。10个不同方向逐项填写原有八维判断，只有3条时间条件完整的深评记录，未达到20。94条线索源时间在48小时内不代表94件事件事实已核验。真实成稿5篇，逐句中文5篇可读、来源与最终读者复核可留稿2篇，正式READY为0。未伪造production_candidate，不绕过30/20/10/4、ABC、Reader Model、Editorial Gate或Prepublish。完整正文、双开头、事实风险与落选理由见[data/chinese_reader_quality_2026-10-22/drafts.md](../data/chinese_reader_quality_2026-10-22/drafts.md)，机器证据同目录acceptance.json/source_packet.json/editorial_reviews.json。旧样本重放用于回归，不冒充新生产内容。
+实际采集与竞争：执行一次既有免费collect-feed，100条真实新线索、5来源族；额外检索两条生活旧事，102独立事件。10个不同方向逐项填写原有八维判断，只有3条时间条件完整的深评记录，未达到20。94条线索源时间在48小时内不代表94件事件事实已核验。真实成稿5篇，逐句中文5篇可读、来源与最终读者复核可留稿2篇，正式READY为0。住宿题现有编辑分61.5也低于62门槛，不能因最终偏爱而倒调分。五篇是单稿严格复核，未补齐生产ABC/Reader Model包；这些未完成项也明确记录，不冒称整条生产闭环PASS。未伪造production_candidate，不绕过30/20/10/4、ABC、Reader Model、Editorial Gate或Prepublish。完整正文、双开头、事实风险与落选理由见[data/chinese_reader_quality_2026-10-22/drafts.md](../data/chinese_reader_quality_2026-10-22/drafts.md)，机器证据同目录acceptance.json/source_packet.json/editorial_reviews.json。旧样本重放用于回归，不冒充新生产内容。
 
 编辑偏好Top1为住宿家务边界，**不是正式生产Top1**：官方来源完整、具体动作易懂、可发给同行订房者；虚拟恋人虽内部评分最高，但原始采访未直读，不能优先升级。私钥技术旧稿即使原风格高分也被拒。此轮不能承诺稳定每20分钟有合格新稿，公开素材质量、原始事件日期和深审数量仍是瓶颈。
 

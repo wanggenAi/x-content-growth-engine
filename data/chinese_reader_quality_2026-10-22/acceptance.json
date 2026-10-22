@@ -191,7 +191,15 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "topic_admission_reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "variant_set_holds": [
+        "THREE_VARIANTS_REQUIRED"
+      ],
+      "production_packet_status": "NOT_PREPARED_NO_FORMAL_TOP1; EXISTING_READER_MODEL_AND_PREPUBLISH_NOT_BYPASSED"
     },
     {
       "material_id": "Dd67a0444dcb4dae2",
@@ -244,7 +252,16 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "topic_admission_reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "variant_set_holds": [
+        "THREE_VARIANTS_REQUIRED"
+      ],
+      "production_packet_status": "NOT_PREPARED_NO_FORMAL_TOP1; EXISTING_READER_MODEL_AND_PREPUBLISH_NOT_BYPASSED"
     },
     {
       "material_id": "D92a272bc22945a73",
@@ -297,7 +314,14 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "topic_admission_reasons": [
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "variant_set_holds": [
+        "THREE_VARIANTS_REQUIRED"
+      ],
+      "production_packet_status": "NOT_PREPARED_NO_FORMAL_TOP1; EXISTING_READER_MODEL_AND_PREPUBLISH_NOT_BYPASSED"
     },
     {
       "material_id": "Dcd3da564d1a0aef3",
@@ -350,7 +374,15 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "topic_admission_reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD"
+      ],
+      "variant_set_holds": [
+        "THREE_VARIANTS_REQUIRED"
+      ],
+      "production_packet_status": "NOT_PREPARED_NO_FORMAL_TOP1; EXISTING_READER_MODEL_AND_PREPUBLISH_NOT_BYPASSED"
     },
     {
       "material_id": "Q-phone-1005",
@@ -403,7 +435,16 @@
         "tolerance_minutes": 60,
         "window_class": "MISSING",
         "learning_eligible": false
-      }
+      },
+      "topic_admission_reasons": [
+        "REJECT_LOW_TOPIC_STRENGTH",
+        "TOPIC_EDITOR_HOLD",
+        "UNKNOWN_SOURCE_TIMESTAMP"
+      ],
+      "variant_set_holds": [
+        "THREE_VARIANTS_REQUIRED"
+      ],
+      "production_packet_status": "NOT_PREPARED_NO_FORMAL_TOP1; EXISTING_READER_MODEL_AND_PREPUBLISH_NOT_BYPASSED"
     }
   ],
   "resources": {

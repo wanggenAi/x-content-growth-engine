@@ -27,7 +27,7 @@ def reader_review_packet(candidate: dict, material: dict) -> dict:
     # evidence_text may contain the topic editor's translated pitch. Original
     # quotations belong in source_evidence, not that recommendation channel.
     source = {k: source[k] for k in ("url", "published_at", "event_time", "event_time_status",
-              "timestamp_precision", "event_time_precision", "captured_at", "visible_date_labels", "rediscovery_reason") if k in source}
+              "timestamp_precision", "event_time_precision", "captured_at", "visible_date_labels") if k in source}
     return {"text": candidate.get("text"), "source": source,
             "source_evidence": material.get("source_evidence", []),
             "claims": review.get("claims", []), "fact_review": review.get("fact_review"),

@@ -57,11 +57,13 @@ class FinalChineseReaderTests(unittest.TestCase):
         c = candidate(); c.update(writing_quality=100, recommended_variant='A')
         c['content_review']['reader_value'] = {'stop_reason': '作者自称极有传播价值'}
         c['material_pool'][0]['source']['evidence_text'] = '作者推荐语不能进入最终正文复核输入'
+        c['material_pool'][0]['source']['rediscovery_reason'] = '旧闻重读的作者推荐同样不应作为读者验收理由'
         packet = reader_review_packet(c, c['material_pool'][0])
         self.assertNotIn('writing_quality', packet)
         self.assertNotIn('recommended_variant', packet)
         self.assertNotIn('reader_value', packet)
         self.assertNotIn('evidence_text', packet['source'])
+        self.assertNotIn('rediscovery_reason', packet['source'])
         self.assertIn('claims', packet)
         self.assertIn('publication_memory', packet)
 

@@ -225,8 +225,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:15:01.542713+00:00",
-              "input_hash": "036f33e570f02d31512da5f9bd9d0a9eb321b6a4919183a83b9041a8606f61e8",
+              "reviewed_at": "2026-10-22T02:16:49.800772+00:00",
+              "input_hash": "7f66c9ef9b223dfa63e5da55d635693c645440118e1cb6ac2ab35dd0fa7f822f",
               "decision": "PASS",
               "unresolved": [],
               "sentences": [
@@ -308,7 +308,7 @@
                 "reason": "对照193条历史未见同源同事件；本轮消费住宿题材只选这一篇，避免重复平台争议。"
               },
               "source_recheck_note": "原已读摘录按URL保留单一证据条目，复核逐句引用未变化；不是新事实或自动事实认证。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "input_scope_note": "仅正文、来源日期/链接、原始短摘录、事实核验和历史；同时移除evidence_text和旧闻推荐理由。重新逐句阅读，保留2 PASS/3 HOLD及同一Codex偏差说明。",
               "wording_recheck": "重新逐句读改后全文，未再用作者分数；政策句仍偏密，但日期和例外不能省。保持内容PASS、生产HOLD。",
               "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
@@ -539,8 +539,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:15:01.543076+00:00",
-              "input_hash": "fb12f7ded979abe4620a47bf74c860bead101df73bbb924530e5a28ae960f61e",
+              "reviewed_at": "2026-10-22T02:16:49.801277+00:00",
+              "input_hash": "ab9693d7a0b51b404b7ec317d83cb22c7ed1e0d77c241494a5794f0b786645f9",
               "decision": "HOLD",
               "unresolved": [
                 "原始上线日期UNKNOWN，项目功能未实测；不能包装新产品效果。"
@@ -631,7 +631,7 @@
                 "reason": "本轮只写一个工作工具；历史虽多科技内容，这个运动动作有区别，仍不据此宣称账号受众喜欢。"
               },
               "source_recheck_note": "原已读摘录按URL保留单一证据条目，复核逐句引用未变化；不是新事实或自动事实认证。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "input_scope_note": "仅正文、来源日期/链接、原始短摘录、事实核验和历史；同时移除evidence_text和旧闻推荐理由。重新逐句阅读，保留2 PASS/3 HOLD及同一Codex偏差说明。",
               "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           }
@@ -845,8 +845,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:15:48.724975+00:00",
-              "input_hash": "4101a0aebff31f082bd6f5715f95564cbdca181ca0ee80ff0d13a0d7ec2f48bf",
+              "reviewed_at": "2026-10-22T02:16:49.801626+00:00",
+              "input_hash": "63b96320b6481fcc077eb8bd673c37df6bbde187b3df4f0a86be845eca33aebe",
               "decision": "HOLD",
               "unresolved": [
                 "北京青年报原始采访尚未直读，体验日期UNKNOWN。"
@@ -923,7 +923,7 @@
                 "reason": "情感个案区别于工具新闻；与本轮俯卧撑虽然都涉技术，但读者处境和分享对象不同。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "input_scope_note": "仅正文、来源日期/链接、原始短摘录、事实核验和历史；同时移除evidence_text和旧闻推荐理由。重新逐句阅读，保留2 PASS/3 HOLD及同一Codex偏差说明。",
               "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。",
               "wording_recheck": "首句聊天不再假定设备，再核辣子鸡/蔬菜面和虚拟情境；原始采访和日期未决，仍HOLD。"
             }
@@ -1165,8 +1165,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:15:01.543767+00:00",
-              "input_hash": "596b92c5adfdc0c9145d361da67679c802c906db921ed5b777075d0fb38ba9cd",
+              "reviewed_at": "2026-10-22T02:16:49.801972+00:00",
+              "input_hash": "c47c33817673c8f4fc1353740f31b2e9d64f493e33d6f95e1fbccffad59a1781",
               "decision": "HOLD",
               "unresolved": [
                 "10月18日事件已过48小时；原始采访未直读，后续UNKNOWN。"
@@ -1257,7 +1257,7 @@
                 "reason": "本轮唯一老龄出行题材，与失物幽默的生活处境不同；未见历史同源同事件。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "input_scope_note": "仅正文、来源日期/链接、原始短摘录、事实核验和历史；同时移除evidence_text和旧闻推荐理由。重新逐句阅读，保留2 PASS/3 HOLD及同一Codex偏差说明。",
               "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           }
@@ -1485,8 +1485,8 @@
               "reviewer_scope": "SEPARATE_PASS_SAME_AGENT",
               "author_scores_used": false,
               "limitation": "同一Codex分阶段复核，不是第二个人或独立真实读者；仍可能高估吸引力。",
-              "reviewed_at": "2026-10-22T02:15:01.544108+00:00",
-              "input_hash": "dc62afdfad3097a04d7d7eee855dd88314639b5e201b5247cd87cb10bf959710",
+              "reviewed_at": "2026-10-22T02:16:49.802318+00:00",
+              "input_hash": "25445f83f5b3960d9ce266afa974270a39c1627d7422bdfae81ee095ae3dde37",
               "decision": "PASS",
               "unresolved": [],
               "sentences": [
@@ -1568,7 +1568,7 @@
                 "reason": "与现金招领题材相近，本轮舍弃未核实现金稿只保留这篇；原始来源和人物事件未见历史重复。"
               },
               "source_recheck_note": "逐句重核最小原文短摘录，保留数字、日期、限定与归因；原HOLD未解除。私有原页留存，公开不复制整篇报道。",
-              "input_scope_note": "最终输入仅保留来源日期/链接元数据、原始短摘录、事实证据和历史；移除选题编辑译述中的分享动机。再读五篇，原2 PASS/3 HOLD不变，不声称已摆脱同一作者上下文偏差。",
+              "input_scope_note": "仅正文、来源日期/链接、原始短摘录、事实核验和历史；同时移除evidence_text和旧闻推荐理由。重新逐句阅读，保留2 PASS/3 HOLD及同一Codex偏差说明。",
               "date_precision_recheck": "事件原文只给日期或年份时不补零点/1月1日；再核对正文可见日期与原文，原最终判断和HOLD不变。"
             }
           },
