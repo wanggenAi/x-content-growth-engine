@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T10:18:27.937174+00:00",
+  "updated_at": "2026-10-22T10:35:16.659086+00:00",
   "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
@@ -2158,28 +2158,28 @@
     "same_text_new_pass": 2
   },
   "content_supply_last_window": {
-    "checked_at": "2026-10-22T10:18:27.937174+00:00",
-    "triggered_at": "2026-10-22T10:14:32.726Z",
+    "checked_at": "2026-10-22T10:35:16.659086+00:00",
+    "triggered_at": "2026-10-22T10:34:32.774Z",
     "scope": "CONTENT_QUALITY_AND_CONDITIONAL_OPERATIONS",
     "origin_main": "b5c922e043c83d8e4277a1c229d56e3180e4fc74",
-    "inspected_branch_head": "7be9b9f105180d7d13bea249463a27cb68f9be06",
+    "inspected_branch_head": "b48e0ecb4369bb02c85a6933899cf5dcf5c836df",
     "engineering_state": "PR21_MERGED_NOT_BLOCKING_CONTENT",
     "decision": "SKIPPED",
     "reason": "NO_REVIEWED_CONTENT",
     "additional_publication_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
-    "slot": "2026-10-22T10:00:00+00:00",
-    "slot_original_check_at": "2026-10-22T10:18:27.937174+00:00",
+    "slot": "2026-10-22T10:20:00+00:00",
+    "slot_original_check_at": "2026-10-22T10:35:16.659086+00:00",
     "slot_added": true,
     "queue_changed": true,
     "existing_drafts_formal_hold": 5,
     "queue_ready": 0,
     "new_drafts": 0,
     "new_final_reviews": 0,
-    "new_source_triage": 3,
+    "new_source_triage": 0,
     "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
-    "review_scope": "FOUR_HOUR_DISCOVERY_REFRESH_AND_SOURCE_AVAILABILITY_TRIAGE; NO_NEW_DEEP_OR_FINAL_APPROVAL",
+    "review_scope": "LOCAL_CONTROL_AND_EXISTING_QUALITY_ARTIFACT_CHECK_ONLY; NO_NEW_SOURCE_OR_FINAL_REVIEW",
     "last_existing_collection": "2026-10-22T10:15:06.859585Z",
-    "collector_run": true,
+    "collector_run": false,
     "collection_cadence_hours": 4,
     "x_or_transport_accessed": false,
     "platform_permission_or_configuration_change_evidence": null,
@@ -2198,29 +2198,7 @@
       "data/chinese_reader_quality_2026-10-22/source_packet.json": "03540452c6ad75d9e627d0ac09066e527d4b6649c1adcd82f6a95ca5e5a2af57"
     },
     "cached_media_titles_scanned": 0,
-    "source_triage": [
-      {
-        "material_id": "D311aaf3db8617377",
-        "source_url": "https://t.me/DNYQWCG/263810",
-        "topic": "苹果卡口就医线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "转发题注缺原始报道、事件日期与完整上下文；未看视频，不把诊断、现场动作或地域当已核事实，不传播个人医疗细节。"
-      },
-      {
-        "material_id": "D1568b74f9f47ae5d",
-        "source_url": "https://t.me/DNYQWCG/263809",
-        "topic": "婚礼致辞线索",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "未取得完整原始致辞、婚礼日期及本人上下文；不把题注的关系暗示当事实，不截句放大争议。"
-      },
-      {
-        "material_id": "D6c2c1b4ed7591aec",
-        "source_url": "https://chinadigitaltimes.net/chinese/733121.html",
-        "topic": "历史404芯片材料",
-        "status": "HOLD_BEFORE_WRITING",
-        "reason": "标题明确回溯2022年10月21日，不能以2026年feed发布时间当今日新事件；原始正文未核，不作新突破或新删除指控。"
-      }
-    ],
+    "source_triage": [],
     "last_collection_completed_at": "2026-10-22T10:17:23.981540Z",
     "collection_summary_ref": "data/content_collection_2026-10-22_1015.json"
   },
