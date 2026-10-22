@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T02:06:21.918329+00:00",
+  "updated_at": "2026-10-22T02:15:59.365941Z",
   "phase": "CONTENT_ONLY_CHINESE_QUALITY_REVIEW",
   "checkpoints": {
     "environment_review": "done",
@@ -2146,5 +2146,36 @@
     "private_key_negative": "REJECT_PRESERVED",
     "status": "PR_OPEN_LOCAL_167_TESTS_PASSED",
     "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21"
+  },
+  "content_supply_last_window": {
+    "checked_at": "2026-10-22T02:15:59.365941Z",
+    "triggered_at": "2026-10-22T02:14:30.915Z",
+    "scope": "CONTENT_SUPPLY_AND_QUALITY_ONLY",
+    "origin_main": "6d6e19cf0abc72cfc6b11895ab840f3f07a92d8a",
+    "inspected_branch_head": "581d5fca9fcac7f0d48acfcb18987eab72799a94",
+    "engineering_state": "PR21_BRANCH_PENDING_WITH_UNCOMMITTED_CHANGES",
+    "decision": "HOLD_WAIT_FOR_ENGINEERING_COMPLETION",
+    "acceptance_ref": "data/chinese_reader_quality_2026-10-22/acceptance.json",
+    "acceptance_sha256": "d91a45244f932106aa08d73769f7148230caee8dce7ab607b8e6d6be422c73fb",
+    "acceptance_as_of_unchanged": "2026-10-22T02:01:07.585348+00:00",
+    "existing_drafts_checked": 5,
+    "existing_drafts_formal_hold": 5,
+    "queue_ready": 0,
+    "new_drafts": 0,
+    "new_final_reviews": 0,
+    "review_scope": "EXISTING_STATUS_CHECK_ONLY; existing same-agent reviews not repeated or promoted",
+    "previous_saxophone_draft": "HOLD_UNCHANGED",
+    "collector_run": false,
+    "last_existing_collection": "2026-10-22T01:45:40.384404Z",
+    "collection_cadence_hours": 4,
+    "x_or_transport_accessed": false,
+    "queue_or_controls_changed": false,
+    "code_or_engineering_artifacts_changed": false,
+    "published": 0,
+    "scheduled": 0,
+    "metrics": null,
+    "growth": "UNKNOWN",
+    "user_language_negative": "REJECT_PRESERVED",
+    "C390": "REJECT_PRESERVED"
   }
 }
