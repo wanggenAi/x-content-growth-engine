@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
   "updated_at": "2026-10-22T14:16:03.187793+00:00",
-  "phase": "USER_DIRECTED_NATIVE_UI_VERIFIED_CONTENT_HOLD",
+  "phase": "COMPOSER_PREPARED_LIVE_SUBMIT_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -737,7 +737,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": "NO_FORMALLY_QUALIFIED_FRESH_CONTENT; CURRENT_FULL_HISTORY_DEDUP_INCOMPLETE; UNATTENDED_METHOD_NOT_VERIFIED",
+  "current_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT; LIVE_PREPUBLISH_PAUSED",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -2253,5 +2253,24 @@
     "final_status": "HOLD",
     "ref": "data/operations_booking_draft_2026-10-22.json",
     "unattended_publishing_enabled": false
+  },
+  "latest_operations_2026_10_22": {
+    "checked_at": "2026-10-22T14:27:13.480512+00:00",
+    "evidence": "data/operations_shark_2026-10-22.json",
+    "candidate_id": "V4-OPS-20261022-BUKANGI",
+    "competition": {
+      "raw": 100,
+      "valid_deep_reviews": 20,
+      "reviewed_under48h": 20,
+      "source_families": 4
+    },
+    "prepublish_dry_run": "PASS",
+    "prepublish_live": "BLOCKED",
+    "queue_status": "REVIEWED",
+    "native_composer_exact_text": true,
+    "post_clicked": false,
+    "new_posts": 0,
+    "scheduled": 0,
+    "feedback": "UNKNOWN"
   }
 }

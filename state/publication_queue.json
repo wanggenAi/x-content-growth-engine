@@ -65,6 +65,64 @@
         "learning_eligible": false
       },
       "skip_reason": "USER_REJECTED_CHINESE_PRIVATE_KEY; FINAL_CHINESE_READER_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "V4-OPS-20261022-BUKANGI",
+      "material_id": "Dc289548e4451556b",
+      "status": "REVIEWED",
+      "text": "几百人挥手送别一条鲨鱼，第二天，它又回来了。\n据BBC10月22日报道，釜山救援人员花了8个多小时，才把这条3米长的鲨鱼引出运河。次日它突破围网返回，一度困在两层网之间，工作人员拆网才让它脱困。\n人类忙着救援和告别，鲨鱼还在河口打转。\nhttps://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
+      "text_hash": "ab0c3e52ca7e3b674e2112b19a58cdab9f482f8898ca1dc4a167eddb0bddd7ff",
+      "candidate_ref": "data/private/operations_live_2026-10-22/production_result.json",
+      "reviewed_at": "2026-10-22T14:22:14.148449+00:00",
+      "competition_as_of": "2026-10-22T14:13:12.364848+00:00",
+      "history": [
+        {
+          "status": "DRAFT",
+          "at": "2026-10-22T14:22:14.148449+00:00"
+        },
+        {
+          "status": "REVIEWED",
+          "at": "2026-10-22T14:22:14.148449+00:00"
+        }
+      ],
+      "post_url": null,
+      "published_at": null,
+      "scheduled_for": null,
+      "feedback_24h": {
+        "candidate_id": "V4-OPS-20261022-BUKANGI",
+        "status": "AWAITING_PUBLICATION",
+        "publication_text_digest": "ab0c3e52ca7e3b674e2112b19a58cdab9f482f8898ca1dc4a167eddb0bddd7ff",
+        "primary_action": "DWELL",
+        "topic": "八小时救援送走的鲨鱼，第二天又游回来了",
+        "preregistered_at_utc": "2026-10-22T14:17:56.873098+00:00",
+        "window": "24h",
+        "post_url": null,
+        "published_at_utc": null,
+        "observed_at_utc": null,
+        "evidence_ref": null,
+        "human_reviewed": false,
+        "metrics_status": "UNKNOWN",
+        "views": null,
+        "impressions": null,
+        "likes": null,
+        "replies": null,
+        "reposts": null,
+        "quotes": null,
+        "bookmarks": null,
+        "profile_visits": null,
+        "follows_attributed": null,
+        "account_follower_delta": null,
+        "link_clicks": null,
+        "expanded_details": null,
+        "return_visits": null,
+        "actual_observed_at": null,
+        "actual_post_age_minutes": null,
+        "target_window": "24h",
+        "offset_from_target_minutes": null,
+        "tolerance_minutes": 60,
+        "window_class": "MISSING",
+        "learning_eligible": false
+      }
     }
   ],
   "slots": [
@@ -362,6 +420,14 @@
       "status": "SKIPPED",
       "reason": "NO_REVIEWED_CONTENT",
       "candidate_id": null,
+      "external_action": false
+    },
+    {
+      "slot": "2026-10-22T14:20:00+00:00",
+      "checked_at": "2026-10-22T14:22:14.148449+00:00",
+      "status": "SKIPPED",
+      "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
+      "candidate_id": "V4-OPS-20261022-BUKANGI",
       "external_action": false
     }
   ]

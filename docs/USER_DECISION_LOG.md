@@ -1038,3 +1038,7 @@ PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8f
 Browser Harness确实尝试打开非X原始素材，但default daemon启动失败，doctor显示Chrome运行、daemon不活跃、连接0；没有安装或启动云服务，改原生CU查看非X原文。新执行一次既有免费collect-feed，13:09:39Z取得100条/4族（96为来源时间48h，不是事实已核实），保持4h定时不变。新写Booking ABC，B生硬拒稿，C原版付款动作主体错误被复核抓到并修正文、重核两份原始来源；修正C事实和逐句语言可保留，HumanStyle PASS/正文未静默改写，最终reader仍HOLD，193条旧记忆仅有限查重，不冒充完整当前历史/20深评竞争或正式Top1。Cash App新线索原始全文需免费注册，未注册/绕过，HOLD。167 unittest/167pytest/compileall PASS，无运行代码、依赖、服务、任务新增。
 
 本轮没有点击Post/Schedule、没有新帖或新排程，不开启无人值守发布、不改变暂停安全控制；只确认工具能看见并操作界面，未声称X已批准非API无人值守方法。证据data/operations_booking_draft_2026-10-22.json及operations_verification的later_user_directed_ui_verification。
+
+
+## 2026-10-22T14:27:13.480512+00:00 — 发布催促与真实执行状态
+原话：“快点给我发布啊”。沿用本人普通公开帖授权，无需逐篇重复确认。当前新稿已完成生产干跑并填入正确账号原生编辑器；没有点击Post，没有真实新增帖子链接，不能声称发布成功。先前用户同时要求禁止非API网站自动化并遵守平台规则；重新打开官方自动化页，未发现Computer Use明确例外，不能以工具可点击伪填合规通道。保留暂停和自动提交false，等待用户本人在已准备的原生编辑器提交或经验证的合规通道。英文原文冲突证据识别缺陷已最小修复，不改变八维权重、不增加评分器。
