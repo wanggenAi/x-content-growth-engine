@@ -86,6 +86,11 @@ class FinalChineseReaderTests(unittest.TestCase):
         for v in drafts:
             self.assertEqual(v['text'], v['after'])
             self.assertEqual(v['content_review_result']['final_reader']['audience_validation'], 'UNKNOWN')
+            # Intentional provenance/date HOLD must not mask a broken source
+            # pointer left behind when public excerpts are shortened.
+            self.assertFalse(any(r.startswith(('CONTENT_UNSUPPORTED_SENTENCE', 'CONTENT_UNSOURCED_NUMBER',
+                                               'CONTENT_OPENING_COMPARISON_REQUIRED'))
+                                 for r in v['content_review_result']['reasons']))
 
 
 if __name__ == '__main__':
