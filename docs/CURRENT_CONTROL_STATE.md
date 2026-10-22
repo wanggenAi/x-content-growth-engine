@@ -1,3 +1,9 @@
+# 2026-10-22 — 最新运营核验：BLOCKED
+
+用户已授权通过完整审核的普通中文帖及官方排程，无需逐篇授权。真实main/CI已核实；20分钟心跳有三次执行证据，但没有实发/官方排程回执。当前合格待发0，publication_control仍PAUSED/automatic_x_submission=false；这是通道与质量阻塞，不是缺用户授权。X官方禁止非API自动化，未核实Computer Use例外；Metricool当前无连接。未访问X账号，账号登录、最新历史和官方排程库存UNKNOWN。旧191等盘点不能冒充现时数量。
+
+已有心跳移除PR21过时工程等待，维持20分钟严格质量与条件运营核验；不开发发布框架、不新增任务，不绕平台规则。五篇旧稿全HOLD；本会话仅记真实SKIPPED，无发布。Mac关机后本地任务不运行，官方排程无确认；真实增长UNKNOWN。证据：[运营核验](../data/operations_verification_2026-10-22.json)。
+
 合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。
 
 # 2026-10-22 中文质量优先，内容供应与发布分离

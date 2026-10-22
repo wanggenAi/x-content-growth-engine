@@ -1015,3 +1015,10 @@ PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8f
 
 
 合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。
+
+
+## 2026-10-22T02:32:57.515727+00:00 — 真实运营验收：BLOCKED，不冒充发帖成功
+
+最新用户要求核验并通过合规通道执行已授权的每20分钟发布，禁止非API网站自动化或规避规则；不要求重复逐篇授权。远端main b5c922e、PR20已合并、main CI39711093232 SUCCESS已实查。官方automation规则仍禁止非API自动化，未发现Computer Use例外；Metricool实查无任何社交网络连接。因此不访问X账号、不尝试提交/排程，登录账号、最新账号帖子与官方排程清单均UNKNOWN，不能沿用本地191等旧盘点。最近三个真实heartbeat触发为09:34:30/09:54:30/10:14:30（北京时间），分别通道跳过、生活草稿HOLD、五稿HOLD；无外部操作回执，不是连续实发。当前会话调用现有slot_check真实记SKIPPED/NO_REVIEWED_CONTENT；合格待发0，本轮核验新增已发0/官方排程0。
+
+现有20分钟心跳保留，已移除“等待PR21工程完成”的过时条件，继续严格内容供应与条件运营核验，仍不是自动发布器。不新增任务/服务/依赖/购买，不改变4小时采集。最新01:45素材池100条复用；Sierra原文实开为10月6日，拒绝当新事件；夜市视频缺原始日期/上下文，不晋级。既有五稿全部HOLD，私钥病句与C390否定保留。Mac关机后本地任务不能继续，未核实任何可远端执行的官方排程；真实流量和24h指标UNKNOWN。详见data/operations_verification_2026-10-22.json。

@@ -1,7 +1,7 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T02:23:07.668096+00:00",
-  "phase": "CONTENT_ONLY_CHINESE_QUALITY_REVIEW",
+  "updated_at": "2026-10-22T02:32:57.515727+00:00",
+  "phase": "OPERATIONS_VERIFIED_BLOCKED",
   "checkpoints": {
     "environment_review": "done",
     "initial_reference_review": "done",
@@ -149,7 +149,8 @@
       "compileall": "PASS",
       "diff_check": "PASS",
       "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/12"
-    }
+    },
+    "operations_verification": "BLOCKED_WITH_REAL_RUN_EVIDENCE"
   },
   "counts": {
     "x_posts": 11,
@@ -736,7 +737,7 @@
       "checks": "16 tests passed; campaign all353 posts unchanged; drafts unchanged;157 unique verified URLs/182 total/ready0/queue353 reconciled;new2high+1low unique;private body/screens/raw metrics ignored;seed audit11 links/13 observations separate;automation read back ACTIVE/5min/failed_runs_only"
     }
   ],
-  "current_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT; user publication authorization present; no remote schedules or real posts.",
+  "current_blocker": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT; CURRENT_ACCOUNT_HISTORY_UNKNOWN; NO_FORMALLY_QUALIFIED_FRESH_CONTENT",
   "last_research_failure": {
     "at": "2026-10-05T10:06:00Z",
     "scope": "new_high_view_public_search",
@@ -2186,5 +2187,17 @@
     "growth": "UNKNOWN",
     "user_language_negative": "REJECT_PRESERVED",
     "C390": "REJECT_PRESERVED"
+  },
+  "operations_verification_2026_10_22": {
+    "checked_at": "2026-10-22T02:32:57.515727+00:00",
+    "evidence_ref": "data/operations_verification_2026-10-22.json",
+    "status": "BLOCKED",
+    "automatic_publication_enabled": false,
+    "verified_new_posts": 0,
+    "verified_official_schedules": 0,
+    "qualified_backlog": 0,
+    "current_account": "UNKNOWN",
+    "actual_20m_heartbeat_runs_observed": 3,
+    "continuous_real_publication_verified": false
   }
 }

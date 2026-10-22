@@ -83,6 +83,14 @@
       "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
       "candidate_id": "V4-LAUNCH-20261021-EMUDHRA",
       "external_action": false
+    },
+    {
+      "slot": "2026-10-22T02:20:00+00:00",
+      "checked_at": "2026-10-22T02:32:57.515727+00:00",
+      "status": "SKIPPED",
+      "reason": "NO_REVIEWED_CONTENT",
+      "candidate_id": null,
+      "external_action": false
     }
   ]
 }
