@@ -1,3 +1,5 @@
+合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。
+
 # 2026-10-22 中文质量优先，内容供应与发布分离
 
 最新用户自行安排Computer Use发布；本轮仅内容，不开发/操作发布通道。事实先审，正文逐句中文和七问另审；同一Codex分遍不冒充第二真人。新READY必须最终审核，历史结构PASS仅可审计。私钥病句负例保留、旧待发条目SKIPPED，C390不变。100新采集+2检索旧事，10方向/5实际正文；来源与文字复核可留稿2，正式READY0，未满足深审20和实际事件新鲜度，不凑稿。20分钟既有心跳已改内容检查，允许0；采集4h、PAUSED、automatic_x_submission=false不变。资源0新依赖/服务，测试167。增长UNKNOWN，未发X。

@@ -1012,3 +1012,6 @@ PR #17 merged after both head checks passed: code SHA 130939521b628d05ff3b7e2c8f
 ## 2026-10-22T02:06:21.918329+00:00 — 内容总编整改与实际拒稿
 
 用户明确：“技术PASS不等于内容优秀。没有真实读者愿意阅读的理由，就不要发布。” “用户已决定自行安排 Computer Use 处理 X 发布，不再要求你开发 API、第三方发布平台、自动排程或浏览器发布基础设施。” 要求真实10方向、5正文、事实与中文两层、生成/最终审核分开、私钥病句回归、0稿允许、完整测试与CI后合并。执行见CHINESE_READER_QUALITY_2026-10-22；五稿全部正式HOLD，不能将2篇文字来源通过当发布准入。同一Codex复核局限、C390和UNKNOWN指标保留。
+
+
+合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。

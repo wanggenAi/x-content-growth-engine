@@ -458,5 +458,109 @@
     "new_schedules": 0,
     "collector_frequency": "UNCHANGED_4_HOURS",
     "note": "同一旧20题/9稿离线工作负载7批中位；心跳已有20分钟内容检查会使用Codex会话，本轮未新增。"
+  },
+  "verification": {
+    "verified_at": "2026-10-22T02:23:07.668096+00:00",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21",
+    "reviewed_head": "9aef2a05154b7faa75e6a4bbb3507bba33da9a3c",
+    "pr_ci_runs": [
+      39710751407,
+      39710756117
+    ],
+    "code_merge_sha": "734f3f2a47185c4e510fe0e99815a57845a8b332",
+    "code_main_ci": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510",
+    "code_main_ci_result": "SUCCESS",
+    "merged_main_unittest": 167,
+    "merged_main_pytest": 167,
+    "compileall": "PASS",
+    "audit": "COMPLETED_WITH_EXISTING_STALE_INDEX_LIMITATIONS",
+    "actual_production_dry_run": "EXPECTED_HOLD_NOT_READY",
+    "merged_tree_equals_reviewed_head": true,
+    "unchanged_sha256": {
+      "data/content_quality_2026-10-19/negative_comparisons.json": "da984d358d5113a62bc1d2663c19e6df70c30220d6e94beca0e69502c45cc616",
+      ".github/workflows/viral-hunt.yml": "8f8d0ac4b0f7cf1911842471e95a1f5663538478795bcbbdf9c3eeba5d2d3e7d",
+      "state/publication_control.json": "555a48eb07397418308c70e13bcd15dd795752a808a447f38e62812bd593b117"
+    },
+    "same_five_texts_old_code_structural_pass": 4,
+    "same_five_texts_new_final_pass": 2,
+    "old_code_result": [
+      {
+        "material_id": "D6641c2ca418268d1",
+        "passed": true,
+        "quality_ready": "NOT_IMPLEMENTED",
+        "reasons": []
+      },
+      {
+        "material_id": "Dd67a0444dcb4dae2",
+        "passed": false,
+        "quality_ready": "NOT_IMPLEMENTED",
+        "reasons": [
+          "CONTENT_REPORT_DATE_BOUNDARY_REQUIRED"
+        ]
+      },
+      {
+        "material_id": "D92a272bc22945a73",
+        "passed": true,
+        "quality_ready": "NOT_IMPLEMENTED",
+        "reasons": []
+      },
+      {
+        "material_id": "Dcd3da564d1a0aef3",
+        "passed": true,
+        "quality_ready": "NOT_IMPLEMENTED",
+        "reasons": []
+      },
+      {
+        "material_id": "Q-phone-1005",
+        "passed": true,
+        "quality_ready": "NOT_IMPLEMENTED",
+        "reasons": []
+      }
+    ],
+    "new_code_result": [
+      {
+        "material_id": "D6641c2ca418268d1",
+        "passed": true,
+        "quality_ready": true,
+        "reasons": []
+      },
+      {
+        "material_id": "Dd67a0444dcb4dae2",
+        "passed": false,
+        "quality_ready": false,
+        "reasons": [
+          "CONTENT_FACT_RECHECK_REQUIRED",
+          "CONTENT_FINAL_EDITOR_HOLD",
+          "CONTENT_READER_HOLD:errors",
+          "CONTENT_REPORT_DATE_BOUNDARY_REQUIRED"
+        ]
+      },
+      {
+        "material_id": "D92a272bc22945a73",
+        "passed": false,
+        "quality_ready": false,
+        "reasons": [
+          "CONTENT_FACT_RECHECK_REQUIRED",
+          "CONTENT_FINAL_EDITOR_HOLD",
+          "CONTENT_READER_HOLD:errors"
+        ]
+      },
+      {
+        "material_id": "Dcd3da564d1a0aef3",
+        "passed": false,
+        "quality_ready": false,
+        "reasons": [
+          "CONTENT_FACT_RECHECK_REQUIRED",
+          "CONTENT_FINAL_EDITOR_HOLD",
+          "CONTENT_READER_HOLD:errors"
+        ]
+      },
+      {
+        "material_id": "Q-phone-1005",
+        "passed": true,
+        "quality_ready": true,
+        "reasons": []
+      }
+    ]
   }
 }

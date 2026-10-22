@@ -32,3 +32,6 @@
 负载：同一原离线20题/9稿、7批中位0.309727→0.311922秒（+0.71%），峰值33,259,520→33,210,368字节（-0.15%），属测量波动，无明显退化。新增运行依赖0、常驻服务0、模型0、数据库0、新定时任务0。保留既有4小时采集；已存在20分钟心跳改为内容检查，仍需Codex在线并使用会话额度，不是无成本永动内容服务。
 
 验证：167 unittest、167 pytest、compileall、现有audit、真实102素材/5稿dry-run与git diff --check；PR/merged-main收据另记最终状态。历史真实私钥稿的新预检按设计HOLD，正向全门槛合同使用明确标注的合成测试夹具，绝不用病句当正例。
+
+
+合并验收（2026-10-22T02:23:07.668096+00:00）：[PR #21](https://github.com/wanggenAi/x-content-growth-engine/pull/21)在最终head `9aef2a05154b7faa75e6a4bbb3507bba33da9a3c` 的两项CI均SUCCESS后合并，代码main SHA `734f3f2a47185c4e510fe0e99815a57845a8b332`；[main CI39710886510](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510) SUCCESS。合并树与审查head一致，合并main本机167 unittest/167pytest、compileall、真实102素材/5稿dry-run再次验证；正式READY0为预期质量HOLD，不是生产闭环全部PASS。同一五篇正文，原main审核结构PASS4，新最终审核PASS2；新增两层审核阻止旧自评放行事实未决稿。C390、4h采集工作流、发布暂停控制字节不变，五篇反馈全null/UNKNOWN，未发X。本收据只更新文档/状态/验收，不改代码或正文。

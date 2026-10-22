@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0-editorial-growth-control",
-  "updated_at": "2026-10-22T02:15:59.365941Z",
+  "updated_at": "2026-10-22T02:23:07.668096+00:00",
   "phase": "CONTENT_ONLY_CHINESE_QUALITY_REVIEW",
   "checkpoints": {
     "environment_review": "done",
@@ -861,9 +861,9 @@
   "remaining_new_publications": 831,
   "ready_count": 0,
   "rolling_work_queue_count": 365,
-  "latest_candidate_id": "V4-CLOSURE-20261021-EMUDHRA",
-  "latest_candidate_status": "HOLD_QUALITY_AND_PRODUCTION_REVIEW",
-  "latest_candidate_checked_at": "2026-10-21T12:48:06.609541Z",
+  "latest_candidate_id": "QUALITY-20261022-D6641c2ca418268d1",
+  "latest_candidate_status": "HOLD_NOT_PRODUCTION_READY",
+  "latest_candidate_checked_at": "2026-10-22T02:23:07.668096+00:00",
   "community_publication_batch7": {
     "ids": [
       "C340",
@@ -2144,8 +2144,17 @@
     "scheduled": 0,
     "C390": "REJECT_PRESERVED",
     "private_key_negative": "REJECT_PRESERVED",
-    "status": "PR_OPEN_LOCAL_167_TESTS_PASSED",
-    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21"
+    "status": "MERGED_MAIN_CODE_AND_CI_VERIFIED",
+    "pr": "https://github.com/wanggenAi/x-content-growth-engine/pull/21",
+    "code_main_sha": "734f3f2a47185c4e510fe0e99815a57845a8b332",
+    "main_ci": "https://github.com/wanggenAi/x-content-growth-engine/actions/runs/39710886510",
+    "timestamp_qualified_deep_reviews": 3,
+    "unittest": 167,
+    "pytest": 167,
+    "compileall": "PASS",
+    "production": "HOLD",
+    "same_text_old_pass": 4,
+    "same_text_new_pass": 2
   },
   "content_supply_last_window": {
     "checked_at": "2026-10-22T02:15:59.365941Z",
