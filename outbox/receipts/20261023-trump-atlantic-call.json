@@ -1,0 +1,18 @@
+{
+  "post_id": "20261023-trump-atlantic-call",
+  "content_sha256": "51ee78c0b17a93e5e7129da31355802de7bbea1503e1617cd2d614bef87efbb1",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2113616374698492190",
+  "observed_exact_text": true,
+  "observed_text": "特朗普说，他打电话找谷歌CEO，想给大西洋改名，结果碰了壁。\n\n10月21日南卡集会上，他转述皮查伊的回答：“这次我不干。”理由是海洋涉及很多国家。特朗普接着说，可能还是保留“大西洋”这个名字。\n\n谷歌尚未证实这通电话。\n\nhttps://www.rte.ie/news/us/2026/1022/1596517-trump-atlantic-ocean/",
+  "verified_at": "2026-10-23T13:03:37.274163+00:00",
+  "published_at": "2026-10-23T20:59:00+08:00",
+  "published_time_precision": "minute",
+  "published_time_display": "8:59 PM · Oct 23, 2026",
+  "publish_mode": "ORIGINAL_POST",
+  "verification_notes": "Visible native Chrome profile and independent status detail reloaded; all Chinese paragraphs/punctuation/blank lines match. Source card t.co/SWaK8sy5eL actually opened and redirected to the exact rte.ie URL; destination showed 请稍候 challenge, no bypass performed. Publication time only displayed to minute; :00 represents minute precision, not observed seconds.",
+  "source_target_verified": "https://www.rte.ie/news/us/2026/1022/1596517-trump-atlantic-ocean/",
+  "source_target_access": "CHALLENGE_NOT_BYPASSED",
+  "metrics": null
+}

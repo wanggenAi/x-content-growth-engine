@@ -1,0 +1,78 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261023-trump-atlantic-call",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-23T12:53:01.972150+00:00",
+  "scheduled_at": "2026-10-23T12:53:01.972150+00:00",
+  "event_key": "trump-atlantic-rename-rally-20261021",
+  "event_at": "2026-10-21",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-23T21:00:00+08:00",
+  "text": "特朗普说，他打电话找谷歌CEO，想给大西洋改名，结果碰了壁。\n\n10月21日南卡集会上，他转述皮查伊的回答：“这次我不干。”理由是海洋涉及很多国家。特朗普接着说，可能还是保留“大西洋”这个名字。\n\n谷歌尚未证实这通电话。\n\nhttps://www.rte.ie/news/us/2026/1022/1596517-trump-atlantic-ocean/",
+  "content_sha256": "51ee78c0b17a93e5e7129da31355802de7bbea1503e1617cd2d614bef87efbb1",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.rte.ie/news/us/2026/1022/1596517-trump-atlantic-ocean/",
+    "https://www.theguardian.com/us-news/2026/oct/22/trump-atlantic-ocean-rename-google",
+    "https://www.washingtonpost.com/politics/2026/10/22/trump-says-he-called-google-ceo-sundar-pichai-discuss-renaming-atlantic-ocean/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-23T12:53:01.972150+00:00",
+    "reviewed_sha256": "51ee78c0b17a93e5e7129da31355802de7bbea1503e1617cd2d614bef87efbb1",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "用户指定Telegram实际读取并优先核查两条，但原始争议证据不足；选择具体名人自述的请求与拒绝，保留全部必要不确定性，不以匿名指控填周期。",
+    "candidates_considered": [
+      {
+        "topic": "DNYQWCG264239渭南搅拌车地陷",
+        "decision": "HOLD",
+        "reason": "新京报原报道核实地陷与未受伤，但Telegram所称推卸超载责任无来源；去掉此指控后冲突不足，未以事故受损博眼球。"
+      },
+      {
+        "topic": "iizuk185573深圳自愿停驶变指标",
+        "decision": "HOLD",
+        "reason": "官方原文仅确认自愿活动及日期；强制通知身份、截图出处和完整语境未核实，不能把匿名题注当事实。"
+      },
+      {
+        "topic": "詹姆斯回应特朗普国歌批评",
+        "decision": "HOLD",
+        "reason": "AP/USA TODAY检索正文可见，但原始页面403/404，未完成原文访问复核，不据此发布。"
+      },
+      {
+        "topic": "特朗普自述大西洋改名遭拒",
+        "decision": "SELECTED",
+        "reason": "可访问原报道有完整语境，RTE通讯社报道交叉核对；明确写成自述，普通读者易懂；事件10月21日而非今日新发生。"
+      }
+    ],
+    "event_date_note": "集会发生在美国当地2026-10-21，确切时分未知；报道10月22日；通话是否发生及日期未独立核实。不是今日突破。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "特朗普自述打电话请求更改大西洋名称、转述拒绝理由、称可能保留原名",
+        "source": "https://www.rte.ie/news/us/2026/1022/1596517-trump-atlantic-ocean/",
+        "result": "检索取得Reuters/AFP短篇正文，与实际可读Guardian完整报道交叉核对。严格归属为特朗普说法。"
+      },
+      {
+        "claim": "集会10月21日、谷歌尚未证实通话",
+        "source": "https://www.washingtonpost.com/politics/2026/10/22/trump-says-he-called-google-ceo-sundar-pichai-discuss-renaming-atlantic-ocean/",
+        "result": "原文检索正文明确Wednesday evening以及Google has not confirmed the call；Guardian全文确认Wednesday，已向Google寻求回应。"
+      }
+    ],
+    "voice_review": "短句，具体动作先行，不编本人感受，不加结论或反问；首句及第二段明确特朗普转述，末句限定核实边界。",
+    "dedup_result": "本仓库tracked全文及当前pipeline三条真实已发记录无此事件；提交前仍须核对可见近期账号。"
+  }
+}
