@@ -1,2 +1,2 @@
-"""Local, evidence-first X content research tools."""
-
+"""Person-and-action observations, not an engagement engine."""
+__version__ = "2026.10.23"
