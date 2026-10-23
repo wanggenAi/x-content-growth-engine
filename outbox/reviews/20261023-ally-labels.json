@@ -1,0 +1,60 @@
+{
+  "post_id": "20261023-ally-labels",
+  "reviewed_at": "2026-10-23T02:29:44.610943+00:00",
+  "base_main_sha": "9ef80bc43bbbe3b16bb428a1a8a791fbabdf9077",
+  "content_sha256": "fbf8b9ee18459663277481933fa5a8a8ca44a349ee7236f9d480c8538ce786f9",
+  "authorized_text_exact_match": true,
+  "text_modified": false,
+  "user_authorized_once": true,
+  "reviewer": "Codex",
+  "claim_checks": [
+    {
+      "claim": "刘予宁参加《偏爱之恋2》",
+      "result": "VERIFIED_PUBLIC_ANNOUNCEMENT",
+      "source_url": "https://weibo.com/2/detail/5355672121644708",
+      "method": "Unauthenticated public HTTPS page; visible text parsed with Python standard library; no account or cookies.",
+      "captured_at": "2026-10-23T02:30:37.789641+00:00",
+      "finding": "优酷综艺嘉宾官宣名单列出刘予宁及其公开账号 @每天睡满二十二小时。",
+      "visible_text_sha256": "f80561b7830fa1bae1199951180b23d3129370d61978a3e3db8101ae27234ed4"
+    },
+    {
+      "claim": "Ally 与刘予宁的公开账号对应",
+      "result": "VERIFIED_PUBLIC_HANDLE_LINKAGE",
+      "source_url": "https://weibo.com/2/detail/5356432346319742",
+      "method": "Unauthenticated public HTTPS page; visible text parsed with Python standard library.",
+      "captured_at": "2026-10-23T02:30:38.087369+00:00",
+      "finding": "微博电视节目片段说明将 Ally 链接至同一公开账号 @每天睡满二十二小时；不据此推断私人身份信息。",
+      "visible_text_sha256": "7b6012de0a912a8c5601215e5a2af08f88b33c4e533f8e6bdbf2519b2d0e7358"
+    },
+    {
+      "claim": "看过剪辑、评论标签及个人判断变化",
+      "result": "AUTHOR_SUPPLIED_OBSERVATION",
+      "finding": "作者明确选择并授权此原文；这是作者自述，不冒充代理亲历或独立调查，不声称评论具有代表性。"
+    }
+  ],
+  "editorial_checks": {
+    "unsubstantiated_marketing_accusations": false,
+    "private_information": false,
+    "agent_invented_first_person": false,
+    "attack_or_conspiracy_added": false,
+    "manipulative_call_to_action_added": false
+  },
+  "execution": {
+    "status": "NOT_SUBMITTED_PLATFORM_RULES_HOLD",
+    "reason": "No verified applicable permission for agent-driven non-API X website submission; stop under the user platform-permission condition.",
+    "policy_url": "https://help.x.com/en/rules-and-policies/x-automation",
+    "policy_read_method": "Public X Help Center text retrieved with web tool",
+    "policy_checked_at": "2026-10-23T02:29:44.610943+00:00",
+    "policy_finding": "X prohibits non-API automation, including scripting its website; no applicable exception verified for this submission.",
+    "user_authorization_missing": false,
+    "computer_use_availability": "NOT_TESTED_AFTER_POLICY_HOLD",
+    "logged_in_account_verified": false,
+    "duplicate_check": "NOT_PERFORMED_AFTER_POLICY_HOLD",
+    "composer_exact_text_check": "NOT_PERFORMED_AFTER_POLICY_HOLD",
+    "account_character_limit_check": "NOT_PERFORMED_AFTER_POLICY_HOLD",
+    "submit_attempts": 0,
+    "post_url": null,
+    "receipt_written": false
+  },
+  "validation_note": "Ready/hash validation checks local attestations and integrity only; it cannot prove platform permission or live publication."
+}

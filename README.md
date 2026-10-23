@@ -1,4 +1,4 @@
-# 时代观察 / Living Record
+# 观世间，见自己 / Living Record
 
 **2026-10-23 完全重构。** 新项目不再是爆款增长引擎，而是为一个普通人观察时代提供少量、具体、可追溯的人物事件。
 
@@ -26,6 +26,10 @@ python3 -m growth_engine.handoff check-receipt outbox/ready/20261023-your-note.j
 ```
 
 见 [outbox/README.md](outbox/README.md) 的字段说明。状态 `READY_FOR_CODEX` 只代表经过审核并等待 Codex 处理，**绝不代表已经发布**。真实发帖仍取决于工具可用性、账号权限及平台规则。
+
+以后可以说「把刚才那段发到 X」。如果所指正文唯一且无需改写，这就是该段原文的一次公开发布授权；如需实质修改或所指不清，先确认最终正文。只保存获准公开的正文与必要核验摘要，不上传前面的私人聊天。GitHub 不会自动唤起 Codex；在当前 Codex 会话执行交接，仍须通过平台规则、账号、重复内容和原生编辑器检查。
+
+首篇 Ally 的原文与事实已核对，交接见 `outbox/ready/20261023-ally-labels.json`。当前停在发布前：未验证 X 允许代理通过非 API 网页提交，不冒充已经发布。详见 [本次核验记录](docs/ALLY_PUBLICATION_2026-10-23.md)。
 
 ## 每小时观察和私人笔记
 
