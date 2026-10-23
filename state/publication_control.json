@@ -1,7 +1,7 @@
 {
   "status": "PAUSED",
-  "mode": "AUTHORIZED_20_MINUTE_SLOTS_TRANSPORT_BLOCKED",
-  "reason": "NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
+  "mode": "LIFE_RECORD_AUTHOR_REVIEW_ONLY",
+  "reason": "VISION_RESET_2026_10_23_AND_NO_VERIFIED_COMPLIANT_FREE_TRANSPORT",
   "updated_at": "2026-10-21T13:53:00.978522+00:00",
   "scope": "User authorizes own-account original Chinese posts and official scheduling; no per-post confirmation. Quality and platform compliance required.",
   "automatic_x_submission": false,
@@ -27,5 +27,7 @@
     "reason": "Native website automation prohibited; Metricool has no connected network and X requires a paid add-on; no zero-cost official API verified.",
     "native_account_schedule_capability": "UNKNOWN",
     "checked_at": "2026-10-21T13:53:00.978522+00:00"
-  }
+  },
+  "project_direction": "LIFE_RECORD_V1",
+  "new_content_requires_author_review": true
 }
