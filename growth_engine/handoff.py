@@ -58,6 +58,16 @@ def _https(value: object) -> bool:
         return False
 
 
+def _date(value: object) -> bool:
+    if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        return False
+    try:
+        datetime.fromisoformat(value)
+        return True
+    except ValueError:
+        return False
+
+
 def verify_ready(payload: object, *, filename: str | None = None) -> dict:
     """Check the local evidence contract, NOT the truth of user review attestations."""
     errors = []
@@ -129,8 +139,7 @@ def verify_ready(payload: object, *, filename: str | None = None) -> dict:
             editorial = {}
         if (not isinstance(payload.get("event_key"), str) or not payload["event_key"].strip()
                 or not (_aware(payload.get("event_at")) or (
-                    isinstance(payload.get("event_at"), str)
-                    and re.fullmatch(r"\d{4}-\d{2}-\d{2}", payload["event_at"])
+                    _date(payload.get("event_at"))
                     and payload.get("event_time_precision") == "date"
                     and editorial.get("event_date_note")))
                 or not _aware(payload.get("expires_at"))):

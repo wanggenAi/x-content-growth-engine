@@ -22,3 +22,7 @@ Telegram 地址恢复自历史用户配置： https://t.me/DNYQWCG 、 https://t
 browser-harness Chrome 调试连接因 DevToolsActivePort 访问权限失败，原生 cua_repl Chrome 已实际发布及后台只读验收成功；没有绕过权限或读取 cookie。
 
 B准确入库：`outbox/ready/<post_id>.json`。不可发布示例：`outbox/examples/b-not-publishable.json`，DRAFT、allow_publication=false、全部审批false。原话独立保留，公开须 public_approved，私人内容只存 ignored journal 引用。成功结果见 `outbox/receipts/<post_id>.json`。紧急暂停：`python3 -m growth_engine.pipeline pause`。
+
+## 已启用的本机调度
+
+北京时间20:36至20:37，已通过 app automation_update 实际更新既有 A heartbeat `x` 为 ACTIVE，周期为每小时 :00/:20/:40（北京时间），并创建独立 B heartbeat `x-b` 为 ACTIVE、每分钟接稿检查。已再次 view 并读取落盘状态确认，不以配置文件代替启用动作。只读检查 app 调度器实际状态：A next_run_nominal_at=2026-10-23 20:40:00+08:00、next_run_at=20:41:28+08:00（调度器存在偏移）；B 首次 next_run_at=20:37:55+08:00，随后约每分钟检查；实际唤醒仍受电脑/app状态和任务繁忙影响。20:40后的正式自动发布周期尚未在本验收时观察，不能声称长期每轮发帖已得到实测。此前真实后台原生CU只读验收已通过。

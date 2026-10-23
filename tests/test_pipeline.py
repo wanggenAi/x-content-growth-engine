@@ -105,6 +105,8 @@ class PipelineTests(unittest.TestCase):
         p=post('news','A');p['event_at']='2026-10-22';p['event_time_precision']='date'
         p['editorial']['event_date_note']='Court order on October 22; precise time unknown.'
         self.assertTrue(verify_ready(p)['valid'])
+        p['event_at']='2026-13-32'
+        self.assertFalse(verify_ready(p)['valid'])
         run=cycle(self.c,at=AT)
         self.assertEqual(finish_cycle(self.c,run['slot'],'NO_QUALIFIED','sources unavailable')['status'],'NO_QUALIFIED')
         with self.assertRaises(ValueError):finish_cycle(self.c,run['slot'],'PUBLISHED','already closed')
