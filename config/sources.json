@@ -5,9 +5,38 @@
   "cooldown_hours": 72,
   "feeds": [
     {
+      "id": "tg-dnyqwcg",
+      "name": "用户指定 DNYQWCG（仅线索）",
+      "url": "https://t.me/s/DNYQWCG",
+      "kind": "telegram"
+    },
+    {
+      "id": "tg-iizuk",
+      "name": "用户指定 iizuk（仅线索）",
+      "url": "https://t.me/s/iizuk",
+      "kind": "telegram"
+    },
+    {
+      "id": "reddit-offbeat",
+      "name": "Reddit offbeat（仅线索）",
+      "url": "https://www.reddit.com/r/offbeat/new/.rss",
+      "kind": "atom"
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC World RSS",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "id": "celebrity-actions",
+      "name": "名人具体事件·马斯克/黄仁勋/特朗普",
+      "query": "Musk OR \"Jensen Huang\" OR Trump when:1d",
+      "locale": "en-US"
+    },
+    {
       "id": "people",
       "name": "普通人·民事",
-      "query": "普通人 民事纠纷 维权 互助 when:2d",
+      "query": "男子 女子 店主 司机 意外 when:1d",
       "locale": "zh-CN"
     },
     {
@@ -19,7 +48,7 @@
     {
       "id": "society",
       "name": "家庭·社会",
-      "query": "家长 孩子 老人 邻居 故事 事件 when:2d",
+      "query": "邻居 老人 夫妻 发现 回应 when:1d",
       "locale": "zh-CN"
     },
     {
@@ -46,5 +75,24 @@
       "query": "AI 人工智能 公司 创始人 CEO 发布 事件 when:2d",
       "locale": "zh-CN"
     }
-  ]
+  ],
+  "preferred_age_hours": 6,
+  "selection_policy": {
+    "priority": [
+      "user_telegram_gossip_with_verified_original",
+      "public_figures_with_concrete_surprise",
+      "ordinary_people_with_concrete_conflict"
+    ],
+    "public_figures": [
+      "马斯克",
+      "黄仁勋",
+      "特朗普"
+    ],
+    "exclude_default_topics": [
+      "ordinary_product_updates",
+      "platform_housekeeping_rules",
+      "generic_tool_introductions"
+    ],
+    "negative_example": "20261023-airbnb-checkout-chores: author explicitly rejected as uninteresting; never use as positive exemplar"
+  }
 }

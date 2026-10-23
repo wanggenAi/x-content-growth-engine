@@ -1,0 +1,93 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261023-airbnb-checkout-chores",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-23T20:14:42.751426+08:00",
+  "scheduled_at": "2026-10-23T20:14:42.751426+08:00",
+  "event_key": "airbnb-20261020-house-rules-jessica-cleaning-fee",
+  "event_at": "2026-10-20T23:50:31.695000+00:00",
+  "expires_at": "2026-10-23T20:20:00+08:00",
+  "text": "退房前拆床单、洗碗、擦厨房、把垃圾搬到路边，最后还得付100美元清洁费。\n\n这是房客Jessica 10月21日在X上讲的上次住宿经历。她说，刚收到Airbnb限制退房杂务的新规邮件，简直谢天谢地。\n\nAirbnb 10月20日公布的新政策，11月20日生效：一般不能再要求房客洗碗归位、拆床单、开洗衣机；把用过的碗放进水槽、收拢毛巾，仍可以要求。\n\n一边付清洁费，一边替下一位房客打扫，这事总算被单独拎出来管了。\n\n房客原帖：https://x.com/JessicaHuseman/status/2112692974416973937\n官方说明：https://www.airbnb.com/resources/hosting-homes/a/important-changes-to-house-rules-21",
+  "content_sha256": "a96e057386f20da2075d70bbac85313c1b2143f641c4386bfe8c03e5de6e55b1",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://x.com/JessicaHuseman/status/2112692974416973937",
+    "https://www.airbnb.com/resources/hosting-homes/a/important-changes-to-house-rules-21",
+    "https://www.fastcompany.com/91628278/airbnb-cleaning-fee-hosts-are-mad-they-cant-require-guests-to-do-chores-taking-out-trash-washing-dishes-laundry-house-rules"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-23T20:14:42.751426+08:00",
+    "reviewed_sha256": "a96e057386f20da2075d70bbac85313c1b2143f641c4386bfe8c03e5de6e55b1",
+    "candidates_considered": [
+      {
+        "topic": "Airbnb房客清洁费与退房劳动",
+        "decision": "SELECTED",
+        "reason": "读到原帖完整自述与明确互动标签，官方可核实规则；普通住宿中的具体冲突，不按普通产品更新写"
+      },
+      {
+        "topic": "退休教授拦送餐机器人",
+        "decision": "REJECTED",
+        "reason": "Reddit新帖讲的是10月14日事件，时效明显弱于报道时间"
+      },
+      {
+        "topic": "上海九旬老人被女儿拒之门外",
+        "decision": "HOLD",
+        "reason": "当前仅RSS线索，普通人家庭指控与隐私需进一步核实"
+      },
+      {
+        "topic": "Telegram印尼音乐节火灾",
+        "decision": "HOLD",
+        "reason": "只有匿名视频题注，未核实地点日期和伤亡，不消费受害者"
+      },
+      {
+        "topic": "Telegram绿色出行强制自愿",
+        "decision": "HOLD",
+        "reason": "个人截图与转述，未独立确认通知真实性和具体范围"
+      }
+    ],
+    "selection_reason": "具体房客自述与官方原文都可读；10月22日媒体继续报道。首次周期没有更强且能在当前条件核实的近6小时生活题材，明确保留21日原帖和20日政策日期。",
+    "event_date_note": "上次住宿确切日期未知，仅转述Jessica公开自述；event_at为原帖Snowflake推导时间，政策公布2026-10-20，生效2026-11-20。不得说成今天新发生。",
+    "popularity": "OBSERVED_PUBLIC_X_METRICS",
+    "engagement": {
+      "url": "https://x.com/JessicaHuseman/status/2112692974416973937",
+      "likes": 19835,
+      "reposts": 469,
+      "replies": 188,
+      "views": 931485,
+      "bookmarks": 547,
+      "observed_at": "2026-10-23T20:14:42.751426+08:00",
+      "basis": "原帖在可见X线程中的标签，瞬时观察，不是传播保证"
+    },
+    "fact_checks": [
+      {
+        "claim": "上次住宿的杂务和100美元清洁费",
+        "source": "https://x.com/JessicaHuseman/status/2112692974416973937",
+        "result": "可见原帖逐项相符，仅作为本人自述，不保证住宿细节经第三方调查"
+      },
+      {
+        "claim": "10月20日公布，11月20日生效；允许与不允许的杂务",
+        "source": "https://www.airbnb.com/resources/hosting-homes/a/important-changes-to-house-rules-21",
+        "result": "官方日期和Dishes/Laundry示例逐项相符"
+      },
+      {
+        "claim": "公开争议持续报道",
+        "source": "https://www.fastcompany.com/91628278/airbnb-cleaning-fee-hosts-are-mad-they-cant-require-guests-to-do-chores-taking-out-trash-washing-dishes-laundry-house-rules",
+        "result": "2026-10-22报道提供房客原帖，已沿链接读可见X原文"
+      }
+    ]
+  }
+}

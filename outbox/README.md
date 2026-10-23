@@ -61,3 +61,13 @@ python3 -m growth_engine.handoff check-receipt outbox/ready/<post_id>.json outbo
 ```
 
 GitHub Actions 仅校验，不登录 X，也不会自动启动 Codex。如果希望在对话里一句「整理并发布」就执行，仍需要在支持的 Work / Codex 环境运行 Computer Use 任务；此仓库只是清晰可审计的交接面。
+
+## 双轨增补（2026-10-23）
+
+两轨仍使用上述 ready 与 receipts 路径、原有校验器。新 B 稿另加：`track: "B"`、`allow_publication: true`、`approved_content_sha256`（必须等于本篇 content_sha256）、`scheduled_at`（带时区的 ISO 时间或 null，null 尽快）。原有历史已发格式保持兼容。只变 hash 而不重新批准正文，不会通过新格式校验。
+
+`original_material` 与 `text` 分开。公开原话格式为 `{ "text": "本人明确允许公开的原话", "public_approved": true }`；私人原话为 `{ "private_ref": "journal/编号.json" }`，原文件只能保存在本机 ignored journal。不得为了“保存原话”把私人聊天上传公开仓库。只有 private_ref 时，ChatGPT/Codex 不能假装已经恢复或审阅原始材料。
+
+完整的[不可发布 JSON 示例](examples/b-not-publishable.json)：status=DRAFT，allow_publication=false，review全部false，approved_content_sha256=null，publication.status=NOT_PUBLISHABLE，url=null。此示例被误放入 ready 也会拒绝。要发布，必须换为真实唯一ID、真实完整正文和材料、实际审批 hash 与审核，不能仅把示例的布尔值全部翻转。
+
+A 使用 track=A、origin=PUBLIC_SOURCE_DISCOVERY 和站立授权/事实审校字段，不能伪称作者逐篇批准。详细字段与租约 JSON 协议见[双轨规程](../docs/DUAL_TRACK_RUNBOOK.md)。发布状态以本机持久队列及 verified receipt 为准，不把入库 status=READY_FOR_CODEX 改为假成功；完成后结果回写 `outbox/receipts/<id>.json`，包含真实URL与实际发布时间。

@@ -1,0 +1,35 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261023-example-not-publishable",
+  "track": "B",
+  "status": "DRAFT",
+  "allow_publication": false,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "CHATGPT_USER_CONVERSATION",
+  "created_at": "2026-10-23T20:00:00+08:00",
+  "scheduled_at": null,
+  "original_material": {
+    "text": "【格式占位，不是真实原话】",
+    "public_approved": false
+  },
+  "text": "【不可发布示例】这里放整理后的完整正文，不代表作者观点。",
+  "content_sha256": "d97d01a961732ffff82005b9705086edc0693614bdbf9ea819f7d0b6766f9be0",
+  "approved_content_sha256": null,
+  "claim_type": "PERSONAL_REFLECTION",
+  "source_urls": [],
+  "review": {
+    "user_explicitly_requested_publication": false,
+    "final_text_approved": false,
+    "author_voice_checked": false,
+    "privacy_checked": false,
+    "no_invented_first_person": false,
+    "facts_and_uncertainty_checked": false,
+    "no_manipulative_pressure": false
+  },
+  "publication": {
+    "status": "NOT_PUBLISHABLE",
+    "url": null
+  }
+}

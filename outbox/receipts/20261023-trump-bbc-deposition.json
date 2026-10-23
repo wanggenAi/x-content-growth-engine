@@ -1,0 +1,13 @@
+{
+  "post_id": "20261023-trump-bbc-deposition",
+  "content_sha256": "d0dd503470a4b2edb498a0d23f61f44ad8a9855577fa81fe0e80e0b4665d626d",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2113609641556934690",
+  "observed_exact_text": true,
+  "observed_text": "特朗普向BBC索赔至少100亿美元，结果先被法官要求：12月11日前，你本人来宣誓回答问题。\n\n原定10月16日的问询，他以“国家重要事务”为由取消。BBC律师在庭上说，他当天去了佐治亚州参加竞选活动。\n\n特朗普律师否认他在躲避问询，称总统职责和安保需求应优先，还提出明年1月再接受问询。法官10月22日给的期限，却是今年12月11日。\n\nBBC承认节目剪辑有误，也已道歉，但否认构成诽谤。官司还没判，索赔的原告先得坐下来回答被告的问题。\n\n来源：https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+  "verified_at": "2026-10-23T20:33:51.219658+08:00",
+  "published_at": "2026-10-23T20:33:02.172000+08:00",
+  "published_at_basis": "X independent detail page displays 8:33 PM Oct 23 2026; seconds derived from the observed status ID",
+  "verification": "Independent detail page author and all paragraphs match; public source card t.co/NGZP2HhrjS HEAD resolves to exact BBC source URL. One publish click."
+}

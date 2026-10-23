@@ -72,12 +72,17 @@ def verify_ready(payload: object, *, filename: str | None = None) -> dict:
         errors.append("POST_ID_FILENAME_MISMATCH")
     if payload.get("status") != "READY_FOR_CODEX":
         errors.append("NOT_READY_FOR_CODEX")
+    if "allow_publication" in payload and payload["allow_publication"] is not True:
+        errors.append("PUBLICATION_NOT_ALLOWED")
     if payload.get("platform") != "X" or payload.get("account") != ACCOUNT:
         errors.append("WRONG_PLATFORM_OR_ACCOUNT")
     scope = payload.get("scope")
     if scope not in {"ORIGINAL_POST", "LONGFORM_OR_THREAD"}:
         errors.append("UNKNOWN_POST_SCOPE")
-    if payload.get("origin") != "CHATGPT_USER_CONVERSATION":
+    track = payload.get("track", "B")
+    if track not in {"A", "B"}:
+        errors.append("INVALID_TRACK")
+    if payload.get("origin") != ("PUBLIC_SOURCE_DISCOVERY" if track == "A" else "CHATGPT_USER_CONVERSATION"):
         errors.append("AUTHOR_CONTEXT_ORIGIN_REQUIRED")
     if not _aware(payload.get("created_at")):
         errors.append("INVALID_CREATED_AT")
@@ -114,11 +119,45 @@ def verify_ready(payload: object, *, filename: str | None = None) -> dict:
     review = payload.get("review")
     if not isinstance(review, dict):
         review = {}
-    for flag in REVIEW_FLAGS:
+    flags = REVIEW_FLAGS
+    if track == "A":
+        flags = tuple(f for f in REVIEW_FLAGS if f not in {
+            "user_explicitly_requested_publication", "final_text_approved", "author_voice_checked"
+        }) + ("standing_publication_authorized", "editorial_checked")
+        editorial = payload.get("editorial", {})
+        if not isinstance(editorial, dict):
+            editorial = {}
+        if (not isinstance(payload.get("event_key"), str) or not payload["event_key"].strip()
+                or not (_aware(payload.get("event_at")) or (
+                    isinstance(payload.get("event_at"), str)
+                    and re.fullmatch(r"\d{4}-\d{2}-\d{2}", payload["event_at"])
+                    and payload.get("event_time_precision") == "date"
+                    and editorial.get("event_date_note")))
+                or not _aware(payload.get("expires_at"))):
+            errors.append("EVENT_ID_TIME_AND_EXPIRY_REQUIRED")
+        if (not editorial.get("selection_reason") or not editorial.get("candidates_considered")
+                or editorial.get("reviewed_sha256") != expected
+                or not editorial.get("fact_checks") or not _aware(editorial.get("reviewed_at"))):
+            errors.append("SOURCE_BOUND_EDITORIAL_REVIEW_REQUIRED")
+        if claim_type not in {"PUBLIC_FACTS", "MIXED"}:
+            errors.append("A_REQUIRES_PUBLIC_FACTS")
+    for flag in flags:
         if review.get(flag) is not True:
             errors.append("MISSING_AUTHOR_ATTESTATION:" + flag)
+    if track == "B" and "track" in payload and payload.get("approved_content_sha256") != expected:
+        errors.append("B_APPROVAL_MUST_BIND_EXACT_TEXT")
     if "raw_conversation" in payload or "private_journal" in payload:
         errors.append("PRIVATE_CHAT_DATA_NOT_ALLOWED")
+    if "scheduled_at" in payload and payload["scheduled_at"] is not None and not _aware(payload["scheduled_at"]):
+        errors.append("INVALID_SCHEDULED_AT")
+    if track == "B" and "original_material" in payload:
+        material = payload["original_material"]
+        if not isinstance(material, dict) or not (
+            (material.get("public_approved") is True and isinstance(material.get("text"), str))
+            or (isinstance(material.get("private_ref"), str)
+                and re.fullmatch(r"journal/[a-zA-Z0-9_-]+\.json", material["private_ref"]))
+        ):
+            errors.append("ORIGINAL_MATERIAL_MUST_BE_PUBLIC_APPROVED_OR_PRIVATE_REFERENCE")
     # Never accept credentials, HTML scripts or embedded third-party instructions
     # as instructions. The exact post text is ONLY text for an X composer.
     return {"valid": not errors, "errors": errors,

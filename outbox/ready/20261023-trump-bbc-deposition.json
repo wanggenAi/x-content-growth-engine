@@ -1,0 +1,80 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261023-trump-bbc-deposition",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-23T20:31:29.250338+08:00",
+  "scheduled_at": "2026-10-23T20:31:29.250338+08:00",
+  "event_key": "trump-bbc-deposition-order-20261022",
+  "event_at": "2026-10-22",
+  "expires_at": "2026-10-23T20:40:00+08:00",
+  "text": "特朗普向BBC索赔至少100亿美元，结果先被法官要求：12月11日前，你本人来宣誓回答问题。\n\n原定10月16日的问询，他以“国家重要事务”为由取消。BBC律师在庭上说，他当天去了佐治亚州参加竞选活动。\n\n特朗普律师否认他在躲避问询，称总统职责和安保需求应优先，还提出明年1月再接受问询。法官10月22日给的期限，却是今年12月11日。\n\nBBC承认节目剪辑有误，也已道歉，但否认构成诽谤。官司还没判，索赔的原告先得坐下来回答被告的问题。\n\n来源：https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+  "content_sha256": "d0dd503470a4b2edb498a0d23f61f44ad8a9855577fa81fe0e80e0b4665d626d",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+    "https://theprint.in/world/trump-ordered-to-sit-for-deposition-in-his-10-billion-bbc-lawsuit/3079220/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-23T20:31:29.250338+08:00",
+    "reviewed_sha256": "d0dd503470a4b2edb498a0d23f61f44ad8a9855577fa81fe0e80e0b4665d626d",
+    "selection_reason": "按作者最新纠正优先具体名人冲突；索赔者必须先接受对方问询有明确反差，BBC原文与路透全文可读。Telegram候选中可核实事件时间不足或旧闻，不为频道优先而牺牲真实性。",
+    "candidates_considered": [
+      {
+        "topic": "特朗普BBC索赔与宣誓问询",
+        "decision": "SELECTED",
+        "reason": "明确人物、金额、取消理由及法官期限；不是政策概述"
+      },
+      {
+        "topic": "DNYQWCG剧组道歉264169",
+        "decision": "REJECTED",
+        "reason": "频道写今天，原报道10月13日，不能包装为刚发生"
+      },
+      {
+        "topic": "iizuk工厂徒手处理黄桃果冻185587",
+        "decision": "HOLD",
+        "reason": "尚未确认工厂、原视频日期及食品加工语境"
+      },
+      {
+        "topic": "万斯因马斯克黄仁勋活动超时发怒",
+        "decision": "HOLD",
+        "reason": "尚未找到原始可核实记录"
+      }
+    ],
+    "event_date_note": "美国法院口头命令为2026-10-22，准确时分未知，仅保存日期。BBC更新时间2026-10-23 02:38 BST。",
+    "popularity": "POTENTIAL_JUDGMENT",
+    "engagement": {
+      "likes": null,
+      "reposts": null,
+      "views": null,
+      "observed_at": "2026-10-23T20:31:29.250338+08:00",
+      "basis": "未观察互动数据；仅判断人物与具体反差有吸引力，不声称已经热门"
+    },
+    "fact_checks": [
+      {
+        "claim": "至少100亿美元、12月11日前宣誓问询、总统职责取消与否认拖延、BBC道歉但否认诽谤责任",
+        "source": "https://theprint.in/world/trump-ordered-to-sit-for-deposition-in-his-10-billion-bbc-lawsuit/3079220/",
+        "result": "路透全文，特朗普法律团队发言人确认口头命令；报道日期10月22日"
+      },
+      {
+        "claim": "10月16日取消、国家重要事务、BBC律师称当天竞选、律师提出明年1月",
+        "source": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "result": "实际读取BBC全文；有关竞选为BBC律师庭上说法，正文明确归属，没有判定动机或败诉"
+      }
+    ]
+  },
+  "event_time_precision": "date"
+}
