@@ -1,8 +1,6 @@
-name: viral-hunt-collection
+name: legacy-viral-research-manual
 
 on:
-  schedule:
-    - cron: "17 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,14 +12,14 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Collect public leads and build preview packet
+      - name: Collect research leads only, never publish
         run: python3 -m growth_engine collect-feed --output-root data/viral_feed --limit 100
-      - name: Verify collection cannot trigger publication
+      - name: Verify collection cannot trigger X publication
         run: |
           python3 -c 'import json; p=json.load(open("data/viral_feed/latest.json")); assert p["publication_triggered"] is False; assert p["automatic_x_submission"] is False'
-      - name: Preserve run packet
+      - name: Preserve packet
         uses: actions/upload-artifact@v4
         with:
-          name: viral-feed-${{ github.run_id }}
+          name: legacy-viral-feed
           path: data/viral_feed/
           retention-days: 14
