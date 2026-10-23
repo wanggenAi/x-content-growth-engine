@@ -1,3 +1,15 @@
+# 2026-10-23「立心」— highest priority, supersedes older editorial-growth instructions
+
+This repository now documents a real ordinary person living through the 21st century: observed events, daily conversations, emotions, thoughts, contradictions, mistakes and changes. Do NOT construct a "wise, awakened, Taoist or anti-persona persona." Do not force inspirational conclusions, ancient quotes, moral judgments, a call to action or any minimum traffic potential.
+
+Default new production: growth_engine.field_notes; see docs/FIELD_NOTES_WORKFLOW.md. USER_DIRECT must reflect actual author-supplied observations; an AI agent cannot assert the author's feelings or make the author attest without checking. Protect private life and identifiable conversations; check sources for public claims. Earnings are welcome when based on meeting real needs, not engineering shame, envy, fear, sexual compulsion or false scarcity.
+
+Old viral Top1, high-view and 20-minute targets remain research history, NOT the default editorial direction. Never silently rewrite old drafts as author experience. Publication stays PAUSED; no unattended X account action or verified posting is implied.
+
+The dated material below is maintained for traceability, but must not override the 2026-10-23 decision.
+
+---
+
 # 2026-10-17 — Codex active hunting and rewrite
 
 Latest direct user request adopts `claude_x_upgrade_prompts.md`, with **Codex** as executor. Current mode is `ACTIVE_VIRAL_HUNTING_AND_REWRITE`; the previous topic-repair pause and ten-material/five-point-margin admission policy are superseded. Existing historical posts, review records and DRY_RUN_ONLY candidates are not silently migrated or republished.
