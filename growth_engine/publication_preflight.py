@@ -67,5 +67,9 @@ def pre_publish_assert(candidate: Mapping[str, Any], publish_text: str, *, dry_r
         age = (datetime.now(timezone.utc) - reviewed).total_seconds() / 3600
         if not 0 <= age <= 24:
             raise ValueError("COMPETITION_EXPIRED: refresh material pool and ranking")
+    # Legacy viral candidates remain valid for historical dry-runs, not live X submission.
+    # Never let a past growth-optimized candidate bypass the 2026-10-23 author-owned lane.
+    if not dry_run:
+        raise ValueError("LEGACY_VIRAL_PIPELINE_RESEARCH_ONLY")
     return {"passed": True, "text_hash": stable_hash(publish_text), "candidate_id": candidate.get("candidate_id"),
             "dry_run": dry_run, "publication_allowed": not dry_run and control.get("status") == "ACTIVE"}
