@@ -223,7 +223,7 @@ class HuntAdmissionTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'ORIGINAL_PAGE_CHECKED'):
                 import_search_leads([lead], captured_at=AS_OF)
 
-    def test_collector_health_and_scheduled_collection_never_publish(self):
+    def test_collector_health_and_manual_collection_never_publish(self):
         stale = {'as_of':'2026-10-15T00:00:00Z','source_families':['TELEGRAM'],
                  'collection':{'latest_run_completed_at':'2026-10-15T00:00:00Z','under24h':2,'between24and48h':0}}
         health = collector_health(stale, now=AS_OF)
@@ -235,7 +235,8 @@ class HuntAdmissionTests(unittest.TestCase):
             self.assertFalse(packet['automatic_x_submission'])
             self.assertTrue(Path(packet['paths']['latest']).exists())
         workflow = Path('.github/workflows/viral-hunt.yml').read_text()
-        self.assertIn('17 */4 * * *', workflow)
+        self.assertIn('workflow_dispatch:', workflow)
+        self.assertNotIn('17 */4 * * *', workflow)
         self.assertIn('collect-feed', workflow)
         self.assertNotIn('pre_publish_assert', workflow)
         self.assertNotIn('x.com/compose', workflow)

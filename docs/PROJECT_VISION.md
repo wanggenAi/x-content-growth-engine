@@ -1,22 +1,17 @@
-# Project Vision
+# Project Vision — 2026-10-23 立心
 
-## Outcome
+一个普通人，在当今时代观察世界、经历人事，也观察自己会产生什么念头。
 
-Develop the user's own trustworthy simplified-Chinese X voice and sustained, measurable audience growth. The system serves the cycle: discover real X posts -> accumulate both high and ordinary samples -> analyze structure -> state falsifiable hypotheses -> validate on independent samples -> find verified material outside X -> write original drafts -> human review/publish -> record real performance -> revise conclusions.
+不立人设，不扮清醒，也不把自己包装成修行人或人生导师。可以记录错误、痛苦、嫉妒、焦虑、反复和不确定。记录本身就成立，不需要保证“给别人带来价值”。
 
-## Boundaries
+“观事 → 察机 → 观心 → 践行”是一条可选思路，而不是规定写作模板。老庄与《阴符经》是辅助观察的思想来源，不需要篇篇引用。
 
-No purchased data/API/cloud, no paid GPT API, no account automation, no false first-person claims, no copied or translated viral posts, no fabricated facts or engagement. A ChatGPT/Codex session can consume exported research briefs; it is a human-run step, never represented as unattended automation. Reddit remains out of automated ingestion until authorization is established.
+## 商业伦理
 
-## Milestones
+可以希望有人关注，也可以希望获得收入。但拒绝通过制造恐惧、攀比、嫉妒、羞辱、虚假缺陷与沉迷来赚钱。观察真实需要，提供诚实解决方案，不创造问题再兜售解药。对利益相关关系透明披露。
 
-1. Demonstrate repeatable, lawful discovery of Chinese X posts with source provenance; test 300 high candidates and 150 ordinary candidates as collection targets, not proof thresholds.
-2. Compare matched authors, topics and time windows; audit selection and metric availability. Treat all initial structural ideas as hypotheses.
-3. Hold out authors/time periods to test replication and collect disconfirming cases.
-4. Maintain a separate, source-checked material bank; create original drafts with a fact and provenance checklist.
-5. Manually publish, record own account outcomes including impressions, interactions, profile visits and follow conversion when available, then revisit hypotheses.
+## 工程边界
 
-## Current evidence limit
+默认路径为 growth_engine.field_notes。原创材料来自用户直接记录，AI只能辅助整理与求证；无法证实的心理、第一人称体验、人物动机不应补写。用户确认、隐私保护、公共事件证据与非操纵性审稿不可省略。
 
-The first public-index sample is small and convenience-selected. It proves only that specific real post URLs and some historical public metrics can be found without paying. It does not prove a scalable 450-post collection method or any effect of a writing structure.
-
+旧爆帖竞争与增长分析可作为按需研究资产，但不能替代作者决定什么内容值得留下。旧记录和历史状态保持可追溯。实际 X 账号仍 PAUSED，编辑就绪绝不等于已发布。

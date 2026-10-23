@@ -1,3 +1,16 @@
+# 2026-10-23 — latest project control (supersedes all historical entries below)
+
+- Mission: 观世间，见自己. Default editorial entry point: growth_engine.field_notes with real USER_DIRECT observation and explicit author/privacy/fact review.
+- No compulsory hot-topic contest, viral Top1, comment-bait, follow CTA or minimum frequency for new personal records.
+- Legacy viral-hunt scheduled collector is now manual-only research; historic research and feedback remain intact.
+- X remains **PAUSED**, automatic_x_submission=false; old viral candidate publishing is blocked in live preflight.
+- READY_FOR_MANUAL_PUBLISH on field_notes means editorially ready only; no X actions, schedule or proof of posting.
+- No new actual published content or growth claimed in this change.
+
+Historical records below are retained as historical snapshots only.
+
+---
+
 # 2026-10-22T14:27:13.480512+00:00 — 新稿已在原生编辑器，实际发布仍0
 
 100新采集/20有效深评/20源时间48h内/4族，Top1为釜山鲨鱼救援后次日返回。C版事实、逐句中文、Reader、Human Style、Editorial、exact-text Prepublish dry-run PASS；B因不妥玩笑HOLD。队列新增1 REVIEWED，真实SCHEDULED/PUBLISHED均0。原生编辑器全文已核对一致，Post未点击；live preflight仍因NO_VERIFIED_COMPLIANT_FREE_TRANSPORT失败，暂停不改。零新增依赖、常驻服务和任务；168 unittest/168pytest/compileall通过。见[data/operations_shark_2026-10-22.json](../data/operations_shark_2026-10-22.json)。以下保留历史检查记录，不冒充当前仍无稿。

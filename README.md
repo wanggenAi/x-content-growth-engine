@@ -1,141 +1,41 @@
-# X Content Research & Growth Engine
+# 观世间，见自己｜X Content Growth Engine
 
-> **Current control state:** read [`docs/CURRENT_CONTROL_STATE.md`](docs/CURRENT_CONTROL_STATE.md) first. Historical `PUBLICATION_PAUSED_FOR_LEARNING` checkpoints in older research notes are not the current global state.
+2026年10月23日，我们为这个项目重新「立心」。
 
-面向单人中文 X 创作者的研究与内容增长工作台。目标不是堆发布数量，而是把**新鲜爆帖/普通帖发现 → 结构与反例研究 → 强素材筛选 → 原创写作 → 发布核验 → 真实反馈学习**连成可复查的闭环，在不伪造指标、不制造互动的前提下提高自然曝光、有效互动和关注增长。
+这是一个普通人生活在21世纪的真实记录。不塑造“清醒”“高人”“道家博主”或“反人设”形象；记录时代，也观察自己的起心动念。不必为了观众、商业或粉丝写出某种被期待的答案。
 
-## 当前生产状态
+**入世做事，观照内心；尽力理解世界，也诚实地看见自己。**
 
-- canonical branch：`main`
-- PR #5 / `feature/x-research-phase2` 已于 2026-10-11 squash merge 回 `main`
-- 当前模式：`ACTIVE_VIRAL_HUNTING_AND_REWRITE`；Codex 主动采集与二创，`hunt` 不自动提交 X
-- 历史 1000 帖目标、queue 数和 publication count 只作盘点，不是成功 KPI
-- 没有经过验证的“爆款公式”；高浏览结构、读者心理和自我映射机制仍按证据等级管理
-- 事实性内容继续要求来源核验、去重、内容门槛和真实发布后的独立详情页核对
+## 新的默认路径
 
-完整控制规则见 [`docs/CURRENT_CONTROL_STATE.md`](docs/CURRENT_CONTROL_STATE.md)。
+个人生活、日常对话、AI与科技、经济、国际新闻、文化娱乐、宗教、社会现象，都可作为素材。作者提供真实的观察和想法，AI可核实公共事实、辅助整理文字，但**不能虚构作者的第一人称经历、感觉和思考**。
 
-### 选题准入与竞争（2026-10-17）
+新路线：真实素材 → 事实/感受/推断区分 → 文字整理 → 作者确认 → 隐私和商业伦理检查 → 选择是否人工发布。
 
-新稿通过 `prepare_candidate()` / `prepare-candidates`：先核验真实素材池和独立八维深评，再检查 Reader Model、Human Style 与事实绑定。`VIRAL_ADMISSION_V3` 的 preview 可从 1 条起取 Top5；production 至少 10 个独立事件，同时要求原始池 >=30、有效深评 >=20、48 小时内 >=10、来源族 >=4，并且只有唯一 Top1 可进入候选生产链。自动筛选分不会写入或替代正式 editorial score。
+- 不要求爆款评分、Top1竞争、强情绪、冲突、关注理由、评论诱导或固定发布量。
+- 不要求每篇都解释古籍或得出结论。
+- 允许普通、琐碎、不成熟、反复甚至后来被推翻的记录。
+- 希望获得流量和收入是正常的，但不以煽动攀比、嫉妒、羞辱、恐惧或成瘾倾向来换取商业利益。
+- 可以记录阅读和真实反馈，但数据不会替作者决定值得写什么。
 
-```sh
-python3 -m growth_engine rank-materials data/viral_admission_challenge_2026-10-16.json --mode preview --output /tmp/topic-ranking.json
-python3 -m growth_engine collect-feed --output-root data/viral_feed --limit 100
-python3 -m unittest discover -s tests -v
-python3 -m compileall -q growth_engine tests
-```
+### 本地使用（Python 3.10+，标准库）
 
-评分是可审计的编辑假设，不是预测浏览量的模型。实际 30 条挑战、Top10、C390 根因和 dry-run 限制见 [`docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md`](docs/TOPIC_ADMISSION_REPAIR_2026-10-16.md)。`pre_publish_assert()` 重算合同、检查暂停开关及候选生产 HOLD；dry-run 永不授权发布。
+    python3 -m growth_engine.field_notes template
+    python3 -m growth_engine.field_notes check data/private/my-note.json
+    python3 -m growth_engine.field_notes check data/private/my-note.json --require-ready
+    python3 -m growth_engine.field_notes preview data/private/my-note.json
+    python3 -m unittest discover -s tests -v
 
-## Codex 公开热点狩猎
+详细格式与审查边界：[真实记录工作流](docs/FIELD_NOTES_WORKFLOW.md)。
 
-```sh
-python3 -m growth_engine search-queries all
-python3 -m growth_engine hunt --rss https://chinadigitaltimes.net/chinese/feed --telegram DNYQWCG --telegram iizuk
-python3 -m growth_engine hunt --materials /tmp/reviewed-materials.json --top-n 3 --output data/private/hunt/review.json
-python3 -m growth_engine prepare-candidates /tmp/reviewed-candidates.json --output data/private/hunt/prepared.json
-```
+**隐私：** 不要把私人生活原始记录、截图、联系方式或私人谈话放进这个公开仓库。使用已被忽略的 data/private/ 路径，核对隐私后才决定是否公开文字。
 
-无需收费 API 或额外运行依赖。自动初评仅做粗筛；正式八维评分要求独立 evidence/reason，重复灌水会失效。GitHub Actions 每 4 小时只采集 RSS/Atom、HN 官方 Firebase、GitHub releases 与公开 Telegram，生成 preview artifact；它不导入发布模块，也不提交 X。详见 [CODEX_VIRAL_HUNT.md](docs/CODEX_VIRAL_HUNT.md)。
+## 旧增长引擎的处理
 
-## 新鲜爆帖数据链
+既有爆帖收集、内容研究、VIRAL_ADMISSION、Reader Model、Human Style、素材与历史发布数据**不删除、不篡改**。它们现在只是按需使用的研究工具，不能决定 LIFE_RECORD_V1 的表达方向。
 
-采集与分析分开，避免一边找素材一边把少量样本直接总结成“公式”。详细契约见 [`docs/VIRAL_FEED_CONTRACT.md`](docs/VIRAL_FEED_CONTRACT.md)。
+旧 viral-hunt 定时采集已改为手动触发。旧的发布候选不得因通过历史流量门槛而直接取得新路线的发布许可。
 
-### 1. Viral feed collection
+**当前实际发帖仍为 PAUSED。** 新的 field_notes.py 只能审稿和预览，不能操作 X。当前没有经过核实的自动发布通道，也没有任何此次重构产生的实际发帖或增长结果。
 
-定时任务约每 4 小时运行一次，优先发现最近 48 小时内的公开 X 高传播候选，并允许少量有长期新奇价值的 `EVERGREEN_REDISCOVERY`。
-
-预期输出：
-
-- `data/viral_feed/YYYY-MM-DD/HHMM.json`
-- `data/viral_feed/latest.json`
-- `data/viral_feed/index.json`
-- schema：`data/viral_feed/schema.json`
-
-采集层只负责公开发现、证据规范化、去重和 freshness 标记，不生成帖子、不自动发布、不升级爆款公式。未知指标保持 `null`；零产出也记录查询和失败原因，不拿陈旧数据冒充新数据。
-
-### 2. Viral structure analysis
-
-单独的日任务读取近期 feed，分析高传播样本与可获得的普通/低传播对照。
-
-预期输出：
-
-- `data/viral_analysis/YYYY-MM-DD.json`
-- `data/viral_analysis/latest.json`
-- `docs/VIRAL_PATTERN_LATEST.md`
-- schema：`data/viral_analysis/schema.json`
-
-重点研究首句钩子、信息差、反转、具体数字/人物、自我映射、心理筹码、观点空间、转发对象、叙事节奏、媒体形态、时效性和题材。无法控制作者规模、帖子年龄或题材差异时必须保留 confounder，不把浏览量差异直接解释成因果机制。
-
-## 本地研究工作台
-
-需要 Python 3.10+。核心功能不要求模型 API。
-
-```sh
-python3 -m growth_engine init
-python3 -m growth_engine import data/seed_x_observations.json
-python3 -m growth_engine import data/direct_page_probe.json
-python3 -m growth_engine import data/phase2_x_candidates.json
-python3 -m growth_engine import data/phase2_x_candidates_round2.json
-python3 -m growth_engine import-queries data/phase2_queries.json
-python3 -m growth_engine import-queries data/phase2_queries_round2.json
-python3 -m growth_engine import-materials data/seed_materials.json
-python3 -m growth_engine import-materials data/phase2_materials.json
-python3 -m growth_engine import-materials data/phase2_materials_round3.json
-python3 -m growth_engine import-materials data/phase2_materials_round4.json
-python3 -m growth_engine import-materials data/phase2_materials_round5.json
-python3 -m growth_engine import-materials data/phase2_materials_round6.json
-python3 -m growth_engine report
-python3 -m growth_engine audit
-python3 -m growth_engine research-packet --format markdown
-python3 -m growth_engine research-packet --format json
-python3 -m growth_engine capture --port 8765
-python3 -m unittest discover -s tests -v
-```
-
-新候选的中文生产链包含 `HUMAN_VOICE_V1`：事实锁定 → deterministic AI Flavor → 保守 Human Voice rewrite → Fact Preservation → X Native Style → Comment Impulse → Editorial Gate。它只在需要时改写，保护数字、日期、实体、链接和原话；高 AI flavor、事实漂移、微型议论文式 X 文本和 REPLY 的 obvious-answer 问题会被挡在 `READY_FOR_MANUAL_PUBLISH` 之前。实现与回放说明见 [`docs/HUMAN_VOICE_PIPELINE.md`](docs/HUMAN_VOICE_PIPELINE.md)。
-
-默认数据库为 `data/research.sqlite3`（不提交 Git）。本地 `capture` 只监听 `127.0.0.1`，用于人工核对公开原帖后的结构化录入。CSV/JSON 导入按帖子 ID 和完整观察指纹去重，冲突值并存供审查。截图和账号专属信息应保留在 ignored 路径，如 `data/private/` / `data/evidence/`。
-
-## 证据纪律
-
-- 公开搜索索引快照不能冒充实时 X 指标
-- 缺失数据保持 `null` / `UNKNOWN`
-- 原帖、搜索摘要、人工核对和代理核对要区分来源
-- promotion / quote / reply / repost 等暴露机制要分层
-- 高浏览样本必须配合普通/低浏览反例研究，不能只看赢家
-- 外部爆帖只能形成候选机制，不能证明用户账号会复现
-- 自己账号的可靠固定窗口反馈优先级更高；历史缺失窗口不能拿当前累计数字倒填
-
-Browser Harness / Computer Use 的权限边界与历史授权记录见 [`docs/BROWSER_RESEARCH_POLICY.md`](docs/BROWSER_RESEARCH_POLICY.md)。不得读取 Cookie、调用隐藏接口、绕过访问控制或制造批量互动。
-
-## 已有研究资产
-
-仓库已保留以下主要研究资产供后续回放，而不是在 README 中继续堆历史状态：
-
-- `docs/VIRAL_SAMPLES_AND_FORMULAS_2026-10-01.md`
-- `docs/VIRAL_VALIDATION_STAGE2_2026-10-01.md`
-- `docs/HIGH_VIEW_STRUCTURE_*.md`
-- `docs/CHINESE_READER_INTEREST_RESEARCH_2026-10-07.md`
-- `docs/SELF_MIRRORING_RESEARCH_2026-10-08.md`
-- `docs/CONTENT_MEMORY.md`
-- `docs/EDITORIAL_GATE.md`
-- `docs/FEEDBACK_LEARNING_LOOP.md`
-- `data/viral_samples_2026-10-01.json`
-- `data/viral_validation_stage2_2026-10-01.json`
-- `data/reader_model_annotations_2026-10-08.json`
-
-历史发布、候选、研究回执和计数继续保存在 `TASK_STATE.md`、`state/task_state.json` 与版本化 data/docs 文件中；这些历史记录不应覆盖 `docs/CURRENT_CONTROL_STATE.md` 的当前控制语义。
-
-## 当前工作顺序
-
-1. 持续积累 fresh viral feed，而不是重复消费旧爆帖。
-2. 每天形成高传播 vs 普通/低传播对照分析，并主动找反例。
-3. 用最新强材料和当前仍有效的结构假设写候选，而不是套固定模板。
-4. 只发布通过质量门槛、与近期内容明显不同的稿子，不为数量硬凑。
-5. 有可靠反馈时记录真实结果，用失败帖淘汰错误假设。
-6. 少加新理论，多做数据、反例和真实账号验证。
-
-CI 使用 `.github/workflows/tests.yml` 在 push / pull_request 时运行标准库单元测试；CI 不负责网络采集。
+历史研究入口保留在 growth_engine 的现有命令以及 docs/ 旧档案中。最新治理以 [项目愿景](docs/PROJECT_VISION.md)、[当前控制状态](docs/CURRENT_CONTROL_STATE.md)、[工作流](docs/FIELD_NOTES_WORKFLOW.md) 为准。
