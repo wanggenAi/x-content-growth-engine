@@ -1,0 +1,31 @@
+{
+  "post_id": "20261023-ally-full-record",
+  "checked_at": "2026-10-23T03:39:07.179632+00:00",
+  "baseline_main": "16b32416d06ac6e7f7d31c88bd5d2bee9868f94b",
+  "record_text_hash_and_lossless_thread_join_match": true,
+  "content_sha256": "704f4d8c100489bff49718cc4f14d0dd8928fd332aad6402eaf386c3af013d13",
+  "body_characters": 1362,
+  "paragraphs": 40,
+  "fact_sources": [
+    {
+      "url": "https://weibo.com/2/detail/5355672121644708",
+      "observation": "优酷官方官宣列出刘予宁及公开账号。"
+    },
+    {
+      "url": "https://weibo.com/2/detail/5356411996605348",
+      "observation": "节目官方女嘉宾约会物料，列表中刘予宁第五，对应上传的第五张照片。"
+    }
+  ],
+  "claim_boundary": "作者批准的本人讨论记录；营销为疑问并明确无证据，不增加个人动机、收入事实或指控。",
+  "account_verified": "qiluo27808",
+  "duplicate_check": "Native X search Top and Latest: from:qiluo27808 \"今天跟\" \"Ally\", no results; visible profile also checked before initial submit.",
+  "transport": "USER_AUTHORIZED_VISIBLE_COMPUTER_USE",
+  "long_post_supported": true,
+  "composer_characters_remaining": 22388,
+  "initial_submit_attempts": 1,
+  "media_edit_submit_attempts": 1,
+  "result": "PUBLISHED_VERIFIED",
+  "url": "https://x.com/qiluo27808/status/2113473377105248319",
+  "media_request": "用户补充要求 Ally / 恋综相关图片；在同一帖编辑补充两张官方图片，正文不改。",
+  "verification_method": "Native visible Chrome Computer Use. Independent post detail visually checked paragraph by paragraph, including blank lines and final sentence. Latest saved full text reopened in native Edit post and compared after native AX paragraph-newline normalization; unchanged editor closed without submission. Two photos and their source-bearing ALT descriptions verified on latest independent detail. Native detail AX text node is capped at 512 characters, so that node alone was not used as full-text evidence."
+}

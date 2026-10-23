@@ -48,6 +48,23 @@ class HandoffTests(unittest.TestCase):
         self.assertIn("MISSING_AUTHOR_ATTESTATION:user_explicitly_requested_publication",
                       verify_ready(p)["errors"])
 
+    def test_legacy_unattended_publisher_hold_does_not_revoke_explicit_handoff(self):
+        p = packet()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "ready").mkdir()
+            (root / "state").mkdir()
+            (root / "state" / "publisher.json").write_text(json.dumps({
+                "status": "PAUSED", "reason": "NO_VERIFIED_COMPLIANT_TRANSPORT",
+                "x_api_available": False,
+            }))
+            file = root / "ready" / (p["post_id"] + ".json")
+            file.write_text(json.dumps(p))
+            self.assertEqual(len(scan_outbox(root)["ready"]), 1)
+            p["review"]["user_explicitly_requested_publication"] = False
+            file.write_text(json.dumps(p))
+            self.assertTrue(scan_outbox(root)["blocked"])
+
     def test_rejects_edited_text_wrong_user_and_private_transcript(self):
         for change in (
             {"text": packet()["text"] + "！"},
@@ -84,6 +101,7 @@ class HandoffTests(unittest.TestCase):
             file.write_text(json.dumps(p), encoding="utf-8")
             q = scan_outbox(root)
             self.assertEqual(len(q["ready"]), 1)
+            self.assertEqual(q["validation_scope"], "LOCAL_HANDOFF_INTEGRITY_ONLY")
             self.assertFalse(q["publication_triggered"])
             (root / "receipts" / file.name).write_text(json.dumps(receipt(p)), encoding="utf-8")
             q = scan_outbox(root)
