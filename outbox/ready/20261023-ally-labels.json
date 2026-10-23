@@ -1,7 +1,7 @@
 {
   "schema": "LIVING_RECORD_X_HANDOFF_V1",
   "post_id": "20261023-ally-labels",
-  "status": "READY_FOR_CODEX",
+  "status": "HOLD_AUTHOR_REJECTED",
   "platform": "X",
   "account": "qiluo27808",
   "scope": "ORIGINAL_POST",
@@ -14,8 +14,8 @@
     "https://weibo.com/2/detail/5356432346319742"
   ],
   "review": {
-    "user_explicitly_requested_publication": true,
-    "final_text_approved": true,
+    "user_explicitly_requested_publication": false,
+    "final_text_approved": false,
     "author_voice_checked": true,
     "privacy_checked": true,
     "no_invented_first_person": true,
@@ -23,7 +23,7 @@
     "no_manipulative_pressure": true
   },
   "content_sha256": "fbf8b9ee18459663277481933fa5a8a8ca44a349ee7236f9d480c8538ce786f9",
-  "approved_at": "2026-10-23T02:29:44.610943+00:00",
-  "approval_basis": "Explicit once-only publication authorization of this exact text in the current user request; no transcript stored.",
-  "review_ref": "outbox/reviews/20261023-ally-labels.json"
+  "review_ref": "outbox/reviews/20261023-ally-labels.json",
+  "approval_revoked_reason": "Author rejected the over-short, AI-sounding text and reports that first-person claims do not faithfully represent his original discussion. Do not publish.",
+  "approval_revoked_at": "2026-10-23T10:47:00+08:00"
 }
