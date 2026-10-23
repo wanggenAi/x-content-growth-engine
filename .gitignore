@@ -1,11 +1,10 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-data/*.sqlite3
-data/*.sqlite3-*
-data/private/
-data/imports/
-data/evidence/
-exports/
+.venv/
 .env
-state/*.lock
+journal/
+reports/
+state/
+data/
+.DS_Store

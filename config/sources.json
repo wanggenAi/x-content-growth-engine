@@ -1,0 +1,50 @@
+{
+  "version": "2026-10-23",
+  "max_items_per_hour": 5,
+  "max_age_hours": 48,
+  "cooldown_hours": 72,
+  "feeds": [
+    {
+      "id": "people",
+      "name": "普通人·民事",
+      "query": "普通人 民事纠纷 维权 互助 when:2d",
+      "locale": "zh-CN"
+    },
+    {
+      "id": "streamers",
+      "name": "网红·恋综·直播",
+      "query": "主播 网红 恋综 嘉宾 回应 事件 when:2d",
+      "locale": "zh-CN"
+    },
+    {
+      "id": "society",
+      "name": "家庭·社会",
+      "query": "家长 孩子 老人 邻居 故事 事件 when:2d",
+      "locale": "zh-CN"
+    },
+    {
+      "id": "business",
+      "name": "企业家·商业人物",
+      "query": "马斯克 黄仁勋 孙宇晨 企业家 宣布 when:2d",
+      "locale": "zh-CN"
+    },
+    {
+      "id": "leaders",
+      "name": "国际政治人物",
+      "query": "特朗普 普京 泽连斯基 习近平 会见 表示 when:2d",
+      "locale": "zh-CN"
+    },
+    {
+      "id": "global",
+      "name": "全球人物事件",
+      "query": "Trump Musk Putin Zelensky announces says when:2d",
+      "locale": "en-US"
+    },
+    {
+      "id": "ai",
+      "name": "AI·技术中的人",
+      "query": "AI 人工智能 公司 创始人 CEO 发布 事件 when:2d",
+      "locale": "zh-CN"
+    }
+  ]
+}

@@ -1,19 +1,16 @@
-name: tests
+name: offline-tests
 on:
   push:
   pull_request:
+permissions:
+  contents: read
 jobs:
-  unittest:
+  test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Run local standard-library tests
-        run: python3 -m unittest discover -s tests -v
-      - name: Compile Python modules
-        run: python3 -m compileall -q growth_engine tests
-      - name: Install test runner (no runtime dependency)
-        run: python3 -m pip install 'pytest>=8,<9'
-      - name: Run pytest
-        run: python3 -m pytest -q
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 -m compileall -q growth_engine tests

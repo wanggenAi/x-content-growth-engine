@@ -1,0 +1,47 @@
+name: hourly-living-record
+on:
+  schedule:
+    - cron: "11 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: hourly-living-record
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/cache/restore@v4
+        with:
+          path: state/seen.json
+          key: living-record-seen-${{ github.run_id }}
+          restore-keys: |
+            living-record-seen-
+      - name: Build hourly brief
+        run: python3 -m growth_engine digest
+      - name: Add summary
+        if: always()
+        run: |
+          if test -f reports/hourly/latest.md; then
+            cat reports/hourly/latest.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No report produced. Check logs." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: state/seen.json
+          key: living-record-seen-${{ github.run_id }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hourly-observation-${{ github.run_id }}
+          path: reports/hourly/
+          if-no-files-found: warn
+          retention-days: 14
