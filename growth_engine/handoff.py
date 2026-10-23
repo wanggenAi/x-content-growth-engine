@@ -71,8 +71,9 @@ def verify_ready(payload: object, *, filename: str | None = None) -> dict:
         errors.append("NOT_READY_FOR_CODEX")
     if payload.get("platform") != "X" or payload.get("account") != ACCOUNT:
         errors.append("WRONG_PLATFORM_OR_ACCOUNT")
-    if payload.get("scope") != "ORIGINAL_POST":
-        errors.append("ONLY_ORIGINAL_POST_SUPPORTED")
+    scope = payload.get("scope")
+    if scope not in {"ORIGINAL_POST", "LONGFORM_OR_THREAD"}:
+        errors.append("UNKNOWN_POST_SCOPE")
     if payload.get("origin") != "CHATGPT_USER_CONVERSATION":
         errors.append("AUTHOR_CONTEXT_ORIGIN_REQUIRED")
     if not _aware(payload.get("created_at")):
@@ -87,6 +88,16 @@ def verify_ready(payload: object, *, filename: str | None = None) -> dict:
         errors.append("INVALID_CONTENT_SHA256")
     elif payload["content_sha256"] != expected:
         errors.append("TEXT_HASH_MISMATCH")
+
+    if scope == "LONGFORM_OR_THREAD":
+        parts = payload.get("thread_parts")
+        if not isinstance(parts, list) or not 2 <= len(parts) <= 32:
+            errors.append("THREAD_PARTS_REQUIRED")
+        elif (any(not isinstance(p, str) or not p.strip() for p in parts)
+              or any(sum(2 if ord(char) > 0x10FF else 1 for char in p) > 260 for p in parts)):
+            errors.append("THREAD_PART_TOO_LONG_OR_EMPTY")
+        elif "\n\n".join(parts) != message:
+            errors.append("THREAD_TEXT_MISMATCH")
 
     claim_type = payload.get("claim_type")
     if claim_type not in CLAIM_TYPES:
@@ -129,6 +140,30 @@ def verify_receipt(ready: object, receipt: object) -> dict:
         errors.append("EXACT_TEXT_NOT_VERIFIED")
     if not _aware(receipt.get("verified_at")):
         errors.append("INVALID_RECEIPT_TIME")
+    if isinstance(ready, dict) and ready.get("scope") == "LONGFORM_OR_THREAD":
+        method = receipt.get("publish_mode")
+        if method == "LONG_POST":
+            if receipt.get("observed_text") != ready.get("text"):
+                errors.append("LONG_POST_EXACT_TEXT_REQUIRED")
+        elif method == "THREAD":
+            observed = receipt.get("observed_parts")
+            parts = ready.get("thread_parts")
+            if not isinstance(parts, list) or not isinstance(observed, list) or len(observed) != len(parts):
+                errors.append("THREAD_RECEIPT_INCOMPLETE")
+            else:
+                urls = []
+                for index, (expected_part, actual_part) in enumerate(zip(parts, observed)):
+                    if (not isinstance(actual_part, dict)
+                            or actual_part.get("observed_text") != expected_part
+                            or not isinstance(actual_part.get("url"), str)
+                            or not X_POST_URL.fullmatch(actual_part["url"])):
+                        errors.append("THREAD_PART_NOT_VERIFIED:" + str(index + 1))
+                    else:
+                        urls.append(actual_part["url"])
+                if len(urls) == len(parts) and (len(set(urls)) != len(urls) or receipt.get("url") != urls[0]):
+                    errors.append("THREAD_URL_ORDER_OR_DUPLICATE")
+        else:
+            errors.append("LONGFORM_PUBLISH_MODE_REQUIRED")
     if receipt.get("provider") != "X":
         errors.append("INVALID_RECEIPT_PROVIDER")
     return {"valid": not errors, "errors": errors,

@@ -95,3 +95,49 @@ class HandoffTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class LongformHandoffTests(unittest.TestCase):
+    """Long discussions cannot be silently truncated or falsely reported published."""
+
+    def _longform(self):
+        p = packet()
+        p["post_id"] = "20261023-approved-longform"
+        p["scope"] = "LONGFORM_OR_THREAD"
+        p["text"] = "第一件具体的事。\n\n第二件具体的事。\n\n最后我还不知道答案。"
+        p["thread_parts"] = ["第一件具体的事。", "第二件具体的事。", "最后我还不知道答案。"]
+        p["content_sha256"] = text_hash(p["text"])
+        return p
+
+    def test_every_paragraph_must_be_preserved(self):
+        p = self._longform()
+        self.assertTrue(verify_ready(p)["valid"], verify_ready(p)["errors"])
+        p["thread_parts"][1] = "一句话总结"
+        self.assertIn("THREAD_TEXT_MISMATCH", verify_ready(p)["errors"])
+
+    def test_oversized_part_denied(self):
+        p = self._longform()
+        p["thread_parts"] = ["长" * 131, "结束。"]
+        p["text"] = "\n\n".join(p["thread_parts"])
+        p["content_sha256"] = text_hash(p["text"])
+        self.assertIn("THREAD_PART_TOO_LONG_OR_EMPTY", verify_ready(p)["errors"])
+
+    def test_long_post_requires_exact_observed_text(self):
+        p = self._longform()
+        r = receipt(p)
+        r["publish_mode"] = "LONG_POST"
+        self.assertFalse(verify_receipt(p, r)["valid"])
+        r["observed_text"] = p["text"]
+        self.assertTrue(verify_receipt(p, r)["valid"])
+
+    def test_thread_requires_all_real_urls_and_text(self):
+        p = self._longform()
+        r = receipt(p)
+        r["publish_mode"] = "THREAD"
+        r["observed_parts"] = [
+            {"url": r["url"], "observed_text": "第一件具体的事。"},
+            {"url": "https://x.com/qiluo27808/status/1234567890123456790", "observed_text": "第二件具体的事。"},
+            {"url": "https://x.com/qiluo27808/status/1234567890123456791", "observed_text": "最后我还不知道答案。"},
+        ]
+        self.assertTrue(verify_receipt(p, r)["valid"])
+        r["observed_parts"][2]["observed_text"] = "随便替换了"
+        self.assertFalse(verify_receipt(p, r)["valid"])
