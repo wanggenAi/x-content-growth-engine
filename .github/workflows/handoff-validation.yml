@@ -1,0 +1,26 @@
+name: validate-publication-handoff
+on:
+  push:
+    paths:
+      - "outbox/**"
+      - "growth_engine/handoff.py"
+      - "tests/test_handoff.py"
+  pull_request:
+    paths:
+      - "outbox/**"
+      - "growth_engine/handoff.py"
+      - "tests/test_handoff.py"
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check ready and receipt contracts (no external action)
+        run: python3 -m growth_engine.handoff scan --root outbox --strict
+      - name: Handoff unit tests
+        run: python3 -m unittest tests.test_handoff -v
