@@ -29,7 +29,7 @@ python3 -m growth_engine.handoff check-receipt outbox/ready/20261023-your-note.j
 
 以后可以说「把刚才那段发到 X」。如果所指正文唯一且无需改写，这就是该段原文的一次公开发布授权；如需实质修改或所指不清，先确认最终正文。只保存获准公开的正文与必要核验摘要，不上传前面的私人聊天。GitHub 不会自动唤起 Codex；在当前 Codex 会话执行交接，仍须通过平台规则、账号、重复内容和原生编辑器检查。
 
-首篇 Ally 的原文与事实已核对，交接见 `outbox/ready/20261023-ally-labels.json`。当前停在发布前：未验证 X 允许代理通过非 API 网页提交，不冒充已经发布。详见 [本次核验记录](docs/ALLY_PUBLICATION_2026-10-23.md)。
+第一篇 Ally 完整长文已获作者确认，归档在 [正式长文](records/2026-10-23-ally-attention-and-self.md)；Codex 可从 [完整长文及12段串帖交接单](outbox/ready/20261023-ally-full-record.json) 领取。旧128字短稿被作者拒绝，已移出待发目录。**交接成功不代表 X 已实际发布。**
 
 ## 每小时观察和私人笔记
 
