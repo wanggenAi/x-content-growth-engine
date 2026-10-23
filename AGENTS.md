@@ -1,5 +1,15 @@
 # Instructions for future agents (2026-10-23)
 
+## 2026-10-23 Author-voice and full-discussion preservation (latest user correction)
+
+- For a ChatGPT conversation-based essay, recover the user's actual multi-turn argument and idiom before drafting. Preserve the sequence, concrete personal comparisons, doubts, contradictions and unresolved questions. A one-sentence moral about "not trusting internet labels" is NOT a faithful substitute for a lengthy conversation about an individual, entertainment promotion, income inequality, attention economics, desire and personal self-observation.
+- Never default to compressing a long discussion into an X single-post length. Present the complete long-form version first. For a standard X account, propose an X thread with each segment preserving the meaning; no silent truncation or conversion into a slogan. No fake inspirational or "clear-headed" persona.
+- Do not assert the user watched particular clips, personally observed comments, met a subject, experienced a specific emotion, or believed an allegation unless supported by their actual words. User-derived personal facts and emotions must not be filled in by LLM inference.
+- The author rejected `20261023-ally-labels` as far too short, generic and AI-sounding. This case is a negative regression example, not a positive voice exemplar. Preserve its HOLD status; never re-approve or publish it without fresh explicit approval of the exact final replacement text.
+- Do not mark `final_text_approved=true` or `author_voice_checked=true` merely because a prior prompt authorized a different draft, or because the user once said "start the first post." A materially revised post needs author sign-off.
+- The user's voice is naturally colloquial and exploratory, with personal comparisons and honest uncertainty; do not mechanically stuff catchphrases ("我草") or rhetorical questions to simulate authenticity. User-supplied real speech and concrete personal observations outrank generic "humanization" heuristics.
+
+
 This is a small hourly person-and-action briefing system AND a voluntary ChatGPT-to-Codex X post handoff. The historical viral-growth engine, scores, gates and publishing state are NOT active.
 
 ## Observation
