@@ -1,0 +1,24 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261023-ally-labels",
+  "status": "DRAFT_REVIEW",
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "CHATGPT_USER_CONVERSATION",
+  "created_at": "2026-10-23T09:44:00+08:00",
+  "text": "刷到《偏爱之恋2》的 Ally（刘予宁），不少评论在夸她“清醒”“高情商”“真实”。\n\n她到底是什么样的人，我其实不了解。但我发现，自己看了几段剪辑和评论，竟然也差点跟着这些标签去认识她。\n\n比起评价她，我更想弄明白：为什么别人的评价这么容易影响我的判断？",
+  "claim_type": "MIXED",
+  "source_urls": [
+    "https://weibo.com/2/detail/5355672121644708"
+  ],
+  "review": {
+    "user_explicitly_requested_publication": true,
+    "final_text_approved": false,
+    "author_voice_checked": false,
+    "privacy_checked": false,
+    "no_invented_first_person": false,
+    "facts_and_uncertainty_checked": false,
+    "no_manipulative_pressure": false
+  }
+}
