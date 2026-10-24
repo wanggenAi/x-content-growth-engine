@@ -1,0 +1,92 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261024-mchenry-resignation",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-24T09:26:07.658452+00:00",
+  "scheduled_at": "2026-10-24T09:26:07.658452+00:00",
+  "event_key": "britt-mchenry-resignation-confirmed-20261023",
+  "event_at": "2026-10-23",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-24T17:40:00+08:00",
+  "text": "美国国务院新闻顾问麦克亨利，上个月刚上任，这个月就辞职了。\n\n10月21日，她在NBA看台上向观众泼饮料。她身边的人称，之前有人对她说了侮辱性的话。\n\n23日，她向Front Office Sports确认签了辞职信。国务院拒评，称属内部人事事务。\n\nhttps://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+  "content_sha256": "a7b29d5837acffe8fae8036c9cb65aec4aa994829af719ca0c16b8b716a1fc42",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+    "https://www.tmz.com/2026/10/22/britt-mchenry-throws-drink-wizards-game/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-24T09:26:07.658452+00:00",
+    "reviewed_sha256": "a7b29d5837acffe8fae8036c9cb65aec4aa994829af719ca0c16b8b716a1fc42",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "FOS原报道全文可读且记者直接向本人核实签署辞职信；新近人事结果，具体角色、行为与短任期反差不需要背景知识；不采纳相互冲突的晋升/离职精确日和被迫辞职说法。",
+    "candidates_considered": [
+      {
+        "topic": "DNYQWCG264472宝马司机加油扔钱",
+        "decision": "HOLD",
+        "reason": "实际读到频道题注；未取得事发地点、原始拍摄者和完整语境，今天早上只是转发说法，不据此确定事件日期；不曝光普通人。"
+      },
+      {
+        "topic": "iizuk185810任泽平公众号限制",
+        "decision": "HOLD",
+        "reason": "转述与可检索报道有具体反差，但未取到红星资本局原始报道或账号页面；相关搜索结果时间存在冲突，不能把关注限制原因归因于看多市场。"
+      },
+      {
+        "topic": "麦克亨利NBA冲突后辞职",
+        "decision": "SELECTED",
+        "reason": "FOS原报道全文可读且记者直接向本人核实签署辞职信；新近人事结果，具体角色、行为与短任期反差不需要背景知识；不采纳相互冲突的晋升/离职精确日和被迫辞职说法。"
+      },
+      {
+        "topic": "AI女团成员以怀孕退团",
+        "decision": "HOLD",
+        "reason": "追到Asia Business Daily10月14日原报道，证明并非10月23日新事件；原创账号声明未直接核到，不以新转帖伪装新事件。"
+      },
+      {
+        "topic": "美国历年要求马斯克改变星链服务",
+        "decision": "HOLD",
+        "reason": "Reuters检索报道有六名匿名前官员，全文页面本轮访问失败；多年份、多种服务和授权关系复杂，不能把匿名说法压缩成马斯克任意断网。"
+      }
+    ],
+    "event_date_note": "冲突为美国当地10月21日；本人签署辞职信由FOS10月23日报道确认。确切签署时分未知，不把报道日当精确签署时间。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "麦克亨利任美国国务院新闻顾问，上月加入；已签辞职信",
+        "source": "https://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+        "result": "PASS：FOS10月23日直接报道，69-79行，本人向记者确认签字；不写具体离职日、撤职或辞职原因已获官方证实。"
+      },
+      {
+        "claim": "NBA看台泼饮料；亲近人士称此前有侮辱言语",
+        "source": "https://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+        "result": "PASS：FOS72行动作报道及TMZ近身来源说法；归属写清，不认定冲突谁先动手、不称已亲自看视频。"
+      },
+      {
+        "claim": "冲突10月21日",
+        "source": "https://www.tmz.com/2026/10/22/britt-mchenry-throws-drink-wizards-game/",
+        "result": "PASS：原始获视频媒体10月22日报道明确Wednesday night，即10月21日；仅取事件日期，不复制其他细节。"
+      },
+      {
+        "claim": "国务院以内部人事事务为由不评论",
+        "source": "https://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+        "result": "PASS：FOS71行直接采访部门发言人；中文内部人事事务准确，不推断其正式裁定。"
+      }
+    ],
+    "voice_review": "事实逐句复核后另遍审中文及停留、理解、新信息、分享、AI味、讨论与错误七问，均无关键缺陷；同一代理分遍，不冒充独立真人。",
+    "dedup_result": "本仓库ready/receipts关键词无命中；提交前原生Chrome核对本人@qiluo27808近期历史，最新帖为20小时前大西洋稿，后为BBC和Airbnb稿，无此事件或近似内容。"
+  }
+}

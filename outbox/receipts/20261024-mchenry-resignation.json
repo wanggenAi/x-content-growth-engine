@@ -1,0 +1,18 @@
+{
+  "post_id": "20261024-mchenry-resignation",
+  "content_sha256": "a7b29d5837acffe8fae8036c9cb65aec4aa994829af719ca0c16b8b716a1fc42",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2113925472556097581",
+  "observed_exact_text": true,
+  "observed_text": "美国国务院新闻顾问麦克亨利，上个月刚上任，这个月就辞职了。\n\n10月21日，她在NBA看台上向观众泼饮料。她身边的人称，之前有人对她说了侮辱性的话。\n\n23日，她向Front Office Sports确认签了辞职信。国务院拒评，称属内部人事事务。\n\nhttps://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+  "verified_at": "2026-10-24T09:30:10.069784+00:00",
+  "published_at": "2026-10-24T17:28:00+08:00",
+  "published_time_precision": "minute",
+  "published_time_display": "5:28 PM · Oct 24, 2026",
+  "publish_mode": "ORIGINAL_POST",
+  "verification_notes": "Native Chrome account menu confirmed Gen @qiluo27808. Read newest visible history before single submission; begin returned IN_FLIGHT first. Independent status detail opened then reloaded, exact three paragraphs, punctuation and blank lines matched. Source card t.co/iBNx7Vt6eU was actually opened and redirected to the exact Front Office Sports article; original article visible. Page publication time is minute precision; seconds not observed. Browser-harness prior concrete DevToolsActivePort permission failure not bypassed; used authorized native cua_repl fallback.",
+  "source_target_verified": "https://frontofficesports.com/article/britt-mchenry-out-trump-admin-drink-throwing-incident/",
+  "source_target_access": "READABLE",
+  "metrics": null
+}
