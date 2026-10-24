@@ -1,0 +1,81 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261024-renzeping-follow-restriction",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-24T09:47:32.557851+00:00",
+  "scheduled_at": "2026-10-24T09:47:32.557851+00:00",
+  "event_key": "renzeping-zepinghongguan-follow-restriction-20261024",
+  "event_at": "2026-10-24",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-24T18:00:00+08:00",
+  "text": "任泽平的“泽平宏观”10月23日还在发《市场见底，反弹行情展开》，24日就被禁止关注了。\n\n页面提示“该账号因违规无法关注”。红星资本局问了账号橱窗客服，答复是账号异常，具体违规原因不清楚。\n\n同一天，记者尝试关注他的个人微博，仍可正常关注。\n\nhttps://www.thepaper.cn/newsDetail_forward_34324529",
+  "content_sha256": "b71d13c94a6279ea591cc75eb06494ac8a1021d0e6fdd85acb231812af7db750",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.thepaper.cn/newsDetail_forward_34324529"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-24T09:47:32.557851+00:00",
+    "reviewed_sha256": "b71d13c94a6279ea591cc75eb06494ac8a1021d0e6fdd85acb231812af7db750",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "本轮实际读到杨佩雯/红星新闻客户端原报道在澎湃的署名转载全文，补齐上一周期缺失的记者来源与日期。前一天看多市场的标题与次日新增关注受限形成具体反差，原因明确未知；不是把旧HOLD机械刷新。",
+    "candidates_considered": [
+      {
+        "topic": "iizuk185810任泽平公众号限制",
+        "decision": "SELECTED",
+        "reason": "本轮实际读到杨佩雯/红星新闻客户端原报道在澎湃的署名转载全文，补齐上一周期缺失的记者来源与日期。前一天看多市场的标题与次日新增关注受限形成具体反差，原因明确未知；不是把旧HOLD机械刷新。"
+      },
+      {
+        "topic": "梅拉尼娅宣布奥列什基局部停火",
+        "decision": "HOLD",
+        "reason": "白宫10月23日声明全文已读，涉及未来29日安排；AP采访对27日停火和后续人道任务另有说明，需要厘清各阶段日期，背景负担高，本轮不压缩成停火已经实现。"
+      },
+      {
+        "topic": "黄仁勋称AI需求受资本限制",
+        "decision": "HOLD",
+        "reason": "CNBC10月22日原采访页本轮无法读取全文，不拿聚合转述当原话；融资背景门槛较高，未获足够新近可核材料。"
+      },
+      {
+        "topic": "美国要求马斯克调整乌克兰星链服务",
+        "decision": "HOLD",
+        "reason": "池中有Reuters线索，但未取到可读原报道全文；涉及多年不同服务与匿名官员，不把转述压成任意断网指控。"
+      }
+    ],
+    "event_date_note": "记者10月24日发现关注限制，确切生效时分未知；前一篇笔记推送为10月23日下午。澎湃转载时间12:57，不当作账号受限时刻。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "泽平宏观10月23日下午推送题为《市场见底，反弹行情展开》的笔记；24日无法关注",
+        "source": "https://www.thepaper.cn/newsDetail_forward_34324529",
+        "result": "PASS：记者10月24日所见发布历史与页面提示。只陈述先后，不暗示二者存在已证实因果；不称封号或全部功能关闭。"
+      },
+      {
+        "claim": "页面提示该账号因违规无法关注；橱窗客服称账号异常，具体违规不清楚",
+        "source": "https://www.thepaper.cn/newsDetail_forward_34324529",
+        "result": "PASS：署名原报道直接记录页面和客服咨询；正文完整保留不知道原因，不猜测监管动机。"
+      },
+      {
+        "claim": "同日记者尝试关注其个人微博，仍可正常关注",
+        "source": "https://www.thepaper.cn/newsDetail_forward_34324529",
+        "result": "PASS：红星资本局当天实测记载；写明记者所见，不冒充本代理操作过微博。"
+      }
+    ],
+    "voice_review": "另遍逐句中文及停留、理解、新信息、分享、新闻/AI味、真实讨论、事实错误七问检查无关键缺陷；SEPARATE_PASS_SAME_AGENT，不冒充第二人或真人反馈。",
+    "dedup_result": "本地ready/receipts正文无此题；先前任泽平命中仅HOLD候选比较。原生Chrome实际确认登录Gen @qiluo27808，近期本人历史最新麦克亨利稿（17:28），后为大西洋、BBC、Airbnb，无任泽平或近似内容。"
+  }
+}

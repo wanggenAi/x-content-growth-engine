@@ -1,0 +1,18 @@
+{
+  "post_id": "20261024-renzeping-follow-restriction",
+  "content_sha256": "b71d13c94a6279ea591cc75eb06494ac8a1021d0e6fdd85acb231812af7db750",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2113930969397010768",
+  "observed_exact_text": true,
+  "observed_text": "任泽平的“泽平宏观”10月23日还在发《市场见底，反弹行情展开》，24日就被禁止关注了。\n\n页面提示“该账号因违规无法关注”。红星资本局问了账号橱窗客服，答复是账号异常，具体违规原因不清楚。\n\n同一天，记者尝试关注他的个人微博，仍可正常关注。\n\nhttps://www.thepaper.cn/newsDetail_forward_34324529",
+  "verified_at": "2026-10-24T09:51:35.345661+00:00",
+  "published_at": "2026-10-24T17:49:00+08:00",
+  "published_time_precision": "minute",
+  "published_time_display": "5:49 PM · Oct 24, 2026",
+  "publish_mode": "ORIGINAL_POST",
+  "verification_notes": "持同一executor租约；原生Chrome账号菜单确认Gen @qiluo27808，近期历史无重复。编辑器AX及截图核对全文空行、长度；begin后单次点击。随后打开新帖独立status详情并重载，逐段核对三段正文、本人账号与页面17:49时间。点击详情来源卡片，原生Chrome实际重定向至澎湃完整报道目标，核对署名、日期和正文。页面仅显示分钟，未编造秒数。上一帖实际页面17:28，本帖17:49，间隔超过20分钟。",
+  "source_target_verified": "https://www.thepaper.cn/newsDetail_forward_34324529",
+  "source_target_access": "READABLE",
+  "metrics": null
+}
