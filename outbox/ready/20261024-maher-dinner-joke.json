@@ -1,0 +1,90 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261024-maher-dinner-joke",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-24T15:12:57.551434+00:00",
+  "scheduled_at": "2026-10-24T15:12:57.551434+00:00",
+  "event_key": "bill-maher-oct23-monologue-second-white-house-dinner",
+  "event_at": "2026-10-23",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-24T23:20:00+08:00",
+  "text": "上周去白宫吃了四小时饭，却没被特朗普夸身材——美国脱口秀主持人比尔·马赫拿自己开起了玩笑。\n\n10月23日的节目里，他说特朗普总爱夸男人的身材。至于为什么又去赴宴，他说是要当面提意见，随后补了一句：“我就喜欢这种饭局。”\n\nhttps://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+  "content_sha256": "0d5898688833e9a040d746d39205a451a7ba629703e28828304fbb31f3e2b2cc",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-24T15:12:57.551434+00:00",
+    "reviewed_sha256": "0d5898688833e9a040d746d39205a451a7ba629703e28828304fbb31f3e2b2cc",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "23日新节目本人公开回应，4小时饭局与未获夸奖反差具体。实际原生Chrome读TheWrap Alyssa Ray原报道全文；TVInsider Michelle Stein24日节目报道交叉一致。仅复述本人节目玩笑，不断言特朗普所有行为或臆测私人动机。",
+    "candidates_considered": [
+      {
+        "topic": "iizuk185867老习估计知道了",
+        "source": "https://t.me/iizuk/185867",
+        "decision": "HOLD",
+        "reason": "实际读取题注仅有揣测、无具体事件主体与日期；不把链接旁猜测改写为已核实新闻。其余TG新增为博彩广告或此前已HOLD的匿名转帖，不重新刷新审核。"
+      },
+      {
+        "topic": "乌克兰称星链恢复稳定",
+        "source": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go",
+        "decision": "NOT_SELECTED",
+        "reason": "实际读BBC全文，24日国防部长称可超过400km/h；此前是否由特朗普下令限速仍是争议，正文若压缩易把指控当因果。普通读者背景门槛高于饭局笑话。"
+      },
+      {
+        "topic": "梅拉尼娅局部停火",
+        "source": "https://en.yna.co.kr/view/AEN20261024000300315",
+        "decision": "HOLD",
+        "reason": "23日宣布不是24日刚发生；最初白宫29日与后续双方军方27日须区分，尚未完成原始军方声明核验，不编造已实现停火。"
+      },
+      {
+        "topic": "马赫再赴特朗普饭局后节目开玩笑",
+        "source": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+        "decision": "SELECTED_FOR_FINAL_REVIEW",
+        "reason": "23日新节目本人公开回应，4小时饭局与未获夸奖反差具体。实际原生Chrome读TheWrap Alyssa Ray原报道全文；TVInsider Michelle Stein24日节目报道交叉一致。仅复述本人节目玩笑，不断言特朗普所有行为或臆测私人动机。"
+      }
+    ],
+    "event_date_note": "新闻点为美国当地10月23日节目里回应和笑话；饭局由本人称last week。不称饭局24日发生，不编造节目分钟。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "节目把男人身材与4小时饭局未获夸奖联系作笑话",
+        "source": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+        "result": "PASS，明确归属于Maher monologue，不把笑话当私人真实情绪。"
+      },
+      {
+        "claim": "10月23日节目，上周赴宴",
+        "source": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+        "result": "PASS，日期交叉一致。"
+      },
+      {
+        "claim": "去当面提意见",
+        "source": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+        "result": "PASS，中文转述。"
+      },
+      {
+        "claim": "我就喜欢这种饭局",
+        "source": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-defends-second-trump-dinner/",
+        "result": "PASS，仅短句翻译；不模仿其粗口。"
+      }
+    ],
+    "voice_review": "正文改动后重核事实，再分遍逐句中文及七问审查；SEPARATE_PASS_SAME_AGENT。未直接观看节目，不伪称原视频核验或第二人/真人读者验证。",
+    "dedup_result": "本地pipeline八项历史无Maher饭局；与Trump泳池、BBC诉讼、大西洋通话不同事件；浏览器近期历史仍须发布前核对。"
+  }
+}
