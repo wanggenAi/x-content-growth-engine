@@ -1,0 +1,87 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261024-trump-pool-press-room",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-24T14:28:15.279433+00:00",
+  "scheduled_at": "2026-10-24T14:28:15.279433+00:00",
+  "event_key": "trump-denies-pool-restoration-may-relocate-press-20261024",
+  "event_at": "2026-10-24",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-24T22:40:00+08:00",
+  "text": "特朗普否认要把白宫新闻发布厅改回泳池，但记者可能得搬走。\n\n10月24日，他在Truth Social发文，说旧泳池不会恢复，自己从没想过干这种“蠢事”。\n\n同一条帖文里，他又说，可能把他口中的“假新闻”搬到一个“没那么讨厌的地方”。搬去哪、什么时候搬，他没说。\n\nhttps://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+  "content_sha256": "f157258c228192ba65d0b3318a8f7168b12954ad3886a4a8bb2c8769e9c2cbd3",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+    "https://www.trumpstruth.org/statuses/42693"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-24T14:28:15.279433+00:00",
+    "reviewed_sha256": "f157258c228192ba65d0b3318a8f7168b12954ad3886a4a8bb2c8769e9c2cbd3",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "实际读到Reuters记者Jason Lange当日原报道的AOL授权分发全文，另读到带原帖ID的公开归档全文；本人同一帖文否认一项安排、保留另一项可能，具体易懂且发生于约两小时前。不把可能写成已决定。",
+    "candidates_considered": [
+      {
+        "topic": "特朗普否认恢复泳池却考虑搬记者",
+        "decision": "SELECTED",
+        "reason": "实际读到Reuters记者Jason Lange当日原报道的AOL授权分发全文，另读到带原帖ID的公开归档全文；本人同一帖文否认一项安排、保留另一项可能，具体易懂且发生于约两小时前。不把可能写成已决定。"
+      },
+      {
+        "topic": "DNYQWCG264603蛋糕店辞退员工争执",
+        "decision": "HOLD",
+        "reason": "实际频道题注使用贬损性语言和单方指控，搜索未找到店方、员工原文或公开可核处理结果。普通人隐私及网暴风险，不复述频道造谣定性。"
+      },
+      {
+        "topic": "特朗普叫Independent记者安静",
+        "decision": "HOLD",
+        "reason": "本轮RSS发布时间为24日，但AllSides已在21日转录同标题；原事件至少早于新feed日，全文与实际发生时间本轮未完全核实，不伪装刚发生。"
+      },
+      {
+        "topic": "Talarico集会批评马斯克",
+        "decision": "NOT_SELECTED",
+        "reason": "本轮已读David Smith在奥斯汀的Guardian23日原报道全文，明确23日集会；资金流和竞选指控需背景。相比特朗普24日新帖时效更弱，不把竞选人指控当本代理认定或直接抄旧次名。"
+      }
+    ],
+    "event_date_note": "声明为美国当地10月24日；归档与Reuters当日报导一致。正文仅用日期，不编造实际发布秒数或搬迁时间。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "特朗普否认把白宫新闻发布厅改回泳池",
+        "source": "https://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+        "result": "PASS：Reuters Jason Lange10月24日原报道全文由AOL分发，明确否认恢复泳池；不是本代理裁定媒体报道为假。"
+      },
+      {
+        "claim": "10月24日在Truth Social称不会恢复旧泳池，从未想过这种蠢事",
+        "source": "https://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+        "result": "PASS：Reuters当日引述，与公开原帖归档全文一致。直接Truth Social页面不可读，Reuters本域返回401，未绕过；不声称直接读取了本人账号。"
+      },
+      {
+        "claim": "可能把其称为假新闻的记者搬至没那么讨厌的地方",
+        "source": "https://www.trumpstruth.org/statuses/42693",
+        "result": "PASS：归档保存原帖117495805131265987及全文，Reuters独立引述同一句。Fake News明确归属特朗普原话；may保留可能，不写已经搬离。"
+      },
+      {
+        "claim": "该帖未提新地点或时间",
+        "source": "https://www.trumpstruth.org/statuses/42693",
+        "result": "PASS：实际读过归档完整单帖，只有可能搬及不恢复泳池的表述，无时间地址；不泛化为全政府没有任何方案。"
+      }
+    ],
+    "voice_review": "事实检查后另遍逐句中文和七问检查无关键缺陷；SEPARATE_PASS_SAME_AGENT，不冒充第二人或真人流量验证。",
+    "dedup_result": "本地ready及receipts无同事件或近似正文；实际原生Chrome本人近期历史最新为任泽平、麦克亨利及此前大西洋、BBC稿，未发现泳池/记者搬迁事件重复。"
+  }
+}

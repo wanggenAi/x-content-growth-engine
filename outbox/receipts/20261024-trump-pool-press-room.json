@@ -1,0 +1,18 @@
+{
+  "post_id": "20261024-trump-pool-press-room",
+  "content_sha256": "f157258c228192ba65d0b3318a8f7168b12954ad3886a4a8bb2c8769e9c2cbd3",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2114002666812735921",
+  "observed_exact_text": true,
+  "observed_text": "特朗普否认要把白宫新闻发布厅改回泳池，但记者可能得搬走。\n\n10月24日，他在Truth Social发文，说旧泳池不会恢复，自己从没想过干这种“蠢事”。\n\n同一条帖文里，他又说，可能把他口中的“假新闻”搬到一个“没那么讨厌的地方”。搬去哪、什么时候搬，他没说。\n\nhttps://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+  "verified_at": "2026-10-24T14:38:03.825179+00:00",
+  "published_at": "2026-10-24T22:34:00+08:00",
+  "published_time_precision": "minute",
+  "published_time_display": "10:34 PM · Oct 24, 2026",
+  "publish_mode": "ORIGINAL_POST",
+  "verification_notes": "持同一executor租约。原生Chrome账号菜单确认Gen @qiluo27808，实际近期历史无同事件或同稿。编辑器AX与截图核对三段正文、空行、来源和长度；begin返回IN_FLIGHT后单次点击。独立status详情重载后逐字核对正文、本人账号与22:34页面时间；点击已发布来源卡片并实际读取AOL完整目标及Reuters署名报道。实际页面仅精确到分钟，未编造秒数。上一帖页面17:49，间隔超过20分钟。",
+  "source_target_verified": "https://www.aol.com/articles/trump-says-may-move-white-125722000.html",
+  "source_target_access": "READABLE",
+  "metrics": null
+}
