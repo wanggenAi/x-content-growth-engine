@@ -1,0 +1,78 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261025-obama-white-house-decor",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-25T02:56:23.012270+00:00",
+  "scheduled_at": "2026-10-25T02:56:23.012270+00:00",
+  "event_key": "obama-cleveland-2026-10-24-white-house-cheesecake-factory",
+  "event_at": "2026-10-24",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-25T11:00:00+08:00",
+  "text": "奥巴马在竞选集会上吐槽特朗普的白宫装修：到处都是金色，像“萨达姆开了一家芝士蛋糕工厂餐厅”。\n\n这是他10月24日在克利夫兰为民主党候选人助选时说的。Cheesecake Factory是美国连锁餐厅，这个比喻是在挖苦白宫的金色装饰。\n\nhttps://www.ideastream.org/government-politics/2026-10-24/in-cleveland-obama-says-road-to-block-trumps-agenda-runs-through-ohio-in-midterms",
+  "content_sha256": "983f66ee964c81a0ffd2c0865f3b7661e2469f31d5393ff9986e519acfba16a0",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.ideastream.org/government-politics/2026-10-24/in-cleveland-obama-says-road-to-block-trumps-agenda-runs-through-ohio-in-midterms"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-25T02:56:23.012270+00:00",
+    "reviewed_sha256": "983f66ee964c81a0ffd2c0865f3b7661e2469f31d5393ff9986e519acfba16a0",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "selection_reason": "具体人物公开讲话，反差明确，现场记者原报道有逐字引语及日期；不借用受害者家庭争议。",
+    "candidates_considered": [
+      {
+        "topic": "iizuk高中远足学生遭蜂蜇",
+        "decision": "HOLD",
+        "reason": "匿名投稿涉及未成年人和医疗记录，缺乏可独立核验来源；不消费伤者。"
+      },
+      {
+        "topic": "DNYQWCG偷外卖抓现行",
+        "source": "https://t.me/DNYQWCG/264709",
+        "decision": "HOLD",
+        "reason": "只见转帖题注，人物、地点、发生时间未核，不猜测。"
+      },
+      {
+        "topic": "马斯克与乌克兰星链争议",
+        "decision": "NOT_SELECTED",
+        "reason": "前一周期已BLOCKED且未完成本人历史核对，不重置或换ID重发同稿。"
+      },
+      {
+        "topic": "奥巴马克利夫兰集会白宫装修比喻",
+        "source": "https://www.ideastream.org/government-politics/2026-10-24/in-cleveland-obama-says-road-to-block-trumps-agenda-runs-through-ohio-in-midterms",
+        "decision": "SELECTED",
+        "reason": "具体人物公开讲话，反差明确，现场记者原报道有逐字引语及日期；不借用受害者家庭争议。"
+      }
+    ],
+    "event_date_note": "现场报道发表于10月24日17:13 EDT，明确Saturday克利夫兰Public Auditorium集会。事件仅知日期，不编造分钟。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "fact_checks": [
+      {
+        "claim": "奥巴马在10月24日克利夫兰为民主党候选人助选并用萨达姆和Cheesecake Factory比喻白宫金色装修",
+        "source": "https://www.ideastream.org/government-politics/2026-10-24/in-cleveland-obama-says-road-to-block-trumps-agenda-runs-through-ohio-in-midterms",
+        "result": "PASS，现场记者Conor Morris报道394-400行；引语是政治讽刺，未当成事实指控。"
+      },
+      {
+        "claim": "Cheesecake Factory为美国连锁餐厅，中文解释比喻对象",
+        "source": "https://www.thecheesecakefactory.com/about-us",
+        "result": "PASS，品牌官方About Us历史列出1978美国首店、1991跨州、1998第25店。"
+      }
+    ],
+    "voice_review": "完成独立一遍逐句复核：只转述公开讲话，无作者亲历情绪，无投票劝诱、强行升华或假热度。",
+    "dedup_result": "本地11条历史无此事件；原生X本人主页近期5帖无奥巴马，最新为11小时前马赫饭局。"
+  }
+}
