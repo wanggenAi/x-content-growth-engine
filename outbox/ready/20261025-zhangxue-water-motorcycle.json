@@ -1,0 +1,99 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261025-zhangxue-water-motorcycle",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-25T07:44:28.266722+00:00",
+  "scheduled_at": "2026-10-25T07:44:28.266722+00:00",
+  "event_key": "zhang-xue-mayang-water-motorcycle-record-2026-10-25",
+  "event_at": "2026-10-25",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-25T16:00:00+08:00",
+  "text": "17年前，张雪骑摩托挑战水上漂，四次都掉进水里。今天，他在水面骑了40.74公里。\n\n10月25日，他在湖南麻阳用改装摩托车，刷新了“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录。车子改了轮胎、浮板，还加了尾鳍，途中要转七次弯。\n\nhttps://news.ifeng.com/c/8xVWm1ZdLvz",
+  "content_sha256": "8cf642133707a13679602784f9c91badfcf8242e95f900f0e1ffe10c6522b16a",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://news.ifeng.com/c/8xVWm1ZdLvz",
+    "https://hn.rednet.cn/m/content/646054/69/16407825.html"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-25T07:44:28.266722+00:00",
+    "reviewed_sha256": "8cf642133707a13679602784f9c91badfcf8242e95f900f0e1ffe10c6522b16a",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "DNYQWCG张雪水上骑摩托",
+        "source": "https://t.me/DNYQWCG/264856",
+        "decision": "SELECTED",
+        "reason": "当日40.74公里、17年前四次落水、改装及七次转弯均可回到记者原报道，反差具体。"
+      },
+      {
+        "topic": "iizuk烤肉店员工3200元最后剩5元",
+        "source": "https://t.me/iizuk/185989",
+        "decision": "HOLD",
+        "reason": "仅匿名转发题注，原视频日期和工资细目未核，不当作普遍收入样本。"
+      },
+      {
+        "topic": "iizuk医学生综艺盲猜病情",
+        "source": "https://t.me/iizuk/185978",
+        "decision": "HOLD",
+        "reason": "涉及个人专业声誉，未读完整节目语境及学校原回应，不沿用转帖贬损定性。"
+      },
+      {
+        "topic": "奥巴马/特朗普集会白宫装修",
+        "decision": "NOT_SELECTED",
+        "reason": "当前池多源重现，但本账号10:57已发同事件，排除近似。"
+      },
+      {
+        "topic": "马斯克星链争议",
+        "decision": "NOT_SELECTED",
+        "reason": "同事件已有BLOCKED稿，不换ID或当新Top1重发。"
+      }
+    ],
+    "selection_reason": "当日40.74公里、17年前四次落水、改装及七次转弯均可回到记者原报道，反差具体。",
+    "fact_checks": [
+      {
+        "claim": "10月25日张雪在湖南麻阳骑改装摩托40.74公里并获相应距离纪录",
+        "source": "https://news.ifeng.com/c/8xVWm1ZdLvz",
+        "result": "PASS，极目记者刘琴、邓波原报道，11:32完成、11:41认证，页面11:43:40；实际读取全文，不只RSS。没有声称速度纪录或普通未改装车。"
+      },
+      {
+        "claim": "17年前四次落水",
+        "source": "https://hn.rednet.cn/m/content/646054/69/16407825.html",
+        "result": "PASS，总台记者署名央视财经原报道的红网公开转载全文，2009年四次均落水；只引用结果，不编造心理。"
+      },
+      {
+        "claim": "轮胎、浮板、尾鳍改装及七次转弯",
+        "source": "https://news.ifeng.com/c/8xVWm1ZdLvz",
+        "result": "PASS，记者直接采访技术负责人邓连松及现场工作人员，全文明确七次转弯和三项改装；未给出操作教程。"
+      }
+    ],
+    "event_date_note": "当日10月25日湖南麻阳，极目原报道记完成11:32、认证11:41；仅以日期入队。不是TG转发时刻当事件时刻。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "最终稿分遍逐句审核及七问；没有真人测试或第二人复核，不虚构作者经历。",
+    "reader_review": {
+      "停留": "PASS，四次落水与今日水面40.74公里首句具体兑现。",
+      "理解": "PASS，改装摩托、水面距离、轮胎浮板尾鳍都是直观词；记录类别写全，不误认速度。",
+      "新信息": "PASS，改装结构和转弯次数让读者知道并非普通车直接下水。",
+      "分享": "编辑判断有谈资；未声称热搜或真实传播效果。",
+      "新闻或AI味": "PASS，无圆梦鸡汤、人物心理、模板总结或强行情绪；日期和记录名为必要事实。",
+      "真实讨论": "PASS，可自然讨论摩托如何水面行驶；无消费受害者或隐私。",
+      "事实错误": "PASS，写作完成后重核最终三句，年份/四次/40.74/类别/部件/七弯都与已读原报道相符。"
+    },
+    "dedup_result": "本地14条全部状态历史无张雪水上摩托事件；发布前须检查本人X近期历史。"
+  }
+}
