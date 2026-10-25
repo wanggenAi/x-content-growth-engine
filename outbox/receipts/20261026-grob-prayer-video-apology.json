@@ -1,0 +1,19 @@
+{
+  "post_id": "20261026-grob-prayer-video-apology",
+  "content_sha256": "86b4bcf02caa6b1fda75e3b704284696265e9ca76a07ea4e280aba48f41285f2",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2114413439338856737",
+  "observed_exact_text": true,
+  "observed_text": "给特朗普祈祷的视频被公开后，一位大主教出来道歉了。\n\n密尔沃基大主教格罗布10月25日说，22日去白宫前，他被告知这是私人会谈。他们知道拍了照，却不知道还录了视频，也未同意公开传播。\n\n他强调，这不代表支持特朗普、其政策或政党，并为造成的伤害致歉。\n\nhttps://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+  "verified_at": "2026-10-25T17:49:28.085409+00:00",
+  "published_at": "2026-10-26T01:47:00+08:00",
+  "published_at_precision": "minute",
+  "published_at_display": "1:47 AM · Oct 26, 2026",
+  "verification_method": "Native Chrome Computer Use: correct signed-in account and recent history; exact composer body and screenshot; one Post click after IN_FLIGHT; independent status page full text, paragraph breaks, account, URL, page time and screenshot; source card opened to official statement then returned.",
+  "source_link_verification": {
+    "displayed_short_url": "https://t.co/P9DoqP9FET",
+    "observed_target_url": "https://archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+    "submitted_source_url": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob"
+  }
+}

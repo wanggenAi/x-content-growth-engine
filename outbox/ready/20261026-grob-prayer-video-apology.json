@@ -1,0 +1,105 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261026-grob-prayer-video-apology",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-25T17:45:10.534390+00:00",
+  "scheduled_at": "2026-10-25T17:45:10.534390+00:00",
+  "event_key": "jeffrey-grob-public-apology-white-house-prayer-2026-10-25",
+  "event_at": "2026-10-25",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-26T02:00:00+08:00",
+  "text": "给特朗普祈祷的视频被公开后，一位大主教出来道歉了。\n\n密尔沃基大主教格罗布10月25日说，22日去白宫前，他被告知这是私人会谈。他们知道拍了照，却不知道还录了视频，也未同意公开传播。\n\n他强调，这不代表支持特朗普、其政策或政党，并为造成的伤害致歉。\n\nhttps://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+  "content_sha256": "86b4bcf02caa6b1fda75e3b704284696265e9ca76a07ea4e280aba48f41285f2",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-25T17:45:10.534390+00:00",
+    "reviewed_sha256": "86b4bcf02caa6b1fda75e3b704284696265e9ca76a07ea4e280aba48f41285f2",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "蔡康永回应",
+        "source": "https://t.me/iizuk/186092",
+        "decision": "HOLD",
+        "reason": "读到实际频道和中国新闻网全文转载、早报；原微博尚未直接核读，不用匿名转帖中12万人等数字。"
+      },
+      {
+        "topic": "赵本山版迈克尔杰克逊",
+        "source": "https://t.me/iizuk/186085",
+        "decision": "HOLD",
+        "reason": "实际频道只有带嘲弄标签的转帖及短链，原始作者、事件日期及场景不明，不把保证看笑当读者反馈。"
+      },
+      {
+        "topic": "巴塞罗那商店遭抢",
+        "source": "https://t.me/DNYQWCG/265092",
+        "decision": "HOLD",
+        "reason": "原频道仅标题；读到24日晚记者报道，能核实商店受损，但无法直接核对转帖视频来源/地点，也不能采用网民对动机与族群的猜测。"
+      },
+      {
+        "topic": "防溅小便池搞笑诺奖",
+        "source": "https://uwaterloo.ca/daily-bulletin/2026-09-15",
+        "decision": "HOLD",
+        "reason": "已读大学原文，9月15日前已获奖，Reddit10月25日重贴不构成新事件。"
+      },
+      {
+        "topic": "格罗布白宫祈祷后道歉",
+        "source": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+        "decision": "SELECTED",
+        "reason": "实际读到10月25日署名原声明，22日私人会面、公开祈祷画面与本人否认背书的反差具体。"
+      }
+    ],
+    "selection_reason": "本人当日道歉原声明可核，祈祷画面公开与本人否认背书的反差具体；其余四题来源、时间或读者价值尚有缺陷。",
+    "fact_checks": [
+      {
+        "claim": "视频公开后大主教道歉",
+        "source": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+        "result": "PASS，10月25日署名声明标题为A Public Apology，正文说明10月22日祈祷影像发布后收到关切，并为造成伤害致歉。"
+      },
+      {
+        "claim": "被告知为私人讨论",
+        "source": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+        "result": "PASS，原文private discussion；未省略其事先知道可能私下为总统祈祷以制造完全被骗进场的含义。"
+      },
+      {
+        "claim": "知道拍照，不知道录像，未同意公开传播",
+        "source": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+        "result": "PASS，以格罗布的说法归属，不视为已经第三方裁定白宫违法；原文说明拍照后离开、unbeknownst录像、未许可公开照片或视频。"
+      },
+      {
+        "claim": "不代表支持总统、政策或政党",
+        "source": "https://www.archmil.org/posts/a-public-apology-archbishop-jeffrey-grob",
+        "result": "PASS，原声明明确in no way endorsement。"
+      }
+    ],
+    "event_date_note": "新事件为10月25日署名道歉声明，仅核实日期；白宫会面为10月22日，不用TG或RSS发布日期冒充事件时间。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "最终正文分遍逐句核查，无假第一人称、心理、口头禅或结尾升华；同一Codex复核，未冒充另一审核人。",
+    "reader_review": {
+      "停留": "PASS，祈祷画面被公开与本人随后道歉是具体反差。",
+      "理解": "PASS，大主教、私人会谈、照片视频、政治背书无需专业背景；保留城市和姓氏以识别人。",
+      "新信息": "PASS，10月25日本人新声明，核心是知情与公开传播的区别，不是重复22日祈祷新闻。",
+      "分享": "编辑判断：私人会面与公开背书的边界可讨论；不是已验证传播效果。",
+      "新闻AI味": "PASS，无自动总结或固定口头禅；日期与身份是核实归属所需，未堆背景。",
+      "真实讨论": "允许讨论是否应被视为背书；不号召选票、不煽动对个人围攻；无真人读者测试。",
+      "事实错误": "PASS，逐句返回已读官方声明；不声称偷偷拍照、教会集体道歉、违法裁定、撤回支持或已删视频。"
+    },
+    "dedup_result": "本地全部状态历史无格罗布/该道歉事件；本轮原生Chrome读取本人最新帖到约14小时前，无相同或近似话题；最后可见本人发帖约8小时前，满足20分钟间隔。未将他人个人帖正文写入本仓库。"
+  }
+}
