@@ -1,0 +1,92 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261026-trump-norway-nobel-immigrants",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-26T04:08:59.358266+00:00",
+  "scheduled_at": "2026-10-26T04:08:59.358266+00:00",
+  "event_key": "trump-norway-nobel-immigration-rally-20261025",
+  "event_at": "2026-10-25",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-26T12:20:00+08:00",
+  "text": "没拿到和平奖，特朗普说连挪威移民也不欢迎了。\n\n他25日在密歇根州的竞选集会上说：“因为我没拿到诺贝尔奖……所以我不想要任何来自挪威的人。”\n\n路透社在报道中注明，未见美国政府推出针对挪威移民的新政策。\n\nhttps://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub",
+  "content_sha256": "ec7e102517436885c254edee6f3b808e95ab2da912d521b6f33048bf1802170a",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-26T04:08:59.358266+00:00",
+    "reviewed_sha256": "ec7e102517436885c254edee6f3b808e95ab2da912d521b6f33048bf1802170a",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "用户指定Telegram新线索",
+        "decision": "HOLD",
+        "reason": "实际池iizuk8条、DNY14条。新增艺人争执涉及私人通讯录、身体伤害和待核实指控，未取得原始可公开证据；数币工资通知属于普通规则非优先；其余博彩、私人性影像、儿童或旧活动预告不选。"
+      },
+      {
+        "topic": "黄仁勋柏林演讲被打断",
+        "decision": "HOLD",
+        "reason": "查原报道引用发现发生于21日，不是26日新冲突，暂无新进展；不把重现报道当新鲜事件。"
+      },
+      {
+        "topic": "马查多返国",
+        "decision": "HOLD",
+        "reason": "事件为25日返回，前轮已查来源但尚缺本人原帖核验，背景门槛较高；本轮不刷新为新审核合格。"
+      },
+      {
+        "topic": "特朗普将未获诺奖与不欢迎挪威移民相联",
+        "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub",
+        "decision": "SELECTED",
+        "reason": "路透社现场记者Bo Erickson在Port Huron原报道给出直接发言与日期，并明确尚未见新官方政策。具体反差无需专业背景，原报道全文已读取。"
+      }
+    ],
+    "selection_reason": "本轮新竞争中，现场报道可核实的具体反差优于私人指控、旧21日演讲和背景较重的返国事件。",
+    "fact_checks": [
+      {
+        "claim": "25日在密歇根州竞选集会说出这番话",
+        "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub",
+        "result": "PASS；Reuters现场发稿PORT HURON, Michigan, Oct 25；并列署名Bo Erickson和Jeffrey Dastin。转载页26日不是事件日期。"
+      },
+      {
+        "claim": "因没拿到诺奖而说不想要挪威人",
+        "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub",
+        "result": "PASS；原文because I didn’t get the Nobel Prize … So I don’t want anybody from Norway；中文短句翻译，省略号沿用原报道，明确移民语境。"
+      },
+      {
+        "claim": "未见针对挪威移民新政策",
+        "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/26/trump-adds-norway-to-vulgar-list-of-countries-citing-nobel-snub",
+        "result": "PASS；There was no indication that the Trump administration was adopting new official policy on Norwegian immigrants；明确归属路透社观察，不把台上言语写成生效禁令。"
+      }
+    ],
+    "event_date_note": "美国当地2026-10-25 Port Huron集会，路透社现场记者发稿；转载页2026-10-26不是事件时间。不编造时分。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "同一Codex先核日期与引语，再逐句中文，最后七问读者审查，SEPARATE_PASS_SAME_AGENT；不是独立真人或真实流量反馈。第一句主语具体，第二句归属原话，第三句是必要事实限定，无模板升华。",
+    "reader_review": {
+      "停留": "第一句直接兑现诺奖与挪威移民的反差。",
+      "理解": "第二句说明日期地点和原话，不要求此前政治背景。",
+      "新信息": "25日新的集会发言；不是旧诺奖抱怨或先前饭局稿。",
+      "分享": "具体言语逻辑可讨论，分享意愿只是编辑判断。",
+      "新闻AI味": "不堆背景、套口头禅或加模板道理；最后一句为必要政策事实限定。",
+      "真实讨论": "无煽动读者立场、投票建议或虚构情绪；不复述对其他国籍的贬损。",
+      "事实错误": "言论不当政策；原报道日期与事件分开；不加未核诺奖获奖人、政府动机或移民法律结论。"
+    },
+    "dedup_result": "本地历史和04:09原生本人近期帖子均无此诺奖/挪威移民发言；最近实发为大主教，已间隔远超20分钟；不复用expired Musk或前轮Maher查重稿。",
+    "source_access_note": "实际web读取Internazionale全文Reuters稿，WSAU原生403后停止该域；未绕过，不声称观看原演说视频。"
+  }
+}
