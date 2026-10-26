@@ -1,0 +1,20 @@
+{
+  "post_id": "20261026-serbia-student-list-concession",
+  "content_sha256": "336222b2301ebadb959778e950150af0e33eb629216f7f8232a3c3bc42a7767d",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2114576547764142361",
+  "observed_exact_text": true,
+  "observed_text": "塞尔维亚学生抗议了近两年，这次靠选票让武契奇认输了。\n\n25日议会选举后，他说：“我们输掉了选举，学生名单赢了。”他当时也表示，最终结果还没出来。\n\n学生推出的候选人里，有医生、演员和学者。\n\nhttps://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+  "verified_at": "2026-10-26T04:37:40.403727+00:00",
+  "published_at": "2026-10-26T12:35:00+08:00",
+  "published_at_precision": "minute",
+  "published_at_display": "12:35 PM · Oct 26, 2026",
+  "verification_method": "Native Chrome Computer Use: signed-in account and recent history verified; exact editor text, paragraph breaks, full URL and submit availability checked; single Post click after executor IN_FLIGHT; independent detail page account, full body, blank lines, status URL and displayed time read and visually checked; source card opened to matching BBC article.",
+  "source_link_verification": {
+    "displayed_short_url": "https://t.co/FruespP4ds",
+    "submitted_source_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+    "observed_target_url": "https://www.bbc.com/news/articles/cw5yn3xlprpmo",
+    "note": "BBC regional .co.uk article redirects to same article ID on bbc.com, matching the independently read source."
+  }
+}

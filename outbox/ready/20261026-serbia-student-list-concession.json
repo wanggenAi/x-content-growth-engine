@@ -1,0 +1,107 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261026-serbia-student-list-concession",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-26T04:28:12.520101+00:00",
+  "scheduled_at": "2026-10-26T12:33:00+08:00",
+  "event_key": "serbia-parliamentary-election-student-list-vucic-concession-20261025",
+  "event_at": "2026-10-25",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-26T12:40:00+08:00",
+  "text": "塞尔维亚学生抗议了近两年，这次靠选票让武契奇认输了。\n\n25日议会选举后，他说：“我们输掉了选举，学生名单赢了。”他当时也表示，最终结果还没出来。\n\n学生推出的候选人里，有医生、演员和学者。\n\nhttps://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+  "content_sha256": "336222b2301ebadb959778e950150af0e33eb629216f7f8232a3c3bc42a7767d",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+    "https://theprint.in/world/serbias-vucic-concedes-defeat-in-historic-election-win-for-student-protest-movement/3081365/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-26T04:28:12.520101+00:00",
+    "reviewed_sha256": "336222b2301ebadb959778e950150af0e33eb629216f7f8232a3c3bc42a7767d",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "Telegram郑功成机器人岗位缴社保",
+        "source": "https://t.me/iizuk/186177",
+        "decision": "HOLD",
+        "reason": "实际读取原转帖。10月26日是转帖时间；搜索找到23日三农视点转载，以及更早同一采访线索，但未核到CCTV原采访实际日期。凤凰具体链接404；不把提议写成新政策，不将重现当新事件。"
+      },
+      {
+        "topic": "马斯克给每个美国孩子一股SpaceX",
+        "source": "https://apnews.com/article/b3312da37a0e340be275295073055e00",
+        "decision": "HOLD",
+        "reason": "读取AP原始报道：承诺发生10月19日，不是池中26日标题日期；无新兑现证据。"
+      },
+      {
+        "topic": "TikTok恢复Musk纪录片账号",
+        "source": "https://www.thewrap.com/creative-content/movies/musk-documentarys-tiktok-account-permanently-suspended/",
+        "decision": "HOLD",
+        "reason": "读取TheWrap原报道，署名Jeremy Fuster及TikTok直接回应after an error；原文17日、恢复18日附近，不是26日新事件，广告与普通账号表述还需区分。"
+      },
+      {
+        "topic": "哈萨克斯坦同时加入中美AI合作组织",
+        "source": "https://apnews.com/article/9974a3e5dc955a93935d131a4aeb8886",
+        "decision": "HOLD",
+        "reason": "读取AP全文。两次签约在6月和相隔三周，25日是分析报道时间；非当日具体新冲突，专业组织背景较重。"
+      },
+      {
+        "topic": "武契奇承认议会选举输给学生运动名单",
+        "source": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+        "decision": "SELECTED",
+        "reason": "实际HTTP读取BBC全文，André Rhoden-Paul/Jaroslav Lukiv，另查路透社贝尔格莱德现场稿及Anadolu原始讲话文字。事件25日晚，当前池26日更新不是事件日期；具体抗议到参选的反差，原文说明候选人来自多种职业，保留当时未有最终结果。"
+      }
+    ],
+    "selection_reason": "从本轮125条池的新竞争中选择25日晚的实际选举认输；其他四项为旧事件重现、日期未核或背景门槛较高。已发表挪威稿、Maher查重稿及expired Musk稿排除，不重置ID。",
+    "fact_checks": [
+      {
+        "claim": "学生抗议近两年后以参选名单在议会选举击败武契奇一方",
+        "source": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+        "result": "PASS；BBC称two years of protests及admitted defeat to student-led protest movement in snap parliamentary elections。没有写学生全体亲自当候选人或已完成政府交接。"
+      },
+      {
+        "claim": "25日选举后认输与学生名单赢了的原话",
+        "source": "https://theprint.in/world/serbias-vucic-concedes-defeat-in-historic-election-win-for-student-protest-movement/3081365/",
+        "result": "PASS；Reuters署名Ivana Sekularac、Edward McAllister、Aleksandar Vasovic，BELGRADE Oct25，It is clear that we have lost these elections, the Student List has won。短句中文翻译，不冒充观看视频。"
+      },
+      {
+        "claim": "当时尚无最终结果",
+        "source": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+        "result": "PASS；BBC原引We still do not have final results，正文限定他当时表示，不推断当前最终结果。"
+      },
+      {
+        "claim": "候选人有医生、演员和学者",
+        "source": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+        "result": "PASS；BBC明确field candidates ... including doctors, actors, academics and sports personalities。未写名单全是学生，也未编造个人情绪。"
+      }
+    ],
+    "event_date_note": "塞尔维亚当地2026-10-25晚，议会选举后认输；只知日期，非26日新选举，不填虚构时分。BBC25日发表26日更新。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "SEPARATE_PASS_SAME_AGENT；先原始来源/日期/事实，再逐句中文，再七问读者。没有真实第二人或流量反馈。第一句直接兑现抗议到选票的反差，第二段保留结果性质，第三段提供具体新细节；不加道理或固定口头禅。",
+    "reader_review": {
+      "停留": "学生近两年抗议到用选票胜出是具体反差。",
+      "理解": "第一句说明塞尔维亚，第二句说明议会选举和认输；不要求读者掌握政党史。",
+      "新信息": "25日晚认输，当前窗口内可核的新结果；不是上轮重复题材。",
+      "分享": "具体政治事件及候选人职业差异可讨论，吸引力仅编辑判断。",
+      "新闻AI味": "不堆数字和政党简称，无宏大升华或机械总结。",
+      "真实讨论": "无投票劝说、目标群体动员、编造情绪或代入作者经历。",
+      "事实错误": "不是总统选举，不写现任总统身份；不把认输当官方最终计票，不写14年等来源间有差异的数字。"
+    },
+    "dedup_result": "本地outbox及既有review针对武契奇/塞尔维亚/原始URL搜索无命中；本轮原生Chrome本人近期历史无此稿。前帖12:12，只有到12:32以后才允许begin。",
+    "source_access_note": "web打开BBC/AP失败后，BBC公开HTML普通HTTP读取成功；Reuters正式署名稿与Anadolu讲话文字由web搜索实际读取。未绕过登录或访问限制，未观看视频。"
+  }
+}
