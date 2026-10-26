@@ -1,0 +1,101 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261026-vegemite-prison-culture-ruling",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-26T09:16:55.124442+00:00",
+  "scheduled_at": "2026-10-26T09:16:55.124442+00:00",
+  "event_key": "victoria-vegemite-prison-cultural-rights-ruling-20261026",
+  "event_at": "2026-10-26",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-26T17:20:00+08:00",
+  "text": "为了吃到抹面包的酵母酱，一名澳大利亚囚犯起诉监狱管理部门，认为禁令妨碍他享受澳洲文化。\n\n他要的是Vegemite，维州监狱从2006年左右就禁了。\n\n法院26日驳回诉讼。法官认为这种酱可能是澳洲文化的一部分，但这项禁令合理、有充分理由。\n\nhttps://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+  "content_sha256": "f050901f2835c7c5c0c23d0f25adb1c1bf301524a46ec84688682bb55c382a0a",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+    "https://theqldr.com.au/crime-law-and-justice/2026/10/26/mckechnie/"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-26T09:16:55.124442+00:00",
+    "reviewed_sha256": "f050901f2835c7c5c0c23d0f25adb1c1bf301524a46ec84688682bb55c382a0a",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "段永平重来人生去教高考",
+        "source": "https://t.me/DNYQWCG/265272",
+        "decision": "HOLD",
+        "reason": "实际读指定频道原转帖。刚说无法对应原访谈日期；检索发现2025年12月旧采访相似言论，不能将今日转发日期当新事件。"
+      },
+      {
+        "topic": "2024问界M7油管片段与2026年M9火灾拼接",
+        "source": "https://t.me/iizuk/186238",
+        "decision": "HOLD",
+        "reason": "实际读指定频道原转帖；片段标2024，另述10月17日榆林疑似M9火灾，原因伤亡不明。旧型号片段不能证明新事故因果，不消费受害者。"
+      },
+      {
+        "topic": "Nicki Minaj参加特朗普密歇根集会",
+        "source": "https://www.mlive.com/politics/2026/10/nicki-minaj-joins-trump-in-port-huron-urges-michigan-voters-to-back-republicans.html",
+        "decision": "NOT_SELECTED",
+        "reason": "读原记者Bradley Massman报道，25日Port Huron现场出场可核；AP现场报道补核。事件可证，但近期已连续政治集会，身体评论不作吸引点；本轮食物与文化权利冲突更具体且题材有别。"
+      },
+      {
+        "topic": "澳洲囚犯Vegemite文化权利诉讼26日败诉",
+        "source": "https://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+        "decision": "SELECTED",
+        "reason": "本轮获得ABC Kristian Silva原署名法庭报道全文及AAP William Ton原署名报道全文（搜索返回正文）；是26日新判决，非2025起诉旧闻。食物和诉讼的具体反差无需法律背景。"
+      }
+    ],
+    "selection_reason": "本轮实际采集132条，先读两个指定Telegram原转帖；深入比较4条后唯一选择新判决。不是将上轮次名直接升格：上轮未取得判决报道正文，本轮新读ABC及AAP原署名完整报道后重新事实审查。",
+    "fact_checks": [
+      {
+        "claim": "囚犯为Vegemite起诉，认为禁令侵犯享受澳洲文化的权利",
+        "source": "https://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+        "result": "PASS：ABC原记者报道明确其文化权利主张；首句归属于囚犯，未当作法院认可的侵权结论。"
+      },
+      {
+        "claim": "Vegemite为抹面包的酵母酱；维州监狱约2006年开始禁",
+        "source": "https://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+        "result": "PASS：原报道标yeast spread及since about 2006，保留左右，不写精确起始日。"
+      },
+      {
+        "claim": "法院26日驳回诉讼",
+        "source": "https://theqldr.com.au/crime-law-and-justice/2026/10/26/mckechnie/",
+        "result": "PASS：AAP William Ton 26日Monday判决报道与ABC26日发布判决互证；未把2025年起诉当判决日。"
+      },
+      {
+        "claim": "法官认为其可能为澳洲文化一部分，但具体禁令合理且有充分理由",
+        "source": "https://theqldr.com.au/crime-law-and-justice/2026/10/26/mckechnie/",
+        "result": "PASS：AAP判词原引specific refusal reasonable and demonstrably justified；ABC说明文化关联及监禁限制。保留可能，不概括成不存在食物文化权利。"
+      }
+    ],
+    "event_date_note": "事件为2026-10-26判决，ABC26日13:45澳洲本地发布时间、AAP26日Monday；只知事件日期，不编造判决时分。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "SEPARATE_PASS_SAME_AGENT；先事实，后逐句语言，再七问。首句目的与主张归因明确；第二段解释酱及历史禁令；第三段区分裁判结果与文化关联。不冒充第二人、真人反馈或作者逐篇批准。正文最终版重新逐项核对以上事实。",
+    "reader_review": {
+      "停留": "首句直接给酵母酱上法庭的具体反差，不靠夸张热度。",
+      "理解": "解释Vegemite是抹面包酵母酱；囚犯主张与法院结果分段清楚。",
+      "新信息": "26日新判决；2006年左右是禁令背景，非今日突发禁令。",
+      "分享": "普通食物何以成为文化权利争议，具有可讨论的具体问题；仅编辑判断。",
+      "新闻AI味": "无模板总结、升华或编造亲历；三段短句。",
+      "真实讨论": "不公开姓名、罪行情节、健康宗教或受害人信息；不取笑囚犯动机。",
+      "事实错误": "文化侵权归属于诉方；法院承认可能文化关联同时维持具体禁令，不写绝对法律通则。"
+    },
+    "dedup_result": "本地ready/receipts无本事件已发表记录；此前Audi包候选中HOLD不是发表。原生Chrome本轮菜单实见Log out @qiluo27808，近期主页最新仍16:52奥迪稿，没有本酵母酱稿；当前已17:15后，超过20分钟。",
+    "source_access_note": "ABC Kristian Silva及AAP William Ton原署名完整报道本轮通过web搜索正文读取。ABC原站HTTP403/原生Chrome AccessDenied、AAP HTTP403分别停止；BBC原生注册墙停止。未读法院判决原件，不冒称已读；未绕过权限，未采用酿酒/干扰警犬作为科学事实。"
+  }
+}
