@@ -1,0 +1,20 @@
+{
+  "post_id": "20261026-audi-trump-rally-benner",
+  "content_sha256": "d5d545015f53955699d853efd508d3f1dd2f63909d92127d0c902593c1fa5711",
+  "account": "qiluo27808",
+  "provider": "X",
+  "url": "https://x.com/qiluo27808/status/2114641250297303441",
+  "observed_exact_text": true,
+  "observed_text": "奥迪CEO登上特朗普的竞选舞台，德国工会主席26日发声明：“太丢人了。”\n\n24日，特朗普在集会上宣布奥迪赴美建厂计划，CEO就在身旁。\n\n工会主席贝纳说，公司规定选前保持政治中立。她还提醒：美国新厂最终得由大众监事会拍板。\n\nhttps://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+  "verified_at": "2026-10-26T08:54:51.372678+00:00",
+  "published_at": "2026-10-26T16:52:00+08:00",
+  "published_time_precision": "minute",
+  "verification_method": "Native Chrome via mcp__cua_repl.js: independent X status detail AX and screenshot, actual account, full text and paragraph spacing, actual page time 4:52 PM Oct 26 2026; source card opened and official destination verified.",
+  "observed_source_links": [
+    {
+      "short_url": "https://t.co/70PedkE9eQ",
+      "resolved_url": "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+      "observed_address_bar": "igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "LIVING_RECORD_X_HANDOFF_V1",
+  "post_id": "20261026-audi-trump-rally-benner",
+  "track": "A",
+  "status": "READY_FOR_CODEX",
+  "allow_publication": true,
+  "platform": "X",
+  "account": "qiluo27808",
+  "scope": "ORIGINAL_POST",
+  "origin": "PUBLIC_SOURCE_DISCOVERY",
+  "created_at": "2026-10-26T08:50:41.657640+00:00",
+  "scheduled_at": "2026-10-26T08:50:41.657640+00:00",
+  "event_key": "audi-doellner-trump-perry-rally-benner-statement-20261026",
+  "event_at": "2026-10-26",
+  "event_time_precision": "date",
+  "expires_at": "2026-10-26T17:00:00+08:00",
+  "text": "奥迪CEO登上特朗普的竞选舞台，德国工会主席26日发声明：“太丢人了。”\n\n24日，特朗普在集会上宣布奥迪赴美建厂计划，CEO就在身旁。\n\n工会主席贝纳说，公司规定选前保持政治中立。她还提醒：美国新厂最终得由大众监事会拍板。\n\nhttps://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+  "content_sha256": "d5d545015f53955699d853efd508d3f1dd2f63909d92127d0c902593c1fa5711",
+  "claim_type": "PUBLIC_FACTS",
+  "source_urls": [
+    "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+    "https://ca.finance.yahoo.com/news/audi-ceos-appearance-trump-rally-073150785.html"
+  ],
+  "review": {
+    "standing_publication_authorized": true,
+    "editorial_checked": true,
+    "privacy_checked": true,
+    "no_invented_first_person": true,
+    "facts_and_uncertainty_checked": true,
+    "no_manipulative_pressure": true
+  },
+  "editorial": {
+    "reviewed_at": "2026-10-26T08:50:41.657640+00:00",
+    "reviewed_sha256": "d5d545015f53955699d853efd508d3f1dd2f63909d92127d0c902593c1fa5711",
+    "review_mode": "SEPARATE_PASS_SAME_AGENT",
+    "candidates_considered": [
+      {
+        "topic": "Telegram佛山长征主题巡游动作",
+        "source": "https://t.me/iizuk/186230",
+        "decision": "HOLD",
+        "reason": "实际读公开频道原转帖及24日西樵巡游活动报道；另引8月14日沈阳旧表演，必须分开。活动报道不能核定此视频的完整表演语境，不用转帖评论推断现场观众感受，避免嘲讽普通表演者。"
+      },
+      {
+        "topic": "Telegram湖南干部志愿者补路",
+        "source": "https://t.me/iizuk/186217",
+        "decision": "HOLD",
+        "reason": "实际读原转帖，标24日但无确切地点与拍摄者原始说明。红旗/摄影不能证明摆拍或具体干部动机，不把评论阴阳怪气作为事实或热度。"
+      },
+      {
+        "topic": "Telegram衡阳小米SU7起火",
+        "source": "https://t.me/iizuk/186232",
+        "decision": "HOLD",
+        "reason": "池中转帖25日事件明确写疑似及尚无正式通报；查原事故未取得匹配的官方来源。车底磕碰与起火因果不可确证，不借旧年事故补证，不消费受害者。"
+      },
+      {
+        "topic": "澳大利亚囚犯Vegemite诉讼",
+        "source": "https://www.abc.net.au/news/2026-10-26/vic-vegemite-prison-court-ruling/107308582",
+        "decision": "HOLD",
+        "reason": "26日ABC原站403，BBC池标题是诉讼败诉；检索到2025年AP原报道属于起诉，不是今日判决，未取得本次判决原文，不把食品能酿酒的争议说法写成事实。"
+      },
+      {
+        "topic": "奥迪CEO特朗普集会后遭IG Metall主席批评",
+        "source": "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+        "decision": "SELECTED",
+        "reason": "26日新声明，原德文及官方英文全文均实际读到；Reuters Christoph Steitz现场报道署名稿核24日Perry集会。人物、出场、公开批评与最终批准权形成具体反差，低背景门槛。"
+      }
+    ],
+    "selection_reason": "本轮实际采集122条，优先读取两指定Telegram频道后比较上述五条；三条匿名或视频语境不足，澳洲法院原始材料未核，选26日工会原声明的新冲突，不沿用旧次名。",
+    "fact_checks": [
+      {
+        "claim": "CEO24日登上特朗普竞选集会舞台，特朗普宣布美国建厂计划",
+        "source": "https://ca.finance.yahoo.com/news/audi-ceos-appearance-trump-rally-073150785.html",
+        "result": "PASS；Reuters 26日07:31 UTC，Christoph Steitz报道/编辑Ludwig Burger，明确Saturday24日Perry Georgia rally及CEO appeared alongside Trump。未将宣布者改成工会或CEO独自宣布。"
+      },
+      {
+        "claim": "工会主席26日发声明批评太丢人了",
+        "source": "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+        "result": "PASS；德文原文26.Oktober2026，Christiane Benner第一主席，höchst peinlich是非常尴尬/丢人的直接翻译，未添加私下争执或情绪。"
+      },
+      {
+        "claim": "贝纳说公司规则要求选举前保持政治中立",
+        "source": "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+        "result": "PASS；原文eigenen Unternehmensregeln...ausdrücklich politische Neutralität im Vorfeld von Wahlen verordnen；明确归属于她的声明，未自行作法律判定。"
+      },
+      {
+        "claim": "美国新厂最终须由大众监事会决定",
+        "source": "https://www.igmetall.de/presse/pressemitteilungen/2026/zum-auftritt-von-audi-chef-doellner-in-den-usa",
+        "result": "PASS；声明finale Votum...im Aufsichtsrat der Volkswagen AG；未写投资已获批准或工厂已经开工。"
+      }
+    ],
+    "event_date_note": "新声明2026-10-26，24日美国佐治亚州Perry竞选集会作为已注明日期的背景。原声明只知日期，不编造时分。",
+    "engagement": null,
+    "popularity": "UNKNOWN",
+    "voice_review": "SEPARATE_PASS_SAME_AGENT；事实核验、逐句语言、七问读者分遍。没有第二人或真实读者反馈。逐句复核：第一句将出场与新批评连起，未写回国或合作动机；第二句说明宣布者及事件日；第三段将公司规则归因于主席，最后给待批准的具体落点。",
+    "reader_review": {
+      "停留": "具体CEO与政治舞台，随后被本国工会公开批评，第一句即兑现冲突。",
+      "理解": "奥迪/特朗普无需行业背景，最后一句用拍板解释监事会的作用。",
+      "新信息": "集会24日；选题的新进展是26日工会主席正式声明，分开日期。",
+      "分享": "企业高管政治出场与内部批准权之间的公开冲突值得讨论；只是编辑判断，未知传播指标。",
+      "新闻AI味": "三段短句，去掉40亿美元及产能数字堆叠，不加宏观总结。",
+      "真实讨论": "无第一人称、虚构亲历、私人动机或攻击普通人，不作群体政治动员。",
+      "事实错误": "首句日期属于声明，24日属于集会；政治中立是贝纳所述规则，建厂仍待最终决策。"
+    },
+    "dedup_result": "本地ready/receipts关键词及源URL无同事件；本轮原生Chrome主页最新仍是12:35塞尔维亚稿与12:12挪威稿，未见奥迪，账号菜单实见Log out @qiluo27808；实际间隔超过4小时。",
+    "source_access_note": "官方德文及英文公开HTML普通HTTP读取成功；Investing和ABC403停止对应源；Reuters正式署名全文通过Yahoo/AOL搜索结果读取。没有绕过权限或观看视频。"
+  }
+}
