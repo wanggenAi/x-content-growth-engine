@@ -17,7 +17,6 @@ jobs:
       TG_API_ID: ${{ secrets.TG_API_ID }}
       TG_API_HASH: ${{ secrets.TG_API_HASH }}
       TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
-      TG_STATE_DIR: ${{ vars.TG_STATE_DIR || format('{0}/telegram-research-state', runner.temp) }}
     steps:
       - name: Check Telegram credentials
         id: creds
@@ -42,6 +41,8 @@ jobs:
           python -m unittest discover -s tests -q
       - name: Collect privately; public output contains counts only
         if: steps.creds.outputs.ready == 'true'
+        env:
+          TG_STATE_DIR: ${{ vars.TG_STATE_DIR || format('{0}/telegram-research-state', runner.temp) }}
         run: python -m telegram_research.reader --channel shenduhaowen --incremental --max-messages 500 --public-status reports/telegram/status.md
       - name: Success summary
         if: success() && steps.creds.outputs.ready == 'true'
