@@ -10,12 +10,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   index:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Optional dedicated self-hosted runner; its external state directory persists.
+    runs-on: ${{ fromJSON(vars.TG_RUNNER_JSON || '"ubuntu-latest"') }}
+    timeout-minutes: 20
     env:
       TG_API_ID: ${{ secrets.TG_API_ID }}
       TG_API_HASH: ${{ secrets.TG_API_HASH }}
       TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
+      TG_STATE_DIR: ${{ vars.TG_STATE_DIR || format('{0}/telegram-research-state', runner.temp) }}
     steps:
       - name: Check Telegram credentials
         id: creds
@@ -25,7 +27,7 @@ jobs:
             echo 'ready=true' >> "$GITHUB_OUTPUT"
           else
             echo 'ready=false' >> "$GITHUB_OUTPUT"
-            echo '未启用：请先配置 TG_API_ID / TG_API_HASH / TG_STRING_SESSION 三个 Secrets。' >> "$GITHUB_STEP_SUMMARY"
+            echo 'SKIPPED: Telegram credentials are not configured. Collection is NOT active.' >> "$GITHUB_STEP_SUMMARY"
           fi
       - uses: actions/checkout@v4
         if: steps.creds.outputs.ready == 'true'
@@ -33,19 +35,24 @@ jobs:
         if: steps.creds.outputs.ready == 'true'
         with:
           python-version: '3.11'
-      - name: Install read-only dependencies
+      - name: Install dependencies and test
         if: steps.creds.outputs.ready == 'true'
-        run: python -m pip install -r telegram_research/requirements.txt
-      - name: Collect index, without downloading PDFs
+        run: |
+          python -m pip install -q -r telegram_research/requirements.txt
+          python -m unittest discover -s tests -q
+      - name: Collect privately; public output contains counts only
         if: steps.creds.outputs.ready == 'true'
-        run: python -m telegram_research.reader --channel shenduhaowen --days 3 --max-messages 200
-      - name: Display summary
-        if: steps.creds.outputs.ready == 'true'
-        run: cat reports/telegram/brief.md >> "$GITHUB_STEP_SUMMARY"
+        run: python -m telegram_research.reader --channel shenduhaowen --incremental --max-messages 500 --public-status reports/telegram/status.md
+      - name: Success summary
+        if: success() && steps.creds.outputs.ready == 'true'
+        run: cat reports/telegram/status.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Failure summary
+        if: failure()
+        run: echo 'FAILED. Check sanitized error type in collection step. No private files were uploaded.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
-        if: steps.creds.outputs.ready == 'true'
+        if: success() && steps.creds.outputs.ready == 'true'
         with:
-          name: telegram-research-${{ github.run_id }}
-          path: reports/telegram/
+          name: telegram-status-${{ github.run_id }}
+          path: reports/telegram/status.md
           if-no-files-found: error
           retention-days: 7

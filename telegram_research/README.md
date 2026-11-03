@@ -52,3 +52,34 @@ python3 -m telegram_research.reader --channel shenduhaowen --days 0 --max-messag
 ### 安全与权利
 
 这是公开 GitHub 仓库，Action artifact 和运行摘要可能被有权查看仓库的人读取，因此只输出有限标题、链接与说明短摘。**禁止将付费文章完整 PDF 或未经许可的全文公开上传、再分发**。仅阅读有合法访问权限的内容，尊重原作者权益和 Telegram 规则。建议把长期保存全文的工作放在本机私人目录。
+
+## 本次补全：本机导出、可靠增量与公开输出边界
+
+先利用已登录的官方客户端打开 `https://t.me/shenduhaowen`。如果客户端提供 **Export chat history**，只导出该公开频道，选择 JSON 和有权下载的 PDF，不导出私人聊天。不读取客户端数据库、Cookie 或会话令牌。macOS 原生版和跨平台 Telegram Desktop 的功能不同；界面无导出入口时，不假设存在导出能力。
+
+```bash
+# 官方单频道导出；请先确认 result.json 确实来自目标频道
+.venv/bin/python -m telegram_research.import_export /absolute/path/to/result.json
+# 安全录入开发者凭证（由本人在终端操作，无回显，不覆盖现有文件）
+.venv/bin/python -m telegram_research.setup_local
+.venv/bin/python -m telegram_research.auth
+# 首次最近至少 200 条，不再默认为最近7天
+.venv/bin/python -m telegram_research.reader --max-messages 200 --download-pdfs --pdf-limit 10
+# 后续按消息 ID 增量；大于单批上限的积压从旧到新分批处理，不跳过中间消息
+.venv/bin/python -m telegram_research.reader --incremental --max-messages 500
+# 明确时区，左闭右开时间区间（与增量游标独立）
+.venv/bin/python -m telegram_research.reader --since 2026-10-01T00:00:00+08:00 --until 2026-11-01T00:00:00+08:00 --max-messages 5000
+.venv/bin/python -m telegram_research.search 东南亚
+```
+
+SQLite 索引和游标在 `data/telegram/index.sqlite3`；正文在 `data/telegram/bodies/`，完整可提取 PDF 文字不再截断前15页。文件按 Telegram document ID 复用；下载写 `.part`，校验大小后原子重命名。中断会保存已完成消息，下一次从上次成功整轮游标重放并去重；**目前是消息级断点恢复，未实现 PDF 字节偏移续传**。网络错误最多重试3次；FloodWait 立即停止并报告等待时间，不规避限流。首次默认仅读取最近200条，更早历史需显式日期采集。消息编辑和删除不自动同步，需定期重扫指定区间。
+
+正文 SHA256 标注重复消息；不会丢掉各自的来源链接。`posts.json` 保留标题、日期、附件名、说明和研究字段。摘要、观点、论据、逻辑问题、业务相关性、机会均默认为 `null`，等待 Codex **实际读取正文**后填写；“提取成功”不是“完成阅读或深度判断”。关键词优先级不调用模型、不产生付费 API 费用。扫描 PDF 明确标记未 OCR；损坏、加密 PDF 单独记失败。扫描 PDF 已下载但未可读，不计入文本解析成功。
+
+### 持久化与 GitHub Actions（修订说明，覆盖上方旧 Artifact 描述）
+
+公开 Artifact 和 Step Summary **只含统计 `status.md`**，不再上传 `brief.md`、`posts.json`、说明摘录、PDF、SQLite 或 Session。完整研究索引仅本地查看。GitHub 托管 runner 的本地磁盘不跨运行持久化，每轮会重新检查最新500条；不能声称具有可靠历史状态，也可能漏掉超过500条的更新。不要把 Actions cache 当永久数据库。
+
+低成本可靠方式：使用自己的专用 **self-hosted runner**，仓库变量 `TG_RUNNER_JSON` 设为 `["self-hosted","telegram-research"]`，`TG_STATE_DIR` 设为 checkout 目录以外的私有绝对路径。该目录保留数据库、正文及游标，定期做本机加密备份。不要与其他不受信任仓库共用 runner，不要在公开 PR 上运行采集或暴露凭证。若不希望 Session 进入 GitHub Secrets，可直接在本机调度同一 CLI；当前仓库 Actions 仍会因缺 Secrets 明确跳过。选择持久化方式和真实授权前，自动采集不算已启用。
+
+验收必须分别看：workflow 的配置/调度存在、手动 job 是否成功、creds 步骤是否 ready、collect 步骤是否实际运行、采集数量是否达到要求。缺 Secrets 的绿色 job 仅代表**跳过正确**。

@@ -45,11 +45,16 @@ def make_record(*, channel: str, msg_id: int, date: datetime, caption: str, file
     if pdf_seen:
         score += 1
     local_date = date.astimezone(BEIJING).isoformat(timespec="minutes")
-    title = filename or concise(caption, 90) or f"帖子 {msg_id}"
+    title = filename or (caption.strip().splitlines()[0] if caption.strip() else f"帖子 {msg_id}")
     return {
         "id": msg_id,
         "date_beijing": local_date,
-        "title": title[:160],
+        "title": title,
+        "original_title": title,
+        "filename": filename,
+        "caption": caption,
+        "research_status": "待人工阅读正文并研究" if pdf_text else "待研究线索；未读取附件正文",
+        "analysis": {k: None for k in ("summary", "core_views", "evidence", "logic_issues", "business_relevance", "opportunities")},
         "link": f"https://t.me/{channel}/{msg_id}",
         "topics": topics,
         "score": score,
@@ -69,13 +74,14 @@ def build_brief(channel: str, records: list[dict], generated: datetime, *, pdf_m
              "> 本报告是基于关键词的**阅读优先级索引**，不是 AI 深度分析或事实核查。文章观点、付费来源的授权状态均未核实。",
              "> 未读取 PDF 的条目不能按标题推断文章结论。报告不含 PDF 全文。", ""]
     if not records:
-        lines += ["没有检索到符合日期范围的消息。可能是频道不可访问、指定区间无更新或权限不足。", ""]
+        lines += ["没有检索到符合日期范围的消息。指定区间没有记录；连接和权限失败应单独报错，不代表空频道。", ""]
     for r in sorted(records, key=lambda x: (-x["score"], -x["id"]))[:40]:
         title = r["title"].replace("\n", " ").replace("|", "/")
         lines += [f"### {title}",
                   f"- 日期：{r['date_beijing']}；评分：{r['score']}；主题：{'、'.join(r['topics']) or '未分类'}",
                   f"- 来源：{r['link']}",
-                  f"- 内容依据：{r['analysis_basis']}"]
+                  f"- 内容依据：{r['analysis_basis']}（提取不等于已由 Codex 研究）",
+                  f"- 重复正文：{r.get('duplicate_of') or '未发现'}"]
         if r["excerpt"]:
             lines.append(f"- 说明摘要：{r['excerpt']}")
         if r["pdf_error"]:
@@ -90,3 +96,14 @@ def save_reports(output: Path, channel: str, records: list[dict], *, pdf_mode: b
     now = datetime.now(timezone.utc)
     (output / "brief.md").write_text(build_brief(channel, records, now, pdf_mode=pdf_mode), encoding="utf-8")
     (output / "posts.json").write_text(json.dumps({"channel": channel, "generated_at": now.isoformat(), "records": records}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def save_public_status(output: Path, channel: str, records: list[dict], status='success') -> None:
+    """Public Actions output contains counts only, never untrusted article text."""
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(f"# Telegram collection status\n\nStatus: {status}\n\n"
+                      f"Channel: @{validate_channel(channel)}\n\n"
+                      f"Indexed messages: {len(records)}\n\n"
+                      f"PDF files: {sum(bool(r['pdf']) for r in records)}\n\n"
+                      f"PDF text extracted: {sum(bool(r['pdf_read']) for r in records)}\n\n"
+                      "Full research reports and attachments remain private. Keyword classification is not AI research.\n", encoding='utf-8')
