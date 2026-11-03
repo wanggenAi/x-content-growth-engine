@@ -11,3 +11,9 @@
 增量、导入、去重、PDF提取、本地检索已实现并通过离线测试；真实连接、最近200条、PDF和深度研究待本人授权后继续。消息级断点恢复支持；PDF字节级续传尚未实现。自托管runner加checkout之外的持久私有目录可保留长期状态；GitHub托管runner每轮重扫最新500条，不能作为可靠历史存储。
 
 私人运行详情保存在本机 `reports/telegram/validation.md`，不提交频道全文、PDF或账号数据。
+
+## GitHub Actions 实测
+
+已推送到原仓库 main。手动运行 [41568995264](https://github.com/wanggenAi/x-content-growth-engine/actions/runs/41568995264) 已完成：workflow 结论 success，凭证检查成功执行；checkout、依赖、collect、上传步骤全部 **skipped**，Artifact 数量 **0**。原因是仓库未配置 Telegram Secrets。已验证缺授权时安全跳过，**没有验证真实云端采集**。每6小时 cron 已在默认分支配置且 workflow active，尚未观察到一次成功的定时采集。
+
+第一次推送暴露了 job env 不支持 runner 上下文的问题，已将状态路径表达式移到 collection step env，重新手动执行成功。最终33项本地测试通过，git未跟踪任何 data/、reports/、Session 或凭证文件。
