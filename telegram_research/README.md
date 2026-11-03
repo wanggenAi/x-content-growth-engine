@@ -83,3 +83,7 @@ SQLite 索引和游标在 `data/telegram/index.sqlite3`；正文在 `data/telegr
 低成本可靠方式：使用自己的专用 **self-hosted runner**，仓库变量 `TG_RUNNER_JSON` 设为 `["self-hosted","telegram-research"]`，`TG_STATE_DIR` 设为 checkout 目录以外的私有绝对路径。该目录保留数据库、正文及游标，定期做本机加密备份。不要与其他不受信任仓库共用 runner，不要在公开 PR 上运行采集或暴露凭证。若不希望 Session 进入 GitHub Secrets，可直接在本机调度同一 CLI；当前仓库 Actions 仍会因缺 Secrets 明确跳过。选择持久化方式和真实授权前，自动采集不算已启用。
 
 验收必须分别看：workflow 的配置/调度存在、手动 job 是否成功、creds 步骤是否 ready、collect 步骤是否实际运行、采集数量是否达到要求。缺 Secrets 的绿色 job 仅代表**跳过正确**。
+
+### 不想执行命令时：本机浏览器授权
+
+操作者可启动 `.venv/bin/python -m telegram_research.local_login`，然后打开程序显示的 `http://127.0.0.1:端口/`。依次输入官方开发者凭证、手机号、验证码，以及需要时的两步验证密码。所有输入均隐藏；不输出账号名、凭证、验证码或 Session。仅监听本机回环地址，校验 Host、Origin 和 CSRF；页面禁止缓存和外部资源。完成后停止服务，再执行原有采集命令。Codex 可负责启动与后续命令，用户只需在本机输入登录验证码/密码。
