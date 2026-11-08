@@ -1,3 +1,7 @@
+# 2026-11-08 最新发布权限
+
+用户明确撤回自动发布授权：所有 X 发帖、回复及个人资料保存由用户亲自点击，代理不得点击发送或提交。旧 A/B 自动发布任务保持暂停。迁移清单见 docs/ACCOUNT_MIGRATION_2026-11-08.md；旧已发布正文的历史批准不构成新账号自动发布授权。
+
 # Instructions for future agents (2026-10-23)
 
 ## 2026-10-23 Author-voice and full-discussion preservation (latest user correction)
